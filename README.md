@@ -28,7 +28,7 @@ The development of the treebank is supported by the by European Research Council
 
 ## References
 
-* Harison, Carl Dicionário and Harrison, Carole (2013). Dicionário Guajajara-Português*. SIL, 2013. 
+* Harison, Carl Dicionário and Harrison, Carole (2013). Dicionário Guajajara-Português. SIL, 2013. 
 
 
 
