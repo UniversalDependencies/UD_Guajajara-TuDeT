@@ -20,7 +20,7 @@ Together with <a href="http://www.endangeredlanguages.com/lang/2981">UD_Akuntsu-
 
 ## Text sources
 
-**Harison, Carl Dicionário and Harrison, Carole (2013). Dicionário Guajajara-Português*. SIL, 2013.** 
+Harison, Carl Dicionário and Harrison, Carole (2013). **Dicionário Guajajara-Português** . SIL, 2013.
 
 
 # Acknowledgments
