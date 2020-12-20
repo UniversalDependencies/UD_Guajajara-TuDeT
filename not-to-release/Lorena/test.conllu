@@ -8,13 +8,15 @@
 4	iko	iko	AUX	aux	Aspect=Prog|Person=3	3	aux	3:aux	_
 5	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 
-# sent_id = 19
-# text = Awakwer oho ko pe wà
-# text_port = Os homens foram para a roça (Harrison 16)
-# text_eng = All men went to the countryside (LM)
-1	Awakwer	awa	NOUN	n	Number=Coll	2	nsubj	2:nsubj	_
-2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
-3	ko	ko	NOUN	n	_	2	obl	2:obl	_
-4	pe	pe	ADP	pp	_	3	case	3:case	_
-5	wà	wà	PART	pcl	Person=3|Number=Plur	2	discourse	2:discourse	_
+
+# sent_id = 20
+# text = A'e ma'e'yw i'a 'ar katu mehe
+# text_port = Aquelas fruteiras dão frutas no tempo certo (Harrison 18)
+# text_port = Those fruit plants give fruits in a certain time (LM)
+1	A'e	a'e	DET	dem	PronType=dem	2	det	2:det	_
+2	ma'e'yw	ma'e'yw	NOUN	n	_	3	nsubj	3:nsubj	_
+3	i'a	'a	VERB	vi	Person=3	0	root	0:root	_
+4	'ar	'ar	NOUN	n	_	3	obl	3:obl	_
+5	katu	katu	PART	pcl	_	4	discourse	4:discourse	_
+6	mehe	mehe	ADP	pp	_	4	case	4:case	_
 
