@@ -93,3 +93,12 @@
 2	hera'yr	a'yr	NOUN	n	Person=1|Rel=Abs	0	root	0:root	_
 3	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
 
+# sent_id = 11
+# text = Umàno putar ru'u aipo
+# text_port = Talvez ela vá morrer (Harrison 11)
+# text_eng = Maybe she will die (LM)
+1	Umàno	màno	VERB	vi	Person=3	0	root	0:root	_
+2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
+3	ru'u	ru'u	PART	pcl	_	1	discourse	1:discourse	_
+4	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
+
