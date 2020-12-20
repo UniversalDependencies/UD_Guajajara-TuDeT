@@ -1,11 +1,8 @@
-# sent_id = 8
-# text = Umuixe kar inemu'i aguz apygwar rupi (Harrison 10)
-# text_port = Ela enfiou o fio pelo fundo da agulha (LM)
-# text_eng = She inserted a thread of hair through the eye of the needle
-1	Umuixe	ixe	VERB	vt	Person=3|Voice=Cau	0	root	0:root	_
-2	kar	kar	ADV	adv	Voice=Cau	1	advmod	1:advmod	_
-3	inemu'i	inemu'i	NOUN	n	_	1	obj	1:obj	_
-4	aguz	aguz	NOUN	n	_	1	obl	1:obl	_
-5	apygwar	apygwar	NOUN	n	_	4	nmod	4:nmod	_
-6	rupi	upi	ADP	pp	Rel=Cont	4	case	4:case	_
+# sent_id = 10
+# text = Aikwez hera'yr a'e
+# text_port = Aí está meu filho (Harrison 11)
+# text_eng = My son is there (LM)
+1	Aikwez	aikwez	PRON	pro	PronType=Dem	2	nmod	0:nmod	_
+2	hera'yr	a'yr	NOUN	n	Person=1|Rel=Abs	0	root	1:root	_
+3	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
 
