@@ -136,7 +136,7 @@
 2	aka'u	aka'u	NOUN	n	_	1	obj	1:obj	_
 3	a'e	a'e	PRON	pro	Person=3	1	nsubj	1:nsubj	_
 
-# sent_id = 17
+# sent_id = 16
 # text = Wexak amo awa a'e pe
 # text_port = Viu algum homem lá (Harrison 12)
 # text_eng = He saw some men there (LM)
@@ -145,4 +145,15 @@
 3	awa	awa	NOUN	n	_	1	obj	1:obj	_
 4	a'e	a'e	PRON	pro	Person=3	1	obl	1:obl	_
 5	pe	pe	ADP	pp	_	4	case	4:case	_
+
+# sent_id = 17
+# text = Wiko Zuàw awa zutyka'i romo a'e
+# text_port = João é um homem solitário (Harrison 16)
+# text_eng = John is a lonely man (LM)
+1	Wiko	iko	VERB	vi	Person=3	0	root	0:root	_
+2	Zuàw	zuàw	PROPN	ppn	_	1	nsubj	1:nsubj	_
+3	awa	awa	NOUN	n	_	1	obj	1:obj	_
+4	zutyka'i	zutyka'i	NOUN	n	_	3	nmod	3:nmod	_
+5	romo	romo	ADP	pp	_	3	case	3:case	_
+6	a'e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
 
