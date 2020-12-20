@@ -161,7 +161,7 @@
 # text = Awakwer oho ko pe wà
 # text_port = Os homens foram para a roça (Harrison 16)
 # text_eng = All men went to the countryside (LM)
-1	Awakwer	awa	NOUN	n	Number=Coll	2	nsubj	2:nsubj	_
+1	Awakwer	awa	NOUN	n	Number=Plur	2	nsubj	2:nsubj	_
 2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 3	ko	ko	NOUN	n	_	2	obl	2:obl	_
 4	pe	pe	ADP	pp	_	3	case	3:case	_
