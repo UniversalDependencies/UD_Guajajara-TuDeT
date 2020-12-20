@@ -171,7 +171,7 @@
 # text = A'e ma'e'yw i'a 'ar katu mehe
 # text_port = Aquelas fruteiras dão frutas no tempo certo (Harrison 18)
 # text_port = Those fruit trees give fruits in a certain time (LM)
-1	A'e	a'e	DET	dem	PronType=dem	2	det	2:det	_
+1	A'e	a'e	DET	dem	PronType=Dem	2	det	2:det	_
 2	ma'e'yw	ma'e'yw	NOUN	n	_	3	nsubj	3:nsubj	_
 3	i'a	'a	VERB	vi	Person=3	0	root	0:root	_
 4	'ar	'ar	NOUN	n	_	3	obl	3:obl	_
