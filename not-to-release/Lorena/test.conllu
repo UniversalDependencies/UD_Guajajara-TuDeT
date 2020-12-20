@@ -1,6 +1,6 @@
 # sent_id = 4
 # text = Wiko amo ae ma'e romo a'e
-# text_port = É uma coisa completamente diferente [Harrison 10]
+# text_port = É uma coisa completamente diferente (Harrison 10)
 # text_eng = It is a completely different thing (LM)
 1	Wiko	iko	VERB	vi	Person=3	0	root	0:root	_
 2	amo	amo	DET	dem	PronType=Ind	4	det	4:det	_
