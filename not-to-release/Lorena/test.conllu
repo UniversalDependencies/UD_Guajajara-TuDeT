@@ -1,10 +1,10 @@
 # sent_id = 13
 # text = Mon aipo ur iko a'e
 # text_port = Quem está vindo? (Harrison 111)
-# text_eng = Who is coming?
+# text_eng = Who is coming? (LM)
 1	Mon	mon	PRON	pro	PronType=Int	3	nsubj	3:nsubj	_
 2	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
 3	ur	ur	VERB	vi	Person=3	0	root	0:root	_
-4	iko	iko	AUX	aux	Person=3|Aspect=Prog	3	aux	3:aux	_
+4	iko	iko	AUX	aux	Aspect=Prog|Person=3	3	aux	3:aux	_
 5	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 
