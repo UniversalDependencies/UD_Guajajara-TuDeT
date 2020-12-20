@@ -68,13 +68,20 @@
 4	ka'api'i	ka'api'i	NOUN	n	_	3	obj	3:obj	_
 
 # sent_id = 8
-# text = Umuixe kar inemu'i aguz apygwar rupi (Harrison 10)
-# text_port = Ela enfiou o fio pelo fundo da agulha (LM)
-# text_eng = She inserted a thread of hair through the eye of the needle
+# text = Umuixe kar inemu'i aguz apygwar rupi 
+# text_port = Ela enfiou o fio pelo fundo da agulha (Harrison 10)
+# text_eng = She inserted a thread of hair through the eye of the needle (LM)
 1	Umuixe	ixe	VERB	vt	Person=3|Voice=Cau	0	root	0:root	_
 2	kar	kar	ADV	adv	Voice=Cau	1	advmod	1:advmod	_
 3	inemu'i	inemu'i	NOUN	n	_	1	obj	1:obj	_
 4	aguz	aguz	NOUN	n	_	1	obl	1:obl	_
 5	apygwar	apygwar	NOUN	n	_	4	nmod	4:nmod	_
 6	rupi	upi	ADP	pp	Rel=Cont	4	case	4:case	_
+
+# sent_id = 9
+# text = Aikwez a'e
+# text_port = Aí está (Harrison 11)
+# text_eng = There it is (LM)
+1	Aikwez	aikwez	PRON	pro	PronType=Dem	2		0:root	_
+2	a'e	a'e	PRON	pro	Person=3|PronType=Prs	0	root	0:root	_
 
