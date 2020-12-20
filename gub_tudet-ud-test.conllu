@@ -128,3 +128,11 @@
 4	pe	pe	ADP	pp	_	3	case	3:case	_
 5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
 
+# sent_id = 15
+# text = Opo'o aka'u a'e
+# text_port = Ele colhe cacau (Harrison 12)
+# text_eng = He collects cacao (LM)
+1	Opo'o	po'o	VERB	vt	Person=3	0	root	0:root	_
+2	aka'u	aka'u	NOUN	n	_	1	obj	1:obj	_
+3	a'e	a'e	PRON	pro	Person=3	1	nsubj	1:nsubj	_
+
