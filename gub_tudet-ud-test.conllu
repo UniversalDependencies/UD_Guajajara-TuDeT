@@ -109,3 +109,11 @@
 1	Mon	mon	PRON	pro	PronType=Int	0	root	0:root	_
 2	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
 
+# sent_id = 13
+# text = Aputar aipo ma'e ihe
+# text_port = Eu quero aquela coisa (Harrison 11)
+# text_eng = I want that thing (LM)
+1	Aputar	putar	VERB	vt	Person=1	0	root	0:root	_
+2	aipo	aipo	DET	dem	PronType=Dem	3	det	3:det	_
+3	ma'e	ma'e	NOUN	n	_	1	obj	1:obj	_
+4	ihe	ihe	PRON	pro	PronType=Prs	1	nsubj	1:nsubj	_
