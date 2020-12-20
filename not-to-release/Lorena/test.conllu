@@ -8,11 +8,13 @@
 4	iko	iko	AUX	aux	Aspect=Prog|Person=3	3	aux	3:aux	_
 5	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 
-# sent_id = 16
-# text = Opo'o aka'u a'e
-# text_port = Ele colhe cacau (Harrison 12)
-# text_eng = He collects cacao (LM)
-1	Opo'o	po'o	VERB	vt	Person=3	0	root	0:root	_
-2	aka'u	aka'u	NOUN	n	_	1	obj	1:obj	_
-3	a'e	a'e	PRON	pro	Person=3	1	nsubj	1:nsubj	_
+# sent_id = 17
+# text = Wexak amo awa a'e pe
+# text_port = Viu algum homem lá (Harrison 12)
+# text_eng = He saw some men there (LM)
+1	Wexak	exak	VERB	vt	Person=3	0	root	0:root	_
+2	amo	amo	DET	dem	PronType=Ind	3	det	3:det	_
+3	awa	awa	NOUN	n	_	1	obj	1:obj	_
+4	a'e	a'e	PRON	pro	Person=3	1	obl	1:obl	_
+5	pe	pe	ADP	pp	_	4	case	4:case	_
 
