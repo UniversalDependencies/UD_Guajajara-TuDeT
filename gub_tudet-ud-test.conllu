@@ -58,3 +58,12 @@
 3	a	a	ADV	adv	_	1	obl	1:obl	_
 4	pe	pe	ADP	pp	_	3	case	3:case	_
 
+# sent_id = 6
+# text = Agwer ma'ea'yr u'u ka'api'i
+# text_port = Este tipo de animal come capim (Harrison 10)
+# text_eng = This kind of animal eats grass
+1	Agwer	agwer	DET	dem	PronType=Dem	2	det	2:det	_
+2	ma'ea'yr	ma'ea'yr	NOUN	n	_	3	nsubj	3:nsubj	_
+3	u'u	'u	VERB	vt	Person=3	0	root	0:root	_
+4	ka'api'i	ka'api'i	NOUN	n	_	3	obj	3:obj	_
+
