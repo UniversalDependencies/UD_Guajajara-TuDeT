@@ -82,6 +82,6 @@
 # text = Aikwez a'e
 # text_port = Aí está (Harrison 11)
 # text_eng = There it is (LM)
-1	Aikwez	aikwez	PRON	pro	PronType=Dem	2	nmod	0:nmod	_
+1	Aikwez	aikwez	PRON	pro	PronType=Dem	2	nmod	2:nmod	_
 2	a'e	a'e	PRON	pro	Person=3|PronType=Prs	0	root	0:root	_
 
