@@ -9,14 +9,9 @@
 5	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 
 
-# sent_id = 20
-# text = A'e ma'e'yw i'a 'ar katu mehe
-# text_port = Aquelas fruteiras dão frutas no tempo certo (Harrison 18)
-# text_port = Those fruit plants give fruits in a certain time (LM)
-1	A'e	a'e	DET	dem	PronType=dem	2	det	2:det	_
-2	ma'e'yw	ma'e'yw	NOUN	n	_	3	nsubj	3:nsubj	_
-3	i'a	'a	VERB	vi	Person=3	0	root	0:root	_
-4	'ar	'ar	NOUN	n	_	3	obl	3:obl	_
-5	katu	katu	PART	pcl	_	4	discourse	4:discourse	_
-6	mehe	mehe	ADP	pp	_	4	case	4:case	_
-
+# sent_id = 21
+# text = Pixika'i a'e
+# text_port = É muito pequeno (Harrison 18)
+# text_eng = It's very small (LM)
+1	Pixika'i	pixik	NOUN	n	_	2	nmod	2:nmod	_
+2	a'e	a'e	PRON	pro	Person=3	0	root	0:root	_
