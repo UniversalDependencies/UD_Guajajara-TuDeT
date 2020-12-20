@@ -14,7 +14,7 @@
 1	Nuzapo	apo	VERB	vt	Person=3|Polarity=Neg	0	root	0:root	_
 2	pixik	pixik	NOUN	n	_	1	obl	1:obl	_
 3	kwaw	kwaw	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
-4	agwer	agwer	DET	det	PronType=Dem	5	nmod	5:nmod	_
+4	agwer	agwer	DET	det	PronType=Dem	5	det	5:det	_
 5	ma'e	ma'e	NOUN	n	_	1	obj	1:obj	_
 6	amo	amo	DET	det	PronType=Ind	8	nmod	8:nmod	_
 7	ae	ae	PART	part	_	6	discourse	6:discourse	_
