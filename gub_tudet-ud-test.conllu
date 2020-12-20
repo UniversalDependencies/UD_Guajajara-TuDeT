@@ -29,10 +29,10 @@
 8	awa	awa	NOUN	n	_	1	iobj	1:iobj	_
 9	pe	pe	ADP	pp	Case=Loc	8	case	8:case	_
 
-#sent_id=3
-#text=Aha putar ko pe
-#text_por=Eu vou para a roça [Harrison 10]
-#text_en=I  will go to the countryside
+# sent_id = 4
+# text = Aha putar ko pe
+# text_port = Eu vou para a roça (Harrison 10)
+# text_eng = I  will go to the countryside (LM)
 1	Aha	ha	VERB	vi	Person=1	0	root	0:root	_
 2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
 3	ko	ko	NOUN	n	_	1	obl	1:obl	_
