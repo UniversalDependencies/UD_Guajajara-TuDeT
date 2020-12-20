@@ -8,12 +8,11 @@
 4	iko	iko	AUX	aux	Aspect=Prog|Person=3	3	aux	3:aux	_
 5	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 
-# sent_id = 15
-# text = Aha putar aipo pe nehe
-# text_port = Eu vou lá (Harrison 11)
-# text_eng = I will go there (LM)
-1	Aha	ha	VERB	vi	Person=1	0	root	0:root	_
-2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
-3	aipo	aipo	PRON	pro	PronType=Dem	3	obl	3:obl	_
-4	pe	pe	ADP	pp	_	3	case	3:case	_
-5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+# sent_id = 16
+# text = Opo'o aka'u a'e
+# text_port = Ele colhe cacau (Harrison 12)
+# text_eng = He collects cacao (LM)
+1	Opo'o	po'o	VERB	vt	Person=3	0	root	0:root	_
+2	aka'u	aka'u	NOUN	n	_	1	obj	1:obj	_
+3	a'e	a'e	PRON	pro	Person=3	1	nsubj	1:nsubj	_
+
