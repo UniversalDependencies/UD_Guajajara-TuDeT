@@ -8,3 +8,11 @@
 4	iko	iko	AUX	aux	Aspect=Prog|Person=3	3	aux	3:aux	_
 5	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 
+# sent_id = 13
+# text = Aputar aipo ma'e ihe
+# text_port = Eu quero aquela coisa (Harrison 11)
+# text_eng = I want that thing (LM)
+1	Aputar	putar	VERB	vt	Person=1	0	root	0:root	_
+2	aipo	aipo	DET	dem	PronType=Dem	3	det	3:det	_
+3	ma'e	ma'e	NOUN	n	_	1	obj	1:obj	_
+4	ihe	ihe	PRON	pro	PronType=Prs	1	nsubj	1:nsubj	_
