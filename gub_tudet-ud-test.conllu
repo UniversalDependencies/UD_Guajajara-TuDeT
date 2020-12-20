@@ -165,5 +165,5 @@
 2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 3	ko	ko	NOUN	n	_	2	obl	2:obl	_
 4	pe	pe	ADP	pp	_	3	case	3:case	_
-5	wà	wà	PART	pcl	Person=3|Number=Plur	2	discourse	2:discourse	_
+5	wà	wà	PART	pcl	Number=Plur|Person=3	2	discourse	2:discourse	_
 
