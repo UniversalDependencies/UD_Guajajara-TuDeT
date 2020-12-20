@@ -85,3 +85,11 @@
 1	Aikwez	aikwez	PRON	pro	PronType=Dem	2	nmod	2:nmod	_
 2	a'e	a'e	PRON	pro	Person=3|PronType=Prs	0	root	0:root	_
 
+# sent_id = 10
+# text = Aikwez hera'yr a'e
+# text_port = Aí está meu filho (Harrison 11)
+# text_eng = My son is there (LM)
+1	Aikwez	aikwez	PRON	pro	PronType=Dem	2	nmod	0:nmod	_
+2	hera'yr	a'yr	NOUN	n	Person=1|Rel=Abs	0	root	1:root	_
+3	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
+
