@@ -102,3 +102,10 @@
 3	ru'u	ru'u	PART	pcl	_	1	discourse	1:discourse	_
 4	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
 
+# sent_id = 12
+# text = Mon aipo
+# text_port = Quem? (Harrison 11)
+# text_eng = Who? (LM)
+1	Mon	mon	PRON	pro	PronType=Int	0	root	0:root	_
+2	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
+
