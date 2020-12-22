@@ -238,3 +238,17 @@
 5	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
 6	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 
+# sent_id = 26
+# text = Amo tuwihaw oho mai'u haw pe a'e wà no
+# text_port = Outros/Alguns chefes foram à festa também (Harrison 12)
+# text_eng = Other bosses also went to the party (LM)
+1	Amo	amo	DET	dem	PronType=Ind	2	det	2:det	_
+2	tuwihaw	uwihaw	NOUN	n	Person=3	3	nsubj	3:nsubj	_
+3	oho	ho	VERB	vi	Person=3	0	root	0:root	_
+4	mai'u	mai'u	NOUN	n	_	3	obl	3:obl	_
+5	haw	haw	ADV	adv	_	4	advmod	4:advmod	_
+6	pe	pe	ADP	pp	_	4	case	4:case	_
+7	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
+8	wà	wà	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+9	no	no	PART	pcl	_	3	discourse	3:discourse	_
+
