@@ -1,8 +1,10 @@
+# sent_id = 22
+# text = Aha putar aipo pe nehe
+# text_port = Eu vou lá (Harrison 11)
+# text_eng = I will go there (LM)
+1	Aha	ha	VERB	vi	Person=1	0	root	0:root	_
+2	putar	putar	ADP	pp	Tense=Fut	1	advmod	1:advmod	_
+3	aipo	aipo	PRON	pro	PronType=Dem	1	obl	1:obl	_
+4	pe	pe	ADP	pp	_	3	case	3:case	_
+5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
 
-
-# sent_id = 21
-# text = Pixika'i a'e
-# text_port = É muito pequeno (Harrison 18)
-# text_eng = It's very small (LM)
-1	Pixika'i	pixik	NOUN	n	_	2	nmod	2:nmod	_
-2	a'e	a'e	PRON	pro	Person=3	0	root	0:root	_
