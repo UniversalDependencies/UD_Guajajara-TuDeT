@@ -195,3 +195,15 @@
 4	iko	iko	AUX	aux	Aspect=Prog|Person=3	3	aux	3:aux	_
 5	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 
+# sent_id = 22
+# text = Ukwaw kakwez zeʔengete imungetahaw aʔe wə kurɨ
+# text_eng = They know how to read the true language (Guajajara) now
+# text_port = eles sabem - eu vi - ler a língua guajajara (Harrison 1986 [22])
+1	Ukwaw	kwaw	VERB	v	Person=3	0	root	0:root	_
+2	kakwez	kakwez	PART	pcl	Evident=Fh|Tense=Past	1	discourse	1:discourse	_
+3	zeʔengete	zeʔeng	NOUN	n	_	4	nmod	4:nmod	_
+4	imungetahaw	mungeta	NOUN	n	Rel=NCont	1	obj	1:obj	_
+5	aʔe	aʔe	PRON	pro	Person=3	1	nsubj	1:nsubj	_
+6	wə	wə	PART	pcl	Number=Plur	5	nmod	5:nmod	_
+7	kurɨ	kurɨ	ADV	adv	_	1	advmod	1:advmod	_
+
