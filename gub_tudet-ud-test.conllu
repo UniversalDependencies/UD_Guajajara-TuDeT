@@ -232,9 +232,9 @@
 # text_port = Os vermes acabaram com a fruta (Harrison 12)
 # text_eng = The worms will kill the fruit (LM)
 1	Amirikur	amirikur	NOUN	n	_	2	nsubj	2:nsubj	_
-2	umumaw	maw	VERB	vt	Person=3 Voice=Cau	0	root	0:root	_
+2	umumaw	maw	VERB	vt	Person=3|Voice=Cau	0	root	0:root	_
 3	ma'e'a	'a	NOUN	n	_	2	obj	2:obj	_
 4	kwer	kwer	ADV	adv	_	3	advmod	3:advmod	_
 5	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
-6	wà	wà	PART	pcl	Number=Pl	2	discourse	2:discourse	_
+6	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 
