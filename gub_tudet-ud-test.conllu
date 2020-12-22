@@ -207,3 +207,13 @@
 6	wə	wə	PART	pcl	Number=Plur	5	nmod	5:nmod	_
 7	kurɨ	kurɨ	ADV	adv	_	1	advmod	1:advmod	_
 
+# sent_id = 23
+# text = Wexak akuxi a'yr ikwar pupe
+# text_port = Ele viu o filhote da cutia dentro do buraco dele (Harrison 12)
+# text_eng = He saw the cutia cub inside his hole (LM)
+1	Wexak	exak	VERB	vt	Person=3	0	root	0:root	_
+2	akuxi	akuxi	NOUN	n	_	1	obj	1:obj	_
+3	a'yr	a'yr	NOUN	n	_	2	nmod	2:nmod	_
+4	ikwar	kwar	NOUN	n	Person=3|Rel=Cont	1	obl	1:obl	_
+5	pupe	pupe	ADP	pp	_	4	case	4:case	_
+
