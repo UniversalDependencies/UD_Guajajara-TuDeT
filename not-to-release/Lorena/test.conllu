@@ -3,7 +3,7 @@
 # text_port = Eu vou lá (Harrison 11)
 # text_eng = I will go there (LM)
 1	Aha	ha	VERB	vi	Person=1	0	root	0:root	_
-2	putar	putar	ADP	pp	Tense=Fut	1	advmod	1:advmod	_
+2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
 3	aipo	aipo	PRON	pro	PronType=Dem	1	obl	1:obl	_
 4	pe	pe	ADP	pp	_	3	case	3:case	_
 5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
