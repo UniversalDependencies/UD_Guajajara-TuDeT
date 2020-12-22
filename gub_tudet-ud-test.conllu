@@ -217,3 +217,13 @@
 4	ikwar	kwar	NOUN	n	Person=3|Rel=Cont	1	obl	1:obl	_
 5	pupe	pupe	ADP	pp	_	4	case	4:case	_
 
+# sent_id = 24
+# text = Akwez awa wiko karaiw romo
+# text_port = Aquele homem não é índio (Harrison 12)
+# text_eng = That man is not indian (LM)
+1	Akwez	akwez	DET	dem	PronType=Dem	2	det	2:det	_
+2	awa	awa	NOUN	n	_	3	nsubj	3:nsubj	_
+3	wiko	iko	VERB	vi	Person=3	0	root	0:root	_
+4	karaiw	karaiw	NOUN	n	_	3	obj	3:obj	_
+5	romo	romo	ADP	pp	_	4	case	4:case	_
+
