@@ -11,7 +11,7 @@
 # text_port = Ela costurou a camisa dele com uma agulha (Harrison 10)
 # text_eng = She sew his shirt with a needle (LM)
 1	Umuwywyk	muwywyk	VERB	vt	Person=3	0	root	0:root	_
-2	ikamir	kamir	NOUN	n	Rel=Abs	1	obj	1:obj	_
+2	ikamir	kamir	NOUN	n	Rel=NCont	1	obj	1:obj	_
 3	aguz	aguz	NOUN	n	_	1	obl	1:obl	_
 4	pupe	pupe	ADP	pp	Case=Ins	3	case	3:case	_
 
