@@ -252,3 +252,14 @@
 8	wà	wà	PART	pcl	Number=Plur	3	discourse	3:discourse	_
 9	no	no	PART	pcl	_	3	discourse	3:discourse	_
 
+# sent_id = 27
+# text = Amogwer oho haikwerupi wà
+# text_port = Os outros foram atrás dele depois de um tempo. (Harrison 13)
+# text_eng = The others followed him after a while (LM)
+1	Amogwer	amo	NOUN	n	PronType=Ind	2	nsubj	2:nsubj	_
+2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
+3-4	haikwerupi	_	_	_	_	_	_	_	_
+3	haikwer	aikwer	NOUN	n	Rel=NCont	2	advmod	2:advmod	_
+4	rupi	upi	ADP	pp	_	3	case	3:case	_
+5	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+
