@@ -256,7 +256,7 @@
 # text = Amogwer oho haikwerupi wà
 # text_port = Os outros foram atrás dele depois de um tempo. (Harrison 13)
 # text_eng = The others followed him after a while (LM)
-1	Amogwer	amo	NOUN	n	PronType=Ind	2	nsubj	2:nsubj	_
+1	Amogwer	amo	NOUN	n	_	2	nsubj	2:nsubj	_
 2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 3-4	haikwerupi	_	_	_	_	_	_	_	_
 3	haikwer	aikwer	NOUN	n	Rel=NCont	2	obl	2:obl	_
