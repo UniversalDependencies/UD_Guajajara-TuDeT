@@ -1,9 +1,9 @@
-# sent_id = 29
-# text = Anyra zanexi'u pyhaw a'e
-# text_port = O morcego nos morde à noite (Harrison 14)
-# text_eng = Bats bite us at night (LM)
-1	Anyra	anyra	NOUN	n	_	2	nsubj	2:nsubj	_
-2	zanexi'u	uxi'u	VERB	vt	Number=Plur|Person=1	0	root	0:root	_
-3	pyhaw	py	ADV	adv	_	2	obl	2:obl	_
-4	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
-
+# sent_id = 30
+# text = U'u arapapa ipira'i iko a'e
+# text_port = O arapapá está comendo peixinhos (Harrison 14)
+# text_eng = The arapapa is eating small fishes (LM)
+1	U'u	'u	VERB	vt	Person=3	0	root	0:root	_
+2	arapapa	arapapa	NOUN	n	_	1	nsubj	1:nsubj	_
+3	ipira'i	pira	NOUN	n	Rel=NCont|Dim=Yes	1	nobj	1:nobj	_
+4	iko	iko	AUX	aux	Person=3|Asp=Prog	1	aux	1:aux	_
+5	a'e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
