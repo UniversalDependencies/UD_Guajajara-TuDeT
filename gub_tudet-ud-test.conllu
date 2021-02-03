@@ -293,3 +293,13 @@
 4	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
 5	a'e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
 
+# sent_id = 31
+# text = Ezapo arapuk wiràmiri pe nehe
+# text_port = Faça uma arapuca para o pássaro (Harrison 15)
+# text_eng = Make a trap for the bird (LM)
+1	Ezapo	apo	VERB	vt	Person=3	0	root	0:root	_
+2	arapuk	arapuk	NOUN	n	_	1	obj	1:obj	_
+3	wiràmiri	wirà	NOUN	n	Dimin=Yes	1	obl	1:obl	_
+4	pe	pe	ADP	pp	_	3	case	3:case	_
+5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+
