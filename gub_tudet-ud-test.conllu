@@ -290,6 +290,6 @@
 1	U'u	'u	VERB	vt	Person=3	0	root	0:root	_
 2	arapapa	arapapa	NOUN	n	_	1	nsubj	1:nsubj	_
 3	ipira'i	pira	NOUN	n	Rel=NCont|Dim=Yes	1	obj	1:obj	_
-4	iko	iko	AUX	aux	Person=3|Asp=Prog	1	aux	1:aux	_
+4	iko	iko	AUX	aux	Asp=Prog|Person=3	1	aux	1:aux	_
 5	a'e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
 
