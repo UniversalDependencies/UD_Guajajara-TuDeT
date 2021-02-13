@@ -4,7 +4,7 @@
 # text_eng = He leaned against/on the wall
 1	Uzekok	zekok	VERB	v	Person=3	0	root	0:root	_
 2	ywyok	ywyok	NOUN	n	_	1	obl	1:obl	_
-3	rehe	rehe	ADP	pp	Rel=Cont	2	case	2:case	_
+3	rehe	ehe	ADP	pp	Rel=Cont	2	case	2:case	_
 
 # sent_id = 2
 # text = Umuwywyk ikamir aguz pupe
