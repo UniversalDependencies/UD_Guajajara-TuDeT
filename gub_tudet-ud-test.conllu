@@ -2,7 +2,7 @@
 # text = Uzekok ywyok rehe
 # text_port = Ele se encostou na parede (Harrison 194)
 # text_eng = He leaned against/on the wall
-1	Uzekok	zekok	VERB	v	Person=3	0	root	0:root	_
+1	Uzekok	zekok	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
 2	ywyok	ywyok	NOUN	n	_	1	obl	1:obl	_
 3	rehe	ehe	ADP	pp	Rel=Cont	2	case	2:case	_
 
