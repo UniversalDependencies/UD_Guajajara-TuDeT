@@ -11,7 +11,7 @@ Together with <a href="http://www.endangeredlanguages.com/lang/2981">UD_Akuntsu-
 # Introduction
 
 UD_Guajajara-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/guaj1255">Guajajara</a>.
-Together with <a href="http://www.endangeredlanguages.com/lang/2981">UD_Akuntsu-TuDeT</a>, <a href="http://www.endangeredlanguages.com/lang/2981">UD_Kaapor-TuDeT</a>  <a href="https://github.com/UniversalDependencies/UD_Kaapor-TuDeT">UD_Tupinamba-TuDeT</a>, UD_Munduruku-TuDeT is part of <a href="https://tular.org">TuLaR</a>. </p> The sentences are being annotated by Fabrício Ferraz Gerardi, Carolina Aragon, and Lorena Martín Rodríguez.
+Together with <a href="http://www.endangeredlanguages.com/lang/2981">UD_Akuntsu-TuDeT</a>, <a href="http://www.endangeredlanguages.com/lang/2981">UD_Kaapor-TuDeT</a>  <a href="https://github.com/UniversalDependencies/UD_Kaapor-TuDeT">UD_Tupinamba-TuDeT</a>, UD_Munduruku-TuDeT is part of <a href="https://tular.org">TuLaR</a>. </p> The sentences are being annotated by Lorena Martín Rodríguez and Fabrício ferraz Gerardi.
 
 ## Text sources
 
