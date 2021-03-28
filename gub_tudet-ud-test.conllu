@@ -407,4 +407,5 @@
 4	pe	pe	ADP	posp	Case=Dat	3	case	3:case	_
 5	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
 6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
