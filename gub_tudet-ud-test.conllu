@@ -316,7 +316,7 @@
 7-8	ipiaromo	_	_	_	_	_	_	_	_
 7	ipiar	piar	NOUN	n	Rel=NCont	6	nmod	6:nmod	_
 8	romo	romo	ADP	posp	_	7	case	7:case	_
-9	.	.	PUNCT	punct	_	1	root	1:root	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 33
 # text = Oho Zuze ihy ko pe ka'a rupi .
@@ -329,7 +329,7 @@
 5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
 6	ka'a	ka'a	NOUN	n	_	1	obl	1:obl	_
 7	rupi	upi	ADP	posp	Rel=Cont	6	case	6:case	_
-8	.	.	PUNCT	punct	_	1	root	1:root	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 34
 # text = Oho kara ipiaromo .
@@ -340,5 +340,5 @@
 3-4	ipiaromo	_	_	_	_	_	_	_	_
 3	ipiar	piar	NOUN	n	Rel=NCont	2	nmod	2:nmod	_
 4	romo	romo	ADP	posp	_	3	case	3:case	_
-5	.	.	PUNCT	punct	_	1	root	1:root	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
