@@ -304,7 +304,7 @@
 5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
 
 # sent_id = 32
-# text = Oho Zuze ihy ko pe kara ipiaromo.
+# text = Oho Zuze ihy ko pe kara ipiaromo .
 # text_port = A mãe de José foi à roça para buscar carã.
 # text_eng = Jose's mother went to the countryside to look for yam.
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
@@ -316,10 +316,10 @@
 7-8	ipiaromo	_	_	_	_	_	_	_	_
 7	ipiar	piar	NOUN	n	Rel=NCont	6	nmod	6:nmod	_
 8	romo	romo	ADP	posp	_	7	case	7:case	_
-9	.	.	PUNCT	punct	_	_	_	_	_
+9	.	.	PUNCT	punct	_	1	root	1:root	_
 
 # sent_id = 33
-# text = Oho Zuze ihy ko pe ka'a rupi.
+# text = Oho Zuze ihy ko pe ka'a rupi .
 # text_port = A mãe de José foi ã roça pelo mato.
 # text_eng = Jose's mother went to the countryside through the jungle.
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
@@ -329,10 +329,10 @@
 5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
 6	ka'a	ka'a	NOUN	n	_	1	obl	1:obl	_
 7	rupi	upi	ADP	posp	Rel=Cont	6	case	6:case	_
-8	.	.	PUNCT	punct	_	_	_	_	_
+8	.	.	PUNCT	punct	_	1	root	1:root	_
 
 # sent_id = 34
-# text = Oho kara ipiaromo.
+# text = Oho kara ipiaromo .
 # text_port = Ela foi buscar cará.
 # text_eng = She went to look for yam.
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
@@ -340,5 +340,5 @@
 3-4	ipiaromo	_	_	_	_	_	_	_	_
 3	ipiar	piar	NOUN	n	Rel=NCont	2	nmod	2:nmod	_
 4	romo	romo	ADP	posp	_	3	case	3:case	_
-5	.	.	PUNCT	punct	_	_	_	_	_
+5	.	.	PUNCT	punct	_	1	root	1:root	_
 
