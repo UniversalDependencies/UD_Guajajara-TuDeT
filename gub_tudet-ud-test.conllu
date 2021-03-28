@@ -243,7 +243,7 @@
 # text_port = Outros/Alguns chefes foram à festa também (Harrison 12)
 # text_eng = Other bosses also went to the party (LM)
 1	Amo	amo	DET	dem	PronType=Ind	2	det	2:det	_
-2	tuwihaw	uwihaw	NOUN	n	Person=3|Rel=NCont	3	nsubj	3:nsubj	_
+2	tuwihaw	uwihaw	NOUN	n	Person=3|Rel=Abs	3	nsubj	3:nsubj	_
 3	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 4	mai'u	mai'u	NOUN	n	_	3	obl	3:obl	_
 5	haw	haw	ADV	adv	_	4	advmod	4:advmod	_
