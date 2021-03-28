@@ -357,7 +357,7 @@
 # text = Zuze ihy o’ok kara ko pe .
 # text_port = A mãe de José arrancou cará na roça.
 # text_eng = Jose's mother pulled yam out of the field
-1	Zuze	Zuze	PROPN	pn	_	1	nmod	1:nmod	_
+1	Zuze	Zuze	PROPN	pn	_	2	nmod	2:nmod	_
 2	ihy	hy	NOUN	n	Rel=NCont	3	nsubj	3:nsubj	_
 3	o’ok	'ok	VERB	vt	Person=3	0	root	0:root	_
 4	kara	kara	NOUN	n	_	3	obj	3:obj	_
@@ -390,7 +390,7 @@
 # text_port = A mãe de José acha que o cará é muito gostoso.
 # text_eng = Jose's mother finds yam delicious
 1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
-2	katu	katu	ADV	adv	_	1	advmod	advmod	_
+2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
 3	kara	kara	NOUN	n	_	1	nsubj	1:nsubj	_
 4	Zuze	Zuze	PROPN	pn	_	5	nmod	5:nmod	_
 5	ihy	hy	NOUN	n	Rel=NCont	1	obl	1:obl	_
@@ -402,7 +402,7 @@
 # text_port = Karita também o acha gostoso.
 # text_eng = Karita also finds it tasty.
 1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
-2	katu	katu	ADV	adv	_	1	advmod	advmod	_
+2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
 3	Kari	Kari	PROPN	pn	_	1	obl	1:obl	_
 4	pe	pe	ADP	posp	Case=Dat	3	case	3:case	_
 5	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
