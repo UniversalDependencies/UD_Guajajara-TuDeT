@@ -564,8 +564,8 @@
 5	’y	’y	NOUN	n	_	3	obl	3:obl	_
 6	pe	pe	ADP	posp	Case=All	5	case	5:case	_
 7	,	,	PUNCT	punct	_	3	punct	3:punct	_
-8	yryhu	yryk	NOUN	n	Nomzr=DevPass	5	appos	5:appos	_
-9	pe	pe	ADP	posp	Case=All	5	case	5:case	_
+8	yryhu	yryk	NOUN	n	Nomzr=DevPass	3	appos	3:appos	_
+9	pe	pe	ADP	posp	Case=All	8	case	8:case	_
 10	.	.	PUNCT	punct	_	8	punct	8:punct	_
 
 # sent_id = 55
