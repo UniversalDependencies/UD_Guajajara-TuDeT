@@ -176,7 +176,7 @@
 3	i'a	'a	VERB	vi	Person=3	0	root	0:root	_
 4	'ar	'ar	NOUN	n	_	3	obl	3:obl	_
 5	katu	katu	PART	pcl	_	4	discourse	4:discourse	_
-6	mehe	mehe	ADP	post	_	4		4:case	_
+6 mehe  mehe  ADP post  _ 4 4:case  _
 
 # sent_id = 20
 # text = Pixika'i a'e
