@@ -1,10 +1,39 @@
-# sent_id = 31
-# text = Ezapo arapuk wiràmiri pe nehe
-# text_port = Faça uma arapuca para o pássaro (Harrison 15)
-# text_eng = Make a trap for the bird (LM)
-1	Ezapo	apo	VERB	vt	Person=3	0	root	0:root	_
-2	arapuk	arapuk	NOUN	n	_	1	obj	1:obj	_
-3	wiràmiri	wirà	NOUN	n	Dimin=Yes	1	obl	1:obl	_
-4	pe	pe	ADP	pp	_	3	case	3:case	_
-5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+#sent_id = 32
+#text = Oho Zuze ihy ko pe kara ipiaromo.
+#text_port = A mãe de José foi à roça para buscar carã.
+#text_en = Jose's mother went to the countryside to look for yam.
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	ihy	hy	NOUN	n	Rel=NCont	2	nmod	2:nmod	_
+4	ko	ko	NOUN	n	_	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
+6	kara	kara	NOUN	n	_	1	obl	1:obl	_
+7-8	ipiaromo	_	_	_	_	_	_	_	_
+7	ipiar	piar	NOUN	n	Rel=NCont	6	nmod	6:nmod	_
+8	romo	romo	ADP	posp	_	7	case	7:case	_
+9	.	.	PUNCT	punct	_	_	_	_	_
+
+#sent_id = 33
+#text = Oho Zuze ihy ko pe ka'a rupi.
+#text_port = A mãe de José foi ã roça pelo mato.
+#text_en = Jose's mother went to the countryside through the jungle.
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	ihy	hy	NOUN	n	Rel=NCont	2	nmod	2:nmod	_
+4	ko	ko	NOUN	n	_	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
+6	ka'a	ka'a	NOUN	n	_	1	obl	1:obl	_
+7	rupi	upi	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	_	_	_	_
+
+#sent_id = 34
+#text = Oho kara ipiaromo.
+#text_port = Ela foi buscar cará.
+#text_en = She went to look for yam.
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	kara	kara	NOUN	n	_	1	obl	1:obl	_
+3-4	ipiaromo	_	_	_	_	_	_	_	_
+3	ipiar	piar	NOUN	n	Rel=NCont	2	nmod	2:nmod	_
+4	romo	romo	ADP	posp	_	3	case	3:case	_
+5	.	.	PUNCT	punct	_	_	_	_	_
 
