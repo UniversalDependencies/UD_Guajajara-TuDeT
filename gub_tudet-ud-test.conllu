@@ -309,7 +309,7 @@
 # text_eng = Jose's mother went to the countryside to look for yam.
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
-3	ihy	hy	NOUN	n	Rel=NCont	1	nsubj	1:subj	_
+3	ihy	hy	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
 4	ko	ko	NOUN	n	_	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
 6	kara	kara	NOUN	n	_	1	obl	1:obl	_
@@ -324,7 +324,7 @@
 # text_eng = Jose's mother went to the countryside through the jungle.
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
-3	ihy	hy	NOUN	n	Rel=NCont	1	nsubj	2:nsubj	_
+3	ihy	hy	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
 4	ko	ko	NOUN	n	_	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
 6	ka'a	ka'a	NOUN	n	_	1	obl	1:obl	_
@@ -363,7 +363,7 @@
 4	kara	kara	NOUN	n	_	3	obj	3:obj	_
 5	ko	ko	NOUN	n	_	3	obl	3:obl	_
 6	pe	pe	ADP	posp	Case=Loc	5	case	5:case	_
-7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 37
 # text = Heta kara tetea’u a’e pe .
