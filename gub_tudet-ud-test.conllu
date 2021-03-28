@@ -13,7 +13,7 @@
 1	Umuwywyk	muwywyk	VERB	vt	Person=3	0	root	0:root	_
 2	ikamir	kamir	NOUN	n	Rel=NCont	1	obj	1:obj	_
 3	aguz	aguz	NOUN	n	_	1	obl	1:obl	_
-4	pupe	pupe	ADP	posp	Case=Ins	3	case	3:case	_
+4	pupe	pupe	ADP	posp	Rel=Cont	3	case	3:case	_
 
 # sent_id = 3
 # text = Nuzapo pixik kwaw agwer ma'e amo ae awa pe
@@ -27,7 +27,7 @@
 6	amo	amo	DET	det	PronType=Ind	8	det	8:det	_
 7	ae	ae	PART	pcl	_	6	discourse	6:discourse	_
 8	awa	awa	NOUN	n	_	1	obl	1:obl	_
-9	pe	pe	ADP	posp	_	8	case	8:case	_
+9	pe	pe	ADP	posp	Case=Dat	8	case	8:case	_
 
 # sent_id = 4
 # text = Aha putar ko pe
@@ -56,7 +56,7 @@
 1	Wexak	exak	VERB	vt	Person=3	0	root	0:root	_
 2	arapuha	arapuha	NOUN	n	_	1	obj	1:obj	_
 3	a	a	ADV	adv	_	1	obl	1:obl	_
-4	pe	pe	ADP	posp	_	3	case	3:case	_
+4	pe	pe	ADP	posp	Case=Loc	3	case	3:case	_
 
 # sent_id = 7
 # text = Agwer ma'ea'yr u'u ka'api'i
@@ -144,7 +144,7 @@
 2	amo	amo	DET	dem	PronType=Ind	3	det	3:det	_
 3	awa	awa	NOUN	n	_	1	obj	1:obj	_
 4	a'e	a'e	PRON	pro	Person=3	1	obl	1:obl	_
-5	pe	pe	ADP	posp	_	4	case	4:case	_
+5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
 
 # sent_id = 17
 # text = Wiko Zuàw awa zutyka'i romo a'e
@@ -164,7 +164,7 @@
 1	Awakwer	awa	NOUN	n	Number=Plur	2	nsubj	2:nsubj	_
 2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 3	ko	ko	NOUN	n	_	2	obl	2:obl	_
-4	pe	pe	ADP	posp	_	3	case	3:case	_
+4	pe	pe	ADP	posp	Case=All	3	case	3:case	_
 5	wà	wà	PART	pcl	Number=Plur|Person=3	2	discourse	2:discourse	_
 
 # sent_id = 19
@@ -176,7 +176,7 @@
 3	i'a	'a	VERB	vi	Person=3	0	root	0:root	_
 4	'ar	'ar	NOUN	n	_	3	obl	3:obl	_
 5	katu	katu	PART	pcl	_	4	discourse	4:discourse	_
-6	mehe	mehe	ADP	posp	_	4	case	4:case	_
+6	mehe	mehe	ADP	post	_	4		4:case	_
 
 # sent_id = 20
 # text = Pixika'i a'e
@@ -219,12 +219,12 @@
 
 # sent_id = 24
 # text = Akwez awa wiko karaiw romo
-# text_port = Aquele homem não é índio (Harrison 12)
-# text_eng = That man is not indian (LM)
+# text_port = Aquele homem é índio (Harrison 12)
+# text_eng = That man is indian (LM)
 1	Akwez	akwez	DET	dem	PronType=Dem	2	det	2:det	_
 2	awa	awa	NOUN	n	_	3	nsubj	3:nsubj	_
 3	wiko	iko	VERB	vi	Person=3	0	root	0:root	_
-4	karaiw	karaiw	NOUN	n	_	3	obj	3:obj	_
+4	karaiw	karaiw	NOUN	n	_	3	obl	3:obl	_
 5	romo	romo	ADP	posp	_	4	case	4:case	_
 
 # sent_id = 25
@@ -247,7 +247,7 @@
 3	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 4	mai'u	mai'u	NOUN	n	_	3	obl	3:obl	_
 5	haw	haw	ADV	adv	_	4	advmod	4:advmod	_
-6	pe	pe	ADP	posp	_	4	case	4:case	_
+6	pe	pe	ADP	posp	Case=All	4	case	4:case	_
 7	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 8	wà	wà	PART	pcl	Number=Plur	3	discourse	3:discourse	_
 9	no	no	PART	pcl	_	3	discourse	3:discourse	_
@@ -260,7 +260,7 @@
 2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 3-4	haikwerupi	_	_	_	_	_	_	_	_
 3	haikwer	aikwer	NOUN	n	Rel=NCont	2	obl	2:obl	_
-4	rupi	upi	ADP	posp	_	3	case	3:case	_
+4	rupi	upi	ADP	posp	Rel=Cont	3	case	3:case	_
 5	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 
 # sent_id = 28
@@ -279,7 +279,7 @@
 # text_port = O morcego nos morde à noite (Harrison 14)
 # text_eng = Bats bite us at night (LM)
 1	Anyra	anyra	NOUN	n	_	2	nsubj	2:nsubj	_
-2	zanexi'u	uxi'u	VERB	vt	Number=Plur|Person=1	0	root	0:root	_
+2	zanexi'u	uxi'u	VERB	vt	Clusivity=In|Number=Plur|Person=1	0	root	0:root	_
 3	pyhaw	py	ADV	adv	_	2	obl	2:obl	_
 4	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
 
@@ -300,6 +300,6 @@
 1	Ezapo	apo	VERB	vt	Mood=Imp|Number=Sing|Person=2	0	root	0:root	_
 2	arapuk	arapuk	NOUN	n	_	1	obj	1:obj	_
 3	wiràmiri	wirà	NOUN	n	Dimin=Yes	1	obl	1:obl	_
-4	pe	pe	ADP	posp	_	3	case	3:case	_
+4	pe	pe	ADP	posp	Case=Ben	3	case	3:case	_
 5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
 
