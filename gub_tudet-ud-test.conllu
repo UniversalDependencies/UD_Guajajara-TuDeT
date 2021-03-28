@@ -280,7 +280,7 @@
 # text_eng = Bats bite us at night (LM)
 1	Anyra	anyra	NOUN	n	_	2	nsubj	2:nsubj	_
 2	zanexi'u	uxi'u	VERB	vt	Clusivity=In|Number=Plur|Person=1	0	root	0:root	_
-3	pyhaw	py	ADV	adv	Nomzr=DevPass	2	obl	2:obl	_
+3	pyhaw	py	ADV	adv	Nomzr=Circ	2	obl	2:obl	_
 4	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
 
 # sent_id = 30
