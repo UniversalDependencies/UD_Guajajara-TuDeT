@@ -357,8 +357,8 @@
 # text = Zuze ihy o’ok kara ko pe .
 # text_port = A mãe de José arrancou cará na roça.
 # text_eng = Jose's mother pulled yam out of the field
-1	Zuze	Zuze	PROPN	pn	_	3	nsubj	3:nsubj	_
-2	ihy	hy	NOUN	n	Rel=NCont	1	nmod	1:nmod	_
+1	Zuze	Zuze	PROPN	pn	_	1	nmod	1:nmod	_
+2	ihy	hy	NOUN	n	Rel=NCont	3	nsubj	3:nsubj	_
 3	o’ok	'ok	VERB	vt	Person=3	0	root	0:root	_
 4	kara	kara	NOUN	n	_	3	obj	3:obj	_
 5	ko	ko	NOUN	n	_	3	obl	3:obl	_
@@ -375,4 +375,36 @@
 4	a’e	a'e	PRON	pn	Person=3	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 38
+# text = O’ok kara tetea’u .
+# text_port = Ela arrancou muito cará.
+# text_eng = She pulled a lot of yam
+1	O’ok	'ok	VERB	vt	Person=3	0	root	0:root	_
+2	kara	kara	NOUN	n	_	1	obj	1:obj	_
+3	tetea’u	tete	ADV	adv	_	2	advmod	2:advmod	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 39
+# text = Hete katu kara Zuze ihy pe .
+# text_port = A mãe de José acha que o cará é muito gostoso.
+# text_eng = Jose's mother finds yam delicious
+1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
+2	katu	katu	ADV	adv	_	1	advmod	advmod	_
+3	kara	kara	NOUN	n	_	1	nsubj	1:nsubj	_
+4	Zuze	Zuze	PROPN	pn	_	5	nmod	5:nmod	_
+5	ihy	hy	NOUN	n	Rel=NCont	1	obl	1:obl	_
+6	pe	pe	ADP	posp	Case=Dat	5	case	5:case	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 40
+# text = Hete katu Kari pe a’e no .
+# text_port = Karita também o acha gostoso.
+# text_eng = Karita also finds it tasty.
+1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
+2	katu	katu	ADV	adv	_	1	advmod	advmod	_
+3	Kari	Kari	PROPN	pn	_	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Case=Dat	3	case	3:case	_
+5	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
 
