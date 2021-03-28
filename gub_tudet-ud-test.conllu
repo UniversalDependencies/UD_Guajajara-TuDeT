@@ -308,8 +308,8 @@
 # text_port = A mãe de José foi à roça para buscar carã.
 # text_eng = Jose's mother went to the countryside to look for yam.
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
-2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
-3	ihy	hy	NOUN	n	Rel=NCont	2	nmod	2:nmod	_
+2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
+3	ihy	hy	NOUN	n	Rel=NCont	1	nsubj	1:subj	_
 4	ko	ko	NOUN	n	_	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
 6	kara	kara	NOUN	n	_	1	obl	1:obl	_
@@ -323,8 +323,8 @@
 # text_port = A mãe de José foi ã roça pelo mato.
 # text_eng = Jose's mother went to the countryside through the jungle.
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
-2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
-3	ihy	hy	NOUN	n	Rel=NCont	2	nmod	2:nmod	_
+2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
+3	ihy	hy	NOUN	n	Rel=NCont	1	nsubj	2:nsubj	_
 4	ko	ko	NOUN	n	_	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
 6	ka'a	ka'a	NOUN	n	_	1	obl	1:obl	_
@@ -341,4 +341,38 @@
 3	ipiar	piar	NOUN	n	Rel=NCont	2	nmod	2:nmod	_
 4	romo	romo	ADP	posp	_	3	case	3:case	_
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 35
+# text = Heta kara tetea’u ko pe .
+# text_port = Tem muito carã na roça.
+# text_eng = There is a lot of yam in the field.
+1	Heta	eta	VERB	vt	Person=3	0	root	0:root	_
+2	kara	kara	NOUN	n	_	1	obj	1:obj	_
+3	tetea’u	tete	ADV	adv	_	2	advmod	2:advmod	_
+4	ko	ko	NOUN	n	_	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 36
+# text = Zuze ihy o’ok kara ko pe .
+# text_port = A mãe de José arrancou cará na roça.
+# text_eng = Jose's mother pulled yam out of the field
+1	Zuze	Zuze	PROPN	pn	_	3	nsubj	3:nsubj	_
+2	ihy	hy	NOUN	n	Rel=NCont	1	nmod	1:nmod	_
+3	o’ok	'ok	VERB	vt	Person=3	0	root	0:root	_
+4	kara	kara	NOUN	n	_	3	obj	3:obj	_
+5	ko	ko	NOUN	n	_	3	obl	3:obl	_
+6	pe	pe	ADP	posp	Case=Loc	5	case	5:case	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 37
+# text = Heta kara tetea’u a’e pe .
+# text_port = Hã muito cará lá.
+# text_eng = There is a lot of yam there
+1	Heta	eta	VERB	vt	Person=3	0	root	0:root	_
+2	kara	kara	NOUN	n	_	1	obj	1:obj	_
+3	tetea’u	tete	ADV	adv	_	2	advmod	2:advmod	_
+4	a’e	a'e	PRON	pn	Person=3	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
