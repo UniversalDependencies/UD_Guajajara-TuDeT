@@ -770,3 +770,17 @@
 12	a’e	a'e	PART	pcl	Person=3	9	discourse	9:discourse	_
 13	.	.	PUNCT	punct	_	9	punct	9:punct	_
 
+# sent_id = 72
+# text = Oho hoko iko yryhu pe ipira pyhyk pa .
+# text_port = 0 soco está indo à lagoa para pegar peixe (Sociedade Internacional de Lingüística 77).
+# text_eng = The little bittern is going to the lake to catch fishes (LM).
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
+4	yryhu	yryk	NOUN	n	Nomzr=DevPass	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
+6	ipira	ipira	NOUN	n	_	7	obj	7:obj	_
+7	pyhyk	pyhyk	VERB	vt	VerbForm=Inf	1	xcomp	1:xcomp	_
+8	pa	pa	ADP	posp	Rel=Cont	7	case	7:case	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
