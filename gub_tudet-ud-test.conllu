@@ -305,7 +305,7 @@
 
 # sent_id = 32
 # text = Oho Zuze ihy ko pe kara ipiaromo .
-# text_port = A mãe de José foi à roça para buscar carã (Sociedade Internacional de Lingüística 77)
+# text_port = A mãe de José foi à roça para buscar carã (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = Jose's mother went to the countryside to look for yam (LM)
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
@@ -320,7 +320,7 @@
 
 # sent_id = 33
 # text = Oho Zuze ihy ko pe ka'a rupi .
-# text_port = A mãe de José foi ã roça pelo mato (Sociedade Internacional de Lingüística 77)
+# text_port = A mãe de José foi ã roça pelo mato (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = Jose's mother went to the countryside through the jungle (LM)
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
@@ -333,7 +333,7 @@
 
 # sent_id = 34
 # text = Oho kara ipiaromo .
-# text_port = Ela foi buscar cará (Sociedade Internacional de Lingüística 77)
+# text_port = Ela foi buscar cará (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = She went to look for yam (LM)
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	kara	kara	NOUN	n	_	1	obl	1:obl	_
@@ -344,7 +344,7 @@
 
 # sent_id = 35
 # text = Heta kara tetea’u ko pe .
-# text_port = Tem muito carã na roça (Sociedade Internacional de Lingüística 77)
+# text_port = Tem muito carã na roça (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = There is a lot of yam in the field (LM)
 1	Heta	eta	VERB	vt	Person=3	0	root	0:root	_
 2	kara	kara	NOUN	n	_	1	obj	1:obj	_
@@ -355,7 +355,7 @@
 
 # sent_id = 36
 # text = Zuze ihy o’ok kara ko pe .
-# text_port = A mãe de José arrancou cará na roça (Sociedade Internacional de Lingüística 77)
+# text_port = A mãe de José arrancou cará na roça (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = Jose's mother pulled yam out of the field (LM)
 1	Zuze	Zuze	PROPN	pn	_	2	nmod	2:nmod	_
 2	ihy	hy	NOUN	n	Rel=NCont	3	nsubj	3:nsubj	_
@@ -367,7 +367,7 @@
 
 # sent_id = 37
 # text = Heta kara tetea’u a’e pe .
-# text_port = Hã muito cará lá (Sociedade Internacional de Lingüística 77)
+# text_port = Hã muito cará lá (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = There is a lot of yam there (LM)
 1	Heta	eta	VERB	vt	Person=3	0	root	0:root	_
 2	kara	kara	NOUN	n	_	1	obj	1:obj	_
@@ -378,7 +378,7 @@
 
 # sent_id = 38
 # text = O’ok kara tetea’u .
-# text_port = Ela arrancou muito cará (Sociedade Internacional de Lingüística 77)
+# text_port = Ela arrancou muito cará (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = She pulled a lot of yam (LM)
 1	O’ok	'ok	VERB	vt	Person=3	0	root	0:root	_
 2	kara	kara	NOUN	n	_	1	obj	1:obj	_
@@ -387,7 +387,7 @@
 
 # sent_id = 39
 # text = Hete katu kara Zuze ihy pe .
-# text_port = A mãe de José acha que o cará é muito gostoso (Sociedade Internacional de Lingüística 77)
+# text_port = A mãe de José acha que o cará é muito gostoso (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = Jose's mother finds yam delicious (LM)
 1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
@@ -399,7 +399,7 @@
 
 # sent_id = 40
 # text = Hete katu Kari pe a’e no .
-# text_port = Karita também o acha gostoso (Sociedade Internacional de Lingüística 77)
+# text_port = Karita também o acha gostoso (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = Karita also finds it tasty (LM)
 1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
@@ -411,7 +411,7 @@
 
 # sent_id = 41
 # text = Hete katu kara Zuze pe a’e no .
-# text_port = José também acha gue o cará é gostoso (Sociedade Internacional de Lingüística 77)
+# text_port = José também acha gue o cará é gostoso (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = Jose also thinks that the yam is tasty (LM)
 1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
@@ -424,7 +424,7 @@
 
 # sent_id = 42
 # text = Zuze ihy o’ok kara .
-# text_port = A mãe de Jose arrancou cará (Sociedade Internacional de Lingüística 77)
+# text_port = A mãe de Jose arrancou cará (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = Jose's mother pulled yam (LM)
 1	Zuze	Zuze	PROPN	pn	_	2	nmod	2:nmod	_
 2	ihy	hy	NOUN	n	Rel=NCont	3	nsubj	3:nsubj	_
@@ -434,7 +434,7 @@
 
 # sent_id = 43
 # text = I’ok ire , oho hyru ipiaromo .
-# text_port = Depois de arrancã-lo, ela foi buscar um vasilhame (Sociedade Internacional de Lingüística 77)
+# text_port = Depois de arrancã-lo, ela foi buscar um vasilhame (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = After pulling it, she went to look for a recipient (LM)
 1	I’ok	’ok	VERB	vt	Person=3	4	xcomp	4:xcomp	_
 2	ire	re	ADP	posp	Rel=NCont	1	case	1:case	_
@@ -448,7 +448,7 @@
 
 # sent_id = 44
 # text = Oho kok ipiaromo .
-# text_port = Ela foi buscar um cesto (Sociedade Internacional de Lingüística 77)
+# text_port = Ela foi buscar um cesto (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = She went to look for a basket (LM)
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	kok	kok	NOUN	n	_	1	obl	1:obl	_
@@ -459,7 +459,7 @@
 
 # sent_id = 45
 # text = Heta kara tetea’u .
-# text_port = Tem muito cará (Sociedade Internacional de Lingüística 77)
+# text_port = Tem muito cará (Sociedade Internacional de Lingüística, 1973:77)
 # text_eng = There is a lot of yam (LM)
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
 2	kara	kara	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -468,7 +468,7 @@
 
 # sent_id = 46
 # text = Uhua’u hyru .
-# text_port = 0 cesto é grande (Sociedade Internacional de Lingüística 77).
+# text_port = 0 cesto é grande (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = The basket is big (LM)
 1	Uhua’u	uhu	VERB	vi	Person=3	0	root	0:root	_
 2	hyru	yru	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
@@ -476,7 +476,7 @@
 
 # sent_id = 47
 # text = Oho Zuze ihy hyruhu ipiaromo .
-# text_port = A mãe de José foi buscar o cesto grande (Sociedade Internacional de Lingüística 77).
+# text_port = A mãe de José foi buscar o cesto grande (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = Jose's mother went to look for the big basket (LM)
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
@@ -489,7 +489,7 @@
 
 # sent_id = 48
 # text = Tueharupi oho arapapa 'y pe .
-# text_port = Todos os dias o arapapã vai ã água (Sociedade Internacional de Lingüística 77).
+# text_port = Todos os dias o arapapã vai ã água (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = Every day the boat-billed heron goes to the water (LM)
 1-2	Tueharupi	_	_	_	_	_	_	_	_
 1	tueha	tuwe	NOUN	n	Nomzr=Circ	3	obl	3:obl	_
@@ -502,7 +502,7 @@
 
 # sent_id = 49
 # text = Ipy uhua'u .
-# text_port = 0 pé dele é grande (Sociedade Internacional de Lingüística 77).
+# text_port = 0 pé dele é grande (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = Its foot is big (LM)
 1	Ipy	py	NOUN	n	Rel=Abs	2	nsubj	2:nsubj	_
 2	uhua'u	uhu	VERB	vi	Person=3	0	root	0:root	_
@@ -510,7 +510,7 @@
 
 # sent_id = 50
 # text = Ipy ipukua'u a'e no .
-# text_port = O pé dele é comprido também (Sociedade Internacional de Lingüística 77).
+# text_port = O pé dele é comprido também (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = Its foot is also long (LM)
 1	Ipy	py	NOUN	n	Rel=Abs	2	nsubj	2:nsubj	_
 2	ipukua'u	puku	VERB	vi	Person=3	0	root	0:root	_
@@ -520,7 +520,7 @@
 
 # sent_id = 51
 # text = Heta ipira tetea’u ’y pe .
-# text_port = Hã muito peixe na ãgua (Sociedade Internacional de Lingüística 77).
+# text_port = Hã muito peixe na ãgua (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = There are many fishes in the water (LM)
 1	Heta	eta	VERB	vt	Person=3	0	root	0:root	_
 2	ipira	ipira	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -531,7 +531,7 @@
 
 # sent_id = 52
 # text = U’u arapapa ipira’i iko a’e .
-# text_port = 0 arapapã esta comendo peixinhos (Sociedade Internacional de Lingüística 77).
+# text_port = 0 arapapã esta comendo peixinhos (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = The boat-billed heron is eating little fishes (LM)
 1	U’u	'u	VERB	vt	Person=3	0	root	0:root	_
 2	arapapa	arapapa	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -542,7 +542,7 @@
 
 # sent_id = 53
 # text = Oho ’y pupe ipira’i pyhyk pa .
-# text_port = Ele vai dentro da ãgua para pegar peixinhos (Sociedade Internacional de Lingüística 77).
+# text_port = Ele vai dentro da ãgua para pegar peixinhos (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = It goes into the water to catch little fishes (LM)
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	’y	'y	NOUN	n	_	1	obl	1:obl	_
@@ -554,7 +554,7 @@
 
 # sent_id = 54
 # text = Tueharupi oho arapapa ’y pe , yryhu pe .
-# text_port = Todos os dias o arapapã vai ã ãgua, ã lagoa (Sociedade Internacional de Lingüística 77).
+# text_port = Todos os dias o arapapã vai ã ãgua, ã lagoa (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = Every day the boat-billed heron goes to the water, the lake (LM)
 1-2	Tueharupi	_	_	_	_	_	_	_	_
 1	tueha	tuwe	NOUN	n	Nomzr=Circ	3	obl	3:obl	_
@@ -570,7 +570,7 @@
 
 # sent_id = 55
 # text = Upyhyk arapapa ipira’i kury .
-# text_port = 0 arapapã pega peixinhos (Sociedade Internacional de Lingüística 77).
+# text_port = 0 arapapã pega peixinhos (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng= The boat-billed heron catches small fishes (LM)
 1	Upyhyk	pyhyk	VERB	vt	Person=3	0	root	0:root	_
 2	arapapa	arapapa	NOUN	n	_	3	nsubj	3:nsubj	_
@@ -580,7 +580,7 @@
 
 # sent_id = 56
 # text = U’u kury .
-# text_port = Ele come (Sociedade Internacional de Lingüística 77).
+# text_port = Ele come (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = It eats now (LM)
 1	U’u	’u	VERB	vt	Person=3	0	root	0:root	_
 2	kury	kury	PART	pcl	_	1	discourse	1:discourse	_
@@ -588,7 +588,7 @@
 
 # sent_id = 57
 # text = Hete katu ipira’i arapapa pe .
-# text_port = O arapapa gosta o peixinhos (Sociedade Internacional de Lingüística 77).
+# text_port = O arapapa gosta o peixinhos (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = The boat-billed heron likes small fishes (LM)
 1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
@@ -599,7 +599,7 @@
 
 # sent_id = 58
 # text = Yryhu pe , heta tetea’u ipira .
-# text_port = Na lagoa tem muito peixe (Sociedade Internacional de Lingüística 77).
+# text_port = Na lagoa tem muito peixe (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = In the lake there are many fishes (LM)
 1	Yryhu	yryk	NOUN	n	Nomzr=DevPass	4	obl	4:obl	_
 2	pe	pe	ADP	posp	Case=Loc	1	case	1:case	_
@@ -611,7 +611,7 @@
 
 # sent_id = 59
 # text = Heta tetea’u ipira’i yryhu pe no .
-# text_port = Tem muito peixinho na lagoa também (Sociedade Internacional de Lingüística 77).
+# text_port = Tem muito peixinho na lagoa também (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = There are many small fishes also in the lake (LM)
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
 2	tetea’u	tete	ADV	adv	_	1	advmod	1:advmod	_
@@ -623,7 +623,7 @@
 
 # sent_id = 60
 # text = Heta arar ka’a pe wa .
-# text_port = Hã araras na mata (Sociedade Internacional de Lingüística 77).
+# text_port = Hã araras na mata (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = There are macaws in the field (LM)
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
 2	arar	arar	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -634,7 +634,7 @@
 
 # sent_id = 61
 # text = Arar ka’a pe har a’e wa , upyta ka’a pe a’e wa .
-# text_port = Tem araras mateiras, elas ficam na mata (Sociedade Internacional de Lingüística 77).
+# text_port = Tem araras mateiras, elas ficam na mata (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = There are macaws from Mateira, they stay in the field (LM).
 1	Arar	arar	NOUN	n	_	8	nsubj	8:nsubj	_
 2	ka’a	ka'a	NOUN	n	_	1	nmod	1:nmod	_
@@ -652,7 +652,7 @@
 
 # sent_id = 62
 # text = Ipira’i ikatu arakur pe i’u mehe .
-# text_port = A saracura gosta de comer peixe (Sociedade Internacional de Lingüística 77).
+# text_port = A saracura gosta de comer peixe (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = The slaty-breasted wood rail likes eating little fishes (LM).
 1	Ipira’i	ipira	NOUN	n	Dimin=Yes	2	nsubj	2:nsubj	_
 2	ikatu	katu	VERB	vi	Person=3	0	root	0:root	_
@@ -664,7 +664,7 @@
 
 # sent_id = 63
 # text = Arakur ipira i’u har romo a’e .
-# text_port = A saracura come peixe (Sociedade Internacional de Lingüística 77).
+# text_port = A saracura come peixe (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = The slaty-breasted wood rail eats fish (LM).
 1	Arakur	arakur	NOUN	n	_	2	nsubj	2:nsubj	_
 2	ipira	ipira	NOUN	n	_	0	root	0:root	_
@@ -676,7 +676,7 @@
 
 # sent_id = 64
 # text = 'Aromo uker .
-# text_port = Ela dorme de dia (Sociedade Internacional de Lingüística 77).
+# text_port = Ela dorme de dia (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = It sleeps during the day (LM).
 1	'Aromo	'aromo	ADV	adv	_	2	advmod	2:advmod	_
 2	uker	ker	VERB	vi	Person=3	0	root	0:root	_
@@ -684,7 +684,7 @@
 
 # sent_id = 65
 # text = Ipuku a’u ipy no .
-# text_port = 0 pé dela é grande (Sociedade Internacional de Lingüística 77).
+# text_port = 0 pé dela é grande (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = Its foot is big (LM).
 1	Ipuku	puku	VERB	vi	Person=3	0	root	0:root	_
 2	a’u	a'u	ADV	adv	_	1	advmod	1:advmod	_
@@ -694,7 +694,7 @@
 
 # sent_id = 66
 # text = Arapapa ipira i’u har romo a’e no .
-# text_port = 0 arapapã também come peixe (Sociedade Internacional de Lingüística 77).
+# text_port = 0 arapapã também come peixe (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = The boat-billed heron also eats fish (LM).
 1	Arapapa	arapapa	NOUN	n	_	3	nsubj	3:nsubj	_
 2	ipira	ipira	NOUN	n	_	3	obj	3:obj	_
@@ -707,7 +707,7 @@
 
 # sent_id = 67
 # text = 'Aromo uker no .
-# text_port = Ele também dorme de dia (Sociedade Internacional de Lingüística 77).
+# text_port = Ele também dorme de dia (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = It also sleeps during the day (LM).
 1	'Aromo	'aromo	ADV	adv	_	2	advmod	2:advmod	_
 2	uker	ker	VERB	vi	Person=3	0	root	0:root	_
@@ -716,7 +716,7 @@
 
 # sent_id = 68
 # text = Arar upyta ka’a pe wa .
-# text_port = As araras ficam na mata (Sociedade Internacional de Lingüística 77).
+# text_port = As araras ficam na mata (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = The macaws stay in the fields (LM).
 1	Arar	arar	NOUN	n	_	2	nsubj	2:nsubj	_
 2	upyta	pyta	VERB	v	Person=3	0	root	0:root	_
@@ -727,7 +727,7 @@
 
 # sent_id = 69
 # text = Heta ma’eputyr ’y ’aromo .
-# text_port = Tem flores na superfície da ãgua (Sociedade Internacional de Lingüística 77).
+# text_port = Tem flores na superfície da ãgua (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = There are flowers on the water surface (LM).
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
 2-3	ma’eputyr	_	_	_	_	_	_	_	_
@@ -739,7 +739,7 @@
 
 # sent_id = 70
 # text = Yryhu pe heta ma’eputyr tetea’u i’aromo .
-# text_port = Na lagoa tem muitas flores na ãgua (Sociedade Internacional de Lingüística 77).
+# text_port = Na lagoa tem muitas flores na ãgua (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = In the lake there are many flowers on the water (LM).
 1	Yryhu	yryk	NOUN	n	Nomzr=DevPass	3	obl	3:obl	_
 2	pe	pe	ADP	posp	Case=Loc	1	case	1:case	_
@@ -753,7 +753,7 @@
 
 # sent_id = 71
 # text = Amo ma’eputyr ’y pe har a’e , mururu her romo a’e .
-# text_port = 0 nome de uma delas é "mururu" (Sociedade Internacional de Lingüística 77).
+# text_port = 0 nome de uma delas é "mururu" (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = The name of one of them is water hyacinth (LM)
 1	Amo	amo	DET	dem	_	2	det	2:det	_
 2-3	ma’eputyr	_	_	_	_	_	_	_	_
@@ -772,7 +772,7 @@
 
 # sent_id = 72
 # text = Oho hoko iko yryhu pe ipira pyhyk pa .
-# text_port = 0 soco está indo à lagoa para pegar peixe (Sociedade Internacional de Lingüística 77).
+# text_port = 0 soco está indo à lagoa para pegar peixe (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = The little bittern is going to the lake to catch fishes (LM).
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -786,7 +786,7 @@
 
 # sent_id = 73
 # text = Oho ka’api’i rehe .
-# text_port = Ele vai (anda) pelo capim (Sociedade Internacional de Lingüística 77).
+# text_port = Ele vai (anda) pelo capim (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = It walks through the grass (LM).
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	ka’api’i	ka'api'i	NOUN	n	_	1	obl	1:obl	_
@@ -794,8 +794,8 @@
 4	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 74
-# text = Oho ma’eputyr rehe, mururu rehe .
-# text_port = Ele vai pelas flores e pelos mururus (Sociedade Internacional de Lingüística 77).
+# text = Oho ma’eputyr rehe , mururu rehe .
+# text_port = Ele vai pelas flores e pelos mururus (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = It goes through the flowers and through the water hyacinths (LM).
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2-3	ma’eputyr	_	_	_	_	_	_	_	_
@@ -808,8 +808,8 @@
 8	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 75
-# text = Heta ipira tetea’u a’e pe, yryhu pe .
-# text_port = Tem muito peixe lá, na lagoa (Sociedade Internacional de Lingüística 77).
+# text = Heta ipira tetea’u a’e pe , yryhu pe .
+# text_port = Tem muito peixe lá, na lagoa (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = There are many fishes there, in the lake (LM).
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
 2	ipira	ipira	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -823,7 +823,7 @@
 
 # sent_id = 76
 # text = Ume’e hoko iko ipira rehe kury .
-# text_port = 0 socõ estã olhando os peixes (Sociedade Internacional de Lingüística 77).
+# text_port = 0 socõ estã olhando os peixes (Sociedade Internacional de Lingüística, 1973:77).
 # text_eng = The little bittern is looking at the fishes (LM)
 1	Ume’e	me’e	VERB	vi	Person=3	0	root	0:root	_
 2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -832,4 +832,36 @@
 5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
 6	kury	kury	PART	pcl	_	1	discourse	1:discourse	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 77
+# text = Ume’e akara rehe .
+# text_port = Ele olhados acaras (Sociedade Internacional de Lingüística, 1973:77).
+# text_eng = It looks at the acaras (LM).
+1	Ume’e	me’e	VERB	vi	Person=3	0	root	0:root	_
+2	akara	akara	NOUN	n	_	1	obl	1:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 78
+# text = Ume’e amo pira rehe a’e no .
+# text_port = Ele olha os outros peixes também (Sociedade Internacional de Lingüística, 1973:77).
+# text_port = It looks at other fishes too (LM).
+1	Ume’e	me’e	VERB	vi	Person=3	0	root	0:root	_
+2	amo	amo	DET	dem	_	3	det	3:det	_
+3	pira	pira	NOUN	n	_	1	obl	1:obl	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 79
+# text = Heta muhu a’e pe no .
+# text_port = Tem lampreia lã também (Sociedade Internacional de Lingüística, 1973:77).
+# text_eng = There are lampreys there too (LM).
+1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
+2	muhu	muhu	NOUN	n	_	1	nsubj	1:nsubj	_
+3	a’e	a'e	PRON	pn	Person=3|PronType=Prs	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Case_Loc	3	case	3:case	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
