@@ -1,45 +1,14 @@
-# sent_id = 69
-# text = Heta ma’eputyr ’y ’aromo .
-# text_port = Tem flores na superfície da ãgua.
-# text_eng = There are flowers on the water surface
-1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
-2-3	ma’eputyr	_	_	_	_	_	_	_	_
-2	ma’e	ma'e	NOUN	n	_	1	nsubj	1:nsubj	_
-3	putyr	putyr	NOUN	n	_	2	nmod	2:nmod	_
-4	’y	'y	NOUN	n	_	1	obl	1:obl	_
-5	’aromo	'aromo	ADP	posp	Rel=Cont	4	case	4:case	_
-6	.	.	PUNCT	punct	_	1	punct	1:punct	_
-
-# sent_id = 70
-# text = Yryhu pe heta ma’eputyr tetea’u i’aromo .
-# text_port = Na lagoa tem muitas flores na ãgua.
-# text_eng = In the lake there are many flowers on the water.
-1	Yryhu	yryk	NOUN	n	Nomzr=DevPass	3	obl	3:obl	_
-2	pe	pe	ADP	posp	Case=Loc	1	case	1:case	_
-3	heta	eta	VERB	vi	Person=3	0	root	0:root	_
-4-5	ma’eputyr	_	_	_	_	_	_	_	_
-4	ma’e	ma'e	NOUN	n	_	3	nsubj	3:nsubj	_
-5	putyr	putyr	NOUN	n	_	4	nmod	4:nmod	_
-6	tetea’u	tete	ADV	adv	_	4	advmod	4:advmod	_
-7	i’aromo	’aromo	NOUN	n	Rel=NCont	4	case	4:case	_
-8	.	.	PUNCT	punct	_	3	punct	3:punct	_
-
-# sent_id = 71
-# text = Amo ma’eputyr ’y pe har a’e , mururu her romo a’e .
-# text_port = 0 nome de uma delas é "mururu".
-# text_eng = The name of one of them is "mururu" (water hyacinth).
-1	Amo	amo	DET	dem	_	2	det	2:det	_
-2-3	ma’eputyr	_	_	_	_	_	_	_	_
-2	ma’e	ma'e	NOUN	n	_	9	nsubj	9:nsubj	_
-3	putyr	putyr	NOUN	n	_	2	nmod	2:nmod	_
-4	’y	'y	NOUN	n	_	2	nmod	1:nmod	_
-5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
-6	har	har	ADV	adv	Nomzr=Circ	4	advmod	4:advmod	_
-7	a’e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
-8	,	,	PUNCT	punct	_	9	punct	9:punct	_
-9	mururu	mururu	NOUN	n	_	0	root	0:root	_
-10	her	er	NOUN	n	Rel=NCont	9	obl	9:obl	_
-11	romo	romo	ADP	posp	Rel=Cont	10	case	10:case	_
-12	a’e	a'e	PART	pcl	Person=3	9	discourse	9:discourse	_
-13	.	.	PUNCT	punct	_	9	punct	9:punct	_
+# sent_id = 72
+# text = Oho hoko iko yryhu pe ipira pyhyk pa .
+# text_port = 0 soco está indo à lagoa para pegar peixe.
+# text_eng = The little bittern is going to the lake to catch fishes (LM).
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
+4	yryhu	yryk	NOUN	n	Nomzr=DevPass	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
+6	ipira	ipira	NOUN	n	_	7	obj	7:obj	_
+7	pyhyk	pyhyk	VERB	vt	VerbForm=Inf	1	xcomp	1:xcomp	_
+8	pa	pa	ADP	posp	Rel=Cont	7	case	7:case	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
