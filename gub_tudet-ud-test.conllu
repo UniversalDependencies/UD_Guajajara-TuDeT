@@ -666,11 +666,11 @@
 # text = Arakur ipira i’u har romo a’e .
 # text_port = A saracura come peixe (Sociedade Internacional de Lingüística 77).
 # text_eng = The slaty-breasted wood rail eats fish (LM).
-1	Arakur	arakur	NOUN	n	_	3	nsubj	2:nsubj	_
-2	ipira	ipira	NOUN	n	_	3	obj	2:obj	_
-3	i’u	u’u	VERB	vt	Person=3|Rel=NCont	0	root	0:root	_
+1	Arakur	arakur	NOUN	n	_	2	nsubj	2:nsubj	_
+2	ipira	ipira	NOUN	n	_	0	root	0:root	_
+3	i’u	u’u	VERB	vt	Person=3|Rel=NCont	1	nmod	1:nmod	_
 4	har	har	ADV	adv	Nomzr=Circ	3	advmod	3:advmod	_
 5	romo	romo	ADP	posp	_	3	case	3:case	_
-6	a’e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
-7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+6	a’e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
