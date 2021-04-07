@@ -1,32 +1,13 @@
-# sent_id = 77
-# text = Ume’e akara rehe .
-# text_port = Ele olhados acaras.
-# text_eng = It looks at the acaras (LM).
-1	Ume’e	me’e	VERB	vi	Person=3	0	root	0:root	_
-2	akara	akara	NOUN	n	_	1	obl	1:obl	_
-3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
-4	.	.	PUNCT	punct	_	1	punct	1:punct	_
-
-# sent_id = 78
-# text = Ume’e amo pira rehe a’e no .
-# text_port = Ele olha os outros peixes também.
-# text_port = It looks at other fishes too (LM).
-1	Ume’e	me’e	VERB	vi	Person=3	0	root	0:root	_
-2	amo	amo	DET	dem	_	3	det	3:det	_
-3	pira	pira	NOUN	n	_	1	obl	1:obl	_
-4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
-5	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
-6	no	no	PART	pcl	_	1	discourse	1:discourse	_
-7	.	.	PUNCT	punct	_	1	punct	1:punct	_
-
-# sent_id = 79
-# text = Heta muhu a’e pe no .
-# text_port = Tem lampreia lã também.
-# text_eng = There are lampreys there too (LM).
-1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
-2	muhu	muhu	NOUN	n	_	1	nsubj	1:nsubj	_
-3	a’e	a'e	PRON	pn	Person=3|PronType=Prs	1	obl	1:obl	_
-4	pe	pe	ADP	posp	Case_Loc	3	case	3:case	_
-5	no	no	PART	pcl	_	1	discourse	1:discourse	_
-6	.	.	PUNCT	punct	_	1	punct	1:punct	_
-
+# sent_id = 80
+# text = Zuze hemireko a’e, Mari her romo a’e.
+# text_port = Maria é o nome da mulher de José.
+# text_eng = Maria is the name of the wife of Jose (LM).
+1	Zuze	Zuze	PROPN	ppn	_	2	nmod	2:nmod	_
+2	hemireko	eko	NOUN	n	Rel=NCont	5	nsubj	5:nsubj	_
+3	a’e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	,	,	PUNCT	punct	_	5	punct	5:punct	_
+5	Mari	Mari	PROPN	pn	_	0	root	0:root	_
+6	her	er	NOUN	n	Rel=NCont	5	obl	5:obl	_
+7	romo	romo	ADP	posp	Rel=Cont	6	case	6:case	_
+8	a’e	a'e	PART	pcl	Person=3	5	discourse	5:discourse	_
+9	.	.	PUNCT	punct	_	5	punct	5:punct	_
