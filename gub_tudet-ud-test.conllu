@@ -705,3 +705,23 @@
 7	no	no	PART	pcl	_	3	discourse	3:discourse	_
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
+# sent_id = 67
+# text = 'Aromo uker no .
+# text_port = Ele também dorme de dia (Sociedade Internacional de Lingüística 77).
+# text_eng = It also sleeps during the day (LM).
+1	'Aromo	'aromo	ADV	adv	_	2	advmod	2:advmod	_
+2	uker	ker	VERB	vi	Person=3	0	root	0:root	_
+3	no	no	PART	pcl	_	2	discourse	2:discourse	_
+4	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 68
+# text = Arar upyta ka’a pe wa .
+# text_port = As araras ficam na mata (Sociedade Internacional de Lingüística 77).
+# text_eng = The macaws stay in the fields (LM).
+1	Arar	arar	NOUN	n	_	2	nsubj	2:nsubj	_
+2	upyta	pyta	VERB	v	Person=3	0	root	0:root	_
+3	ka’a	ka'a	NOUN	n	_	2	obl	2:obl	_
+4	pe	pe	ADP	posp	Case=Loc	3	case	3:case	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
