@@ -784,3 +784,26 @@
 8	pa	pa	ADP	posp	Rel=Cont	7	case	7:case	_
 9	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 73
+# text = Oho ka’api’i rehe .
+# text_port = Ele vai (anda) pelo capim (Sociedade Internacional de Lingüística 77).
+# text_eng = It walks through the grass (LM).
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	ka’api’i	ka'api'i	NOUN	n	_	1	obl	1:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 74
+# text = Oho ma’eputyr rehe, mururu rehe.
+# text_port = Ele vai pelas flores e pelos mururus (Sociedade Internacional de Lingüística 77).
+# text_eng = It goes through the flowers and through the water hyacinths (LM).
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2-3	ma’eputyr	_	_	_	_	_	_	_	_
+2	ma’e	ma'e	NOUN	n	_	1	obl	1:obl	_
+3	putyr	putyr	NOUN	n	_	2	nmod	2:nmod	_
+4	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	mururu	mururu	NOUN	n	_	1	obl	1:obl	_
+7	rehe	ehe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
