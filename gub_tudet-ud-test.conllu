@@ -650,3 +650,15 @@
 12	wa	wa	PART	pcl	Number=Plur	8	discourse	8:discourse	_
 13	.	.	PUNCT	punct	_	8	punct	8:punct	_
 
+# sent_id = 62
+# text = Ipira’i ikatu arakur pe i’u mehe .
+# text_port = A saracura gosta de comer peixe (Sociedade Internacional de Lingüística 77).
+# text_eng = The slaty-breasted wood rail likes eating little fishes (LM).
+1	Ipira’i	ipira	NOUN	n	Dim=Yes	2	nsubj	2:nsubj	_
+2	ikatu	katu	VERB	vi	Person=3	0	root	0:root	_
+3	arakur	arakur	NOUN	n	_	2	obl	2:obl	_
+4	pe	pe	ADP	posp	Case=Dat	3	case	3:case	_
+5	i’u	u’u	VERB	vt	Person=3|Rel=NCont	2	advcl	2:advcl	_
+6	mehe	mehe	ADV	adv	_	5	advmod	5:advmod	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
