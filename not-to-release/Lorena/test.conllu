@@ -1,20 +1,45 @@
-# sent_id = 67
-# text = 'Aromo uker no .
-# text_port = Ele também dorme de dia.
-# text_eng = It also sleeps during the day.
-1	'Aromo	'aromo	ADV	adv	_	2	advmod	2:advmod	_
-2	uker	ker	VERB	vi	Person=3	0	root	0:root	_
-3	no	no	PART	pcl	_	2	discourse	2:discourse	_
-4	.	.	PUNCT	punct	_	2	punct	2:punct	_
+# sent_id = 69
+# text = Heta ma’eputyr ’y ’aromo .
+# text_port = Tem flores na superfície da ãgua.
+# text_eng = There are flowers on the water surface
+1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
+2-3	ma’eputyr	_	_	_	_	_	_	_	_
+2	ma’e	ma'e	NOUN	n	_	1	nsubj	1:nsubj	_
+3	putyr	putyr	NOUN	n	_	2	nmod	2:nmod	_
+4	’y	'y	NOUN	n	_	1	obl	1:obl	_
+5	’aromo	'aromo	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
-# sent_id = 68
-# text = Arar upyta ka’a pe wa .
-# text_port = As araras ficam na mata.
-# text_eng = The macaws stay in the fields.
-1	Arar	arar	NOUN	n	_	2	nsubj	2:nsubj	_
-2	upyta	pyta	VERB	v	Person=3	0	root	0:root	_
-3	ka’a	ka'a	NOUN	n	_	2	obl	2:obl	_
-4	pe	pe	ADP	posp	Case=Loc	3	case	3:case	_
-5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
-6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+# sent_id = 70
+# text = Yryhu pe heta ma’eputyr tetea’u i’aromo .
+# text_port = Na lagoa tem muitas flores na ãgua.
+# text_eng = In the lake there are many flowers on the water.
+1	Yryhu	yryk	NOUN	n	Nomzr=DevPass	3	obl	3:obl	_
+2	pe	pe	ADP	posp	Case=Loc	1	case	1:case	_
+3	heta	eta	VERB	vi	Person=3	0	root	0:root	_
+4-5	ma’eputyr	_	_	_	_	_	_	_	_
+4	ma’e	ma'e	NOUN	n	_	3	nsubj	3:nsubj	_
+5	putyr	putyr	NOUN	n	_	4	nmod	4:nmod	_
+6	tetea’u	tete	ADV	adv	_	4	advmod	4:advmod	_
+7	i’aromo	’aromo	NOUN	n	Rel=NCont	4	case	4:case	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 71
+# text = Amo ma’eputyr ’y pe har a’e , mururu her romo a’e .
+# text_port = 0 nome de uma delas é "mururu".
+# text_eng = The name of one of them is "mururu" (water hyacinth).
+1	Amo	amo	DET	dem	_	2	det	2:det	_
+2-3	ma’eputyr	_	_	_	_	_	_	_	_
+2	ma’e	ma'e	NOUN	n	_	9	nsubj	9:nsubj	_
+3	putyr	putyr	NOUN	n	_	2	nmod	2:nmod	_
+4	’y	'y	NOUN	n	_	2	nmod	1:nmod	_
+5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
+6	har	har	ADV	adv	Nomzr=Circ	4	advmod	4:advmod	_
+7	a’e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
+8	,	,	PUNCT	punct	_	9	punct	9:punct	_
+9	mururu	mururu	NOUN	n	_	0	root	0:root	_
+10	her	er	NOUN	n	Rel=NCont	9	obl	9:obl	_
+11	romo	romo	ADP	posp	Rel=Cont	10	case	10:case	_
+12	a’e	a'e	PART	pcl	Person=3	9	discourse	9:discourse	_
+13	.	.	PUNCT	punct	_	9	punct	9:punct	_
 
