@@ -794,7 +794,7 @@
 4	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 74
-# text = Oho ma’eputyr rehe, mururu rehe.
+# text = Oho ma’eputyr rehe, mururu rehe .
 # text_port = Ele vai pelas flores e pelos mururus (Sociedade Internacional de Lingüística 77).
 # text_eng = It goes through the flowers and through the water hyacinths (LM).
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
@@ -806,4 +806,30 @@
 6	mururu	mururu	NOUN	n	_	1	obl	1:obl	_
 7	rehe	ehe	ADP	posp	Rel=Cont	6	case	6:case	_
 8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 75
+# text = Heta ipira tetea’u a’e pe, yryhu pe .
+# text_port = Tem muito peixe lá, na lagoa (Sociedade Internacional de Lingüística 77).
+# text_eng = There are many fishes there, in the lake (LM).
+1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
+2	ipira	ipira	NOUN	n	_	1	nsubj	1:nsubj	_
+3	tetea’u	tete	ADV	adv	_	2	advmod	2:advmod	_
+4	a’e	a'e	PRON	pn	Person=3|PronType=Prs	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	yryhu	yryk	NOUN	n	Nomzr=DevPass	1	obl	1:obl	_
+8	pe	pe	ADP	posp	Case=Loc	7	case	7:case	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 76
+# text = Ume’e hoko iko ipira rehe kury .
+# text_port = 0 socõ estã olhando os peixes (Sociedade Internacional de Lingüística 77).
+# text_eng = The little bittern is looking at the fishes (LM)
+1	Ume’e	me’e	VERB	vi	Person=3	0	root	0:root	_
+2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
+4	ipira	ipira	NOUN	n	_	1	obl	1:obl	_
+5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	kury	kury	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
