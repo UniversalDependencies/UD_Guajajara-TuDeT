@@ -1,14 +1,22 @@
-# sent_id = 72
-# text = Oho hoko iko yryhu pe ipira pyhyk pa .
-# text_port = 0 soco está indo à lagoa para pegar peixe.
-# text_eng = The little bittern is going to the lake to catch fishes (LM).
+# sent_id = 73
+# text = Oho ka’api’i rehe .
+# text_port = Ele vai (anda) pelo capim.
+# text_eng = It walks through the grass (LM).
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
-2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
-3	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
-4	yryhu	yryk	NOUN	n	Nomzr=DevPass	1	obl	1:obl	_
-5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
-6	ipira	ipira	NOUN	n	_	7	obj	7:obj	_
-7	pyhyk	pyhyk	VERB	vt	VerbForm=Inf	1	xcomp	1:xcomp	_
-8	pa	pa	ADP	posp	Rel=Cont	7	case	7:case	_
-9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+2	ka’api’i	ka'api'i	NOUN	n	_	1	obl	1:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 74
+# text = Oho ma’eputyr rehe, mururu rehe.
+# text_port = Ele vai pelas flores e pelos mururus.
+# text_eng = It goes through the flowers and through the water hyacinths (LM).
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2-3	ma’eputyr	_	_	_	_	_	_	_	_
+2	ma’e	ma'e	NOUN	n	_	1	obl	1:obl	_
+3	putyr	putyr	NOUN	n	_	2	nmod	2:nmod	_
+4	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	mururu	mururu	NOUN	n	_	1	obl	1:obl	_
+7	rehe	ehe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
