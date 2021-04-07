@@ -1,19 +1,12 @@
-# sent_id = 61
-# text = Arar ka’a pe har a’e wa , upyta ka’a pe a’e wa .
-# text_port = Tem araras mateiras, elas ficam na mata.
-# text_eng = There are macaws from Mateira, they stay in the field.
-1	Arar	arar	NOUN	n	_	8	nsubj	8:nsubj	_
-2	ka’a	ka'a	NOUN	n	_	1	nmod	1:nmod	_
-3	pe	pe	ADP	posp	Case=Loc	2	case	2:case	_
-4	har	har	ADV	adv	Nomzr=Circ	3	advmod	3:advmod	_
-5	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
-6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
-7	,	,	PUNCT	punct	_	1	punct	1:punct	_
-8	upyta	pyta	VERB	v	Person=3	0	root	0:root	_
-9	ka’a	ka'a	NOUN	n	_	8	obl	8:obl	_
-10	pe	pe	ADP	posp	Case=Loc	9	case	9:case	_
-11	a’e	a'e	PART	pcl	Person=3	8	discourse	8:discourse	_
-12	wa	wa	PART	pcl	Number=Plur	8	discourse	8:discourse	_
-13	.	.	PUNCT	punct	_	8	punct	8:punct	_
-
+# sent_id = 62
+# text = Ipira’i ikatu arakur pe i’u mehe .
+# text_port = A saracura gosta de comer peixe.
+# text_eng = The slaty-breasted wood rail likes eating little fishes.
+1	Ipira’i	ipira	NOUN	n	Dim=Yes	2	nsubj	2:nsubj	_
+2	ikatu	katu	VERB	vi	Person=3	0	root	0:root	_
+3	arakur	arakur	NOUN	n	_	2	obl	2:obl	_
+4	pe	pe	ADP	posp	Case=Dat	3	case	3:case	_
+5	i’u	u’u	VERB	vt	Person=3|Rel=NCont	2	advcl	2:advcl	_
+6	mehe	mehe	ADV	adv	_	5	advmod	5:advmod	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
