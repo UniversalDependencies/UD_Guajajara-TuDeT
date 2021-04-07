@@ -692,3 +692,16 @@
 4	no	no	PART	pcl	_	1	discourse	1:discourse	_
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 66
+# text = Arapapa ipira i’u har romo a’e no .
+# text_port = 0 arapapã também come peixe (Sociedade Internacional de Lingüística 77).
+# text_eng = The boat-billed heron also eats fish (LM).
+1	Arapapa	arapapa	NOUN	n	_	3	nsubj	3:nsubj	_
+2	ipira	ipira	NOUN	n	_	3	obj	2:obj	_
+3	i’u	u’u	VERB	vt	Person=3|Rel=NCont	0	root	0:root	_
+4	har	har	ADV	adv	Nomzr=Circ	3	advmod	3:advmod	_
+5	romo	romo	ADP	posp	_	3	case	3:case	_
+6	a’e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	no	no	PART	pcl	_	3	discourse	3:discourse	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
