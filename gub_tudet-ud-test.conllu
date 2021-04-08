@@ -901,7 +901,7 @@
 # text = Uma’ereko Mari iko a’e .
 # text_port = Ela está trabalhando (Sociedade Internacional de Lingüística, 1973:78).
 # text_eng = She is working (LM).
-1-2	Uma’ereko	eko	VERB	v	Person=3	0	root	0:root	_
+1	Uma’ereko	eko	VERB	v	Person=3	0	root	0:root	_
 2	Mari	Mari	PROPN	pn	_	1	nsubj	1:nsubj	_
 3	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
 4	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
@@ -919,3 +919,4 @@
 5	iko	iko	AUX	aux	Aspect=Prog|Person=3	3	aux	3:aux	_
 6	a’e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
