@@ -1,13 +1,42 @@
-# sent_id = 80
-# text = Zuze hemireko a’e, Mari her romo a’e.
-# text_port = Maria é o nome da mulher de José.
-# text_eng = Maria is the name of the wife of Jose (LM).
-1	Zuze	Zuze	PROPN	ppn	_	2	nmod	2:nmod	_
-2	hemireko	eko	NOUN	n	Rel=NCont	5	nsubj	5:nsubj	_
-3	a’e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
-4	,	,	PUNCT	punct	_	5	punct	5:punct	_
-5	Mari	Mari	PROPN	pn	_	0	root	0:root	_
-6	her	er	NOUN	n	Rel=NCont	5	obl	5:obl	_
-7	romo	romo	ADP	posp	Rel=Cont	6	case	6:case	_
-8	a’e	a'e	PART	pcl	Person=3	5	discourse	5:discourse	_
-9	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 81
+# text = Oho putar Mari ’y pe a’e kury , uma’e iputuka pa kury .
+# text_port = Maria vai ã lagoa para lavar a roupa.
+# text_eng = Maria goes to the lake to wash the clothes (LM).
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	putar	putar	ADV	adv	_	1	advmod	1:advmod	_
+3	Mari	Mari	PROPN	pn	_	1	nsubj	1:nsubj	_
+4	’y	'y	NOUN	n	_	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
+6	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	kury	kury	PART	pcl	_	1	discourse	1:discourse	_
+8	,	,	PUNCT	punct	_	1	punct	1:punct	_
+9	uma’e	ma’e	NOUN	n	Person=3	10	obj	10:obj	_
+10	iputuka	putuka	VERB	vt	Rel=NCont	1	xcomp	1:xcomp	_
+11	pa	pa	ADP	posp	Rel=Cont	10	case	10:case	_
+12	kury	kury	PART	pcl	_	1	discourse	1:discourse	_
+13	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 82
+# text = Uma’ereko Mari iko a’e .
+# text_port = Ela está trabalhando.
+# text_eng = She is working (LM).
+1-2	Uma’ereko	eko	VERB	v	Person=3	0	root	0:root	_
+2	Mari	Mari	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
+4	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 83
+# text = Tueharupi uputuka uma’e iko a’e .
+# text_port = Todos os dias ela lava a roupa dela.
+# text_eng = She washes her clothes every day (LM).
+1-2	Tueharupi	_	_	_	_	_	_	_	_
+1	tueha	tuwe	NOUN	n	Nomzr=Circ	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uputuka	putuka	VERB	v	Person=3	0	root	0:root	_
+4	uma’e	ma’e	NOUN	n	Person=3	3	obj	3:obj	_
+5	iko	iko	AUX	aux	Aspect=Prog|Person=3	3	aux	3:aux	_
+6	a’e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
