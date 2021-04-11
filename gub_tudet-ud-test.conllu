@@ -663,7 +663,7 @@
 3	pupe	pupe	ADP	posp	Rel=Cont	2	case	2:case	_
 4	ipira’i	pira	NOUN	n	Dimin=Yes|Rel=Abs	5	obl	5:obl	_
 5	pyhyk	pyhyk	VERB	vt	VerbForm=Inf	1	xcomp	1:xcomp	_
-6	pa	pa	ADP	posp	Rel=Cont	5	case	5:case	_
+6	pa	pa	ADP	posp	Rel=Cont	5	mark	5:mark	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 54
@@ -791,7 +791,7 @@
 3	arakur	arakur	NOUN	n	_	2	obl	2:obl	_
 4	pe	pe	ADP	posp	Case=Dat	3	case	3:case	_
 5	i’u	u’u	VERB	vt	Person=3	2	advcl	2:advcl	_
-6	mehe	mehe	ADV	adv	_	5	advmod	5:advmod	_
+6	mehe	mehe	ADV	adv	_	5	mark	5:mark	_
 7	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 63
@@ -933,7 +933,7 @@
 5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
 6	ipira	pira	NOUN	n	Rel=Abs	7	obj	7:obj	_
 7	pyhyk	pyhyk	VERB	vt	VerbForm=Inf	3	xcomp	3:xcomp	_
-8	pa	pa	ADP	posp	Rel=Cont	7	case	7:case	_
+8	pa	pa	ADP	posp	Rel=Cont	7	mark	7:mark	_
 9	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 73
@@ -1063,7 +1063,7 @@
 8	,	,	PUNCT	punct	_	1	punct	1:punct	_
 9	uma’e	ma’e	NOUN	n	Person=3	10	obj	10:obj	_
 10	iputuka	putuka	VERB	vt	Rel=NCont	1	xcomp	1:xcomp	_
-11	pa	pa	ADP	posp	Rel=Cont	10	case	10:case	_
+11	pa	pa	ADP	posp	Rel=Cont	10	mark	10:mark	_
 12	kury	kury	PART	pcl	_	10	discourse	10:discourse	_
 13	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
