@@ -650,7 +650,7 @@
 3	ipira’i	ipira	NOUN	n	Dimin=Yes	4	obj	4:obj	_
 4	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	0:root	_
 5	a’e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
-6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+6	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 53
 # text = Oho ’y pupe ipira’i pyhyk pa .
@@ -934,7 +934,7 @@
 6	ipira	pira	NOUN	n	Rel=Abs	7	obj	7:obj	_
 7	pyhyk	pyhyk	VERB	vt	VerbForm=Inf	3	xcomp	3:xcomp	_
 8	pa	pa	ADP	posp	Rel=Cont	7	case	7:case	_
-9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 73
 # text = Oho ka’api’i rehe .
@@ -977,7 +977,7 @@
 6	,	,	PUNCT	punct	_	1	punct	1:punct	_
 7	yryhu	yryk	NOUN	n	Nomzr=DevPass	4	appos	4:appos	_
 8	pe	pe	ADP	posp	Case=Loc	7	case	7:case	_
-9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+9	.	.	PUNCT	punct	_	7	punct	7:punct	_
 
 # sent_id = 76
 # text = Ume’e hoko iko ipira rehe kury .
@@ -1092,5 +1092,5 @@
 4	uma’e	ma’e	NOUN	n	Person=3	5	obj	5:obj	_
 5	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	0:root	_
 6	a’e	a'e	PART	pcl	Person=3	5	discourse	5:discourse	_
-7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+7	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
