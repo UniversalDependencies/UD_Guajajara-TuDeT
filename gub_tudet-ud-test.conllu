@@ -1,24 +1,30 @@
 # sent_id = 1
 # text = Uzekok ywyok rehe
 # text_port = Ele se encostou na parede (Harrison, 2013:194)
+# text_spa = Ella se recostó en la pared (LM)
 # text_eng = He leaned against/on the wall
-1	Uzekok	zekok	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
+# V PP
+1	Uzekok	kok	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
 2	ywyok	ywyok	NOUN	n	_	1	obl	1:obl	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
 
 # sent_id = 2
 # text = Umuwywyk ikamir aguz pupe
 # text_port = Ela costurou a camisa dele com uma agulha (Harrison, 2013:10)
+# text_spa = Ella cosió su camisa con una aguja (LM)
 # text_eng = She sew his shirt with a needle (LM)
-1	Umuwywyk	muwywyk	VERB	vt	Person=3	0	root	0:root	_
-2	ikamir	kamir	NOUN	n	Rel=NCont	1	obj	1:obj	_
+# V O PP
+1	Umuwywyk	wywyk	VERB	vt	Person=3|Voice=Cau	0	root	0:root	_
+2	ikamir	kamir	NOUN	n	Rel=Abs	1	obj	1:obj	_
 3	aguz	aguz	NOUN	n	_	1	obl	1:obl	_
 4	pupe	pupe	ADP	posp	Rel=Cont	3	case	3:case	_
 
 # sent_id = 3
 # text = Nuzapo pixik kwaw agwer ma'e amo ae awa pe
 # text_port = Ele nunca fez este tipo de coisa a nenhum outro homem (Harrison, 2013:10)
+# text_spa = Él nunca hizo ese tipo de cosas a ningún otro hombre (LM)
 # text_eng = He never did this kind of things to any other man (LM)
+# V ADV O PP
 1	Nuzapo	apo	VERB	vt	Person=3|Polarity=Neg	0	root	0:root	_
 2	pixik	pixik	NOUN	n	_	1	obl	1:obl	_
 3	kwaw	kwaw	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
@@ -32,7 +38,9 @@
 # sent_id = 4
 # text = Aha putar ko pe
 # text_port = Eu vou para a roça (Harrison, 2013:10)
-# text_eng = I  will go to the countryside (LM)
+# text_spa = Voy al campo (LM)
+# text_eng = I  will go to the field (LM)
+# V ADV PP
 1	Aha	ha	VERB	vi	Person=1	0	root	0:root	_
 2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
 3	ko	ko	NOUN	n	_	1	obl	1:obl	_
@@ -41,7 +49,9 @@
 # sent_id = 5
 # text = Wiko amo ae ma'e romo a'e
 # text_port = É uma coisa completamente diferente (Harrison, 2013:10)
+# text_spa = Es una cosa completamente diferente (LM)
 # text_eng = It is a completely different thing (LM)
+# V PP S
 1	Wiko	iko	VERB	vi	Person=3	0	root	0:root	_
 2	amo	amo	DET	dem	PronType=Ind	4	det	4:det	_
 3	ae	ae	PART	pcl	_	2	discourse	2:discourse	_
@@ -52,7 +62,9 @@
 # sent_id = 6
 # text = Wexak arapuha a pe
 # text_port = Viu o veado lá longe (Harrison, 2013:10)
+# text_spa = Él vio un gamo a lo lejos (LM)
 # text_eng = He saw a deer far away (LM)
+# V O PP
 1	Wexak	exak	VERB	vt	Person=3	0	root	0:root	_
 2	arapuha	arapuha	NOUN	n	_	1	obj	1:obj	_
 3	a	a	ADV	adv	_	1	obl	1:obl	_
@@ -61,42 +73,54 @@
 # sent_id = 7
 # text = Agwer ma'ea'yr u'u ka'api'i
 # text_port = Este tipo de animal come capim (Harrison, 2013:10)
+# text_spa = Este tipo de animal come hierba (LM)
 # text_eng = This kind of animal eats grass (LM)
+# S V O
 1	Agwer	agwer	DET	dem	PronType=Dem	2	det	2:det	_
-2	ma'ea'yr	ma'ea'yr	NOUN	n	_	3	nsubj	3:nsubj	_
-3	u'u	'u	VERB	vt	Person=3	0	root	0:root	_
-4	ka'api'i	ka'api'i	NOUN	n	_	3	obj	3:obj	_
+2-3	ma'ea'yr	_	_	_	_	_	_	_	_
+2	ma'e	ma'e	NOUN	n	_	4	nsubj	4:nsubj	_
+3	a'yr	a'yr	NOUN	n	_	2	compound	2:compound	_
+4	u'u	'u	VERB	vt	Person=3	0	root	0:root	_
+5	ka'api'i	ka'api'i	NOUN	n	_	4	obj	4:obj	_
 
 # sent_id = 8
 # text = Umuixe kar inemu'i aguz apygwar rupi
 # text_port = Ela enfiou o fio pelo fundo da agulha (Harrison, 2013:10)
+# text_spa = Ella ensartó el hilo de pelo a través del ojo de la aguja (LM).
 # text_eng = She inserted a thread of hair through the eye of the needle (LM)
+# V ADV O PP
 1	Umuixe	ixe	VERB	vt	Person=3|Voice=Cau	0	root	0:root	_
 2	kar	kar	ADV	adv	Voice=Cau	1	advmod	1:advmod	_
 3	inemu'i	inemu'i	NOUN	n	_	1	obj	1:obj	_
 4	aguz	aguz	NOUN	n	_	1	obl	1:obl	_
-5	apygwar	apygwar	NOUN	n	_	4	nmod	4:nmod	_
+5	apygwar	apyha	NOUN	n	Nomzr=Circ	4	nmod	4:nmod	_
 6	rupi	upi	ADP	posp	Rel=Cont	4	case	4:case	_
 
 # sent_id = 9
 # text = Aikwez a'e
 # text_port = Aí está (Harrison, 2013:11)
+# text_spa = Ahí está (LM)
 # text_eng = There it is (LM)
-1	Aikwez	aikwez	PRON	pro	PronType=Dem	2	nmod	2:nmod	_
+# S
+1	Aikwez	aikwez	DET	dem	_	2	det	2:det	_
 2	a'e	a'e	PRON	pro	Person=3|PronType=Prs	0	root	0:root	_
 
 # sent_id = 10
 # text = Aikwez hera'yr a'e
 # text_port = Aí está meu filho (Harrison, 2013:11)
+# text_spa = Ahí está mi hijo (LM)
 # text_eng = My son is there (LM)
-1	Aikwez	aikwez	PRON	pro	PronType=Dem	2	nmod	2:nmod	_
+# S
+1	Aikwez	aikwez	DET	dem	_	2	det	2:det	_
 2	hera'yr	a'yr	NOUN	n	Person=1|Rel=Abs	0	root	0:root	_
 3	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
 
 # sent_id = 11
 # text = Umàno putar ru'u aipo
 # text_port = Talvez ela vá morrer (Harrison, 2013:11)
+# text_spa = Quizá ella muera (LM)
 # text_eng = Maybe she will die (LM)
+# V ADV
 1	Umàno	màno	VERB	vi	Person=3	0	root	0:root	_
 2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
 3	ru'u	ru'u	PART	pcl	_	1	discourse	1:discourse	_
@@ -105,14 +129,18 @@
 # sent_id = 12
 # text = Mon aipo
 # text_port = Quem? (Harrison, 2013:11)
+# text_spa = Quién? (LM)
 # text_eng = Who? (LM)
+# S
 1	Mon	mon	PRON	pro	PronType=Int	0	root	0:root	_
 2	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
 
 # sent_id = 13
 # text = Aputar aipo ma'e ihe
 # text_port = Eu quero aquela coisa (Harrison, 2013:11)
+# text_spa = Quiero aquella cosa (LM)
 # text_eng = I want that thing (LM)
+# V O S
 1	Aputar	putar	VERB	vt	Person=1	0	root	0:root	_
 2	aipo	aipo	DET	dem	PronType=Dem	3	det	3:det	_
 3	ma'e	ma'e	NOUN	n	_	1	obj	1:obj	_
@@ -121,7 +149,9 @@
 # sent_id = 14
 # text = Aha putar aipo pe nehe
 # text_port = Eu vou lá (Harrison, 2013:11)
+# text_spa = Voy a ir allí (LM)
 # text_eng = I will go there (LM)
+# V ADV PP
 1	Aha	ha	VERB	vi	Person=1	0	root	0:root	_
 2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
 3	aipo	aipo	PRON	pro	PronType=Dem	1	obl	1:obl	_
@@ -131,7 +161,9 @@
 # sent_id = 15
 # text = Opo'o aka'u a'e
 # text_port = Ele colhe cacau (Harrison, 2013:12)
+# text_spa = Ella recolecta cacao (LM)
 # text_eng = He collects cacao (LM)
+# V O S
 1	Opo'o	po'o	VERB	vt	Person=3	0	root	0:root	_
 2	aka'u	aka'u	NOUN	n	_	1	obj	1:obj	_
 3	a'e	a'e	PRON	pro	Person=3	1	nsubj	1:nsubj	_
@@ -139,7 +171,9 @@
 # sent_id = 16
 # text = Wexak amo awa a'e pe
 # text_port = Viu algum homem lá (Harrison, 2013:12)
-# text_eng = He saw some men there (LM)
+# text_spa = Vió a algunos hombres allí (LM)
+# text_eng = He/She saw some men there (LM)
+# V O PP
 1	Wexak	exak	VERB	vt	Person=3	0	root	0:root	_
 2	amo	amo	DET	dem	PronType=Ind	3	det	3:det	_
 3	awa	awa	NOUN	n	_	1	obj	1:obj	_
@@ -149,56 +183,70 @@
 # sent_id = 17
 # text = Wiko Zuàw awa zutyka'i romo a'e
 # text_port = João é um homem solitário (Harrison, 2013:16)
+# text_spa = John es un hombre solitario (LM)
 # text_eng = John is a lonely man (LM)
+# V S PP
 1	Wiko	iko	VERB	vi	Person=3	0	root	0:root	_
 2	Zuàw	zuàw	PROPN	ppn	_	1	nsubj	1:nsubj	_
-3	awa	awa	NOUN	n	_	1	obj	1:obj	_
+3	awa	awa	NOUN	n	_	1	obl	1:obl	_
 4	zutyka'i	zutyka'i	NOUN	n	_	3	nmod	3:nmod	_
 5	romo	romo	ADP	posp	_	3	case	3:case	_
-6	a'e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
 
 # sent_id = 18
 # text = Awakwer oho ko pe wà
 # text_port = Os homens foram para a roça (Harrison, 2013:16)
-# text_eng = All men went to the countryside (LM)
+# text_spa = Los hombres fueron al campo
+# text_eng = All men went to the field (LM)
+# S V PP
 1	Awakwer	awa	NOUN	n	Number=Coll	2	nsubj	2:nsubj	_
 2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 3	ko	ko	NOUN	n	_	2	obl	2:obl	_
 4	pe	pe	ADP	posp	Case=All	3	case	3:case	_
-5	wà	wà	PART	pcl	Number=Plur|Person=3	2	discourse	2:discourse	_
+5	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
 
 # sent_id = 19
 # text = A'e ma'e'yw i'a 'ar katu mehe
 # text_port = Aquelas fruteiras dão frutas no tempo certo (Harrison, 2013:18)
-# text_port = Those fruit trees give fruits in a certain time (LM)
+# text_spa = Aquellos árboles frutales dan frutas cada cierto tiempo (LM)
+# text_eng = Those fruit trees give fruits in a certain time (LM)
+# S V PP
 1	A'e	a'e	DET	dem	PronType=Dem	2	det	2:det	_
-2	ma'e'yw	ma'e'yw	NOUN	n	_	3	nsubj	3:nsubj	_
-3	i'a	'a	VERB	vi	Person=3	0	root	0:root	_
-4	'ar	'ar	NOUN	n	_	3	obl	3:obl	_
-5	katu	katu	PART	pcl	_	4	discourse	4:discourse	_
-6	mehe	mehe	ADP	post	_	4	case	4:case	_
+2-3	ma'e'yw	_	_	_	_	_	_	_	_
+2	ma'e	ma'e	NOUN	n	_	4	nsubj	4:nsubj	_
+3	'yw	'yw	NOUN	n	_	2	compound	2:compound	_
+4	i'a	'a	VERB	vi	Person=3	0	root	0:root	_
+5	'ar	'ar	NOUN	n	_	4	obl	4:obl	_
+6	katu	katu	PART	pcl	_	5	discourse	5:discourse	_
+7	mehe	mehe	ADP	posp	_	5	case	5:case	_
 
 # sent_id = 20
 # text = Pixika'i a'e
 # text_port = É muito pequeno (Harrison, 2013:18)
+# text_spa = Es muy pequeño (LM)
 # text_eng = It's very small (LM)
-1	Pixika'i	pixik	NOUN	n	Dimin=Yes	2	nmod	2:nmod	_
-2	a'e	a'e	PRON	pro	Person=3	0	root	0:root	_
+# S
+1	Pixika'i	pixik	NOUN	n	Dimin=Yes	0	root	0:root	_
+2	a'e	a'e	PRON	pro	Person=3	1	nsubj	1:nsubj	_
 
 # sent_id = 21
 # text = Mon aipo ur iko a'e
 # text_port = Quem está vindo? (Harrison, 2013:111)
+# text_spa = Quién está viniendo? (LM)
 # text_eng = Who is coming? (LM)
-1	Mon	mon	PRON	pro	PronType=Int	3	nsubj	3:nsubj	_
+# S V AUX
+1	Mon	mon	PRON	pro	PronType=Int	4	nsubj	4:nsubj	_
 2	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
-3	ur	ur	VERB	vi	Person=3	0	root	0:root	_
-4	iko	iko	AUX	aux	Aspect=Prog|Person=3	3	aux	3:aux	_
-5	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
+3	ur	ur	VERB	vi	Person=3	4	dep	4:dep	_
+4	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	0:root	_
+5	a'e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
 
 # sent_id = 22
 # text = Ukwaw kakwez zeʔengete imungetahaw aʔe wə kurɨ
-# text_eng = They know how to read the true language (Guajajara) now
 # text_port = eles sabem - eu vi - ler a língua guajajara (Harrison, 1986:22)
+# text_spa = Ellos saben cómo leer la verdadera lengua (Guajajara)
+# text_eng = They know how to read the true language (Guajajara) now 
+# V O S ADV
 1	Ukwaw	kwaw	VERB	v	Person=3	0	root	0:root	_
 2	kakwez	kakwez	PART	pcl	Evident=Fh|Tense=Past	1	discourse	1:discourse	_
 3	zeʔengete	zeʔeng	NOUN	n	_	4	nmod	4:nmod	_
@@ -210,7 +258,9 @@
 # sent_id = 23
 # text = Wexak akuxi a'yr ikwar pupe
 # text_port = Ele viu o filhote da cutia dentro do buraco dele (Harrison, 2013:12)
-# text_eng = He saw the cutia cub inside his hole (LM)
+# text_spa = Él vió la cría de agutí dentro de su cueva (LM)
+# text_eng = He saw the agouti cub inside his hole (LM)
+# V O PP
 1	Wexak	exak	VERB	vt	Person=3	0	root	0:root	_
 2	akuxi	akuxi	NOUN	n	_	1	obj	1:obj	_
 3	a'yr	a'yr	NOUN	n	_	2	nmod	2:nmod	_
@@ -220,7 +270,9 @@
 # sent_id = 24
 # text = Akwez awa wiko karaiw romo
 # text_port = Aquele homem é índio (Harrison, 2013:12)
+# text_spa = Aquel hombre es nativo americano (LM)
 # text_eng = That man is Native American (LM)
+# S V PP
 1	Akwez	akwez	DET	dem	PronType=Dem	2	det	2:det	_
 2	awa	awa	NOUN	n	_	3	nsubj	3:nsubj	_
 3	wiko	iko	VERB	vi	Person=3	0	root	0:root	_
@@ -230,73 +282,91 @@
 # sent_id = 25
 # text = Amirikur umumaw ma'e'a kwer a'e wà
 # text_port = Os vermes acabaram com a fruta (Harrison, 2013:12)
-# text_eng = The worms will kill the fruit (LM)
+# text_spa = Los gusanos acabarán con la fruta (LM)
+# text_eng = The worms will ruin the fruit (LM)
+# S V O 
 1	Amirikur	amirikur	NOUN	n	_	2	nsubj	2:nsubj	_
 2	umumaw	maw	VERB	vt	Person=3|Voice=Cau	0	root	0:root	_
-3	ma'e'a	'a	NOUN	n	_	2	obj	2:obj	_
-4	kwer	kwer	ADV	adv	_	3	advmod	3:advmod	_
-5	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
-6	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+3-4	ma'e'a	_	_	_	_	_	_	_	_
+3	ma'e	ma'e	NOUN	n	_	2	nsubj	2:nsubj	_
+4	'a	'a	NOUN	n	_	3	nmod	3:nmod	_
+5	kwer	kwer	ADV	adv	_	3	advmod	3:advmod	_
+6	a'e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
 
 # sent_id = 26
 # text = Amo tuwihaw oho mai'u haw pe a'e wà no
 # text_port = Outros/Alguns chefes foram à festa também (Harrison, 2013:12)
+# text_spa = Algunos jefes también fueron a la fiesta (LM)
 # text_eng = Other bosses also went to the party (LM)
+# S V PP
 1	Amo	amo	DET	dem	PronType=Ind	2	det	2:det	_
-2	tuwihaw	uwihaw	NOUN	n	Person=3|Rel=Abs	3	nsubj	3:nsubj	_
+2	tuwihaw	uwihaw	NOUN	n	Person=3	3	nsubj	3:nsubj	_
 3	oho	ho	VERB	vi	Person=3	0	root	0:root	_
-4	mai'u	mai'u	NOUN	n	_	3	obl	3:obl	_
-5	haw	haw	ADV	adv	_	4	advmod	4:advmod	_
-6	pe	pe	ADP	posp	Case=All	4	case	4:case	_
-7	a'e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
-8	wà	wà	PART	pcl	Number=Plur	3	discourse	3:discourse	_
-9	no	no	PART	pcl	_	3	discourse	3:discourse	_
+4-5	mai'u	_	_	_	_	_	_	_	_
+4	ma'e	ma'e	NOUN	n	_	3	obl	3:obl	_
+5	'u	'u	VERB	v	_	4	nmod	4:nmod	_
+6	haw	haw	ADV	adv	_	5	advmod	5:advmod	_
+7	pe	pe	ADP	posp	_	4	case	4:case	_
+8	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
+9	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+10	no	no	PART	pcl	_	3	discourse	3:discourse	_
 
 # sent_id = 27
 # text = Amogwer oho haikwerupi wà
 # text_port = Os outros foram atrás dele depois de um tempo. (Harrison, 2013:13)
+# text_spa = Los otros lo siguieron después de un rato (LM)
 # text_eng = The others followed him after a while (LM)
+# S V PP
 1	Amogwer	amo	NOUN	n	Number=Coll	2	nsubj	2:nsubj	_
 2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 3-4	haikwerupi	_	_	_	_	_	_	_	_
 3	haikwer	aikwer	NOUN	n	Rel=NCont	2	obl	2:obl	_
 4	rupi	upi	ADP	posp	Rel=Cont	3	case	3:case	_
-5	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+5	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
 
 # sent_id = 28
 # text = Amogwer oho haikweromo wà
 # text_port = Os outros foram logo atrás dele. (Harrison, 2013:13)
+# text_spa = Los otros lo siguieron más tarde (LM)
 # text_eng = The others followed him later on (LM)
+# S V PP
 1	Amogwer	amo	NOUN	n	Number=Coll	2	nsubj	2:nsubj	_
 2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 3-4	haikweromo	_	_	_	_	_	_	_	_
 3	haikwer	aikwer	NOUN	n	Rel=NCont	2	obl	2:obl	_
 4	romo	romo	ADP	posp	_	3	case	3:case	_
-5	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+5	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
 
 # sent_id = 29
 # text = Anyra zanexi'u pyhaw a'e
 # text_port = O morcego nos morde à noite (Harrison, 2013:14)
+# text_spa = Los murciélagos nos muerden por la noche (LM)
 # text_eng = Bats bite us at night (LM)
+# S V C
 1	Anyra	anyra	NOUN	n	_	2	nsubj	2:nsubj	_
-2	zanexi'u	uxi'u	VERB	vt	Clusivity=In|Number=Plur|Person=1	0	root	0:root	_
-3	pyhaw	py	ADV	adv	Nomzr=Circ	2	obl	2:obl	_
-4	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
+2	zanexi'u	xi'u	VERB	vt	Clusivity=In|Number=Plur|Person=1	0	root	0:root	_
+3	pyhaw	py	NOUN	n	Nomzr=Circ	2	obl	2:obl	_
+4	a'e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
 
 # sent_id = 30
 # text = U'u arapapa ipira'i iko a'e
 # text_port = O arapapá está comendo peixinhos (Harrison, 2013:14)
+# text_spa = La arapapá está comiendo pececillos (LM)
 # text_eng = The boat-billed heron is eating small fishes (LM)
-1	U'u	'u	VERB	vt	Person=3	0	root	0:root	_
-2	arapapa	arapapa	NOUN	n	_	1	nsubj	1:nsubj	_
-3	ipira'i	pira	NOUN	n	Dimin=Yes|Rel=NCont	1	obj	1:obj	_
-4	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
-5	a'e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+# V S O AUX 
+1	U'u	'u	VERB	vt	Person=3	4	dep	4:dep	_
+2	arapapa	arapapa	NOUN	n	_	4	nsubj	4:nsubj	_
+3	ipira'i	pira	NOUN	n	Dimin=Yes|Rel=NCont	4	obj	4:obj	_
+4	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	0:root	_
+5	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
 
 # sent_id = 31
 # text = Ezapo arapuk wiràmiri pe nehe
 # text_port = Faça uma arapuca para o passarinho (Harrison, 2013:15)
-# text_eng = Make a trap for the little bird (LM)
+# text_spa = Haz una trampa para pajaritos (LM)
+# text_eng = Make a trap for little birds (LM)
+# V O PP
 1	Ezapo	apo	VERB	vt	Mood=Imp|Number=Sing|Person=2	0	root	0:root	_
 2	arapuk	arapuk	NOUN	n	_	1	obj	1:obj	_
 3	wiràmiri	wirà	NOUN	n	Dimin=Yes	1	obl	1:obl	_
@@ -306,7 +376,9 @@
 # sent_id = 32
 # text = Oho Zuze ihy ko pe kara ipiaromo .
 # text_port = A mãe de José foi à roça para buscar carã (Sociedade Internacional de Lingüística, 1973:77)
-# text_eng = Jose's mother went to the countryside to look for yam (LM)
+# text_spa = La madre de José fue al campo a buscar ñame (LM)
+# text_eng = Jose's mother went to the field to look for yam (LM)
+# V S PP PP
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
 3	ihy	hy	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
@@ -321,7 +393,9 @@
 # sent_id = 33
 # text = Oho Zuze ihy ko pe ka'a rupi .
 # text_port = A mãe de José foi ã roça pelo mato (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = La madre de José fue al campo a través de la selva (LM)
 # text_eng = Jose's mother went to the countryside through the jungle (LM)
+# V S PP PP
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
 3	ihy	hy	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
@@ -334,7 +408,9 @@
 # sent_id = 34
 # text = Oho kara ipiaromo .
 # text_port = Ela foi buscar cará (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = Ella fue a buscar ñame (LM)
 # text_eng = She went to look for yam (LM)
+# V PP
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	kara	kara	NOUN	n	_	1	obl	1:obl	_
 3-4	ipiaromo	_	_	_	_	_	_	_	_
@@ -345,9 +421,11 @@
 # sent_id = 35
 # text = Heta kara tetea’u ko pe .
 # text_port = Tem muito carã na roça (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = Hay mucho ñame en el campo (LM)
 # text_eng = There is a lot of yam in the field (LM)
-1	Heta	eta	VERB	vt	Person=3	0	root	0:root	_
-2	kara	kara	NOUN	n	_	1	obj	1:obj	_
+# V S PP
+1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
+2	kara	kara	NOUN	n	_	1	nsubj	1:nsubj	_
 3	tetea’u	tete	ADV	adv	_	2	advmod	2:advmod	_
 4	ko	ko	NOUN	n	_	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
@@ -356,7 +434,9 @@
 # sent_id = 36
 # text = Zuze ihy o’ok kara ko pe .
 # text_port = A mãe de José arrancou cará na roça (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = La madre de José arrancó ñame del campo (LM)
 # text_eng = Jose's mother pulled yam out of the field (LM)
+# S V PP
 1	Zuze	Zuze	PROPN	pn	_	2	nmod	2:nmod	_
 2	ihy	hy	NOUN	n	Rel=NCont	3	nsubj	3:nsubj	_
 3	o’ok	'ok	VERB	vt	Person=3	0	root	0:root	_
@@ -368,9 +448,11 @@
 # sent_id = 37
 # text = Heta kara tetea’u a’e pe .
 # text_port = Hã muito cará lá (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = Hay mucho ñame allí (LM)
 # text_eng = There is a lot of yam there (LM)
-1	Heta	eta	VERB	vt	Person=3	0	root	0:root	_
-2	kara	kara	NOUN	n	_	1	obj	1:obj	_
+# V S PP
+1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
+2	kara	kara	NOUN	n	_	1	nsubj	1:nsubj	_
 3	tetea’u	tete	ADV	adv	_	2	advmod	2:advmod	_
 4	a’e	a'e	PRON	pn	Person=3	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
@@ -379,7 +461,9 @@
 # sent_id = 38
 # text = O’ok kara tetea’u .
 # text_port = Ela arrancou muito cará (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = Ella arrancó mucho ñame (LM)
 # text_eng = She pulled a lot of yam (LM)
+# V O
 1	O’ok	'ok	VERB	vt	Person=3	0	root	0:root	_
 2	kara	kara	NOUN	n	_	1	obj	1:obj	_
 3	tetea’u	tete	ADV	adv	_	2	advmod	2:advmod	_
@@ -388,7 +472,9 @@
 # sent_id = 39
 # text = Hete katu kara Zuze ihy pe .
 # text_port = A mãe de José acha que o cará é muito gostoso (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = El ñame está delicioso según la madre de José (LM)
 # text_eng = Jose's mother finds yam delicious (LM)
+# V ADV S PP
 1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
 3	kara	kara	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -400,32 +486,38 @@
 # sent_id = 40
 # text = Hete katu Kari pe a’e no .
 # text_port = Karita também o acha gostoso (Sociedade Internacional de Lingüística, 1973:77)
-# text_eng = Karita also finds it tasty (LM)
+# text_spa = (El ñame) también está rico según Kari (LM)
+# text_eng = Kari also finds it tasty (LM)
+# V ADV PP
 1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
 3	Kari	Kari	PROPN	pn	_	1	obl	1:obl	_
 4	pe	pe	ADP	posp	Case=Dat	3	case	3:case	_
-5	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	a’e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 6	no	no	PART	pcl	_	1	discourse	1:discourse	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 41
 # text = Hete katu kara Zuze pe a’e no .
 # text_port = José também acha gue o cará é gostoso (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = El ñame también está delicioso según José (LM)
 # text_eng = Jose also thinks that the yam is tasty (LM)
+# V ADV S PP
 1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
 3	kara	kara	NOUN	n	_	1	nsubj	1:nsubj	_
 4	Zuze	Zuze	PROPN	pn	_	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=Dat	4	case	4:case	_
-6	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	a’e	a'e	PART	pcl	Person=3	4	discourse	4:discourse	_
 7	no	no	PART	pcl	_	1	discourse	1:discourse	_
 8	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 42
 # text = Zuze ihy o’ok kara .
 # text_port = A mãe de Jose arrancou cará (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = La madre de José arrancó ñame (LM)
 # text_eng = Jose's mother pulled yam (LM)
+# S V O
 1	Zuze	Zuze	PROPN	pn	_	2	nmod	2:nmod	_
 2	ihy	hy	NOUN	n	Rel=NCont	3	nsubj	3:nsubj	_
 3	o’ok	'ok	VERB	vt	Person=3	0	root	0:root	_
@@ -435,7 +527,9 @@
 # sent_id = 43
 # text = I’ok ire , oho hyru ipiaromo .
 # text_port = Depois de arrancã-lo, ela foi buscar um vasilhame (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = Después de arrancarlo, ella fue a buscar un recipiente (LM)
 # text_eng = After pulling it, she went to look for a recipient (LM)
+# PP V PP
 1	I’ok	’ok	VERB	vt	Person=3	4	xcomp	4:xcomp	_
 2	ire	re	ADP	posp	Rel=NCont	1	case	1:case	_
 3	,	,	PUNCT	punct	_	1	punct	1:punct	_
@@ -449,7 +543,9 @@
 # sent_id = 44
 # text = Oho kok ipiaromo .
 # text_port = Ela foi buscar um cesto (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = Ella fue a buscar un cesto (LM)
 # text_eng = She went to look for a basket (LM)
+# V PP
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	kok	kok	NOUN	n	_	1	obl	1:obl	_
 3-4	ipiaromo	_	_	_	_	_	_	_	_
@@ -460,7 +556,9 @@
 # sent_id = 45
 # text = Heta kara tetea’u .
 # text_port = Tem muito cará (Sociedade Internacional de Lingüística, 1973:77)
+# text_spa = Hay mucho ñame (LM)
 # text_eng = There is a lot of yam (LM)
+# V S
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
 2	kara	kara	NOUN	n	_	1	nsubj	1:nsubj	_
 3	tetea’u	tete	ADV	adv	_	2	advmod	2:advmod	_
@@ -469,7 +567,9 @@
 # sent_id = 46
 # text = Uhua’u hyru .
 # text_port = 0 cesto é grande (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = El cesto es grande (LM)
 # text_eng = The basket is big (LM)
+# V S
 1	Uhua’u	uhu	VERB	vi	Person=3	0	root	0:root	_
 2	hyru	yru	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
 3	.	.	PUNCT	punct	_	1	punct	1:punct	_
@@ -477,7 +577,9 @@
 # sent_id = 47
 # text = Oho Zuze ihy hyruhu ipiaromo .
 # text_port = A mãe de José foi buscar o cesto grande (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = La madre de José fue a buscar un cesto grande (LM)
 # text_eng = Jose's mother went to look for the big basket (LM)
+# V S PP
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
 3	ihy	hy	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
@@ -489,8 +591,10 @@
 
 # sent_id = 48
 # text = Tueharupi oho arapapa 'y pe .
-# text_port = Todos os dias o arapapã vai ã água (Sociedade Internacional de Lingüística, 1973:77).
+# text_port = Todos os dias o arapapá vai a água (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Todos los días la arapapá va al agua (LM)
 # text_eng = Every day the boat-billed heron goes to the water (LM)
+# PP V S PP
 1-2	Tueharupi	_	_	_	_	_	_	_	_
 1	tueha	tuwe	NOUN	n	Nomzr=Circ	3	obl	3:obl	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
@@ -503,7 +607,9 @@
 # sent_id = 49
 # text = Ipy uhua'u .
 # text_port = 0 pé dele é grande (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Su pie es grande (LM)
 # text_eng = Its foot is big (LM)
+# S V
 1	Ipy	py	NOUN	n	Rel=Abs	2	nsubj	2:nsubj	_
 2	uhua'u	uhu	VERB	vi	Person=3	0	root	0:root	_
 3	.	.	PUNCT	punct	_	2	punct	2:punct	_
@@ -511,17 +617,21 @@
 # sent_id = 50
 # text = Ipy ipukua'u a'e no .
 # text_port = O pé dele é comprido também (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Su pie también es grande (LM)
 # text_eng = Its foot is also long (LM)
+# S V
 1	Ipy	py	NOUN	n	Rel=Abs	2	nsubj	2:nsubj	_
 2	ipukua'u	puku	VERB	vi	Person=3	0	root	0:root	_
-3	a'e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
+3	a'e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
 4	no	no	PART	pcl	_	2	discourse	2:discourse	_
 5	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 51
 # text = Heta ipira tetea’u ’y pe .
 # text_port = Hã muito peixe na ãgua (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Hay muchos peces en el agua (LM)
 # text_eng = There are many fishes in the water (LM)
+# V S PP
 1	Heta	eta	VERB	vt	Person=3	0	root	0:root	_
 2	ipira	ipira	NOUN	n	_	1	nsubj	1:nsubj	_
 3	tetea’u	tete	ADV	adv	_	2	advmod	2:advmod	_
@@ -531,31 +641,37 @@
 
 # sent_id = 52
 # text = U’u arapapa ipira’i iko a’e .
-# text_port = 0 arapapã esta comendo peixinhos (Sociedade Internacional de Lingüística, 1973:77).
+# text_port = 0 arapapá esta comendo peixinhos (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = La arapapá está comiendo pececillos
 # text_eng = The boat-billed heron is eating little fishes (LM)
-1	U’u	'u	VERB	vt	Person=3	0	root	0:root	_
-2	arapapa	arapapa	NOUN	n	_	1	nsubj	1:nsubj	_
-3	ipira’i	ipira	NOUN	n	Dimin=Yes	1	obj	1:obj	_
-4	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
-5	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+# V S O AUX
+1	U’u	'u	VERB	vt	Person=3	4	dep	4:dep	_
+2	arapapa	arapapa	NOUN	n	_	4	nsubj	4:nsubj	_
+3	ipira’i	ipira	NOUN	n	Dimin=Yes	4	obj	4:obj	_
+4	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	0:root	_
+5	a’e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 53
 # text = Oho ’y pupe ipira’i pyhyk pa .
-# text_port = Ele vai dentro da ãgua para pegar peixinhos (Sociedade Internacional de Lingüística, 1973:77).
+# text_port = Ele vai dentro da água para pegar peixinhos (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Ella va dentro del agua para atrapar pececillos (LM)
 # text_eng = It goes into the water to catch little fishes (LM)
+# V PP PP
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	’y	'y	NOUN	n	_	1	obl	1:obl	_
 3	pupe	pupe	ADP	posp	Rel=Cont	2	case	2:case	_
-4	ipira’i	ipira	NOUN	n	Dimin=Yes	5	obl	5:obl	_
+4	ipira’i	pira	NOUN	n	Dimin=Yes|Rel=Abs	5	obl	5:obl	_
 5	pyhyk	pyhyk	VERB	vt	VerbForm=Inf	1	xcomp	1:xcomp	_
 6	pa	pa	ADP	posp	Rel=Cont	5	case	5:case	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 54
 # text = Tueharupi oho arapapa ’y pe , yryhu pe .
-# text_port = Todos os dias o arapapã vai ã ãgua, ã lagoa (Sociedade Internacional de Lingüística, 1973:77).
+# text_port = Todos os dias o arapapá vai á água, á lagoa (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Todos los días la arapapá va al agua, al lago (LM)
 # text_eng = Every day the boat-billed heron goes to the water, the lake (LM)
+# PP V S PP PP
 1-2	Tueharupi	_	_	_	_	_	_	_	_
 1	tueha	tuwe	NOUN	n	Nomzr=Circ	3	obl	3:obl	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
@@ -570,52 +686,62 @@
 
 # sent_id = 55
 # text = Upyhyk arapapa ipira’i kury .
-# text_port = 0 arapapã pega peixinhos (Sociedade Internacional de Lingüística, 1973:77).
+# text_port = 0 arapapá pega peixinhos (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = La arapapá atrapa pececillos (LM)
 # text_eng= The boat-billed heron catches small fishes (LM)
+# V S O
 1	Upyhyk	pyhyk	VERB	vt	Person=3	0	root	0:root	_
 2	arapapa	arapapa	NOUN	n	_	3	nsubj	3:nsubj	_
-3	ipira’i	ipira	NOUN	n	Dimin=Yes	1	obj	1:obj	_
+3	ipira’i	pira	NOUN	n	Dimin=Yes|Rel=Abs	1	obj	1:obj	_
 4	kury	kury	PART	pcl	_	1	discourse	1:discourse	_
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 56
 # text = U’u kury .
 # text_port = Ele come (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Ahora come (LM)
 # text_eng = It eats now (LM)
+# V
 1	U’u	’u	VERB	vt	Person=3	0	root	0:root	_
 2	kury	kury	PART	pcl	_	1	discourse	1:discourse	_
 3	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 57
 # text = Hete katu ipira’i arapapa pe .
-# text_port = O arapapa gosta o peixinhos (Sociedade Internacional de Lingüística, 1973:77).
+# text_port = O arapapá gosta o peixinhos (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Los pececillos están deliciosos según la arapapá (LM)
 # text_eng = The boat-billed heron likes small fishes (LM)
+# V ADV S PP
 1	Hete	ete	VERB	vi	Person=3	0	root	0:root	_
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
-3	ipira’i	ipira	NOUN	n	Dimin=Yes	5	obl	5:obl	_
-4	arapapa	arapapa	NOUN	n	_	3	nsubj	3:nsubj	_
-5	pe	pe	ADP	posp	Case=Dat	1	case	1:case	_
+3	ipira’i	pira	NOUN	n	Dimin=Yes|Rel=Abs	1	nsubj	1:nsubj	_
+4	arapapa	arapapa	NOUN	n	_	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Case=Dat	4	case	4:case	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 58
 # text = Yryhu pe , heta tetea’u ipira .
 # text_port = Na lagoa tem muito peixe (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = En el lago hay muchos peces (LM)
 # text_eng = In the lake there are many fishes (LM)
+# PP V S
 1	Yryhu	yryk	NOUN	n	Nomzr=DevPass	4	obl	4:obl	_
 2	pe	pe	ADP	posp	Case=Loc	1	case	1:case	_
 3	,	,	PUNCT	punct	_	1	punct	1:punct	_
 4	heta	eta	VERB	vi	Person=3	0	root	0:root	_
 5	tetea’u	tete	ADV	adv	_	4	advmod	4:advmod	_
-6	ipira	ipira	NOUN	n	_	4	nsubj	4:nsubj	_
+6	ipira	pira	NOUN	n	Rel=Abs	4	nsubj	4:nsubj	_
 7	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 59
 # text = Heta tetea’u ipira’i yryhu pe no .
 # text_port = Tem muito peixinho na lagoa também (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = También hay muchos pececillos en el lago (LM)
 # text_eng = There are many small fishes also in the lake (LM)
+# V S PP
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
 2	tetea’u	tete	ADV	adv	_	1	advmod	1:advmod	_
-3	ipira’i	ipira	NOUN	n	Dimin=Yes	1	nsubj	1:nsubj	_
+3	ipira’i	pira	NOUN	n	Dimin=Yes|Rel=Abs	1	nsubj	1:nsubj	_
 4	yryhu	yryk	NOUN	n	Nomzr=DevPass	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
 6	no	no	PART	pcl	_	1	discourse	1:discourse	_
@@ -624,18 +750,22 @@
 # sent_id = 60
 # text = Heta arar ka’a pe wa .
 # text_port = Hã araras na mata (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Hay guacamayos en el campo (LM)
 # text_eng = There are macaws in the field (LM)
+# V S PP
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
 2	arar	arar	NOUN	n	_	1	nsubj	1:nsubj	_
 3	ka’a	ka'a	NOUN	n	_	1	obl	1:obl	_
 4	pe	pe	ADP	posp	Case=Loc	3	case	3:case	_
-5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 61
 # text = Arar ka’a pe har a’e wa , upyta ka’a pe a’e wa .
 # text_port = Tem araras mateiras, elas ficam na mata (Sociedade Internacional de Lingüística, 1973:77).
-# text_eng = There are macaws from Mateira, they stay in the field (LM).
+# text_spa = Hay guacamayos del campo, ellas están en el campo (LM)
+# text_eng = There are macaws from the field, they stay in the field (LM).
+# S V PP
 1	Arar	arar	NOUN	n	_	8	nsubj	8:nsubj	_
 2	ka’a	ka'a	NOUN	n	_	1	nmod	1:nmod	_
 3	pe	pe	ADP	posp	Case=Loc	2	case	2:case	_
@@ -653,8 +783,10 @@
 # sent_id = 62
 # text = Ipira’i ikatu arakur pe i’u mehe .
 # text_port = A saracura gosta de comer peixe (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = A la saracura le gusta comer peces (LM)
 # text_eng = The slaty-breasted wood rail likes eating little fishes (LM).
-1	Ipira’i	ipira	NOUN	n	Dimin=Yes	2	nsubj	2:nsubj	_
+# S V PP C
+1	Ipira’i	pira	NOUN	n	Dimin=Yes|Rel=Abs	2	nsubj	2:nsubj	_
 2	ikatu	katu	VERB	vi	Person=3	0	root	0:root	_
 3	arakur	arakur	NOUN	n	_	2	obl	2:obl	_
 4	pe	pe	ADP	posp	Case=Dat	3	case	3:case	_
@@ -665,9 +797,11 @@
 # sent_id = 63
 # text = Arakur ipira i’u har romo a’e .
 # text_port = A saracura come peixe (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = La saracura come peces (LM)
 # text_eng = The slaty-breasted wood rail eats fish (LM).
+# S O PP
 1	Arakur	arakur	NOUN	n	_	2	nsubj	2:nsubj	_
-2	ipira	ipira	NOUN	n	_	0	root	0:root	_
+2	ipira	pira	NOUN	n	Rel=NCont	0	root	0:root	_
 3	i’u	u’u	VERB	vt	Person=3|Rel=NCont	1	nmod	1:nmod	_
 4	har	har	ADV	adv	Nomzr=Circ	3	advmod	3:advmod	_
 5	romo	romo	ADP	posp	_	3	case	3:case	_
@@ -677,7 +811,9 @@
 # sent_id = 64
 # text = 'Aromo uker .
 # text_port = Ela dorme de dia (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Ella duerme de día (LM)
 # text_eng = It sleeps during the day (LM).
+# ADV V
 1	'Aromo	'aromo	ADV	adv	_	2	advmod	2:advmod	_
 2	uker	ker	VERB	vi	Person=3	0	root	0:root	_
 3	.	.	PUNCT	punct	_	2	punct	2:punct	_
@@ -685,7 +821,9 @@
 # sent_id = 65
 # text = Ipuku a’u ipy no .
 # text_port = 0 pé dela é grande (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Su pie es grande (LM)
 # text_eng = Its foot is big (LM).
+# V ADV S
 1	Ipuku	puku	VERB	vi	Person=3	0	root	0:root	_
 2	a’u	a'u	ADV	adv	_	1	advmod	1:advmod	_
 3	ipy	py	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
@@ -694,21 +832,25 @@
 
 # sent_id = 66
 # text = Arapapa ipira i’u har romo a’e no .
-# text_port = 0 arapapã também come peixe (Sociedade Internacional de Lingüística, 1973:77).
+# text_port = 0 arapapá também come peixe (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = La arapapá también come pescado (LM)
 # text_eng = The boat-billed heron also eats fish (LM).
+# S O PP 
 1	Arapapa	arapapa	NOUN	n	_	3	nsubj	3:nsubj	_
-2	ipira	ipira	NOUN	n	_	3	obj	3:obj	_
-3	i’u	u’u	VERB	vt	Person=3|Rel=NCont	0	root	0:root	_
+2	ipira	pira	NOUN	n	Rel=Abs	0	root	0:root	_
+3	i’u	u’u	VERB	vt	Person=3|Rel=NCont	2	obl	2:obl	_
 4	har	har	ADV	adv	Nomzr=Circ	3	advmod	3:advmod	_
 5	romo	romo	ADP	posp	_	3	case	3:case	_
-6	a’e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
+6	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
 7	no	no	PART	pcl	_	3	discourse	3:discourse	_
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 67
 # text = 'Aromo uker no .
 # text_port = Ele também dorme de dia (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Ella también duerme de día (LM)
 # text_eng = It also sleeps during the day (LM).
+# ADV V
 1	'Aromo	'aromo	ADV	adv	_	2	advmod	2:advmod	_
 2	uker	ker	VERB	vi	Person=3	0	root	0:root	_
 3	no	no	PART	pcl	_	2	discourse	2:discourse	_
@@ -717,18 +859,22 @@
 # sent_id = 68
 # text = Arar upyta ka’a pe wa .
 # text_port = As araras ficam na mata (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Las araras están en el campo (LM)
 # text_eng = The macaws stay in the fields (LM).
+# S V PP
 1	Arar	arar	NOUN	n	_	2	nsubj	2:nsubj	_
 2	upyta	pyta	VERB	v	Person=3	0	root	0:root	_
 3	ka’a	ka'a	NOUN	n	_	2	obl	2:obl	_
 4	pe	pe	ADP	posp	Case=Loc	3	case	3:case	_
-5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
 6	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 69
 # text = Heta ma’eputyr ’y ’aromo .
 # text_port = Tem flores na superfície da ãgua (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Hay flores en la superficie del agua (LM)
 # text_eng = There are flowers on the water surface (LM).
+# V S PP
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
 2-3	ma’eputyr	_	_	_	_	_	_	_	_
 2	ma’e	ma'e	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -740,7 +886,9 @@
 # sent_id = 70
 # text = Yryhu pe heta ma’eputyr tetea’u i’aromo .
 # text_port = Na lagoa tem muitas flores na ãgua (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = En el lago hay muchas flores en el agua (LM).
 # text_eng = In the lake there are many flowers on the water (LM).
+# PP V S PP
 1	Yryhu	yryk	NOUN	n	Nomzr=DevPass	3	obl	3:obl	_
 2	pe	pe	ADP	posp	Case=Loc	1	case	1:case	_
 3	heta	eta	VERB	vi	Person=3	0	root	0:root	_
@@ -748,13 +896,15 @@
 4	ma’e	ma'e	NOUN	n	_	3	nsubj	3:nsubj	_
 5	putyr	putyr	NOUN	n	_	4	nmod	4:nmod	_
 6	tetea’u	tete	ADV	adv	_	4	advmod	4:advmod	_
-7	i’aromo	’aromo	NOUN	n	Rel=NCont	4	case	4:case	_
+7	i’aromo	’aromo	ADP	posp	Rel=Abs	3	obl	3:obl	_
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 71
 # text = Amo ma’eputyr ’y pe har a’e , mururu her romo a’e .
 # text_port = 0 nome de uma delas é "mururu" (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = El nombre de una de ellas es jacinto de agua (LM)
 # text_eng = The name of one of them is water hyacinth (LM)
+# S O PP
 1	Amo	amo	DET	dem	_	2	det	2:det	_
 2-3	ma’eputyr	_	_	_	_	_	_	_	_
 2	ma’e	ma'e	NOUN	n	_	9	nsubj	9:nsubj	_
@@ -773,21 +923,25 @@
 # sent_id = 72
 # text = Oho hoko iko yryhu pe ipira pyhyk pa .
 # text_port = 0 soco está indo à lagoa para pegar peixe (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = El avetorillo está yendo al lado para atrapar peces (LM)
 # text_eng = The little bittern is going to the lake to catch fishes (LM).
-1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
-2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
-3	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
-4	yryhu	yryk	NOUN	n	Nomzr=DevPass	1	obl	1:obl	_
+# V S AUX PP PP
+1	Oho	ho	VERB	vi	Person=3	3	dep	3:dep	_
+2	hoko	hoko	NOUN	n	_	3	nsubj	3:nsubj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	0:root	_
+4	yryhu	yryk	NOUN	n	Nomzr=DevPass	3	obl	3:obl	_
 5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
-6	ipira	ipira	NOUN	n	_	7	obj	7:obj	_
-7	pyhyk	pyhyk	VERB	vt	VerbForm=Inf	1	xcomp	1:xcomp	_
+6	ipira	pira	NOUN	n	Rel=Abs	7	obj	7:obj	_
+7	pyhyk	pyhyk	VERB	vt	VerbForm=Inf	3	xcomp	3:xcomp	_
 8	pa	pa	ADP	posp	Rel=Cont	7	case	7:case	_
 9	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 73
 # text = Oho ka’api’i rehe .
 # text_port = Ele vai (anda) pelo capim (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Va por la hierba (LM)
 # text_eng = It walks through the grass (LM).
+# V PP
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	ka’api’i	ka'api'i	NOUN	n	_	1	obl	1:obl	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
@@ -796,7 +950,9 @@
 # sent_id = 74
 # text = Oho ma’eputyr rehe , mururu rehe .
 # text_port = Ele vai pelas flores e pelos mururus (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Va a través de las flores, de los jacintos de agua (LM)
 # text_eng = It goes through the flowers and through the water hyacinths (LM).
+# V PP PP
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2-3	ma’eputyr	_	_	_	_	_	_	_	_
 2	ma’e	ma'e	NOUN	n	_	1	obl	1:obl	_
@@ -810,33 +966,39 @@
 # sent_id = 75
 # text = Heta ipira tetea’u a’e pe , yryhu pe .
 # text_port = Tem muito peixe lá, na lagoa (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Hay muchos peces allí, en el lago (LM)
 # text_eng = There are many fishes there, in the lake (LM).
+# V S PP
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
-2	ipira	ipira	NOUN	n	_	1	nsubj	1:nsubj	_
+2	ipira	pira	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
 3	tetea’u	tete	ADV	adv	_	2	advmod	2:advmod	_
 4	a’e	a'e	PRON	pn	Person=3|PronType=Prs	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=Loc	4	case	4:case	_
 6	,	,	PUNCT	punct	_	1	punct	1:punct	_
-7	yryhu	yryk	NOUN	n	Nomzr=DevPass	1	obl	1:obl	_
+7	yryhu	yryk	NOUN	n	Nomzr=DevPass	4	appos	4:appos	_
 8	pe	pe	ADP	posp	Case=Loc	7	case	7:case	_
 9	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 76
 # text = Ume’e hoko iko ipira rehe kury .
-# text_port = 0 socõ estã olhando os peixes (Sociedade Internacional de Lingüística, 1973:77).
+# text_port = 0 socó está olhando os peixes (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = El avetorillo está mirando los peces (LM)
 # text_eng = The little bittern is looking at the fishes (LM)
-1	Ume’e	me’e	VERB	vi	Person=3	0	root	0:root	_
-2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
-3	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
-4	ipira	ipira	NOUN	n	_	1	obl	1:obl	_
+# V S AUX PP
+1	Ume’e	me’e	VERB	vi	Person=3	3	dep	3:dep	_
+2	hoko	hoko	NOUN	n	_	3	nsubj	3:nsubj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	0:root	_
+4	ipira	ipira	NOUN	n	_	3	obl	3:obl	_
 5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
-6	kury	kury	PART	pcl	_	1	discourse	1:discourse	_
-7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+6	kury	kury	PART	pcl	_	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 77
 # text = Ume’e akara rehe .
 # text_port = Ele olhados acaras (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Mira a las acaras (LM)
 # text_eng = It looks at the acaras (LM).
+# V PP
 1	Ume’e	me’e	VERB	vi	Person=3	0	root	0:root	_
 2	akara	akara	NOUN	n	_	1	obl	1:obl	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
@@ -845,7 +1007,9 @@
 # sent_id = 78
 # text = Ume’e amo pira rehe a’e no .
 # text_port = Ele olha os outros peixes também (Sociedade Internacional de Lingüística, 1973:77).
-# text_port = It looks at other fishes too (LM).
+# text_spa = Mira a los otros peces también (LM)
+# text_eng = It looks at other fishes too (LM).
+# V PP
 1	Ume’e	me’e	VERB	vi	Person=3	0	root	0:root	_
 2	amo	amo	DET	dem	_	3	det	3:det	_
 3	pira	pira	NOUN	n	_	1	obl	1:obl	_
@@ -857,10 +1021,12 @@
 # sent_id = 79
 # text = Heta muhu a’e pe no .
 # text_port = Tem lampreia lã também (Sociedade Internacional de Lingüística, 1973:77).
+# text_spa = Allí también hay anguilas (LM)
 # text_eng = There are lampreys there too (LM).
+# V S PP
 1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
 2	muhu	muhu	NOUN	n	_	1	nsubj	1:nsubj	_
-3	a’e	a'e	PRON	pn	Person=3|PronType=Prs	1	obl	1:obl	_
+3	a’e	a'e	PRON	pro	Person=3|PronType=Prs	1	obl	1:obl	_
 4	pe	pe	ADP	posp	Case=Loc	3	case	3:case	_
 5	no	no	PART	pcl	_	1	discourse	1:discourse	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
@@ -868,12 +1034,14 @@
 # sent_id = 80
 # text = Zuze hemireko a’e , Mari her romo a’e .
 # text_port = Maria é o nome da mulher de José (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Maria es el nombre de la esposa de José (LM)
 # text_eng = Maria is the name of the wife of Jose (LM).
+# S O PP
 1	Zuze	Zuze	PROPN	ppn	_	2	nmod	2:nmod	_
 2	hemireko	eko	NOUN	n	Rel=NCont	5	nsubj	5:nsubj	_
 3	a’e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
 4	,	,	PUNCT	punct	_	5	punct	5:punct	_
-5	Mari	Mari	PROPN	pn	_	0	root	0:root	_
+5	Mari	Mari	PROPN	pro	_	0	root	0:root	_
 6	her	er	NOUN	n	Rel=NCont	5	obl	5:obl	_
 7	romo	romo	ADP	posp	Rel=Cont	6	case	6:case	_
 8	a’e	a'e	PART	pcl	Person=3	5	discourse	5:discourse	_
@@ -882,41 +1050,47 @@
 # sent_id = 81
 # text = Oho putar Mari ’y pe a’e kury , uma’e iputuka pa kury .
 # text_port = Maria vai ã lagoa para lavar a roupa (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Maria va al lago para lavar la ropa (LM)
 # text_eng = Maria goes to the lake to wash the clothes (LM).
+# V ADV S PP PP
 1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
 2	putar	putar	ADV	adv	_	1	advmod	1:advmod	_
 3	Mari	Mari	PROPN	pn	_	1	nsubj	1:nsubj	_
 4	’y	'y	NOUN	n	_	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Case=All	4	case	4:case	_
-6	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	a’e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
 7	kury	kury	PART	pcl	_	1	discourse	1:discourse	_
 8	,	,	PUNCT	punct	_	1	punct	1:punct	_
 9	uma’e	ma’e	NOUN	n	Person=3	10	obj	10:obj	_
 10	iputuka	putuka	VERB	vt	Rel=NCont	1	xcomp	1:xcomp	_
 11	pa	pa	ADP	posp	Rel=Cont	10	case	10:case	_
-12	kury	kury	PART	pcl	_	1	discourse	1:discourse	_
+12	kury	kury	PART	pcl	_	10	discourse	10:discourse	_
 13	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 82
 # text = Uma’ereko Mari iko a’e .
 # text_port = Ela está trabalhando (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Ella está trabajando (LM)
 # text_eng = She is working (LM).
-1	Uma’ereko	eko	VERB	v	Person=3	0	root	0:root	_
-2	Mari	Mari	PROPN	pn	_	1	nsubj	1:nsubj	_
-3	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
-4	a’e	a'e	PART	pcl	Person=3	1	discourse	1:discourse	_
-5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+# V S AUX
+1	Uma’ereko	eko	VERB	v	Person=3	3	dep	3:dep	_
+2	Mari	Mari	PROPN	pn	_	3	nsubj	3:nsubj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	0:root	_
+4	a’e	a'e	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 83
 # text = Tueharupi uputuka uma’e iko a’e .
 # text_port = Todos os dias ela lava a roupa dela (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Todos los días ella lava su ropa (LM)
 # text_eng = She washes her clothes every day (LM).
+# PP V O AUX
 1-2	Tueharupi	_	_	_	_	_	_	_	_
-1	tueha	tuwe	NOUN	n	Nomzr=Circ	3	obl	3:obl	_
+1	tueha	tuwe	NOUN	n	Nomzr=Circ	5	obl	5:obl	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
-3	uputuka	putuka	VERB	v	Person=3	0	root	0:root	_
-4	uma’e	ma’e	NOUN	n	Person=3	3	obj	3:obj	_
-5	iko	iko	AUX	aux	Aspect=Prog|Person=3	3	aux	3:aux	_
-6	a’e	a'e	PART	pcl	Person=3	3	discourse	3:discourse	_
+3	uputuka	putuka	VERB	v	Person=3	5	dep	5:dep	_
+4	uma’e	ma’e	NOUN	n	Person=3	5	obj	5:obj	_
+5	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	0:root	_
+6	a’e	a'e	PART	pcl	Person=3	5	discourse	5:discourse	_
 7	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
