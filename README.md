@@ -17,6 +17,8 @@ Together with <a href="http://www.endangeredlanguages.com/lang/2981">UD_Akuntsu-
 
 Harison, Carl Dicionário and Harrison, Carole (2013). *Dicionário Guajajara-Português* . SIL, 2013.
 
+Campos Castro, R., & Carvalho Guajajara, P. (2020). Izipi mehe: cibercaminhos linguísticos e literários para a preservação da cultura Tenetehára. Revista Brasileira de Linguística Antropológica, 12(1).
+
 
 # Acknowledgments
 
@@ -25,7 +27,7 @@ The development of the treebank is supported by the by European Research Council
 ## References
 
 * Harison, Carl Dicionário and Harrison, Carole (2013). Dicionário Guajajara-Português. SIL, 2013. 
-
+* Campos Castro, R., & Carvalho Guajajara, P. (2020). Izipi mehe: cibercaminhos linguísticos e literários para a preservação da cultura Tenetehára. Revista Brasileira de Linguística Antropológica, 12(1).
 
 
 # Changelog
