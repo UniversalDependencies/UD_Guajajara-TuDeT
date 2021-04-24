@@ -370,7 +370,7 @@
 1	Ezapo	apo	VERB	vt	Mood=Imp|Number=Sing|Person=2	0	root	0:root	_
 2	arapuk	arapuk	NOUN	n	_	1	obj	1:obj	_
 3	wiràmiri	wirà	NOUN	n	Dimin=Yes	1	obl	1:obl	_
-4	pe	pe	ADP	posp	Case=Ben	3	case	3:case	_
+4	pe	pe	ADP	posp	Case=Dat	3	case	3:case	_
 5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
 
 # sent_id = 32
