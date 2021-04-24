@@ -4,7 +4,7 @@
 
 <p>
 
-UD_Guajajara-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/guaj1255">Guajajara</a>.
+UD_Guajajara-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/guaj1255">Guajajara</a>. The project is a work in progress and the treebank is being updated on a regular basis.
 
 
 
