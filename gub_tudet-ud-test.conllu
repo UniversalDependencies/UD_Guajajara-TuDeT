@@ -1100,7 +1100,7 @@
 # text_spa = Para dejarla limpia .
 # text_eng = In order to get it clean .
 # PP V
-1	aʔe	aʔe	PRON	pn	PronType=Dem	3	obl	3:obl	_
+1	Aʔe	aʔe	PRON	pn	PronType=Dem	3	obl	3:obl	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
 3	ikatu	katu	VERB	vi	Person=3	0	root	0:root	_
 4	.	.	PUNCT	punct	_	3	punct	3:punct	_
