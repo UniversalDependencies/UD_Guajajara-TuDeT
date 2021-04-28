@@ -1340,12 +1340,12 @@
 3	pe	pe	ADP	posp	Case=Loc	2	case	2:case	_
 
 # sent_id = 103
-# text = aʔepe hekon
+# text = Aʔepe hekon
 # text_spa = Él/Ella está aquí.
 # text_eng = He is there (Harrison, 1986:418).
 # PP V
 1-2	Aʔepe	_	_	_	_	_	_	_	_
 1	Aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	3:obl	_
 2	pe	pe	ADP	posp	Case=Loc	1	case	1:case	_
-3	hekon	heko	VERB	vi	Person=3|OblTop=Yes	0	root	0:root	_
+3	hekon	heko	VERB	vi	OblTop=Yes|Person=3	0	root	0:root	_
 
