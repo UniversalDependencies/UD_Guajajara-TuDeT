@@ -1329,3 +1329,23 @@
 6	pe	pe	ADP	posp	Case=All	5	case	5:case	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 102
+# text = Wiko aʔepe
+# text_spa = Él/Ella está aquí.
+# text_eng = He is there (Harrison, 1986:418).
+# V PP
+1	Wiko	iko	VERB	vi	Person=3	0	root	0:root	_
+2-3	aʔepe	_	_	_	_	_	_	_	_
+2	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	1:obl	_
+3	pe	pe	ADP	posp	Case=Loc	2	case	2:case	_
+
+# sent_id = 103
+# text = aʔepe hekon
+# text_spa = Él/Ella está aquí.
+# text_eng = He is there (Harrison, 1986:418).
+# PP V
+1-2	Aʔepe	_	_	_	_	_	_	_	_
+1	Aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	3:obl	_
+2	pe	pe	ADP	posp	Case=Loc	1	case	1:case	_
+3	hekon	heko	VERB	vi	Person=3|OblTop=Yes	0	root	0:root	_
+
