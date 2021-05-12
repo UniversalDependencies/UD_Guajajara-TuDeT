@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>103</sentences><tokens>588</tokens><words>610</words><fused>22</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>103</sentences><tokens>588</tokens><words>610</words><fused>22</fused></test>
+  </size>
+  <lemmas unique="125" /><!-- ., pe, aʔe, ho, eta, maʔe, pira, romo, ,, no, iko, upi, amo, kara, tete -->
+  <forms unique="150" /><!-- ., pe, aʔe, oho, heta, romo, ,, no, maʔe, rupi, kara, teteaʔu, Zuze, ʔɨ, amo -->
+  <fusions unique="11" /><!-- ipiaromo, Tueharupi, maʔeputɨr, aʔepe, Amakɨr, haikweromo, haikwerupi, maiʔu, maʔeaʔɨr, maʔeʔa, maʔeʔɨw -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="10">
+    <tag name="ADP">88</tag><!-- pe, romo, upi, ehe, pa, pupe, ʔaromo, mehe, pɨr, re -->
+    <tag name="ADV">36</tag><!-- tete, katu, putar, har, mehe, ʔaromo, a, ae, aʔu, haw -->
+    <tag name="AUX">7</tag><!-- iko -->
+    <tag name="DET">42</tag><!-- aʔe, amo, agwer, aikwez, aipo, akwez -->
+    <tag name="NOUN">183</tag><!-- maʔe, pira, kara, ʔɨ, hɨ, arapapa, ɨrɨk, ko, toʔom, awa -->
+    <tag name="PART">38</tag><!-- no, kurɨ, wà, wa, aipo, ae, nehe, kakwez, katu, ruʔu -->
+    <tag name="PRON">20</tag><!-- aʔe, mon, aipo, ihe -->
+    <tag name="PROPN">18</tag><!-- Zuze, Mari, Kari, zuàw -->
+    <tag name="PUNCT">83</tag><!-- ., , -->
+    <tag name="VERB">95</tag><!-- ho, eta, ʔu, iko, mim, ʔok, exak, meʔe, putuka, pɨhɨk -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="31">
+    <feat name="Aspect" value="Prog" upos="AUX">7</feat><!-- iko -->
+    <feat name="Case" value="All" upos="ADP">10</feat><!-- pe -->
+    <feat name="Case" value="Dat" upos="ADP">8</feat><!-- pe -->
+    <feat name="Case" value="Loc" upos="ADP">22</feat><!-- pe -->
+    <feat name="Clusivity" value="In" upos="VERB">1</feat><!-- zanexiʔu -->
+    <feat name="Dimin" value="Yes" upos="NOUN">10</feat><!-- ipiraʔi, Imemɨraʔi, Pixikaʔi, wiràmiri -->
+    <feat name="Evident" value="Fh" upos="PART">1</feat><!-- kakwez -->
+    <feat name="Mood" value="Imp" upos="VERB">1</feat><!-- Ezapo -->
+    <feat name="Nomzr" value="Circ" upos="ADV,NOUN">10</feat><!-- har, tueha, apɨgwar, pɨhaw -->
+    <feat name="Nomzr" value="DevPass" upos="NOUN">7</feat><!-- ɨrɨhu -->
+    <feat name="Number" value="Coll" upos="NOUN">3</feat><!-- Amogwer, Awakwer -->
+    <feat name="Number" value="Plur" upos="PART,VERB">11</feat><!-- wà, wa, wə, zanexiʔu -->
+    <feat name="Number" value="Sing" upos="VERB">1</feat><!-- Ezapo -->
+    <feat name="OblTop" value="Yes" upos="VERB">1</feat><!-- hekon -->
+    <feat name="Person" value="1" upos="NOUN,VERB">5</feat><!-- Aha, Aputar, heraʔɨr, zanexiʔu -->
+    <feat name="Person" value="2" upos="VERB">1</feat><!-- Ezapo -->
+    <feat name="Person" value="3" upos="AUX,NOUN,PART,PRON,VERB">99</feat><!-- oho, heta, iko, aʔe, umim, uʔu, wiko, Umeʔe, Wexak, iʔu -->
+    <feat name="Polarity" value="Neg" upos="ADV,VERB">2</feat><!-- Nuzapo, kwaw -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">45</feat><!-- aʔe, Aikwez, agwer, aipo, Akwez -->
+    <feat name="PronType" value="Ind" upos="DET">8</feat><!-- amo -->
+    <feat name="PronType" value="Int" upos="PRON">2</feat><!-- Mon -->
+    <feat name="PronType" value="Prs" upos="PRON">2</feat><!-- aʔe, ihe -->
+    <feat name="Red" value="Mo" upos="NOUN">4</feat><!-- toʔotoʔom -->
+    <feat name="Reflex" value="Yes" upos="NOUN,VERB">6</feat><!-- umaʔe, uhɨ, Uzekok -->
+    <feat name="Rel" value="Abs" upos="ADP,NOUN">17</feat><!-- ipira, ipiraʔi, ipɨ, Hete, heraʔɨr, ikamir, iʔaromo -->
+    <feat name="Rel" value="Cont" upos="ADP,NOUN">30</feat><!-- rupi, rehe, pa, pupe, romo, pira, ʔaromo -->
+    <feat name="Rel" value="NCont" upos="ADP,NOUN,VERB">42</feat><!-- ihɨ, ipiar, Hete, her, imemɨr, haikwer, hemireko, hɨru, iputuka, iʔu -->
+    <feat name="Tense" value="Fut" upos="ADV,PART">5</feat><!-- putar, nehe -->
+    <feat name="Tense" value="Past" upos="PART">1</feat><!-- kakwez -->
+    <feat name="VerbForm" value="Inf" upos="VERB">2</feat><!-- pɨhɨk -->
+    <feat name="Voice" value="Cau" upos="ADV,VERB">4</feat><!-- Umuixe, Umuwɨwɨk, kar, umumaw -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="16">
+    <dep name="advcl">2</dep>
+    <dep name="advmod">33</dep>
+    <dep name="appos">5</dep>
+    <dep name="case">83</dep>
+    <dep name="compound">2</dep>
+    <dep name="dep">8</dep>
+    <dep name="det">15</dep>
+    <dep name="discourse">64</dep>
+    <dep name="mark">6</dep>
+    <dep name="nmod">36</dep>
+    <dep name="nsubj">62</dep>
+    <dep name="obj">26</dep>
+    <dep name="obl">77</dep>
+    <dep name="punct">83</dep>
+    <dep name="root">103</dep>
+    <dep name="xcomp">5</dep>
+  </deps>
+</treebank>
