@@ -1360,7 +1360,7 @@
 4	no	no	PART	pcl	_	1	discourse	1:discourse	_
 5	,	,	PUNCT	punct	_	7	punct	7:punct	_
 6	Mari	Mari	PROPN	pn	_	7	nmod	7:nmod	_
-7	memɨraʔi	memɨr	NOUN	n	Dim=Yes|Rel=Cont	2	appos	2:appos	_
+7	memɨraʔi	memɨr	NOUN	n	Dimin=Yes|Rel=Cont	2	appos	2:appos	_
 8	aʔe	aʔe	PART	pcl	Person=3	7	discourse	7:discourse	_
 9	no	no	PART	pcl	_	7	discourse	7:discourse	_
 10	,	,	PUNCT	punct	_	7	punct	7:punct	_
