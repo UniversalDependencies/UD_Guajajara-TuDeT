@@ -1411,7 +1411,7 @@
 
 # sent_id = 108
 # text = Heta toʔotoʔom aʔe pe , ɨrɨhu pe .
-# text_port = Tem lama lá, na lagoa .
+# text_port = Tem lama lá, na lagoa (Sociedade Internacional de Lingüística, 1973:78).
 # text_spa = Hay fango allí, en el lago.
 # text_eng = There is mud there, in the lake.
 # V S PP
@@ -1423,4 +1423,69 @@
 6	ɨrɨhu	ɨrɨk	NOUN	n	Nomzr=DevPass	3	appos	3:appos	_
 7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
 8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 109
+# text = Maʔe Zuze hemireko her .
+# text_port = Qual é o nome da mulher de José? (Sociedade Internacional de Lingüística, 1973:78)
+# text_spa = ¿Cómo se llama la mujer de José?
+# text_eng = What's the name of Jose's wife?
+# S O
+1	Maʔe	maʔe	PRON	pro	PronType=Int	4	nmod	4:nmod	_
+2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
+3	hemireko	eko	NOUN	n	Rel=NCont	4	nsubj	4:nsubj	_
+4	her	er	NOUN	n	Rel=NCont	0	root	0:root	_
+5	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 110
+# text = Mo oho ɨrɨhu pe .
+# text_port = Quem foi à lagoa? (Sociedade Internacional de Lingüística, 1973:78)
+# text_spa = ¿Cuién fue al lago?
+# text_eng = Who went to the lake?
+# S V PP
+1	Mo	mo	PRON	pro	PronType=Int	2	nsubj	2:nsubj	_
+2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
+3	ɨrɨhu	ɨrɨk	NOUN	n	Nomzr=DevPass	2	obl	2:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 111
+# text = Oho Zuze hemirko ɨrɨhu pe .
+# text_port = A esposa de José foi ã lagoa (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = La esposa de José fue al lago.
+# text_eng = Jose's wife went to the lake.
+# V S PP
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
+3	hemireko	eko	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
+4	ɨrɨhu	ɨrɨk	NOUN	n	Nomzr=DevPass	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 112
+# text = Oho Kari , Mari memɨr aʔe no .
+# text_port = Karita , a filha de Maria foi também (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Karita, la hija de María, también fue.
+# text_eng = Kari, Maria's daughter, went as well.
+# V S
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	Kari	Kari	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	,	,	PUNCT	punct	_	5	punct	5:punct	_
+4	Mari	Mari	PROPN	pn	_	5	nmod	5:nmod	_
+5	memɨr	memɨr	NOUN	n	Rel=Cont	2	appos	2:appos	_
+6	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+7	no	no	PART	pcl	_	5	discourse	5:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 113
+# text = Oho Mari memɨraʔi aʔe no .
+# text_port = A filhinha de Maria também foi (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = La hija de María también fue.
+# text_eng = Maria's daughter went as well.
+# V S
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	Mari	Mari	PROPN	pn	_	3	nmod	3:nmod	_
+3	memɨraʔi	memɨr	NOUN	n	Dimin=Yes|Rel=Cont	1	nsubj	1:nsubj	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
