@@ -1409,3 +1409,18 @@
 4	me	me	ADP	posp	Rel=Cont	3	case	3:case	_
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 108
+# text = Heta toʔotoʔom aʔe pe , ɨrɨhu pe .
+# text_port = Tem lama lá, na lagoa .
+# text_spa = Hay fango allí, en el lago.
+# text_eng = There is mud there, in the lake.
+# V S PP
+1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
+2	toʔotoʔom	toʔom	NOUN	n	Echo=Rdp	1	nsubj	1:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	,	,	PUNCT	punct	_	6	punct	6:punct	_
+6	ɨrɨhu	ɨrɨk	NOUN	n	Nomzr=DevPass	3	appos	3:appos	_
+7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
