@@ -1354,6 +1354,7 @@
 # text_port = Karita chega também, a filhinha de Maria chega também com a mãe (Sociedade Internacional de Lingüística, 1973:78).
 # text_spa = Karita llega también, la hija de María llega también con su madre.
 # text_eng = Kari arrives too, the daughter of Maria also arrives to the water.
+# V S PP
 1	Uhem	hem	VERB	v	Person=3	0	root	0:root	_
 2	Kari	Kari	PROPN	pn	_	1	nsubj	1:nsubj	_
 3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
@@ -1369,4 +1370,42 @@
 13	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
 14	no	no	PART	pcl	_	1	discourse	1:discourse	_
 15	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 105
+# text = Oho hoko kaʔa pe kurɨ .
+# text_port = O socó vai para o mato agora (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = El avetorillo va a la selva ahora.
+# text_eng = The little bittern goes now to the jungle.
+# V S PP
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
+3	kaʔa	kaʔa	NOUN	n	_	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	 .	 .	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 106
+# text = Oho akara amo ʔɨ pe .
+# text_port = 0 acará vai para uma outra agua (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = El acara va a otro río.
+# text_eng = The acara goes to another river
+# V S PP
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	akara	akara	NOUN	n	_	1	obl	1:obl	_
+3	amo	amo	DET	dem	PronType=Ind	4	det	4:det	_
+4	ʔɨ	ʔɨ	NOUN	n	_	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	 .	 .	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 107
+# text = Oho muhu toʔom me .
+# text_port = A lampréia vai para dentro da lama (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Las anguilas van dentro del lodo.
+# text_eng = The lampreys go inside the mud.
+# V S PP
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	muhu	muhu	NOUN	n	_	1	nsubj	1:nsubj	_
+3	toʔom	toʔom	NOUN	n	_	1	obl	1:obl	_
+4	me	me	ADP	posp	Rel=Cont	3	case	3:case	_
+5	 .	 .	PUNCT	punct	_	1	punct	1:punct	_
 
