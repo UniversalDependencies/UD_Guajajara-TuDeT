@@ -1349,8 +1349,8 @@
 2	pe	pe	ADP	posp	Case=Loc	1	case	1:case	_
 3	hekon	heko	VERB	vi	OblTop=Yes|Person=3	0	root	0:root	_
 
-# sent_id = 104 
-# text = Uhem Kari aʔe no, Mari memɨraʔi aʔe no, uhɨ rupi aʔe no .
+# sent_id = 104
+# text = Uhem Kari aʔe no , Mari memɨraʔi aʔe no , uhɨ rupi aʔe no .
 # text_port = Karita chega também, a filhinha de Maria chega também com a mãe (Sociedade Internacional de Lingüística, 1973:78).
 # text_spa = Karita llega también, la hija de María llega también con su madre.
 # text_eng = Kari arrives too, the daughter of Maria also arrives to the water.
