@@ -1489,3 +1489,223 @@
 5	no	no	PART	pcl	_	1	discourse	1:discourse	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 114
+# text = Maʔe pe oho hoko .
+# text_port = Para onde foi o soco? (Sociedade Internacional de Lingüística, 1973:78)
+# text_spa = ¿A dónde ha ido el avetorillo?
+# text_eng = Where did the little bittern go?
+# PP V S
+1	Maʔe	maʔe	PRON	pro	PronType=Int	3	obl	3:obl	_
+2	pe	pe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	oho	ho	VERB	vi	Person=3	0	root	0:root	_
+4	hoko	hoko	NOUN	n	_	3	nsubj	3:nsubj	_
+5	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 115
+# text = Oho hoko kaʔa pe .
+# text_port = 0 socõ foi para o mato (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = El avetorillo ha ido a la selva.
+# text_eng = The little bittern went to the jungle.
+# V S PP
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
+3	kaʔa	kaʔa	NOUN	n	_	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 116
+# text = Maʔe pe oho Zuze hemireko .
+# text_port = Para onde foi a mulher de José? (Sociedade Internacional de Lingüística, 1973:78)
+# text_spa = ¿A dónde ha ido la esposa de José?
+# text_eng = Where did Jose's wife go?
+# PP V S
+1	Maʔe	maʔe	PRON	pro	PronType=Int	3	obl	3:obl	_
+2	pe	pe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	oho	ho	VERB	vi	Person=3	0	root	0:root	_
+4	Zuze	Zuze	PROPN	pn	_	5	nmod	5:nmod	_
+5	hemireko	eko	NOUN	n	Rel=NCont	3	nsubj	3:nsubj	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 117
+# text = Oho ɨrɨhu pe .
+# text_port = Ela foi à lagoa (Sociedade Internacional de Lingüística, 1973:78). 
+# text_spa = Ella fue al lago.
+# text_eng = She went to the lake.
+# V PP
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	ɨrɨhu	ɨrɨk	NOUN	n	Nomzr=DevPass	1	obl	1:obl	_
+3	pe	pe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 118
+# text = Oho umaʔe iputuka pa aʔe .
+# text_port = Ela foi para lavar a roupa (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Ella fue para lavar la ropa.
+# text_eng = She went to wash clothes.
+# V PP
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	umaʔe	maʔe	NOUN	n	Reflex=Yes	3	obj	3:obj	_
+3	iputuka	putuka	VERB	vt	Rel=NCont	1	xcomp	1:xcomp	_
+4	pa	pa	ADP	posp	Rel=Cont	3	mark	3:mark	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 119
+# text = Hoko ixi ipukuaʔu .
+# text_port = 0 bico do socõ é comprido (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = El pico del avetorillo es muy pequeño.
+# text_eng = The little bittern's beak is tiny.
+# V PP
+1	Hoko	hoko	NOUN	n	_	2	nmod	2:nmod	_
+2	ixi	xi	NOUN	n	Rel=NCont	Rel=Abs	3	nmod	3:nmod	_
+3	ipukuaʔu	puku	NOUN	n	Rel=NCont	0	root	0:root	_
+4	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 120
+# text = Upɨhɨk hoko ipira uxi pupe .
+# text_port = 0 socõ pega peixe com seu bico (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = El avetorillo pesca peces con su pico.
+# text_eng = The little bittern fishes with its beak
+# V S O PP
+1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	0:root	_
+2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
+3	ipira	pira	NOUN	n	Rel=Abs	1	obj	1:obj	_
+4	uxi	xi	NOUN	n	Person=3	1	obl	1:obl	_
+5	pupe	pupe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 121
+# text = Upɨhɨk hoko akara uxi pupe .
+# text_port = 0 socõ pegou acara com o bico (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = El avetorillo pesca acaras con su pico.
+# text_eng = The little bittern fishes acaras with its beak.
+# V S O PP
+1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	0:root	_
+2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
+3	akara	akara	NOUN	n	_	1	obj	1:obj	_
+4	uxi	xi	NOUN	n	Person=3	1	obl	1:obl	_
+5	pupe	pupe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 122
+# text = Upɨhɨk paku aʔe no .
+# text_port = Ele pegou pacu também (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = También pesca pacus.
+# text_eng = It fishes pacus too.
+# V O
+1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	0:root	_
+2	paku	paku	NOUN	n	_	1	obj	1:obj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	no	no	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 123
+# text = Upɨhɨk amo ipira uxi pupe aʔe no .
+# text_port = Ele pegou outros peixes com o bico também (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = También pesca otros peces con su pico.
+# text_eng = It also catches other fishes with its beak.
+# V O PP
+1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	0:root	_
+2	amo	amo	DET	dem	PronType=Ind	3	det	3:det	_
+3	ipira	pira	NOUN	n	Rel=Abs	1	obj	1:obj	_
+4	uxi	xi	NOUN	n	Person=3	1	obl	1:obl	_
+5	pupe	pupe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 124
+# text = Uʔu hoko akara .
+# text_port = 0 socõ comeu acara (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = El avetorillo come acaras.
+# text_eng = The little bittern eats acaras.
+# V S O
+1	Uʔu	ʔu	VERB	v	Person=3	0	root	0:root	_
+2	hoko	hoko	NOUN	n	_	1	nsubj	1:nsubj	_
+3	akara	akara	NOUN	n	_	1	obl	1:obl	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 125
+# text = Uʔu paku no .
+# text_port = Comeu pacu (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = También come pacu.
+# text_eng = It eats pacu too.
+# V O
+1	Uʔu	ʔu	VERB	v	Person=3	0	root	0:root	_
+2	paku	paku	NOUN	n	_	1	nsubj	1:nsubj	_
+3	no	no	PART	pcl	_	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 126
+# text = Uʔu amo ipira aʔe no .
+# text_port = Comeu outros peixes também (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = También come otros peces.
+# text_eng = It also eats other kind of fishes.
+# V O
+1	Uʔu	ʔu	VERB	v	Person=3	0	root	0:root	_
+2	amo	amo	DET	dem	PronType=Ind	3	det	3:det	_
+3	ipira	pira	NOUN	n	Rel=Abs	1	obj	1:obj	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 127
+# text = Uhɨk hoko pe kurɨ .
+# text_port = 0 socõ se satisfez (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = El avetorillo está saciado.
+# text_eng = The little bittern is now satiated.
+# V PP
+1	Uhɨk	hɨk	VERB	v	Person=3	0	root	0:root	_
+2	hoko	hoko	NOUN	n	_	1	obl	1:obl	_
+3	pe	pe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 128
+# text = Uʔu ipira teteaʔu .
+# text_port = Ele comeu muito peixe (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Come muchos peces.
+# text_eng = It eats many fishes.
+# V O
+1	Uʔu	ʔu	VERB	v	Person=3	0	root	0:root	_
+2	ipira	pira	NOUN	n	Rel=Abs	1	obj	1:obj	_
+3	teteaʔu	tete	ADV	adv	_	2	advmod	2:advmod	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 129
+# text = Oho awa Zuze ko pe .
+# text_port = Um homem vai à roça de José (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Un hombre va al campo de José.
+# text_eng = A man goes to Jose's field.
+# V S PP
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	awa	awa	NOUN	n	_	1	nsubj	1:nsubj	_
+3	Zuze	Zuze	PROPN	pn	_	4	nmod	4:nmod	_
+4	ko	ko	NOUN	n	Rel=NCont	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 130
+# text = Aʔe awa aʔe , Zuze tu aʔe , oho ko pe amo maʔe ipiaromo .
+# text_port = Aquele homem vai à roça buscar algumas coisas (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Aquel hombre, el padre de José, va al campo a buscar algunas cosas.
+# text_eng = The man, Jose's father, goes to the field to look for some things.
+# V O
+1	aʔe	aʔe	PRON	pro	PronType=Dem	2	det	2:det	_
+2	awa	awa	NOUN	n	_	9	nsubj	9:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	,	,	PUNCT	punct	_	6	punct	6:punct	_
+5	Zuze	Zuze	PROPN	pn	_	6	nmod	6:nmod	_
+6	tu	u	NOUN	n	Person=3	2	appos	2:appos	_
+7	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+8	,	,	PUNCT	punct	_	6	punct	6:punct	_
+9	oho	ho	VERB	vi	Person=3	0	root	0:root	_
+10	ko	ko	NOUN	n	_	9	obl	9:obl	_
+11	pe	pe	ADP	posp	Rel=Cont	10	case	10:case	_
+12	amo	amo	DET	dem	PronType=Ind	13	det	13:det	_
+13	maʔe	maʔe	NOUN	n	_	9	obl	9:obl	_
+14-15	ipiaromo	_	_	_	_	_	_	_	_
+14	ipiar	piar	NOUN	n	Rel=NCont	13	nmod	13:nmod	_
+15	romo	romo	ADP	posp	_	14	case	14:case	_
+16	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
