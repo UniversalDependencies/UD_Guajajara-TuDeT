@@ -1557,7 +1557,7 @@
 # text_eng = The little bittern's beak is tiny.
 # V PP
 1	Hoko	hoko	NOUN	n	_	2	nmod	2:nmod	_
-2	ixi	xi	NOUN	n	Rel=NCont	Rel=Abs	3	nmod	3:nmod	_
+2	ixi	xi	NOUN	n	Rel=NCont	3	nmod	3:nmod	_
 3	ipukuaʔu	puku	NOUN	n	Rel=NCont	0	root	0:root	_
 4	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
@@ -1691,7 +1691,7 @@
 # text_spa = Aquel hombre, el padre de José, va al campo a buscar algunas cosas.
 # text_eng = The man, Jose's father, goes to the field to look for some things.
 # V O
-1	aʔe	aʔe	PRON	pro	PronType=Dem	2	det	2:det	_
+1	Aʔe	aʔe	PRON	pro	PronType=Dem	2	det	2:det	_
 2	awa	awa	NOUN	n	_	9	nsubj	9:nsubj	_
 3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
 4	,	,	PUNCT	punct	_	6	punct	6:punct	_
@@ -1707,5 +1707,5 @@
 14-15	ipiaromo	_	_	_	_	_	_	_	_
 14	ipiar	piar	NOUN	n	Rel=NCont	13	nmod	13:nmod	_
 15	romo	romo	ADP	posp	_	14	case	14:case	_
-16	.	.	PUNCT	punct	_	1	punct	1:punct	_
+16	.	.	PUNCT	punct	_	9	punct	9:punct	_
 
