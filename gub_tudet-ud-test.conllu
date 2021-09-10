@@ -1709,3 +1709,52 @@
 15	romo	romo	ADP	posp	_	14	case	14:case	_
 16	.	.	PUNCT	punct	_	9	punct	9:punct	_
 
+# sent_id = 131
+# text = Heta awaxi Zuze ko pe .
+# text_port = Tem milho na roça de José (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Hay maíz en el campo de José.
+# text_eng = There is corn at José's field.
+# V S PP
+1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
+2	awaxi	awaxi	NOUN	n	_	1	nsubj	1:nsubj	_
+3	Zuze	Zuze	PROPN	pn	_	4	nmod	4:nmod	_
+4	ko	ko	NOUN	n	_	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 132
+# text = Heta awaxi teteaʔu aʔe pe .
+# text_port = Tem muito milho lá (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Allí hay mucho maíz.
+# text_eng = There is much corn there.
+# V S PP
+1	Heta	eta	VERB	vi	Person=3	0	root	0:root	_
+2	awaxi	awaxi	NOUN	n	_	1	nsubj	1:nsubj	_
+3	teteaʔu	tete	ADV	adv	_	2	advmod	2:advmod	_
+4	aʔe	aʔe	PRON	pro	Person=3	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 133
+# text = Amo awa aʔe , Zuze tu aʔe , uputar awaxi Zuze ko pe har aʔe .
+# text_port = 0 homem , o pai de José , quer milho da roça de José (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = El hombre, el padre de José, quiere maíz del campo de José.
+# text_eng = The man, José's father, wants corn from José's field.
+# S V O
+1	amo	amo	DET	dem	PronType=Ind	2	det	2:det	_
+2	awa	awa	NOUN	n	_	9	nsubj	9:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	,	,	PUNCT	punct	_	6	punct	6:punct	_
+5	Zuze	Zuze	PROPN	pn	_	6	nmod	6:nmod	_
+6	tu	u	NOUN	n	Person=3	2	appos	2:appos	_
+7	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+8	,	,	PUNCT	punct	_	6	punct	6:punct	_
+9	uputar	putar	VERB	v	Person=3	0	root	0:root	_
+10	awaxi	awaxi	NOUN	n	_	9	obj	9:obj	_
+11	Zuze	Zuze	PROPN	pn	_	12	nmod	12:nmod	_
+12	ko	ko	NOUN	n	_	10	nmod	10:nmod	_
+13	pe	pe	ADP	posp	Rel=Cont	12	case	12:case	_
+14	har	har	ADV	adv	Nomzr=Circ	12	advmod	12:advmod	_
+15	aʔe	aʔe	PART	pcl	Person=3	9	discourse	9:discourse	_
+16	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
