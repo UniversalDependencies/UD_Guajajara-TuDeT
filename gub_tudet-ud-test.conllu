@@ -1758,7 +1758,6 @@
 15	aʔe	aʔe	PART	pcl	Person=3	9	discourse	9:discourse	_
 16	.	.	PUNCT	punct	_	9	punct	9:punct	_
 
-
 # sent_id = 134
 # text = Aʔe awa aʔe , Zuze tu aʔe , wapɨk ko iwɨr aʔe , waʔɨr haro pa aʔe .
 # text_port = Aquele homem , o pai de José , sentou ao lado da roça para esperar por seu filho (Sociedade Internacional de Lingüística, 1973:79).
@@ -1815,7 +1814,7 @@
 # text_eng = José's father was sitting on the log to wait for his son, in the field.
 # V S PP
 1	Wapɨk	apɨk	VERB	v	Number=Plur|Person=3	0	root	0:root	_
-2	Zuze	Zuze	PROPN	pn	_	nmod	3	3:nmod	_
+2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
 3	tu	u	NOUN	n	Person=3	1	nsubj	1:nsubj	_
 4	ɨwɨra	ɨwɨra	NOUN	n	_	1	obl	1:obl	_
 5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
@@ -1864,14 +1863,14 @@
 # text_spa = De repente unos guacamayos volaron sobre los dos hombres.
 # text_eng = Suddenly some macaws flew over the two men.
 # ADV V S PP
-1	Taritɨkaʔi	taritɨk	ADV	adv	Dim=Yes	2	advmod	2:advmod	_
+1	Taritɨkaʔi	taritɨk	ADV	adv	Dimin=Yes	2	advmod	2:advmod	_
 2	uwewe	wewe	VERB	v	Person=3	0	root	0:root	_
 3	arar	arar	NOUN	n	_	2	nsubj	2:nsubj	_
 4	awa	awa	NOUN	n	_	2	obl	2:obl	_
 5	waʔaromo	ʔaromo	ADP	posp	Number=Plur|Person=3	4	case	4:case	_
 6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
 7	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
-8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+8	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 141
 # text = Uwewe oho kaʔa pe wa kurɨ .
