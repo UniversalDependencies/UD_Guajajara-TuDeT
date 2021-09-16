@@ -2066,3 +2066,53 @@
 3	mukaw	mukaw	NOUN	n	_	2	obj	2:obj	_
 4	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
+
+# sent_id = 155
+# text = Upɨhɨk Zuze tu umukaw .
+# text_port = 0 pai de José pegou a espingarda (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = El padre de José cogió la escopeta.
+# text_eng = José's father caught the rifle.
+# V S O
+1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
+3	tu	u	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
+4	umukaw	mukaw	NOUN	n	Person=3	1	obj	1:obj	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 156
+# text = Waro mahaw tur haw .
+# text_port = Esperou a vinda do catingueiro (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Esperó la llegada del guazuncho.
+# text_eng = He waited for the arrival of the brocket deer.
+# V O
+1	Waro	aro	VERB	vt	Person=3	0	root	0:root	_
+2	mahaw	mahaw	NOUN	n	_	3	nmod	3:nmod	_
+3	tur	ur	VERB	vi	Person=3	1	obj	1:obj	_
+4	haw	haw	ADV	adv	Nomzr=Circ	3	advmod	3:advmod	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 157
+# text = Waro Zuze aʔe no .
+# text_port = Jose esperou também (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = José esperó también.
+# text_eng = José waited too.
+# V S
+1	Waro	aro	VERB	vt	Person=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	no	no	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 158
+# text = Waro mahaw tur haw wa .
+# text_port = Eles esperaram a vinda do catingueiro (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Ellos esperaban la llegada del guazuncho.
+# text_eng = They waited for the arrival of the brocket deer.
+# V O
+1	Waro	aro	VERB	vt	Person=3	0	root	0:root	_
+2	mahaw	mahaw	NOUN	n	_	3	nmod	3:nmod	_
+3	tur	ur	VERB	vi	Person=3	1	obj	1:obj	_
+4	haw	haw	ADV	adv	Nomzr=Circ	3	advmod	3:advmod	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
