@@ -2066,7 +2066,6 @@
 3	mukaw	mukaw	NOUN	n	_	2	obj	2:obj	_
 4	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
-
 # sent_id = 155
 # text = Upɨhɨk Zuze tu umukaw .
 # text_port = 0 pai de José pegou a espingarda (Sociedade Internacional de Lingüística, 1973:79).
@@ -2115,4 +2114,29 @@
 4	haw	haw	ADV	adv	Nomzr=Circ	3	advmod	3:advmod	_
 5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 159
+# text = Ipuipu Zuze kaʔa rehe .
+# text_port = José fez barulho (andando) no mato (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = José hizo ruido (caminando) por el campo.
+# text_eng = José walked noisily through the field.
+# V S PP
+1	Ipuipu	pu	VERB	v	Person=3|Red=Mo	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	kaʔa	kaʔa	NOUN	n	_	1	obl	1:obl	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 160
+# text = Taritɨkaʔi oho mahaw aʔe wi .
+# text_port = De repente o veado foi embora (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = De repente el guazuncho se marchó.
+# text_eng = Suddenly the brocket deer left.
+# ADV V S PP
+1	Taritɨkaʔi	taritɨk	ADV	adv	Dim=Yes	2	advmod	2:advmod	_
+2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
+3	mahaw	mahaw	NOUN	n	_	2	nsubj	2:nsubj	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	obl	2:obl	_
+5	wi	wi	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
