@@ -3,7 +3,7 @@
 # text_port = Ele se encostou na parede (Harrison, 2013:194)
 # text_spa = Ella se recostó en la pared 
 # text_eng = He leaned against/on the wall
-# V PP
+# v PP
 1	Uzekok	kok	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
 2	ɨwɨok	ɨwɨok	NOUN	n	_	1	obl	1:obl	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
@@ -1900,4 +1900,47 @@
 6	u	u	NOUN	n	Rel=Cont	4	iobj	4:iobj	_
 7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
 8	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 143
+# text = Uwewe arar awa waʔaromo .
+# text_port = As araras voaram por cima dos homens (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Los guacamayos volaron sobre los hombres.
+# text_eng = The macaws flew over the men.
+# V S PP
+1	Uwewe	wewe	VERB	vi	Person=3	0	root	0:root	_
+2	arar	arar	NOUN	n	_	1	nsubj	1:nsubj	_
+3	awa	awa	NOUN	n	_	1	obl	1:obl	_
+4	waʔaromo	ʔaromo	ADP	posp	Number=Plur|Person=3	3	case	3:case	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 144
+# text = Uwewe oho ɨwate kaʔa kutɨr wa .
+# text_port = Elas foram voando em direção ao mato (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Fueron volando en dirección a la selva.
+# text_eng = They went flying towards the jungle.
+# V AUX ADV PP
+1	Uwewe	wewe	VERB	vi	Person=3	0	root	0:root	_
+2	oho	ho	VERB	vi	Person=3	1	dep	1:dep	_
+3	ɨwate	ɨwak	ADV	adv	_	1	advmod	1:advmod	_
+4	kaʔa	kaʔa	NOUN	n	_	1	obl	1:obl	_
+5	kutɨr	kutɨr	ADP	posp	Rel=Cont	4	case	4:case	_
+6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 145
+# text = Emeʔe ɨwate nehe tɨ , iʔi Zuze u pe .
+# text_port = Olha là em cima , disse José ao pai (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Mira ahí arriba, le dice José a su padre.
+# text_eng = Look up there, José tells his father.
+# O V S PP
+1	Emeʔe	meʔe	VERB	vi	Person=2|VerbForm=Imp	6	ccomp	6:ccomp	_
+2	ɨwate	ɨwak	ADV	adv	_	1	advmod	1:advmod	_
+3	nehe	nehe	ADV	adv	_	1	advmod	1:advmod	_
+4	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	0:root	_
+7	Zuze	Zuze	PROPN	pn	_	6	nsubj	6:nsubj	_
+8	u	u	NOUN	n	Rel=Cont	6	iobj	6:iobj	_
+9	pe	pe	ADP	posp	Rel=Cont	8	case	8:case	_
+10	.	.	PUNCT	punct	_	6	punct	6:punct	_
 
