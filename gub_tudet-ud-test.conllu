@@ -1986,7 +1986,7 @@
 # text_spa = Por eso estaba yendo al campo.
 # text_eng = That's why it was coming to the field.
 # PP V AUX PP
-1	aʔe	aʔe	PRON	pro	_	4	obl	4:obl	_
+1	Aʔe	aʔe	PRON	pro	_	4	obl	4:obl	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
 3	,	,	PUNCT	punct	_	1	punct	1:punct	_
 4	ur	zur	VERB	v	Person=3	0	root	0:root	_
