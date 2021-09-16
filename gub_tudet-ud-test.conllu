@@ -2217,8 +2217,8 @@
 # S V
 1	Zapepo	zapepo	NOUN	n	_	2	nsubj	2:nsubj	_
 2	ipɨahu	pɨahu	VERB	v	Rel=NCont	0	root	0:root	_
-3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
-4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 167
 # text = Amo ʔar mehe , oho Zuze taw pe .
@@ -2247,4 +2247,15 @@
 3	zapepo	zapepo	NOUN	n	_	1	nsubj	1:nsubj	_
 4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 148
+# text = Hekuzar katu zapepo .
+# text_port = A panela foi cara .
+# text_spa = La cacerola era cara.
+# text_eng = It was a expensive saucepan.
+# V 
+1	Hekuzar	ekuzar	VERB	v	Rel=NCont	0	root	0:root	_
+2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
+3	zapepo	zapepo	NOUN	n	_	1	nsubj	1:nsubj	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
