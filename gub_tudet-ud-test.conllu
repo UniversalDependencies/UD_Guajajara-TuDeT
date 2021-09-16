@@ -1997,3 +1997,43 @@
 9	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
 10	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
+# sent_id = 150
+# text = Wikuwe Zuze ko pe .
+# text_port = José ficou na roça (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = José está en el campo.
+# text_eng = José is in the field.
+# V S PP
+1	Wikuwe	we	VERB	vi	Person=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	ko	ko	NOUN	n	_	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 151
+# text = Wikuwe Zuze tu aʔe pe aʔe no .
+# text_port = 0 pai dele ficou lã também (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = El padre de José también está allí.
+# text_eng = José's father is also there.
+# V S PP
+1	Wikuwe	we	VERB	vi	Person=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
+3	tu	u	NOUN	n	Person=3	1	nsubj	1:nsubj	_
+4	aʔe	aʔe	PRON	pro	_	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 152
+# text = Wikuwe ko pe wa rihi .
+# text_port = Eles ainda estavam lã (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Ellos todavía estaban allí.
+# text_eng = They were still there.
+# V PP
+1	Wikuwe	we	VERB	vi	Person=3	0	root	0:root	_
+2	ko	ko	NOUN	n	_	1	obl	1:obl	_
+3	pe	pe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	rihi	rihi	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
