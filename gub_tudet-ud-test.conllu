@@ -2037,3 +2037,32 @@
 5	rihi	rihi	PART	pcl	_	1	discourse	1:discourse	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 153
+# text = Epɨhɨk mukaw tɨ , iʔi u pe , hewowo pa .
+# text_port = Pega a espingarda , ele disse cochichando (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Coge la escopeta, le dijo cuchicheando.
+# text_eng = Take the rifle, José whispered to his father.
+# O V S PP
+1	Epɨhɨk	pɨhɨk	VERB	vt	Mood=Imp	5	ccomp	5:ccomp	_
+2	mukaw	mukaw	NOUN	n	_	1	obj	1:obj	_
+3	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+6	u	u	NOUN	n	Rel=Cont	5	iobj	5:iobj	_
+7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	,	,	PUNCT	punct	_	5	punct	5:punct	_
+9	hewowo	ewowo	NOUN	n	Rel=NCont	5	obl	5:obl	_
+10	pa	pa	ADP	posp	Rel=Cont	9	case	9:case	_
+11	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
+# sent_id = 154
+# text = Tu upɨhɨk mukaw .
+# text_port = O pai pegou a espingarda (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = El padre cogió la escopeta.
+# text_eng = The father caught the rifle.
+# S V O
+1	Tu	u	NOUN	n	Rel=NCont	2	nsubj	2:nsubj	_
+2	upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	0:root	_
+3	mukaw	mukaw	NOUN	n	_	2	obj	2:obj	_
+4	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
