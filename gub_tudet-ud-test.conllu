@@ -2248,9 +2248,9 @@
 4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
-# sent_id = 148
+# sent_id = 169
 # text = Hekuzar katu zapepo .
-# text_port = A panela foi cara .
+# text_port = A panela foi cara (Sociedade Internacional de Lingüística, 1973:79).
 # text_spa = La cacerola era cara.
 # text_eng = It was a expensive saucepan.
 # V 
@@ -2258,4 +2258,17 @@
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
 3	zapepo	zapepo	NOUN	n	_	1	nsubj	1:nsubj	_
 4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 170
+# text = Ikatu ahɨ zapepo Mari pe .
+# text_port = Maria gostou (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = A María le gustó la cacerola.
+# text_eng = Maria liked the saucepan.
+# V ADV S PP
+1	Ikatu	katu	VERB	v	Rel=NCont	0	root	0:root	_
+2	ahɨ	ahɨ	ADV	adv	_	1	advmod	1:advmod	_
+3	zapepo	zapepo	NOUN	n	_	1	nsubj	1:nsubj	_
+4	Mari	Mari	PROPN	pn	_	1	obl	1:obl	_
+5	pe	pe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
