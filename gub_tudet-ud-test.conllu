@@ -1886,3 +1886,18 @@
 6	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 142
+# text = Arar tɨ , iʔi Zuze u pe .
+# text_port = É uma arara , ele disse ao pai (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Es un guacamayo, José dice a su padre.
+# text_eng = It's a macaw, José tells his father.
+# O V S PP
+1	Arar	arar	NOUN	n	_	4	obj	4:obj	_
+2	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	iʔi	ʔi	VERB	v	Person=3	0	root	0:root	_
+5	Zuze	Zuze	PROPN	pn	_	4	nsubj	4:nsubj	_
+6	u	u	NOUN	n	Rel=Cont	4	iobj	4:iobj	_
+7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
