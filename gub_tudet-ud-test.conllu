@@ -2133,10 +2133,39 @@
 # text_spa = De repente el guazuncho se marchó.
 # text_eng = Suddenly the brocket deer left.
 # ADV V S PP
-1	Taritɨkaʔi	taritɨk	ADV	adv	Dim=Yes	2	advmod	2:advmod	_
+1	Taritɨkaʔi	taritɨk	ADV	adv	Dimin=Yes	2	advmod	2:advmod	_
 2	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 3	mahaw	mahaw	NOUN	n	_	2	nsubj	2:nsubj	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	2	obl	2:obl	_
 5	wi	wi	ADP	posp	Rel=Cont	4	case	4:case	_
 6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 161
+# text = Aʔe rupi uhaw awa awaxi oho wa kurɨ .
+# text_port = Então os homens quebraram milho (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Entonces los hombres segaron el maíz.
+# text_eng = Then the men harvested the corn.
+# PP V S O AUX
+1	aʔe	aʔe	PRON	pro	_	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uhaw	haw	VERB	v	Person=3	0	root	0:root	_
+4	awa	awa	NOUN	n	_	3	nsubj	3:nsubj	_
+5	awaxi	awaxi	NOUN	n	_	3	obj	3:obj	_
+6	oho	ho	VERB	vi	Person=3	3	dep	3:dep	_
+7	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+8	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 162
+# text = Uhaw awaxi paw aʔe wa .
+# text_port = Eles quebraram todo o milho (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Ellos segaron todo el maíz.
+# text_eng = They harvested all the corn.
+# V O
+1	Uhaw	haw	VERB	v	Person=3	0	root	0:root	_
+2	awaxi	awaxi	NOUN	n	_	1	obj	1:obj	_
+3	paw	paw	DET	dem	PronType=Tot	2	det	2:det	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
