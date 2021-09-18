@@ -2517,7 +2517,7 @@
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 190
-# text = Hurɨwete afrɨ putar Kari aʔe nehe no .
+# text = Hurɨwete ahɨ putar Kari aʔe nehe no .
 # text_port = Karita também vai ficar satisfeita (Sociedade Internacional de Lingüística, 1973:80).
 # text_spa = Karita también iba a estar satisfecha.
 # text_eng = Karita was also going to be satisfied.
@@ -2530,4 +2530,46 @@
 6	nehe	nehe	ADV	adv	_	5	case	5:case	_
 7	no	no	PART	pcl	_	1	discourse	1:discourse	_
 8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 191
+# text = Uʔu zapukaz kupiʔi iko aʔe .
+# text_port = A ga1inha está comendo cupim (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = La gallina está comiendo termitas.
+# text_eng = The hen is eating termites.
+# V S O AUX
+1	Uʔu	ʔu	VERB	v	Person=3	0	root	0:root	_
+2	zapukaz	zapukaz	NOUN	n	_	1	nsubj	1:nsubj	_
+3	kupiʔi	kupiʔi	NOUN	n	_	1	obj	1:obj	_
+4	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	dep	1:dep	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 192
+# text = Zuze reimaw aʔe , uʔu kupiʔi iko aʔe .
+# text_port = A galhina de José está comendo cupim (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = La gallina de José está comiendo termitas.
+# text_eng = José's hen is eating termites.
+# S V O AUX
+1	Zuze	Zuze	PROPN	ppn	_	2	nmod	2:nmod	_
+2	reimaw	eimaw	NOUN	n	Rel=Cont	5	nsubj	5:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2discourse	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	uʔu	ʔu	VERB	v	Person=3	0	root	0:root	_
+6	kupiʔi	kupiʔi	NOUN	n	_	5	obj	5:obj	_
+7	iko	iko	AUX	aux	Aspect=Prog|Person=3	5	dep	5:dep	_
+8	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+9	.	.	PUNCT	punct	_	5	punct	5punct	_
+
+# sent_id = 193
+# text = Zapukaz uʔu awaxi aʔe no .
+# text_port = A galhina come milho també (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = La gallina también come maíz.
+# text_eng = The hen also eats corn.
+# S V O
+1	Zapukaz	zapukaz	NOUN	n	_	2	nsubj	2:nsubj	_
+2	uʔu	ʔu	VERB	v	Person=3	0	root	0:root	_
+3	awaxi	awaxi	NOUN	n	_	2	obj	2:obj	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	no	no	PART	pcl	_	2	discourse	2:discourse	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
