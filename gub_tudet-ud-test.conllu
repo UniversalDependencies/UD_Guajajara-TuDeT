@@ -2253,7 +2253,7 @@
 # text_port = A panela foi cara (Sociedade Internacional de Lingüística, 1973:79).
 # text_spa = La cacerola era cara.
 # text_eng = It was a expensive saucepan.
-# V 
+# V ADV S
 1	Hekuzar	ekuzar	VERB	v	Rel=NCont	0	root	0:root	_
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
 3	zapepo	zapepo	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -2271,4 +2271,61 @@
 4	Mari	Mari	PROPN	pn	_	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Rel=Cont	4	case	4:case	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 171
+# text = Hekuzar katu zapepo , iʔi Zuze wemireko pe .
+# text_port = Foi cara , disse José à mulher (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Era cara, le dice José a su mujer.
+# text_eng = It was expensive, José tells his wife.
+# V ADV S PP
+1	Hekuzar	ekuzar	VERB	v	Rel=NCont	5	ccomp	5:ccomp	_
+2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
+3	zapepo	zapepo	NOUN	n	_	1	obj	1:obj	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	iʔi	ʔi	NOUN	n	Person=3	0	root	0:root	_
+6	Zuze	Zuze	PROPN	pn	_	5	nsubj	5:nsubj	_
+7	wemireko	eko	NOUN	n	_	5	obl	5:obl	_
+8	pe	pe	ADP	posp	Rel=Cont	7	case	7:case	_
+9	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 172
+# text = Zahɨ uhɨape iko kurɨ .
+# text_port = A lua ilumina agora (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = La luna ilumina ahora.
+# text_eng = The moon is shining now.
+# S V AUX
+1	Zahɨ	zahɨ	NOUN	n	_	2	nsubj	2:nsubj	_
+2	uhɨape	hɨape	VERB	vi	Person=3	0	root	0:root	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person=3	2	dep	2:dep	_
+4	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 173
+# text = Uwewe pɨpɨ kaʔa rupi ɨwɨ ʔaromo .
+# text_port = A coruja voa pelo mato por cima da terra (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = El búho vuela por la selva sobre la tierra.
+# text_eng = The owl flies through the jungle over the earth.
+# V S PP PP
+1	Uwewe	wewe	VERB	v	Person=3	0	root	0:root	_
+2	pɨpɨ	pɨpɨ	NOUN	n	_	1	nsubj	1:nsubj	_
+3	kaʔa	kaʔa	NOUN	n	_	1	obl	1:obl	_
+4	rupi	upi	ADP	posp	Rel=Cont	3	case	3:case	_
+5	ɨwɨ	ɨwɨ	NOUN	n	_	1	obl	1:obl	_
+6	ʔaromo	ʔaromo	ADV	adv	_	5	case	5:case	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 174
+# text = Pɨhaw heta teteaʔu miar izupe kaʔa pe .
+# text_port = À noite tem muita caça para ela no mato (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Por la noche hay mucho que cazar en la selva.
+# text_eng = At the night there is much to hunt in the jungle.
+# OBL V ADV S PP PP
+1	Pɨhaw	pɨ	NOUN	n	Nomzr=Circ	2	obl	2:obl	_
+2	heta	eta	VERB	vi	Person=3	0	root	0:root	_
+3	teteaʔu	tete	ADV	adv	_	4	advmod	4:advmod	_
+4	miar	miar	NOUN	n	_	2	obl	2:obl	_
+5	izupe	upe	ADP	posp	Rel=NCont	4	case	4:case	_
+6	kaʔa	kaʔa	NOUN	n	_	2	obl	2:obl	_
+7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
