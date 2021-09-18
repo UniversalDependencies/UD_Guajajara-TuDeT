@@ -2330,8 +2330,8 @@
 8	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 175
-# text = Aʔe rupi uzemiʔi kar Zuze oho kaʔa rupi (Sociedade Internacional de Lingüística, 1973:80).
-# text_port = Então José foi caçar no mato .
+# text = Aʔe rupi uzemiʔi kar Zuze oho kaʔa rupi .
+# text_port = Então José foi caçar no mato (Sociedade Internacional de Lingüística, 1973:80).
 # text_spa = Entonces José fue a cazar a la selva.
 # text_eng = Then José went to hunt to the jungle.
 # PP V ADV S AUX PP
@@ -2393,7 +2393,7 @@
 # text_spa = José esperó la llegada del venado.
 # text_eng = José waited for the arrival of the deer.
 # V S O
-1	Waro	aro	VERB	vt	Person=3	0	case	0:case	_
+1	Waro	aro	VERB	vt	Person=3	0	root	0:root	_
 2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
 3	arapuha	arapuha	NOUN	n	_	4	nmod	4:nmod	_
 4	tur	ur	VERB	vi	Person=3	1	obj	1:obj	_
@@ -2406,7 +2406,7 @@
 # text_spa = La esperó encima de la red.
 # text_eng = He waited for it over the net.
 # V PP ADV
-1	Waro	aro	VERB	vt	Person=3	0	case	0:case	_
+1	Waro	aro	VERB	vt	Person=3	0	root	0:root	_
 2	kɨhaw	kɨhaw	NOUN	n	_	1	obl	1:obl	_
 3	pupe	pupe	ADP	posp	Rel=Cont	2	case	2:case	_
 4	ɨwate	ɨwak	ADV	adv	_	1	advmod	1:advmod	_
@@ -2427,4 +2427,58 @@
 6	Zuze	Zuze	PROPN	pn	_	5	nsubj	5:nsubj	_
 7	umukaw	mukaw	NOUN	n	Person=3	5	obj	5:obj	_
 8	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 182
+# text = Uhɨape zahɨ aʔe pe .
+# text_port = A lua iluminou (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = La luna iluminaba.
+# text_eng = The moon was shining.
+# V S PP
+1	Uhɨape	hɨape	VERB	v	Person=3	0	root	0:root	_
+2	zahɨ	zahɨ	NOUN	n	_	1	nsubj	1:nsubj	_
+3	aʔe	aʔe	PRON	pro	_	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 183
+# text = Uzapi kurɨ .
+# text_port = Atirou e acertou (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = Disparó y acertó.
+# text_eng = He fired and hit.
+# V
+1	Uzapi	api	VERB	vi	Person=3	0	root	0:root	_
+2	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 184
+# text = Uzuka kurɨ .
+# text_port = Matou (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = Lo mató.
+# text_eng = He killed it.
+# V
+1	Uzuka	zuka	VERB	vt	Person=3	0	root	0:root	_
+2	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 185
+# text = Uzuka Zuze arapuha .
+# text_port = José matou o veado (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = José mató al venado.
+# text_eng = José killed the deer.
+# V S O
+1	Uzuka	zuka	VERB	vt	Person=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	arapuha	arapuha	NOUN	n	_	1	obj	1:obj	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 186
+# text = Uzuka mukaw pupe .
+# text_port = Ele o matou com a espingarda (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = José lo mató con la escopeta.
+# text_eng = He killed it with the rifle.
+# V PP
+1	Uzuka	zuka	VERB	v	Person=3	0	root	0:root	_
+2	mukaw	mukaw	NOUN	n	_	1	obl	1:obl	_
+3	pupe	pupe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
