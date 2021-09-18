@@ -2192,7 +2192,7 @@
 
 # sent_id = 165
 # text = Oho Zuze taw pe aʔe kurɨ , u rupi aʔe kurɨ .
-# text_port = José foi ã aldeia com o pai (Sociedade Internacional de Lingüística, 1973:79).
+# text_port = José foi à aldeia com o pai (Sociedade Internacional de Lingüística, 1973:79).
 # text_spa = José fue a la aldea con su padre.
 # text_eng = José went to the village with his father.
 # V S PP
@@ -2250,7 +2250,7 @@
 
 # sent_id = 169
 # text = Hekuzar katu zapepo .
-# text_port = A panela foi cara (Sociedade Internacional de Lingüística, 1973:79).
+# text_port = A panela foi cara (Sociedade Internacional de Lingüística, 1973:80).
 # text_spa = La cacerola era cara.
 # text_eng = It was a expensive saucepan.
 # V ADV S
@@ -2261,7 +2261,7 @@
 
 # sent_id = 170
 # text = Ikatu ahɨ zapepo Mari pe .
-# text_port = Maria gostou (Sociedade Internacional de Lingüística, 1973:79).
+# text_port = Maria gostou (Sociedade Internacional de Lingüística, 1973:80).
 # text_spa = A María le gustó la cacerola.
 # text_eng = Maria liked the saucepan.
 # V ADV S PP
@@ -2274,7 +2274,7 @@
 
 # sent_id = 171
 # text = Hekuzar katu zapepo , iʔi Zuze wemireko pe .
-# text_port = Foi cara , disse José à mulher (Sociedade Internacional de Lingüística, 1973:79).
+# text_port = Foi cara , disse José à mulher (Sociedade Internacional de Lingüística, 1973:80).
 # text_spa = Era cara, le dice José a su mujer.
 # text_eng = It was expensive, José tells his wife.
 # V ADV S PP
@@ -2290,7 +2290,7 @@
 
 # sent_id = 172
 # text = Zahɨ uhɨape iko kurɨ .
-# text_port = A lua ilumina agora (Sociedade Internacional de Lingüística, 1973:79).
+# text_port = A lua ilumina agora (Sociedade Internacional de Lingüística, 1973:80).
 # text_spa = La luna ilumina ahora.
 # text_eng = The moon is shining now.
 # S V AUX
@@ -2302,7 +2302,7 @@
 
 # sent_id = 173
 # text = Uwewe pɨpɨ kaʔa rupi ɨwɨ ʔaromo .
-# text_port = A coruja voa pelo mato por cima da terra (Sociedade Internacional de Lingüística, 1973:79).
+# text_port = A coruja voa pelo mato por cima da terra (Sociedade Internacional de Lingüística, 1973:80).
 # text_spa = El búho vuela por la selva sobre la tierra.
 # text_eng = The owl flies through the jungle over the earth.
 # V S PP PP
@@ -2316,7 +2316,7 @@
 
 # sent_id = 174
 # text = Pɨhaw heta teteaʔu miar izupe kaʔa pe .
-# text_port = À noite tem muita caça para ela no mato (Sociedade Internacional de Lingüística, 1973:79).
+# text_port = À noite tem muita caça para ela no mato (Sociedade Internacional de Lingüística, 1973:80).
 # text_spa = Por la noche hay mucho que cazar en la selva.
 # text_eng = At the night there is much to hunt in the jungle.
 # OBL V ADV S PP PP
@@ -2328,4 +2328,103 @@
 6	kaʔa	kaʔa	NOUN	n	_	2	obl	2:obl	_
 7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
 8	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 175
+# text = Aʔe rupi uzemiʔi kar Zuze oho kaʔa rupi (Sociedade Internacional de Lingüística, 1973:80).
+# text_port = Então José foi caçar no mato .
+# text_spa = Entonces José fue a cazar a la selva.
+# text_eng = Then José went to hunt to the jungle.
+# PP V ADV S AUX PP
+1	aʔe	aʔe	PRON	pro	_	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uzemiʔi	miʔi	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
+4	kar	kar	ADV	adv	_	3	advmod	3:advmod	_
+5	Zuze	Zuze	PROPN	pn	_	3	nsubj	3:nsubj	_
+6	oho	ho	VERB	vi	Person=3	3	dep	3:dep	_
+7	kaʔa	kaʔa	NOUN	n	_	3	obl	3:obl	_
+8	rupi	upi	ADP	posp	Rel=Cont	7	case	7:case	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 176
+# text = Oho kaʔa rupi pe rupi .
+# text_port = Ele foi pelo mato no caminho (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = Él fue por el camino través de la selva.
+# text_eng = He followed the road through the jungle.
+# V PP PP
+1	Oho	ho	VERB	vi	Person=3	0	root	0:root	_
+2	kaʔa	kaʔa	NOUN	n	_	1	obl	1:obl	_
+3	rupi	upi	ADP	posp	Rel=Cont	2	case	2:case	_
+4	pe	pe	NOUN	n	_	1	obl	1:obl	_
+5	rupi	upi	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 177
+# text = Uzemiʔi kar kaʔa pe , arapuha hekar pa .
+# text_port = Ele caça no mato , procurando veado (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = Él caza en la selva, buscando venados.
+# text_eng = He hunts in the jungle, looking for a deer.
+# V ADV PP PP
+1	Uzemiʔi	miʔi	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
+2	kar	kar	ADV	adv	_	1	advmod	1:advmod	_
+3	kaʔa	kaʔa	NOUN	n	_	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	arapuha	arapuha	NOUN	n	_	7	obj	7:obj	_
+7	hekar	ekar	VERB	vt	VerbForm=Inf	1	xcomp	1:xcomp	_
+8	pa	pa	ADP	posp	Rel=Cont	7	case	7:case	_
+9	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 178
+# text = Uzemiʔi kar Zuze oho aʔe .
+# text_port = José foi caçar (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = José fue a cazar.
+# text_eng = José went hunting.
+# V ADV S AUX
+1	Uzemiʔi	miʔi	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
+2	kar	kar	ADV	adv	_	1	advmod	1:advmod	_
+3	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+4	oho	ho	VERB	vi	Person=3	1	dep	1:dep	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 179
+# text = Waro Zuze arapuha tur haw .
+# text_port = José esperou a chegada do veado (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = José esperó la llegada del venado.
+# text_eng = José waited for the arrival of the deer.
+# V S O
+1	Waro	aro	VERB	vt	Person=3	0	case	0:case	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	arapuha	arapuha	NOUN	n	_	4	nmod	4:nmod	_
+4	tur	ur	VERB	vi	Person=3	1	obj	1:obj	_
+5	haw	haw	ADV	adv	Nomzr=Circ	3	advmod	3:advmod	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 180
+# text = Waro kɨhaw pupe ɨwate kurɨ .
+# text_port = Esperou lã em cima na rede (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = La esperó encima de la red.
+# text_eng = He waited for it over the net.
+# V PP ADV
+1	Waro	aro	VERB	vt	Person=3	0	case	0:case	_
+2	kɨhaw	kɨhaw	NOUN	n	_	1	obl	1:obl	_
+3	pupe	pupe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	ɨwate	ɨwak	ADV	adv	_	1	advmod	1:advmod	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 181
+# text = Arapuha ipu mehe , upɨhɨk Zuze umukaw .
+# text_port = Quando o veado fez barulho , José pegou a espingarda (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = Cuando el venado hizo ruído, José cogió la escopeta.
+# text_eng = When the deer made noise, José took the rifle.
+# PP V S PP
+1	Arapuha	arapuha	NOUN	n	_	2	nsubj	2:nsubj	_
+2	ipu	pu	VERB	vi	Person=3	5	xcomp	5:xcomp	_
+3	mehe	mehe	ADP	posp	_	2	case	2:case	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	0:root	_
+6	Zuze	Zuze	PROPN	pn	_	5	nsubj	5:nsubj	_
+7	umukaw	mukaw	NOUN	n	Person=3	5	obj	5:obj	_
+8	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
