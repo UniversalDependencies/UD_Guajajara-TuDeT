@@ -2736,7 +2736,7 @@
 # text_spa = (Hace mucho tiempo, se dice), dos hombres (se reunieron y) fueron a cazar juntos
 # text_en = (A long time ago, it is said), two men (met and) went to hunt together
 # S V ADV AUX
-1	Mukuz	mukuz	NUM	num	_	2	det	2:det	_
+1	Mukuz	mukuz	NUM	num	_	2	nummod	2:nummod	_
 2	awa	awa	NOUN	n	_	4	nsubj	4:nsubj	_
 3	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 4	uzemeʔkar	meʔe	VERB	vt	Person=3|Reflex=Yes|Voice=Cau	0	root	0:root	_
@@ -2794,7 +2794,7 @@
 # text_spa = Todos los días, mató a muchos pájaros allí.
 # text_en = Every day, he killed many birds there.
 # PP V O PP
-1	Tuweharupi	_	_	_	_	_	_	_	_
+1-2	Tuweharupi	_	_	_	_	_	_	_	_
 1	Tuwehaw	tuwe	NOUN	n	Nomzr=Circ	3	obl	3:obl	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
 3	uzuka	zuka	VERB	v	Person=3	0	root	0:root	_
