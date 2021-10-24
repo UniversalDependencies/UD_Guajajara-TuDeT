@@ -2736,11 +2736,11 @@
 # text_spa = (Hace mucho tiempo, se dice), dos hombres (se reunieron y) fueron a cazar juntos
 # text_en = (A long time ago, it is said), two men (met and) went to hunt together
 # S V ADV AUX
-1	Mukuz	mukuz	NUM	num	NumType=Card	2	det	2:det	_
+1	Mukuz	mukuz	NUM	num	_	2	det	2:det	_
 2	awa	awa	NOUN	n	_	4	nsubj	4:nsubj	_
 3	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 4	uzemeʔkar	meʔe	VERB	vt	Person=3|Reflex=Yes|Voice=Cau	0	root	0:root	_
-5	zekaipo	kwehe	ADV	adv	Evidentiality=Nfh	4	advmod	4:advmod	_
+5	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
 6	oho	ho	VERB	v	Person=3	4	dep	4:dep	_
 7	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
 8	wà	wà	PART	pcl	Number=Plur	4	discourse	4:discourse	_
@@ -2751,7 +2751,7 @@
 # text_spa = Fueron a matar pájaros.
 # text_en = They went to kill birds.
 # S V AUX
-1	Wiràmiri	wiràmiri	NOUN	n	_	w	nsubj	2:nsubj	_
+1	Wiràmiri	wiràmiri	NOUN	n	_	2	nsubj	2:nsubj	_
 2	uzuka	zuka	VERB	v	Person=3	0	root	0:root	_
 3	oho	ho	VERB	v	Person=3	2	dep	2:dep	_
 4	wà	wà	PART	pcl	Number=Plur	2	discourse	2:discourse	_
@@ -2764,7 +2764,7 @@
 # text_en = They put a trap on the lookout on fruit trees.
 #  V ADV O PP
 1	Uzapoapo	apo	VERB	v	Person=3|Red=Mo	0	root	0:root	_
-2	zekaipo	kwehe	ADV	adv	Evidentiality=Nfh	1	advmod	1:advmod	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
 3	tukaz	tukaz	NOUN	n	_	1	obj	1:obj	_
 4	maʔe	maʔe	NOUN	n	_	5	nmod	5:nmod	_
 5	ʔɨwaʔɨw	ʔɨwa	NOUN	n	Red=Mo	1	obl	1:obl	_
@@ -2781,7 +2781,7 @@
 1	Amo	amo	DET	dem	PronType=Dem	2	det	2:det	_
 2	itukaz	tukaz	NOUN	n	Rel=NCont	4	obl	4:obl	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
-4	nàpɨtàʔi	pɨtà	NUM	num	Dimin=Yes|NumType=Card|Polarity=Neg	0	root	0:root	_
+4	nàpɨtàʔi	pɨtà	NUM	num	Dimin=Yes|Polarity=Neg	0	root	0:root	_
 5	kwaw	kwaw	ADV	adv	Polarity=Neg	4	advmod	4:advmod	_
 6	wiràmiri	wiràmiri	NOUN	n	_	4	nsubj	4:nsubj	_
 7	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
@@ -2794,11 +2794,13 @@
 # text_spa = Todos los días, mató a muchos pájaros allí.
 # text_en = Every day, he killed many birds there.
 # PP V O PP
-1	Tuweharupi	tuwe	ADV	adv	Rel=Cont	2	advmod	2:advmod	_
-2	uzuka	zuka	VERB	v	Person=3	0	root	0:root	_
-3	kateteaʔu	katu	ADV	adv	_	4	advmod	4:advmod	_
-4	wiràmiri	wiràmiri	NOUN	n	_	2	nsubj	2:nsubj	_
-5	aʔe	aʔe	PRON	pro	PronType=Dem	2	obl	2:obl	_
-6	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
-7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+1	Tuweharupi	_	_	_	_	_	_	_	_
+1	Tuwehaw	tuwe	NOUN	n	Nomzr=Circ	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uzuka	zuka	VERB	v	Person=3	0	root	0:root	_
+4	kateteaʔu	katu	ADV	adv	_	5	advmod	5:advmod	_
+5	wiràmiri	wiràmiri	NOUN	n	_	3	nsubj	3:nsubj	_
+6	aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	3:obl	_
+7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
