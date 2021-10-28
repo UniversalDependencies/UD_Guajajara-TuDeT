@@ -47,7 +47,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Gerardi, Fabrício Ferraz; Aragon, Carolina; Martín-Rodríguez, Lorena
+Contributors: Martín-Rodríguez, Lorena; Gerardi, Fabrício Ferraz; Aragon, Carolina
 Contributing: elsewhere
 Contact: fabricio.gerardi@uni-tuebingen.de
 ===============================================================================
