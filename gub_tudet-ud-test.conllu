@@ -786,7 +786,7 @@
 # text_spa = A la saracura le gusta comer peces 
 # text_eng = The slaty-breasted wood rail likes eating little fishes .
 # S V PP C
-1	Ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=Abs	2	nmod	2:nmod	_
+1	Ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=Abs	2	nsubj	2:nsubj	_
 2	ikatu	katu	NOUN	n	Rel=NCont	0	root	0:root	_
 3	arakur	arakur	NOUN	n	_	2	obl	2:obl	_
 4	pe	pe	ADP	posp	Case=Dat	3	case	3:case	_
