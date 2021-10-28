@@ -2816,3 +2816,52 @@
 7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
+# sent_id = 211
+# text = Tɨwɨr tukaz rehe nahetatetekwaw wiràmiri izupe aʔe pe .
+# text_port = Na tocaia do irmão mais novo, não havia muitos pássaros (lá) (Campos Castro 2020).
+# text_spa = En la trampa del hermano menor, no había muchas aves (allí).
+# text_en = In the trap of the younger brother, there were not many birds (there).
+# PP V S PP
+1	Tɨwɨr	ɨwɨr	NOUN	n	Rel=Abs	2	nmod	2:nmod	_
+2	tukaz	tukaz	NOUN	n	_	4	obl	4:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	nahetatetekwaw	eta	VERB	v	Emph=Yes|Polarity=Neg|Rel=NCont	0	root	0:root	_
+5	wiràmiri	wiràmiri	NOUN	n	_	4	nsubj	4:nsubj	_
+6	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	4	obl	4:obl	_
+7	aʔe	aʔe	PRON	pro	PronType=Dem	4	obl	4:obl	_
+8	pe	pe	ADP	posp	Rel=Cont	8	case	8:case	_
+9	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 212
+# text = Amo ʔar mehe katu izekɨtɨʔar zekaipo tɨwɨr oho hapuznaw pe .
+# text_port = Certo dia, o irmão mais novo foi passear na casa do irmão mais velho (Campos Castro 2020).
+# text_spa = Un día, el hermano menor fue a pasear a la casa del hermano mayor.
+# text_en = One day, the younger brother went for a walk to the house of the older brother.
+# PP V S PP
+1	Amo	amo	DET	dem	PronType=Dem	2	det	2:det	_
+2	ʔar	ʔar	NOUN	n	_	5	obl	5:obl	_
+3	mehe	mehe	ADP	posp	_	2	case	2:case	_
+4	katu	katu	ADV	adv	_	3	advmod	3:advmod	_
+5	izekɨtɨʔar	zekɨtɨʔar	VERB	vi	Person=3	0	root	0:root	_
+6	zekaipo	kwehe	ADV	adv	_	5	advmod	5:advmod	_
+7	tɨwɨr	ɨwɨr	NOUN	n	Rel=Abs	5	nsubj	5:nsubj	_
+8	oho	ho	VERB	v	Person=3	5	dep	5:dep	_
+9	hapuznaw	apuz	NOUN	n	Nomzr=Circ|Rel=NCont	5	obl	5:obl	_
+10	pe	pe	ADP	posp	Rel=Cont	9	case	9:case	_
+11	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 213
+# text = Wexak zekaipo wɨkɨʔɨr imaʔe zapoapopɨrer teteaʔu aʔe pe .
+# text_port = Ele viu que o irmão mais velho já havia feito várias plumagens (coisas dos pássaros) (Campos Castro 2020).
+# text_spa = Vio que el hermano mayor ya había hecho varios plumajes (cosas de aves).
+# text_en = He saw that the older brother had already made several plumages (things from birds).
+# V ADV O
+1	Wexak	exak	VERB	vt	Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	_	1	advmod	1:advmod	_
+3	wɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	5	nmod	5:nmod	_
+4	imaʔe	maʔe	NOUN	n	Rel=NCont	5	nmod	5:nmod	_
+5	zapoapopɨrer	zapo	NOUN	n	Nomzr=Pas|Red=Mo|Tense=Past	1	obj	1:obj	_
+6	teteaʔu	tete	ADV	adv	Emph=Yes	5	advmod	5:advmod	_
+7	aʔe	aʔe	PART	pcl	PronType=Dem	1	obl	1:obl	_
+8	pe	pe	ADP	posp	Rel=Cont	7	case	7:case	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
