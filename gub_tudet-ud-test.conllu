@@ -2829,7 +2829,7 @@
 5	wiràmiri	wiràmiri	NOUN	n	_	4	nsubj	4:nsubj	_
 6	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	4	obl	4:obl	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	4	obl	4:obl	_
-8	pe	pe	ADP	posp	Rel=Cont	8	case	8:case	_
+8	pe	pe	ADP	posp	Rel=Cont	7	case	7:case	_
 9	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 212
@@ -2862,6 +2862,7 @@
 4	imaʔe	maʔe	NOUN	n	Rel=NCont	5	nmod	5:nmod	_
 5	zapoapopɨrer	zapo	NOUN	n	Nomzr=Pas|Red=Mo|Tense=Past	1	obj	1:obj	_
 6	teteaʔu	tete	ADV	adv	Emph=Yes	5	advmod	5:advmod	_
-7	aʔe	aʔe	PART	pcl	PronType=Dem	1	obl	1:obl	_
+7	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	1:obl	_
 8	pe	pe	ADP	posp	Rel=Cont	7	case	7:case	_
 9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
