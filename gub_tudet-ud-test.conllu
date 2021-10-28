@@ -2773,6 +2773,18 @@
 8	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 208
+# text = Muite werotaʔi izuwi wà .
+# text_port = Ficaram um pouco distantes um do outro (Campos Castro 2020).
+# text_spa = Estaban un poco lejos entre sí.
+# text_en = Were a little far from each other.
+# S PP
+1	Muite	muite	NOUN	n	Foreign=Yes	0	root	0:root	_
+2	werotaʔi	werot	NOUN	n	Dimin=Yes	1	nmod	1:nmod	_
+3	izuwi	zuwi	ADP	posp	Case=Loc|Rel=NCont	1	obl	1:obl	_
+4	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 209
 # text = Amo itukaz rehe nàpɨtàʔi kwaw wiràmiri aʔe wà .
 # text_port = Na tocaia de um deles, havia muitos pássaros (não era um) (Campos Castro 2020).
 # text_spa = En la trampa de uno de ellos, había muchas aves (no era una).
@@ -2788,7 +2800,7 @@
 8	wà	wà	PART	pcl	Number=Plur	4	discourse	4:discourse	_
 9	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
-# sent_id = 209
+# sent_id = 210
 # text = Tuweharupi uzuka kateteaʔu wiràmiri aʔe pe .
 # text_port = Todos os dias, ele matava muitos pássaros lá (Campos Castro 2020).
 # text_spa = Todos los días, mató a muchos pájaros allí.
