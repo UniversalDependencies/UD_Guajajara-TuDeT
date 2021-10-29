@@ -2879,7 +2879,7 @@
 5	:	:	PUNCT	punct	_	6	punct	6:punct	_
 6	ikatuahɨ	katu	NOUN	n	Emph=Yes|Rel=NCont	1	parataxis	1:parataxis	_
 7	tuwe	tuwe	ADV	adv	Emph=Yes	6	advmod	6:advmod	_
-8	aipo	aipo	ADV	adv	_	1	advmod	1:advmod	_
+8	aipo	aipo	ADV	adv	_	6	advmod	6:advmod	_
 9	nerukaz	ukaz	NOUN	n	Person=2|Rel=Cont	6	nsubj	6:nsubj	_
 10	aipo	aipo	ADV	adv	_	9	advmod	9:advmod	_
 11	ne	ne	PRON	pro	PronType=Prs	6	obl	6:obl	_
@@ -2892,7 +2892,7 @@
 # text_spa = En la mía (trampa) no hay muchos pájaros, le dijo.
 # text_en = In mine (trap) there are not many birds, he said.
 # O V PP
-1	Nahetakatukwaw	eta	VERB	vi	Emph=Yes|Polarity=Neg|Rel=NCont	7	ccomp	0:ccomp	_
+1	Nahetakatukwaw	eta	VERB	vi	Emph=Yes|Polarity=Neg|Rel=NCont	7	ccomp	7:ccomp	_
 2	wiràmiri	wiràmiri	NOUN	n	_	1	nsubj	1:nsubj	_
 3	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	1:obl	_
 4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
@@ -2919,10 +2919,10 @@
 9	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
 10	wɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	9	obl	9:obl	_
 11	pe	pe	ADP	posp	Rel=Cont	10	case	10:case	_
-12	.	.	PUNCT	punct	_	9	root	9:root	_
+12	.	.	PUNCT	punct	_	9	punct	9:punct	_
 
 # sent_id = 217
-# text = Kwa ! Napuner kwaw imono haw newe tɨ , iʔi tɨkɨʔɨr izupe
+# text = Kwa ! Napunerkwaw imonohaw newe tɨ , iʔi tɨkɨʔɨr izupe
 # text_port = Ah! Não posso te emprestar, disse o irmão mais velho a ele (Campos Castro 2020)
 # text_spa = ¡AH! No puedo prestártela, le dijo el hermano mayor
 # text_en = Ah! I can not lend it to you, said the older brother to him
@@ -2958,7 +2958,7 @@
 12	ihe	ihe	PRON	pro	PronType=Prs	6	nsubj	6:nsubj	_
 13	no	no	PART	pcl	_	6	discourse	6:discourse	_
 14	tɨ	tɨ	PART	pcl	_	6	discourse	6:discourse	_
-15	,	,	PUNCT	punct	_	3	punct	3:punct	_
+15	,	,	PUNCT	punct	_	6	punct	6:punct	_
 16	taʔe	taʔe	SCONJ	sc	_	17	mark	17:mark	_
 17	izapopawete	zapo	VERB	vt	Aspect=Perf|Emph=Yes|Rel=NCont	6	ccomp	6:ccomp	_
 18	nemaʔe	maʔe	NOUN	n	Person=2	17	obj	17:obj	_
