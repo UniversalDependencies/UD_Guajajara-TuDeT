@@ -2866,3 +2866,105 @@
 8	pe	pe	ADP	posp	Rel=Cont	7	case	7:case	_
 9	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 214
+# text = Iʔi zekaipo wɨkɨʔɨr pe : ikatuahɨ tuwe aipo nerukaz aipo ne pa .
+# text_port = Então, ele disse ao seu irmão: essa sua tocaia é boa mesmo (Campos Castro 2020).
+# text_spa = Así que le dijo a su hermano: tu trampa es realmente buena.
+# text_en = So he said to his brother: your trap is really good.
+# V ADV PP O
+1	Iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	_	1	advmod	1:advmod	_
+3	wɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	:	:	PUNCT	punct	_	6	punct	6:punct	_
+6	ikatuahɨ	katu	NOUN	n	Emph=Yes|Rel=NCont	1	parataxis	1:parataxis	_
+7	tuwe	tuwe	ADV	adv	Emph=Yes	6	advmod	6:advmod	_
+8	aipo	aipo	ADV	adv	_	1	advmod	1:advmod	_
+9	nerukaz	ukaz	NOUN	n	Person=2|Rel=Cont	6	nsubj	6:nsubj	_
+10	aipo	aipo	ADV	adv	_	9	advmod	9:advmod	_
+11	ne	ne	PRON	pro	PronType=Prs	6	obl	6:obl	_
+12	pa	pa	ADP	posp	Rel=Cont	11	case	11:case	_
+13	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 215
+# text = Nahetakatukwaw wiràmiri aʔe pe ihe tɨ iʔi izupe .
+# text_port = Na minha (tocaia) não dá muito pássaro, disse ele (Campos Castro 2020).
+# text_spa = En la mía (trampa) no hay muchos pájaros, le dijo.
+# text_en = In mine (trap) there are not many birds, he said.
+# O V PP
+1	Nahetakatukwaw	eta	VERB	vi	Emph=Yes|Polarity=Neg|Rel=NCont	7	ccomp	0:ccomp	_
+2	wiràmiri	wiràmiri	NOUN	n	_	1	nsubj	1:nsubj	_
+3	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	ihe	ihe	ADP	posp	Case=Loc|Rel=NCont	1	obl	1:obl	_
+6	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+7	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+8	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	7	obl	7:obl	_
+9	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 216
+# text = Emururapiʔez nerukaz hewe nehe rihi no tɨ ? iʔi wɨkɨʔɨr pe .
+# text_port = Me empresta sua tocaia? Ele disse ao seu irmão mais velho (Campos Castro 2020).
+# text_spa = Me prestas tu trampa? Le dijo a su hermano mayor.
+# text_en = Can you lend me your trap? He told his older brother.
+# O V PP
+1	Emururapiʔez	mururapiʔez	VERB	v	Mood=Imp|Person=2	9	ccomp	9:ccomp	_
+2	nerukaz	ukaz	NOUN	n	Person=2|Rel=Cont	1	obl	1:obl	_
+3	hewe	hewe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	nehe	nehe	ADV	adv	_	1	advmod	1:advmod	_
+5	rihi	rihi	PART	pcl	_	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+8	?	?	PUNCT	punct	_	1	punct	1:punct	_
+9	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+10	wɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	9	obl	9:obl	_
+11	pe	pe	ADP	posp	Rel=Cont	10	case	10:case	_
+12	.	.	PUNCT	punct	_	9	root	9:root	_
+
+# sent_id = 217
+# text = Kwa ! Napuner kwaw imono haw newe tɨ , iʔi tɨkɨʔɨr izupe
+# text_port = Ah! Não posso te emprestar, disse o irmão mais velho a ele (Campos Castro 2020)
+# text_spa = ¡AH! No puedo prestártela, le dijo el hermano mayor
+# text_en = Ah! I can not lend it to you, said the older brother to him
+# O V S PP
+1	Kwa	kwa	PART	pcl	_	3	discourse	3:discourse	_
+2	!	!	PUNCT	punct	_	1	punct	1:punct	_
+3	Napunerkwaw	apuner	VERB	v	Polarity=Neg	8	ccomp	8:ccomp	_
+4	imonohaw	mono	NOUN	n	Nomzr=Circ|Rel=NCont	3	obj	3:obj	_
+5	newe	we	ADP	posp	Person=2|Rel=Cont	3	obl	3:obl	_
+6	tɨ	tɨ	PART	pcl	_	3	discourse	3:discourse	_
+7	,	,	PUNCT	punct	_	3	punct	3:punct	_
+8	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+9	tɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	8	nsubj	8:nsubj	_
+10	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	8	obl	8:obl	_
+
+# sent_id = 218
+# text = Okwa ! Emururapiʔez ihewe tɨ tazuka kutu wiràmiri hemaʔe izapopɨràm rehe ihe no tɨ , taʔe izapopawete nemaʔe ne wà riʔi xe .
+# text_port = Oh! Empreste para mim, deixe eu poder matar os pássaros na minha feitura delas (das minhas coisas, minhas plumagens), já que as suas coisas (plumagens) estão quase todas feitas
+# text_spa = ¡Oh! Préstamela, déjame matar a los pájaros para hacer hacer cosas con ellos (de mis cosas, mis plumas), ya que tus cosas están casi todas hechas
+# text_en = Oh! Lend it to me, let me kill the birds to make things of them (of my things, my plumages), since your things are almost all made
+# V PP V O PP S ADV
+1	Okwa	okwa	PART	pcl	_	3	discourse	3:discourse	_
+2	!	!	PUNCT	punct	_	1	punct	1:punct	_
+3	Emururapiʔez	mururapiʔez	VERB	v	Mood=Imp|Person=2	0	root	0:root	_
+4	ihewe	we	ADP	posp	Case=Dat|Rel=NCont	3	obl	3:obl	_
+5	tɨ	tɨ	PART	pcl	_	3	discourse	3:discourse	_
+6	tazuka	zuka	VERB	vt	Person=1	3	conj	3:conj	_
+7	kutu	kutu	VERB	v	_	6	dep	6:dep	_
+8	wiràmiri	wiràmiri	NOUN	n	_	6	obj	6:obj	_
+9	hemaʔe	maʔe	NOUN	n	Person=1|Rel=Cont	10	nmod	10:nmod	_
+10	izapopɨràm	zapo	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Fut	6	obl	6:obl	_
+11	rehe	ehe	ADP	posp	Rel=Cont	10	case	10:case	_
+12	ihe	ihe	PRON	pro	PronType=Prs	6	nsubj	6:nsubj	_
+13	no	no	PART	pcl	_	6	discourse	6:discourse	_
+14	tɨ	tɨ	PART	pcl	_	6	discourse	6:discourse	_
+15	,	,	PUNCT	punct	_	3	punct	3:punct	_
+16	taʔe	taʔe	SCONJ	sc	_	17	mark	17:mark	_
+17	izapopawete	zapo	VERB	vt	Aspect=Perf|Emph=Yes|Rel=NCont	6	ccomp	6:ccomp	_
+18	nemaʔe	maʔe	NOUN	n	Person=2	17	obj	17:obj	_
+19	ne	ne	PRON	pro	Person=2|PronType=Prs	17	nsubj	17:nsubj	_
+20	wà	wà	PART	pcl	Number=Plur	17	discourse	17:discourse	_
+21	riʔi	riʔi	PART	pcl	_	17	discourse	17:discourse	_
+22	xe	xe	PART	pcl	_	17	discourse	17:discourse	_
+23	.	.	PUNCT	punct	_	17	punct	17:punct	_
+
