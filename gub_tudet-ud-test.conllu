@@ -2940,9 +2940,9 @@
 
 # sent_id = 218
 # text = Okwa ! Emururapiʔez ihewe tɨ tazuka kutu wiràmiri hemaʔe izapopɨràm rehe ihe no tɨ , taʔe izapopawete nemaʔe ne wà riʔi xe .
-# text_port = Oh! Empreste para mim, deixe eu poder matar os pássaros na minha feitura delas (das minhas coisas, minhas plumagens), já que as suas coisas (plumagens) estão quase todas feitas
-# text_spa = ¡Oh! Préstamela, déjame matar a los pájaros para hacer hacer cosas con ellos (de mis cosas, mis plumas), ya que tus cosas están casi todas hechas
-# text_en = Oh! Lend it to me, let me kill the birds to make things of them (of my things, my plumages), since your things are almost all made
+# text_port = Oh! Empreste para mim, deixe eu poder matar os pássaros na minha feitura delas (das minhas coisas, minhas plumagens), já que as suas coisas (plumagens) estão quase todas feitas (Campos Castro 2020).
+# text_spa = ¡Oh! Préstamela, déjame matar a los pájaros para hacer hacer cosas con ellos (de mis cosas, mis plumas), ya que tus cosas están casi todas hechas.
+# text_en = Oh! Lend it to me, let me kill the birds to make things of them (of my things, my plumages), since your things are almost all made.
 # V PP V O PP S ADV
 1	Okwa	okwa	PART	pcl	_	3	discourse	3:discourse	_
 2	!	!	PUNCT	punct	_	1	punct	1:punct	_
@@ -2968,3 +2968,250 @@
 22	xe	xe	PART	pcl	_	17	discourse	17:discourse	_
 23	.	.	PUNCT	punct	_	17	punct	17:punct	_
 
+# sent_id = 219
+# text = Kwa namono wer kwaw zepe herukaz rehe newe tɨ , taʔe reta amo maʔe aʔe pe wà xe .
+# text_port = Eu não iria emprestar minha tocaia a você, pois tem umas coisas lá (Campos Castro 2020).
+# text_spa = No te prestaría mi trampa, porque hay algunas cosas allí.
+# text_en = I would not lend my trap to you, because there are some things there.
+# V ADV PP ADV
+1	Kwa	kwa	PART	pcl	_	2	discourse	2:discourse	_
+2	namono	amono	VERB	v	_	0	root	0:root	_
+3	wer	wer	ADV	adv	_	2	advmod	2:advmod	_
+4	kwaw	kwaw	ADV	adv	_	2	advmod	2:advmod	_
+5	zepe	zepe	PART	pcl	_	2	discourse	2:discourse	_
+6	herukaz	ukaz	NOUN	n	Person=1|Rel=Cont	2	obl	2:obl	_
+7	rehe	ehe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	newe	we	ADP	posp	Case=Dat|Person=2|Rel=Cont	2	obl	2:obl	_
+9	tɨ	tɨ	PART	pcl	_	2	discourse	2:discourse	_
+10	,	,	PUNCT	punct	_	12	punct	12:punct	_
+11	taʔe	taʔe	SCONJ	sc	_	12	mark	12:mark	_
+12	reta	eta	VERB	vt	Rel=Cont	2	ccomp	2:ccomp	_
+13	amo	amo	DET	dem	PronType=Dem	14	det	14:det	_
+14	maʔe	maʔe	NOUN	n	_	12	obj	12:obj	_
+15	aʔe	aʔe	PRON	pro	PronType=Dem	12	discourse	12:discourse	_
+16	pe	pe	ADP	posp	Rel=Cont	15	case	15:case	_
+17	wà	wà	PART	pcl	Number=Plur	12	discourse	12:discourse	_
+18	xe	xe	PART	pcl	Number=Plur	12	discourse	12:discourse	_
+19	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = 220
+# text = Amo mahaw ipuruʔu wer amo maʔe rehe aʔe .
+# text_port = 0 catingueiro queria comer alguma coisa (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = El guazuncho quería comer algo.
+# text_eng = The brocket deer wanted to eat something.
+# S V PP
+1	amo	amo	DET	dem	PronType=Ind	2	det	2:det	_
+2	mahaw	mahaw	NOUN	n	_	3	nsubj	3:nsubj	_
+3	ipuruʔu	ʔu	VERB	vi	Detrans=Ind|Person=3	0	root	0:root	_
+4	wer	wer	ADV	adv	_	3	advmod	3:advmod	_
+5	amo	amo	DET	dem	PronType=Ind	6	det	6:det	_
+6	maʔe	maʔe	NOUN	n	_	3	obl	3:obl	_
+7	rehe	ehe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 221
+# text = Naxixirokwaw wanupe ihe tɨ .
+# text_port = Eu também não vou mexer com eles (Campos Castro 2020).
+# text_spa = Tampoco me voy a meter con ellos.
+# text_en = I'm not going to mess with them either.
+# V PP S
+1	Naxixirokwaw	xixiro	VERB	vi	Polarity=Neg	0	root	0:root	_
+3	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	1	obl	1:obl	_
+4	ihe	ihe	PRON	pro	Person=1|PronType=Prs	1	nsubj	1:nsubj	_
+5	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 222
+# text = iʔi tɨkɨʔɨr izupe : Teʔe ere tɨ ?
+# text_port = O irmão mais velho disse para ele (o irmão mais novo): É verdade o que você está dizendo? (Campos Castro 2020)
+# text_spa = El hermano mayor le dijo (al hermano menor): ¿Es verdad lo que estás diciendo?
+# text_en = The older brother told him (to the younger brother): Is it true what you're saying?
+# V S PP O
+1	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+2	tɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
+3	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	2	obl	2:obl	_
+4	:	:	PUNCT	punct	_	5	punct	5:punct	_ 
+5	Teʔe	teʔe	NOUN	n	_	1	parataxis	1:parataxis	_
+6	ere	ere	PRON	pro	Person=2|PronType=Prs	5	nsubj	5:nsubj	_
+7	tɨ	tɨ	PART	pcl	_	5	discourse	5:discourse	_
+8	?	?	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 223
+# text = Ipuruʔu wer amo maʔe rehe aʔe .
+# text_port = Quis comer alguma coisa (Sociedade Internacional de Lingüística, 1973:80).
+# text_spa = Quería comer algo.
+# text_eng = It wanted to eat something.
+# O V S PP
+1	Ipuruʔu	ʔu	VERB	vi	Detrans=Ind|Person=3	0	root	0:root	_
+2	wer	wer	ADV	adv	_	1	advmod	1:advmod	_
+3	amo	amo	DET	dem	PronType=Ind	4	det	4:det	_
+4	maʔe	maʔe	NOUN	n	_	1	obl	1:obl	_
+5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	aʔe	aʔe	PART	pcl	PronType=Dem	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 224
+# text = Aze nazewe xe , aʔe maʔe wà  , aze ʔur putar wà , uzɨwɨtutete tarɨ , aʔe uhem ʔur putar wà nehe .
+# text_port = Sendo assim, essas coisas, quando estão vindo, começa a ventar muito, são eles chegando (Campos Castro 2020).
+# text_spa = Entonces, estas cosas, cuando están viniendo, comienza a hacer mucho viento, son ellos viniendo.
+# text_en = So, these things, when they are coming, it starts to be very windy, it's them coming.
+# ADV ADV V AUX ADV
+1	Aze	aze	SCONJ	sc	_	2	mark	2:mark	_
+2	nazewe	nezewe	ADV	adv	_	14	advcl	14:advcl	_
+3	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	aʔe	aʔe	DET	det	PronType=Dem	6	det	6:det	_
+6	maʔe	maʔe	NOUN	n	_	10	nsubj	10:nsubj	_
+7	wà	wà	PART	pcl	Number=Plur	6	discourse	6:discourse	_
+8	,	,	PUNCT	punct	_	6	punct	6:punct	_
+9	aze	aze	SCONJ	sc	_	10	mark	10:mark	_
+10	ʔur	ʔur	VERB	vi	_	14	advcl	14:advcl	_
+11	putar	putar	ADV	adv	_	10	advmod	10:advmod	_
+12	wà	wà	PART	pcl	Number=Plur	10	discourse	10:discourse	_
+13	,	,	PUNCT	punct	_	14	punct	14:punct	_
+14	uzɨwɨtutete	zɨwɨtu	VERB	vi	Emph=Yes|Person=3	0	root	0:root	_
+15	tarɨ	tarɨ	VERB	vi	_	14	dep	14:dep	_
+16	,	,	PUNCT	punct	_	18	punct	18:punct	_
+17	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+18	uhem	hem	VERB	vi	Person=3	14	advcl	14:advcl	_
+19	ʔur	ʔur	VERB	vi	_	18	dep	18:dep	_
+20	putar	putar	ADV	adv	_	18	advmod	18:advmod	_
+21	wà	wà	PART	pcl	Number=Plur	18	discourse	18:discourse	_
+22	nehe	nehe	PART	pcl	_	18	discourse	18:discourse	_
+23	.	.	PUNCT	punct	_	18	punct	18:punct	_
+
+# sent_id = 225
+# text = Exiroxiro zo wanupe nehe tɨ , maʔeputɨr tɨkwer zogatu umuiʔe putar aʔe wà tɨ aʔere oho putar wà kurɨ .
+# text_port = Não mexa com eles, eles só vão espremer o néctar das flores; depois disso, vão embora (Campos Castro 2020).
+# text_spa = No te metas con ellos, solo van a exprimir el néctar de las flores; después de eso, se van.
+# text_en = Do not mess with them, they only go to squeeze the nectar of the flowers; after that, they leave.
+# V PP - O V ADV - PP V ADV
+1	Exiroxiro	xiro	VERB	v	Mood=Imp|Person=2|Red=Di	0	root	0:root	_
+2	zo	zo	PART	pcl	_	1	discourse	1:discourse	_
+3	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	1	obl	1:obl	_
+4	nehe	nehe	PART	pcl	_	1	discourse	1:discourse	_
+5	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	maʔeputɨr	maʔeputɨr	NOUN	n	_	7	nmod	7:nmod	_
+8	tɨkwer	tɨ	NOUN	n	Nomzr=Pas	10	obj	10:obj	_
+9	zogatu	zo	PART	pcl	Emph=Yes	10	discourse	10:discourse	_
+10	umuiʔe	iʔe	VERB	v	Person=3|Voice=Cau	1	conj	1:conj	_
+11	putar	putar	ADV	adv	_	10	advmod	10:advmod	_
+12	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+13	wà	wà	PART	pcl	Number=Plur	10	discourse	10:discourse	_
+14	tɨ	tɨ	PART	pcl	_	10	discourse	10:discourse	_
+15	aʔere	aʔe	PRON	pro	Case=Temp|PronType=Dem	16	obl	16:obl	_
+16	oho	ho	VERB	v	Person=3	10	conj	10:conj	_
+17	putar	putar	ADV	adv	_	16	advmod	16:advmod	_
+18	wà	wà	PART	pcl	Number=Plur	16	discourse	16:discourse	_
+19	kurɨ	kurɨ	PART	pcl	_	16	discourse	16:discourse	_
+20	.	.	PUNCT	punct	_	16	punct	16:punct	_
+
+# sent_id = 226
+# text = Amonopiʔez aipo newe pa .
+# text_port = Eu te empresto (Campos Castro 2020).
+# text_spa = Te la prestaré.
+# text_en = I'll lend it to you.
+# V ADV PP
+1	Amonopiʔez	no	VERB	vi	Aspect=Prosp|Person=1|Voice=Cau	0	root	0:root	_
+2	aipo	aipo	ADV	adv	_	1	advmod	1:advmod	_
+3	newe	we	ADP	posp	Case=Dat|Person=2	1	obl	1:obl	_
+4	pa	pa	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 227
+# text = Aʔe kuʔem re oho zekaipo wɨkɨʔɨm hukaz pupe kurɨ .
+# text_port = No outro dia, cedo, ele (o irmão mais novo) foi à tocaia do irmão mais velho dele (Campos Castro 2020).
+# text_spa = El otro día, temprano, él (el hermano menor) fue a la trampa de su hermano mayor.
+# text_en = The other day, early, he (the younger brother) went to his older brother's trap.
+# PP V ADV PP
+1	Aʔe	aʔe	DET	det	PronType=Dem	2	det	2:det	_
+2	kuʔem	kuʔem	NOUN	n	_	4	obl	4:obl	_
+3	re	re	ADP	posp	Rel=Cont	2	case	2:case	_
+4	oho	ho	VERB	v	Person=3	0	root	0:root	_
+5	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6	wɨkɨʔɨm	ɨkɨʔɨr	NOUN	n	Rel=Abs	7	nmod	7:nmod	_
+7	hukaz	ukaz	NOUN	n	Rel=NCont	4	obl	4:obl	_
+8	pupe	pupe	ADP	posp	Rel=Cont	7	case	7:case	_
+9	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+10	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 228
+# text = Uzepɨrog wiràmiri wazukahaw rehe aʔe kurɨ .
+# text_port = Então, ele (o irmão mais novo) começou a matar os pássaros (Campos Castro 2020).
+# text_spa = Entonces, él (el hermano menor) comenzó a matar a los pájaros.
+# text_en = So, he (the younger brother) began to kill the birds.
+# V PP
+1	Uzepɨrog	pɨrog	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
+2	wiràmiri	wiràmiri	NOUN	n	_	3	nmod	3:nmod	_
+3	wazukahaw	zuka	VERB	v	Nomzr=Circ|Number=Plur|Person=3	1	obl	1:obl	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	kurɨ	kurɨ	PART	pcl	_	_	discourse	:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 229
+# text = Aze zekaipo kwarahɨ ur zapɨte katete , izɨwɨtu zekaipo nerɨʔɨmete , aʔe zekaipo aʔe zawar ɨwatehar wà .
+# text_port = Quando deu meio dia em ponto, de repente, começou a ventar muito, eram os seres sobrenaturais (cachorros do céu) (Campos Castro 2020).
+# text_spa = Cuando dio medio día, de repente comenzó a soplar mucho viento, eran los seres sobrenaturales (cachorros del cielo).
+# text_en = At midday, it suddenly began to be very windy, they were the supernatural beings (puppies from heaven).
+# ADV V ADV - S ADV V
+1	Aze	aze	SCONJ	sc	_	2	mark	2:mark	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	kwarahɨ	kwarahɨ	NOUN	n	_	4	obj	4:obj	_
+4	ur	zur	VERB	v	Person=3	8	advcl	8:advcl	_
+5	zapɨte	zapɨte	ADV	adv	_	4	advmod	4:advmod	_
+6	katete	katete	ADV	adv	_	5	advmod	5:advmod	_
+7	,	,	PUNCT	punct	_	4	punct	4:punct	_
+8	izɨwɨtu	zɨwɨtu	NOUN	n	Rel=NCont	0	root	0:root	_
+9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
+10	nerɨʔɨmete	nerɨʔɨmete	ADV	adv	_	8	advmod	8:advmod	_
+11	,	,	PUNCT	punct	_	8	punct	8:punct	_
+12	aʔe	aʔe	PRON	pro	PronType=Dem	16	nsubj	16:nsubj	_
+13	zekaipo	kwehe	ADV	adv	Evident=Nfh	16	advmod	16:advmod	_
+14	aʔe	aʔe	PRON	pro	PronType=Dem	16	det	16:det	_
+15	zawar	zawar	NOUN	n	_	16	nmod	16:nmod	_
+16	ɨwatehar	ɨwate	NOUN	n	Nomzr=Ag	8	conj	8:conj	_
+17	wà	wà	PART	pcl	Number=Plur	16	discourse	16:discourse	_
+18	.	.	PUNCT	punct	_	16	punct	16:punct	_
+
+# sent_id = 230
+# text = Wapɨk zekaipo taʔɨuhu katu oho tukaz huwakete .
+# text_port = Um dos seres de porte médio sentou bem perto da tocaia (Campos Castro 2020).
+# text_spa = Uno de los seres de tamaño mediano se sentó muy cerca de la trampa.
+# text_en = One of the medium-sized beings sat very close to the trap.
+# V ADV S AUX PP
+1	Wapɨk	apɨk	VERB	v	Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	taʔɨuhu	aʔɨr	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
+4	katu	katu	ADV	adv	_	3	advmod	3:advmod	_
+5	oho	ho	VERB	v	Person=3	1	dep	1:dep	_
+6	tukaz	tukaz	NOUN	n	Rel=Abs	1	obl	1:obl	_
+7	huwakete	uwake	ADP	posp	Emph=Yes|Rel=NCont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 231
+# text = Umeʔegatu zekaipo tukaz rehe .
+# text_port = Ele olhava fixamente para a tocaia (Campos Castro 2020).
+# text_spa = Se quedó mirando la trampa.
+# text_en = He stared at the trap.
+# V ADV PP
+1	Umeʔegatu	meʔe	VERB	vi	Emph=Yes|Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	tukaz	tukaz	NOUN	n	Rel=Abs	1	obl:obl	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 232
+# text = Taʔe zekaipo wetun hekwen xe .
+# text_port = Então, ele (um dos seres sobrenaturais) sentiu o cheiro dele do irmão mais novo (Campos Castro 2020).
+# text_spa = Luego, él (uno de los seres sobrenaturales) sintió el olor del hermano menor.
+# text_en = Then he (one of the supernatural beings) felt the smell of the younger brother.
+# ADV V O
+1	Taʔe	taʔe	CCONJ	cc	_	3	mark	3:mark	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+3	wetun	etun	VERB	vi	Person=3	0	root	0:root	_
+4	hekwen	ekwen	NOUN	n	Rel=NCont	3	obj	3:obj	_
+5	xe	xe	PART	pcl	_	3	discourse	3:discourse	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
