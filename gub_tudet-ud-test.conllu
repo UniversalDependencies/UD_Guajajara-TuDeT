@@ -3199,7 +3199,7 @@
 # V ADV PP
 1	Umeʔegatu	meʔe	VERB	vi	Emph=Yes|Person=3	0	root	0:root	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
-3	tukaz	tukaz	NOUN	n	Rel=Abs	1	obl 1:obl	_
+3	tukaz	tukaz	NOUN	n	Rel=Abs	1	obl	1:obl	_
 4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
