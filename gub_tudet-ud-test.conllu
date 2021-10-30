@@ -3000,7 +3000,7 @@
 # text_spa = El guazuncho quería comer algo.
 # text_eng = The brocket deer wanted to eat something.
 # S V PP
-1	amo	amo	DET	dem	PronType=Ind	2	det	2:det	_
+1	Amo	amo	DET	dem	PronType=Ind	2	det	2:det	_
 2	mahaw	mahaw	NOUN	n	_	3	nsubj	3:nsubj	_
 3	ipuruʔu	ʔu	VERB	vi	Detrans=Ind|Person=3	0	root	0:root	_
 4	wer	wer	ADV	adv	_	3	advmod	3:advmod	_
@@ -3017,10 +3017,10 @@
 # text_en = I'm not going to mess with them either.
 # V PP S
 1	Naxixirokwaw	xixiro	VERB	vi	Polarity=Neg	0	root	0:root	_
-3	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	1	obl	1:obl	_
-4	ihe	ihe	PRON	pro	Person=1|PronType=Prs	1	nsubj	1:nsubj	_
-5	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
-6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+2	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	1	obl	1:obl	_
+3	ihe	ihe	PRON	pro	Person=1|PronType=Prs	1	nsubj	1:nsubj	_
+4	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 222
 # text = iʔi tɨkɨʔɨr izupe : Teʔe ere tɨ ?
@@ -3031,7 +3031,7 @@
 1	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
 2	tɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
 3	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	2	obl	2:obl	_
-4	:	:	PUNCT	punct	_	5	punct	5:punct	_ 
+4	:	:	PUNCT	punct	_	5	punct	5:punct	_
 5	Teʔe	teʔe	NOUN	n	_	1	parataxis	1:parataxis	_
 6	ere	ere	PRON	pro	Person=2|PronType=Prs	5	nsubj	5:nsubj	_
 7	tɨ	tɨ	PART	pcl	_	5	discourse	5:discourse	_
@@ -3048,7 +3048,7 @@
 3	amo	amo	DET	dem	PronType=Ind	4	det	4:det	_
 4	maʔe	maʔe	NOUN	n	_	1	obl	1:obl	_
 5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
-6	aʔe	aʔe	PART	pcl	PronType=Dem	1	discourse	1:discourse	_
+6	aʔe	aʔe	PART	pcl	_	1	discourse	1:discourse	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 224
@@ -3073,7 +3073,7 @@
 14	uzɨwɨtutete	zɨwɨtu	VERB	vi	Emph=Yes|Person=3	0	root	0:root	_
 15	tarɨ	tarɨ	VERB	vi	_	14	dep	14:dep	_
 16	,	,	PUNCT	punct	_	18	punct	18:punct	_
-17	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+17	aʔe	aʔe	PRON	pro	PronType=Dem	18	nsubj	18:nsubj	_
 18	uhem	hem	VERB	vi	Person=3	14	advcl	14:advcl	_
 19	ʔur	ʔur	VERB	vi	_	18	dep	18:dep	_
 20	putar	putar	ADV	adv	_	18	advmod	18:advmod	_
