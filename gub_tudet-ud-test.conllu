@@ -3093,7 +3093,7 @@
 4	nehe	nehe	PART	pcl	_	1	discourse	1:discourse	_
 5	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
 6	,	,	PUNCT	punct	_	1	punct	1:punct	_
-7	maʔeputɨr	maʔeputɨr	NOUN	n	_	7	nmod	7:nmod	_
+7	maʔeputɨr	maʔeputɨr	NOUN	n	_	8	nmod	8:nmod	_
 8	tɨkwer	tɨ	NOUN	n	Nomzr=Pas	10	obj	10:obj	_
 9	zogatu	zo	PART	pcl	Emph=Yes	10	discourse	10:discourse	_
 10	umuiʔe	iʔe	VERB	v	Person=3|Voice=Cau	1	conj	1:conj	_
@@ -3101,7 +3101,7 @@
 12	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
 13	wà	wà	PART	pcl	Number=Plur	10	discourse	10:discourse	_
 14	tɨ	tɨ	PART	pcl	_	10	discourse	10:discourse	_
-15	aʔere	aʔe	PRON	pro	Case=Temp|PronType=Dem	16	obl	16:obl	_
+15	aʔere	aʔe	PRON	pro	Case=Tem|PronType=Dem	16	obl	16:obl	_
 16	oho	ho	VERB	v	Person=3	10	conj	10:conj	_
 17	putar	putar	ADV	adv	_	16	advmod	16:advmod	_
 18	wà	wà	PART	pcl	Number=Plur	16	discourse	16:discourse	_
@@ -3145,10 +3145,10 @@
 # V PP
 1	Uzepɨrog	pɨrog	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
 2	wiràmiri	wiràmiri	NOUN	n	_	3	nmod	3:nmod	_
-3	wazukahaw	zuka	VERB	v	Nomzr=Circ|Number=Plur|Person=3	1	obl	1:obl	_
+3	wazukahaw	zuka	NOUN	n	Nomzr=Circ|Number=Plur|Person=3	1	obl	1:obl	_
 4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
 5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
-6	kurɨ	kurɨ	PART	pcl	_	_	discourse	:discourse	_
+6	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 229
@@ -3199,7 +3199,7 @@
 # V ADV PP
 1	Umeʔegatu	meʔe	VERB	vi	Emph=Yes|Person=3	0	root	0:root	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
-3	tukaz	tukaz	NOUN	n	Rel=Abs	1	obl:obl	_
+3	tukaz	tukaz	NOUN	n	Rel=Abs	1	obl 1:obl	_
 4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
@@ -3215,3 +3215,4 @@
 4	hekwen	ekwen	NOUN	n	Rel=NCont	3	obj	3:obj	_
 5	xe	xe	PART	pcl	_	3	discourse	3:discourse	_
 6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
