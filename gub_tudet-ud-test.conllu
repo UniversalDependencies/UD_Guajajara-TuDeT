@@ -3638,7 +3638,7 @@
 9	nuhemkwaw	hem	VERB	v	Person=3|Polarity=Neg	1	conj	1:conj	_
 10	zekaipo	kwehe	ADV	adv	Evident=Nfh	9	advmod	9:advmod	_
 11	aʔe	aʔe	DET	dem	PronType=Dem	12	det	12:det	_
-12	wanekohaw	eko	VERB	v	Nomzr=Circ|Number=Plur|Person=3|Rel=Cont	9	obl	9:obl	_
+12	wanekohaw	eko	NOUN	n	Nomzr=Circ|Number=Plur|Person=3|Rel=Cont	9	obl	9:obl	_
 13	pe	pe	ADP	posp	Rel=Cont	12	case	12:case	_
 14	.	.	PUNCT	punct	_	12	punct	12:punct	_
 
@@ -3681,8 +3681,8 @@
 # PP V PP - ADV V AUX PP
 1	Aʔere	aʔe	PRON	pro	Case=Tem|PronType=Dem	3	obl	3:obl	_
 2	uzeapo	apo	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
-3	tahɨwai	ahɨw	NOUN	n	Dimin=Yes|Rel=Abs	5	nmod	5:nmod	_
-4	xixirogaturumu	xiro	NOUN	n	Case=Transl|Emph=Yes|Red=Mo|Rel=Cont	2	obl	2:obl	_
+3	tahɨwai	ahɨw	NOUN	n	Dimin=Yes|Rel=Abs	4	nmod	4:nmod	_
+4	xixirogaturumu	xiro	NOUN	n	Case=Tra|Emph=Yes|Red=Mo|Rel=Cont	2	obl	2:obl	_
 5	,	,	PUNCT	punct	_	2	punct	2:punct	_
 6	naʔe	naʔe	PART	pcl	_	8	discourse	8:discourse	_
 7	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
@@ -3713,7 +3713,7 @@
 10	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
 # sent_id = 263
-# text = Aʔe pe ukàzikàzim zekaipo iko aʔe pehar wanuwi .
+# text = Aʔe pe ukàzikàzim zekaipo iko aʔepehar wanuwi .
 # text_port = Lá, ele (o irmão mais velho) passou vários dias escondido deles (dos seres sobrenaturais)
 # text_spa = Allí, él (el hermano mayor) pasó varios días escondido de ellos (de los seres sobrenaturales)
 # text_en = There, he (the older brother) spent several days hidden from them (from the supernatural beings)
@@ -3723,9 +3723,9 @@
 3	ukàzikàzim	kàzim	VERB	v	Person=3|Red=Di	0	root	0:root	_
 4	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
 5	iko	iko	VERB	v	Aspect=Prog	3	dep	3:dep	_
-6	aʔepehar	aʔe	PRON	pro	Case=Dat|Nomzr=Ag|PronType=Dem	3	obl	3:obl	_
-8	wanuwi	uwi	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	3	obl	3:obl	_
-9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+6	aʔepehar	aʔe	NOUN	n	Case=Dat|Nomzr=Ag|PronType=Dem	3	obl	3:obl	_
+7	wanuwi	uwi	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	3	obl	3:obl	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 264
 # text = Maʔemaʔe xixigaturumu zekaipo zeapo iko aʔe pe wanuwi .
@@ -3734,7 +3734,7 @@
 # text_en = He (the older brother) turned into several insects and animals to hide from them (from the dogs from heaven)
 # PP ADV V AUX PP PP
 1	Maʔemaʔe	maʔe	NOUN	n	_	2	nmod	2:nmod	_
-2	xixigaturumu	xi	VERB	v	Case=Trans|Emph=Yes|Red=Mo	4	obl	4:obl	_
+2	xixigaturumu	xi	VERB	v	Case=Tra|Emph=Yes|Red=Mo	4	obl	4:obl	_
 3	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
 4	zeapo	apo	VERB	v	Reflex=Yes	0	root	0:root	_
 5	iko	iko	VERB	v	Aspect=Prog	4	dep	4:dep	_
@@ -3805,7 +3805,7 @@
 4	iko	iko	VERB	v	_	3	dep	3:dep	_
 5	xe	xe	ADV	adv	_	4	advmod	4:advmod	_
 6	tɨ	tɨ	PART	pcl	_	3	discourse	3:discourse	_
-7	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	,	,	PUNCT	punct	_	3	punct	3:punct	_
 8	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
 9	izupe	zupe	ADP	posp	Rel=NCont	8	obl	8:obl	_
 10	?	?	PUNCT	punct	_	8	punct	8:punct	_
@@ -3823,9 +3823,9 @@
 5	umumeʔu	mumeʔu	VERB	v	Person=3	0	root	0:root	_
 6	parupi	paw	PRON	pro	Case=Loc|PronType=Tot|Rel=Cont	8	obl	8:obl	_
 7	maʔe	maʔe	NOUN	n	_	8	nmod	8:nmod	_
-8	uzeapomaʔe	apo	VERB	v	Nomzr=Abs|Person=3|Reflex=Yes	5	obj	5:obj	_
-10	izupe	zupe	ADP	posp	Rel=NCont	8	obl	8:obl	_
-11	.	.	PUNCT	punct	_	1	punct	1:punct	_
+8	uzeapomaʔe	apo	NOUN	n	Nomzr=Abs|Person=3|Reflex=Yes	5	obj	5:obj	_
+9	izupe	zupe	ADP	posp	Rel=NCont	8	obl	8:obl	_
+10	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 270
 # text = Naʔe aʔe mainumɨ uzeapo tentehar rumu izupe kurɨ , uwexakar tɨwɨr hemiʔiwàkwer izupe no .
@@ -3845,7 +3845,7 @@
 10	uwexakar	wexak	VERB	v	Person=3|Voice=Cau	4	conj	4:conj	_
 11	tɨwɨr	ɨwɨr	NOUN	n	Rel=Abs	12	nmod	12:nmod	_
 12	hemiʔiwàkwer	iwà	NOUN	n	Nomzr=DevPass|Rel=NCont|Tense=Past	10	obj	10:obj	_
-14	izupe	zupe	ADP	posp	Rel=NCont	12	case	12:case	_
-15	no	no	PART	pcl	_	10	discourse	10:discourse	_
-16	.	.	PUNCT	punct	_	10	punct	10:punct	_
+13	izupe	zupe	ADP	posp	Rel=NCont	12	case	12:case	_
+14	no	no	PART	pcl	_	10	discourse	10:discourse	_
+15	.	.	PUNCT	punct	_	10	punct	10:punct	_
 
