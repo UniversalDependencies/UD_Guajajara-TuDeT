@@ -3467,7 +3467,7 @@
 6	uzeapomaʔekwer	apo	NOUN	n	Nomzr=Abs|Reflex=Yes|Rel=NCont|Tense=Past	3	obj	3:obj	_
 7	izupe	zupe	ADP	posp	Rel=NCont	6	obl	6:obl	_
 8	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
-9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 249
 # text = Nan , nuhemkwaw ur rihi ʔɨ .
@@ -3552,5 +3552,4 @@
 7	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
 8	izeupe	upe	NOUN	n	Reflex=Yes|Rel=NCont	7	obl	7:obl	_
 9	.	.	PUNCT	punct	_	7	punct	7:punct	_
-
 
