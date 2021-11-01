@@ -3849,3 +3849,220 @@
 14	no	no	PART	pcl	_	10	discourse	10:discourse	_
 15	.	.	PUNCT	punct	_	10	punct	10:punct	_
 
+# sent_id = 271
+# text = Ipuruʔu wer Kari arapuha roʔo kwer rehe .
+# text_port = Karita queria comer carne de veado (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Karita quería comer carne de venado.
+# text_eng = Karita wanted to eat venison.
+# O V S PP
+1	Ipuruʔu	ʔu	NOUN	n	Detrans=Ind|Rel=NCont	0	root	0:root	_
+2	wer	wer	ADV	adv	_	1	advmod	1:advmod	_
+3	Kari	Kari	PROPN	pn	_	1	nsubj	1:nsubj	_
+4	arapuha	arapuha	NOUN	n	_	5	nmod	5:nmod	_
+5	roʔo	oʔo	NOUN	n	Rel=Cont	1	obl	1:obl	_
+6	kwer	kwer	ADV	adv	_	5	advmod	5:advmod	_
+7	rehe	ehe	ADP	posp	Rel=Cont	5	case	5:case	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 272
+# text = Weraha awaxi taw pe wa .
+# text_port = Eles levaram o milho para a aldeia (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Llevaron juntos el maíz a la aldea.
+# text_eng = Together, they brought the corn to the village.
+# V O PP
+1	Weraha	ha	VERB	vt	Person=3|Voice=Com	0	root	0:root	_
+2	awaxi	awaxi	NOUN	n	_	1	obj	1:obj	_
+3	taw	taw	NOUN	n	_	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 273
+# text = Weraha awaxi kok pupe aʔe wa .
+# text_port = Eles levaram o milho num cesto (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Ellos llevan el maíz en un cesto.
+# text_eng = They carry the corn in a basket.
+# V O PP
+1	Weraha	ha	VERB	vt	Person=3|Voice=Com	0	root	0:root	_
+2	awaxi	awaxi	NOUN	n	_	1	obj	1:obj	_
+3	kok	kok	NOUN	n	_	1	obl	1:obl	_
+4	pupe	pupe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 274
+# text = Werur zapepo ipɨahumaʔe taw wi .
+# text_port = Ele trouxe uma panela nova de lã (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Trajo una cacerola nueva de allí.
+# text_eng = He brought a new saucepan from there.
+# V O PP
+1	Werur	ur	VERB	vt	Person=3|Voice=Com	0	root	0:root
+2	zapepo	zapepo	NOUN	n	_	1	obj	1:obj	_
+3	ipɨahumaʔe	pɨahu	NOUN	n	Nomzr=Abs|Rel=NCont	2	nmod	2:nmod	_
+4	taw	taw	NOUN	n	_	1	obl	1:obl	_
+5	wi	wi	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 275
+# text = Werur zapepo wemireko pe , Mari pe .
+# text_port = Ele trouxe uma panela para Maria , a esposa dele (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Es un guacamayo, José dice a su padre.
+# text_eng = It's a macaw, José tells his father.
+# V O PP
+1	Werur	ur	VERB	vt	Person=3|Voice=Com	0	root	0:root
+2	zapepo	zapepo	NOUN	n	_	1	obj	1:obj	_
+3	wemireko	eko	NOUN	n	_	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	,	,	PUNCT	punct	_	6	punct	6:punct	_
+6	Mari	Mari	PROPN	pn	_	3	appos	3:appos	_
+7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 276
+# text = Zuze werur zapepo ipɨahu maʔe taw wi wemireko pe .
+# text_port = José trouxe uma panela nova da vila para a mulher dele (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = José trajo una cacerola nueva del pueblo para su mujer
+# text_eng = José brought a new saucepan from the town for his wife.
+# O V S PP
+1	Zuze	Zuze	PROPN	ppn	_	2	nsubj	2:nsubj	_
+2	werur	zur	VERB	vt	Person=3|Voice=Com	0	root	0:root
+3	zapepo	zapepo	NOUN	n	_	2	obj	2:obj	_
+4	ipɨahumaʔe	pɨahu	NOUN	n	Nomzr=Abs|Rel=NCont	3	nmod	3:nmod	_
+5	taw	taw	NOUN	n	_	2	obl	2:obl	_
+6	wi	wi	ADP	posp	Rel=Cont	5	case	5:case	_
+7	wemireko	eko	NOUN	n	_	2	obl	2:obl	_
+8	pe	pe	ADP	posp	Rel=Cont	7	case	7:case	_
+9	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 277
+# text = Weraha Zuze kɨhaw kurɨ , arapuha haro pa ɨwate kurɨ .
+# text_port = José levou a rede e amarrou lã em cima (da árvore) para esperar pelo veado (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = José cogió la red y la amarró encima (del árbol) para esperar al venado.
+# text_eng = José took the net and knotted it on the top (of the tree) to wait for the deer.
+# V S PP
+1	Weraha	ha	VERB	vt	Person=3|Voice=Com	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	kɨhaw	kɨhaw	NOUN	n	_	1	obj	1:obj	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	,	,	PUNCT	punct	_	7	punct	7:punct	_
+6	arapuha	arapuha	NOUN	n	_	6	obj	6:obj	_
+7	haro	aro	VERB	vt	Rel=NCont	1	xcomp	1:xcomp	_
+8	pa	pa	ADP	posp	Rel=Cont	7	case	7:case	_
+9	ɨwate	ɨwak	ADV	adv	_	7	advmod	7:advmod	_
+10	kurɨ	kurɨ	PART	pcl	_	7	discourse	7:discourse	_
+11	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 278
+# text = Upɨhɨk wirahu aʔe , uʔu heraha wɨraka rehe kurɨ .
+# text_port = Levou o pintinho para outro galho e comeu (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Se llevó el polluelo a otra rama y lo comió.
+# text_eng = He took the chicken to another branch and ate it.
+# O V S PP
+1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	0:root	_
+2	wirahu	wira	NOUN	n	_	1	nsubj	1:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	5	punct	5:punct	_
+5	uʔu	ʔu	VERB	v	Person=3	1	conj	1:conj	_
+6	heraha	ha	VERB	vi	Rel=NCont|Voice=Com	5	ccomp	5:ccomp	_
+7	wɨraka	wɨraka	NOUN	n	_	6	obl	6:obl	_
+8	rehe	ehe	ADP	posp	Rel=Cont	7	case	7:case	_
+9	kurɨ	kurɨ	PART	pcl	_	5	discourse	5:discourse	_
+10	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 279
+# text = Uhɨape katu zahɨ aʔe pe izupe kurɨ .
+# text_port = A lua ilumina bem o mato para Jose (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = La luna ilumina bien la selva para él.
+# text_eng = The moon lights the jungle well for him.
+# O V S PP
+1	Uhɨape	hɨape	VERB	v	Person=3	0	root	0:root	_
+2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
+3	zahɨ	zahɨ	NOUN	n	_	1	nsubj	1:nsubj	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	1:obl_
+5	pe	pe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	izupe	upe	ADP	posp	Case=Dat|Rel=Ncont	1	obl	1:obl	_
+7	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 280
+# text = Ikatu awaxi izupe .
+# text_port = Ela gosta de milho .
+# text_spa = Le gusta el maíz.
+# text_eng = She likes corn.
+# V O PP
+1	Ikatu	katu	NOUN	n	Rel=NCont	0	root	0:root	_
+2	awaxi	awaxi	NOUN	n	_	1	nsubj	1:nsubj	_
+3	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	1	obl	1:obl	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 281
+# text = Maʔe tue te aipo ma , iʔi uzeupe .
+# text_port = 0 que é que há? ela disse a si mesma (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = ¿Qué ocurre? se pregunta.
+# text_eng = What happens? she wonders.
+# O V
+1	Maʔe	maʔe	PRON	pro	PronType=Int	7	xcomp	7:xcomp	_
+2	tue	tue	PART	pcl	_	1	discourse	1:discourse	_
+3	te	te	PART	pcl	_	1	discourse	1:discourse	_
+4	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
+5	ma	ma	ADV	adv	_	4	advmod	4:advmod	_
+6	,	,	PUNCT	punct	_	7	punct	7:punct	_
+7	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+8	uzeupe	upe	ADP	posp	Case=Dat|Person=3|Reflex=Yes	7	obl	7:obl	_
+9	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 282
+# text = Zapukazaʔɨr heiheihem , iʔi uzeupe .
+# text_port = Os pintinhos estão gritando, ela disse a si mesma (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Los polluelos están gritando, se dice a sí misma.
+# text_eng = The chicks are crying, she tells herself.
+# O V PP
+1-2	zapukazaʔɨr	_	_	_	_	_	_	_	_
+1	zapukaz	zapukaz	NOUN	n	_	3	nsubj	3:nsubj	_
+2	aʔɨr	aʔɨr	NOUN	n	_	1	nmod	1:nmod	_
+3	heiheihem	eihem	VERB	vi	Person=3|Red=Mo	5	xcomp	5:xcomp	_
+4	,	,	PUNCT	punct	_	3	punct	3:punct	_
+5	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+6	uzeupe	upe	ADP	posp	Case=Dat|Person=3|Reflex=Yes	5	obl	5:obl	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 283
+# text = Wirahu ruʔu aipo ʔɨ , iʔi izupe .
+# text_port = Parece que é um gaviao , ela disse (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Parece que es un gavilán, dice.
+# text_eng = It seems it's a hawk, she says.
+# O V S PP
+1	Wirahu	wira	NOUN	n	_	6	ccomp	6:ccomp	_
+2	ruʔu	ruʔu	PART	pcl	_	1	discourse	1:discourse	_
+3	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
+4	ʔɨ	ʔɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	,	,	PUNCT	punct	_	6	punct	6:punct	_
+6	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+7	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	6	obl	6:obl	_
+8	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 284
+# text = Ezuka tue wirahu , taʔe weraha zapukazaʔɨr aʔe ʔɨ , iʔi izupe uhapukaz ta .
+# text_port = Mate o gavião porque ele vai levar os pintinhos , ela gritou (Sociedade Internacional de Lingüística, 1973:79).
+# text_spa = Mata al gavilán porque se va a llevar a los polluelos, gritó ella.
+# text_eng = Kill the hawk because it's going to eat all of the chicks, she cried.
+# O V S PP
+1	Ezuka	zuka	VERB	vt	Mood=Imp|Person=2	12	ccomp	12:ccomp	_
+2	tue	tue	PART	pcl	_	1	discourse	1:discourse	_
+3	wirahu	wira	NOUN	n	_	1	obj	1:obj	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	taʔe	taʔe	SCONJ	conj	_	6	mark	6:mark	_
+6	weraha	ha	VERB	vi	_	1	xcomp	1:xcomp	_
+7-8	zapukazaʔɨr	_	_	_	_	_	_	_	_
+7	zapukaz	zapukaz	NOUN	n	_	6	obj	6:obj	_
+8	aʔɨr	aʔɨr	NOUN	n	_	7	nmod	7:nmod	_
+9	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+10	ʔɨ	ʔɨ	NOUN	n	_	6	discourse	6:discourse	_
+11	,	,	PUNCT	punct	_	6	punct	6:punct	_
+12	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+13	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	12	obl	12:obl	_
+14	uhapukaz	hapukaz	VERB	v	Person=3	12	xcomp	12:xcomp	_
+15	ta	ta	ADP	posp	Rel=Cont	14	case	14:case	_
+16	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
