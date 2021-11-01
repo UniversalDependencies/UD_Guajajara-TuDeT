@@ -3897,7 +3897,7 @@
 # text_spa = Trajo una cacerola nueva de allí.
 # text_eng = He brought a new saucepan from there.
 # V O PP
-1	Werur	ur	VERB	vt	Person=3|Voice=Com	0	root	0:root  _
+1	Werur	ur	VERB	vt	Person=3|Voice=Com	0	root	0:root	_
 2	zapepo	zapepo	NOUN	n	_	1	obj	1:obj	_
 3	ipɨahumaʔe	pɨahu	NOUN	n	Nomzr=Abs|Rel=NCont	2	nmod	2:nmod	_
 4	taw	taw	NOUN	n	_	1	obl	1:obl	_
@@ -3910,7 +3910,7 @@
 # text_spa = Es un guacamayo, José dice a su padre.
 # text_eng = It's a macaw, José tells his father.
 # V O PP
-1	Werur	ur	VERB	vt	Person=3|Voice=Com	0	root	0:root  _
+1	Werur	ur	VERB	vt	Person=3|Voice=Com	0	root	0:root	_
 2	zapepo	zapepo	NOUN	n	_	1	obj	1:obj	_
 3	wemireko	eko	NOUN	n	_	1	obl	1:obl	_
 4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
@@ -3926,7 +3926,7 @@
 # text_eng = José brought a new saucepan from the town for his wife.
 # O V S PP
 1	Zuze	Zuze	PROPN	ppn	_	2	nsubj	2:nsubj	_
-2	werur	zur	VERB	vt	Person=3|Voice=Com	0	root	0:root  _
+2	werur	zur	VERB	vt	Person=3|Voice=Com	0	root	0:root	_
 3	zapepo	zapepo	NOUN	n	_	2	obj	2:obj	_
 4	ipɨahumaʔe	pɨahu	NOUN	n	Nomzr=Abs|Rel=NCont	3	nmod	3:nmod	_
 5	taw	taw	NOUN	n	_	2	obl	2:obl	_
@@ -3979,9 +3979,9 @@
 1	Uhɨape	hɨape	VERB	v	Person=3	0	root	0:root	_
 2	katu	katu	ADV	adv	_	1	advmod	1:advmod	_
 3	zahɨ	zahɨ	NOUN	n	_	1	nsubj	1:nsubj	_
-4	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	1:obl _
+4	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	1:obl	_
 5	pe	pe	ADP	posp	Rel=Cont	4	case	4:case	_
-6	izupe	upe	ADP	posp	Case=Dat|Rel=Ncont	1	obl	1:obl	_
+6	izupe	upe	ADP	posp	Case=Dat|Rel=NCont	1	obl	1:obl	_
 7	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
 8	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
@@ -4018,14 +4018,14 @@
 # text_spa = Los polluelos están gritando, se dice a sí misma.
 # text_eng = The chicks are crying, she tells herself.
 # O V PP
-1-2	zapukazaʔɨr	_	_	_	_	_	_	_	_
+1-2	Zapukazaʔɨr	_	_	_	_	_	_	_	_
 1	zapukaz	zapukaz	NOUN	n	_	3	nsubj	3:nsubj	_
 2	aʔɨr	aʔɨr	NOUN	n	_	1	nmod	1:nmod	_
 3	heiheihem	eihem	VERB	vi	Person=3|Red=Mo	5	xcomp	5:xcomp	_
 4	,	,	PUNCT	punct	_	3	punct	3:punct	_
 5	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
 6	uzeupe	upe	ADP	posp	Case=Dat|Person=3|Reflex=Yes	5	obl	5:obl	_
-7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+7	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
 # sent_id = 283
 # text = Wirahu ruʔu aipo ʔɨ , iʔi izupe .
