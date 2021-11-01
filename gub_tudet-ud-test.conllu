@@ -3723,7 +3723,7 @@
 3	ukàzikàzim	kàzim	VERB	v	Person=3|Red=Di	0	root	0:root	_
 4	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
 5	iko	iko	VERB	v	Aspect=Prog	3	dep	3:dep	_
-6	aʔepehar	aʔe	PRON	pro	Case=Dat|Nomzr=Ag|PronType=Dem	3	obl	3:obl	_
+6	aʔepehar	aʔe	NOUN	n	Case=Dat|Nomzr=Ag|PronType=Dem	3	obl	3:obl	_
 7	wanuwi	uwi	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	3	obl	3:obl	_
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
