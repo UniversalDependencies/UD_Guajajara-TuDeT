@@ -3734,7 +3734,7 @@
 # text_en = He (the older brother) turned into several insects and animals to hide from them (from the dogs from heaven)
 # PP ADV V AUX PP PP
 1	Maʔemaʔe	maʔe	NOUN	n	_	2	nmod	2:nmod	_
-2	xixigaturumu	xi	VERB	v	Case=Tra|Emph=Yes|Red=Mo	4	obl	4:obl	_
+2	xixigaturumu	xi	NOUN	n	Case=Tra|Emph=Yes|Red=Mo	4	obl	4:obl	_
 3	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
 4	zeapo	apo	VERB	v	Reflex=Yes	0	root	0:root	_
 5	iko	iko	VERB	v	Aspect=Prog	4	dep	4:dep	_
