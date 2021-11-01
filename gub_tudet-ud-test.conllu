@@ -3553,3 +3553,21 @@
 8	izeupe	upe	NOUN	n	Reflex=Yes|Rel=NCont	7	obl	7:obl	_
 9	.	.	PUNCT	punct	_	7	punct	7:punct	_
 
+# sent_id = 254
+# text = Hepuruʔu wer arapuha roʔo kwer rehe , iʔi Kari upe .
+# text_port = Eu quero comer carne de veado , disse Karita ao pai (Sociedade Internacional de Lingüística, 1973:78).
+# text_spa = Quiero comer carne de venado, le dice Karita a su padre.
+# text_eng = I want to eat venison, Karita tells her father.
+# O V S PP
+1	Hepuruʔu	ʔu	VERB	vi	Detrans=Ind|Person=1	8	ccomp	8:ccomp	_
+2	wer	wer	ADV	adv	_	1	advmod	1:advmod	_
+3	arapuha	arapuha	NOUN	n	_	4	nmod	4:nmod	_
+4	roʔo	oʔo	NOUN	n	Rel=Cont	1	obl	1:obl	_
+5	kwer	kwer	ADV	adv	_	4	advmod	4:advmod	_
+6	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+7	,	,	PUNCT	punct	_	1	punct	1:punct	_
+8	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+9	Kari	Kari	PROPN	pn	_	8	nsubj	8:nsubj	_
+10	upe	u	NOUN	n	Case=Dat	8	obl	8:obl	_
+11	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
