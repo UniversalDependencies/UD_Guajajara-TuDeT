@@ -3571,3 +3571,281 @@
 10	upe	u	NOUN	n	Case=Dat	8	obl	8:obl	_
 11	.	.	PUNCT	punct	_	8	punct	8:punct	_
 
+# sent_id = 255
+# text = Wexak zekaipo amo huwɨkwer kaʔa rehe .
+# text_port = Ele procurou novamente, então ele viu um pingo de sangue numa folha de árvore
+# text_spa = Buscó de nuevo, entonces vio una gota de sangre en una hoja de árboles.
+# text_en = He searched again, then he saw a blood drop on a leaf
+# V ADV O PP
+1	Wexak	exak	VERB	v	Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	amo	amo	DET	dem	PronType=Ind	2	det	2:det	_
+4	huwɨkwer	uwɨ	NOUN	n	Rel=NCont|Tense=Past	1	obj	1:obj	_
+5	kaʔa	kaʔa	NOUN	n	_	1	obl	1:obl	_
+6	rehe	ehe	ADP	posp	Rel=Cont	5	case	5:case	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 256
+# text = Oho zekaipo hurkwer tɨktɨkɨrawer hupi aʔe , izahɨk zekaipo oho ɨaʔo ʔɨkwar rehe .
+# text_port = O irmão mais velho foi seguindo os pingos de sangue, e os pingos de sangue pararam no buraco de saúva (no final)
+# text_spa = El hermano mayor estaba siguiendo las gotas de sangre, y las gotas de sangre se detuvieron en un hormiguero (al final)
+# text_en = The older brother was following blood drops, and the blood drops stopped in the anthill (at the end)
+# V ADV PP - ADV V PP
+1	Oho	ho	VERB	v	Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	hurkwer	hurɨ	NOUN	n	Tense=Past	4	nmod	4:nmod	_
+4	tɨktɨkɨrawer	tɨkɨ	NOUN	n	Nomzr=Circ|Red=Mo|Rel=Cont|Tense=Past	1	obj	1:obj	_
+5	hupi	upi	ADP	posp	Rel=NCont	4	case	4:case	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	,	,	PUNCT	punct	_	1	punct	1:punct	_
+8	izahɨk	zahɨk	ADV	adv	Rel=NCont	10	advmod	10:advmod	_
+9	zekaipo	kwehe	ADV	adv	Evident=Nfh	10	advmod	10:advmod	_
+10	oho	ho	VERB	v	Person=3	1	conj	1:conj	_
+11	ɨaʔo	ɨaʔo	NOUN	n	_	12	nmod	12:nmod	_
+12	ʔɨkwar	kwar	NOUN	n	_	10	obl	10:obl	_
+13	rehe	ehe	ADP	posp	Rel=Cont	12	case	12:case	_
+14	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 257
+# text = Aʔe pe zekaipo aʔe maʔe wanekohaw ipiʔarà .
+# text_port = Lá era a entrada (o caminho) da morada deles
+# text_spa = Ahí estaba la entrada (al camino) de su hogar.
+# text_en = There was the entrance (the way) to their home
+# PP ADV S V
+1	Aʔe	aʔe	PRON	pro	PronType=Dem	7	obl	7:obl	_
+2	pe	pe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	7	advmod	7:advmod	_
+4	aʔe	aʔe	DET	dem	PronType=Dem	5	det	5:det	_
+5	maʔe	maʔe	NOUN	n	_	7	nsubj	7:nsubj	_
+6	wanekohaw	eko	NOUN	n	Nomzr=Circ|Number=Plur|Person=3|Rel=Cont	7	nmod	7:nmod	_
+7	ipiʔarà	piʔarà	NOUN	n	Rel=NCont	0	root	0:root	_
+8	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 258
+# text = Uhewikàzxi zekaipo tɨkɨʔɨr aʔe ɨaʔo ikwar aʔe , nuhemkwaw zekaipo aʔe wanekohaw pe .
+# text_port = O irmão dele cavou o buraco da saúva, mas ele (o irmão mais velho) não chegou à aldeia deles
+# text_spa = Su hermano cavó el hormiguero, pero él (el hermano mayor) no llegó a su aldea.
+# text_en = His brother dug the anthill, but he (the older brother) did not arrive to their village
+# V ADV S O - V ADV PP
+1	Uhewikàzxi	hewikàz	VERB	v	Person=3|Tense=Past	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	tɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
+4	aʔe	aʔe	DET	dem	PronType=Dem	6	det	6:det	_
+5	ɨaʔo	ɨaʔo	NOUN	n	_	6	nmod	6:nmod	_
+6	ikwar	kwar	NOUN	n	Rel=NCont	1	obj	1:obj	_
+7	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+8	,	,	PUNCT	punct	_	1	punct	1:punct	_
+9	nuhemkwaw	hem	VERB	v	Person=3|Polarity=Neg	1	conj	1:conj	_
+10	zekaipo	kwehe	ADV	adv	Evident=Nfh	9	advmod	9:advmod	_
+11	aʔe	aʔe	DET	dem	PronType=Dem	12	det	12:det	_
+12	wanekohaw	eko	VERB	v	Nomzr=Circ|Number=Plur|Person=3|Rel=Cont	9	obl	9:obl	_
+13	pe	pe	ADP	posp	Rel=Cont	12	case	12:case	_
+14	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = 259
+# text = Amo ar mehe katu uzeapo zekaipo tezuhu romo .
+# text_port = Então, certo dia, ele se transformou em um lagarto
+# text_spa = Entonces, un día, se convirtió en un lagarto.
+# text_en = Then, one day, he turned into a lizard
+# PP V ADV PP
+1	Amo	amo	DET	dem	PronType=Dem	2	det	2:det	_
+2	ar	ar	NOUN	n	_	5	obl	5:obl	_
+3	mehe	mehe	ADP	posp	_	2	case	2:case	_
+4	katu	katu	ADV	adv	_	2	advmod	2:advmod	_
+5	uzeapo	apo	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
+6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7	tezuhu	tez	NOUN	NOUN	_	5	obl	5:obl	_
+8	romo	omo	ADP	posp	Rel=Cont	7	case	7:case	_
+9	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 260
+# text = Nawizeahɨkwaw zeikaipo heixehaw aʔe ɨaʔo ikwa rupi .
+# text_port = Não dava para passar (não cabia) pelo buraco do formigueiro
+# text_spa = No podía pasar (no cabía) por el hormiguero.
+# text_en = It could not enter (it did not fit) the anthill
+# V ADV PP
+1	Nawizeahɨkwaw	awize	VERB	v	Emph=Yes|Polarity=Neg	0	root	0:root	_
+2	zeikaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	heixehaw	eixe	NOUN	n	Nomzr=Circ|Rel=NCont	1	obl	1:obl	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	ɨaʔo	ɨaʔo	NOUN	n	_	6	nmod	6:nmod	_
+6	ikwa	kwa	NOUN	n	Rel=NCont	3	nmod	3:nmod	_
+7	rupi	upi	ADP	posp	Rel=Cont	3	case	3:case	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 261
+# text = Aʔere uzeapo tahɨwai xixirogaturumu , naʔe zekaipo uixe oho aʔe tahɨwai ikwaw rupi kurɨ .
+# text_port = Depois, ele se transformou em formigas de vários tamanhos, até que conseguiu passar pelo buraco do formigueiro
+# text_spa = Luego se convirtió en hormigas de varios tamaños, hasta que pudo pasar por el agujero del hormiguero.
+# text_en = Then he turned into ants of various sizes, until he could pass through the hole of the anthill
+# PP V PP - ADV V AUX PP
+1	Aʔere	aʔe	PRON	pro	Case=Tem|PronType=Dem	3	obl	3:obl	_
+2	uzeapo	apo	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
+3	tahɨwai	ahɨw	NOUN	n	Dimin=Yes|Rel=Abs	5	nmod	5:nmod	_
+4	xixirogaturumu	xiro	NOUN	n	Case=Transl|Emph=Yes|Red=Mo|Rel=Cont	2	obl	2:obl	_
+5	,	,	PUNCT	punct	_	2	punct	2:punct	_
+6	naʔe	naʔe	PART	pcl	_	8	discourse	8:discourse	_
+7	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
+8	uixe	ixe	VERB	v	Person=3	2	conj	2:conj	_
+9	oho	ho	VERB	v	Person=3	8	dep	8:dep	_
+10	aʔe	aʔe	DET	dem	PronType=Dem	12	det	12:det	_
+11	tahɨwai	ahɨw	NOUN	n	Dimin=Yes|Rel=Abs	12	nmod	12:nmod	_
+12	ikwaw	kwaw	NOUN	n	Rel=NCont	8	obl	8:obl	_
+13	rupi	upi	ADP	posp	Rel=Cont	12	case	12:case	_
+14	kurɨ	kurɨ	PART	pcl	_	12	discourse	12:discourse	_
+15	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = 262
+# text = Aze zekaipo uixe oho uhem zeiakpo amo taw pe .
+# text_port = Passando pelo buraco, ele chegou a uma aldeia
+# text_spa = Pasando por el hoyo, llegó a un pueblo.
+# text_en = Passing through the hole, he came to a village
+# ADV V ADV PP
+1	Aze	aze	SCONJ	sc	_	3	mark	3:mark	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+3	uixe	ixe	VERB	v	Person=3	6	advcl	6:advcl	_
+4	oho	ho	VERB	v	Person=3	3	dep	3:dep	_
+5	uhem	hem	VERB	v	Person=3	0	root	0:root	_
+6	zeiakpo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7	amo	amo	DET	dem	PronType=Ind	8	det	8:det	_
+8	taw	taw	NOUN	n	_	5	obl	5:obl	_
+9	pe	pe	ADP	posp	Rel=Cont	8	case	8:case	_
+10	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 263
+# text = Aʔe pe ukàzikàzim zekaipo iko aʔe pehar wanuwi .
+# text_port = Lá, ele (o irmão mais velho) passou vários dias escondido deles (dos seres sobrenaturais)
+# text_spa = Allí, él (el hermano mayor) pasó varios días escondido de ellos (de los seres sobrenaturales)
+# text_en = There, he (the older brother) spent several days hidden from them (from the supernatural beings)
+# PP V ADV AUX PP
+1	Aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	3:obl	_
+2	pe	pe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	ukàzikàzim	kàzim	VERB	v	Person=3|Red=Di	0	root	0:root	_
+4	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	iko	iko	VERB	v	Aspect=Prog	3	dep	3:dep	_
+6	aʔepehar	aʔe	PRON	pro	Case=Dat|Nomzr=Ag|PronType=Dem	3	obl	3:obl	_
+8	wanuwi	uwi	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	3	obl	3:obl	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 264
+# text = Maʔemaʔe xixigaturumu zekaipo zeapo iko aʔe pe wanuwi .
+# text_port = Ele (o irmão mais velho) se transformava em vários insetos e animais para se esconder deles (dos cachorros do céu)
+# text_spa = Él (el hermano mayor) se convirtió en varios insectos y animales para esconderse de ellos (de los perros del cielo)
+# text_en = He (the older brother) turned into several insects and animals to hide from them (from the dogs from heaven)
+# PP ADV V AUX PP PP
+1	Maʔemaʔe	maʔe	NOUN	n	_	2	nmod	2:nmod	_
+2	xixigaturumu	xi	VERB	v	Case=Trans|Emph=Yes|Red=Mo	4	obl	4:obl	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+4	zeapo	apo	VERB	v	Reflex=Yes	0	root	0:root	_
+5	iko	iko	VERB	v	Aspect=Prog	4	dep	4:dep	_
+6	aʔe	aʔe	PRON	pro	PronType=Dem	4	obl	4:obl	_
+7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	wanuwi	uwi	ADP	posp	Number=Plur|Person=3|Rel=Cont	4	obl	4:obl	_
+9	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 265
+# text = Aʔepe uiko mehe uwexak pawkatu aʔe zemaraʔitaw iko aʔe pe .
+# text_port = Então, ele pôde observar as festas e os rituais
+# text_spa = Entonces él podría observar las fiestas y los rituales.
+# text_en = Then he could observe the festivities and the rituals
+# ADV V O AUX PP
+1	Aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	2	obl	2:obl	_
+2	uiko	iko	VERB	v	Person=3	4	advcl	4:advcl	_
+3	mehe	mehe	ADV	adv	_	2	mark	2:mark	_
+4	uwexak	wexak	VERB	v	Person=3	0	root	0:root	_
+5	pawkatu	paw	DET	dem	Emph=Yes|PronType=Tot	7	det	7:det	_
+6	aʔe	aʔe	DET	dem	PronType=Dem	7	det	7:det	_
+7	zemaraʔitaw	zemaraʔi	NOUN	n	Nomzr=Circ	4	obj	4:obj	_
+8	iko	iko	VERB	v	Aspect=Prog	4	dep	4:dep	_
+9	aʔe	aʔe	PRON	pro	PronType=Dem	4	obl	4:obl	_
+10	pe	pe	ADP	posp	Rel=Cont	9	case	9:case	_
+11	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 266
+# text = Aʔe pe uwexak zekaipo amo mainumɨ we zepe tentehar tuaʔu zepe zekaipo raʔa
+# text_port = Lá, ele encontrou um ancião que estava em forma de beija-flor
+# text_spa = Allí encontró a un anciano que estaba en forma de colibrí.
+# text_en = There he found an old man who was in the form of hummingbird
+# PP V ADV O
+1	Aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	3:obl	_
+2	pe	pe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uwexak	wexak	VERB	v	Person=3	0	root	0:root	_
+4	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	amo	amo	DET	dem	PronType=Ind	6	det	6:det	_
+6	mainumɨ	mainumɨ	NOUN	n	_	11	nmod	11:nmod	_
+7	we	we	PART	pcl	_	6	discourse	6:discourse	_
+8	zepe	zepe	PART	pcl	_	6	discourse	6:discourse	_
+9	tentehar	tentehar	NOUN	n	_	10	nmod	10:nmod	_
+10	tuaʔu	u	NOUN	n	Rel=Abs	3	obj	3:obj	_
+11	zepe	zepe	PART	pcl	_	10	discourse	10:discourse	_
+12	zekaipo	kwehe	ADV	adv	Evident=Nfh	11	advmod	11:advmod	_
+13	raʔa	raʔa	PART	pcl	_	3	discourse	3:discourse	_
+
+# sent_id = 267
+# text = Upuranu tuaʔu hehe :
+# text_port = O ancião perguntou a ele
+# text_spa = El anciano le preguntó
+# text_en = The old man asked him
+# V PP
+1	Upuranu	puranu	VERB	v	Person=3	0	root	0:root	_
+2	tuaʔu	u	NOUN	n	Rel=Abs	1	obl	1:obl	_
+3	hehe	ehe	ADP	posp	Rel=NCont	2	case	2:case	_
+4	:	:	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 268
+# text = Maʔe tuwe erezapo ikoxe tɨ , iʔi izupe ?
+# text_port = O que você está fazendo aqui?
+# text_spa = ¿Qué haces aquí?
+# text_en = What are you doing here?
+# O V PP
+1	Maʔe	maʔe	NOUN	n	_	3	obj	3:obj	_
+2	tuwe	tuwe	ADV	adv	_	1	advmod	1:advmod	_
+3	erezapo	zapo	VERB	v	Person=2	8	ccomp	8:ccomp	_
+4-5	ikoxe	_	_	_	_	_	_	_	_
+4	iko	iko	VERB	v	_	3	dep	3:dep	_
+5	xe	xe	ADV	adv	_	4	advmod	4:advmod	_
+6	tɨ	tɨ	PART	pcl	_	3	discourse	3:discourse	_
+7	,	,	PUNCT	punct	_	1	punct	1:punct	_
+8	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+9	izupe	zupe	ADP	posp	Rel=NCont	8	obl	8:obl	_
+10	?	?	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 269
+# text = Aʔe Tentehar tɨkɨʔɨr maizu umumeʔu parupi maʔe uzeapomaʔe izupe .
+# text_port = O irmão mais velho Maizu contou tudo o que ocorrido para ele (o ancião)
+# text_spa = El hermano mayor Maizu le dijo todo lo que le sucedió (al anciano)
+# text_en = The older brother Maizu told him all that had happened to him (to the old man)
+# S V O
+1	Aʔe	aʔe	DET	dem	PronType=Dem	3	det	3:det	_
+2	Tentehar	tentehar	NOUN	n	_	3	nmod	3:nmod	_
+3	tɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	5	nsubj	5:nsubj	_
+4	maizu	maizu	NOUN	n	_	3	flat	3:flat	_
+5	umumeʔu	mumeʔu	VERB	v	Person=3	0	root	0:root	_
+6	parupi	paw	PRON	pro	Case=Loc|PronType=Tot|Rel=Cont	8	obl	8:obl	_
+7	maʔe	maʔe	NOUN	n	_	8	nmod	8:nmod	_
+8	uzeapomaʔe	apo	VERB	v	Nomzr=Abs|Person=3|Reflex=Yes	5	obj	5:obj	_
+10	izupe	zupe	ADP	posp	Rel=NCont	8	obl	8:obl	_
+11	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 270
+# text = Naʔe aʔe mainumɨ uzeapo tentehar rumu izupe kurɨ , uwexakar tɨwɨr hemiʔiwàkwer izupe no .
+# text_port = O ancião se transformou em um ser humano e levou o irmão mais velho para aquele que foi flechado (um dos cachorros do céu)
+# text_spa = El anciano se convirtió en un ser humano y llevó a su hermano mayor a quien fue herido con la flecha (uno de los perros del cielo)
+# text_en = The old man turned into a human being and took his older brother to the one who was wounded with the arrow (one of the dogs from heaven)
+# S V PP PP - V O PP
+1	Naʔe	naʔe	PART	pcl	_	4	discourse	4:discourse	_
+2	aʔe	aʔe	DET	dem	PronType=Dem	3	det	3:det	_
+3	mainumɨ	mainumɨ	NOUN	n	_	4	nsubj	4:nsubj	_
+4	uzeapo	apo	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
+5	tentehar	tentehar	NOUN	n	_	4	obl	4:obl	_
+6	rumu	umu	NOUN	n	Rel=Cont	5	case	5:case	_
+7	izupe	zupe	ADP	posp	Rel=NCont	4	obl	4:obl	_
+8	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+9	,	,	PUNCT	punct	_	4	punct	4:punct	_
+10	uwexakar	wexak	VERB	v	Person=3|Voice=Cau	4	conj	4:conj	_
+11	tɨwɨr	ɨwɨr	NOUN	n	Rel=Abs	12	nmod	12:nmod	_
+12	hemiʔiwàkwer	iwà	NOUN	n	Nomzr=DevPass|Rel=NCont|Tense=Past	10	obj	10:obj	_
+14	izupe	zupe	ADP	posp	Rel=NCont	12	case	12:case	_
+15	no	no	PART	pcl	_	10	discourse	10:discourse	_
+16	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
