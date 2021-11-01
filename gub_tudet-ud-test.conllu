@@ -3447,7 +3447,7 @@
 # O V PP
 1	Uhem	hem	VERB	v	Person=3	5	ccomp	5:ccomp	_
 2	Mairaʔi	Mairaʔi	NOUN	n	_	1	nsubj	1:nsubj	_
-3	uzuraʔa	zuraʔa	PART	pcl	Rel=Abs	1	discourse	1:discourse	_
+3	uzuraʔa	zuraʔa	PART	pcl	_	1	discourse	1:discourse	_
 4	?	?	PUNCT	punct	_	1	punct	1:punct	_
 5	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
 6	uiwɨratɨ	iwɨratɨ	NOUN	n	Rel=Abs	5	obl	5:obl	_
