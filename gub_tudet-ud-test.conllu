@@ -3216,3 +3216,341 @@
 5	xe	xe	PART	pcl	_	3	discourse	3:discourse	_
 6	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
+# sent_id = 233
+# text = Uzepɨrog zekaipo zawar maʔeputɨr imuiʔeʔehaw rehe wà .
+# text_port = Então, os cachorros do céu começaram a colher o néctar (Campos Castro 2020).
+# text_spa = Entonces, los perros del cielo comenzaron a cosechar el néctar.
+# text_en = Then, the dogs of the sky began to reap the nectar.
+# V ADV S PP
+1	Uzepɨrog	pɨrog	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	zawar	zawar	NOUN	n	_	1	nsubj	1:nsubj	_
+4	maʔeputɨr	maʔeputɨr	NOUN	n	_	5	nmod	5:nmod	_
+5	imuiʔeʔehaw	iʔeʔe	NOUN	n	Nomzr=Circ|Rel=NCont|Voice=Cau	1	obl	1:obl	_
+6	rehe	ehe	ADP	posp	Rel=Cont	5	case	5:case	_
+7	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 234
+# text = Izɨpɨ mehe , ukɨze wanuwi .
+# text_port = No início, ele (o irmão mais novo) sentiu medo deles (Campos Castro 2020).
+# text_spa = Al principio, él (el hermano menor) les tenía miedo.
+# text_en = At first, he (the younger brother) was afraid of them.
+# PP V PP
+1	Izɨpɨ	izɨpɨ	NOUN	n	_	4	obl	4:obl	_
+2	mehe	mehe	ADP	posp	_	1	case	1:case	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	ukɨze	kɨze	VERB	v	Person=3	0	root	0:root	_
+5	wanuwi	zuwi	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	4	obl	4:obl	_
+6	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 235
+# text = Umeʔegatu zekaipo wanehe , umaʔenukaw zekaipo wɨkɨʔɨr zeʔegwer rehe uzeupe .
+# text_port = Ele (o irmão mais novo) olhava para eles fixamente, então, ele se lembrou do que o irmão dele havia dito a ele (Campos Castro 2020).
+# text_spa = Él (el hermano menor) los miró fijamente, luego recordó lo que su hermano le había dicho.
+# text_en = He (the younger brother) stared at them fixedly, then he remembered what his brother had told him.
+# V ADV PP - V ADV PP
+1	Umeʔegatu	meʔe	VERB	v	Emph=Yes|Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	wanehe	nehe	VERB	v	Case=Dat|Number=Plur|Person=3|Rel=Cont	1	obl	1:obl	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	umaʔenukaw	maʔenukaw	VERB	v	Person=3	1	conj	1:conj	_
+6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7	wɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	8	nmod	8:nmod	_
+8	zeʔegwer	zeʔeg	NOUN	n	Nomzr=Pas	5	obl	5:obl	_
+9	rehe	ehe	ADP	posp	Rel=Cont	8	case	8:case	_
+10	uzeupe	upe	ADP	posp	Person=3|Reflex=Yes	8	obl	8:obl	_
+11	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 236
+# text = Agwer aipo maʔe hexakpɨr wà pa , iʔi uzepiamiapo pà .
+# text_port = Então, ele (o irmão mais novo) pensou consigo mesmo: esses devem ser os seres (coisas) que o meu irmão viu (Campos Castro 2020).
+# text_spa = Así que él (el hermano menor) se pensó para sí mismo: estos deben ser los seres (cosas) que vio mi hermano.
+# text_en = So he (the younger brother) thought to himself: these must be the beings (things) that my brother saw.
+# O V ADV
+1	Agwer	agwer	PRON	pro	PronType=Dem	4	nsubj	4:nsubj	_
+2	aipo	aipo	ADV	adv	_	4	advmod	4:advmod	_
+3	maʔe	maʔe	NOUN	n	_	4	nmod	4:nmod	_
+4	hexakpɨr	exak	NOUN	n	Nomzr=Pas|Rel=NCont	8	ccomp	8:ccomp	_
+5	wà	wà	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+6	pa	pa	PART	pcl	_	4	discourse	4:discourse	_
+7	,	,	PUNCT	punct	_	4	punct	4:punct	_
+8	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+9	uzepiamiapo	pia	VERB	v	Person=3|Reflex=Yes|Voice=Cau	8	xcomp	8:xcomp	_
+10	pà	pà	ADV	adv	_	9	advmod	9:advmod	_
+11	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 237
+# text = Uzepɨrog zekaipo uzeputupɨkhaw wanehe , taʔe zekaipo umukuhem paw wiràmiri uzuwi xe .
+# text_port = Ele (o irmão mais novo) começou a se chatear com eles (os seres sobrenaturais), porque eles tinham espantado todos os pássaros dele (Campos Castro 2020).
+# text_spa = Él (el hermano menor) comenzó a molestarse con ellos (seres sobrenaturales), porque habían espantado a todos sus pájaros.
+# text_en = He (the younger brother) began to be annoyed at them (the supernatural beings), because they had chasen away all his birds.
+# V ADV 
+1	Uzepɨrog	pɨrog	VERB	v	Person=3|Reflex=Yes	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	uzeputupɨkhaw	putupɨk	NOUN	n	Nomzr=Circ|Person=3|Reflex=Yes	1	obj	1:obj	_
+4	wanehe	ehe	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	3	obl	3:obl	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	taʔe	taʔe	SCONJ	sc	_	8	mark	8:mark	_
+7	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
+8	umukuhem	kuhem	VERB	v	Person=3|Voice=Cau	1	advcl	1:advcl	_
+9	paw	paw	DET	det	PronType=Tot	10	det	10:det	_
+10	wiràmiri	wiràmiri	NOUN	n	_	8	obl	8:obl	_
+11	uzuwi	zuwi	ADP	posp	Rel=Abs	10	case	10:case	_
+12	xe	xe	PART	pcl	_	8	discourse	8:discourse	_
+13	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 238
+# text = Uwagaw ipɨ zekaipo uʔɨw wanehe , nomomorkwaw imono wanupe rihi .
+# text_port = Ele (o irmão mais novo) apontou a ponta da flecha neles, mas ela não disparou (Campos Castro 2020).
+# text_spa = Él (el hermano menor) los apuntó a punta de flecha, pero no disparó.
+# text_en = He (the younger brother) pointed the tip of the arrow to them, but did not fire.
+# V O PP - V AUX PP
+1	Uwagaw	wagaw	VERB	v	Person=3	0	root	0:root	_
+2	ipɨ	pɨ	NOUN	n	Rel=NCont	1	obj	1:obj	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+4	uʔɨw	uʔɨw	NOUN	n	_	2	nmod	2:nmod	_
+5	wanehe	ehe	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	1	obl	1:obl	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	nomomorkwaw	momor	VERB	vi	Polarity=Neg	1	conj	1:conj	_
+8	imono	ho	VERB	vi	Rel=NCont|Voice=Cau	7	dep	7:dep	_
+9	wanupe	upe	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	7	obl	7:obl	_
+10	rihi	rihi	PART	pcl	_	7	discourse	7:discourse	_
+11	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 239
+# text = Uriʔahɨ zekaipo izupehar kurɨ .
+# text_port = A tentação (de atirar a flecha) foi grande (Campos Castro 2020).
+# text_spa = La tentación (de lanzar la flecha) era grande.
+# text_en = The temptation (to throw the arrow) was great.
+# V ADV O
+1	Uriʔahɨ	riʔ	VERB	v	Emph=Yes|Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	izupehar	zupe	NOUN	n	Case=Dat|Nomzr=Ag|Rel=NCont	1	obj	1:obj	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 240
+# text = Umeʔegatu zekaipo amo taʔɨruhu katu hehe .
+# text_port = Um dos seres de porte médio estava olhando bem para ela (a tocaia) (Campos Castro 2020).
+# text_spa = Uno de los seres de tamaño mediano la estaba observando (la trampa).
+# text_en = One of the medium-sized beings was looking at it (the trap).
+# V ADV S PP
+1	Umeʔegatu	meʔe	VERB	v	Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	amo	amo	DET	dem	PronType=Ind	4	det	4:det	_
+4	taʔɨruhu	aʔɨr	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
+5	katu	katu	ADV	adv	_	4	advmod	4:advmod	_
+6	hehe	ehe	ADP	posp	Case=Dat|Rel=NCont	1	obl	1:obl	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 241
+# text = Wagaw uʔɨw aʔe rehe , umutɨk zekaipo wɨrapar kurɨ .
+# text_port = Então, ele (o irmão mais novo) apontou a flecha pra esse ser, e então puxou o arco (Campos Castro 2020).
+# text_spa = Así que él (el hermano menor) apuntó con la flecha a este ser, y luego tiró del arco.
+# text_en = So he (the younger brother) pointed the arrow at this being, and then pulled the bow.
+# V O PP - V ADV O
+1	Wagaw	agaw	VERB	v	Person=3	0	root	0:root	_
+2	uʔɨw	uʔɨw	NOUN	n	_	1	obj	1:obj	_
+3	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	1:obl	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	umutɨk	mutɨk	VERB	v	Person=3	1	conj	1:conj	_
+7	zekaipo	kwehe	ADV	adv	Evident=Nfh	6	advmod	6:advmod	_
+8	wɨrapar	wɨrapar	NOUN	n	_	6	obj	6:obj	_
+9	kurɨ	kurɨ	PART	pcl	_	6	discourse	6:discourse	_
+10	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 242
+# text = Imomor pà uʔɨw hehe kurɨ .
+# text_port = Então, ele disparou a flecha (Campos Castro 2020).
+# text_spa = Luego disparó la flecha.
+# text_en = Then he shot the arrow.
+# V ADV PP
+1	Imomor	momor	VERB	v	Rel=NCont	0	root	0:root	_
+2	pà	pà	ADV	adv	_	1	advmod	1:advmod	_
+3	uʔɨw	uʔɨw	NOUN	n	_	1	obl	1:obl	_
+4	hehe	ehe	ADP	posp	Rel=NCont	3	case	3:case	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 243
+# text = Upɨnɨkwaw tuwe zekaipo amo zawar uʔur uʔɨw uzuwà wà , naʔarewahɨ .
+# text_port = Os outros cachorros vieram ao encontro da flecha rapidamente (Campos Castro 2020).
+# text_spa = Los otros perros fueron al encuentro de la flecha rápidamente.
+# text_en = The other dogs came quickly to meet the arrow.
+# O ADV S V - O V ADV
+1	Upɨnɨkwaw	pɨnɨkw	NOUN	n	Nomzr=Circ|Person=3	6	obj	6:obj	_
+2	tuwe	tuwe	ADV	adv	_	1	advmod	1:advmod	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+4	amo	amo	DET	dem	PronType=Dem	5	det	5:det	_
+5	zawar	zawar	NOUN	n	_	6	nsubj	6:nsubj	_
+6	uʔur	ʔur	VERB	v	Person=3	0	root	0:root	_
+7	uʔɨw	uʔɨw	NOUN	n	_	8	obj	8:obl	_
+8	uzuwà	zuwà	VERB	v	Person=3	6	conj	6:conj	_
+9	wà	wà	PART	pcl	Number=Plur	8	discourse	8:discourse	_
+10	,	,	PUNCT	punct	_	8	punct	8:punct	_
+11	naʔarewahɨ	naʔarew	ADV	adv	Emph=Yes	8	advmod	8:advmod	_
+12	.	.	PUNCT	punct	_	11	punct	11:punct	_
+
+# sent_id = 244
+# text = Upeheʔàg zekaipo tukaz hehe wà , izuka pà wà .
+# text_port = Eles partiram a tocaia ao meio, matando-o (Campos Castro 2020).
+# text_spa = Partieron la trampa en dos, matándolo.
+# text_en = They broke the trap on the middle, killing him.
+# V ADV PP ADV
+1	Upeheʔàg	peheʔàg	VERB	v	Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	tukaz	ukaz	NOUN	n	Rel=Abs	1	obl	1:obl	_
+4	hehe	ehe	ADP	posp	Rel=NCont	3	case	3:case	_
+5	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	izuka	zuka	VERB	v	Rel=NCont	1	xcomp	1:xcomp	_
+8	pà	pà	ADV	adv	_	7	advmod	7:advmod	_
+9	wà	wà	PART	pcl	Number=Plur	7	discourse	7:discourse	_
+10	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 245
+# text = Weraha wekohaw pe wà .
+# text_port = E eles o levaram para a morada deles (Campos Castro 2020).
+# text_spa = Y lo llevaron a su hogar.
+# text_en = And they took him to their abode.
+# V PP
+1	Weraha	ha	VERB	v	Person=3|Voice=Com	0	root	0:root	_
+2	wekohaw	eko	NOUN	n	Nomzr=Circ|Rel=Abs	1	obl	1:obl	_
+3	pe	pe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 246
+# text = Tɨkɨʔɨr oho zekaipo hapuz me , hehe puranu pà :
+# text_port = O irmão mais velho dele foi à casa dele perguntar por ele (Campos Castro 2020).
+# text_spa = Su hermano mayor fue a su casa para preguntar por él.
+# text_en = His older brother went to his house to ask for him.
+# S V ADV PP ADV
+1	Tɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	2	nsubj	2:nsubj	_
+2	oho	ho	VERB	v	Person=3	0	root	0:root	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	2	advmod	2:advmod	_
+4	hapuz	apuz	NOUN	n	Rel=NCont	2	obl	2:obl	_
+5	me	me	ADP	posp	Rel=Cont	4	case	4:case	_
+6	,	,	PUNCT	punct	_	2	punct	2:punct	_
+7	hehe	ehe	ADP	posp	Rel=NCont	8	obl	8:obl	_
+8	puranu	puranu	VERB	v	_	2	advcl	2:advcl	_
+9	pà	pà	ADV	adv	_	8	advmod	8:advmod	_
+10	:	:	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 247
+# text = Uhem Mairaʔi uzuraʔa ? iʔi uiwɨratɨ pe
+# text_port = O Mairaʔi chegou? Ele (o irmão mais velho) perguntou para a cunhada (Campos Castro 2020)
+# text_spa = ¿Llegó Mairaʔ Él (el hermano mayor) preguntó a su cuñada
+# text_en = Did Maira arrive? He (the older brother) asked his sister-in-law
+# O V PP
+1	Uhem	hem	VERB	v	Person=3	5	ccomp	5:ccomp	_
+2	Mairaʔi	Mairaʔi	NOUN	n	_	1	nsubj	1:nsubj	_
+3	uzuraʔa	zuraʔa	PART	pcl	Rel=Abs	1	discourse	1:discourse	_
+4	?	?	PUNCT	punct	_	1	punct	1:punct	_
+5	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+6	uiwɨratɨ	iwɨratɨ	NOUN	n	Rel=Abs	5	obl	5:obl	_
+7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
+
+# sent_id = 248
+# text = Tɨkɨʔɨr ipɨʔa ukwaw tuwe maʔe uzeapomaʔekwer izupe aʔe .
+# text_port = O irmão dele (do irmão mais novo) já sabia aquilo que havia acontecido com ele (o irmão mais novo) (Campos Castro 2020).
+# text_spa = Su hermano (de su hermano menor) ya sabía lo que le había sucedido (al hermano menor).
+# text_en = His brother (of his younger brother) already knew what had happened to him (to the younger brother).
+# S V ADV O
+1	Tɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	2	nmod	2:nmod	_
+2	ipɨʔa	pɨʔa	NOUN	n	Rel=NCont	3	nsubj	3:nsubj	_
+3	ukwaw	kwaw	VERB	v	Person=3	0	root	0:root	_
+4	tuwe	tuwe	ADV	adv	_	1	advmod	1:advmod	_
+5	maʔe	maʔe	NOUN	n	_	6	nmod	6:nmod	_
+6	uzeapomaʔekwer	apo	NOUN	n	Nomzr=Abs|Reflex=Yes|Rel=NCont|Tense=Past	3	obj	3:obj	_
+7	izupe	zupe	ADP	posp	Rel=NCont	6	obl	6:obl	_
+8	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 249
+# text = Nan , nuhemkwaw ur rihi ʔɨ .
+# text_port = Não, ele não chegou, disse ela (a cunhada do irmão mais velho) (Campos Castro 2020).
+# text_spa = No, él no llegó, dijo (la cuñada del hermano mayor).
+# text_en = No, he did not arrive, she said (the sister-in-law of the older brother).
+# V AUX
+1	Nan	nan	INTJ	intj	Polarity=Neg	3	discourse	3:discourse	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	nuhemkwaw	hem	VERB	v	Person=3|Polarity=Neg	0	root	0:root	_
+4	ur	ur	VERB	v	Person=3	3	dep	3:dep	_
+5	rihi	rihi	PART	pcl	_	3	discourse	3:discourse	_
+6	ʔɨ	ʔɨ	PART	pcl	_	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 250
+# text = Aha putar haikwer romo iʔi zekaipo izupe .
+# text_port = Eu vou atrás dele, disse (o irmão mais velho) para ela (Campos Castro 2020).
+# text_spa = Yo voy tras él, le dijo (el hermano mayor) a ella.
+# text_en = I'll go after him, he said (the older brother) to her.
+# O V ADV PP
+1	Aha	ho	VERB	vi	Person=1	5	ccomp	5:ccomp	_
+2	putar	putar	ADV	adv	_	1	advmod	1:advmod	_
+3	haikwer	aikwer	ADP	posp	Rel=NCont	1	obl	1:obl	_
+4	romo	omo	ADP	posp	Rel=Cont	3	case	3:case	_
+5	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7	izupe	zupe	ADP	posp	Rel=NCont	5	obl	5:obl	_
+8	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 251
+# text = Oho zekaipo haikwer romo , muitewiwe wexak zekaipo tukaz pegwer aʔe .
+# text_port = Ele (o irmão mais velho) foi pelo caminho por onde ele (o irmão mais novo) tinha ido; de longe, ele avistou os pedaços da tocaia (Campos Castro 2020).
+# text_spa = Él (el hermano mayor) fue por el camino por donde él (el hermano menor) había ido; desde lejos, vio las piezas de la trampa.
+# text_en = He (the older brother) went by the way where he (the younger brother) had gone; from afar, he spotted the pieces of the trap.
+# V ADV PP - ADV V ADV O
+1	Oho	ho	VERB	v	Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	haikwer	aikwer	ADP	posp	Rel=NCont	1	obl	1:obl	_
+4	romo	omo	ADP	posp	Rel=Cont	3	case	3:case	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6-7	muitewiwe	_	_	_	_	_	_	_	_
+6	muite	muite	NOUN	n	Foreign=Yes	7	compound	7:compound	_
+7	wiwe	iwe	VERB	v	Person=3	8	advcl	8:advcl	_
+8	wexak	exak	VERB	v	Person=3	1	conj	1:conj	_
+9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
+10	tukaz	tukaz	NOUN	n	Rel=Abs	11	nmod	11:nmod	_
+11	pegwer	peg	NOUN	n	Tense=Past	8	obj	8:obj	_
+12	aʔe	aʔe	PART	pcl	Person=3	8	discourse	8:discourse	_
+13	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 252
+# text = Tɨ ! Aʔe zepe tuwe akwez newe ihe riʔi xe .
+# text_port = Rapaz! Eu te falei (Campos Castro 2020).
+# text_spa = ¡Chico! Te lo dije.
+# text_en = Boy! I told you.
+# 
+1	Tɨ	tɨ	PART	pcl	_	6	discourse	6:discourse	_
+2	!	!	PUNCT	punct	_	1	punct	1:punct	_
+3	Aʔe	aʔe	PRON	pro	PronType=Dem	6	obj	6:obj	_
+4	zepe	zepe	PART	pcl	_	3	discourse	3:discourse	_
+5	tuwe	tuwe	ADV	adv	_	3	advmod	3:advmod	_
+6	akwez	akwez	PRON	pro	PronType=Dem	0	root	0:root	_
+7	newe	we	ADP	posp	Case=Dat|Person=2	6	obl	6:obl	_
+8	ihe	ihe	PRON	pro	PronType=Prs	6	nsubj	6:nsubj	_
+9	riʔi	iʔi	NOUN	n	Rel=Cont	6	discourse	6:discourse	_
+10	xe	xe	PART	pcl	_	6	discourse	6:discourse	_
+11	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 253
+# text = Ne xixirog wer wanupe riʔi tɨ iʔi izeupe .
+# text_port = Você não devia ter mexido com eles, disse ele (o irmão mais velho) para si mesmo (Campos Castro 2020).
+# text_spa = No deberías haberte metido con ellos, dijo (el hermano mayor) para sí mismo.
+# text_en = You should not have messed with them, he said (the older brother) to himself.
+# O V PP
+1	Ne	ne	PRON	pro	PronType=Prs	7	ccomp	7:ccomp	_
+2	xixirog	xixirog	ADV	adv	_	1	advmod	1:advmod	_
+3	wer	wer	ADV	adv	_	1	advmod	1:advmod	_
+4	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	1	obl	1:obl	_
+5	riʔi	riʔi	PART	pcl	_	1	discourse	1:discourse	_
+6	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+7	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+8	izeupe	upe	NOUN	n	Reflex=Yes|Rel=NCont	7	obl	7:obl	_
+9	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+
