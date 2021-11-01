@@ -3252,7 +3252,7 @@
 # V ADV PP - V ADV PP
 1	Umeʔegatu	meʔe	VERB	v	Emph=Yes|Person=3	0	root	0:root	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
-3	wanehe	nehe	VERB	v	Case=Dat|Number=Plur|Person=3|Rel=Cont	1	obl	1:obl	_
+3	wanehe	nehe	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	1	obl	1:obl	_
 4	,	,	PUNCT	punct	_	1	punct	1:punct	_
 5	umaʔenukaw	maʔenukaw	VERB	v	Person=3	1	conj	1:conj	_
 6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
