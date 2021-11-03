@@ -5,78 +5,102 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>103</sentences><tokens>588</tokens><words>610</words><fused>22</fused></total>
+    <total><sentences>284</sentences><tokens>2022</tokens><words>2052</words><fused>30</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>103</sentences><tokens>588</tokens><words>610</words><fused>22</fused></test>
+    <test><sentences>284</sentences><tokens>2022</tokens><words>2052</words><fused>30</fused></test>
   </size>
-  <lemmas unique="125" /><!-- ., pe, aʔe, ho, eta, maʔe, pira, romo, ,, no, iko, upi, amo, kara, tete -->
-  <forms unique="150" /><!-- ., pe, aʔe, oho, heta, romo, ,, no, maʔe, rupi, kara, teteaʔu, Zuze, ʔɨ, amo -->
-  <fusions unique="11" /><!-- ipiaromo, Tueharupi, maʔeputɨr, aʔepe, Amakɨr, haikweromo, haikwerupi, maiʔu, maʔeaʔɨr, maʔeʔa, maʔeʔɨw -->
+  <lemmas unique="301" /><!-- ., aʔe, pe, ,, ho, Zuze, kwehe, ehe, kurɨ, maʔe, no, amo, wà, upi, eta -->
+  <forms unique="418" /><!-- ., aʔe, pe, ,, oho, Zuze, zekaipo, kurɨ, rehe, no, amo, maʔe, wà, rupi, heta -->
+  <fusions unique="15" /><!-- ipiaromo, Tueharupi, maʔeputɨr, zapukazaʔɨr, aʔepe, Amakɨr, Tuweharupi, haikweromo, haikwerupi, ikoxe, maiʔu, maʔeaʔɨr, maʔeʔa, maʔeʔɨw, muitewiwe -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="10">
-    <tag name="ADP">88</tag><!-- pe, romo, upi, ehe, pa, pupe, ʔaromo, mehe, pɨr, re -->
-    <tag name="ADV">36</tag><!-- tete, katu, putar, har, mehe, ʔaromo, a, ae, aʔu, haw -->
-    <tag name="AUX">7</tag><!-- iko -->
-    <tag name="DET">42</tag><!-- aʔe, amo, agwer, aikwez, aipo, akwez -->
-    <tag name="NOUN">183</tag><!-- maʔe, pira, kara, ʔɨ, hɨ, arapapa, ɨrɨk, ko, toʔom, awa -->
-    <tag name="PART">38</tag><!-- no, kurɨ, wà, wa, aipo, ae, nehe, kakwez, katu, ruʔu -->
-    <tag name="PRON">20</tag><!-- aʔe, mon, aipo, ihe -->
-    <tag name="PROPN">18</tag><!-- Zuze, Mari, Kari, zuàw -->
-    <tag name="PUNCT">83</tag><!-- ., , -->
-    <tag name="VERB">95</tag><!-- ho, eta, ʔu, iko, mim, ʔok, exak, meʔe, putuka, pɨhɨk -->
+  <tags unique="14">
+    <tag name="ADP">271</tag><!-- pe, ehe, upi, romo, zupe, pa, pupe, upe, mehe, wi -->
+    <tag name="ADV">156</tag><!-- kwehe, katu, tete, putar, haw, wer, har, tuwe, ahɨ, aipo -->
+    <tag name="AUX">11</tag><!-- iko -->
+    <tag name="CCONJ">1</tag><!-- taʔe -->
+    <tag name="DET">73</tag><!-- aʔe, amo, paw, agwer, aikwez, aipo, akwez -->
+    <tag name="INTJ">1</tag><!-- nan -->
+    <tag name="NOUN">507</tag><!-- maʔe, kaʔa, pira, ko, u, awa, awaxi, aʔɨr, eko, ɨkɨʔɨr -->
+    <tag name="NUM">3</tag><!-- mukuz, pitei, pɨtà -->
+    <tag name="PART">220</tag><!-- aʔe, kurɨ, no, wà, tɨ, wa, xe, aipo, nehe, rihi -->
+    <tag name="PRON">65</tag><!-- aʔe, ihe, maʔe, ne, mon, agwer, aipo, akwez, ere, mo -->
+    <tag name="PROPN">65</tag><!-- Zuze, Mari, Kari, Tentehar, zuàw -->
+    <tag name="PUNCT">329</tag><!-- ., ,, :, ?, ! -->
+    <tag name="SCONJ">8</tag><!-- aze, taʔe -->
+    <tag name="VERB">342</tag><!-- ho, eta, ʔi, ʔu, pɨhɨk, iko, zuka, meʔe, aro, ha -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="31">
-    <feat name="Aspect" value="Prog" upos="AUX">7</feat><!-- iko -->
+  <feats unique="45">
+    <feat name="Aspect" value="Perf" upos="VERB">1</feat><!-- izapopawete -->
+    <feat name="Aspect" value="Prog" upos="AUX,VERB">14</feat><!-- iko -->
+    <feat name="Aspect" value="Prosp" upos="VERB">1</feat><!-- Amonopiʔez -->
     <feat name="Case" value="All" upos="ADP">10</feat><!-- pe -->
-    <feat name="Case" value="Dat" upos="ADP">8</feat><!-- pe -->
-    <feat name="Case" value="Loc" upos="ADP">22</feat><!-- pe -->
+    <feat name="Case" value="Dat" upos="ADP,NOUN">32</feat><!-- izupe, pe, newe, wanehe, uzeupe, wanuwi, aʔepehar, hehe, ihewe, izupehar -->
+    <feat name="Case" value="Loc" upos="ADP,PRON">26</feat><!-- pe, Aʔepe, ihe, izuwi, parupi -->
+    <feat name="Case" value="Tem" upos="PRON">2</feat><!-- aʔere -->
+    <feat name="Case" value="Tra" upos="NOUN">2</feat><!-- xixigaturumu, xixirogaturumu -->
     <feat name="Clusivity" value="In" upos="VERB">1</feat><!-- zanexiʔu -->
-    <feat name="Dimin" value="Yes" upos="NOUN">10</feat><!-- ipiraʔi, Imemɨraʔi, Pixikaʔi, wiràmiri -->
+    <feat name="Detrans" value="Ind" upos="NOUN,VERB">4</feat><!-- ipuruʔu, Hepuruʔu -->
+    <feat name="Dimin" value="Yes" upos="ADV,NOUN,NUM">19</feat><!-- ipiraʔi, Taritɨkaʔi, memɨraʔi, tahɨwai, Imemɨraʔi, Karuketeaʔi, Pixikaʔi, nàpɨtàʔi, werotaʔi, wiràmiri -->
+    <feat name="Emph" value="Yes" upos="ADP,ADV,DET,NOUN,PART,VERB">17</feat><!-- Umeʔegatu, Nahetakatukwaw, Nawizeahɨkwaw, Uriʔahɨ, huwakete, ikatuahɨ, izapopawete, nahetatetekwaw, naʔarewahɨ, pawkatu -->
     <feat name="Evident" value="Fh" upos="PART">1</feat><!-- kakwez -->
-    <feat name="Mood" value="Imp" upos="VERB">1</feat><!-- Ezapo -->
-    <feat name="Nomzr" value="Circ" upos="ADV,NOUN">10</feat><!-- har, tueha, apɨgwar, pɨhaw -->
-    <feat name="Nomzr" value="DevPass" upos="NOUN">7</feat><!-- ɨrɨhu -->
+    <feat name="Evident" value="Nfh" upos="ADV">39</feat><!-- zekaipo, zeiakpo, zeikaipo -->
+    <feat name="Foreign" value="Yes" upos="NOUN">2</feat><!-- muite -->
+    <feat name="Mood" value="Imp" upos="VERB">7</feat><!-- Emururapiʔez, Emeʔe, Epɨhɨk, Exiroxiro, Ezapo, Ezuka -->
+    <feat name="Nomzr" value="Abs" upos="NOUN">4</feat><!-- ipɨahumaʔe, uzeapomaʔe, uzeapomaʔekwer -->
+    <feat name="Nomzr" value="Ag" upos="NOUN">3</feat><!-- aʔepehar, izupehar, ɨwatehar -->
+    <feat name="Nomzr" value="Circ" upos="ADV,NOUN">31</feat><!-- har, haw, tueha, pɨhaw, wanekohaw, Tuwehaw, Upɨnɨkwaw, apɨgwar, hapuznaw, heixehaw -->
+    <feat name="Nomzr" value="DevPass" upos="NOUN">12</feat><!-- ɨrɨhu, hemiʔiwàkwer -->
+    <feat name="Nomzr" value="Pas" upos="NOUN">5</feat><!-- hexakpɨr, izapopɨràm, tɨkwer, zapoapopɨrer, zeʔegwer -->
     <feat name="Number" value="Coll" upos="NOUN">3</feat><!-- Amogwer, Awakwer -->
-    <feat name="Number" value="Plur" upos="PART,VERB">11</feat><!-- wà, wa, wə, zanexiʔu -->
+    <feat name="Number" value="Plur" upos="ADP,NOUN,PART,VERB">59</feat><!-- wà, wa, wanupe, wanehe, wanuwi, wanekohaw, waʔaromo, Wapɨk, wazegar, wazukahaw -->
     <feat name="Number" value="Sing" upos="VERB">1</feat><!-- Ezapo -->
     <feat name="OblTop" value="Yes" upos="VERB">1</feat><!-- hekon -->
-    <feat name="Person" value="1" upos="NOUN,VERB">5</feat><!-- Aha, Aputar, heraʔɨr, zanexiʔu -->
-    <feat name="Person" value="2" upos="VERB">1</feat><!-- Ezapo -->
-    <feat name="Person" value="3" upos="AUX,NOUN,PART,PRON,VERB">99</feat><!-- oho, heta, iko, aʔe, umim, uʔu, wiko, Umeʔe, Wexak, iʔu -->
-    <feat name="Polarity" value="Neg" upos="ADV,VERB">2</feat><!-- Nuzapo, kwaw -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">45</feat><!-- aʔe, Aikwez, agwer, aipo, Akwez -->
-    <feat name="PronType" value="Ind" upos="DET">8</feat><!-- amo -->
-    <feat name="PronType" value="Int" upos="PRON">2</feat><!-- Mon -->
-    <feat name="PronType" value="Prs" upos="PRON">2</feat><!-- aʔe, ihe -->
-    <feat name="Red" value="Mo" upos="NOUN">4</feat><!-- toʔotoʔom -->
-    <feat name="Reflex" value="Yes" upos="NOUN,VERB">6</feat><!-- umaʔe, uhɨ, Uzekok -->
-    <feat name="Rel" value="Abs" upos="ADP,NOUN">17</feat><!-- ipira, ipiraʔi, ipɨ, Hete, heraʔɨr, ikamir, iʔaromo -->
-    <feat name="Rel" value="Cont" upos="ADP,NOUN">30</feat><!-- rupi, rehe, pa, pupe, romo, pira, ʔaromo -->
-    <feat name="Rel" value="NCont" upos="ADP,NOUN,VERB">42</feat><!-- ihɨ, ipiar, Hete, her, imemɨr, haikwer, hemireko, hɨru, iputuka, iʔu -->
-    <feat name="Tense" value="Fut" upos="ADV,PART">5</feat><!-- putar, nehe -->
-    <feat name="Tense" value="Past" upos="PART">1</feat><!-- kakwez -->
-    <feat name="VerbForm" value="Inf" upos="VERB">2</feat><!-- pɨhɨk -->
-    <feat name="Voice" value="Cau" upos="ADV,VERB">4</feat><!-- Umuixe, Umuwɨwɨk, kar, umumaw -->
+    <feat name="Person" value="1" upos="NOUN,PRON,VERB">12</feat><!-- Aha, Amonopiʔez, Aputar, Hepuruʔu, hemaʔe, heraʔɨr, herukaz, ihe, tazuka, zanexiʔu -->
+    <feat name="Person" value="2" upos="ADP,NOUN,PRON,VERB">16</feat><!-- newe, Emururapiʔez, nerukaz, Emeʔe, Exiroxiro, Ezapo, Ezuka, ere, erezapo, ne -->
+    <feat name="Person" value="3" upos="ADP,AUX,NOUN,PART,PRON,VERB">396</feat><!-- aʔe, oho, heta, iʔi, uʔu, iko, upɨhɨk, uwewe, uzuka, uhem -->
+    <feat name="Polarity" value="Neg" upos="ADV,INTJ,NUM,VERB">13</feat><!-- kwaw, nuhemkwaw, Nahetakatukwaw, Nan, Napunerkwaw, Nawizeahɨkwaw, Naxixirokwaw, Nuzapo, nahetatetekwaw, nomomorkwaw -->
+    <feat name="PronType" value="Dem" upos="DET,NOUN,PRON">84</feat><!-- aʔe, amo, agwer, Aikwez, aipo, akwez, aʔere, Aʔepe, aʔepehar -->
+    <feat name="PronType" value="Ind" upos="DET">21</feat><!-- amo -->
+    <feat name="PronType" value="Int" upos="PRON">7</feat><!-- Maʔe, Mon, Mo -->
+    <feat name="PronType" value="Prs" upos="PRON">9</feat><!-- ihe, ne, aʔe, ere -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">4</feat><!-- paw, parupi, pawkatu -->
+    <feat name="Red" value="Di" upos="VERB">2</feat><!-- Exiroxiro, ukàzikàzim -->
+    <feat name="Red" value="Mo" upos="NOUN,VERB">13</feat><!-- toʔotoʔom, Ipuipu, Uzapoapo, heiheihem, tɨktɨkɨrawer, xixigaturumu, xixirogaturumu, zapoapopɨrer, ʔɨwaʔɨw -->
+    <feat name="Reflex" value="Yes" upos="ADP,NOUN,VERB">26</feat><!-- umaʔe, Uzepɨrog, uzeapo, uzemiʔi, uzeupe, uhɨ, Uzekok, izeupe, uzeapomaʔe, uzeapomaʔekwer -->
+    <feat name="Rel" value="Abs" upos="ADP,NOUN">48</feat><!-- ipira, tɨkɨʔɨr, ipiraʔi, tukaz, wɨkɨʔɨr, ipɨ, tɨwɨr, tahɨwai, tuaʔu, Hete -->
+    <feat name="Rel" value="Cont" upos="ADP,NOUN,PRON,VERB">195</feat><!-- pe, rehe, rupi, pa, pupe, wi, romo, u, me, wanupe -->
+    <feat name="Rel" value="NCont" upos="ADP,ADV,NOUN,VERB">132</feat><!-- izupe, ihɨ, ipiar, hehe, hemireko, haikwer, haro, her, ikatu, Hete -->
+    <feat name="Tense" value="Fut" upos="ADV,NOUN,PART">6</feat><!-- putar, nehe, izapopɨràm -->
+    <feat name="Tense" value="Past" upos="NOUN,PART,VERB">9</feat><!-- Uhewikàzxi, hemiʔiwàkwer, hurkwer, huwɨkwer, kakwez, pegwer, tɨktɨkɨrawer, uzeapomaʔekwer, zapoapopɨrer -->
+    <feat name="VerbForm" value="Inf" upos="VERB">3</feat><!-- pɨhɨk, hekar -->
+    <feat name="Voice" value="Cau" upos="ADV,NOUN,VERB">12</feat><!-- Amonopiʔez, Umuixe, Umuwɨwɨk, imono, imuiʔeʔehaw, kar, umuiʔe, umukuhem, umumaw, uwexakar -->
+    <feat name="Voice" value="Com" upos="VERB">8</feat><!-- Weraha, werur, heraha -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="16">
-    <dep name="advcl">2</dep>
-    <dep name="advmod">33</dep>
-    <dep name="appos">5</dep>
-    <dep name="case">83</dep>
-    <dep name="compound">2</dep>
-    <dep name="dep">8</dep>
-    <dep name="det">15</dep>
-    <dep name="discourse">64</dep>
-    <dep name="mark">6</dep>
-    <dep name="nmod">36</dep>
-    <dep name="nsubj">62</dep>
-    <dep name="obj">26</dep>
-    <dep name="obl">77</dep>
-    <dep name="punct">83</dep>
-    <dep name="root">103</dep>
-    <dep name="xcomp">5</dep>
+  <deps unique="22">
+    <dep name="advcl">11</dep>
+    <dep name="advmod">149</dep>
+    <dep name="appos">13</dep>
+    <dep name="case">231</dep>
+    <dep name="ccomp">17</dep>
+    <dep name="compound">3</dep>
+    <dep name="conj">16</dep>
+    <dep name="dep">37</dep>
+    <dep name="det">48</dep>
+    <dep name="discourse">250</dep>
+    <dep name="flat">1</dep>
+    <dep name="iobj">3</dep>
+    <dep name="mark">17</dep>
+    <dep name="nmod">103</dep>
+    <dep name="nsubj">171</dep>
+    <dep name="nummod">1</dep>
+    <dep name="obj">93</dep>
+    <dep name="obl">255</dep>
+    <dep name="parataxis">2</dep>
+    <dep name="punct">329</dep>
+    <dep name="root">284</dep>
+    <dep name="xcomp">18</dep>
   </deps>
 </treebank>
