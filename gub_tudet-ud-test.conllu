@@ -1061,7 +1061,7 @@
 6	aʔe	aʔe	DET	dem	PronType=Dem	3	discourse	_	_
 7	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 8	,	,	PUNCT	punct	_	1	punct	_	_
-9	umaʔe	maʔe	NOUN	n	Rel=Corf	10	obj	_	_
+9	umaʔe	maʔe	NOUN	n _	10	obj	_	_
 10	iputuka	putuka	VERB	vt	Rel=NCont	1	xcomp	_	_
 11	pa	pa	ADP	posp	Rel=Cont	10	mark	_	_
 12	kurɨ	kurɨ	PART	pcl	_	10	discourse	_	_
@@ -1089,7 +1089,7 @@
 1	tueha	tuwe	NOUN	n	Nomzr=Circ	5	obl	_	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
 3	uputuka	putuka	VERB	v	Person=3	5	dep	_	_
-4	umaʔe	maʔe	NOUN	n	Rel=Corf	5	obj	_	_
+4	umaʔe	maʔe	NOUN	n	_	5	obj	_	_
 5	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	_	_
 6	aʔe	aʔe	DET	dem	PronType=Dem	5	discourse	_	_
 7	.	.	PUNCT	punct	_	5	punct	_	_
@@ -1144,7 +1144,7 @@
 2	putar	putar	ADV	adv	_	1	advmod	_	_
 3	uhɨ	hɨ	NOUN	n	Reflex=Yes	1	obl	_	_
 4	rupi	upi	ADP	posp	Rel=Cont	3	case	_	_
-5	umaʔe	maʔe	NOUN	n	Rel=Corf	6	obj	_	_
+5	umaʔe	maʔe	NOUN	n	_	6	obj	_	_
 6	iputuka	putuka	VERB	vt	Rel=NCont	1	xcomp	_	_
 7	pa	pa	ADP	posp	Rel=Cont	6	mark	_	_
 8	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
@@ -1194,7 +1194,7 @@
 1	tueha	tuwe	NOUN	n	Nomzr=Circ	3	obl	_	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
 3	upɨta	pɨta	VERB	vi	Person=3	0	root	_	_
-4	uhɨ	hɨ	NOUN	n	Rel=Corf	3	obl	_	_
+4	uhɨ	hɨ	NOUN	n	_	3	obl	_	_
 5	ipɨr	pɨr	ADP	posp	Rel=NCont	4	case	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -1365,7 +1365,7 @@
 8	aʔe	aʔe	PART	pcl	Person=3	7	discourse	_	_
 9	no	no	PART	pcl	_	7	discourse	_	_
 10	,	,	PUNCT	punct	_	7	punct	_	_
-11	uhɨ	hɨ	NOUN	n	Rel=Corf	1	obl	_	_
+11	uhɨ	hɨ	NOUN	n	_	1	obl	_	_
 12	rupi	upi	ADP	posp	Rel=Cont	11	case	_	_
 13	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 14	no	no	PART	pcl	_	1	discourse	_	_
@@ -1544,7 +1544,7 @@
 # text_eng = She went to wash clothes.
 # V PP
 1	Oho	ho	VERB	vi	Person=3	0	root	_	_
-2	umaʔe	maʔe	NOUN	n	Rel=Corf	3	obj	_	_
+2	umaʔe	maʔe	NOUN	n	_	3	obj	_	_
 3	iputuka	putuka	VERB	vt	Rel=NCont	1	xcomp	_	_
 4	pa	pa	ADP	posp	Rel=Cont	3	mark	_	_
 5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
@@ -1570,7 +1570,7 @@
 1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	_	_
 2	hoko	hoko	NOUN	n	_	1	nsubj	_	_
 3	ipira	pira	NOUN	n	Rel=Abs	1	obj	_	_
-4	uxi	xi	NOUN	n	Rel=Corf	1	obl	_	_
+4	uxi	xi	NOUN	n	_	1	obl	_	_
 5	pupe	pupe	ADP	posp	Rel=Cont	4	case	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -1583,7 +1583,7 @@
 1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	_	_
 2	hoko	hoko	NOUN	n	_	1	nsubj	_	_
 3	akara	akara	NOUN	n	_	1	obj	_	_
-4	uxi	xi	NOUN	n	Rel=Corf	1	obl	_	_
+4	uxi	xi	NOUN	n	_	1	obl	_	_
 5	pupe	pupe	ADP	posp	Rel=Cont	4	case	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -1608,7 +1608,7 @@
 1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	_	_
 2	amo	amo	DET	dem	PronType=Ind	3	det	_	_
 3	ipira	pira	NOUN	n	Rel=Abs	1	obj	_	_
-4	uxi	xi	NOUN	n	Rel=Corf	1	obl	_	_
+4	uxi	xi	NOUN	n	_	1	obl	_	_
 5	pupe	pupe	ADP	posp	Rel=Cont	4	case	_	_
 6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 7	no	no	PART	pcl	_	1	discourse	_	_
@@ -1777,7 +1777,7 @@
 11	iwɨr	wɨr	ADP	posp	Rel=NCont	10	case	_	_
 12	aʔe	aʔe	PART	pcl	Person=3	9	discourse	_	_
 13	,	,	PUNCT	punct	_	15	punct	_	_
-14	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	15	nmod	_	_
+14	waʔɨr	aʔɨr	NOUN	n	_	15	nmod	_	_
 15	haro	aro	VERB	v	Person=3|Rel=NCont	9	xcomp	_	_
 16	pa	pa	ADP	posp	Rel=Cont	15	case	_	_
 17	aʔe	aʔe	PART	pcl	Person=3	15	discourse	_	_
@@ -1792,7 +1792,7 @@
 1	Wapɨk	apɨk	VERB	v	Person=3	0	root	_	_
 2	ɨwɨra	ɨwɨra	NOUN	n	_	1	obl	_	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	_	_
-4	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	5	nmod	_	_
+4	waʔɨr	aʔɨr	NOUN	n	_	5	nmod	_	_
 5	haro	aro	VERB	v	Person=3|Rel=NCont	1	xcomp	_	_
 6	pa	pa	ADP	posp	Rel=Cont	5	case	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1820,7 +1820,7 @@
 5	rehe	ehe	ADP	posp	Rel=Cont	4	case	_	_
 6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 7	,	,	PUNCT	punct	_	9	punct	_	_
-8	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	9	nmod	_	_
+8	waʔɨr	aʔɨr	NOUN	n	_	9	nmod	_	_
 9	haro	aro	NOUN	n	Rel=NCont	1	xcomp	_	_
 10	pa	pa	ADP	posp	Rel=Cont	9	case	_	_
 11	aʔe	aʔe	PART	pcl	Person=3	9	discourse	_	_
@@ -2075,7 +2075,7 @@
 1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	_	_
 3	tu	u	NOUN	n	Rel=NCont	1	nsubj	_	_
-4	umukaw	mukaw	NOUN	n	Rel=Corf	1	obj	_	_
+4	umukaw	mukaw	NOUN	n	_	1	obj	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 156
@@ -2425,7 +2425,7 @@
 4	,	,	PUNCT	punct	_	2	punct	_	_
 5	upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	_	_
 6	Zuze	Zuze	PROPN	pn	_	5	nsubj	_	_
-7	umukaw	mukaw	NOUN	n	Rel=Corf	5	obj	_	_
+7	umukaw	mukaw	NOUN	n	_	5	obj	_	_
 8	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 182
@@ -2698,7 +2698,7 @@
 # V S O AUX PP
 1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	1	nsubj	_	_
-3	umukaw	mukaw	NOUN	n	Rel=Corf	1	obj	_	_
+3	umukaw	mukaw	NOUN	n	_	1	obj	_	_
 4	oho	ho	VERB	vi	Person=3	1	dep	_	_
 5	wapuz	wapuz	NOUN	n	_	1	obl	_	_
 6	me	me	ADP	posp	Rel=Cont	5	case	_	_
@@ -2712,7 +2712,7 @@
 # V O PP
 1	Uzuka	zuka	VERB	v	Person=3	0	root	_	_
 2	wirahu	wira	NOUN	n	_	1	obj	_	_
-3	umukaw	mukaw	NOUN	n	Rel=Corf	1	obl	_	_
+3	umukaw	mukaw	NOUN	n	_	1	obl	_	_
 4	pupe	pupe	ADP	posp	Rel=Cont	3	case	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -3259,7 +3259,7 @@
 7	wɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	8	nmod	_	_
 8	zeʔegwer	zeʔeg	NOUN	n	Nomzr=Pas	5	obl	_	_
 9	rehe	ehe	ADP	posp	Rel=Cont	8	case	_	_
-10	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	8	obl	_	_
+10	uzeupe	upe	ADP	posp	Reflex=Yes	8	obl	_	_
 11	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 236
@@ -3288,7 +3288,7 @@
 # V ADV O C
 1	Uzepɨrog	pɨrog	VERB	v	Person=3|Reflex=Yes	0	root	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
-3	uzeputupɨkhaw	putupɨk	NOUN	n	Nomzr=Circ|Reflex=Yes|Rel=Corf	1	obj	_	_
+3	uzeputupɨkhaw	putupɨk	NOUN	n	Nomzr=Circ|Reflex=Yes	1	obj	_	_
 4	wanehe	ehe	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	3	obl	_	_
 5	,	,	PUNCT	punct	_	1	punct	_	_
 6	taʔe	taʔe	SCONJ	sc	_	8	mark	_	_
@@ -3296,7 +3296,7 @@
 8	umukuhem	kuhem	VERB	v	Person=3|Voice=Cau	1	advcl	_	_
 9	paw	paw	DET	det	PronType=Tot	10	det	_	_
 10	wiràmiri	wiràmiri	NOUN	n	_	8	obl	_	_
-11	uzuwi	zuwi	ADP	posp	Rel=Corf	10	case	_	_
+11	uzuwi	zuwi	ADP	posp	_	10	case	_	_
 12	xe	xe	PART	pcl	_	8	discourse	_	_
 13	.	.	PUNCT	punct	_	8	punct	_	_
 
@@ -3380,7 +3380,7 @@
 # text_spa = Los otros perros fueron al encuentro de la flecha rápidamente.
 # text_en = The other dogs came quickly to meet the arrow.
 # O ADV S V - O V ADV
-1	Upɨnɨkwaw	pɨnɨkw	NOUN	n	Nomzr=Circ|Rel=Corf	6	obj	_	_
+1	Upɨnɨkwaw	pɨnɨkw	NOUN	n	Nomzr=Circ	6	obj	_	_
 2	tuwe	tuwe	ADV	adv	_	1	advmod	_	_
 3	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
 4	amo	amo	DET	dem	PronType=Dem	5	det	_	_
@@ -3447,7 +3447,7 @@
 # O V PP
 1	Uhem	hem	VERB	v	Person=3	5	ccomp	_	_
 2	Mairaʔi	Mairaʔi	NOUN	n	_	1	nsubj	_	_
-3	uzuraʔa	zuraʔa	PART	pcl	Rel=Corf	1	discourse	_	_
+3	uzuraʔa	zuraʔa	PART	pcl	_	1	discourse	_	_
 4	?	?	PUNCT	punct	_	1	punct	_	_
 5	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
 6	uiwɨratɨ	iwɨratɨ	NOUN	n	Rel=Abs	5	obl	_	_
@@ -3464,7 +3464,7 @@
 3	ukwaw	kwaw	VERB	v	Person=3	0	root	_	_
 4	tuwe	tuwe	ADV	adv	_	1	advmod	_	_
 5	maʔe	maʔe	NOUN	n	_	6	nmod	_	_
-6	uzeapomaʔekwer	apo	NOUN	n	Nomzr=Abs|Reflex=Yes|Rel=Corf|Tense=Past	3	obj	_	_
+6	uzeapomaʔekwer	apo	NOUN	n	Nomzr=Abs|Reflex=Yes|Tense=Past	3	obj	_	_
 7	izupe	zupe	ADP	posp	Rel=NCont	6	obl	_	_
 8	aʔe	aʔe	PART	pcl	Person=3	6	discourse	_	_
 9	.	.	PUNCT	punct	_	3	punct	_	_
@@ -3823,7 +3823,7 @@
 5	umumeʔu	mumeʔu	VERB	v	Person=3	0	root	_	_
 6	parupi	paw	PRON	pro	Case=Loc|PronType=Tot|Rel=Cont	8	obl	_	_
 7	maʔe	maʔe	NOUN	n	_	8	nmod	_	_
-8	uzeapomaʔe	apo	NOUN	n	Nomzr=Abs|Reflex=Yes|Rel=Corf	5	obj	_	_
+8	uzeapomaʔe	apo	NOUN	n	Nomzr=Abs|Reflex=Yes	5	obj	_	_
 9	izupe	zupe	ADP	posp	Rel=NCont	8	obl	_	_
 10	.	.	PUNCT	punct	_	5	punct	_	_
 
@@ -4009,7 +4009,7 @@
 5	ma	ma	ADV	adv	_	4	advmod	_	_
 6	,	,	PUNCT	punct	_	7	punct	_	_
 7	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
-8	uzeupe	upe	ADP	posp	Case=Dat|Reflex=Yes|Rel=Corf	7	obl	_	_
+8	uzeupe	upe	ADP	posp	Case=Dat|Reflex=Yes	7	obl	_	_
 9	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 282
@@ -4024,7 +4024,7 @@
 3	heiheihem	eihem	VERB	vi	Person=3|Red=Mo	5	xcomp	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	_
 5	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
-6	uzeupe	upe	ADP	posp	Case=Dat|Reflex=Yes|Rel=Corf	5	obl	_	_
+6	uzeupe	upe	ADP	posp	Case=Dat|Reflex=Yes	5	obl	_	_
 7	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 283
