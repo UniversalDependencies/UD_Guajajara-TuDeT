@@ -112,7 +112,7 @@
 # text_eng = My son is there 
 # S
 1	Aikwez	aikwez	DET	dem	PronType=Dem	2	det	_	_
-2	heraʔɨr	aʔɨr	NOUN	n	Person=1|Rel=Abs	0	root	_	_
+2	heraʔɨr	aʔɨr	NOUN	n	Person=1|Poss=Yes|Rel=Abs	0	root	_	_
 3	aʔe	aʔe	DET	dem	PronType=Dem	2	discourse	_	_
 
 # sent_id = 11
@@ -301,7 +301,7 @@
 # text_eng = Other bosses also went to the party 
 # S V PP
 1	Amo	amo	DET	dem	PronType=Ind	2	det	_	_
-2	tuwihaw	uwihaw	NOUN	n	Person=3	3	nsubj	_	_
+2	tuwihaw	uwihaw	NOUN	n	Rel=Abs	3	nsubj	_	_
 3	oho	ho	VERB	vi	Person=3	0	root	_	_
 4-5	maiʔu	_	_	_	_	_	_	_	_
 4	maʔe	maʔe	NOUN	n	_	3	obl	_	_
@@ -1205,7 +1205,7 @@
 # text_eng = There is a lot of mud in the road .
 # V S PP
 1	Heta	eta	VERB	vi	Person=3	0	root	_	_
-2	toʔotoʔom	toʔom	NOUN	n	Red=Mo	1	nsubj	_	_
+2	toʔotoʔom	toʔom	NOUN	n	Red=Di	1	nsubj	_	_
 3	pe	pe	NOUN	n	_	1	obl	_	_
 4	rupi	upi	ADP	posp	Rel=Cont	3	case	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1222,7 +1222,7 @@
 3	mehe	mehe	ADV	adv	_	2	mark	_	_
 4	,	,	PUNCT	punct	_	5	punct	_	_
 5	heta	eta	VERB	vi	Person=3	0	root	_	_
-6	toʔotoʔom	toʔom	NOUN	n	Red=Mo	5	nsubj	_	_
+6	toʔotoʔom	toʔom	NOUN	n	Red=Di	5	nsubj	_	_
 7	teteaʔu	tete	ADV	adv	Emph=Yes	6	advmod	_	_
 8	aʔe	aʔe	PRON	pro	PronType=Dem	5	obl	_	_
 9	pe	pe	ADP	posp	Case=Loc	8	case	_	_
@@ -1238,7 +1238,7 @@
 # text_eng = There is mud also in the road .
 # V S PP
 1	Heta	eta	VERB	vi	Person=3	0	root	_	_
-2	toʔotoʔom	toʔom	NOUN	n	Red=Mo	1	nsubj	_	_
+2	toʔotoʔom	toʔom	NOUN	n	Red=Di	1	nsubj	_	_
 3	pe	pe	NOUN	n	_	1	obl	_	_
 4	rupi	upi	ADP	posp	Rel=Cont	3	case	_	_
 5	no	no	PART	pcl	_	1	discourse	_	_
@@ -1250,7 +1250,7 @@
 # text_spa = Hay lodo allí, en el lago .
 # text_eng = There is mud there, in the lake .
 # S PP
-1	Toʔotoʔom	toʔom	NOUN	n	Red=Mo	0	root	_	_
+1	Toʔotoʔom	toʔom	NOUN	n	Red=Di	0	root	_	_
 2	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	_	_
 3	pe	pe	ADP	posp	Case=Loc	2	case	_	_
 4	,	,	PUNCT	punct	_	5	punct	_	_
@@ -1416,7 +1416,7 @@
 # text_eng = There is mud there, in the lake.
 # V S PP
 1	Heta	eta	VERB	vi	Person=3	0	root	_	_
-2	toʔotoʔom	toʔom	NOUN	n	Red=Mo	1	nsubj	_	_
+2	toʔotoʔom	toʔom	NOUN	n	Red=Di	1	nsubj	_	_
 3	aʔe	aʔe	PART	pcl	Person=3	1	obl	_	_
 4	pe	pe	ADP	posp	Rel=Cont	3	case	_	_
 5	,	,	PUNCT	punct	_	6	punct	_	_
@@ -1696,7 +1696,7 @@
 3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	_	_
 4	,	,	PUNCT	punct	_	6	punct	_	_
 5	Zuze	Zuze	PROPN	pn	_	6	nmod	_	_
-6	tu	u	NOUN	n	Person=3	2	appos	_	_
+6	tu	u	NOUN	n	Rel=NCont	2	appos	_	_
 7	aʔe	aʔe	PART	pcl	Person=3	6	discourse	_	_
 8	,	,	PUNCT	punct	_	6	punct	_	_
 9	oho	ho	VERB	vi	Person=3	0	root	_	_
@@ -1746,7 +1746,7 @@
 3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	_	_
 4	,	,	PUNCT	punct	_	6	punct	_	_
 5	Zuze	Zuze	PROPN	pn	_	6	nmod	_	_
-6	tu	u	NOUN	n	Person=3	2	appos	_	_
+6	tu	u	NOUN	n	Rel=NCont	2	appos	_	_
 7	aʔe	aʔe	PART	pcl	Person=3	6	discourse	_	_
 8	,	,	PUNCT	punct	_	6	punct	_	_
 9	uputar	putar	VERB	v	Person=3	0	root	_	_
@@ -1769,7 +1769,7 @@
 3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	_	_
 4	,	,	PUNCT	punct	_	6	punct	_	_
 5	Zuze	Zuze	PROPN	pn	_	6	nmod	_	_
-6	tu	u	NOUN	n	Person=3	2	appos	_	_
+6	tu	u	NOUN	n	Rel=NCont	2	appos	_	_
 7	aʔe	aʔe	PART	pcl	Person=3	6	discourse	_	_
 8	,	,	PUNCT	punct	_	6	punct	_	_
 9	wapɨk	apɨk	VERB	v	Person=3	0	root	_	_
@@ -1777,7 +1777,7 @@
 11	iwɨr	wɨr	ADP	posp	Rel=NCont	10	case	_	_
 12	aʔe	aʔe	PART	pcl	Person=3	9	discourse	_	_
 13	,	,	PUNCT	punct	_	15	punct	_	_
-14	waʔɨr	aʔɨr	NOUN	n	Person=3	15	nmod	_	_
+14	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	15	nmod	_	_
 15	haro	aro	VERB	v	Person=3|Rel=NCont	9	xcomp	_	_
 16	pa	pa	ADP	posp	Rel=Cont	15	case	_	_
 17	aʔe	aʔe	PART	pcl	Person=3	15	discourse	_	_
@@ -1792,7 +1792,7 @@
 1	Wapɨk	apɨk	VERB	v	Person=3	0	root	_	_
 2	ɨwɨra	ɨwɨra	NOUN	n	_	1	obl	_	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	_	_
-4	waʔɨr	aʔɨr	NOUN	n	Person=3	5	nmod	_	_
+4	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	5	nmod	_	_
 5	haro	aro	VERB	v	Person=3|Rel=NCont	1	xcomp	_	_
 6	pa	pa	ADP	posp	Rel=Cont	5	case	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1815,12 +1815,12 @@
 # V S PP
 1	Wapɨk	apɨk	VERB	v	Number=Plur|Person=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	_	_
-3	tu	u	NOUN	n	Person=3	1	nsubj	_	_
+3	tu	u	NOUN	n	Rel=NCont	1	nsubj	_	_
 4	ɨwɨra	ɨwɨra	NOUN	n	_	1	obl	_	_
 5	rehe	ehe	ADP	posp	Rel=Cont	4	case	_	_
 6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 7	,	,	PUNCT	punct	_	9	punct	_	_
-8	waʔɨr	aʔɨr	NOUN	n	Person=3	9	nmod	_	_
+8	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	9	nmod	_	_
 9	haro	aro	NOUN	n	Rel=NCont	1	xcomp	_	_
 10	pa	pa	ADP	posp	Rel=Cont	9	case	_	_
 11	aʔe	aʔe	PART	pcl	Person=3	9	discourse	_	_
@@ -2017,7 +2017,7 @@
 # V S PP
 1	Wikuwe	we	VERB	vi	Person=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	_	_
-3	tu	u	NOUN	n	Person=3	1	nsubj	_	_
+3	tu	u	NOUN	n	Rel=NCont	1	nsubj	_	_
 4	aʔe	aʔe	PRON	pro	_	1	obl	_	_
 5	pe	pe	ADP	posp	Rel=Cont	4	case	_	_
 6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
@@ -2282,7 +2282,7 @@
 2	katu	katu	ADV	adv	Emph=Yes	1	advmod	_	_
 3	zapepo	zapepo	NOUN	n	_	1	obj	_	_
 4	,	,	PUNCT	punct	_	1	punct	_	_
-5	iʔi	ʔi	NOUN	n	Person=3	0	root	_	_
+5	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
 6	Zuze	Zuze	PROPN	pn	_	5	nsubj	_	_
 7	wemireko	eko	NOUN	n	_	5	obl	_	_
 8	pe	pe	ADP	posp	Rel=Cont	7	case	_	_
@@ -2763,7 +2763,7 @@
 # text_spa = Pusieron una trampa en los árboles frutales.
 # text_en = They put a trap on the lookout on fruit trees.
 #  V ADV O PP
-1	Uzapoapo	apo	VERB	v	Person=3|Red=Mo	0	root	_	_
+1	Uzapoapo	apo	VERB	v	Person=3|Red=Di	0	root	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
 3	tukaz	tukaz	NOUN	n	_	1	obj	_	_
 4	maʔe	maʔe	NOUN	n	_	5	nmod	_	_
@@ -2860,7 +2860,7 @@
 2	zekaipo	kwehe	ADV	adv	_	1	advmod	_	_
 3	wɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	5	nmod	_	_
 4	imaʔe	maʔe	NOUN	n	Rel=NCont	5	nmod	_	_
-5	zapoapopɨrer	zapo	NOUN	n	Nomzr=Pas|Red=Mo|Tense=Past	1	obj	_	_
+5	zapoapopɨrer	zapo	NOUN	n	Nomzr=Pas|Red=Di|Tense=Past	1	obj	_	_
 6	teteaʔu	tete	ADV	adv	Emph=Yes	5	advmod	_	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	_	_
 8	pe	pe	ADP	posp	Rel=Cont	7	case	_	_
@@ -2880,7 +2880,7 @@
 6	ikatuahɨ	katu	NOUN	n	Emph=Yes|Rel=NCont	1	parataxis	_	_
 7	tuwe	tuwe	ADV	adv	Emph=Yes	6	advmod	_	_
 8	aipo	aipo	ADV	adv	_	6	advmod	_	_
-9	nerukaz	ukaz	NOUN	n	Person=2|Rel=Cont	6	nsubj	_	_
+9	nerukaz	ukaz	NOUN	n	Person=2|Poss=Yes|Rel=Cont	6	nsubj	_	_
 10	aipo	aipo	ADV	adv	_	9	advmod	_	_
 11	ne	ne	PRON	pro	PronType=Prs	6	obl	_	_
 12	pa	pa	ADP	posp	Rel=Cont	11	case	_	_
@@ -2909,7 +2909,7 @@
 # text_en = Can you lend me your trap? He told his older brother.
 # O V PP
 1	Emururapiʔez	mururapiʔez	VERB	v	Mood=Imp|Person=2	9	ccomp	_	_
-2	nerukaz	ukaz	NOUN	n	Person=2|Rel=Cont	1	obl	_	_
+2	nerukaz	ukaz	NOUN	n	Person=2|Poss=Yes|Rel=Cont	1	obl	_	_
 3	hewe	hewe	ADP	posp	Rel=Cont	2	case	_	_
 4	nehe	nehe	ADV	adv	_	1	advmod	_	_
 5	rihi	rihi	PART	pcl	_	1	discourse	_	_
@@ -2952,7 +2952,7 @@
 6	tazuka	zuka	VERB	vt	Person=1	3	conj	_	_
 7	kutu	kutu	VERB	v	_	6	dep	_	_
 8	wiràmiri	wiràmiri	NOUN	n	_	6	obj	_	_
-9	hemaʔe	maʔe	NOUN	n	Person=1|Rel=Cont	10	nmod	_	_
+9	hemaʔe	maʔe	NOUN	n	Person=1|Poss=Yes|Rel=Cont	10	nmod	_	_
 10	izapopɨràm	zapo	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Fut	6	obl	_	_
 11	rehe	ehe	ADP	posp	Rel=Cont	10	case	_	_
 12	ihe	ihe	PRON	pro	PronType=Prs	6	nsubj	_	_
@@ -2961,7 +2961,7 @@
 15	,	,	PUNCT	punct	_	6	punct	_	_
 16	taʔe	taʔe	SCONJ	sc	_	17	mark	_	_
 17	izapopawete	zapo	VERB	vt	Aspect=Perf|Emph=Yes|Rel=NCont	6	ccomp	_	_
-18	nemaʔe	maʔe	NOUN	n	Person=2	17	obj	_	_
+18	nemaʔe	maʔe	NOUN	n	Person=2|Poss=Yes	17	obj	_	_
 19	ne	ne	PRON	pro	Person=2|PronType=Prs	17	nsubj	_	_
 20	wà	wà	PART	pcl	Number=Plur	17	discourse	_	_
 21	riʔi	riʔi	PART	pcl	_	17	discourse	_	_
@@ -2979,7 +2979,7 @@
 3	wer	wer	ADV	adv	_	2	advmod	_	_
 4	kwaw	kwaw	ADV	adv	_	2	advmod	_	_
 5	zepe	zepe	PART	pcl	_	2	discourse	_	_
-6	herukaz	ukaz	NOUN	n	Person=1|Rel=Cont	2	obl	_	_
+6	herukaz	ukaz	NOUN	n	Person=1|Poss=Yes|Rel=Cont	2	obl	_	_
 7	rehe	ehe	ADP	posp	Rel=Cont	6	case	_	_
 8	newe	we	ADP	posp	Case=Dat|Person=2|Rel=Cont	2	obl	_	_
 9	tɨ	tɨ	PART	pcl	_	2	discourse	_	_
