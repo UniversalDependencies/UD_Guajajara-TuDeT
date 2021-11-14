@@ -3573,9 +3573,9 @@
 
 # sent_id = 255
 # text = Wexak zekaipo amo huwɨkwer kaʔa rehe .
-# text_port = Ele procurou novamente, então ele viu um pingo de sangue numa folha de árvore
+# text_port = Ele procurou novamente, então ele viu um pingo de sangue numa folha de árvore (Campos Castro 2020).
 # text_spa = Buscó de nuevo, entonces vio una gota de sangre en una hoja de árboles.
-# text_en = He searched again, then he saw a blood drop on a leaf
+# text_en = He searched again, then he saw a blood drop on a leaf.
 # V ADV O PP
 1	Wexak	exak	VERB	v	Person=3	0	root	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
@@ -3587,9 +3587,9 @@
 
 # sent_id = 256
 # text = Oho zekaipo hurkwer tɨktɨkɨrawer hupi aʔe , izahɨk zekaipo oho ɨaʔo ʔɨkwar rehe .
-# text_port = O irmão mais velho foi seguindo os pingos de sangue, e os pingos de sangue pararam no buraco de saúva (no final)
-# text_spa = El hermano mayor estaba siguiendo las gotas de sangre, y las gotas de sangre se detuvieron en un hormiguero (al final)
-# text_en = The older brother was following blood drops, and the blood drops stopped in the anthill (at the end)
+# text_port = O irmão mais velho foi seguindo os pingos de sangue, e os pingos de sangue pararam no buraco de saúva (no final) (Campos Castro 2020).
+# text_spa = El hermano mayor estaba siguiendo las gotas de sangre, y las gotas de sangre se detuvieron en un hormiguero (al final).
+# text_en = The older brother was following blood drops, and the blood drops stopped in the anthill (at the end).
 # V ADV PP - ADV V PP
 1	Oho	ho	VERB	v	Person=3	0	root	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
@@ -3608,9 +3608,9 @@
 
 # sent_id = 257
 # text = Aʔe pe zekaipo aʔe maʔe wanekohaw ipiʔarà .
-# text_port = Lá era a entrada (o caminho) da morada deles
+# text_port = Lá era a entrada (o caminho) da morada deles(Campos Castro 2020).
 # text_spa = Ahí estaba la entrada (al camino) de su hogar.
-# text_en = There was the entrance (the way) to their home
+# text_en = There was the entrance (the way) to their home.
 # PP ADV S V
 1	Aʔe	aʔe	PRON	pro	PronType=Dem	7	obl	_	_
 2	pe	pe	ADP	posp	Rel=Cont	1	case	_	_
@@ -3623,9 +3623,9 @@
 
 # sent_id = 258
 # text = Uhewikàzxi zekaipo tɨkɨʔɨr aʔe ɨaʔo ikwar aʔe , nuhemkwaw zekaipo aʔe wanekohaw pe .
-# text_port = O irmão dele cavou o buraco da saúva, mas ele (o irmão mais velho) não chegou à aldeia deles
+# text_port = O irmão dele cavou o buraco da saúva, mas ele (o irmão mais velho) não chegou à aldeia deles (Campos Castro 2020).
 # text_spa = Su hermano cavó el hormiguero, pero él (el hermano mayor) no llegó a su aldea.
-# text_en = His brother dug the anthill, but he (the older brother) did not arrive to their village
+# text_en = His brother dug the anthill, but he (the older brother) did not arrive to their village.
 # V ADV S O - V ADV PP
 1	Uhewikàzxi	hewikàz	VERB	v	Person=3|Tense=Past	0	root	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
@@ -3644,9 +3644,9 @@
 
 # sent_id = 259
 # text = Amo ar mehe katu uzeapo zekaipo tezuhu romo .
-# text_port = Então, certo dia, ele se transformou em um lagarto
+# text_port = Então, certo dia, ele se transformou em um lagarto (Campos Castro 2020).
 # text_spa = Entonces, un día, se convirtió en un lagarto.
-# text_en = Then, one day, he turned into a lizard
+# text_en = Then, one day, he turned into a lizard.
 # PP V ADV PP
 1	Amo	amo	DET	dem	PronType=Ind	2	det	_	_
 2	ar	ar	NOUN	n	_	5	obl	_	_
@@ -3660,9 +3660,9 @@
 
 # sent_id = 260
 # text = Nawizeahɨkwaw zeikaipo heixehaw aʔe ɨaʔo ikwa rupi .
-# text_port = Não dava para passar (não cabia) pelo buraco do formigueiro
+# text_port = Não dava para passar (não cabia) pelo buraco do formigueiro (Campos Castro 2020).
 # text_spa = No podía pasar (no cabía) por el hormiguero.
-# text_en = It could not enter (it did not fit) the anthill
+# text_en = It could not enter (it did not fit) the anthill.
 # V ADV PP
 1	Nawizeahɨkwaw	awize	VERB	v	Emph=Yes|Polarity=Neg	0	root	_	_
 2	zeikaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
@@ -3675,9 +3675,9 @@
 
 # sent_id = 261
 # text = Aʔere uzeapo tahɨwai xixirogaturumu , naʔe zekaipo uixe oho aʔe tahɨwai ikwaw rupi kurɨ .
-# text_port = Depois, ele se transformou em formigas de vários tamanhos, até que conseguiu passar pelo buraco do formigueiro
+# text_port = Depois, ele se transformou em formigas de vários tamanhos, até que conseguiu passar pelo buraco do formigueiro (Campos Castro 2020).
 # text_spa = Luego se convirtió en hormigas de varios tamaños, hasta que pudo pasar por el agujero del hormiguero.
-# text_en = Then he turned into ants of various sizes, until he could pass through the hole of the anthill
+# text_en = Then he turned into ants of various sizes, until he could pass through the hole of the anthill.
 # PP V PP - ADV V AUX PP
 1	Aʔere	aʔe	PRON	pro	Case=Tem|PronType=Dem	3	obl	_	_
 2	uzeapo	apo	VERB	v	Person=3|Reflex=Yes	0	root	_	_
@@ -3697,9 +3697,9 @@
 
 # sent_id = 262
 # text = Aze zekaipo uixe oho uhem zeiakpo amo taw pe .
-# text_port = Passando pelo buraco, ele chegou a uma aldeia
+# text_port = Passando pelo buraco, ele chegou a uma aldeia (Campos Castro 2020).
 # text_spa = Pasando por el hoyo, llegó a un pueblo.
-# text_en = Passing through the hole, he came to a village
+# text_en = Passing through the hole, he came to a village.
 # ADV V ADV PP
 1	Aze	aze	SCONJ	sc	_	3	mark	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	_	_
@@ -3714,9 +3714,9 @@
 
 # sent_id = 263
 # text = Aʔe pe ukàzikàzim zekaipo iko aʔepehar wanuwi .
-# text_port = Lá, ele (o irmão mais velho) passou vários dias escondido deles (dos seres sobrenaturais)
-# text_spa = Allí, él (el hermano mayor) pasó varios días escondido de ellos (de los seres sobrenaturales)
-# text_en = There, he (the older brother) spent several days hidden from them (from the supernatural beings)
+# text_port = Lá, ele (o irmão mais velho) passou vários dias escondido deles (dos seres sobrenaturais) (Campos Castro 2020).
+# text_spa = Allí, él (el hermano mayor) pasó varios días escondido de ellos (de los seres sobrenaturales).
+# text_en = There, he (the older brother) spent several days hidden from them (from the supernatural beings).
 # PP V ADV AUX PP
 1	Aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	_	_
 2	pe	pe	ADP	posp	Rel=Cont	1	case	_	_
@@ -3729,9 +3729,9 @@
 
 # sent_id = 264
 # text = Maʔemaʔe xixigaturumu zekaipo zeapo iko aʔe pe wanuwi .
-# text_port = Ele (o irmão mais velho) se transformava em vários insetos e animais para se esconder deles (dos cachorros do céu)
-# text_spa = Él (el hermano mayor) se convirtió en varios insectos y animales para esconderse de ellos (de los perros del cielo)
-# text_en = He (the older brother) turned into several insects and animals to hide from them (from the dogs from heaven)
+# text_port = Ele (o irmão mais velho) se transformava em vários insetos e animais para se esconder deles (dos cachorros do céu) (Campos Castro 2020).
+# text_spa = Él (el hermano mayor) se convirtió en varios insectos y animales para esconderse de ellos (de los perros del cielo).
+# text_en = He (the older brother) turned into several insects and animals to hide from them (from the dogs from heaven).
 # PP ADV V AUX PP PP
 1	Maʔemaʔe	maʔe	NOUN	n	_	2	nmod	_	_
 2	xixigaturumu	xi	NOUN	n	Case=Tra|Emph=Yes|Red=Mo	4	obl	_	_
@@ -3745,9 +3745,9 @@
 
 # sent_id = 265
 # text = Aʔepe uiko mehe uwexak pawkatu aʔe zemaraʔitaw iko aʔe pe .
-# text_port = Então, ele pôde observar as festas e os rituais
+# text_port = Então, ele pôde observar as festas e os rituais (Campos Castro 2020).
 # text_spa = Entonces él podría observar las fiestas y los rituales.
-# text_en = Then he could observe the festivities and the rituals
+# text_en = Then he could observe the festivities and the rituals.
 # ADV V O AUX PP
 1	Aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	2	obl	_	_
 2	uiko	iko	VERB	v	Person=3	4	advcl	_	_
@@ -3763,9 +3763,9 @@
 
 # sent_id = 266
 # text = Aʔe pe uwexak zekaipo amo mainumɨ we zepe tentehar tuaʔu zepe zekaipo raʔa
-# text_port = Lá, ele encontrou um ancião que estava em forma de beija-flor
+# text_port = Lá, ele encontrou um ancião que estava em forma de beija-flor (Campos Castro 2020).
 # text_spa = Allí encontró a un anciano que estaba en forma de colibrí.
-# text_en = There he found an old man who was in the form of hummingbird
+# text_en = There he found an old man who was in the form of hummingbird.
 # PP V ADV O
 1	Aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	_	_
 2	pe	pe	ADP	posp	Rel=Cont	1	case	_	_
@@ -3783,9 +3783,9 @@
 
 # sent_id = 267
 # text = Upuranu tuaʔu hehe :
-# text_port = O ancião perguntou a ele
-# text_spa = El anciano le preguntó
-# text_en = The old man asked him
+# text_port = O ancião perguntou a ele:  (Campos Castro 2020).
+# text_spa = El anciano le preguntó:
+# text_en = The old man asked him:
 # V PP
 1	Upuranu	puranu	VERB	v	Person=3	0	root	_	_
 2	tuaʔu	u	NOUN	n	Rel=Abs	1	obl	_	_
@@ -3794,7 +3794,7 @@
 
 # sent_id = 268
 # text = Maʔe tuwe erezapo ikoxe tɨ , iʔi izupe ?
-# text_port = O que você está fazendo aqui?
+# text_port = O que você está fazendo aqui? (Campos Castro 2020)
 # text_spa = ¿Qué haces aquí?
 # text_en = What are you doing here?
 # O V PP
@@ -3812,9 +3812,9 @@
 
 # sent_id = 269
 # text = Aʔe Tentehar tɨkɨʔɨr maizu umumeʔu parupi maʔe uzeapomaʔe izupe .
-# text_port = O irmão mais velho Maizu contou tudo o que ocorrido para ele (o ancião)
-# text_spa = El hermano mayor Maizu le dijo todo lo que le sucedió (al anciano)
-# text_en = The older brother Maizu told him all that had happened to him (to the old man)
+# text_port = O irmão mais velho Maizu contou tudo o que ocorrido para ele (o ancião) (Campos Castro 2020).
+# text_spa = El hermano mayor Maizu le dijo todo lo que le sucedió (al anciano).
+# text_en = The older brother Maizu told him all that had happened to him (to the old man).
 # S V O
 1	Aʔe	aʔe	DET	dem	PronType=Dem	3	det	_	_
 2	Tentehar	tentehar	NOUN	n	_	3	nmod	_	_
@@ -3829,9 +3829,9 @@
 
 # sent_id = 270
 # text = Naʔe aʔe mainumɨ uzeapo tentehar rumu izupe kurɨ , uwexakar tɨwɨr hemiʔiwàkwer izupe no .
-# text_port = O ancião se transformou em um ser humano e levou o irmão mais velho para aquele que foi flechado (um dos cachorros do céu)
-# text_spa = El anciano se convirtió en un ser humano y llevó a su hermano mayor a quien fue herido con la flecha (uno de los perros del cielo)
-# text_en = The old man turned into a human being and took his older brother to the one who was wounded with the arrow (one of the dogs from heaven)
+# text_port = O ancião se transformou em um ser humano e levou o irmão mais velho para aquele que foi flechado (um dos cachorros do céu) (Campos Castro 2020).
+# text_spa = El anciano se convirtió en un ser humano y llevó a su hermano mayor a quien fue herido con la flecha (uno de los perros del cielo).
+# text_en = The old man turned into a human being and took his older brother to the one who was wounded with the arrow (one of the dogs from heaven).
 # S V PP PP - V O PP
 1	Naʔe	naʔe	PART	pcl	_	4	discourse	_	_
 2	aʔe	aʔe	DET	dem	PronType=Dem	3	det	_	_
@@ -3987,7 +3987,7 @@
 
 # sent_id = 280
 # text = Ikatu awaxi izupe .
-# text_port = Ela gosta de milho .
+# text_port = Ela gosta de milho (Sociedade Internacional de Lingüística, 1973:79).
 # text_spa = Le gusta el maíz.
 # text_eng = She likes corn.
 # V O PP
@@ -4065,4 +4065,131 @@
 14	uhapukaz	hapukaz	VERB	v	Person=3	12	xcomp	_	_
 15	ta	ta	ADP	posp	Rel=Cont	14	case	_	_
 16	.	.	PUNCT	punct	_	12	punct	_	_
+
+# sent_id = 271
+# text = Uhem oho aʔe zawar iziwàpɨrer tupaw pe wà kurɨ , teko romo zekaipo uwuz kurɨ , iʔi maizu pe , hekatu tànàʔàg kurɨ tɨ iʔi izupe .
+# text_port = Chegando ao lugar onde o cachorro ferido estava deitado, que agora já havia se transformado em pessoa, (o ancião) disse ao Maizu que ele (o cachorro) estava bem (e assentado) (Campos Castro 2020).
+# text_spa = Llegando al lugar donde el perro herido estaba acostado, que ahora se había transformado en una persona, (el anciano) le dijo a Maizu que él (el perro) estaba bien (y sentado).
+# text_en = Arriving at the place where the wounded dog was lying down, which had now been transformed into a person, he (the old man) told Maizu that he (the dog) was well (and seated).
+# V AUX PP - PP ADV V - V PP - O V PP
+1	Uhem	hem	VERB	v	Person=3	0	root	0:root	_
+2	oho	ho	VERB	v	Person=3	1	dep	1:dep	_
+3	aʔe	aʔe	DET	dem	PronType=Dem	7	det	7:det	_
+4	zawar	zawar	NOUN	n	_	7	nmod	7:nmod	_
+5	iziwàpɨrer	ziwà	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Past	4	nmod	4:nmod	_
+7	tupaw	tupaw	NOUN	n	_	1	obl	1:obl	_
+8	pe	pe	ADP	posp	Rel=Cont	7	case	7:case	_
+9	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+10	kurɨ	kurɨ	PART	pcl	_	_	discourse	:discourse	_
+11	,	,	PUNCT	punct	_	1	punct	1:punct	_
+12	teko	teko	NOUN	n	_	15	obl	15:obl	_
+13	romo	omo	ADP	posp	Rel=Cont	12	case	12:case	_
+14	zekaipo	kwehe	ADV	adv	Evident=Nfh	15	advmod	15:advmod	_
+15	uwuz	wuz	VERB	v	Person=3	1	conj	1:conj	_
+16	kurɨ	kurɨ	PART	pcl	_	15	discourse	15:discourse	_
+17	,	,	PUNCT	punct	_	15	punct	15:punct	_
+18	iʔi	ʔi	VERB	vt	Person=3	1	conj	1:conj	_
+19	maizu	maizu	NOUN	n	_	18	obl	18:obl	_
+20	pe	pe	ADP	posp	Rel=Cont	19	case	19:case	_
+21	,	,	PUNCT	punct	_	18	punct	18:punct	_
+22	hekatu	katu	VERB	vd	Person=1	26	ccomp	26:ccomp	_
+23	tànàʔàg	tànàʔàg	ADV	adv	_	22	advmod	22:advmod	_
+24	kurɨ	kurɨ	PART	pcl	_	22	discourse	22:discourse	_
+25	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+26	iʔi	ʔi	VERB	vt	Person=3	18	conj	18:conj	_
+27	izupe	zupe	ADP	posp	Rel=NCont	26	obl	26:obl	_
+28	.	.	PUNCT	punct	_	26	punct	26:punct	_
+
+# sent_id = 272
+# text = Aʔe teko iziwàʔarer , iziwàziwà zekaipo wereko taw mitepe wà
+# text_port = A pessoa que o havia flechado estava, por eles, sendo flechada no centro da aldeia (Campos Castro 2020).
+# text_spa = La persona que le había disparado con la flecha estaba siendo disparada con flechas, por ellos, en el centro del pueblo.
+# text_en = The person who had shot him was being shot by them in the center of the village.
+# O ADV V PP
+1	Aʔe	aʔe	DET	dem	PronType=Dem	2	det	2:det	_
+2	teko	teko	NOUN	n	_	3	nmod	3:nmod	_
+3	iziwàʔarer	ziwà	NOUN	n	Nomzr=Ag|Rel=NCont|Tense=Past	5	obj	5:obj	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	iziwàziwà	ziwà	VERB	vt	Red=Di|Rel=NCont	7	xcomp	7:xcomp	_
+6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7	wereko	eko	VERB	v	Person=3|Voice=Com	0	root	0:root	_
+8	taw	taw	NOUN	n	_	9	nmod	9:nmod	_
+9	mitepe	mɨter	NOUN	n	Case=Loc	7	obl	7:obl	_
+10	wà	wà	PART	pcl	Number=Plur	7	discourse	7:discourse	_
+
+# sent_id = 273
+# text = Naʔe aʔe tuaʔu Mair uhapukaz izupe uwexakar aʔe teko iziwàziwàpɨr izupe .
+# text_port = Então, o ancião chamou (o irmão mais velho, Maira) para ver a pessoa que estava sendo castigada (Campos Castro 2020).
+# text_spa = Así que el anciano lo llamó (al hermano mayor, Maira) para ver a la persona siendo castigada.
+# text_en = So the old man called him (the older brother, Maira) to see the person being punished.
+# S PP V ADV
+1	Naʔe	naʔe	PART	pcl	_	5	discourse	5:discourse	_
+2	aʔe	aʔe	DET	dem	PronType=Dem	3	det	3:det	_
+3	tuaʔu	uaʔu	NOUN	n	Rel=Abs	5	nsubj	5:nsubj	_
+4	Mair	Mair	PROPN	pn	_	5	obl	5:obl	_
+5	uhapukaz	hapukaz	VERB	vi	Person=3	0	root	0:root	_
+6	izupe	zupe	ADP	posp	Rel=NCont	4	case	4:case	_
+7	uwexakar	wexakar	VERB	vt	Person=3|Rel=Corf|Voice=Cau	5	advcl	5:advcl	_
+8	aʔe	aʔe	DET	dem	PronType=Dem	9	det	9:det	_
+9	teko	teko	NOUN	n	_	10	nmod	10:nmod	_
+10	iziwàziwàpɨr	ziwà	NOUN	n	Nomzr=Pas|Red=Di|Rel=NCont	7	obj	7:obj	_
+12	izupe	zupe	ADP	posp	Rel=NCont	7	mark	7:mark	_
+13	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 274
+# text = Uhem oho aʔe pe wà kurɨ , tuaʔu iʔi tɨkɨʔɨr pe eziwà neno tɨ iʔi izupe
+# text_port = Chegando lá, o ancião disse para o irmão mais velho dar uma flechada nele (no irmão mais novo) também (Campos Castro 2020).
+# text_spa = Llegando allí, el anciano le dijo al hermano mayor que lo disparara (al hermano menor) también.
+# text_en = Arriving there, the old man said to the older brother to shoot an arrow at him (at the younger brother) as well.
+# V AUX PP - S V PP - O V PP
+1	Uhem	hem	VERB	v	Person=3	0	root	0:root	_
+2	oho	ho	VERB	v	Person=3	1	dep	1:dep	_
+3	aʔe	aʔe	PRON	pro	PronType=Dem	1	obl	1:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+7	,	,	PUNCT	punct	_	1	punct	1:punct	_
+8	tuaʔu	uaʔu	NOUN	n	Rel=Abs	9	nsubj	9:nsubj	_
+9	iʔi	ʔi	VERB	vt	Person=3	1	conj	1:conj	_
+10	tɨkɨʔɨr	ɨkɨʔɨr	NOUN	n	Rel=Abs	9	obl	9:obl	_
+11	pe	pe	ADP	posp	Rel=Cont	10	case	10:case	_
+12	eziwà	ziwà	VERB	v	Mood=Imp|Person=2	15	ccomp	15:ccomp	_
+13	neno	no	PART	pcl	Person=2	12	discourse	12:discourse	_
+14	tɨ	tɨ	PART	pcl	_	12	discourse	12:discourse	_
+15	iʔi	ʔi	VERB	vt	Person=3	9	conj	9:conj	_
+16	izupe	zupe	ADP	posp	Rel=NCont	15	obl	15:obl	_
+
+# sent_id = 275
+# text = Mair iʔi izupe  : Heta hepuneraw purumukatuhaw ihe tɨ iʔiʔ izupe .
+# text_port = O Mair disse a ele (ao ancião): Eu possuo poderes para curar (Campos Castro 2020).
+# text_spa = Mair le dijo (al anciano): Poseo poderes curativos.
+# text_en = Mair told him (to the old man): I possess healing powers.
+# S V PP - O V PP
+1	Mair	mair	PROPN	ppn	_	2	nsubj	2:nsubj	_
+2	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
+3	izupe	zupe	ADP	posp	Rel=NCont	2	obl	2:obl	_
+4	:	:	PUNCT	punct	_	2	punct	2:punct	_
+5	Heta	Heta	VERB	v	Rel=NCont	11	ccomp	11:ccomp	_
+6	hepuneraw	epuner	NOUN	n	Nomzr=Circ|Rel=NCont	5	nsubj	5:nsubj	_
+7	purumukatuhaw	katu	NOUN	n	Detrans=Yes|Nomzr=Circ|Voice=Cau	6	nmod	6:nmod	_
+9	ihe	ihe	PRON	pro	PronType=Prs	6	nmod	6:nmod	_
+10	tɨ	tɨ	PART	pcl	_	5	discourse	5:discourse	_
+11	iʔiʔ	ʔi	VERB	vt	Person=3	2	parataxis	2:parataxis	_
+12	izupe	zupe	ADP	posp	Rel=NCont	11	obl	11:obl	_
+13	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 276
+# text = Naʔe Maizu iziwà uiwɨrɨ hetekwer ikwapar ʔɨmaz .
+# text_port = Então, ele (o irmão mais velho) flechou o corpo do próprio irmão fingindo que não o conhecia (Campos Castro 2020).
+# text_spa = Así que él (el hermano mayor) disparó el propio cuerpo de su hermano fingiendo que no lo conocía.
+# text_en = So he (the older brother) shot his brother's own body pretending he did not know him.
+# S V O ADV
+1	Naʔe	naʔe	PART	pcl	_	3	discourse	3:discourse	_
+2	Maizu	Maizu	PROPN	ppn	_	3	nsubj	3:nsubj	_
+3	iziwà	ziwà	VERB	vt	Person=3	0	root	0:root	_
+4	uiwɨrɨ	iwɨrɨ	NOUN	n	Rel=Corf	5	nmod	5:nmod	_
+5	hetekwer	etekwer	NOUN	n	Rel=NCont	3	obj	3:obj	_
+6	ikwapar	kwaw	NOUN	n	Nomzr=Ag|Rel=NCont	3	obl	3:obl	_
+7	ʔɨmaz	ʔɨmaz	ADV	adv	6	Polarity=Neg	6	advmod	6:advmod
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
