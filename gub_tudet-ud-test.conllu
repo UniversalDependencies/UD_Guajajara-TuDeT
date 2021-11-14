@@ -4074,9 +4074,9 @@
 # V AUX PP - PP ADV V - V PP - O V PP
 1	Uhem	hem	VERB	v	Person=3	0	root	0:root	_
 2	oho	ho	VERB	v	Person=3	1	dep	1:dep	_
-3	aʔe	aʔe	DET	dem	PronType=Dem	7	det	7:det	_
-4	zawar	zawar	NOUN	n	_	7	nmod	7:nmod	_
-5	iziwàpɨrer	ziwà	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Past	4	nmod	4:nmod	_
+3	aʔe	aʔe	DET	dem	PronType=Dem	6	det	6:det	_
+4	zawar	zawar	NOUN	n	_	5	nmod	5:nmod	_
+5	iziwàpɨrer	ziwà	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Past	6	nmod	6:nmod	_
 6	tupaw	tupaw	NOUN	n	_	1	obl	1:obl	_
 7	pe	pe	ADP	posp	Rel=Cont	6	case	6:case	_
 8	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
@@ -4109,7 +4109,7 @@
 1	Aʔe	aʔe	DET	dem	PronType=Dem	2	det	2:det	_
 2	teko	teko	NOUN	n	_	3	nmod	3:nmod	_
 3	iziwàʔarer	ziwà	NOUN	n	Nomzr=Ag|Rel=NCont|Tense=Past	5	obj	5:obj	_
-4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+4	,	,	PUNCT	punct	_	3	punct	3:punct	_
 5	iziwàziwà	ziwà	VERB	vt	Red=Di|Rel=NCont	7	xcomp	7:xcomp	_
 6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
 7	wereko	eko	VERB	v	Person=3|Voice=Com	0	root	0:root	_
@@ -4133,8 +4133,8 @@
 8	aʔe	aʔe	DET	dem	PronType=Dem	9	det	9:det	_
 9	teko	teko	NOUN	n	_	10	nmod	10:nmod	_
 10	iziwàziwàpɨr	ziwà	NOUN	n	Nomzr=Pas|Red=Di|Rel=NCont	7	obj	7:obj	_
-12	izupe	zupe	ADP	posp	Rel=NCont	7	mark	7:mark	_
-13	.	.	PUNCT	punct	_	5	punct	5:punct	_
+11	izupe	zupe	ADP	posp	Rel=NCont	7	mark	7:mark	_
+12	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
 # sent_id = 288
 # text = Uhem oho aʔe pe wà kurɨ , tuaʔu iʔi tɨkɨʔɨr pe eziwà neno tɨ iʔi izupe
@@ -4169,14 +4169,14 @@
 2	iʔi	ʔi	VERB	vt	Person=3	0	root	0:root	_
 3	izupe	zupe	ADP	posp	Rel=NCont	2	obl	2:obl	_
 4	:	:	PUNCT	punct	_	2	punct	2:punct	_
-5	Heta	Heta	VERB	v	Rel=NCont	11	ccomp	11:ccomp	_
+5	Heta	Heta	VERB	v	Rel=NCont	10	ccomp	10:ccomp	_
 6	hepuneraw	epuner	NOUN	n	Nomzr=Circ|Rel=NCont	5	nsubj	5:nsubj	_
-7	purumukatuhaw	katu	NOUN	n	Detrans=Yes|Nomzr=Circ|Voice=Cau	6	nmod	6:nmod	_
-9	ihe	ihe	PRON	pro	PronType=Prs	6	nmod	6:nmod	_
-10	tɨ	tɨ	PART	pcl	_	5	discourse	5:discourse	_
-11	iʔiʔ	ʔi	VERB	vt	Person=3	2	parataxis	2:parataxis	_
-12	izupe	zupe	ADP	posp	Rel=NCont	11	obl	11:obl	_
-13	.	.	PUNCT	punct	_	5	punct	5:punct	_
+7	purumukatuhaw	katu	NOUN	n	Detrans=Abs|Nomzr=Circ|Voice=Cau	6	nmod	6:nmod	_
+8	ihe	ihe	PRON	pro	PronType=Prs	6	nmod	6:nmod	_
+9	tɨ	tɨ	PART	pcl	_	5	discourse	5:discourse	_
+10	iʔiʔ	ʔi	VERB	vt	Person=3	2	parataxis	2:parataxis	_
+11	izupe	zupe	ADP	posp	Rel=NCont	10	obl	10:obl	_
+12	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
 # sent_id = 290
 # text = Naʔe Maizu iziwà uiwɨrɨ hetekwer ikwapar ʔɨmaz .
@@ -4190,6 +4190,6 @@
 4	uiwɨrɨ	iwɨrɨ	NOUN	n	Rel=Corf	5	nmod	5:nmod	_
 5	hetekwer	etekwer	NOUN	n	Rel=NCont	3	obj	3:obj	_
 6	ikwapar	kwaw	NOUN	n	Nomzr=Ag|Rel=NCont	3	obl	3:obl	_
-7	ʔɨmaz	ʔɨmaz	ADV	adv	6	Polarity=Neg	6	advmod	6:advmod
+7	ʔɨmaz	ʔɨmaz	ADV	adv	Polarity=Neg	6	advmod	6:advmod	_
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
