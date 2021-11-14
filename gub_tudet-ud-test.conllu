@@ -4269,7 +4269,7 @@
 16	;	;	PUNCT	punct	_	15	punct	15:punct	_
 
 # sent_id = 295
-# text = Wɨraʔohaw , kokumu wakwaztaw , wàhuhaw , kwàtàzgwerai wawiraʔohaw , upuwipuwir kwer wazimuàir haw , paze maʔe wazeʔagaw paw haw , zegaraiwpaw
+# text = Wɨraʔohaw , kokumu wakwaztaw , wàhuhaw , kwàtàzgwerai wawɨraʔohaw , upuwipuwir kwer wazimuàir haw , paze maʔe wazeʔagaw paw haw , zegaraiwpaw
 # text_port = A Festa da menina-moça, a festa dos rapazes, a festa da colheita, a festa das criancinhas, a festa dos separados (divorciados), a festa dos pajés e as orações Tenetehára (Campos Castro 2020).
 # text_spa = La fiesta de las jóvenes, la fiesta de los niños, el partido de la cosecha, la fiesta de los niños, la fiesta de los separados (divorciados), la fiesta de los pajés y las oraciones Tenetehára.
 # text_en = The young girl's festivities, the boys' festivities, the harvest festivity, the festivity of the children, the festivity of the separated ones (divorced), the festivity of the pajés and the Tenetehára prayers.
@@ -4277,7 +4277,7 @@
 1-2	Wɨraʔohaw	_	_	_	_	_	_	_	_
 1	wɨra	ɨra	NOUN	n	Rel=Corf	0	root	0:root	_
 2	ʔohaw	ʔu	NOUN	n	Nomzr=Circ	1	nmod	1:nmod	_
-3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	,	,	PUNCT	punct	_	4	punct	4:punct	_
 4	kokumu	kokumu	NOUN	n	_	2	list	2:list	_
 5	wakwaztaw	kwaz	NOUN	n	Nomzr=Circ|Number=Plur	4	nmod	4:nmod	_
 6	,	,	PUNCT	punct	_	4	punct	4:punct	_
