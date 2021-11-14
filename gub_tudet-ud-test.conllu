@@ -4236,7 +4236,7 @@
 7	izapomaʔe	zapo	NOUN	n	Nomzr=Abs|Rel=NCont	4	obj	4:obj	_
 8	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
 9	,	,	PUNCT	punct	_	4	punct	4:punct	_
-10	naʔe	naʔe	PART	pcl	_	3	discourse	3:discourse	_
+10	naʔe	naʔe	PART	pcl	_	4	discourse	4:discourse	_
 11	uzewɨrɨ	zewɨr	VERB	v	Person=3	4	conj	4:conj	_
 12	oho	ho	VERB	v	Person=3	11	dep	11:dep	_
 13	wekohaw	eko	NOUN	n	Nomzr=Circ|Rel=Corf	11	obl	11:obl	_
