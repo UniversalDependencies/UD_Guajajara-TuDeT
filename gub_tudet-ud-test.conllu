@@ -4313,7 +4313,7 @@
 1	Hàir	hàir	NOUN	n	_	6	obl	6:obl	_
 2	ràgaw	ràʔà	NOUN	n	Nomzr=Circ|Rel=Cont	1	nmod	1:nmod	_
 3	rehe	ehe	ADP	posp	Rel=Cont	1	case	1:case	_
-4	hàgʔpɨ	hàgʔpɨ	NUM	num	NumType=Ord	6	advmod	6:advmod	_
+4	hàgʔpɨ	hàgʔpɨ	ADV	adv	NumType=Ord	6	advmod	6:advmod	_
 5	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
 6	uzemuʔe	ʔe	VERB	v	Person=3|Reflex=Yes|Voice=Cau	0	root	0:root	_
 7	,	,	PUNCT	punct	_	6	punct	6:punct	_
@@ -4347,7 +4347,7 @@
 18	,	,	PUNCT	punct	_	15	punct	15:punct	_
 19	aʔe	aʔe	PRON	pro	PronType=Dem	20	nmod	20:nmod	_
 20	hàiràgaw	àirà	NOUN	n	Nomzr=Circ|Rel=NCont	21	nmod	21:nmod	_
-21	pàràm	pà	NOUN	n	Nomzr=Ag|Rel=Cont|Tense=Fut	15	advmod	15:advmod	_
+21	pàràm	pà	NOUN	n	Nomzr=Ag|Rel=Cont|Tense=Fut	15	obl	15:obl	_
 22	aʔe	aʔe	PART	pcl	Person=3	21	discourse	21:discourse	_
 23	.	.	PUNCT	punct	_	21	punct	21:punct	_
 
@@ -4363,7 +4363,7 @@
 4	heta	eta	VERB	v	Rel=NCont	0	root	0:root	_
 5	wàm	haw	ADV	adv	Nomzr=Circ|Tense=Fut	3	advmod	3:advmod	_
 6	,	,	PUNCT	punct	_	4	punct	4:punct	_
-7	naʔaw	naʔaw	PRON	pro	PronType=Dem	4	conj	4:conj	_	
+7	naʔaw	naʔaw	PRON	pro	PronType=Dem	4	conj	4:conj	_
 8	imumeʔu	mumeʔu	NOUN n	Rel=NCont	10	nmod	10:nmod	_
 9	haw	haw	ADV	adv	Nomzr=Circ	8	advmod	8:advmod	_
 10	ipehegwer	pehegwer	NOUN	n	Rel=NCont	7	nsubj	7:nsubj	_
