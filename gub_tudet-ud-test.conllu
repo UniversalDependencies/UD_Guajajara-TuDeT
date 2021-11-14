@@ -4234,16 +4234,16 @@
 5	kwaw	kwaw	ADV	adv	Polarity=Neg	4	advmod	4:advmod	_
 6	maʔe	maʔe	NOUN	n	_	7	nmod	7:nmod	_
 7	izapomaʔe	zapo	NOUN	n	Nomzr=Abs|Rel=NCont	4	obj	4:obj	_
-9	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
-10	,	,	PUNCT	punct	_	4	punct	4:punct	_
-11	naʔe	naʔe	PART	pcl	_	3	discourse	3:discourse	_
-12	uzewɨrɨ	zewɨr	VERB	v	Person=3	4	conj	4:conj	_
-13	oho	ho	VERB	v	Person=3	12	dep	12:dep	_
-14	wekohaw	eko	NOUN	n	Nomzr=Circ|Rel=Corf	12	obl	12:obl	_
-15	pe	pe	ADP	posp	Rel=Cont	14	case	14:case	_
-16	wà	wà	PART	pcl	Number=Plur	12	discourse	12:discourse	_
-17	kurɨ	kurɨ	PART	pcl	_	12	discourse	12:discourse	_
-18	.	.	PUNCT	punct	_	12	punct	12:punct	_
+8	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+9	,	,	PUNCT	punct	_	4	punct	4:punct	_
+10	naʔe	naʔe	PART	pcl	_	3	discourse	3:discourse	_
+11	uzewɨrɨ	zewɨr	VERB	v	Person=3	4	conj	4:conj	_
+12	oho	ho	VERB	v	Person=3	11	dep	11:dep	_
+13	wekohaw	eko	NOUN	n	Nomzr=Circ|Rel=Corf	11	obl	11:obl	_
+14	pe	pe	ADP	posp	Rel=Cont	13	case	13:case	_
+15	wà	wà	PART	pcl	Number=Plur	11	discourse	11:discourse	_
+16	kurɨ	kurɨ	PART	pcl	_	11	discourse	11:discourse	_
+17	.	.	PUNCT	punct	_	11	punct	11:punct	_
 
 # sent_id = 294
 # text = Akwez zemaraitaw aʔe pe hemixakwer uwerur ko zane rekohaw pe , parupi katu maʔe wemixakwer ;
@@ -4293,13 +4293,13 @@
 15	wazimuàir	zimuàir	NOUN	n	Number=Plur|Person=3	2	list	2:list	_
 16	haw	haw	ADV	adv	Nomzr=Circ	15	advmod	15:advmod	_
 17	,	,	PUNCT	punct	_	15	punct	15:punct	_
-17	paze	paze	NOUN	n	_	19	nmod	19:nmod	_
-18	maʔe	maʔe	ADV	adv	Nomzr=Abs	17	advmod	17:advmod	_
-19	wazeʔagaw	zeʔaga	NOUN	n	Nomzr=Circ|Number=Plur	2	list	2:list	_
-20	paw	paw	DET	dem	PronType=Tot	19	det	19:det	_
-21	haw	haw	ADV	adv	Nomzr=Circ	19	advmod	19:advmod	_
-22	,	,	PUNCT	punct	_	19	punct	19:punct	_
-23-24	zegaraiwpaw	_	_	_	_	_	_	_	_
-23	zegar	zegar	NOUN	n	_	2	list	2:list	_
-24	aiwpaw	aiw	NOUN	n	Nomzr=Circ	23	nmod	23:nmod	_
+18	paze	paze	NOUN	n	_	20	nmod	20:nmod	_
+19	maʔe	maʔe	ADV	adv	Nomzr=Abs	18	advmod	18:advmod	_
+20	wazeʔagaw	zeʔaga	NOUN	n	Nomzr=Circ|Number=Plur	2	list	2:list	_
+21	paw	paw	DET	dem	PronType=Tot	20	det	20:det	_
+22	haw	haw	ADV	adv	Nomzr=Circ	20	advmod	20:advmod	_
+23	,	,	PUNCT	punct	_	20	punct	20:punct	_
+24-25	zegaraiwpaw	_	_	_	_	_	_	_	_
+24	zegar	zegar	NOUN	n	_	2	list	2:list	_
+25	aiwpaw	aiw	NOUN	n	Nomzr=Circ	24	nmod	24:nmod	_
 
