@@ -4129,7 +4129,7 @@
 4	Mair	Mair	PROPN	pn	_	5	obl	5:obl	_
 5	uhapukaz	hapukaz	VERB	vi	Person=3	0	root	0:root	_
 6	izupe	zupe	ADP	posp	Rel=NCont	4	case	4:case	_
-7	uwexakar	wexakar	VERB	vt	Person=3|Rel=Corf|Voice=Cau	5	advcl	5:advcl	_
+7	uwexakar	wexakar	VERB	vt	Person=3|Voice=Cau	5	advcl	5:advcl	_
 8	aʔe	aʔe	DET	dem	PronType=Dem	9	det	9:det	_
 9	teko	teko	NOUN	n	_	10	nmod	10:nmod	_
 10	iziwàziwàpɨr	ziwà	NOUN	n	Nomzr=Pas|Red=Di|Rel=NCont	7	obj	7:obj	_
@@ -4187,9 +4187,119 @@
 1	Naʔe	naʔe	PART	pcl	_	3	discourse	3:discourse	_
 2	Maizu	Maizu	PROPN	ppn	_	3	nsubj	3:nsubj	_
 3	iziwà	ziwà	VERB	vt	Person=3	0	root	0:root	_
-4	uiwɨrɨ	iwɨrɨ	NOUN	n	Rel=Corf	5	nmod	5:nmod	_
+4	uiwɨrɨ	iwɨrɨ	NOUN	n	_	5	nmod	5:nmod	_
 5	hetekwer	etekwer	NOUN	n	Rel=NCont	3	obj	3:obj	_
 6	ikwapar	kwaw	NOUN	n	Nomzr=Ag|Rel=NCont	3	obl	3:obl	_
 7	ʔɨmaz	ʔɨmaz	ADV	adv	Polarity=Neg	6	advmod	6:advmod	_
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 291
+# text = Aʔe re waraha zekaipo imugweraw pà wà .
+# text_port = Depois disso, o levaram (o irmão mais novo) para um ritual que o ressuscitaria (Campos Castro 2020).
+# text_spa = Después de eso, lo llevaron (el hermano menor) a un ritual que lo resucitaría.
+# text_en = After that, they took him (the younger brother) to a ritual that would resuscitate him.
+# PP V ADV PP
+1	Aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	3:obl	_
+2	re	re	ADP	posp	Rel=Cont	1	case	1:case	_
+3	waraha	ha	VERB	vi	Number=Plur|Person=3|Voice=Com	0	root	0:root	_
+4	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	imugweraw	gweraw	VERB	vt	Person=3|Voice=Cau	3	xcomp	3:xcomp	_
+6	pà	pà	ADV	adv	_	5	advmod	5:advmod	_
+7	wà	wà	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 292
+# text = Umugweraw kwarer zekaipo Mair aʔe .
+# text_port = Então, o Mair o ressuscitou (o irmão mais velho ressuscitou o irmão mais novo) (Campos Castro 2020).
+# text_spa = Así que Mair lo resucitó (el hermano mayor resucitó a su hermano menor).
+# text_en = So Mair revived him (the older brother revived his younger brother).
+# V O ADV S
+1	Umugweraw	gwer	VERB	vt	Person=3|Voice=Cau	0	root	0:root	_
+2	kwarer	kwarer	NOUN	n	_	1	obj	1:obj	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+4	Mair	Mair	PROPN	pn	_	1	nsubj	1:nsubj	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 293
+# text = Tɨwɨr Mairaʔi , nukwaw kwaw maʔe izapomaʔe aʔe , naʔe uzewɨrɨ oho wekohaw pe wà kurɨ .
+# text_port = O irmão mais novo, Mairaʔi, sem saber de nada do que havia sido feito, voltou para sua (própria) aldeia (Campos Castro 2020).
+# text_spa = El hermano menor, Mairaʔi, sin saber nada de lo que había ocurrido, regresó a su pueblo.
+# text_en = The younger brother, Mairaʔi, not knowing anything about what had happened, returned to his (own) village.
+# S V ADV O - V AUX PP
+1	Tɨwɨr	ɨwɨr	NOUN	n	Rel=Abs	4	nsubj	4:nsubj	_
+2	Mairaʔi	Mairaʔi	PROPN	ppn	_	1	flat	1:flat	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	nukwaw	kwaw	VERB	vt	Person=3|Polarity=Neg	0	root	0:root	_
+5	kwaw	kwaw	ADV	adv	Polarity=Neg	4	advmod	4:advmod	_
+6	maʔe	maʔe	NOUN	n	_	7	nmod	7:nmod	_
+7	izapomaʔe	zapo	NOUN	n	Nomzr=Abs|Rel=NCont	4	obj	4:obj	_
+9	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+10	,	,	PUNCT	punct	_	4	punct	4:punct	_
+11	naʔe	naʔe	PART	pcl	_	3	discourse	3:discourse	_
+12	uzewɨrɨ	zewɨr	VERB	v	Person=3	4	conj	4:conj	_
+13	oho	ho	VERB	v	Person=3	12	dep	12:dep	_
+14	wekohaw	eko	NOUN	n	Nomzr=Circ|Rel=Corf	12	obl	12:obl	_
+15	pe	pe	ADP	posp	Rel=Cont	14	case	14:case	_
+16	wà	wà	PART	pcl	Number=Plur	12	discourse	12:discourse	_
+17	kurɨ	kurɨ	PART	pcl	_	12	discourse	12:discourse	_
+18	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = 294
+# text = Akwez zemaraitaw aʔe pe hemixakwer uwerur ko zane rekohaw pe , parupi katu maʔe wemixakwer ;
+# text_port = Os rituais que ele (o irmão mais novo) aprendeu e viu lá ele trouxe para cá, no nosso mundo (Campos Castro 2020);
+# text_spa = Los rituales que él (el hermano menor) aprendió y vio allí los trajo aquí, a nuestro mundo;
+# text_en = The rituals he (the younger brother) learned and saw there, he brought them here to our world;
+# O V ADV PP C
+1	Akwez	akwez	DET	dem	PronType=Dem	2	det	2:det	_
+2	zemaraitaw	zemaraz	NOUN	n	Nomzr=Circ	5	nmod	5:nmod	_
+3	aʔe	aʔe	PRON	pro	PronType=Dem	5	obl	5:obl	_
+4	pe	pe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	hemixakwer	exak	NOUN	n	Nomzr=DevPass|Rel=NCont|Tense=Past	6	obj	6:obj	_
+6	uwerur	ur	VERB	v	Person=3|Voice=Com	0	root	0:root	_
+7	ko	ko	ADV	adv	_	6	advmod	6:advmod	_
+8	zane	zane	PRON	pro	Clusivity=In|PronType=Prs	9	nmod	9:nmod	_
+9	rekohaw	eko	NOUN	n	Nomzr=Circ|Rel=Cont	6	obl	6:obl	_
+10	pe	pe	ADP	posp	Rel=Cont	9	case	9:case	_
+11	,	,	PUNCT	punct	_	6	punct	6:punct	_
+12	parupi	paw	PRON	pro	Case=Loc|PronType=Tot|Rel=Cont	15	obl	15:obl	_
+13	katu	katu	ADV	adv	Emph=Yes	12	advmod	12:advmod	_
+14	maʔe	maʔe	NOUN	n	_	15	nmod	15:nmod	_
+15	wemixakwer	exak	NOUN	n	Nomzr=DevPass|Rel=Corf|Tense=Past	6	advcl	6:advcl	_
+16	;	;	PUNCT	punct	_	15	punct	15:punct	_
+
+# sent_id = 295
+# text = Wɨraʔohaw , kokumu wakwaztaw , wàhuhaw , kwàtàzgwerai wawiraʔohaw , upuwipuwir kwer wazimuàir haw , paze maʔe wazeʔagaw paw haw , zegaraiwpaw
+# text_port = A Festa da menina-moça, a festa dos rapazes, a festa da colheita, a festa das criancinhas, a festa dos separados (divorciados), a festa dos pajés e as orações Tenetehára (Campos Castro 2020).
+# text_spa = La fiesta de las jóvenes, la fiesta de los niños, el partido de la cosecha, la fiesta de los niños, la fiesta de los separados (divorciados), la fiesta de los pajés y las oraciones Tenetehára.
+# text_en = The young girl's festivities, the boys' festivities, the harvest festivity, the festivity of the children, the festivity of the separated ones (divorced), the festivity of the pajés and the Tenetehára prayers.
+# 
+1-2	Wɨraʔohaw	_	_	_	_	_	_	_	_
+1	wɨra	ɨra	NOUN	n	Rel=Corf	0	root	0:root	_
+2	ʔohaw	ʔu	NOUN	n	Nomzr=Circ	1	nmod	1:nmod	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	kokumu	kokumu	NOUN	n	_	2	list	2:list	_
+5	wakwaztaw	kwaz	NOUN	n	Nomzr=Circ|Number=Plur	4	nmod	4:nmod	_
+6	,	,	PUNCT	punct	_	4	punct	4:punct	_
+7	wàhuhaw	uhu	NOUN	n	Nomzr=Circ|Number=Plur	2	list	2:list	_
+8	,	,	PUNCT	punct	_	7	punct	7:punct	_
+9	kwàtàzgwerai	kwàtàz	NOUN	n	Dimin=Yes|Number=Coll	10	nmod	10:nmod	_
+10-11	wawɨraʔohaw	_	_	_	_	_	_	_	_
+10	wawɨra	ɨra	NOUN	n	Number=Plur|Rel=Corf	2	list	2:list	_
+11	ʔohaw	ʔu	NOUN	n	Nomzr=Circ	10	nmod	10:nmod	_
+12	,	,	PUNCT	punct	_	10	punct	10:punct	_
+13	upuwipuwir	puwir	NOUN	n	Red=Di|Rel=Corf	15	nmod	15:nmod	_
+14	kwer	kwer	ADV	adv	Tense=Past	13	advmod	13:advmod	_
+15	wazimuàir	zimuàir	NOUN	n	Number=Plur|Person=3	2	list	2:list	_
+16	haw	haw	ADV	adv	Nomzr=Circ	15	advmod	15:advmod	_
+17	,	,	PUNCT	punct	_	15	punct	15:punct	_
+17	paze	paze	NOUN	n	_	19	nmod	19:nmod	_
+18	maʔe	maʔe	ADV	adv	Nomzr=Abs	17	advmod	17:advmod	_
+19	wazeʔagaw	zeʔaga	NOUN	n	Nomzr=Circ|Number=Plur	2	list	2:list	_
+20	paw	paw	DET	dem	PronType=Tot	19	det	19:det	_
+21	haw	haw	ADV	adv	Nomzr=Circ	19	advmod	19:advmod	_
+22	,	,	PUNCT	punct	_	19	punct	19:punct	_
+23-24	zegaraiwpaw	_	_	_	_	_	_	_	_
+23	zegar	zegar	NOUN	n	_	2	list	2:list	_
+24	aiwpaw	aiw	NOUN	n	Nomzr=Circ	23	nmod	23:nmod	_
 
