@@ -4171,12 +4171,12 @@
 4	:	:	PUNCT	punct	_	2	punct	2:punct	_
 5	Heta	Heta	VERB	v	Rel=NCont	10	ccomp	10:ccomp	_
 6	hepuneraw	epuner	NOUN	n	Nomzr=Circ|Rel=NCont	5	nsubj	5:nsubj	_
-7	purumukatuhaw	katu	NOUN	n	Detrans=Abs|Nomzr=Circ|Voice=Cau	6	nmod	6:nmod	_
+7	purumukatuhaw	katu	NOUN	n	Detrans=Ind|Nomzr=Circ|Voice=Cau	6	nmod	6:nmod	_
 8	ihe	ihe	PRON	pro	PronType=Prs	6	nmod	6:nmod	_
 9	tɨ	tɨ	PART	pcl	_	5	discourse	5:discourse	_
 10	iʔiʔ	ʔi	VERB	vt	Person=3	2	parataxis	2:parataxis	_
 11	izupe	zupe	ADP	posp	Rel=NCont	10	obl	10:obl	_
-12	.	.	PUNCT	punct	_	5	punct	5:punct	_
+12	.	.	PUNCT	punct	_	10	punct	10:punct	_
 
 # sent_id = 290
 # text = Naʔe Maizu iziwà uiwɨrɨ hetekwer ikwapar ʔɨmaz .
