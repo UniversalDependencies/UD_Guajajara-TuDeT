@@ -4313,7 +4313,7 @@
 1	Hàir	hàir	NOUN	n	_	6	obl	6:obl	_
 2	ràgaw	ràʔà	NOUN	n	Nomzr=Circ|Rel=Cont	1	nmod	1:nmod	_
 3	rehe	ehe	ADP	posp	Rel=Cont	1	case	1:case	_
-4	hàgʔpɨ	hàgʔpɨ	ADV	adv	NumType=Ord	6	advmod	6:advmod	_
+4	hàgʔpɨ	hàgʔpɨ	ADV	adv	_	6	advmod	6:advmod	_
 5	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
 6	uzemuʔe	ʔe	VERB	v	Person=3|Reflex=Yes|Voice=Cau	0	root	0:root	_
 7	,	,	PUNCT	punct	_	6	punct	6:punct	_
@@ -4330,16 +4330,16 @@
 1	Maʔe	maʔe	NOUN	n	_	2	nmod	2:nmod	_
 2	imumeʔu	mumeʔu	NOUN	n	Rel=NCont	4	nmod	4:nmod	_
 3	haw	haw	ADV	adv	Nomzr=Circ	2	advmod	2:advmod	_
-4	izepɨmehe	zepɨ	NOUN	n	Case=Temp|Rel=NCont	15	obl	15:obl	_
+4	izepɨmehe	zepɨ	NOUN	n	Rel=NCont	15	obl	15:obl	_
 5	akwez	akwez	DET	dem	PronType=Dem	6	det	6:det	_
 6	zawar	zawar	NOUN	n	_	7	nmod	7:nmod	_
-7	wazewenugar	enu	NOUN	n	Nomzr=Ag|Number=Plur|Reflex=Yes|Rel=Corf	15	nsubj	15:nsubj	_
+7	wazewenugar	enu	NOUN	n	Nomzr=Ag|Number=Plur|Reflex=Yes	15	nsubj	15:nsubj	_
 8	wà	wà	PART	pcl	Number=Plur	7	discourse	7:discourse	_
 9	,	,	PUNCT	punct	_	7	punct	7:punct	_
 10	hàir	hàir	NOUN	n	_	11	nmod	11:nmod	_
 11	maʔeputɨr	maʔeputɨr	NOUN	n	Rel=Cont	15	obj	15:obj	_
 12	rehe	ehe	ADP	posp	Rel=Cont	11	case	11:case	_
-13	arer	har	ADV	adv	Nomzr=Ag|Tense=Past	11	advmod	11:advmod	_
+13	arer	har	ADV	adv	_	11	advmod	11:advmod	_
 14	zekaipo	kwehe	ADV	adv	Evident=Nfh	15	advmod	15:advmod	_
 15	umuiʔe	iʔe	VERB	v	Person=3|Voice=Cau	0	root	0:root	_
 16	wàiko	iko	VERB	v	Aspect=Prog|Number=Plur|Person=3	15	dep	15:dep	_
@@ -4358,13 +4358,13 @@
 # text_en = Thus, our singing originated and here is a part of its story.
 # ADV S V ADV - V S
 1	Nàzewe	nàzewe	ADV	adv	Evident=Nfh	2	advmod	2:advmod	_
-2	zekaipo	kwehe	ADV	adv	Evident=Nfh|Tense=Past	4	advmod	4:advmod	_
-3	zanezegar	zegar	NOUN	n	Clusivity=In|Number=Plur|Person=1|Poss=Yes|Rel=Cont	4	nsubj	4:nsubj	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	zanezegar	zegar	NOUN	n	Number=Plur|Person=1|Poss=Yes|Rel=Cont	4	nsubj	4:nsubj	_
 4	heta	eta	VERB	v	Rel=NCont	0	root	0:root	_
 5	wàm	haw	ADV	adv	Nomzr=Circ|Tense=Fut	3	advmod	3:advmod	_
 6	,	,	PUNCT	punct	_	4	punct	4:punct	_
 7	naʔaw	naʔaw	PRON	pro	PronType=Dem	4	conj	4:conj	_
-8	imumeʔu	mumeʔu	NOUN n	Rel=NCont	10	nmod	10:nmod	_
+8	imumeʔu	mumeʔu	NOUN	n	Rel=NCont	10	nmod	10:nmod	_
 9	haw	haw	ADV	adv	Nomzr=Circ	8	advmod	8:advmod	_
 10	ipehegwer	pehegwer	NOUN	n	Rel=NCont	7	nsubj	7:nsubj	_
 11	xe	xe	PART	pcl	_	7	discourse	7:discourse	_
