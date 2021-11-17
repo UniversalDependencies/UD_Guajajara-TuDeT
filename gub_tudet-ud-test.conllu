@@ -3156,7 +3156,7 @@
 6	pa	pa	PART	pcl	_	4	discourse	_	_
 7	,	,	PUNCT	punct	_	4	punct	_	_
 8	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
-9	uzepiamiapo	pia	VERB	v	Reflex=Yes|Rel=Corf|Voice=Cau|VerbForm=Ger	8	advcl	_	_
+9	uzepiamiapo	pia	VERB	v	Reflex=Yes|Rel=Corf|VerbForm=Ger|Voice=Cau	8	advcl	_	_
 10	pà	pà	ADV	adv	_	9	advmod	_	_
 11	.	.	PUNCT	punct	_	8	punct	_	_
 
@@ -3599,7 +3599,7 @@
 4	iko	iko	VERB	v	Aspect=Prog	0	root	_	_
 5	aʔepehar	aʔe	NOUN	n	Case=Dat|Nomzr=Ag|PronType=Dem	4	obl	_	_
 6	wanuwi	uwi	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	5	case	_	_
-7	.	.	PUNCT	punct	_	3	punct	_	_
+7	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 264
 # text = Maʔemaʔe xixigaturumu zekaipo zeapo iko aʔepe wanuwi .
