@@ -1282,7 +1282,7 @@
 # text_eng = He is there (Harrison, 1986:418).
 # PP V
 1	Aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	2	obl	_	_
-2	hekon	eko	VERB	vi	NFoc=Yes|Rel=NCont	0	root	_	_
+2	hekon	eko	VERB	vi	NonFoc=Yes|Rel=NCont	0	root	_	_
 
 # sent_id = 104
 # text = Uhem Kari aʔe no , Mari memɨraʔi aʔe no , uhɨ rupi aʔe no .
