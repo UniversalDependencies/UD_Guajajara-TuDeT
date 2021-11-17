@@ -647,7 +647,7 @@
 2	oho	ho	VERB	vi	Person=3	0	root	_	_
 3	arapapa	arapapa	NOUN	n	_	2	nsubj	_	_
 4	ʔɨpe	ʔɨ	NOUN	n	Case=All	2	obl	_	_
-5	,	,	PUNCT	punct	_	2	punct	_	_
+5	,	,	PUNCT	punct	_	6	punct	_	_
 6	ɨrɨhupe	ɨrɨk	NOUN	n	Case=All|Nomzr=DevPass	4	appos	_	_
 7	.	.	PUNCT	punct	_	6	punct	_	_
 
@@ -2616,9 +2616,9 @@
 # PP S O V
 1	Izipɨ	ipɨ	NOUN	n	Rel=NCont	5	obl	_	_
 2	mehe	mehe	ADP	posp	_	1	case	_	_
-3	Tentehar	Tentehar	PROPN	pn	_	6	nsubj	_	_
+3	Tentehar	Tentehar	PROPN	pn	_	5	nsubj	_	_
 4	wazegarhaw	zegar	VERB	v	Nomzr=Circ|Number=Plur|Person=3	5	nmod	_	_
-5	herurawer	ur	NOUN	n	Nomzr=Circ|Rel=NCont|Voice=Com|Tense=Past	0	root	_	_
+5	herurawer	ur	NOUN	n	Nomzr=Circ|Rel=NCont|Tense=Past|Voice=Com	0	root	_	_
 
 # sent_id = 205
 # text = Mukuz awa wà uzemeʔkar zekaipo oho aʔe wà
@@ -3069,7 +3069,7 @@
 5	oho	ho	VERB	v	Person=3	0	root	_	_
 6	tukaz	ukaz	NOUN	n	Rel=Abs	5	obl	_	_
 7	huwakete	uwake	ADP	posp	Emph=Yes|Rel=NCont	6	case	_	_
-8	.	.	PUNCT	punct	_	1	punct	_	_
+8	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 231
 # text = Umeʔegatu zekaipo tukaz rehe .
@@ -3156,7 +3156,7 @@
 6	pa	pa	PART	pcl	_	4	discourse	_	_
 7	,	,	PUNCT	punct	_	4	punct	_	_
 8	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
-9	uzepiamiapo	pia	VERB	v	Reflex=Yes|Voice=Cau|Rel=Corf|VerbForm=Ger	8	advcl	_	_
+9	uzepiamiapo	pia	VERB	v	Reflex=Yes|Rel=Corf|Voice=Cau|VerbForm=Ger	8	advcl	_	_
 10	pà	pà	ADV	adv	_	9	advmod	_	_
 11	.	.	PUNCT	punct	_	8	punct	_	_
 
@@ -3496,7 +3496,7 @@
 4	maʔe	maʔe	NOUN	n	_	6	nsubj	_	_
 5	wanekohaw	eko	NOUN	n	Nomzr=Circ|Number=Plur|Person=3|Rel=Cont	6	nmod	_	_
 6	ipiʔarà	piʔarà	NOUN	n	Rel=NCont	0	root	_	_
-7	.	.	PUNCT	punct	_	7	punct	_	_
+7	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 258
 # text = Uhewikàzxi zekaipo tɨkɨʔɨr aʔe ɨaʔo ikwar aʔe , nuhemkwaw zekaipo aʔe wanekohawpe .
@@ -3595,7 +3595,7 @@
 # PP V ADV AUX PP
 1	Aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	4	obl	_	_
 2	ukàzikàzim	kàzim	VERB	v	Person=3|Red=Di	4	dep	_	_
-3	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	_	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	2	advmod	_	_
 4	iko	iko	VERB	v	Aspect=Prog	0	root	_	_
 5	aʔepehar	aʔe	NOUN	n	Case=Dat|Nomzr=Ag|PronType=Dem	4	obl	_	_
 6	wanuwi	uwi	ADP	posp	Case=Dat|Number=Plur|Person=3|Rel=Cont	5	case	_	_
@@ -3954,7 +3954,7 @@
 14	kurɨ	kurɨ	PART	pcl	_	13	discourse	13:discourse	_
 15	,	,	PUNCT	punct	_	13	punct	13:punct	_
 16	iʔi	ʔi	VERB	vt	Person=3	2	conj	2:conj	_
-17	maizupe	maizu	NOUN	n	Case=Dat	17	obl	17:obl	_
+17	maizupe	maizu	NOUN	n	Case=Dat	16	obl	16:obl	_
 18	,	,	PUNCT	punct	_	16	punct	16:punct	_
 19	hekatu	katu	VERB	vd	Person=1	23	ccomp	23:ccomp	_
 20	tànàʔàg	tànàʔàg	ADV	adv	_	19	advmod	19:advmod	_
