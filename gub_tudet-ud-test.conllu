@@ -65,7 +65,7 @@
 # V O PP
 1	Wexak	exak	VERB	vt	Person=3	0	root	_	_
 2	arapuha	arapuha	NOUN	n	_	1	obj	_	_
-3	ape	a	ADV	adv	Case=Loc	1	obl	_	_
+3	ape	a	ADV	adv	_	1	obl	_	_
 
 # sent_id = 7
 # text = Agwer maʔeaʔɨr uʔu kaʔapiʔi
@@ -474,7 +474,7 @@
 # V ADV PP
 1	Hete	ete	VERB	vd	Rel=NCont	0	root	_	_
 2	katu	katu	ADV	adv	Emph=Yes	1	advmod	_	_
-3	Karipe	Kari	PROPN	pn	Case=Dat	1	obl	_	_
+3	Karipe	Kari	PROPN	pn	_	1	obl	_	_
 4	aʔe	aʔe	DET	dem	PronType=Dem	3	discourse	_	_
 5	no	no	PART	pcl	_	1	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
@@ -488,7 +488,7 @@
 1	Hete	ete	VERB	vd	Rel=NCont	0	root	_	_
 2	katu	katu	ADV	adv	Emph=Yes	1	advmod	_	_
 3	kara	kara	NOUN	n	_	1	nsubj	_	_
-4	Zuzepe	Zuze	PROPN	pn	Case=Dat	1	obl	_	_
+4	Zuzepe	Zuze	PROPN	pn	_	1	obl	_	_
 5	aʔe	aʔe	DET	dem	PronType=Dem	4	discourse	_	_
 6	no	no	PART	pcl	_	1	discourse	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
@@ -583,7 +583,7 @@
 # text_eng = Its foot is big 
 # S V
 1	Ipɨ	pɨ	NOUN	n	Rel=NCont	2	nsubj	_	_
-2	uhuaʔu	uhu	VERB	vd	Rel=Corf	0	root	_	_
+2	uhuaʔu	uhu	VERB	vd	_	0	root	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 50
@@ -885,7 +885,7 @@
 3	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	_	_
 4	ɨrɨhupe	ɨrɨk	NOUN	n	Case=All|Nomzr=DevPass	3	obl	_	_
 5	ipira	pira	NOUN	n	Rel=NCont	6	obj	_	_
-6	pɨhɨk	pɨhɨk	VERB	vt	VerbForm=Ger	3	xcomp	_	_
+6	pɨhɨk	pɨhɨk	VERB	vt	_	3	xcomp	_	_
 7	pa	pa	ADP	posp	Rel=Cont	6	mark	_	_
 8	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -1010,8 +1010,8 @@
 5	aʔe	aʔe	DET	dem	PronType=Dem	3	discourse	_	_
 6	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 7	,	,	PUNCT	punct	_	1	punct	_	_
-8	umaʔe	maʔe	NOUN	n	Rel=Corf	9	obj	_	_
-9	iputuka	putuka	VERB	vt	Rel=NCont|VerbForm=Ger	1	xcomp	_	_
+8	umaʔe	maʔe	NOUN	n	_	9	obj	_	_
+9	iputuka	putuka	VERB	vt	Rel=NCont	1	xcomp	_	_
 10	pa	pa	ADP	posp	Rel=Cont	9	mark	_	_
 11	kurɨ	kurɨ	PART	pcl	_	9	discourse	_	_
 12	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1036,7 +1036,7 @@
 # PP V O AUX
 1	Tueharupi	tuwe	NOUN	n	Case=Tem|Nomzr=Circ|Rel=Cont	4	obl	_	_
 2	uputuka	putuka	VERB	v	Person=3	4	dep	_	_
-3	umaʔe	maʔe	NOUN	n	Rel=Corf	4	obj	_	_
+3	umaʔe	maʔe	NOUN	n	_	4	obj	_	_
 4	iko	iko	AUX	aux	Aspect=Prog|Person=3	0	root	_	_
 5	aʔe	aʔe	DET	dem	PronType=Dem	4	discourse	_	_
 6	.	.	PUNCT	punct	_	4	punct	_	_
@@ -1089,10 +1089,10 @@
 # V ADV PP PP
 1	Oho	ho	VERB	vi	Person=3	0	root	_	_
 2	putar	putar	ADV	adv	_	1	advmod	_	_
-3	uhɨ	hɨ	NOUN	n	Rel=Corf	1	obl	_	_
+3	uhɨ	hɨ	NOUN	n	_	1	obl	_	_
 4	rupi	upi	ADP	posp	Rel=Cont	3	case	_	_
-5	umaʔe	maʔe	NOUN	n	Rel=Corf	6	obj	_	_
-6	iputuka	putuka	VERB	vt	Rel=NCont|VerbForm=Ger	1	xcomp	_	_
+5	umaʔe	maʔe	NOUN	n	_	6	obj	_	_
+6	iputuka	putuka	VERB	vt	Rel=NCont	1	xcomp	_	_
 7	pa	pa	ADP	posp	Rel=Cont	6	mark	_	_
 8	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 9	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1107,7 +1107,7 @@
 2	amo	amo	DET	dem	PronType=Ind	4	det	_	_
 3	ae	ae	ADV	adv	_	2	advmod	_	_
 4	imemɨr	memɨr	NOUN	n	Rel=NCont	1	nsubj	_	_
-5	Maripe	Mari	PROPN	pn	Case=Dat	1	obl	_	_
+5	Maripe	Mari	PROPN	pn	_	1	obl	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 89
@@ -1138,7 +1138,7 @@
 # PP V PP
 1	Tueharupi	tuwe	NOUN	n	Case=Tem|Nomzr=Circ|Rel=Cont	2	obl	_	_
 2	upɨta	pɨta	VERB	vi	Person=3	0	root	_	_
-3	uhɨ	hɨ	NOUN	n	Rel=Corf	2	obl	_	_
+3	uhɨ	hɨ	NOUN	n	_	2	obl	_	_
 4	ipɨr	pɨr	ADP	posp	Rel=NCont	3	case	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -1282,7 +1282,7 @@
 # text_eng = He is there (Harrison, 1986:418).
 # PP V
 1	Aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	2	obl	_	_
-2	hekon	eko	VERB	vi	NonFoc=Yes|Rel=NCont	0	root	_	_
+2	hekon	eko	VERB	vi	Rel=NCont	0	root	_	_
 
 # sent_id = 104
 # text = Uhem Kari aʔe no , Mari memɨraʔi aʔe no , uhɨ rupi aʔe no .
@@ -1300,7 +1300,7 @@
 8	aʔe	aʔe	PART	pcl	Person=3	7	discourse	_	_
 9	no	no	PART	pcl	_	7	discourse	_	_
 10	,	,	PUNCT	punct	_	7	punct	_	_
-11	uhɨ	hɨ	NOUN	n	Rel=Corf	1	obl	_	_
+11	uhɨ	hɨ	NOUN	n	_	1	obl	_	_
 12	rupi	upi	ADP	posp	Rel=Cont	11	case	_	_
 13	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 14	no	no	PART	pcl	_	1	discourse	_	_
@@ -1469,8 +1469,8 @@
 # text_eng = She went to wash clothes.
 # V PP
 1	Oho	ho	VERB	vi	Person=3	0	root	_	_
-2	umaʔe	maʔe	NOUN	n	Rel=Corf	3	obj	_	_
-3	iputuka	putuka	VERB	vt	Rel=NCont|VerbForm=Ger	1	xcomp	_	_
+2	umaʔe	maʔe	NOUN	n	_	3	obj	_	_
+3	iputuka	putuka	VERB	vt	Rel=NCont	1	xcomp	_	_
 4	pa	pa	ADP	posp	Rel=Cont	3	mark	_	_
 5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1495,7 +1495,7 @@
 1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	_	_
 2	hoko	hoko	NOUN	n	_	1	nsubj	_	_
 3	ipira	pira	NOUN	n	Rel=NCont	1	obj	_	_
-4	uxi	xi	NOUN	n	Rel=Corf	1	obl	_	_
+4	uxi	xi	NOUN	n	_	1	obl	_	_
 5	pupe	pupe	ADP	posp	Rel=Cont	4	case	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -1508,7 +1508,7 @@
 1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	_	_
 2	hoko	hoko	NOUN	n	_	1	nsubj	_	_
 3	akara	akara	NOUN	n	_	1	obj	_	_
-4	uxi	xi	NOUN	n	Rel=Corf	1	obl	_	_
+4	uxi	xi	NOUN	n	_	1	obl	_	_
 5	pupe	pupe	ADP	posp	Rel=Cont	4	case	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -1533,7 +1533,7 @@
 1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	_	_
 2	amo	amo	DET	dem	PronType=Ind	3	det	_	_
 3	ipira	pira	NOUN	n	Rel=Abs	1	obj	_	_
-4	uxi	xi	NOUN	n	Rel=Corf	1	obl	_	_
+4	uxi	xi	NOUN	n	_	1	obl	_	_
 5	pupe	pupe	ADP	posp	Rel=Cont	4	case	_	_
 6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 7	no	no	PART	pcl	_	1	discourse	_	_
@@ -1693,8 +1693,8 @@
 11	iwɨr	wɨr	ADP	posp	Rel=NCont	10	case	_	_
 12	aʔe	aʔe	PART	pcl	Person=3	9	discourse	_	_
 13	,	,	PUNCT	punct	_	15	punct	_	_
-14	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	15	nmod	_	_
-15	haro	aro	VERB	v	Rel=NCont|VerbForm=Ger	9	xcomp	_	_
+14	waʔɨr	aʔɨr	NOUN	n	_	15	nmod	_	_
+15	haro	aro	VERB	v	Rel=NCont	9	xcomp	_	_
 16	pa	pa	ADP	posp	Rel=Cont	15	case	_	_
 17	aʔe	aʔe	PART	pcl	Person=3	15	discourse	_	_
 18	.	.	PUNCT	punct	_	9	punct	_	_
@@ -1708,8 +1708,8 @@
 1	Wapɨk	apɨk	VERB	v	Person=3	0	root	_	_
 2	ɨwɨra	ɨwɨra	NOUN	n	_	1	obl	_	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	_	_
-4	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	5	obj	_	_
-5	haro	aro	VERB	v	Rel=NCont|VerbForm=Ger	1	advcl	_	_
+4	waʔɨr	aʔɨr	NOUN	n	_	5	obj	_	_
+5	haro	aro	VERB	v	Rel=NCont	1	advcl	_	_
 6	pa	pa	ADP	posp	Rel=Cont	5	case	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -1737,7 +1737,7 @@
 6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 7	,	,	PUNCT	punct	_	9	punct	_	_
 8	waʔɨr	aʔɨr	NOUN	n	_	9	obj	_	_
-9	haro	aro	NOUN	n	Rel=NCont|VerbForm=Ger	1	advcl	_	_
+9	haro	aro	NOUN	n	Rel=NCont	1	advcl	_	_
 10	pa	pa	ADP	posp	Rel=Cont	9	case	_	_
 11	aʔe	aʔe	PART	pcl	Person=3	9	discourse	_	_
 12	,	,	PUNCT	punct	_	9	punct	_	_
@@ -1765,7 +1765,7 @@
 # text_eng = There he found his father.
 # V O PP
 1	Uwaxi	waxi	VERB	v	Person=3	0	root	_	_
-2	u	u	NOUN	n	Rel=Corf	1	obj	_	_
+2	u	u	NOUN	n	_	1	obj	_	_
 3	aʔepe	aʔe	PRON	pro	Case=Loc|Person=3	1	obl	_	_
 4	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1809,7 +1809,7 @@
 3	,	,	PUNCT	punct	_	1	punct	_	_
 4	iʔi	ʔi	VERB	v	Person=3	0	root	_	_
 5	Zuze	Zuze	PROPN	pn	_	4	nsubj	_	_
-6	upe	u	NOUN	n	Case=Dat|Rel=Corf	4	obl	_	_
+6	upe	u	NOUN	n	Case=Dat	4	obl	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 143
@@ -1851,7 +1851,7 @@
 5	,	,	PUNCT	punct	_	1	punct	_	_
 6	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
 7	Zuze	Zuze	PROPN	pn	_	6	nsubj	_	_
-8	upe	u	NOUN	n	Case=Dat|Rel=Corf	6	obl	_	_
+8	upe	u	NOUN	n	Case=Dat	6	obl	_	_
 9	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 146
@@ -1953,9 +1953,9 @@
 3	tɨ	tɨ	PART	pcl	_	1	discourse	_	_
 4	,	,	PUNCT	punct	_	1	punct	_	_
 5	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
-6	upe	u	NOUN	n	Case=Dat|Rel=Corf	5	obl	_	_
+6	upe	u	NOUN	n	Case=Dat	5	obl	_	_
 7	,	,	PUNCT	punct	_	8	punct	_	_
-8	hewowo	ewowo	NOUN	n	Rel=NCont|VerbForm=Ger	5	advcl	_	_
+8	hewowo	ewowo	NOUN	n	Rel=NCont	5	advcl	_	_
 9	pa	pa	ADP	posp	Rel=Cont	8	case	_	_
 10	.	.	PUNCT	punct	_	8	punct	_	_
 
@@ -1979,7 +1979,7 @@
 1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	_	_
 3	tu	u	NOUN	n	Rel=Abs	1	nsubj	_	_
-4	umukaw	mukaw	NOUN	n	Rel=Corf	1	obj	_	_
+4	umukaw	mukaw	NOUN	n	_	1	obj	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 156
@@ -2104,7 +2104,7 @@
 4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 6	,	,	PUNCT	punct	_	1	punct	_	_
-7	u	u	NOUN	n	Rel=Corf	1	obl	_	_
+7	u	u	NOUN	n	_	1	obl	_	_
 8	rupi	upi	ADP	posp	Rel=Cont	7	case	_	_
 9	aʔe	aʔe	PART	pcl	Person=3	7	discourse	_	_
 10	kurɨ	kurɨ	PART	pcl	_	7	discourse	_	_
@@ -2168,7 +2168,7 @@
 1	Ikatu	katu	VERB	vd	Rel=NCont	0	root	_	_
 2	ahɨ	ahɨ	ADV	adv	_	1	advmod	_	_
 3	zapepo	zapepo	NOUN	n	_	1	nsubj	_	_
-4	Maripe	Mari	PROPN	pn	Case=Dat	1	obl	_	_
+4	Maripe	Mari	PROPN	pn	_	1	obl	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 171
@@ -2183,7 +2183,7 @@
 4	,	,	PUNCT	punct	_	1	punct	_	_
 5	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
 6	Zuze	Zuze	PROPN	pn	_	5	nsubj	_	_
-7	wemirekope	eko	NOUN	n	Case=Dat|Rel=Corf	5	obl	_	_
+7	wemirekope	eko	NOUN	n	Case=Dat	5	obl	_	_
 8	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 172
@@ -2266,7 +2266,7 @@
 3	kaʔape	kaʔa	NOUN	n	Case=Loc	1	obl	_	_
 4	,	,	PUNCT	punct	_	1	punct	_	_
 5	arapuha	arapuha	NOUN	n	_	6	obj	_	_
-6	hekar	ekar	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
+6	hekar	ekar	VERB	vt	Rel=NCont	1	advcl	_	_
 7	pa	pa	ADP	posp	Rel=Cont	6	case	_	_
 8	.	.	PUNCT	punct	_	6	punct	_	_
 
@@ -2579,7 +2579,7 @@
 # V S PP
 1	Uhapukaz	hapukaz	VERB	vi	Person=3	0	root	_	_
 2	Mari	Mari	PROPN	pn	_	1	nsubj	_	_
-3	Zuzepe	Zuze	PROPN	pn	Case=Dat	1	obl	_	_
+3	Zuzepe	Zuze	PROPN	pn	_	1	obl	_	_
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 202
@@ -2590,7 +2590,7 @@
 # V S O AUX PP
 1	Upɨhɨk	pɨhɨk	VERB	v	Person=3	4	dep	_	_
 2	Zuze	Zuze	PROPN	pn	_	4	nsubj	_	_
-3	umukaw	mukaw	NOUN	n	Rel=Corf	4	obj	_	_
+3	umukaw	mukaw	NOUN	n	_	4	obj	_	_
 4	oho	ho	VERB	vi	Person=3	0	root	_	_
 5	wapuz	wapuz	NOUN	n	_	4	obl	_	_
 6	me	me	ADP	posp	Rel=Cont	5	case	_	_
@@ -2604,7 +2604,7 @@
 # V O PP
 1	Uzuka	zuka	VERB	v	Person=3	0	root	_	_
 2	wirahu	wira	NOUN	n	_	1	obj	_	_
-3	umukaw	mukaw	NOUN	n	Rel=Corf	1	obl	_	_
+3	umukaw	mukaw	NOUN	n	_	1	obl	_	_
 4	pupe	pupe	ADP	posp	Rel=Cont	3	case	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -2617,8 +2617,8 @@
 1	Izipɨ	ipɨ	NOUN	n	Rel=NCont	5	obl	_	_
 2	mehe	mehe	ADP	posp	_	1	case	_	_
 3	Tentehar	Tentehar	PROPN	pn	_	5	nsubj	_	_
-4	wazegarhaw	zegar	VERB	v	Nomzr=Circ|Number=Plur|Person=3	5	nmod	_	_
-5	herurawer	ur	NOUN	n	Nomzr=Circ|Rel=NCont|Tense=Past|Voice=Com	0	root	_	_
+4	wazegarhaw	zegar	NOUN	n	Nomzr=Circ|Number=Plur	5	nmod	_	_
+5	herurawer	ur	NOUN	n	Nomzr=Circ|Rel=NCont|Tense=Past	0	root	_	_
 
 # sent_id = 205
 # text = Mukuz awa wà uzemeʔkar zekaipo oho aʔe wà
@@ -2758,7 +2758,7 @@
 # V ADV PP O
 1	Iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
 2	zekaipo	kwehe	ADV	adv	_	1	advmod	_	_
-3	wɨkɨʔɨrpe	ɨkɨʔɨr	NOUN	n	Case=Dat|Rel=Corf	1	obl	_	_
+3	wɨkɨʔɨrpe	ɨkɨʔɨr	NOUN	n	Case=Dat	1	obl	_	_
 4	:	:	PUNCT	punct	_	5	punct	_	_
 5	ikatuahɨ	katu	VERB	vd	Emph=Yes|Rel=NCont	1	parataxis	_	_
 6	tuwe	tuwe	ADV	adv	Emph=Yes	5	advmod	_	_
@@ -2799,7 +2799,7 @@
 7	tɨ	tɨ	PART	pcl	_	1	discourse	_	_
 8	?	?	PUNCT	punct	_	1	punct	_	_
 9	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
-10	wɨkɨʔɨrpe	ɨkɨʔɨr	NOUN	n	Case=Dat|Rel=Corf	9	obl	_	_
+10	wɨkɨʔɨrpe	ɨkɨʔɨr	NOUN	n	Case=Dat	9	obl	_	_
 11	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 217
@@ -3011,7 +3011,7 @@
 3	re	re	ADP	posp	Rel=Cont	2	case	_	_
 4	oho	ho	VERB	v	Person=3	0	root	_	_
 5	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	_	_
-6	wɨkɨʔɨm	ɨkɨʔɨr	NOUN	n	Rel=Corf	7	nmod	_	_
+6	wɨkɨʔɨm	ɨkɨʔɨr	NOUN	n	_	7	nmod	_	_
 7	hukaz	ukaz	NOUN	n	Rel=NCont	4	obl	_	_
 8	pupe	pupe	ADP	posp	Rel=Cont	7	case	_	_
 9	kurɨ	kurɨ	PART	pcl	_	4	discourse	_	_
@@ -3091,7 +3091,7 @@
 # ADV V O
 1	Taʔe	taʔe	CCONJ	cc	_	3	mark	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	_	_
-3	wetun	etun	VERB	vi	Person=3|Rel=Corf	0	root	_	_
+3	wetun	etun	VERB	vi	Person=3	0	root	_	_
 4	hekwen	ekwen	NOUN	n	Rel=NCont	3	obj	_	_
 5	xe	xe	PART	pcl	_	3	discourse	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
@@ -3156,7 +3156,7 @@
 6	pa	pa	PART	pcl	_	4	discourse	_	_
 7	,	,	PUNCT	punct	_	4	punct	_	_
 8	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
-9	uzepiamiapo	pia	VERB	v	Reflex=Yes|Rel=Corf|VerbForm=Ger|Voice=Cau	8	advcl	_	_
+9	uzepiamiapo	pia	VERB	v	Reflex=Yes|Voice=Cau	8	advcl	_	_
 10	pà	pà	ADV	adv	_	9	advmod	_	_
 11	.	.	PUNCT	punct	_	8	punct	_	_
 
@@ -3247,7 +3247,7 @@
 # text_spa = Luego disparó la flecha.
 # text_en = Then he shot the arrow.
 # V ADV PP
-1	Imomor	momor	VERB	v	Rel=NCont|VerbForm=Ger	0	root	_	_
+1	Imomor	momor	VERB	v	Rel=NCont	0	root	_	_
 2	pà	pà	ADV	adv	_	1	advmod	_	_
 3	uʔɨw	uʔɨw	NOUN	n	_	1	obl	_	_
 4	hehe	ehe	ADP	posp	Rel=NCont	3	case	_	_
@@ -3285,7 +3285,7 @@
 4	hehe	ehe	ADP	posp	Rel=NCont	3	case	_	_
 5	wà	wà	PART	pcl	Number=Plur	1	discourse	_	_
 6	,	,	PUNCT	punct	_	1	punct	_	_
-7	izuka	zuka	VERB	v	Rel=NCont|VerbForm=Ger	1	advcl	_	_
+7	izuka	zuka	VERB	v	Rel=NCont	1	advcl	_	_
 8	pà	pà	ADV	adv	_	7	advmod	_	_
 9	wà	wà	PART	pcl	Number=Plur	7	discourse	_	_
 10	.	.	PUNCT	punct	_	7	punct	_	_
@@ -3297,7 +3297,7 @@
 # text_en = And they took him to their abode.
 # V PP
 1	Weraha	ha	VERB	v	Person=3|Voice=Com	0	root	_	_
-2	wekohawpe	eko	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Corf	1	obl	_	_
+2	wekohawpe	eko	NOUN	n	Case=Loc|Nomzr=Circ	1	obl	_	_
 3	wà	wà	PART	pcl	Number=Plur	1	discourse	_	_
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -3314,7 +3314,7 @@
 5	me	me	ADP	posp	Rel=Cont	4	case	_	_
 6	,	,	PUNCT	punct	_	2	punct	_	_
 7	hehe	ehe	ADP	posp	Rel=NCont	8	obl	_	_
-8	puranu	puranu	VERB	v	Rel=Cont|VerbForm=Ger	2	advcl	_	_
+8	puranu	puranu	VERB	v	Rel=Cont	2	advcl	_	_
 9	pà	pà	ADV	adv	_	8	advmod	_	_
 10	:	:	PUNCT	punct	_	8	punct	_	_
 
@@ -3326,10 +3326,10 @@
 # O V PP
 1	Uhem	hem	VERB	v	Person=3	5	ccomp	_	_
 2	Mairaʔi	Maira	NOUN	n	Dimin=Yes	1	nsubj	_	_
-3	uzuraʔa	zuraʔa	PART	pcl	Rel=Corf	1	discourse	_	_
+3	uzuraʔa	zuraʔa	PART	pcl	_	1	discourse	_	_
 4	?	?	PUNCT	punct	_	1	punct	_	_
 5	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
-6	uiwɨratɨpe	iwɨratɨ	NOUN	n	Case=Dat|Rel=Corf	5	obl	_	_
+6	uiwɨratɨpe	iwɨratɨ	NOUN	n	Case=Dat	5	obl	_	_
 
 # sent_id = 248
 # text = Tɨkɨʔɨr ipɨʔa ukwaw tuwe maʔe uzeapomaʔekwer izupe aʔe .
@@ -3389,7 +3389,7 @@
 5	,	,	PUNCT	punct	_	1	punct	_	_
 6-7	muitewiwe	_	_	_	_	_	_	_	_
 6	muite	muite	NOUN	n	Foreign=Yes	7	compound	_	_
-7	wiwe	iwe	VERB	v	Rel=Corf	8	advcl	_	_
+7	wiwe	iwe	VERB	v	_	8	advcl	_	_
 8	wexak	exak	VERB	v	Person=3	1	conj	_	_
 9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	_	_
 10	tukaz	ukaz	NOUN	n	Rel=Abs	11	nmod	_	_
@@ -3784,7 +3784,7 @@
 2	zapepo	zapepo	NOUN	n	_	1	obj	_	_
 3	wemirekope	eko	NOUN	n	Case=Dat	1	obl	_	_
 4	,	,	PUNCT	punct	_	5	punct	_	_
-5	Maripe	Mari	PROPN	pn	Case=Dat	3	appos	_	_
+5	Maripe	Mari	PROPN	pn	_	3	appos	_	_
 6	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 276
@@ -3814,7 +3814,7 @@
 4	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 5	,	,	PUNCT	punct	_	7	punct	_	_
 6	arapuha	arapuha	NOUN	n	_	7	obj	_	_
-7	haro	aro	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
+7	haro	aro	VERB	vt	Rel=NCont	1	advcl	_	_
 8	pa	pa	ADP	posp	Rel=Cont	7	case	_	_
 9	ɨwate	ɨwak	ADV	adv	_	7	advmod	_	_
 10	kurɨ	kurɨ	PART	pcl	_	7	discourse	_	_
@@ -3928,7 +3928,7 @@
 11	,	,	PUNCT	punct	_	6	punct	_	_
 12	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
 13	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	12	iobj	_	_
-14	uhapukaz	hapukaz	VERB	v	Person=3|VerbForm=Ger	12	advcl	_	_
+14	uhapukaz	hapukaz	VERB	v	Person=3	12	advcl	_	_
 15	ta	ta	ADP	posp	Rel=Cont	14	case	_	_
 16	.	.	PUNCT	punct	_	12	punct	_	_
 
@@ -4034,7 +4034,7 @@
 5	Heta	Heta	VERB	v	Rel=NCont	10	ccomp	10:ccomp	_
 6	hepuneraw	epuner	NOUN	n	Nomzr=Circ|Rel=NCont	7	nmod	7:nmod	_
 7	purumukatuhaw	katu	NOUN	n	Detrans=Ind|Nomzr=Circ|Rel=Cont|Voice=Cau	5	nsubj	5:nsubj	_
-8	ihe	ihe	PART	pcl	Person=1	5	discourse	5:discourse	_
+8	ihe	ihe	PART	pcl	_	5	discourse	5:discourse	_
 9	tɨ	tɨ	PART	pcl	_	5	discourse	5:discourse	_
 10	iʔiʔ	ʔi	VERB	vt	Person=3	2	parataxis	2:parataxis	_
 11	izupe	zupe	ADP	posp	Rel=NCont	10	iobj	10:iobj	_
@@ -4065,7 +4065,7 @@
 2	re	re	ADP	posp	Rel=Cont	1	case	1:case	_
 3	waraha	ha	VERB	vi	Number=Plur|Person=3|Voice=Com	0	root	0:root	_
 4	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
-5	imugweraw	gweraw	VERB	vt	Rel=NCont|VerbForm=Ger|Voice=Cau	3	advcl	3:advcl	_
+5	imugweraw	gweraw	VERB	vt	Rel=NCont|Voice=Cau	3	advcl	3:advcl	_
 6	pà	pà	ADV	adv	_	5	advmod	5:advmod	_
 7	wà	wà	PART	pcl	Number=Plur	3	discourse	3:discourse	_
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
@@ -4090,7 +4090,7 @@
 # text_en = The younger brother, Maira, not knowing anything about what had happened, returned to his (own) village.
 # S V ADV O - V AUX PP
 1	Tɨwɨr	ɨwɨr	NOUN	n	Rel=Abs	4	nsubj	4:nsubj	_
-2	Mairaʔi	Maira	PROPN	ppn	Dimin=Yes	1	flat	1:flat	_
+2	Mairaʔi	Maira	PROPN	ppn	_	1	flat	1:flat	_
 3	,	,	PUNCT	punct	_	1	punct	1:punct	_
 4	nukwaw	kwaw	VERB	vt	Person=3|Polarity=Neg	0	root	0:root	_
 5	kwaw	kwaw	ADV	adv	Polarity=Neg	4	advmod	4:advmod	_
