@@ -633,7 +633,7 @@
 2	ʔɨ	ʔɨ	NOUN	n	_	1	obl	_	_
 3	pupe	pupe	ADP	posp	Rel=Cont	2	case	_	_
 4	ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	5	obl	_	_
-5	pɨhɨk	pɨhɨk	VERB	vt	VerbForm=Inf	1	xcomp	_	_
+5	pɨhɨk	pɨhɨk	VERB	vt	_	1	xcomp	_	_
 6	pa	pa	ADP	posp	Rel=Cont	5	mark	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
 
