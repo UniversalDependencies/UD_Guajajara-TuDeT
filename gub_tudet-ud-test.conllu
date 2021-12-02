@@ -4395,3 +4395,102 @@
 3	teko	teko	NOUN	n	_	4	nsubj	4:nsubj	_
 4	iʔun	ʔu	NOUN	vt	NonFoc=Yes|Rel=NCont	0	root	0:root	_
 
+# sent_id = 555
+# text = Amo te upɨhɨk tapɨʔɨr nehe
+# text_port = Quem vai caçar tapir?
+# text_spa = ¿Quién cazará Tapir?
+# text_en = Who will hunt for tapir? (Bonfim Duarte, 2018)
+# S V O PART
+1	Amo	amo	PRON	pro	PronType=Ind	3	nsubj	3:nsubj	_
+2	te	te	PART	pcl	Int=Yes	1	discourse	1:discourse	_
+3	upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	tapɨʔɨr	tapɨʔɨr	NOUN	n	_	3	obj	3:obj	_
+5	nehe	nehe	PART	pcl	Tense=Fut	3	discourse	3:discourse	_
+
+# sent_id = 556
+# text = Maʔe te awa uzuka kaʔape ?
+# text_port = O que o homem matou na floresta?
+# text_spa = ¿Qué mató el hombre en el bosque?
+# text_en = What did the man kill in the forest? (Bonfim Duarte, 2018)
+# O S V PP
+1	Maʔe	maʔe	NOUN	n	_	4	obj	4:obj	_
+2	te	te	PART	pcl	Int=Yes	1	discourse	1:discourse	_
+3	awa	awa	NOUN	n	_	4	nsubj	4:nsubj	_
+4	uzuka	zuka	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	kaʔape	kaʔa	NOUN	n	Case=Loc	4	obl	4:obl	_
+6	?	?	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 557
+# text = Maʔe mehe te uzɨwɨr wà
+# text_port = Quando eles voltaram?
+# text_spa = ¿Cuándo regresaron?
+# text_en = When did they return? (Bonfim Duarte, 2018)
+# ADV V PART
+1	Maʔe	maʔe	NOUN	n	_	4	obl	4:obl	_
+2	mehe	mehe	ADP	posp	_	1	case	1:case	_
+3	te	te	PART	pcl	_	1	discourse	1:discourse	_
+4	uzɨwɨr	zɨwɨr	VERB	v	Person[subj]=3	0	root	0:root	_
+5	wà	wà	PART	pcl	Number=Plur|Person[subj]=3	4	discourse	4:discourse	_
+
+# sent_id = 558
+# text = Amo uzuka miar kaʔape ?
+# text_port = Quem matou o animal na floresta?
+# text_spa = ¿Quién mató al animal en el bosque?
+# text_en = Who killed the animal in the forest? (Bonfim Duarte, 2018)
+# S V O PP
+1	Amo	amo	PRON	pro	PronType=Ind	2	nsubj	2:nsubj	_
+2	uzuka	zuka	VERB	vt	Person[subj]=3	0	root	0:root	_
+3	miar	miar	NOUN	n	_	2	obj	2:obj	_
+4	kaʔape	kaʔa	NOUN	n	Case=Loc	2	obl	2:obl	_
+5	?	?	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 559
+# text = Amo iruramo awa upɨhɨkràm pira oho
+# text_port = Com quem o homem conseguirá (alguns) peixes?
+# text_spa = ¿Con quién obtendrá el hombre (algunos) pescado?
+# text_en = With whom will the man get (some) fish? (Bonfim Duarte, 2018)
+# PP S V O AUX
+1	Amo	amo	DET	det	PronType=Ind	4	obl	4:obl	_
+2	iruramo	ru	ADP	posp	Case=Tra|Rel=NCont	1	case	1:case	_
+3	awa	awa	NOUN	n	_	4	nsubj	4:nsubj	_
+4	upɨhɨkràm	pɨhɨk	VERB	v	Person[subj]=3|Tense=Fut	0	root	0:root	_
+5	pira	pira	NOUN	n	_	4	obj	4:obj	_
+6	oho	ho	VERB	vi	Person[subj]=3	4	aux	4:aux	_
+
+# sent_id = 560
+# text = Maʔepe awa uzuka miar kaʔape ?
+# text_port = Onde o homem matou o animal na floresta?
+# text_spa = ¿Dónde mató el hombre al animal en el bosque?
+# text_en = Where did the man kill the animal in the forest? (Bonfim Duarte, 2018)
+# PP S V O PP
+1	Maʔepe	maʔe	PRON	pro	Case=Loc|PronType=Int	3	obl	3:obl	_
+2	awa	awa	NOUN	n	_	3	nsubj	3:nsubj	_
+3	uzuka	zuka	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	miar	miar	NOUN	n	_	3	obj	3:obj	_
+5	kaʔape	kaʔa	NOUN	n	Case=Loc	3	obl	3:obl	_
+6	?	?	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 561
+# text = Aha kaʔi hexakpa kurɨ
+# text_port = (Eu) fui ver o macaco então.
+# text_spa = (Yo) fui a ver al mono entonces.
+# text_en = (I) went to see the monkey then (Bonfim Duarte, 2018).
+# V [ADV [O V C]] PART
+1	Aha	ha	VERB	vi	Person=[psor]1|Person=[psor]2|Poss=Yes	0	root	0:root	_
+2	kaʔi	kaʔi	NOUN	n	_	3	obj	3:obj	_
+3	hexakpa	exak	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 562
+# text = Sérgio wexak Pedro tapiʔir haro mehe
+# text_port = Sérgio viu Pedro esperando pelo tapir.
+# text_spa = Sérgio vio a Pedro esperando al tapir.
+# text_en = Sérgio saw Pedro waiting for the tapir (Bonfim Duarte, 2018).
+# S V P [ADV [O V C]]
+1	Sérgio	Sérgio	PROPN	ppn	_	2	nsubj	2:nsubj	_
+2	wexak	exak	VERB	vt	Person[subj]=3	0	root	0:root	_
+3	Pedro	Pedro	PROPN	ppn	_	2	obj	2:obj	_
+4	tapiʔir	tapiʔir	NOUN	n	_	5	obj	5:obj	_
+5	haro	aro	VERB	v	Rel=NCont	2	advcl	2:advcl	_
+6	mehe	mehe	ADV	adv	_	5	mark	5:mark	_
+
