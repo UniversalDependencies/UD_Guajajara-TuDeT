@@ -1675,29 +1675,28 @@
 14	.	.	PUNCT	punct	_	9	punct	_	_
 
 # sent_id = 134
-# text = Aʔe awa aʔe , Zuze tu aʔe , wapɨk ko iwɨr aʔe , waʔɨr haro pa aʔe .
+# text = Aʔe awa aʔe , Zuze tu aʔe , wapɨk ko iwɨr aʔe , waʔɨr haropa aʔe .
 # text_port = Aquele homem , o pai de José , sentou ao lado da roça para esperar por seu filho (Sociedade Internacional de Lingüística, 1973:79).
 # text_spa = Aquel hombre, el padre de José, se sentó junto al campo para esperar a su hijo.
 # text_eng = The man, José's father, sat next to the field to wait for his son.
 # S V PP
-1	Aʔe	aʔe	DET	dem	PronType=Dem	2	det	_	_
-2	awa	awa	NOUN	n	_	9	nsubj	_	_
-3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	_	_
-4	,	,	PUNCT	punct	_	6	punct	_	_
-5	Zuze	Zuze	PROPN	pn	_	6	nmod	_	_
-6	tu	u	NOUN	n	Rel=Abs	2	appos	_	_
-7	aʔe	aʔe	PART	pcl	Person=3	6	discourse	_	_
-8	,	,	PUNCT	punct	_	6	punct	_	_
-9	wapɨk	apɨk	VERB	v	Person=3	0	root	_	_
-10	ko	ko	NOUN	n	_	9	obl	_	_
-11	iwɨr	wɨr	ADP	posp	Rel=NCont	10	case	_	_
-12	aʔe	aʔe	PART	pcl	Person=3	9	discourse	_	_
-13	,	,	PUNCT	punct	_	15	punct	_	_
-14	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	15	nmod	_	_
-15	haro	aro	VERB	v	Rel=NCont|VerbForm=Ger	9	xcomp	_	_
-16	pa	pa	ADP	posp	Rel=Cont	15	case	_	_
-17	aʔe	aʔe	PART	pcl	Person=3	15	discourse	_	_
-18	.	.	PUNCT	punct	_	9	punct	_	_
+1	Aʔe	aʔe	DET	dem	PronType=Dem	2	det	2:det	_
+2	awa	awa	NOUN	n	_	9	nsubj	9:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	,	,	PUNCT	punct	_	6	punct	6:punct	_
+5	Zuze	Zuze	PROPN	pn	_	6	nmod	6:nmod	_
+6	tu	u	NOUN	n	Rel=Abs	2	appos	2:appos	_
+7	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+8	,	,	PUNCT	punct	_	6	punct	6:punct	_
+9	wapɨk	apɨk	VERB	v	Person=3	0	root	0:root	_
+10	ko	ko	NOUN	n	_	9	obl	9:obl	_
+11	iwɨr	wɨr	ADP	posp	Rel=NCont	10	case	10:case	_
+12	aʔe	aʔe	PART	pcl	Person=3	9	discourse	9:discourse	_
+13	,	,	PUNCT	punct	_	15	punct	15:punct	_
+14	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	15	nmod	15:nmod	_
+15	haropa	aro	VERB	v	Rel=NCont|VerbForm=Ger	9	advcl	9:advcl	_
+16	aʔe	aʔe	PART	pcl	Person=3	15	discourse	15:discourse	_
+17	.	.	PUNCT	punct	_	9	punct	9:punct	_
 
 # sent_id = 135
 # text = Wapɨk ɨwɨra rehe waʔɨr haro pa .
