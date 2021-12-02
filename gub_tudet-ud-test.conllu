@@ -4384,3 +4384,14 @@
 2	Fábio	Fábio	PROPN	ppn	_	1	nsubj	1:nsubj	_
 3	Márcia	Márcia	PROPN	ppn	_	1	obj	1:obj	_
 
+# sent_id = 554
+# text = Upaw pira teko iʔun
+# text_port = Todo o peixe, as pessoas comeram (algumas).
+# text_spa = Todos los peces, la gente comió (algunos).
+# text_en = All the fish, the people ate (some) (Bonfim Duarte, 2018).
+# O S V
+1	Upaw	paw	DET	dem	_	_	_	_	_
+2	pira	pira	NOUN	n	_	_	_	_	_
+3	teko	teko	NOUN	n	_	4	nsubj	4:nsubj	_
+4	iʔun	ʔu	NOUN	vt	NonFoc=Yes|Rel=NCont	0	root	0:root	_
+
