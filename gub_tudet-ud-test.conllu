@@ -65,7 +65,7 @@
 # V O PP
 1	Wexak	exak	VERB	vt	Person=3	0	root	_	_
 2	arapuha	arapuha	NOUN	n	_	1	obj	_	_
-3	ape	a	ADV	adv	Case=Loc	1	obl	_	_
+3	ape	a	NOUN	n	Case=Loc	1	obl	_	_
 
 # sent_id = 7
 # text = Agwer maʔeaʔɨr uʔu kaʔapiʔi
@@ -1737,7 +1737,7 @@
 6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 7	,	,	PUNCT	punct	_	9	punct	_	_
 8	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	9	obj	_	_
-9	haro	aro	NOUN	n	Rel=NCont|VerbForm=Ger	1	advcl	_	_
+9	haro	aro	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
 10	pa	pa	ADP	posp	Rel=Cont	9	case	_	_
 11	aʔe	aʔe	PART	pcl	Person=3	9	discourse	_	_
 12	,	,	PUNCT	punct	_	9	punct	_	_
@@ -1955,8 +1955,8 @@
 5	iʔi	ʔi	VERB	vt	Person=3	0	root	_	_
 6	upe	u	NOUN	n	Case=Dat|Rel=Corf	5	obl	_	_
 7	,	,	PUNCT	punct	_	8	punct	_	_
-8	hewowo	ewowo	NOUN	n	Rel=NCont|VerbForm=Ger	5	advcl	_	_
-9	pa	pa	ADP	posp	Rel=Cont	8	case	_	_
+8	hewowo	ewowo	VERB	vi	Rel=NCont|VerbForm=Ger	5	advcl	_	_
+9	pa	pa	ADV	adv	_	8	mark	_	_
 10	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 154
