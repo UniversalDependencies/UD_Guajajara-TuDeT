@@ -4226,3 +4226,161 @@
 11	xe	xe	PART	pcl	_	7	discourse	7:discourse	_
 12	.	.	PUNCT	punct	_	7	punct	7:punct	_
 
+# sent_id = 539
+# text = Maʔepe Zuze wenu tazahu raʔe ?
+# text_port = Onde John ouviu o grande porco?
+# text_spa = ¿Dónde ha oído John al cerdo grande?
+# text_en = Where has John heard the big pig? (Bonfim Duarte, 2018)
+# ADV S V O Q
+1	Maʔepe	maʔe	PRON	pro	Case=Loc|PronType=Int	3	obl	3:obl	_
+2	Zuze	Zuze	PROPN	ppn	_	3	nsubj	3:nsubj	_
+3	wenu	enu	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	tazahu	tazahu	NOUN	n	_	3	obj	3:obj	_
+5	raʔe	raʔe	PART	pcl	_	3	discourse	3:discourse	_
+6	?	?	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 540
+# text = Aʔe ae umumeʔuputar wanemiapokwer nehe .
+# text_port = Ele dirá o que eles fizeram.
+# text_spa = Él dirá lo que han hecho.
+# text_en = He will tell what they have made (Bonfim Duarte, 2018).
+# S V O T
+1	Aʔe	aʔe	PRON	pro	Person[subj]=3	3	nsubj	3:nsubj	_
+2	ae	ae	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
+3	umumeʔuputar	meʔu	VERB	vt	Person[subj]=3|Tense=Fut|Voice=Cau	0	root	0:root	_
+4	wanemiapokwer	apo	NOUN	n	Nomzr=DevPass|Number=Plur|Person[psor]=3|Rel=Cont|Tense=Past	3	obj	3:obj	_
+5	nehe	nehe	PART	pcl	Tense=Fut	3	discourse	3:discourse	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 541
+# text = Awa wekar tapiʔir iko
+# text_port = O homem está procurando por tapir.
+# text_spa = El hombre está buscando tapir.
+# text_en = The man is looking for (the) tapir(s) (Bonfim Duarte, 2018).
+# S V O AUX
+1	Awa	awa	NOUN	n	_	2	nsubj	2:nsubj	_
+2	wekar	ekar	VERB	vt	Person[subj]=3	0	root	0:root	_
+3	tapiʔir	tapiʔir	NOUN	n	Rel=Abs	4	obj	4:obj	_
+4	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	2	aux	2:aux	_
+
+# sent_id = 542
+# text = Hehɨ umur maʔe roʔokwer hawe .
+# text_port = Minha mãe deu carne para mim.
+# text_spa = Mi madre me dio carne.
+# text_en = My mother gave meat to me (Bonfim Duarte, 2018).
+# S V O PP
+1	Hehɨ	hɨ	NOUN	n	Number=Sing|Person=1|Poss=Yes|Rel=Cont	2	nsubj	2:nsubj	_
+2	umur	ur	VERB	v	Person[subj]=3|Voice=Cau	0	root	0:root	_
+3	maʔe	maʔe	NOUN	n	_	4	nmod	4:nmod	_
+4	roʔokwer	oʔo	NOUN	n	Rel=Cont|Tense=Past	2	obj	2:obj	_
+5	hawe	he	PRON	pro	Case=Dat|Person=1|PronType=Prs	2	obl	2:obl	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 543
+# text = Oʔok teko maniʔok ʔɨ wi kurɨ
+# text_port = As pessoas levaram o mandioca da água.
+# text_spa = Las personas tomaron el manioc del agua.
+# text_en = The people took the manioc from the water (Bonfim Duarte, 2018).
+# V S O PP PART
+1	Oʔok	ʔok	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	teko	teko	NOUN	n	_	1	nsubj	1:nsubj	_
+3	maniʔok	maniʔok	NOUN	n	_	1	obj	1:obj	_
+4	ʔɨ	ʔɨ	NOUN	n	_	1	obl	1:obl	_
+5	wi	wi	ADP	posp	Rel=Cont	4	case	4:case	_
+6	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 544
+# text = Wekar teko wakari ita rehe
+# text_port = As pessoas pegam o bagre na pedra.
+# text_spa = La gente consigue el bagre en la piedra.
+# text_en = The people get the catfish in the stone (Bonfim Duarte, 2018).
+# V S O PP
+1	Wekar	ekar	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	teko	teko	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
+3	wakari	wakari	NOUN	n	_	1	obj	1:obj	_
+4	ita	ita	NOUN	n	_	1	obl	1:obl	_
+5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+
+# sent_id = 545
+# text = Wekar teko kaʔa te oho .
+# text_port = As pessoas vão procurar arbustos.
+# text_spa = La gente busca arbustos.
+# text_en = The people will look for bush (Bonfim Duarte, 2018).
+# V S O AUX
+1	Wekar	ekar	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	teko	teko	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
+3	kaʔa	kaʔa	NOUN	n	_	1	obj	1:obj	_
+4	te	te	PART	pcl	Foc=Yes	3	discourse	3:discourse	_
+5	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 546
+# text = Uzuka Purutu tapiʔir ur
+# text_port = Purutu veio matar o tapir.
+# text_spa = Purutu vino a matar al tapir.
+# text_en = Purutu came to kill the tapir (Bonfim Duarte, 2018).
+# V S O AUX
+1	Uzuka	zuka	VERB	vt	Person[subj]=3	4	advcl	4:advcl	_
+2	Purutu	Purutu	PROPN	ppn	_	4	nsubj	4:nsubj	_
+3	tapiʔir	tapiʔir	NOUN	n	_	1	obj	1:obj	_
+4	ur	ur	VERB	vi	Person[subj]=3	0	root	0:root	_
+
+# sent_id = 547
+# text = Aʔe ae umumeʔuputar hemiapokwer aʔe nehe
+# text_port = Ele contará sobre o que ele fez.
+# text_spa = Él hablará sobre lo que ha hecho.
+# text_en = He will tell about his doing (Bonfim Duarte, 2018).
+# S V O PART
+1	Aʔe	aʔe	PRON	pro	Person[subj]=3|PronType=Dem	3	nsubj	3:nsubj	_
+2	ae	ae	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
+3	umumeʔuputar	mumeʔuputar	VERB	vt	Person[subj]=3|Tense=Fut|Voice=Cau	0	root	0:root	_
+4	hemiapokwer	apo	NOUN	n	Nomzr=DevPass|Person=[psor]1|Person=[psor]2|Poss=Yes|Person=[psor]1|Person=[psor]2|Poss=Yes|Tense=Past	3	obj	3:obj	_
+5	aʔe	aʔe	PRON	pro	Person[subj]=3	3	discourse	3:discourse	_
+6	nehe	nehe	PART	pcl	Tense=Fut	3	discourse	3:discourse	_
+
+# sent_id = 547
+# text = Aʔe ae umumeʔuputar hemiapokwer aʔe nehe
+# text_port = Ele contará sobre o que ele fez.
+# text_spa = Él hablará sobre lo que ha hecho.
+# text_en = He will tell about his doing (Bonfim Duarte, 2018).
+# S V O PART
+1	Aʔe	aʔe	PRON	pro	Person[subj]=3|PronType=Dem	3	nsubj	3:nsubj	_
+2	ae	ae	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
+3	umumeʔuputar	mumeʔuputar	VERB	vt	Person[subj]=3|Tense=Fut|Voice=Cau	0	root	0:root	_
+4	hemiapokwer	apo	NOUN	n	Nomzr=DevPass|Poss=Yes|Tense=Past	3	obj	3:obj	_
+5	aʔe	aʔe	PRON	pro	Person[subj]=3	3	discourse	3:discourse	_
+6	nehe	nehe	PART	pcl	Tense=Fut	3	discourse	3:discourse	_
+
+# sent_id = 549
+# text = Aʔeá uʔar kwez tuzukpe
+# text_port = Ela acabou de cair na lama.
+# text_spa = Ella acaba de caer en el barro.
+# text_en = She has just fallen into the mud (Bonfim Duarte, 2018)..
+# S V ADV O
+1	Aʔeá	aʔe	PRON	pro	Case=Ref|Person[subj]=3|PronType=Dem	2	nsubj	2:nsubj	_
+2	uʔar	ʔar	VERB	vt	Person[subj]=3	0	root	0:root	_
+3	kwez	kwez	ADV	adv	Tense=Past	2	advmod	2:advmod	_
+4	tuzukpe	tuzuk	NOUN	n	Case=All	2	obl	2:obl	_
+
+# sent_id = 550
+# text = Aʔeà uur kwez hehɨ iruramo
+# text_port = Ele veio com minha mãe.
+# text_spa = Vino con mi madre.
+# text_en = He came with my mother (Bonfim Duarte, 2018).
+# S V ADV PP
+1	Aʔeà	aʔe	PRON	pro	Case=Ref|Person[subj]=3|PronType=Dem	2	nsubj	2:nsubj	_
+2	uur	ur	VERB	v	Person[subj]=3	0	root	0:root	_
+3	kwez	kwez	PART	adv	Tense=Past	2	discourse	2:discourse	_
+4	hehɨ	hɨ	NOUN	n	Person=[psor]|1Poss=Yes|Rel=Cont	2	obl	2:obl	_
+5	iruramo	ru	ADP	posp	Case=Tra|Rel=NCont	4	case	4:case	_
+
+# sent_id = 551
+# text = Wexak Fábio Márcia
+# text_port = Fábio viu Márcia.
+# text_spa = Fábio vio a Márcia.
+# text_en = Fábio saw Márcia (Bonfim Duarte, 2018).
+# V S O
+1	Wexak	exak	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	Fábio	Fábio	PROPN	ppn	_	1	nsubj	1:nsubj	_
+3	Márcia	Márcia	PROPN	ppn	_	1	obj	1:obj	_
+
