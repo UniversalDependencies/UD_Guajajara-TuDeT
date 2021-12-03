@@ -3194,7 +3194,7 @@
 5	wanehe	ehe	ADP	posp	Case=Dat|Number=Plur|Person[psor]=3|Rel=Cont	1	obl	_	_
 6	,	,	PUNCT	punct	_	1	punct	_	_
 7	nomomorkwaw	momor	VERB	vi	Polarity=Neg	1	conj	_	_
-8	imono	ho	AUX	aux	Rel=NCont|Voice=Cau	7	dep	_	_
+8	imono	ho	VERB	vi	Rel=NCont|Voice=Cau	7	dep	_	_
 9	wanupe	upe	ADP	posp	Case=Dat|Number=Plur|Person[psor]=3|Rel=Cont	7	obl	_	_
 10	rihi	rihi	PART	pcl	_	7	discourse	_	_
 11	.	.	PUNCT	punct	_	7	punct	_	_
