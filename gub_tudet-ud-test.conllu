@@ -3562,8 +3562,8 @@
 3	tahɨwai	ahɨw	NOUN	n	Dimin=Yes|Rel=Abs	4	nmod	_	_
 4	xixirogaturumu	xiro	NOUN	n	Case=Tra|Emph=Yes|Red=Mo|Rel=Cont	2	obl	_	_
 5	,	,	PUNCT	punct	_	2	punct	_	_
-6	naʔe	naʔe	PART	pcl	_	9	discourse	_	_
-7	zekaipo	kwehe	ADV	adv	Evident=Nfh	9	advmod	_	_
+6	naʔe	naʔe	PART	pcl	_	8	discourse	_	_
+7	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	_	_
 8	uixe	ixe	VERB	v	Person[subj]=3	2	conj	_	_
 9	oho	ho	VERB	v	Person[subj]=3	8	aux	_	_
 10	aʔe	aʔe	DET	dem	PronType=Dem	12	det	_	_
@@ -3676,7 +3676,7 @@
 3	erezapo	zapo	VERB	v	Person[subj]=2	8	ccomp	_	_
 4-5	ikoxe	_	_	_	_	_	_	_	_
 4	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	3	aux	_	_
-5	xe	xe	ADV	adv	_	4	advmod	_	_
+5	xe	xe	ADV	adv	_	3	advmod	_	_
 6	tɨ	tɨ	PART	pcl	_	3	discourse	_	_
 7	,	,	PUNCT	punct	_	3	punct	_	_
 8	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	_	_
@@ -3910,8 +3910,8 @@
 5	ʔɨ	ʔɨ	PART	pcl	_	1	discourse	_	_
 6	,	,	PUNCT	punct	_	7	punct	_	_
 7	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	_	_
-8	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	6	iobj	_	_
-9	.	.	PUNCT	punct	_	6	punct	_	_
+8	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	7	iobj	_	_
+9	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 284
 # text = Ezuka tue wirahu , taʔe weraha zapukazaʔɨr aʔe ʔɨ , iʔi izupe uhapukazta .
@@ -4364,7 +4364,7 @@
 # text_spa = Vino con mi madre.
 # text_en = He came with my mother (Bonfim Duarte, 2018).
 # S V ADV PP
-1	Aʔeà	aʔe	PRON	pro	Case=Ref|Person[subj]=3|PronType=Dem	2	nsubj	2:nsubj	_
+1	Aʔeà	aʔe	PRON	pro	Case=Ref|Person=3|PronType=Dem	2	nsubj	2:nsubj	_
 2	uur	zur	VERB	v	Person[subj]=3	0	root	0:root	_
 3	kwez	kwez	PART	adv	Tense=Past	2	discourse	2:discourse	_
 4	hehɨ	hɨ	NOUN	n	Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	2	obl	2:obl	_
