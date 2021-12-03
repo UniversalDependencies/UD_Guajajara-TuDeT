@@ -341,7 +341,7 @@
 1	Anɨra	anɨra	NOUN	n	_	2	nsubj	_	_
 2	zanexiʔu	xiʔu	VERB	vt	Clusivity=In|Number=Plur|Person[psor]=1	0	root	_	_
 3	pɨhaw	pɨ	NOUN	n	Nomzr=Circ	2	obl	_	_
-4	aʔe	aʔe	DET	dem	PronType=Dem	1	discourse	_	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 
 # sent_id = 30
 # text = Uʔu arapapa ipiraʔi iko aʔe
@@ -349,11 +349,11 @@
 # text_spa = La arapapá está comiendo pececillos 
 # text_eng = The boat-billed heron is eating small fishes 
 # V S O AUX 
-1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_	_
 2	arapapa	arapapa	NOUN	n	_	1	nsubj	_	_
 3	ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	1	obj	_	_
 4	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	_	_
-5	aʔe	aʔe	DET	dem	PronType=Dem		discourse	_	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 
 # sent_id = 31
 # text = Ezapo arapuk wiràmiripe nehe
@@ -1262,7 +1262,7 @@
 1	Uhem	hem	VERB	v	Person[subj]=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	_	_
 3	hemireko	eko	NOUN	n	Rel=NCont	1	nsubj	_	_
-4	oho	ho	VERB	vi	Person[subj]=3	1	aux	_	_
+4	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
 5	ʔɨpe	ʔɨ	NOUN	n	Case=All	1	obl	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -1747,7 +1747,7 @@
 # V S PP
 1	Uhem	hem	VERB	v	Person[subj]=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	1	nsubj	_	_
-3	oho	ho	VERB	vi	Person[subj]=3	1	aux	_	_
+3	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
 4	kope	ko	NOUN	n	Case=All	1	obl	_	_
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1786,7 +1786,7 @@
 # text_eng = They flew towards the jungle.
 # V PP
 1	Uwewe	wewe	VERB	v	Person[subj]=3	0	root	_	_
-2	oho	ho	VERB	vi	Person[subj]=3	1	aux	_	_
+2	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
 3	kaʔape	kaʔa	NOUN	n	Case=All	1	obl	_	_
 4	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
@@ -1825,7 +1825,7 @@
 # text_eng = They went flying towards the jungle.
 # V AUX ADV PP
 1	Uwewe	wewe	VERB	vi	Person[subj]=3	0	root	_	_
-2	oho	ho	VERB	vi	Person[subj]=3	1	aux	_	_
+2	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
 3	ɨwate	ɨwak	ADV	adv	_	1	advmod	_	_
 4	kaʔa	kaʔa	NOUN	n	_	1	obl	_	_
 5	kutɨr	kutɨr	ADP	posp	Rel=Cont	4	case	_	_
@@ -2046,7 +2046,7 @@
 3	uhaw	haw	VERB	v	Person[subj]=3	0	root	_	_
 4	awa	awa	NOUN	n	_	3	nsubj	_	_
 5	awaxi	awaxi	NOUN	n	_	3	obj	_	_
-6	oho	ho	VERB	vi	Person[subj]=3	3	aux	_	_
+6	oho	ho	AUX	aux	Person[subj]=3	3	aux	_	_
 7	wa	wa	PART	pcl	Number=Plur	3	discourse	_	_
 8	kurɨ	kurɨ	PART	pcl	_	3	discourse	_	_
 9	.	.	PUNCT	punct	_	3	punct	_	_
@@ -2230,7 +2230,7 @@
 3	uzemiʔi	miʔi	VERB	v	Person[subj]=3|Reflex=Yes	0	root	_	_
 4	kar	kar	ADV	adv	_	3	advmod	_	_
 5	Zuze	Zuze	PROPN	pn	_	3	nsubj	_	_
-6	oho	ho	VERB	vi	Person[subj]=3	3	aux	_	_
+6	oho	ho	AUX	aux	Person[subj]=3	3	aux	_	_
 7	kaʔa	kaʔa	NOUN	n	_	3	obl	_	_
 8	rupi	upi	ADP	posp	Rel=Cont	7	case	_	_
 9	.	.	PUNCT	punct	_	3	punct	_	_
@@ -2271,7 +2271,7 @@
 1	Uzemiʔi	miʔi	VERB	v	Person[subj]=3|Reflex=Yes	0	root	_	_
 2	kar	kar	ADV	adv	_	1	advmod	_	_
 3	Zuze	Zuze	PROPN	pn	_	1	nsubj	_	_
-4	oho	ho	VERB	vi	Person[subj]=3	1	aux	_	_
+4	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
 5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -2488,7 +2488,7 @@
 3	wi	wi	ADP	posp	Rel=Cont	2	case	_	_
 4	,	,	PUNCT	punct	_	1	punct	_	_
 5	wapɨk	apɨk	VERB	v	Person[subj]=3	1	conj	_	_
-6	oho	ho	VERB	vi	Person[subj]=3	5	aux	_	_
+6	oho	ho	AUX	aux	Person[subj]=3	5	aux	_	_
 7	wɨraka	wɨraka	NOUN	n	_	5	obl	_	_
 8	rehe	ehe	ADP	posp	Rel=Cont	7	case	_	_
 9	.	.	PUNCT	punct	_	5	punct	_	_
@@ -2532,7 +2532,7 @@
 2-3	wirahu	_	_	_	_	_	_	_	_
 2	wira	wira	NOUN	n	_	1	nsubj	_	_
 3	hu	hu	NOUN	n	_	2	nmod	_	_
-4	oho	ho	VERB	vi	Person[subj]=3	1	aux	_	_
+4	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
 5	wɨraka	wɨraka	NOUN	n	_	1	obl	_	_
 6	wi	wi	ADP	posp	Rel=Cont	5	case	_	_
 7	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
@@ -2541,7 +2541,7 @@
 10-11	zapukazaʔɨr	_	_	_	_	_	_	_	_
 10	zapukaz	zapukaz	NOUN	n	_	9	obj	_	_
 11	aʔɨr	aʔɨr	NOUN	n	_	10	nmod	_	_
-12	oho	ho	VERB	vi	Person[subj]=3	9	aux	_	_
+12	oho	ho	AUX	aux	Person[subj]=3	9	aux	_	_
 13	kurɨ	kurɨ	PART	pcl	_	9	discourse	_	_
 14	.	.	PUNCT	punct	_	9	punct	_	_
 
@@ -2590,7 +2590,7 @@
 1	Upɨhɨk	pɨhɨk	VERB	v	Person[subj]=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	1	nsubj	_	_
 3	umukaw	mukaw	NOUN	n	Rel=Corf	1	obj	_	_
-4	oho	ho	VERB	vi	Person[subj]=3	1	aux	_	_
+4	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
 5	wapuz	wapuz	NOUN	n	_	1	obl	_	_
 6	me	me	ADP	posp	Rel=Cont	5	case	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
@@ -2632,7 +2632,7 @@
 3	wà	wà	PART	pcl	Number=Plur	2	discourse	_	_
 4	uzemeʔkar	meʔe	VERB	vt	Person[subj]=3|Reflex=Yes|Voice=Cau	0	root	_	_
 5	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	_	_
-6	oho	ho	VERB	v	Person[subj]=3	4	aux	_	_
+6	oho	ho	AUX	aux	Person[subj]=3	4	aux	_	_
 7	aʔe	aʔe	PART	pcl	Person=3	4	discourse	_	_
 8	wà	wà	PART	pcl	Number=Plur	4	discourse	_	_
 
@@ -2644,7 +2644,7 @@
 # S V AUX
 1	Wiràmiri	wiràmiri	NOUN	n	_	2	nsubj	_	_
 2	uzuka	zuka	VERB	v	Person[subj]=3	0	root	_	_
-3	oho	ho	VERB	v	Person[subj]=3	2	aux	_	_
+3	oho	ho	AUX	aux	Person[subj]=3	2	aux	_	_
 4	wà	wà	PART	pcl	Number=Plur	2	discourse	_	_
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -2732,7 +2732,7 @@
 5	izekɨtɨʔar	zekɨtɨʔar	VERB	vi	Person[subj]=3	0	root	_	_
 6	zekaipo	kwehe	ADV	adv	_	5	advmod	_	_
 7	tɨwɨr	ɨwɨr	NOUN	n	Rel=Abs	5	nsubj	_	_
-8	oho	ho	VERB	v	Person[subj]=3	5	aux	_	_
+8	oho	ho	AUX	aux	Person[subj]=3	5	aux	_	_
 9	hapuznawpe	apuz	NOUN	n	Case=All|Nomzr=Circ|Rel=NCont	5	obl	_	_
 10	.	.	PUNCT	punct	_	5	punct	_	_
 
@@ -3068,7 +3068,7 @@
 3	taʔɨ	aʔɨr	NOUN	n	Rel=Abs	1	nsubj	_	_
 4	uhu	hu	NOUN	n	_	3	nmod	_	_
 5	katu	katu	ADV	adv	Emph=Yes	3	advmod	_	_
-6	oho	ho	VERB	v	Person[subj]=3	1	aux	_	_
+6	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
 7	tukaz	ukaz	NOUN	n	Rel=Abs	1	obl	_	_
 8	huwakete	uwake	ADP	posp	Emph=Yes|Rel=NCont	7	case	_	_
 9	.	.	PUNCT	punct	_	1	punct	_	_
@@ -3194,7 +3194,7 @@
 5	wanehe	ehe	ADP	posp	Case=Dat|Number=Plur|Person[psor]=3|Rel=Cont	1	obl	_	_
 6	,	,	PUNCT	punct	_	1	punct	_	_
 7	nomomorkwaw	momor	VERB	vi	Polarity=Neg	1	conj	_	_
-8	imono	ho	VERB	vi	Rel=NCont|Voice=Cau	7	aux	_	_
+8	imono	ho	AUX	aux	Rel=NCont|Voice=Cau	7	aux	_	_
 9	wanupe	upe	ADP	posp	Case=Dat|Number=Plur|Person[psor]=3|Rel=Cont	7	obl	_	_
 10	rihi	rihi	PART	pcl	_	7	discourse	_	_
 11	.	.	PUNCT	punct	_	7	punct	_	_
@@ -3565,7 +3565,7 @@
 6	naʔe	naʔe	PART	pcl	_	8	discourse	_	_
 7	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	_	_
 8	uixe	ixe	VERB	v	Person[subj]=3	2	conj	_	_
-9	oho	ho	VERB	v	Person[subj]=3	8	aux	_	_
+9	oho	ho	AUX	aux	Person[subj]=3	8	aux	_	_
 10	aʔe	aʔe	DET	dem	PronType=Dem	12	det	_	_
 11	tahɨwai	ahɨw	NOUN	n	Dimin=Yes|Rel=Abs	12	nmod	_	_
 12	ikwaw	kwaw	NOUN	n	Rel=NCont	8	obl	_	_
@@ -3582,7 +3582,7 @@
 1	Aze	aze	SCONJ	sc	_	3	mark	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	_	_
 3	uixe	ixe	VERB	v	Person[subj]=3	5	advcl	_	_
-4	oho	ho	VERB	v	Person[subj]=3	5	aux	_	_
+4	oho	ho	AUX	aux	Person[subj]=3	5	aux	_	_
 5	uhem	hem	VERB	v	Person[subj]=3	0	root	_	_
 6	zeiakpo	kwehe	ADV	adv	Evident=Nfh	5	advmod	_	_
 7	amo	amo	DET	dem	PronType=Ind	8	det	_	_
@@ -3945,7 +3945,7 @@
 # text_en = Arriving at the place where the wounded dog was lying down, which had now been transformed into a person, he (the old man) told Maizu that he (the dog) was well (and seated).
 # V AUX PP PART - PP ADV V PART - V PP - [V ADV PART] V PP
 1	Uhem	hem	VERB	v	Person[subj]=3	0	root	0:root	_
-2	oho	ho	VERB	v	Person[subj]=3	1	aux	1:aux	_
+2	oho	ho	AUX	aux	Person[subj]=3	1	aux	1:aux	_
 3	aʔe	aʔe	DET	dem	PronType=Dem	6	det	6:det	_
 4	zawar	zawar	NOUN	n	_	5	nmod	5:nmod	_
 5	iziwàpɨrer	ziwà	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Past	6	nmod	6:nmod	_
@@ -4013,7 +4013,7 @@
 # text_en = Arriving there, the old man said to the older brother to shoot an arrow at him (at the younger brother) as well.
 # V AUX PP PART - S V PP - [V PART] V PP
 1	Uhem	hem	VERB	v	Person[subj]=3	0	root	0:root	_
-2	oho	ho	VERB	v	Person[subj]=3	1	aux	1:aux	_
+2	oho	ho	AUX	aux	Person[subj]=3	1	aux	1:aux	_
 3	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	1	obl	1:obl	_
 4	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
@@ -4105,7 +4105,7 @@
 9	,	,	PUNCT	punct	_	4	punct	4:punct	_
 10	naʔe	naʔe	PART	pcl	_	4	discourse	4:discourse	_
 11	uzewɨrɨ	zewɨr	VERB	v	Person[subj]=3	4	conj	4:conj	_
-12	oho	ho	VERB	v	Person[subj]=3	11	aux	11:aux	_
+12	oho	ho	AUX	aux	Person[subj]=3	11	aux	11:aux	_
 13	wekohawpe	eko	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Corf	11	obl	11:obl	_
 14	wà	wà	PART	pcl	Number=Plur	11	discourse	11:discourse	_
 15	kurɨ	kurɨ	PART	pcl	_	11	discourse	11:discourse	_
@@ -4320,7 +4320,7 @@
 2	teko	teko	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
 3	kaʔa	kaʔa	NOUN	n	_	1	obj	1:obj	_
 4	te	te	PART	pcl	Foc=Yes	3	discourse	3:discourse	_
-5	oho	ho	VERB	vi	Person[subj]=3	1	aux	1:aux	_
+5	oho	ho	AUX	aux	Person[subj]=3	1	aux	1:aux	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 546
@@ -4440,7 +4440,7 @@
 3	awa	awa	NOUN	n	_	4	nsubj	4:nsubj	_
 4	upɨhɨkràm	pɨhɨk	VERB	v	Person[subj]=3|Tense=Fut	0	root	0:root	_
 5	pira	pira	NOUN	n	_	4	obj	4:obj	_
-6	oho	ho	VERB	vi	Person[subj]=3	4	aux	4:aux	_
+6	oho	ho	AUX	aux	Person[subj]=3	4	aux	4:aux	_
 
 # sent_id = 560
 # text = Maʔepe awa uzuka miar kaʔape ?
