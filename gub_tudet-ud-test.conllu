@@ -4675,9 +4675,9 @@
 6	kurɨ	kurɨ	PART	pcl	_	1	advmod	1:advmod	_
 7	,	,	PUNCT	punct	_	1	punct	1:punct	_
 8	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
-9	Zuze	Zuze	PROPN	pn	_	7	nsubj	7:nsubj	_
-10	wemirekope	eko	NOUN	n	Case=Dat|Nomzr=DevPass|Rel=Corf	7	obl	7:obl	_
-11	.	.	PUNCT	punct	_	7	punct	7:punct	_
+9	Zuze	Zuze	PROPN	pn	_	8	nsubj	8:nsubj	_
+10	wemirekope	eko	NOUN	n	Case=Dat|Nomzr=DevPass|Rel=Corf	8	obl	8:obl	_
+11	.	.	PUNCT	punct	_	8	punct	8:punct	_
 
 # sent_id = 332
 # text = Azapo ukenuhu zumen wi , iʔi izupe .
@@ -4739,6 +4739,32 @@
 6	Zuze	Zuze	PROPN	pn	_	5	nsubj	5:nsubj	_
 7	izupe	upe	ADP	posp	Rel=NCont	5	iobj	5:iobj	_
 8	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 336
+# text = Uzapo ukenuhu zumen wi .
+# text_port = Ele fez o portão contra o jumento (Harrison, 2000).
+# text_spa = Hizo la puerta para el burro.
+# text_en = He built the gate for the donkey.
+# V O PP
+1	Uzapo	zapo	VERB	v	Person[subj]=3	0	root	0:root	_
+2-3	ukenuhu	_	_	_	_	_	_	_	_
+2	uken	uken	NOUN	n	_	1	obj	1:obj	_
+3	uhu	hu	NOUN	n	_	2	nmod	2:nmod	_
+4	zumen	zumen	NOUN	n	_	1	obl	1:obl	_
+5	wi	wi	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 337
+# text = Uzemumik ahɨ zumen kurɨ .
+# text_port = O jumento ficou triste (Harrison, 2000).
+# text_spa = El burro estaba triste.
+# text_en = The donkey was sad.
+# V ADV S PART
+1	Uzemumik	zemumik	VERB	v	Person[subj]=3	0	root	0:root	_
+2	ahɨ	ahɨ	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	zumen	zumen	NOUN	n	_	1	nsubj	1:nsubj	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
