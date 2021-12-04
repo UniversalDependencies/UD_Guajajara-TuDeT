@@ -4277,7 +4277,7 @@
 # text_spa = Karita siempre le preguntaba a su padre.
 # text_en = Karita always asked her father.
 # PP S V PP
-1	Tueharupi	tuwe	NOUN	n	Case=Tem|Nomzr=Circ|Rel=Cont	3	advmod	3:advmod	_
+1	Tueharupi	tuwe	NOUN	n	Case=Tem|Nomzr=Circ|Rel=Cont	3	obl	3:obl	_
 2	Kari	Kari	PROPN	ppn	_	3	nsubj	3:nsubj	_
 3	upuranu	puranu	VERB	v	Person[subj]=3	0	root	0:root	_
 4	u	u	NOUN	n	Rel=Corf	3	obl	3:obl	_
@@ -4302,7 +4302,7 @@
 9	izupe	upe	ADP	posp	Rel=NCont	6	iobj	6:iobj	_
 10	,	,	PUNCT	punct	_	6	punct	6:punct	_
 11	hehe	ehe	ADP	posp	Case=Dat|Rel=NCont	12	obl	12:obl	_
-12	upuranupa	puranu	VERB	v	Rel=Corf|VerbForm=Ger	6	advmod	6:advmod	_
+12	upuranupa	puranu	VERB	v	Rel=Corf|VerbForm=Ger	6	advcl	6:advcl	_
 13	.	.	PUNCT	punct	_	12	punct	12:punct	_
 
 # sent_id = 304
@@ -4646,7 +4646,7 @@
 8	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
 # sent_id = 330
-# text = Maʔe erezapo iko, iʔi Mari umenpe.
+# text = Maʔe erezapo iko , iʔi Mari umenpe .
 # text_port = O que é que vocé esta fazendo? Maria perguntou a seu marido (Harrison, 2000).
 # text_spa = ¿Qué estás haciendo? María le preguntó a su marido.
 # text_en = What are you doing? Mary asked her husband.
@@ -4658,6 +4658,7 @@
 5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
 6	Mari	Mari	PROPN	ppn	_	5	nsubj	5:nsubj	_
 7	umenpe	men	NOUN	n	Case=Dat|Rel=Corf	5	obl	5:obl	_
+8	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
 # sent_id = 331
 # text = Azapo ukenuhu iteko ihe kurɨ , iʔi Zuze wemirekope .
@@ -4665,7 +4666,7 @@
 # text_spa = Estoy haciendo una puerta, respondió José.
 # text_en = I'm building a gate, José replied.
 # [O[V O AUX PART PART]] V S PP
-1	Azapo	apo	VERB	vt	Person[subj]=1	7	ccomp	7:ccomp	_
+1	Azapo	apo	VERB	vt	Person[subj]=1	8	ccomp	8:ccomp	_
 2-3	ukenuhu	_	_	_	_	_	_	_	_
 2	uken	uken	NOUN	n	_	1	obj	1:obj	_
 3	uhu	hu	NOUN	n	_	2	nmod	2:nmod	_
