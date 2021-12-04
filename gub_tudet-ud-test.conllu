@@ -4233,6 +4233,512 @@
 11	xe	xe	PART	pcl	_	7	discourse	7:discourse	_
 12	.	.	PUNCT	punct	_	7	punct	7:punct	_
 
+# sent_id = 299
+# text = Heta nànà Zuze kope .
+# text_port = Tem abacaxi na roça de José (Harrison, 2000).
+# text_spa = Hay piña en la granja de José.
+# text_en = There is pineapple in the farm of José.
+# V S PP
+1	Heta	eta	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	nànà	nànà	NOUN	n	_	1	nsubj	1:nsubj	_
+3	Zuze	Zuze	PROPN	pn	_	4	nmod	4:nmod	_
+4	kope	ko	NOUN	n	Case=Loc|Rel=Cont	1	obl	1:obl	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 300
+# text = Tueharupi umeʔe Kari nànà rehe aʔe .
+# text_port = Todos os dias Karita olhava o abacaxi (Harrison, 2000).
+# text_spa = Todos los días, Karita miraba la piña.
+# text_en = Every day Karita looked at the pineapple.
+# PP V S PP
+1	Tueharupi	tuwe	NOUN	n	Case=Tem|Nomzr=Circ|Rel=Cont	2	obl	2:obl	_
+2	umeʔe	meʔe	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	Kari	Kari	PROPN	pn	_	2	nsubj	2:nsubj	_
+4	nànà	nànà	NOUN	n	_	2	obl	2:obl	_
+5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 301
+# text = Ikatu ahɨ nànà izupe .
+# text_port = Porque ela gosta muito de abacaxi (Harrison, 2000).
+# text_spa = Porque le gusta mucho la piña.
+# text_en = Because she likes pineapple.
+# V ADV S I
+1	Ikatu	katu	VERB	vd	Rel=NCont	0	root	0:root	_
+2	ahɨ	ahɨ	ADV	adv	_	1	advmod	1:advmod	_
+3	nànà	nànà	NOUN	n	_	1	nsubj	1:nsubj	_
+4	izupe	upe	ADP	posp	Rel=NCont	1	iobj	1:iobj	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 302
+# text = Tueharupi Kari upuranu u rehe aʔe .
+# text_port = Sempre Karita perguntava ao pai (Harrison, 2000).
+# text_spa = Karita siempre le preguntaba a su padre.
+# text_en = Karita always asked her father.
+# PP S V PP
+1	Tueharupi	tuwe	NOUN	n	Case=Tem|Nomzr=Circ|Rel=Cont	3	advmod	3:advmod	_
+2	Kari	Kari	PROPN	ppn	_	3	nsubj	3:nsubj	_
+3	upuranu	puranu	VERB	v	Person[subj]=3	0	root	0:root	_
+4	u	u	NOUN	n	Rel=Corf	3	obl	3:obl	_
+5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 303
+# text = Aipo iazu nànà raʔe , iʔi wiwi Kari izupe , hehe upuranupa .
+# text_port = "Será que o abacaxi está maduro agora? (Harrison, 2000)" (Kari perguntava insistente).
+# text_spa = "¿Estará la piña madura ahora?", le preguntaba Kari, insistiendo.
+# text_en = "Is the pineapple ripe now?", Kari would insist asking.
+# [O [PART V S PART]] V PART S I [ADV[PP V C]]
+1	Aipo	aipo	PART	pcl	Int=Yes	2	discourse	2:discourse	_
+2	iazu	azu	VERB	vd	Rel=NCont	6	ccomp	6:ccomp	_
+3	nànà	nànà	NOUN	n	_	2	nsubj	2:nsubj	_
+4	raʔe	raʔe	PART	pcl	Tense=Past	2	discourse	2:discourse	_
+5	,	,	PUNCT	punct	_	2	punct	2:punct	_
+6	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+7	wiwi	wi	PART	pcl	Red=Mo	6	discourse	6:discourse	_
+8	Kari	Kari	PROPN	pn	_	6	nsubj	6:nsubj	_
+9	izupe	upe	ADP	posp	Rel=NCont	6	iobj	6:iobj	_
+10	,	,	PUNCT	punct	_	6	punct	6:punct	_
+11	hehe	ehe	ADP	posp	Case=Dat|Rel=NCont	12	obl	12:obl	_
+12	upuranupa	puranu	VERB	v	Rel=Corf|VerbForm=Ger	6	advmod	6:advmod	_
+13	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = 304
+# text = Aipo iazu raʔe , iʔi wiwi izupe .
+# text_port = Será que esta pronto? ela insistiu (Harrison, 2000).
+# text_spa = ¿Está listo? Ella insistió.
+# text_en = Is it ready? She insisted.
+# [O[Q V PART]] V PART I
+1	Aipo	aipo	PART	pcl	_	2	discourse	2:discourse	_
+2	iazu	azu	VERB	vd	Rel=NCont	5	ccomp	5:ccomp	_
+3	raʔe	raʔe	PART	pcl	Tense=Past	2	discourse	2:discourse	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+6	wiwi	wi	PART	pcl	Red=Mo	5	discourse	5:discourse	_
+7	izupe	upe	ADP	posp	Rel=NCont	5	iobj	5:iobj	_
+8	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 305
+# text = Epoʔo zo rihi , iʔi Zuze wazɨrpe .
+# text_port = Nao colhe ainda, José disse à sua filha (Harrison, 2000).
+# text_spa = Aún no la coseches, José le dijo a su hija.
+# text_en = Do not harvest yet, José told his daughter.
+# [O[V ADV PART]] V S PP
+1	Epoʔo	poʔo	VERB	vt	Mood=Imp|Person=2	5	ccomp	5:ccomp	_
+2	zo	zo	ADV	adv	_	1	advmod	1:advmod	_
+3	rihi	rihi	PART	pcl	_	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+6	Zuze	Zuze	PROPN	pn	_	5	nsubj	5:nsubj	_
+7	wazɨrpe	azɨr	NOUN	n	Case=Dat|Rel=Corf	5	obl	5:obl	_
+8	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 306
+# text = Iazu mehe , apoʔo putar ihe nehe , iʔi izupe .
+# text_port = Quando ficar maduro, eu vou colher, disse (Harrison, 2000).
+# text_spa = Cuando madure, la cosecharé, dijo.
+# text_en = When it ripes, I'll reap it, he said.
+# [O[[ADV[V C]] V ADV S PART]] V I
+1	Iazu	azu	VERB	vd	Rel=NCont	4	advcl	4:advcl	_
+2	mehe	mehe	ADV	adv	_	1	mark	1:mark	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	apoʔo	poʔo	VERB	vt	Person[subj]=1	9	ccomp	9:ccomp	_
+5	putar	putar	ADV	adv	Tense=Fut	4	advmod	4:advmod	_
+6	ihe	ihe	PRON	pro	PronType=Prs	4	nsubj	4:nsubj	_
+7	nehe	nehe	PART	pcl	Tense=Fut	4	discourse	4:discourse	_
+8	,	,	PUNCT	punct	_	4	punct	4:punct	_
+9	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+10	izupe	upe	ADP	posp	Rel=NCont	9	iobj	9:iobj	_
+11	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
+# sent_id = 307
+# text = Amo ʔar mehe , werur Zuze nànà oko wi .
+# text_port = Noutro dia, José trouxe abacaxi da roça (Harrison, 2000).
+# text_spa = Un día, José trajo piña del campo.
+# text_en = One day, José brought pineapple from the countryside.
+# ADV V S O PP
+1	Amo	amo	DET	det	PronType=Ind	2	det	2:det	_
+2	ʔar	ʔar	NOUN	n	_	5	obl	5:obl	_
+3	mehe	mehe	ADP	posp	_	2	case	2:case	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	werur	ur	VERB	vt	Person[subj]=3|Voice=Com	0	root	0:root	_
+6	Zuze	Zuze	PROPN	pn	_	5	nsubj	5:nsubj	_
+7	nànà	nànà	NOUN	n	_	5	obj	5:obj	_
+8	oko	ko	NOUN	n	Rel=Corf	5	obl	5:obl	_
+9	wi	wi	ADP	posp	Rel=Cont	8	case	8:case	_
+10	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 308
+# text = Werur naʔiruz nànà .
+# text_port = Ele trouxe trés (Harrison, 2000).
+# text_spa = Él trajo tres.
+# text_en = He brought three.
+# V O
+1	Werur	ur	VERB	vt	Person[subj]=3|Voice=Com	0	root	0:root	_
+2	naʔiruz	ru	NUM	num	Polarity=Neg|Rel=NCont	3	nmod	3:nmod	_
+3	nànà	nànà	NOUN	n	_	1	obj	1:obj	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 309
+# text = Iazu tue nànà .
+# text_port = Estavam bem maduros (Harrison, 2000).
+# text_spa = Estaban muy maduras.
+# text_en = They were very ripe.
+# V PART O
+1	Iazu	azu	VERB	vd	Rel=NCont	0	root	0:root	_
+2	tue	tue	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
+3	nànà	nànà	NOUN	n	_	1	obj	1:obj	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 310
+# text = Naʔarewahɨ oho Kari takihe ipiaromo kurɨ .
+# text_port = Karita foi depressa buscar uma faca (Harrison, 2000).
+# text_spa = Karita fue rápidamente a buscar un cuchillo.
+# text_en = Karita went quickly to pick up a knife.
+# ADV V S PP PART
+1	Naʔarewahɨ	naʔarew	ADV	adv	Emph=Yes	2	advmod	2:advmod	_
+2	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	Kari	Kari	PROPN	pn	_	2	nsubj	2:nsubj	_
+4	takihe	takihe	NOUN	n	_	2	obl	2:obl	_
+5	ipiaromo	piar	ADP	posp	Case=Tra|Rel=NCont	4	case	4:case	_
+6	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 311
+# text = Herur mehe Mari uzaikaikaw nànà .
+# text_port = Maria cortou um abacaxi em pedaços (Harrison, 2000).
+# text_spa = María cortó una piña en pedazos.
+# text_en = Mary cut a pineapple into pieces.
+# [ADV[V C]] S V O
+1	Herur	zur	VERB	vt	Rel=NCont|Voice=Com	4	advcl	4:advcl	_
+2	mehe	mehe	ADV	adv	_	1	mark	1:mark	_
+3	Mari	Mari	PROPN	pn	_	4	nsubj	4:nsubj	_
+4	uzaikaikaw	zaikaw	VERB	vt	Person[subj]=3|Red=Mo	0	root	0:root	_
+5	nànà	nànà	NOUN	n	_	4	obj	4:obj	_
+6	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 312
+# text = Uzaikaikaw amo no .
+# text_port = Cortou outro também (Harrison, 2000).
+# text_spa = Cortó otra también.
+# text_en = She cut another one too.
+# V O PART
+1	Uzaikaikaw	zaikaw	VERB	vt	Person[subj]=3|Red=Mo	0	root	0:root	_
+2	amo	amo	PRON	pro	PronType=Ind	1	obj	1:obj	_
+3	no	no	PART	pcl	_	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 313
+# text = Naʔiruz nànà uzaikaikaw .
+# text_port = Ela cortou todos os trés abacaxis (Harrison, 2000).
+# text_spa = Cortó todas las tres piñas.
+# text_en = She cut all the three pineapples.
+# O V
+1	Naʔiruz	ru	NUM	num	Polarity=Neg|Rel=NCont	2	nmod	2:nmod	_
+2	nànà	nànà	NOUN	n	_	3	obj	3:obj	_
+3	uzaikaikaw	zaikaw	VERB	vt	Person[subj]=3|Red=Mo	0	root	0:root	_
+4	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 314
+# text = Uʔu paw rupi wà .
+# text_port = Eles comeram tudo (Harrison, 2000).
+# text_spa = Ellos comieron todo.
+# text_en = They ate everything.
+# V PP
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	paw	paw	PRON	pro	PronType=Tot	1	obl	1:obl	_
+3	rupi	upi	ADP	posp	Rel=Cont	2	case	2:case	_
+4	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 315
+# text = Hete katu nànà Zuzepe .
+# text_port = José gostou muito (Harrison, 2000).
+# text_spa = A José le gustó mucho.
+# text_en = José liked it very much.
+# V ADV O PP
+1	Hete	ete	VERB	vd	Rel=NCont	0	root	0:root	_
+2	katu	katu	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	nànà	nànà	NOUN	n	_	1	obj	1:obj	_
+4	Zuzepe	Zuzepe	PROPN	pn	Case=Dat	1	obl	1:obl	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 316
+# text = Hete katu Maripe no .
+# text_port = Maria também gostou (Harrison, 2000).
+# text_spa = A María también le gustó.
+# text_en = Maria also liked it.
+# V ADV PP PART
+1	Hete	ete	VERB	vd	Rel=NCont	0	root	0:root	_
+2	katu	katu	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	Maripe	Maripe	PROPN	pn	Case=Dat	1	obl	1:obl	_
+4	no	no	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 317
+# text = Ikatu ahɨ Karipe iʔu mehe no .
+# text_port = Quando Karita o comeu, ela o achou muito gostoso (Harrison, 2000).
+# text_spa = Cuando Karita la comió, la encontró muy sabrosa.
+# text_en = When Karita ate it, she found it very tasty.
+# V ADV PP [ADV[V C]] PART
+1	Ikatu	katu	VERB	vd	Rel=NCont	0	root	0:root	_
+2	ahɨ	ahɨ	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	Karipe	Karipe	PROPN	pn	Case=Dat	1	obl	1:obl	_
+4	iʔu	uʔu	VERB	vt	Rel=NCont	1	advcl	1:advcl	_
+5	mehe	mehe	ADV	adv	_	4	mark	4:mark	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 318
+# text = Mari oho zapepo ipiaromo .
+# text_port = Maria foi buscar a panela (Harrison, 2000).
+# text_spa = María fue a buscar la sartén.
+# text_en = Maria went to get the pan.
+# S V PP
+1	Mari	Mari	PROPN	pro	_	2	nsubj	2:nsubj	_
+2	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	zapepo	zapepo	NOUN	n	_	2	obl	2:obl	_
+4	ipiaromo	piar	ADP	posp	Case=Tra|Rel=NCont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 319
+# text = Wenu maʔe ipuipu mehe pino rehe .
+# text_port = Ela ouviu um ruído na palha (Harrison, 2000).
+# text_spa = Ella escuchó un ruido entre la paja.
+# text_en = She heard a noise in the straw.
+# V PP PP
+1	Wenu	enu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	maʔe	maʔe	NOUN	n	_	3	nmod	3:nmod	_
+3	ipuipu	pu	NOUN	n	Red=Di|Rel=NCont	1	obl	1:obl	_
+4	mehe	mehe	ADP	posp	_	3	case	3:case	_
+5	pino	pino	NOUN	n	_	1	obl	1:obl	_
+6	rehe	ehe	ADP	posp	Rel=Cont	5	case	5:case	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 320
+# text = Zanu wiko pino rehe .
+# text_port = Havia uma aranha dentro da palha (fazendo o ruído) (Harrison, 2000).
+# text_spa = Había una araña dentro de la paja.
+# text_en = There was a spider inside the straw.
+# S V PP
+1	Zanu	zanu	NOUN	n	_	2	nsubj	2:nsubj	_
+2	wiko	iko	AUX	auxi	Person[subj]=3	0	root	0:root	_
+3	pino	pino	NOUN	n	_	2	obl	2:obl	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 321
+# text = Umeʔe Mari pino rehe .
+# text_port = Maria olhou bem a palha (Harrison, 2000).
+# text_spa = María miró la paja.
+# text_en = Maria looked at straw.
+# V S PP
+1	Umeʔe	meʔe	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	Mari	Mari	PROPN	pro	_	1	nsubj	1:nsubj	_
+3	pino	pino	NOUN	n	_	1	obl	1:obl	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 322
+# text = Wenu wiwi maʔe ipuipuhaw pino rehe har .
+# text_port = Ouviu de novo o ruído (Harrison, 2000).
+# text_spa = Oyó el ruido de nuevo.
+# text_en = She heard the noise again.
+# V PART O 
+1	Wenu	enu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	wiwi	wi	PART	pcl	Red=Mo	1	discourse	1:discourse	_
+3	maʔe	maʔe	NOUN	n	_	4	nmod	4:nmod	_
+4	ipuipuhaw	pu	NOUN	n	Nomzr=Circ|Red=Mo|Rel=NCont	1	obj	1:obj	_
+5	pino	pino	NOUN	n	_	4	nmod	4:nmod	_
+6	rehe	ehe	ADP	posp	Rel=Cont	5	case	5:case	_
+7	har	har	ADV	adv	Nomzr=Ag	5	advmod	5:advmod	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 323
+# text = Uhem pino wi .
+# text_port = A aranha saiu da palha (Harrison, 2000).
+# text_spa = La araña salió de la paja.
+# text_en = The spider left the straw.
+# V PP
+1	Uhem	hem	VERB	v	Person[subj]=3	0	root	0:root	_
+2	pino	pino	NOUN	n	_	1	obl	1:obl	_
+3	wi	wi	ADP	posp	Rel=Cont	2	case	2:case	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 324
+# text = Uzuka Mari zanu .
+# text_port = Maria matou a aranha (Harrison, 2000).
+# text_spa = Mary mató a la araña.
+# text_en = Mary killed the spider.
+# V S O
+1	Uzuka	zuka	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	Mari	Mari	PROPN	pro	_	1	nsubj	1:nsubj	_
+3	zanu	zanu	NOUN	n	_	1	obj	1:obj	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 325
+# text = Uzemumikahɨ zumen aʔe .
+# text_port = O jumento está triste (Harrison, 2000).
+# text_spa = El burro está triste.
+# text_en = The donkey is sad.
+# V S PART
+1	Uzemumikahɨ	zemumikahɨ	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	zumen	zumen	NOUN	n	_	1	nsubj	1:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 326
+# text = Ipuruʔu wer awaxi Zuze kope har rehe aʔe .
+# text_port = Ele quer comer o milho da roça de José (Harrison, 2000).
+# text_spa = Quiere comer el maíz del campo de José.
+# text_en = He wants to eat the corn from José's field.
+# V ADV O 
+1	Ipuruʔu	ʔu	VERB	vi	Detrans=Ind|Person=3	0	root	0:root	_
+2	wer	wer	ADV	adv	_	1	advmod	1:advmod	_
+3	awaxi	awaxi	NOUN	n	_	1	obl	1:obl	_
+4	Zuze	Zuze	PROPN	pn	_	5	nmod	5:nmod	_
+5	kope	ko	NOUN	n	Case=Loc|Rel=Cont	3	nmod	3:nmod	_
+6	har	har	ADV	adv	Nomzr=Ag	5	advmod	5:advmod	_
+7	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+8	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 327
+# text = Uzemumikahɨ tue zumen aʔe .
+# text_port = Ele está triste mesmo (Harrison, 2000).
+# text_spa = Él está triste.
+# text_en = He's sad.
+# V PART S PART
+1	Uzemumikahɨ	zemumikahɨ	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	tue	tue	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
+3	zumen	zumen	NOUN	n	_	1	nsubj	1:nsubj	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 328
+# text = Umaʔereko Zuze iko aʔe kurɨ .
+# text_port = José está trabalhando (Harrison, 2000).
+# text_spa = José está trabajando.
+# text_en = José is working.
+# V S AUX PART ADV
+1	Umaʔereko	eko	VERB	v	Person[subj]=3|Rel=Cont	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 329
+# text = Zumen aʔe , wàro Zuze ihohaw aʔe .
+# text_port = O jumento está esperando a saída de José (Harrison, 2000).
+# text_spa = El burro está esperando la salida de José.
+# text_en = The donkey is waiting for the exit of José.
+# S PART V O PART
+1	Zumen	zumen	NOUN	n	_	4	nsubj	4:nsubj	_
+2	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	wàro	àro	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	Zuze	Zuze	PROPN	pn	_	6	nmod	6:nmod	_
+6	ihohaw	ho	NOUN	n	Nomzr=Circ|Rel=NCont	4	obj	4:obj	_
+7	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+8	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 330
+# text = Maʔe erezapo iko, iʔi Mari umenpe.
+# text_port = O que é que vocé esta fazendo? Maria perguntou a seu marido (Harrison, 2000).
+# text_spa = ¿Qué estás haciendo? María le preguntó a su marido.
+# text_en = What are you doing? Mary asked her husband.
+# [O[O V AUX]] V S PP
+1	Maʔe	maʔe	PRON	pro	PronType=Int	2	obj	2:obj	_
+2	erezapo	apo	VERB	vt	Person[subj]=2	5	ccomp	5:ccomp	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person=3	2	aux	2:aux	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	Mari	Mari	PROPN	ppn	_	5	nsubj	5:nsubj	_
+7	umenpe	men	NOUN	n	Case=Dat|Rel=Corf	5	obl	5:obl	_
+
+# sent_id = 331
+# text = Azapo ukenuhu iteko ihe kurɨ , iʔi Zuze wemirekope .
+# text_port = Estou fazendo um portão (contra o jumento), respondeu José (Harrison, 2000)..
+# text_spa = Estoy haciendo una puerta, respondió José.
+# text_en = I'm building a gate, José replied.
+# [O[V O AUX PART PART]] V S PP
+1	Azapo	apo	VERB	vt	Person[subj]=1	7	ccomp	7:ccomp	_
+2-3	ukenuhu	_	_	_	_	_	_	_	_
+2	uken	uken	NOUN	n	_	1	obj	1:obj	_
+3	uhu	hu	NOUN	n	_	2	nmod	2:nmod	_
+4	iteko	iko	AUX	aux	Aspect=Prog|Person=1	1	aux	1:aux	_
+5	ihe	ihe	PART	pcl	Person=1	1	discourse	1:discourse	_
+6	kurɨ	kurɨ	PART	pcl	_	1	advmod	1:advmod	_
+7	,	,	PUNCT	punct	_	1	punct	1:punct	_
+8	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+9	Zuze	Zuze	PROPN	pn	_	7	nsubj	7:nsubj	_
+10	wemirekope	eko	NOUN	n	Case=Dat|Nomzr=DevPass|Rel=Corf	7	obl	7:obl	_
+11	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 332
+# text = Azapo ukenuhu zumen wi , iʔi izupe .
+# text_port = Estou fazendo um portão contra o jumento, respondeu José (Harrison, 2000).
+# text_spa = Estoy haciendo una puerta contra el burro, respondió José.
+# text_en = I'm making a gate against the donkey, José replied.
+# [O[V O PP]] V I
+1	Azapo	apo	VERB	vt	Person[subj]=1	7	ccomp	7:ccomp	_
+2-3	ukenuhu	_	_	_	_	_	_	_	_
+2	uken	uken	NOUN	n	_	1	obj	1:obj	_
+3	uhu	hu	NOUN	n	_	2	nmod	2:nmod	_
+4	zumen	zumen	NOUN	n	_	1	obl	1:obl	_
+5	wi	wi	ADP	posp	Rel=Cont	3	case	3:case	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+8	izupe	upe	ADP	posp	Rel=NCont	7	iobj	7:iobj	_
+9	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 333
+# text = Ikatu ʔɨ , iʔi umenpe .
+# text_port = Muito bem, ela disse ao marido (Harrison, 2000).
+# text_spa = De acuerdo, ella le dijo a su marido.
+# text_en = All right, she told her husband.
+# [O [V PART]] V PP
+1	Ikatu	katu	VERB	vd	Rel=NCont	4	ccomp	4:ccomp	_
+2	ʔɨ	ʔɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	umenpe	men	NOUN	n	Case=Dat|Rel=Corf	4	obl	4:obl	_
+6	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 334
+# text = Zumen uʔu hemaʔe , iʔi izupe , wemirekope .
+# text_port = O jumento come as minhas coisas, ele disse a ela (Harrison, 2000).
+# text_spa = El burro se come mis cosas, le dijo.
+# text_en = The donkey eats my things, he told her.
+# [O [S V O]] V I
+1	Zumen	zumen	NOUN	n	_	2	nsubj	2:nsubj	_
+2	uʔu	ʔu	VERB	vt	Person[subj]=3	5	ccomp	5:ccomp	_
+3	hemaʔe	maʔe	NOUN	n	Number=Sing|Person=1|Poss=Yes|Rel=Cont	2	obj	2:obj	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	izupe	upe	ADP	posp	Rel=NCont	5	iobj	5:iobj	_
+7	,	,	PUNCT	punct	_	8	punct	8:punct	_
+8	wemirekope	eko	NOUN	n	Case=Dat|Nomzr=DevPass|Rel=Corf	6	appos	6:appos	_
+9	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 335
+# text = Uʔu awaxi aʔe , iʔi Zuze izupe .
+# text_port = Ele comeu milho, José disse a ela (Harrison, 2000).
+# text_spa = Se comió el maíz, le dijo José.
+# text_en = He ate the corn, José told her.
+# [O [V O S]] V S I
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	5	ccomp	5:ccomp	_
+2	awaxi	awaxi	NOUN	n	_	1	obj	1:obj	_
+3	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	1	nsubj	1:nsubj	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+6	Zuze	Zuze	PROPN	pn	_	5	nsubj	5:nsubj	_
+7	izupe	upe	ADP	posp	Rel=NCont	5	iobj	5:iobj	_
+8	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
 # text_port = Onde John ouviu o grande porco?
