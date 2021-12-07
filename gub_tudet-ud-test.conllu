@@ -4881,7 +4881,7 @@
 # text_spa = De acuerdo, María le dijo a su marido.
 # text_en = All right, Maria told her husband.
 # [O [INTJ]] V S PP
-1	Heʔe	heʔe	INTJ	intj	Polarity=Yes	3	ccomp	3:ccomp	_
+1	Heʔe	heʔe	INTJ	intj	Polarity=Pos	3	ccomp	3:ccomp	_
 2	,	,	PUNCT	punct	_	1	punct	1:punct	_
 3	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
 4	Mari	Mari	PROPN	pn	_	3	nsubj	3:nsubj	_
@@ -4950,12 +4950,12 @@
 5	oʔok	ʔok	VERB	vt	Person[subj]=3	0	root	0:root	_
 6	kara	kara	NOUN	n	_	5	obj	5:obj	_
 7	oho	ho	VERB	vi	Person[subj]=3	5	dep	5:dep	_
-8	iko	iko	AUX	aux	Aspect=Prog|Person[nsubj]=3	5	aux	5:aux	_
+8	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	5	aux	5:aux	_
 9	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
 10	,	,	PUNCT	punct	_	5	punct	5:punct	_
 11	uzurupopok	zurupopok	VERB	vi	_	5	parataxis	5:parataxis	_
 12	oho	ho	VERB	vi	Person[subj]=3	11	dep	11:dep	_
-13	iko	iko	AUX	aux	Aspect=Prog|Person[nsubj]=3	11	aux	11:aux	_
+13	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	11	aux	11:aux	_
 14	.	.	PUNCT	punct	_	11	punct	11:punct	_
 
 # sent_id = 539
