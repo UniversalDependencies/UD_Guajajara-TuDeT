@@ -4982,7 +4982,7 @@
 3-4	tazahu	_	_	_	_	_	_	_	_
 3	taz	taz	NOUN	n	_	2	nsubj	2:nsubj	_
 4	ahu	hu	NOUN	n	_	3	nmod	3:nmod	_
-5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+5	,	,	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 357
 # text = Pepaʔu uʔar oho , naʔe umàno kurɨ .
@@ -4992,7 +4992,7 @@
 # ADV V AUX - C V PART
 1	Pepaʔu	pe	NOUN	n	Case=Loc|Emph=Yes	2	obl	2:obl	_
 2	uʔar	ʔar	VERB	vi	Person[subj]=3	0	root	0:root	_
-3	oho	ho	VERB	vi	Person[subj]=3	2	aux	2:aux	_
+3	oho	ho	VERB	vi	Person[subj]=3	2	dep	2:dep	_
 4	,	,	PUNCT	punct	_	2	punct	2:punct	_
 5	naʔe	naʔe	CCONJ	cc	_	6	discourse	6:discourse	_
 6	umàno	màno	VERB	vi	Person[subj]=3	2	parataxis	2:parataxis	_
@@ -5108,12 +5108,12 @@
 1	Nan	nan	INTJ	intj	Polarity=Neg	0	root	0:root	_
 2	,	,	PUNCT	punct	_	1	punct	1:punct	_
 3	pe	pe	NOUN	n	_	4	obl	4:obl	_
-3	rupi	upi	ADP	posp	Rel=Cont	3	case	3:case	_
-4	wata	ata	VERB	vi	Person[subj]=3	6	advcl	6:advcl	_
-5	mehe	mehe	ADV	adv	_	4	advcl	4:advcl	_
-6	wenu	enu	VERB	vt	Person[subj]=3	1	parataxis	1:parataxis	_
-7	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	6	nsubj	6:nsubj	_
-8	.	.	PUNCT	punct	_	6	punct	6:punct	_
+4	rupi	upi	ADP	posp	Rel=Cont	3	case	3:case	_
+5	wata	ata	VERB	vi	Person[subj]=3	6	advcl	6:advcl	_
+6	mehe	mehe	ADV	adv	_	4	advcl	4:advcl	_
+7	wenu	enu	VERB	vt	Person[subj]=3	1	parataxis	1:parataxis	_
+8	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	6	nsubj	6:nsubj	_
+9	.	.	PUNCT	punct	_	6	punct	6:punct	_
 
 # sent_id = 368
 # text = Maʔe Mari werur kok pupe raʔe .
@@ -5179,7 +5179,7 @@
 4	imemɨr	memɨr	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
 5	Maripe	Mari	PROPN	pn	Case=Dat	1	obl	1:obl	_
 6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
-7	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	,	,	PUNCT	punct	_	8	punct	8:punct	_
 8	kwarer	kwarer	NOUN	n	_	4	appos	4:appos	_
 9	aʔe	aʔe	PART	pcl	Person=3	8	discourse	8:discourse	_
 10	.	.	PUNCT	punct	_	8	punct	8:punct	_
