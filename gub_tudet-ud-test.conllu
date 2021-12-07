@@ -4766,6 +4766,198 @@
 4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 340
+# text = Uʔu putar paw rupi izuwi nehe .
+# text_port = Parece que ele vai comer tudo (Harrison, 2000).
+# text_spa = Parece que va a comer todo.
+# text_en = Looks like he's going to eat everything.
+# V ADV PP PART
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
+3	paw	paw	PRON	pro	PronType=Tot	1	obl	1:obl	_
+4	rupi	upi	ADP	posp	Rel=Cont	3	case	3:case	_
+5	izuwi	zuwi	ADP	posp	Rel=NCont	1	obl	1:obl	_
+6	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 341
+# text = Uzuhez katu tazahu kara aʔe .
+# text_port = Ele está com muita fome (Harrison, 2000).
+# text_spa = Él tiene mucha hambre.
+# text_en = He is very hungry.
+# V ADV S O 
+1	Uzuhez	zuhez	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	katu	katu	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3-4	tazahu	_	_	_	_	_	_	_	_
+3	tazahu	taz	NOUN	n	_	1	nsubj	1:nsubj	_
+4	ahu	hu	NOUN	n	_	3	nmod	3:nmod	_
+5	kara	kara	NOUN	n	_	1	obj	1:obj	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 342
+# text = Oʔok oho kope izuwi aʔe , uʔu aʔe no .
+# text_port = Ele vai arrancando o cará da roça (Harrison, 2000).
+# text_spa = Va a arrancar el ñame del campo.
+# text_en = He goes ripping off the yam of the countryside.
+# V AUX PP PART - V PART
+1	Oʔok	ʔok	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+3	kope	ko	NOUN	n	Case=All	1	obl	1:obl	_
+4	izuwi	zuwi	ADP	posp	Rel=NCont	1	obl	1:obl	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	uʔu	ʔu	VERB	vt	Person[subj]=3	1	conj	1:conj	_
+8	aʔe	aʔe	PART	pcl	Person=3	7	discourse	7:discourse	_
+9	no	no	PART	pcl	_	7	discourse	7:discourse	_
+10	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 343
+# text = Zaha kope kara ipiaromo , iʔi Zuze Maripe .
+# text_port = Vamos á roça buscar cará, José disse a Maria (Harrison, 2000).
+# text_spa = Vamos a buscar ñame, José le dijo a María.
+# text_en = Let's go fetching yam, José told Maria.
+# [O [V PP]] V S PP
+1	Zaha	ho	VERB	vi	Clusivity=In|Number=Plur|Person[subj]=1	6	ccomp	6:ccomp	_
+2	kope	ko	NOUN	n	Case=All	1	obl	1:obl	_
+3	kara	kara	NOUN	n	_	1	obl	1:obl	_
+4	ipiaromo	piar	ADP	posp	Case=Tra|Rel=NCont	3	case	3:case	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+7	Zuze	Zuze	PROPN	pn	_	6	nsubj	6:nsubj	_
+8	Maripe	Maripe	PROPN	pn	_	6	obl	6:obl	_
+9	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 344
+# text = Zaha ʔɨ , iʔi izupe .
+# text_port = Ta bom, respondeu (Harrison, 2000).
+# text_spa = Está bien, respondió.
+# text_en = Okay, she replied.
+# [O [V PART]] V I
+1	Zaha	ha	VERB	vi	Clusivity=In|Number=Plur|Person[subj]=1	4	ccomp	4:ccomp	_
+2	ʔɨ	ʔɨ	NOUN	n	_	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+5	izupe	upe	ADP	posp	Rel=NCont	4	iobj	4:iobj	_
+6	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 345
+# text = Eraha kok ne nehe .
+# text_port = Vocé leva o cesto (Harrison, 2000).
+# text_spa = Toma la canasta.
+# text_en = You take the basket.
+# V O S PART
+1	Eraha	ho	VERB	vt	Mood=Imp|Number=Sing|Person[subj]=2|Voice=Com	0	root	0:root	_
+2	kok	kok	NOUN	n	_	1	obj	1:obj	_
+3	ne	ne	PRON	pro	Person=2|PronType=Prs	1	nsubj	1:nsubj	_
+4	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 346
+# text = Araha putar takihe ihe nehe , mukaw ihe nehe no , iʔi Zuze izupe .
+# text_port = Eu vou levar o facão e a espingarda, ele disse a ela (Harrison, 2000).
+# text_spa = Voy a tomar el machete y la escopeta, le dijo.
+# text_en = I'm going to take the machete and the shotgun, he told her.
+# [O [V ADV O S PART - V S PART]] V S I
+1	Araha	ha	VERB	vt	Person[subj]=1|Voice=Com	12	ccomp	12:ccomp	_
+2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
+3	takihe	takihe	NOUN	n	_	1	obj	1:obj	_
+4	ihe	ihe	PRON	pro	Person=1|PronType=Prs	1	nsubj	1:nsubj	_
+5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	mukaw	mukaw	NOUN	n	_	1	conj	1:conj	_
+8	ihe	ihe	PRON	pro	PronType=Prs	7	orphan	7:orphan	_
+9	nehe	nehe	PART	pcl	Tense=Fut	7	orphan	7:orphan	_
+10	no	no	PART	pcl	_	7	orphan	7:orphan	_
+11	,	,	PUNCT	punct	_	7	punct	7:punct	_
+12	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+13	Zuze	Zuze	PROPN	pn	_	12	nsubj	12:nsubj	_
+14	izupe	upe	ADP	posp	Rel=NCont	12	iobj	12:iobj	_
+15	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = 347
+# text = Heʔe , iʔi Mari umenpe .
+# text_port = Tudo bem, Maria disse ao seu marido (Harrison, 2000).
+# text_spa = De acuerdo, María le dijo a su marido.
+# text_en = All right, Maria told her husband.
+# [O [INTJ]] V S PP
+1	Heʔe	heʔe	INTJ	intj	Polarity=Yes	3	ccomp	3:ccomp	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	Mari	Mari	PROPN	pn	_	3	nsubj	3:nsubj	_
+5	umenpe	men	NOUN	n	Case=Dat|Rel=Corf	4	obl	4:obl	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 349
+# text = Oho Zuze kope aʔe wà no .
+# text_port = José e Maria foram á roça (Harrison, 2000).
+# text_spa = José y María fueron al campo.
+# text_en = José and Mary went to the countryside.
+# V S PP PART
+1	Oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	kope	ko	NOUN	n	Case=All	1	obl	1:obl	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 350
+# text = Pe rupi wata mehe wà , wenu tazahu wà .
+# text_port = No caminho ouviram o queixado (Harrison, 2000).
+# text_spa = De camino oyeron al pecarí.
+# text_en = On the way they heard the peccary.
+# [ADV [PP V C PART]] V S PART
+1	Pe	pe	NOUN	n	_	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	wata	ata	VERB	v	Person[subj]=3	7	advcl	7:advcl	_
+4	mehe	mehe	ADV	adv	_	3	mark	3:mark	_
+5	wà	wà	PART	pcl	Number=Plur|Person=3	3	discourse	3:discourse	_
+6	,	,	PUNCT	punct	_	3	punct	3:punct	_
+7	wenu	enu	VERB	vt	Person[subj]=3	0	root	0:root	_
+8-9	tazahu	_	_	_	_	_	_	_	_
+8	taz	taz	NOUN	n	_	7	obj	7:obj	_
+9	ahu	hu	NOUN	n	_	8	nmod	8:nmod	_
+10	wà	wà	PART	pcl	Number=Plur|Person=3	7	discourse	7:discourse	_
+11	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 352
+# text = Azuka putar ihe kurɨ , iʔi izupe .
+# text_port = Eu vou matá-lo logo, disse (Harrison, 2000).
+# text_spa = Lo mataré pronto, dijo.
+# text_en = I'll kill him soon, he said.
+# [O [V ADV S PART]] V I
+1	Azuka	zuka	VERB	v	Person[subj]=1	6	ccomp	6:ccomp	_
+2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
+3	ihe	ihe	PRON	pro	Person=1|PronType=Prs	1	nsubj	1:nsubj	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+7	izupe	upe	ADP	posp	Rel=NCont	6	iobj	6:iobj	_
+8	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 353
+# text = Tazahu aʔe , oʔok kara oho iko aʔe , uzurupopok oho iko .
+# text_port = O queixado estava arrancando carã, fazendo um barulho enorme com a boca (Harrison, 2000).
+# text_spa = El pecarí estaba arrancando un granizo, haciendo un gran ruido con la boca.
+# text_en = The peccary was plucking a hail, making a huge noise with his mouth.
+# S PART V O AUX AUX PART - V AUX AUX
+1-2	Tazahu	_	_	_	_	_	_	_	_
+1	Taz	taz	NOUN	n	_	5	nsubj	5:nsubj	_
+2	ahu	hu	NOUN	n	_	1	nmod	1:nmod	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	oʔok	ʔok	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	kara	kara	NOUN	n	_	5	obj	5:obj	_
+7	oho	ho	VERB	vi	Person[subj]=3	5	dep	5:dep	_
+8	iko	iko	AUX	aux	Aspect=Prog|Person[nsubj]=3	5	aux	5:aux	_
+9	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+10	,	,	PUNCT	punct	_	5	punct	5:punct	_
+11	uzurupopok	zurupopok	VERB	vi	_	5	parataxis	5:parataxis	_
+12	oho	ho	VERB	vi	Person[subj]=3	11	dep	11:dep	_
+13	iko	iko	AUX	aux	Aspect=Prog|Person[nsubj]=3	11	aux	11:aux	_
+14	.	.	PUNCT	punct	_	11	punct	11:punct	_
+
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
 # text_port = Onde John ouviu o grande porco?
