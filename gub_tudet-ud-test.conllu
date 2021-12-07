@@ -4958,6 +4958,232 @@
 13	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	11	aux	11:aux	_
 14	.	.	PUNCT	punct	_	11	punct	11:punct	_
 
+# sent_id = 355
+# text = Oho Zuze huakeaʔi aʔe uzapi .
+# text_port = Foi mais perto (Harrison, 2000).
+# text_spa = Estaba más cerca.
+# text_en = It was closer.
+# AUX PP PART V
+1	Oho	ho	VERB	vi	Person[subj]=3	5	dep	5:dep	_
+2	Zuze	Zuze	PROPN	pn	_	5	obl	5:obl	_
+3	huakeaʔi	uwake	ADP	posp	Dimin=Yes|Rel=NCont	2	case	2:case	_
+4	aʔe	aʔe	PRON	pro	Person=3	5	discourse	5:discourse	_
+5	uzapi	api	VERB	vi	Person[subj]=3	0	root	0:root	_
+6	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 356
+# text = Kope uzapi tazahu , oho zepe tazahu izuwi .
+# text_port = Atirou! Atirou no queixado la na roça (Harrison, 2000).
+# text_spa = ¡Tirado! Disparó al pecarí en el campo.
+# text_en = Tossed! He shot the peccary in the field.
+# PP V S
+1	Kope	ko	NOUN	n	Case=Loc	2	obl	2:obl	_
+2	uzapi	api	VERB	vi	Person[subj]=3	0	root	0:root	_
+3-4	tazahu	_	_	_	_	_	_	_	_
+3	taz	taz	NOUN	n	_	2	nsubj	2:nsubj	_
+4	ahu	hu	NOUN	n	_	3	nmod	3:nmod	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 357
+# text = Pepaʔu uʔar oho , naʔe umàno kurɨ .
+# text_port = (O queixado) caiu e morreu (Harrison, 2000).
+# text_spa = El pecarí cayó y murió.
+# text_en = The peccary fell and died.
+# ADV V AUX - C V PART
+1	Pepaʔu	pe	NOUN	n	Case=Loc|Emph=Yes	2	obl	2:obl	_
+2	uʔar	ʔar	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	oho	ho	VERB	vi	Person[subj]=3	2	aux	2:aux	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	naʔe	naʔe	CCONJ	cc	_	6	discourse	6:discourse	_
+6	umàno	màno	VERB	vi	Person[subj]=3	2	parataxis	2:parataxis	_
+7	kurɨ	kurɨ	PART	pcl	_	6	discourse	6:discourse	_
+8	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 358
+# text = Weraha Zuze tazahu wekohawpe aʔe no .
+# text_port = José levou o queixado á sua moradia (Harrison, 2000).
+# text_spa = José llevó al pecarí a su casa.
+# text_en = José brought the peccary to his house.
+# V S O PP
+1	Weraha	ha	VERB	vt	Person[subj]=3|Voice=Com	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3-4	tazahu	_	_	_	_	_	_	_	_
+3	taz	taz	NOUN	n	_	1	obj	1:obj	_
+4	ahu	hu	NOUN	n	_	3	nmod	3:nmod	_
+5	wekohawpe	iko	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Corf	1	obl	1:obl	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 360
+# text = Maʔe tazahu uʔu kope raʔe .
+# text_port = O que foi que o queixado comeu na roça (Harrison, 2000)?
+# text_spa = ¿Qué comió el pecarí en el campo?
+# text_en = What did the peccary eat at all at the countryside?
+# O S V PP PART
+1	Maʔe	maʔe	NOUN	n	_	4	obj	4:obj	_
+2-3	tazahu	_	_	_	_	_	_	_	_
+2	taz	taz	NOUN	n	_	4	nsubj	4:nsubj	_
+3	ahu	hu	NOUN	n	_	2	nmod	2:nmod	_
+4	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	kope	ko	NOUN	n	Case=All	4	obl	4:obl	_
+6	raʔe	raʔe	PART	pcl	Tense=Past	4	discourse	4:discourse	_
+7	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 361
+# text = Pakuri ruʔu .
+# text_port = Foi bacuri? (Harrison, 2000) 
+# text_spa = Fue bacuri?
+# text_en = Was it bacurí?
+# V PART
+1	Pakuri	pakuri	NOUN	n	_	0	root	0:root	_
+2	ruʔu	ruʔu	PART	pcl	Int=Yes	1	discourse	1:discourse	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 362
+# text = Awaxi ruʔu .
+# text_port = Foi milho? (Harrison, 2000) 
+# text_spa = Fue maíz?
+# text_en = Was it maize?
+# V PART
+1	Awaxi	awaxi	NOUN	n	_	0	root	0:root	_
+2	ruʔu	ruʔu	PART	pcl	Int=Yes	1	discourse	1:discourse	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 363
+# text = Nan , kara uʔu aʔe .
+# text_port = Não, ele comeu cara (Harrison, 2000).
+# text_spa = No, él comió la cara.
+# text_en = No, he ate face.
+# INTJ - O V S
+1	Nan	nan	INTJ	intj	Polarity=Neg	0	root	0:root	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	kara	kara	NOUN	n	_	4	obj	4:obj	_
+4	uʔu	ʔu	VERB	vt	Person[subj]=3	1	parataxis	1:parataxis	_
+5	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	4	nsubj	4:nsubj	_
+6	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 364
+# text = Maʔepe Zuze wenu tazahu raʔe .
+# text_port = Aonde José ouviu o queixado? (Harrison, 2000) 
+# text_spa = ¿Dónde escuchó José al pecarí?
+# text_en = Where did José hear the peccary?
+# PP S V O PART
+1	Maʔepe	maʔe	PRON	pro	Case=Loc|PronType=Int	3	obl	3:obl	_
+2	Zuze	Zuze	PROPN	pn	_	3	nsubj	3:nsubj	_
+3	wenu	enu	VERB	vt	Person[subj]=3	0	root	0:root	_
+4-5	tazahu	_	_	_	_	_	_	_	_
+4	taz	taz	NOUN	n	_	3	obj	3:obj	_
+5	ahu	hu	NOUN	n	_	4	nmod	4:nmod	_
+6	raʔe	raʔe	PART	pcl	Tense=Past	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 365
+# text = Tawpe ruʔu .
+# text_port = Foi na aldeia? (Harrison, 2000) 
+# text_spa = ¿Estaba en el pueblo?
+# text_en = Was it in the village?
+# PP PART
+1	Tawpe	taw	NOUN	n	Case=Loc	0	root	0:root	_
+2	ruʔu	ruʔu	PART	pcl	Int=Yes	1	discourse	1:discourse	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 366
+# text = Tàpuz me ruʔu .
+# text_port = Foi na casa? (Harrison, 2000) 
+# text_spa = ¿Estaba en la casa?
+# text_en = Was it in the house?
+# PP PART
+1	Tàpuz	àpuz	NOUN	n	Rel=Abs	0	root	0:root	_
+2	me	me	ADP	posp	Rel=Cont	1	case	1:case	_
+3	ruʔu	ruʔu	PART	pcl	Int=Yes	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 367
+# text = Nan , pe rupi wata mehe wenu aʔe .
+# text_port = Não, ele ouviu quando andava no caminho (Harrison, 2000).
+# text_spa = No, escuchó mientras caminaba en el camino.
+# text_en = No, he heard as he walked on the way.
+# INTJ - [ADV [PP V C]] V S
+1	Nan	nan	INTJ	intj	Polarity=Neg	0	root	0:root	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	pe	pe	NOUN	n	_	4	obl	4:obl	_
+3	rupi	upi	ADP	posp	Rel=Cont	3	case	3:case	_
+4	wata	ata	VERB	vi	Person[subj]=3	6	advcl	6:advcl	_
+5	mehe	mehe	ADV	adv	_	4	advcl	4:advcl	_
+6	wenu	enu	VERB	vt	Person[subj]=3	1	parataxis	1:parataxis	_
+7	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	6	nsubj	6:nsubj	_
+8	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 368
+# text = Maʔe Mari werur kok pupe raʔe .
+# text_port = O que foi que Maria trouxe no cesto? (Harrison, 2000) 
+# text_spa = ¿Qué trajo Mary en la canasta?
+# text_en = What did Mary brought in the basket?
+# O S V PP PART
+1	Maʔe	maʔe	NOUN	n	_	3	obj	3:obj	_
+2	Mari	Mari	PROPN	pro	_	3	nsubj	3:nsubj	_
+3	werur	zur	VERB	vt	Person[subj]=3|Voice=Com	0	root	0:root	_
+4	kok	kok	NOUN	n	_	3	obl	3:obl	_
+5	pupe	pupe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	raʔe	raʔe	PART	pcl	Tense=Past	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 369
+# text = Tazahu ruʔu .
+# text_port = Foi o queixado? (Harrison, 2000) 
+# text_spa = ¿Fue el pecarí?
+# text_en = Was it the peccary?
+# V PART
+1-2	Tazahu	_	_	_	_	_	_	_	_
+1	Taz	taz	NOUN	n	_	0	root	0:root	_
+2	ahu	hu	NOUN	n	_	1	nmod	1:nmod	_
+3	ruʔu	ruʔu	PART	pcl	Int=Yes	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 370
+# text = Nan , zapepo ruʔu .
+# text_port = Não, foi uma panela? (Harrison, 2000) 
+# text_spa = No, ¿fue una sartén?
+# text_en = No, Was it a pan?
+# INTJ - V PART
+1	Nan	nan	INTJ	intj	Polarity=Neg	0	root	0:root	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	zapepo	zapepo	NOUN	n	_	1	parataxis	1:parataxis	_
+4	ruʔu	ruʔu	PART	pcl	Int=Yes	3	discourse	3:discourse	_
+5	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 371
+# text = Nan , kara werur wekohawpe aʔe .
+# text_port = Não, foi o cara que ela trouxe para sua casa (Harrison, 2000).
+# text_spa = No, fue el ñame lo que ella trajo a su casa.
+# text_en = No, it was the yam what she brought to her house.
+# INTJ - O V PP PART
+1	Nan	nan	INTJ	intj	Polarity=Neg	0	root	0:root	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	kara	kara	NOUN	n	_	4	obj	4:obj	_
+4	werur	zur	VERB	vt	Person[subj]=3|Voice=Com	1	parataxis	1:parataxis	_
+5	wekohawpe	eko	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Corf	4	obl	4:obl	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+7	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 373
+# text = Heta amo ae imemɨr Maripe aʔe , kwarer aʔe .
+# text_port = Maria tem um outro filho (Harrison, 2000).
+# text_spa = Mary tiene otro niño.
+# text_en = Mary has another son.
+# V S PP PART
+1	Heta	eta	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	amo	amo	DET	det	PronType=Ind	4	det	4:det	_
+3	ae	ae	PART	pcl	Emph=Yes	2	discourse	2:discourse	_
+4	imemɨr	memɨr	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
+5	Maripe	Mari	PROPN	pn	Case=Dat	1	obl	1:obl	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	,	,	PUNCT	punct	_	1	punct	1:punct	_
+8	kwarer	kwarer	NOUN	n	_	4	appos	4:appos	_
+9	aʔe	aʔe	PART	pcl	Person=3	8	discourse	8:discourse	_
+10	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
 # text_port = Onde John ouviu o grande porco?
