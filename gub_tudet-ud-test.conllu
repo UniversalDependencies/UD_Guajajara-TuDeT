@@ -5426,6 +5426,175 @@
 7	rehe	ehe	ADP	posp	Rel=Cont	6	case	6:case	_
 8	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
+# sent_id = 392
+# text = Kwarahɨ haku .
+# text_port = O sol está quente (Harrison, 2000).
+# text_spa = El sol está caliente.
+# text_en = The sun is hot.
+# S V
+1	Kwarahɨ	kwarahɨ	NOUN	n	_	2	nsubj	2:nsubj	_
+2	haku	aku	VERB	vd	Rel=NCont	0	root	0:root	_
+3	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 393
+# text = Ikatu ahɨ kwarahɨ Maripe .
+# text_port = Maria gosta do sol (Harrison, 2000).
+# text_spa = A María le gusta el sol.
+# text_en = Maria likes the sun.
+# V ADV S PP
+1	Ikatu	katu	VERB	vd	Rel=NCont	0	root	0:root	_
+2	ahɨ	ahɨ	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	kwarahɨ	kwarahɨ	NOUN	n	_	1	nsubj	1:nsubj	_
+4	Maripe	Mari	PROPN	pn	Case=Dat	1	obl	1:obl	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 394
+# text = Omono kɨhaw kwarahɨ rupi .
+# text_port = Ela coloca a rede no sol (Harrison, 2000).
+# text_spa = Ella pone la red al sol.
+# text_en = She puts the net in the sun.
+# V O PP
+1	Omono	ho	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+2	kɨhaw	kɨhaw	NOUN	n	_	1	nsubj	1:nsubj	_
+3	kwarahɨ	kwarahɨ	NOUN	n	_	1	obl	1:obl	_
+4	rupi	upi	ADP	posp	Rel=Cont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 395
+# text = Ipururuhu zanekɨhaw , aʔe rupi ximono kwarahɨ rupi zane , imukàgkarpa zane , iʔi Mari Karipe .
+# text_port = Nós suamos nas redes e então precisamos colocar no sol para secá-las, ela explicou a Karita (Harrison, 2000).
+# text_spa = Sudamos en las redes y luego tenemos que ponerlos al sol para secarlos, ella le explicó a Karita.
+# text_en = We sweat on the nets and then we need to put in the sun to dry them, she explained to Karita.
+# [O [V PP - PP V PP S [ADV [V S]]]] V S PP
+1	Ipururuhu	pururuhu	VERB	vd	Rel=NCont	14	ccomp	14:ccomp	_
+2	zanekɨhaw	kɨhaw	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1|Poss=Yes|Rel=Cont	1	nsubj	1:nsubj	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	6	obl	6:obl	_
+5	rupi	upi	ADP	posp	Rel=Cont	4	case	4:case	_
+6	ximono	ho	VERB	vi	Clusivity=In|Number=Plur|Person[subj]=1|Voice=Cau	1	conj	1:conj	_
+7	kwarahɨ	kwarahɨ	NOUN	n	_	6	obl	6:obl	_
+8	rupi	upi	ADP	posp	Rel=Cont	7	case	7:case	_
+9	zane	zane	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	_
+10	,	,	PUNCT	punct	_	6	punct	6:punct	_
+11	imukàgkarpa	mukàg	VERB	vt	Rel=NCont|VerbForm=Ger|Voice=Cau	6	advcl	6:advcl	_
+12	zane	zane	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	11	nsubj	11:nsubj	_
+13	,	,	PUNCT	punct	_	11	punct	11:punct	_
+14	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+15	Mari	Mari	PROPN	pn	_	14	nsubj	14:nsubj	_
+16	Karipe	Karipe	PROPN	pn	_	14	obl	14:obl	_
+17	.	.	PUNCT	punct	_	14	punct	14:punct	_
+
+# sent_id = 396
+# text = Aze kɨn , iʔi Kari izupe , uhɨpe .
+# text_port = Está certo, Karita respondeu (Harrison, 2000).
+# text_spa = Así es, Karita respondió.
+# text_en = That's right, Karita replied.
+# [O [PART]] V S I
+1	Aze	aze	PART	pcl	_	4	ccomp	4:ccomp	_
+2	kɨn	kɨn	PART	pcl	_	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	Kari	Kari	PROPN	pn	_	4	nsubj	4:nsubj	_
+6	izupe	upe	ADP	posp	Rel=NCont	4	iobj	4:iobj	_
+7	,	,	PUNCT	punct	_	8	punct	8:punct	_
+8	uhɨpe	hɨ	NOUN	n	Case=Dat|Rel=Corf	6	appos	6:appos	_
+9	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 397
+# text = Ikatu nezewe kɨn , xiraha zanekɨhaw katupe zane rihi kurɨ , iʔi izupe .
+# text_port = Está bom assim, vamos colocar nossas redes lá fora, ela disse (Harrison, 2000).
+# text_spa = Es bueno, vamos a colocar nuestras redes por ahí, dijo.
+# text_en = It's good, let's put our nets out there, she said.
+# [O [V ADV PART - V O PP S PART]] V I
+1	Ikatu	katu	VERB	vd	Rel=NCont	12	ccomp	12:ccomp	_
+2	nezewe	nezewe	ADV	adv	_	1	advmod	1:advmod	_
+3	kɨn	kɨn	PART	pcl	_	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	xiraha	ha	VERB	vi	Clusivity=In|Number=Plur|Person[subj]=1|Voice=Com	1	conj	1:conj	_
+6	zanekɨhaw	kɨhaw	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1|Poss=Yes|Rel=Cont	5	obj	5:obj	_
+7	katupe	katu	NOUN	n	Case=Loc	5	obl	5:obl	_
+8	zane	zane	PRON	pro	Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj	_
+9	rihi	rihi	PART	pcl	_	5	discourse	5:discourse	_
+10	kurɨ	kurɨ	PART	pcl	_	5	discourse	5:discourse	_
+11	,	,	PUNCT	punct	_	5	punct	5:punct	_
+12	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+13	izupe	upe	ADP	posp	Rel=NCont	12	iobj	12:iobj	_
+14	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 398
+# text = Pɨhaw aguza wata oho waiko wemiʔu ràm hekarpa aʔe wà .
+# text_port = A noite os ratos vao procurando comida (Harrison, 2000).
+# text_spa = La noche las ratas están buscando comida.
+# text_en = The night the rats are looking for food.
+# PP S V AUX AUX [ADV [O V PART]]
+1	Pɨhaw	pɨ	NOUN	n	Nomzr=Circ	3	obl	3:obl	_
+2	aguza	aguza	NOUN	n	_	3	nsubj	3:nsubj	_
+3	wata	ata	VERB	vi	Number=Plur|Person[subj]=3	0	root	0:root	_
+4	oho	ho	VERB	vi	Person[subj]=3	3	dep	3:dep	_
+5	waiko	iko	AUX	aux	Number=Plur|Person=3	3	aux	3:aux	_
+6	wemiʔuràm	ʔu	NOUN	n	Nomzr=DevPass|Rel=Corf|Tense=Fut	8	obj	8:obj	_
+7	hekarpa	ekar	VERB	vt	Rel=NCont|VerbForm=Ger	3	advcl	3:advcl	_
+8	aʔe	aʔe	PART	pcl	Person=3	7	discourse	7:discourse	_
+9	wà	wà	PART	pcl	Number=Plur|Person=3	7	discourse	7:discourse	_
+10	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 399
+# text = Pɨhaw ur aguza Zuze ràpuz me .
+# text_port = Uma noite um rato veio a casa de José (Harrison, 2000).
+# text_spa = Una noche, un ratón vino a la casa de José.
+# text_en = One night a mouse came to José's house.
+# PP V S PP
+1	Pɨhaw	pɨ	NOUN	n	Nomzr=Circ	2	obl	2:obl	_
+2	ur	zur	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	aguza	aguza	NOUN	n	_	2	nsubj	2:nsubj	_
+4	Zuze	Zuze	PROPN	pn	_	5	nmod	5:nmod	_
+5	ràpuz	àpuz	NOUN	n	Rel=Cont	2	obl	2:obl	_
+6	me	me	ADP	posp	Rel=Cont	5	case	5:case	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 400
+# text = Wekar wemiʔu ràm iko .
+# text_port = Ele procurava comida (Harrison, 2000).
+# text_spa = Buscó comida.
+# text_en = He looked for food.
+# V O AUX
+1	Wekar	ekar	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	wemiʔuràm	ʔu	NOUN	n	Nomzr=DevPass|Rel=Corf|Tense=Fut	1	obj	1:obj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	1:aux	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 401
+# text = Wekar temiʔu ɨwɨ rehe har Zuze ràpuz me har .
+# text_port = Ele procurava comida no chão da casa de Jose (Harrison, 2000).
+# text_spa = Buscó comida en el suelo de la casa de José.
+# text_en = He sought food in the floor of Jose's house.
+# V O PP
+1	Wekar	ekar	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	temiʔu	ʔu	NOUN	n	Nomzr=DevPass|Rel=Abs	1	obj	1:obj	_
+3	ɨwɨ	ɨwɨ	NOUN	n	_	1	obl	1:obl	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	har	har	ADV	adv	Nomzr=Ag	3	advmod	3:advmod	_
+6	Zuze	Zuze	PROPN	pn	_	7	nmod	7:nmod	_
+7	ràpuz	àpuz	NOUN	n	Rel=Cont	3	nmod	3:nmod	_
+8	me	me	ADP	posp	Rel=Cont	7	case	7:case	_
+9	har	har	ADV	adv	Nomzr=Ag	7	advmod	7:advmod	_
+10	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 402
+# text = Uzàn ko rupi , uzàn kwe rupi .
+# text_port = Ele correu para ca e para lá (Harrison, 2000).
+# text_spa = Corrió de aquí para allá
+# text_en = He ran from here to there.
+# V PP - V PP
+1	Uzàn	zàn	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	ko	ko	PRON	pro	PronType=Dem	1	obl	1:obl	_
+3	rupi	upi	ADP	posp	Rel=Cont	2	case	2:case	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	uzàn	zàn	VERB	vi	Person[subj]=3	1	conj	1:conj	_
+6	kwe	kwe	PRON	pro	PronType=Dem	5	obl	5:obl	_
+7	rupi	upi	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
 # text_port = Onde John ouviu o grande porco?
