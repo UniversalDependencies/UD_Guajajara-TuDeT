@@ -5519,10 +5519,10 @@
 11	,	,	PUNCT	punct	_	5	punct	5:punct	_
 12	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
 13	izupe	upe	ADP	posp	Rel=NCont	12	iobj	12:iobj	_
-14	.	.	PUNCT	punct	_	1	punct	1:punct	_
+14	.	.	PUNCT	punct	_	12	punct	12:punct	_
 
 # sent_id = 398
-# text = Pɨhaw aguza wata oho waiko wemiʔu ràm hekarpa aʔe wà .
+# text = Pɨhaw aguza wata oho waiko wemiʔuràm hekarpa aʔe wà .
 # text_port = A noite os ratos vao procurando comida (Harrison, 2000).
 # text_spa = La noche las ratas están buscando comida.
 # text_en = The night the rats are looking for food.
@@ -5553,7 +5553,7 @@
 7	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 400
-# text = Wekar wemiʔu ràm iko .
+# text = Wekar wemiʔuràm iko .
 # text_port = Ele procurava comida (Harrison, 2000).
 # text_spa = Buscó comida.
 # text_en = He looked for food.
