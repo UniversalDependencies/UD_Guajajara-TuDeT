@@ -5228,7 +5228,7 @@
 2	kwaxi	kwaxi	NOUN	n	_	1	obj	1:obj	_
 3	kwarerpe	kwarer	NOUN	n	Case=Dat	1	obl	1:obl	_
 4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
-5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	,	,	PUNCT	punct	_	6	punct	6:punct	_
 6	waʔɨrpe	aʔɨr	NOUN	n	Case=Dat|Rel=Corf	3	appos	3:appos	_
 7	kurɨ	kurɨ	PART	pcl	_	6	discourse	6:discourse	_
 8	.	.	PUNCT	punct	_	6	punct	6:punct	_
@@ -5271,7 +5271,7 @@
 4	kwaw	kwaw	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
 5	kwaxi	kwaxi	NOUN	n	_	6	obj	6:obj	_
 6	ipoz	poz	NOUN	n	Rel=NCont	2	obj	2:obj	_
-7	taw	taw	NOUN	n	_	6	advmod	6:advmod	_
+7	taw	taw	ADV	adv	Nomzr=Circ	6	advmod	6:advmod	_
 8	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
 9	,	,	PUNCT	punct	_	2	punct	2:punct	_
 10	nukwaw	kwaw	VERB	vt	Person[subj]=3|Polarity=Neg	2	parataxis	2:parataxis	_
@@ -5318,11 +5318,11 @@
 2	katu	katu	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
 3	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
 4	ipoztaw	poz	NOUN	n	Nomzr=Circ|Rel=NCont	1	obj	1:obj	_
-6	,	,	PUNCT	punct	_	1	punct	1:punct	_
-7	ukwaw	ukwaw	VERB	vt	Person[subj]=3	1	parataxis	1:parataxis	_
-8	wewer	wewer	ADV	adv	_	7	advmod	7:advmod	_
-9	hemiʔu	ʔu	NOUN	n	Nomzr=DevPass|Rel=NCont	7	obj	7:obj	_
-10	.	.	PUNCT	punct	_	7	punct	7:punct	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	ukwaw	ukwaw	VERB	vt	Person[subj]=3	1	parataxis	1:parataxis	_
+7	wewer	wewer	ADV	adv	_	6	advmod	6:advmod	_
+8	hemiʔu	ʔu	NOUN	n	Nomzr=DevPass|Rel=NCont	6	obj	6:obj	_
+9	.	.	PUNCT	punct	_	6	punct	6:punct	_
 
 # sent_id = 384
 # text = Ikatuahɨ kwaxi kwarerpe .
@@ -5372,7 +5372,7 @@
 4	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 388
-# text = Amo ʔar mehe , imunar ipira imihirpɨràm rehe .
+# text = Amo ʔar mehe , imunar ipira imihir pɨràm rehe .
 # text_port = Um dia ele robou peixe que Maria ia assar (Harrison, 2000).
 # text_spa = Un día, robó el pescado que María iba a asar.
 # text_en = One day he stealed the fish that Maria was going to roast.
@@ -5425,10 +5425,6 @@
 7	ikwà	kwà	NOUN	n	Rel=NCont	6	obl	6:obl	_
 8	rehe	ehe	ADP	posp	Rel=Cont	7	case	7:case	_
 9	.	.	PUNCT	punct	_	6	punct	6:punct	_
-10	Uzàn	Uzàn	PROPN	pn	_	_	_	_	_
-11	oho	ho	VERB	vi	Person[subj]=3	_	_	_	_
-12	izuwi	zuwi	ADP	posp	Rel=NCont	_	_	_	_
-13	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
