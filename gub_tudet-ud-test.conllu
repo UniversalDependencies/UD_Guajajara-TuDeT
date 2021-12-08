@@ -5412,19 +5412,19 @@
 4	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 391
-# text = I kwar mehe , kwaxi uxiʔu ikwà rehe .
+# text = Ikwar mehe , kwaxi uxiʔu ikwà rehe .
 # text_port = O coati mordeu o dedo dela (Harrison, 2000)!
 # text_spa = ¡El coati mordió su dedo!
 # text_en = The coati bit her finger!
 # [ADV [V C]] S V PP
-1	Ikwar	kwar	VERB	vi	Rel=NCont	6	advcl	6:advcl	_
-3	mehe	mehe	ADV	adv	_	1	mark	1:mark	_
-4	,	,	PUNCT	punct	_	1	punct	1:punct	_
-5	kwaxi	kwaxi	NOUN	n	_	6	nsubj	6:nsubj	_
-6	uxiʔu	xiʔu	VERB	v	Person[subj]=3	0	root	0:root	_
-7	ikwà	kwà	NOUN	n	Rel=NCont	6	obl	6:obl	_
-8	rehe	ehe	ADP	posp	Rel=Cont	7	case	7:case	_
-9	.	.	PUNCT	punct	_	6	punct	6:punct	_
+1	Ikwar	kwar	VERB	vi	Rel=NCont	5	advcl	5:advcl	_
+2	mehe	mehe	ADV	adv	_	1	mark	1:mark	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	kwaxi	kwaxi	NOUN	n	_	5	nsubj	5:nsubj	_
+5	uxiʔu	xiʔu	VERB	v	Person[subj]=3	0	root	0:root	_
+6	ikwà	kwà	NOUN	n	Rel=NCont	5	obl	5:obl	_
+7	rehe	ehe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
