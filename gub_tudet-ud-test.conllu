@@ -5595,6 +5595,480 @@
 7	rupi	upi	ADP	posp	Rel=Cont	6	case	6:case	_
 8	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
+# sent_id = 403
+# text = Hakuahɨ Zuze ihɨ aʔe kurɨ .
+# text_port = A mãe de José estava com febre (Harrison, 2000).
+# text_spa = La madre de José tenía fiebre.
+# text_en = José's mother had a fever.
+# V S PART
+1	Hakuahɨ	aku	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
+3	ihɨ	hɨ	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 404
+# text = Iàkàgahɨ izupe no .
+# text_port = Tinha dor de cabeça também (Harrison, 2000).
+# text_spa = También tenía un dolor de cabeza.
+# text_en = She had a headache too.
+# V I PART
+1-2	Iàkàgahɨ	_	_	_	_	_	_	_	_
+1	Iàkàg	àkàg	NOUN	n	Rel=NCont	2	nsubj	2:nsubj	_
+2	ahɨ	ahɨ	VERB	vd	Rel=Cont	0	root	0:root	_
+3	izupe	upe	ADP	posp	Rel=NCont	2	iobj	2:iobj	_
+4	no	no	PART	pcl	_	2	discourse	2:discourse	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 405
+# text = Hakuahɨ tue .
+# text_port = A febre era alta (Harrison, 2000).
+# text_spa = La fiebre era alta.
+# text_en = The fever was high.
+# V ADV
+1	Hakuahɨ	aku	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	tue	tue	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 406
+# text = Iàkàgahɨ tue no .
+# text_port = A dor de cabeça era forte (Harrison, 2000).
+# text_spa = El dolor de cabeza era fuerte.
+# text_en = The headache was strong.
+# V PART
+1-2	Iàkàgahɨ	_	_	_	_	_	_	_	_
+1	Iàkàg	àkàg	NOUN	n	Rel=NCont	2	nsubj	2:nsubj	_
+2	ahɨ	ahɨ	VERB	vd	Rel=Cont	0	root	0:root	_
+3	tue	tue	PART	pcl	Emph=Yes	2	discourse	2:discourse	_
+4	no	no	PART	pcl	_	2	discourse	2:discourse	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 407
+# text = Heàkàgahɨ ʔɨ , iʔi umemɨrpe .
+# text_port = A minha cabeça doi ela disse ao seu filho (Harrison, 2000).
+# text_spa = Me dolió la cabeza, le dijo a su hijo.
+# text_en = My head hurt she told her son.
+# [O [V PART]] V PP
+1-2	Heàkàgahɨ	_	_	_	_	_	_	_	_
+1	Heàkàg	àkàg	NOUN	n	Number=Sing|Person[psor]=1|Poss=Yes	2	nsubj	2:nsubj	_
+2	ahɨ	ahɨ	VERB	vd	Rel=Cont	5	ccomp	5:ccomp	_
+3	ʔɨ	ʔɨ	PART	pcl	_	2	discourse	2:discourse	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	umemɨrpe	memɨr	NOUN	n	Case=Dat|Rel=Corf	5	obl	5:obl	_
+7	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 408
+# text = Emur muhàg ihewe rihi ʔɨ , iʔi izupe .
+# text_port = Traz remédio para mim (Harrison, 2000).
+# text_spa = Trae medicinas para mí, le dijo.
+# text_en = Bring a remedy for me, le dijo.
+# [O [V S PP PART]] V I
+1	Emur	zur	VERB	vt	Mood=Imp|Person[nsubj]=2|Voice=Cau	7	ccomp	7:ccomp	_
+2	muhàg	hàg	NOUN	n	Voice=Cau	1	obj	1:obj	_
+3	ihewe	we	ADP	posp	Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	1	obl	1:obl	_
+4	rihi	rihi	PART	pcl	_	1	discourse	1:discourse	_
+5	ʔɨ	ʔɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+8	izupe	upe	ADP	posp	Rel=NCont	7	iobj	7:iobj	_
+9	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 409
+# text = Naʔe Zuze aʔe nehe kurɨ , oho putar tawpe muhàg ipiaromo aʔe nehe kurɨ .
+# text_port = Então José vai á vila comprar remédio (Harrison, 2000).
+# text_spa = Así que José irá a la aldea para comprar medicamentos.
+# text_en = So José will go to the village to buy medicine.
+# C S PART V ADV PP PP PART
+1	Naʔe	naʔe	CCONJ	cc	_	7	discourse	7:discourse	_
+2	Zuze	Zuze	PROPN	pn	_	7	nsubj	7:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	nehe	nehe	PART	pcl	Tense=Fut	2	discourse	2:discourse	_
+5	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
+6	,	,	PUNCT	punct	_	2	punct	2:punct	_
+7	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+8	putar	putar	ADV	adv	Tense=Fut	7	advmod	7:advmod	_
+9	tawpe	taw	NOUN	n	Case=All	7	obl	7:obl	_
+10	muhàg	hàg	NOUN	n	Voice=Cau	7	obl	7:obl	_
+11	ipiaromo	piar	ADP	posp	Case=Tra|Rel=NCont	10	case	10:case	_
+12	aʔe	aʔe	PART	pcl	Person=3	7	discourse	7:discourse	_
+13	nehe	nehe	PART	pcl	Tense=Fut	7	discourse	7:discourse	_
+14	kurɨ	kurɨ	PART	pcl	_	7	discourse	7:discourse	_
+15	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 410
+# text = Werur putar muhàg izupe nehe , uhɨpe nehe .
+# text_port = Ele vai trazer remédio para sua mãe (Harrison, 2000).
+# text_spa = Él traerá medicina a su madre.
+# text_en = He will bring medicine to his mother.
+# V ADV O I PART
+1	Werur	zur	VERB	vt	Person[subj]=3|Voice=Com	0	root	0:root	_
+2	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
+3	muhàg	hàg	NOUN	n	Voice=Cau	1	obj	1:obj	_
+4	izupe	upe	ADP	posp	Rel=NCont	1	iobj	1:iobj	_
+5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	7	punct	7:punct	_
+7	uhɨpe	hɨ	NOUN	n	Case=Dat|Rel=Corf	4	appos	4:appos	_
+8	nehe	nehe	PART	pcl	Tense=Fut	7	discourse	7:discourse	_
+9	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 411
+# text = Umeʔeg kar putar Zuze muhàg oho tawpe aʔe nehe
+# text_port = José vai comprar remédio na vila (Harrison, 2000).
+# text_spa = José comprará medicina en el pueblo.
+# text_en = José will buy medicine in the village.
+# V ADV S O AUX PP PART
+1	Umeʔeg	meʔeg	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	kar	kar	ADV	adv	Voice=Cau	1	advmod	1:advmod	_
+3	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
+4	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+5	muhàg	hàg	NOUN	n	Voice=Cau	1	obj	1:obj	_
+6	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+7	tawpe	taw	NOUN	n	Case=All	1	obl	1:obl	_
+8	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+9	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+
+# sent_id = 412
+# text = Heta teteaʔu muhàg tawpe maʔe meʔegawpe .
+# text_port = Lá tem muito remédio no mercado (Harrison, 2000).
+# text_spa = Hay mucha medicina en el mercado.
+# text_en = There is a lot of medicine on the market.
+# V ADV S PP 
+1	Heta	eta	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	teteaʔu	tete	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	muhàg	hàg	NOUN	n	Voice=Cau	1	nsubj	1:nsubj	_
+4	tawpe	taw	NOUN	n	Case=Loc	1	obl	1:obl	_
+5	maʔe	maʔe	NOUN	n	_	6	nmod	6:nmod	_
+6	meʔegawpe	meʔeg	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Cont	1	obl	1:obl	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 414
+# text = Heta xu kaʔape .
+# text_port = Têm espinhos no mato (Harrison, 2000).
+# text_spa = Hay espinas en el arbusto.
+# text_en = There are thorns in the bush.
+# V S PP
+1	Heta	eta	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	xu	xu	NOUN	n	_	1	nsubj	1:nsubj	_
+3	kaʔape	kaʔa	NOUN	n	Case=Loc	1	obl	1:obl	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 415
+# text = Ezur xe rihi , iʔi Zuze wazɨrpe , Karipe .
+# text_port = Venha cã, José mandou sua filha Karita (Harrison, 2000).
+# text_spa = Ven aquí, José le dijo a su hija Karita.
+# text_en = Come here, José told his daughter Karita.
+# [O [V PART]] V S PP
+1	Ezur	zur	VERB	vi	Mood=Imp|Person[subj]=2	5	ccomp	5:ccomp	_
+2	xe	xe	PART	pcl	_	1	discourse	1:discourse	_
+3	rihi	rihi	PART	pcl	_	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	Zuze	Zuze	PROPN	pn	_	5	nsubj	5:nsubj	_
+7	wazɨrpe	azɨr	NOUN	n	Case=Dat|Rel=Corf	5	obl	5:obl	_
+8	,	,	PUNCT	punct	_	9	punct	9:punct	_
+9	Karipe	Kari	PROPN	pn	Case=Dat	7	appos	7:appos	_
+10	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
+# sent_id = 416
+# text = Erur maʔe lhewe awaxi hɨru ràm romo rihi , iʔi Zuze Karipe .
+# text_port = Trãz um cesto para o milho (Harrison, 2000).
+# text_spa = Tres canasta para maíz, le dijo.
+# text_en = Three basket for corn, he told her.
+# [O [V O PP PP PART]] V S PP
+1	Erur	zur	VERB	vt	Mood=Imp|Person[subj]=2|Voice=Com	9	ccomp	9:ccomp	_
+2	maʔe	maʔe	NOUN	n	_	1	obj	1:obj	_
+3	ihewe	we	ADP	posp	Number=Sing|Person[psor]=1|Poss=Yes	1	obl	1:obl	_
+4	awaxi	awaxi	NOUN	n	_	5	nmod	5:nmod	_
+5	hɨruràm	ɨru	NOUN	n	Rel=NCont|Tense=Fut	1	obl	1:obl	_
+6	romo	romo	ADP	posp	_	5	case	5:case	_
+7	rihi	rihi	PART	pcl	_	1	discourse	1:discourse	_
+8	,	,	PUNCT	punct	_	1	punct	1:punct	_
+9	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+10	Zuze	Zuze	PROPN	pn	_	9	nsubj	9:nsubj	_
+11	Karipe	Kari	PROPN	pn	Case=Dat	9	obl	9:obl	_
+12	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
+# sent_id = 417
+# text = Taʔe ameʔeg putar awaxi heraha tawpe har wanupe nehe xe .
+# text_port = Porque eu vou levar e vender na cidade (Harrison, 2000).
+# text_spa = Porque tomaré y venderé en la ciudad.
+# text_en = Because I'll take and sell in the city.
+# C V ADV O PP PART
+1	Taʔe	taʔe	CCONJ	cc	_	2	discourse	2:discourse	_
+2	ameʔeg	meʔeg	VERB	vt	Person[subj]=1	0	root	0:root	_
+3	putar	putar	ADV	adv	Tense=Fut	2	advmod	2:advmod	_
+4	awaxi	awaxi	NOUN	n	_	5	obj	5:obj	_
+5	heraha	ha	NOUN	n	Rel=NCont|Voice=Com	2	obj	2:obj	_
+6	tawpe	taw	NOUN	n	Case=All	5	obl	5:obl	_
+7	har	har	ADV	adv	Nomzr=Ag	5	advmod	5:advmod	_
+8	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	2	obl	2:obl	_
+9	nehe	nehe	PART	pcl	Tense=Fut	2	discourse	2:discourse	_
+10	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+11	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 418
+# text = Aexak xapat ikatuahɨmaʔe tawpe ihe , iʔi izupe .
+# text_port = Eu vi sapatos bons na cidade, disse a Karita (Harrison, 2000).
+# text_spa = Vi buenos zapatos en la ciudad, le dijo a Karita.
+# text_en = I saw good shoes in the city, he said to Karita.
+# [O [V O PP S]] V I
+1	Aexak	exak	VERB	vt	Person[subj]=1	7	ccomp	7:ccomp	_
+2	xapat	xapat	NOUN	n	_	3	nmod	3:nmod	_
+3	ikatuahɨmaʔe	katu	NOUN	n	Emph=Yes|Nomzr=Abs|Rel=NCont	1	obj	1:obj	_
+4	tawpe	taw	NOUN	n	Case=Loc	1	obl	1:obl	_
+5	ihe	ihe	PRON	pro	PronType=Prs	1	nsubj	1:nsubj	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+8	izupe	upe	ADP	posp	Rel=NCont	7	iobj	7:iobj	_
+9	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 419
+# text = Awaxi imeʔeg ire heta putar akwez xapat hekuzar ihewe nehe .
+# text_port = Eu vou vender o milho para comprar sapatos (Harrison, 2000).
+# text_spa = Voy a vender maíz para comprar zapatos.
+# text_en = I'm going to sell corn to buy shoes.
+# [ADV [O V C]] V ADV O PP PART
+1	Awaxi	awaxi	NOUN	n	_	2	obj	2:obj	_
+2	imeʔeg	meʔeg	VERB	vt	Rel=NCont	4	advcl	4:advcl	_
+3	ire	re	ADP	posp	Rel=NCont	2	mark	2:mark	_
+4	heta	eta	VERB	vi	Person[subj]=3	0	root	0:root	_
+5	putar	putar	ADV	adv	Tense=Fut	4	advmod	4:advmod	_
+6	akwez	akwez	DET	dem	PronType=Dem	7	det	7:det	_
+7	xapat	xapat	NOUN	n	_	8	nmod	8:nmod	_
+8	hekuzar	ekuzar	NOUN	n	Rel=NCont	4	obj	4:obj	_
+9	ihewe	we	ADP	posp	Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	4	obl	4:obl	_
+10	nehe	nehe	PART	pcl	Tense=Fut	4	discourse	4:discourse	_
+11	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 420
+# text = Oho Kari hɨru ipiaromo .
+# text_port = Karita foi buscar o cesto (Harrison, 2000).
+# text_spa = Karita fue a buscar la canasta.
+# text_en = Karita went to get the basket.
+# V S PP
+1	Oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	Kari	Kari	PROPN	ppn	_	1	nsubj	1:nsubj	_
+3	hɨru	ɨru	NOUN	n	Rel=NCont	1	obl	1:obl	_
+4	ipiaromo	piar	ADP	posp	Case=Tra|Rel=NCont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 421
+# text = Xo kok zo heta .
+# text_port = Só tem cesto. (Harrison, 2000).
+# text_spa = Solo tenemos canastas.
+# text_en = There are only baskets.
+# PART S PART V
+1	Xo	xo	PART	pcl	_	2	discourse	2:discourse	_
+2	kok	kok	NOUN	n	_	4	nsubj	4:nsubj	_
+3	zo	zo	PART	pcl	_	2	discourse	2:discourse	_
+4	heta	eta	VERB	vi	Person[subj]=3	0	root	0:root	_
+5	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 422
+# text = Naʔe Zuze oho tawpe aʔe kurɨ .
+# text_port = Então, José foi á cidade (Harrison, 2000).
+# text_spa = Entonces José fue a la ciudad.
+# text_en = Then José went to the city.
+# C S V PP PART
+1	Naʔe	naʔe	PART	pcl	_	3	discourse	3:discourse	_
+2	Zuze	Zuze	PROPN	pn	_	3	nsubj	3:nsubj	_
+3	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+4	tawpe	taw	NOUN	n	Case=All	3	obl	3:obl	_
+5	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+6	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 423
+# text = Umeʔeg awaxi .
+# text_port = Ele vendeu o milho (Harrison, 2000) 
+# text_spa = Vendió el maíz
+# text_en = He sold the corn
+# V O
+1	Umeʔeg	meʔeg	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	awaxi	awaxi	NOUN	n	_	1	nsubj	1:nsubj	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 424
+# text = Umeʔeg kar muhàg uhɨpe .
+# text_port = Comprou remédio para sua mãe (Harrison, 2000).
+# text_spa = Compró medicina para su madre.
+# text_en = He bought medicine for his mother.
+# V ADV O PP
+1	Umeʔeg	meʔeg	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	kar	kar	ADV	adv	Voice=Cau	1	advmod	1:advmod	_
+3	muhàg	hàg	NOUN	n	Voice=Cau	1	obj	1:obj	_
+4	uhɨpe	hɨ	NOUN	n	Case=Dat|Rel=Corf	1	obl	1:obl	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 425
+# text = Wexak maʔe teteaʔu imeʔegkarpɨràm .
+# text_port = Ele viu muitas cojsas para comprar (Harrison, 2000).
+# text_spa = Vio muchas cosas para comprar.
+# text_en = He saw many things to buy.
+# V O
+1	Wexak	exak	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	maʔe	maʔe	NOUN	n	_	4	nmod	4:nmod	_
+3	teteaʔu	tete	ADV	adv	Emph=Yes	2	advmod	2:advmod	_
+4	imeʔegkarpɨràm	meʔeg	NOUN	n	Nomzr=Pas|Rel=NCont|Voice=Cau|Tense=Fut	1	obl	1:obl	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 426
+# text = Xo xapat zo umeʔeg kar .
+# text_port = Só comprou os sapatos (Harrison, 2000).
+# text_spa = Acaba de comprar sus zapatos.
+# text_en = He just bought his shoes.
+# PART O PART V ADV
+1	Xo	xo	PART	pcl	_	2	discourse	2:discourse	_
+2	xapat	xapat	NOUN	n	_	4	obj	4:obj	_
+3	zo	zo	PART	pcl	_	2	discourse	2:discourse	_
+4	umeʔeg	meʔeg	VERB	v	Person[subj]=3	0	root	0:root	_
+5	kar	kar	ADV	adv	Voice=Cau	4	advmod	4:advmod	_
+6	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 427
+# text = Xapatxigmaʔe umeʔeg kar no .
+# text_port = Ele comprou sapatos brancos (Harrison, 2000).
+# text_spa = Compró zapatos blancos.
+# text_en = He bought white shoes.
+# S V ADV PART
+1-2	xapatxigmaʔe	_	_	_	_	_	_	_	_
+1	xapat	xapat	NOUN	n	_	2	nmod	2:nmod	_
+2	xigmaʔe	xig	NOUN	n	Nomzr=Abs|Rel=Cont	3	obj	3:obj	_
+3	umeʔeg	meʔeg	VERB	v	Person[subj]=3	0	root	0:root	_
+4	kar	kar	ADV	adv	Voice=Cau	3	advmod	3:advmod	_
+5	no	no	PART	pcl	_	3	discourse	3:discourse	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 428
+# text = Xo aʔe maʔe zo umeʔeg kar uzeupe aʔe .
+# text_port = Mais nada (Harrison, 2000).
+# text_spa = Nada mas.
+# text_en = Nothing more.
+# PART O PART V ADV PP
+1	Xo	xo	PART	pcl	_	3	discourse	3:discourse	_
+2	aʔe	aʔe	DET	dem	PronType=Dem	3	det	3:det	_
+3	maʔe	maʔe	NOUN	n	_	5	obj	5:obj	_
+4	zo	zo	PART	pcl	_	3	discourse	3:discourse	_
+5	umeʔeg	meʔeg	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	kar	kar	ADV	adv	Voice=Cau	5	advmod	5:advmod	_
+7	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	5	obl	5:obl	_
+8	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+9	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 429
+# text = Ikatuahɨ xapat .
+# text_port = Foram sapatos muito bons (Harrison, 2000).
+# text_spa = Eran muy buenos zapatos.
+# text_en = They were very good shoes.
+# V S
+1	Ikatuahɨ	katu	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	xapat	xapat	NOUN	n	_	1	nsubj	1:nsubj	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 430
+# text = Upaw temetarer .
+# text_port = Ele gastou todo o dinheiro (Harrison, 2000).
+# text_spa = Pasó todo el dinero.
+# text_en = He spent all the money.
+# 
+1	Upaw	paw	VERB	vi	Person[subj]=3	_	_	_	_
+2	temetarer	emetarer	NOUN	n	Rel=Abs	_	_	_	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 431
+# text = Uzewɨr Zuze wa amo ae pe rupi .
+# text_port = José voltou por outro caminho (Harrison, 2000).
+# text_spa = José regresó en otro camino.
+# text_en = José returned on another path.
+# V S PART PP
+1	Uzewɨr	zewɨr	VERB	v	Person[subj]=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+4	amo	amo	DET	det	PronType=Ind	6	det	6:det	_
+5	ae	ae	ADV	adv	Emph=Yes	4	advmod	4:advmod	_
+6	pe	pe	NOUN	n	_	1	obl	1:obl	_
+7	rupi	upi	ADP	posp	Rel=Cont	6	case	6:case	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 432
+# text = Wata mehe umeʔe Zuze ɨwàxig ɨwatehar rehe .
+# text_port = Ele andava olhando a uma nuvem branca á no ceu (Harrison, 2000).
+# text_spa = Caminó mirando una nube blanca en el cielo.
+# text_en = He walked looking at a white cloud at the sky.
+# [ADV [V C]] V S PP
+1	Wata	ata	VERB	vi	Number=Plur|Person=3	3	advcl	3:advcl	_
+2	mehe	mehe	ADV	adv	_	1	mark	1:mark	_
+3	umeʔe	meʔe	VERB	vi	Person[subj]=3	0	root	0:root	_
+4	Zuze	Zuze	PROPN	pn	_	3	nsubj	3:nsubj	_
+5-6	ɨwàxig	_	_	_	_	_	_	_	_
+5	ɨwà	ɨwak	NOUN	n	_	3	obj	3:obj	_
+6	xig	xig	NOUN	n	Rel=Cont	5	nmod	5:nmod	_
+7	ɨwatehar	ɨwak	NOUN	n	Nomzr=Ag|Emph=Yes	3	obl	3:obl	_
+8	rehe	ehe	ADP	posp	Rel=Cont	7	case	7:case	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 433
+# text = Upɨhɨk xu hemɨhar iho mehe , upɨhɨk katu aʔe .
+# text_port = O espinho pegou na calça dele (Harrison, 2000).
+# text_spa = La espina atrapó sus pantalones.
+# text_en = The thorn cought his pants.
+# V S O [ADV [V C]] - V ADV PART
+1	Upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	xu	xu	NOUN	n	_	1	nsubj	1:nsubj	_
+3	hemɨhar	emɨhar	NOUN	n	Rel=NCont	1	obj	1:obj	_
+4	iho	ho	VERB	vi	Rel=NCont	1	advcl	1:advcl	_
+5	mehe	mehe	ADV	adv	_	4	mark	4:mark	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	upɨhɨk	upɨhɨk	VERB	vt	Person[subj]=3	1	conj	1:conj	_
+8	katu	katu	ADV	adv	Emph=Yes	7	advmod	7:advmod	_
+9	aʔe	aʔe	PART	pcl	Person=3	7	discourse	7:discourse	_
+10	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 434
+# text = Ou kwa , heremɨhar , iʔi Zuze uhapukaz tà .
+# text_port = Ah não, a minha calça, gritou Jose (Harrison, 2000).
+# text_spa = Oh no, mis pantalones gritaron a José.
+# text_en = "Oh no, my pants" shouted Jose.
+# [O [INTJ S]] V S [ADV [V]]
+1	Ou	ou	INTJ	intj	_	4	discourse	4:discourse	_
+2	kwa	kwa	PART	pcl	_	4	discourse	4:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	heremɨhar	emɨhar	NOUN	n	Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	6	ccomp	6:ccomp	_
+5	,	,	PUNCT	punct	_	4	punct	4:punct	_
+6	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+7	Zuze	Zuze	PROPN	pn	_	6	nsubj	6:nsubj	_
+8	uhapukazta	hapukaz	VERB	vi	Person[subj]=3|VerbForm=Ger	6	advcl	6:advcl	_
+9	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 435
+# text = Omowok xu heremɨhar , iʔi uzeupe .
+# text_port = O espinho rasgou a calça, disse a si mesmo (Harrison, 2000).
+# text_spa = La espina arrancó los pantalones, se dijo a sí mismo.
+# text_en = The thorn tore the pants, told himself.
+# [O [V S O]] V I
+1	Omowok	wok	VERB	vt	Person[subj]=3|Voice=Cau	5	ccomp	5:ccomp	_
+2	xu	xu	NOUN	n	_	1	nsubj	1:nsubj	_
+3	heremɨhar	eremɨhar	NOUN	n	Rel=NCont	1	obj	1:obj	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	5	iobj	5:iobj	_
+7	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 436
+# text = Wexak xu pe iwɨrhar kurɨ .
+# text_port = Agora viu o espinho ao lado do caminho (Harrison, 2000).
+# text_spa = Ahora vio la espina al lado del camino.
+# text_en = Now he saw the thorn beside the way.
+# V O PP PART
+1	Wexak	exak	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	xu	xu	NOUN	n	_	1	obj	1:obj	_
+3	pe	pe	NOUN	n	_	4	nmod	4:nmod	_
+4	iwɨrhar	wɨr	ADP	posp	Nomzr=Ag|Rel=NCont	1	obl	1:obl	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
 # text_port = Onde John ouviu o grande porco?
