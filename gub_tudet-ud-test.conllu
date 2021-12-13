@@ -6105,7 +6105,7 @@
 4	mehe	mehe	ADV	adv	_	3	mark	3:mark	_
 5	,	,	PUNCT	punct	_	3	punct	3:punct	_
 6	upɨta	pɨta	VERB	vi	Person[subj]=3	0	root	0:root	_
-7-8	ixapatxigmaʔe	xapat	NOUN	n	Rel=NCont	_	_	_	_
+7-8	ixapatxigmaʔe	_	_	_	_	_	_	_	_
 7	ixapat	xapat	NOUN	n	Rel=NCont	6	nsubj	6:nsubj	_
 8	xigmaʔe	xig	NOUN	n	Nomzr=Abs|Rel=Cont	7	nmod	7:nmod	_
 9	toʔom	toʔom	NOUN	n	_	6	obl	6:obl	_
@@ -6114,7 +6114,7 @@
 12	.	.	PUNCT	punct	_	6	punct	6:punct	_
 
 # sent_id = 440
-# text = Ou kwa , hexapat ipɨahu maʔe aʔe , upɨta toʔom pupe , iʔi uzeupe .
+# text = Ou kwa , hexapat ipɨahumaʔe aʔe , upɨta toʔom pupe , iʔi uzeupe .
 # text_port = Ah não, o sapato novo ficou na lama!, disse a si mesmo (Harrison, 2000).
 # text_spa = ¡Oh no, mi nuevo zapato se atascó en el barro!, se dijo a sí mismo.
 # text_en = Oh no, the new shoe stayed in the mud!, he said to himself.
@@ -6287,7 +6287,7 @@
 1	Ukwaw	kwaw	VERB	vt	Person[subj]=3	0	root	0:root	_
 2	pixàn	pixàn	NOUN	n	_	1	nsubj	1:nsubj	_
 3	aguza	aguza	NOUN	n	_	4	nsubj	4:nsubj	_
-4	waneta	eta	NOUN	n	Number=Plur|Person[subj]=3|Rel=Cont	1	obj	1:obj	_
+4	waneta	eta	NOUN	n	Number=Plur|Person[psor]=3|Rel=Cont	1	obj	1:obj	_
 5	haw	haw	ADV	adv	Nomzr=Circ	4	advmod	4:advmod	_
 6	Zuze	Zuze	PROPN	pn	_	7	nmod	7:nmod	_
 7	ràpuz	àpuz	NOUN	n	Rel=Cont	1	obl	1:obl	_
@@ -6319,7 +6319,7 @@
 # text_spa = El ratón caminaba lana en la paja.
 # text_en = The mouse walked wool on the straw.
 # S V AUX PP PART
-1	aguza	aguza	NOUN	n	_	2	nsubj	2:nsubj	_
+1	Aguza	aguza	NOUN	n	_	2	nsubj	2:nsubj	_
 2	wata	ata	VERB	vi	Person[subj]=3	0	root	0:root	_
 3	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	2	aux	2:aux	_
 4	ɨwate	ɨwak	ADV	adv	Emph=Yes	5	advmod	5:advmod	_
@@ -6360,12 +6360,12 @@
 11	rehe	ehe	ADP	posp	Rel=Cont	10	case	10:case	_
 12	har	har	ADV	adv	Nomzr=Ag	10	advmod	10:advmod	_
 13	hekarpa	ekar	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
-14	aʔe	aʔe	PART	pcl	Person=3	9	discourse	9:discourse	_
-15	kurɨ	kurɨ	PART	pcl	_	9	discourse	9:discourse	_
-16	.	.	PUNCT	punct	_	9	punct	9:punct	_
+14	aʔe	aʔe	PART	pcl	Person=3	13	discourse	13:discourse	_
+15	kurɨ	kurɨ	PART	pcl	_	13	discourse	13:discourse	_
+16	.	.	PUNCT	punct	_	13	punct	13:punct	_
 
 # sent_id = 456
-# text = Opor pixàn oho hehe, upɨhɨk no .
+# text = Opor pixàn oho hehe , upɨhɨk no .
 # text_port = Epa! o gato pulou e pegou (Harrison, 2000).
 # text_spa = ¡Epa! El gato saltó y lo atrapó.
 # text_en = The cat jumped and caught it.
