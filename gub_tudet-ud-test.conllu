@@ -6069,6 +6069,316 @@
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
 6	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 437
+# text = Wata we oho Zuze aʔe .
+# text_port = Continuou andando (Harrison, 2000).
+# text_spa = Siguió caminando.
+# text_en = He kept walking.
+# V PART AUX S PART
+1	Wata	ata	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	we	we	PART	pcl	_	1	discourse	1:discourse	_
+3	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+4	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 438
+# text = Uhem toʔoʔtoʔom me .
+# text_port = Chegou a um lamaçal (Harrison, 2000).
+# text_spa = Llegó a un barro.
+# text_en = He reached a mud.
+# V PP
+1	Uhem	hem	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	toʔoʔtoʔom	toʔom	NOUN	n	Red=Di	1	obl	1:obl	_
+3	me	me	ADP	posp	Rel=Cont	2	case	2:case	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 439
+# text = Aʔe rupi iho mehe , upɨta ixapatxigmaʔe toʔom pupe kurɨ .
+# text_port = Ele tentou passar na lama mas um sapato branco ficou preso na lama (Harrison, 2000).
+# text_spa = Intentó pasar el lodo, pero un zapato blanco estaba atascado en el barro.
+# text_en = He tried to pass the mud but a white shoe was stuck in the mud.
+# [ADV [PP V C]] V O PP PART
+1	Aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	iho	ho	VERB	vi	Rel=NCont	6	advcl	6:advcl	_
+4	mehe	mehe	ADV	adv	_	3	mark	3:mark	_
+5	,	,	PUNCT	punct	_	3	punct	3:punct	_
+6	upɨta	pɨta	VERB	vi	Person[subj]=3	0	root	0:root	_
+7-8	ixapatxigmaʔe	xapat	NOUN	n	Rel=NCont	_	_	_	_
+7	ixapat	xapat	NOUN	n	Rel=NCont	6	nsubj	6:nsubj	_
+8	xigmaʔe	xig	NOUN	n	Nomzr=Abs|Rel=Cont	7	nmod	7:nmod	_
+9	toʔom	toʔom	NOUN	n	_	6	obl	6:obl	_
+10	pupe	pupe	ADP	posp	Rel=Cont	9	case	9:case	_
+11	kurɨ	kurɨ	PART	pcl	_	6	discourse	6:discourse	_
+12	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 440
+# text = Ou kwa , hexapat ipɨahu maʔe aʔe , upɨta toʔom pupe , iʔi uzeupe .
+# text_port = Ah não, o sapato novo ficou na lama!, disse a si mesmo (Harrison, 2000).
+# text_spa = ¡Oh no, mi nuevo zapato se atascó en el barro!, se dijo a sí mismo.
+# text_en = Oh no, the new shoe stayed in the mud!, he said to himself.
+# [O [INTJ S PART V PP]] V PP
+1	Ou	ou	INTJ	intj	_	8	discourse	8:discourse	_
+2	kwa	kwa	PART	pcl	_	8	discourse	8:discourse	_
+3	,	,	PUNCT	punct	_	5	punct	5:punct	_
+4	hexapat	xapat	NOUN	n	Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	5	nmod	5:nmod	_
+5	ipɨahumaʔe	pɨahu	NOUN	n	Nomzr=Abs|Rel=NCont	8	nsubj	8:nsubj	_
+6	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+7	,	,	PUNCT	punct	_	5	punct	5:punct	_
+8	upɨta	pɨta	VERB	v	Person[subj]=3	12	ccomp	12:ccomp	_
+9	toʔom	toʔom	NOUN	n	_	8	obl	8:obl	_
+10	pupe	pupe	ADP	posp	Rel=Cont	9	case	9:case	_
+11	,	,	PUNCT	punct	_	8	punct	8:punct	_
+12	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+13	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	12	obl	12:obl	_
+14	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = 441
+# text = Wenuhem uxapat toʔom wi kurɨ .
+# text_port = Ele tirou o sapato da lama (Harrison, 2000).
+# text_spa = Tomó el zapato del barro.
+# text_en = He took the shoe from the mud.
+# V O PP PART
+1	Wenuhem	hem	VERB	vt	Person[subj]=3|Voice=Com	0	root	0:root	_
+2	uxapat	xapat	NOUN	n	Rel=Corf	1	obj	1:obj	_
+3	toʔom	toʔom	NOUN	n	_	1	obl	1:obl	_
+4	wi	wi	ADP	posp	Rel=Cont	3	case	3:case	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 442
+# text = Naxigatu kwaw kurɨ .
+# text_port = Não era mais branco (Harrison, 2000).
+# text_spa = Ya no eran blancos.
+# text_en = They were not white anymore.
+# V ADV PART
+1	Naxigatu	xig	VERB	vd	Emph=Yes|Polarity=Neg|Rel=Cont	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 443
+# text = Uzemumikahɨ Zuze aʔe .
+# text_port = José ficou triste (Harrison, 2000).
+# text_spa = José estaba triste.
+# text_en = José was sad.
+# V S PART
+1	Uzemumikahɨ	zemumikahɨ	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 444
+# text = Uhem Zuze wà wàpuz me kurɨ .
+# text_port = José chegou em casa (Harrison, 2000).
+# text_spa = José llegó a casa.
+# text_en = José got home.
+# V S PART PP PART
+1	Uhem	hem	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	Zuze	Zuze	PROPN	pn	_	1	nsubj	1:nsubj	_
+3	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+4	wàpuz	àpuz	NOUN	n	Rel=Corf	1	obl	1:obl	_
+5	me	me	ADP	posp	Rel=Cont	4	case	4:case	_
+6	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 445
+# text = Naʔe Zuze hemireko wexak hemɨhar aʔe kurɨ .
+# text_port = A esposa dele viu sua calça (Harrison, 2000).
+# text_spa = Su esposa vio sus pantalones.
+# text_en = His wife saw her pants.
+# C S V O PART
+1	Naʔe	naʔe	CCONJ	cc	_	4	discourse	4:discourse	_
+2	Zuze	Zuze	PROPN	pn	_	3	nmod	3:nmod	_
+3	hemireko	eko	NOUN	n	Nomzr=DevPass|Rel=NCont	4	nsubj	4:nsubj	_
+4	wexak	exak	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	hemɨhar	emɨhar	NOUN	n	Rel=NCont	4	obj	4:obj	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+8	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 446
+# text = Màràzàwe tue neremɨhar aipo ʔɨ , iʔi Mari izupe , hehe upuranupa .
+# text_port = O que aconteceu com sua calça, querido? Maria perguntou (Harrison, 2000).
+# text_spa = ¿Qué le pasó a tus pantalones, querida?María preguntó.
+# text_en = What happened to your pants, dear?Maria asked.
+# [O [ADV PART O PART]] V S I [ADV [PP V]]
+1	Màràzàwe	màràzàwe	ADV	adv	Int=Yes	3	advmod	3:advmod	_
+2	tue	tue	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
+3	neremɨhar	emɨhar	NOUN	n	Number=Sing|Person=2|Poss=Yes|Rel=Cont	7	ccomp	7:ccomp	_
+4	aipo	aipo	PART	pcl	_	3	advmod	3:advmod	_
+5	ʔɨ	ʔɨ	PART	pcl	_	3	discourse	3:discourse	_
+6	,	,	PUNCT	punct	_	3	punct	3:punct	_
+7	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+8	Mari	Mari	PROPN	pn	_	7	nsubj	7:nsubj	_
+9	izupe	upe	ADP	posp	Rel=NCont	7	iobj	7:iobj	_
+10	,	,	PUNCT	punct	_	7	punct	7:punct	_
+11	hehe	ehe	ADP	posp	Rel=NCont	12	obl	12:obl	_
+12	upuranupa	puranu	VERB	vt	Rel=Corf|VerbForm=Ger	7	advcl	7:advcl	_
+13	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = 447
+# text = Omowok xu aipo pa , pe iwɨr pa , iʔi izupe .
+# text_port = Um espinho ao lado do caminho rasgou-a, ele explicou (Harrison, 2000).
+# text_spa = Una espina al lado del camino lo rompió, explicó.
+# text_en = A thorn beside the path tore it, he explained.
+# [O [V S PART - PP I PART]] V I
+1	Omowok	wok	VERB	vi	Person[subj]=3|Voice=Cau	10	ccomp	10:ccomp	_
+2	xu	xu	NOUN	n	_	1	nsubj	1:nsubj	_
+3	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
+4	pa	pa	PART	pcl	_	1	discourse	1:discourse	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	pe	pe	NOUN	n	_	1	obl	1:obl	_
+7	iwɨr	wɨr	ADP	posp	Rel=NCont	6	case	6:case	_
+8	pa	pa	PART	pcl	_	6	discourse	6:discourse	_
+9	,	,	PUNCT	punct	_	6	punct	6:punct	_
+10	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+11	izupe	upe	ADP	posp	Rel=NCont	10	iobj	10:iobj	_
+12	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 448
+# text = Aze ʔɨ , iʔi Mari umenpe .
+# text_port = É mesmo, concordou Maria (Harrison, 2000).
+# text_spa = Sí, María estuvo de acuerdo.
+# text_en = Yeah, Maria agreed.
+# [O [PART]] V S PP
+1	Aze	aze	PART	pcl	_	4	ccomp	4:ccomp	_
+2	ʔɨ	ʔɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	Mari	Mari	PROPN	pn	_	4	nsubj	4:nsubj	_
+6	umenpe	men	NOUN	n	Case=Dat|Rel=Corf	4	obl	4:obl	_
+7	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 449
+# text = Heta pixàn Zuze rekohawpe aʔe .
+# text_port = Tem gato onde José mora (Harrison, 2000).
+# text_spa = Hay un gato donde vive José.
+# text_en = There is a cat where José lives.
+# V S PP PART
+1	Heta	eta	VERB	vi	Rel=NCont	0	root	0:root	_
+2	pixàn	pixàn	NOUN	n	_	1	nsubj	1:nsubj	_
+3	Zuze	Zuze	PROPN	pn	_	4	nmod	4:nmod	_
+4	rekohawpe	eko	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Cont	1	obl	1:obl	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 450
+# text = Heta aguza Zuze ràpuz me wà .
+# text_port = Tem ratos dentro da casa de José (Harrison, 2000).
+# text_spa = Hay ratas dentro de la casa de José.
+# text_en = There are rats inside the house of José.
+# V S PP
+1	Heta	eta	VERB	vi	Rel=NCont	0	root	0:root	_
+2	aguza	aguza	NOUN	n	_	1	nsubj	1:nsubj	_
+3	Zuze	Zuze	PROPN	pn	_	4	nmod	4:nmod	_
+4	ràpuz	àpuz	NOUN	n	Rel=Cont	1	obl	1:obl	_
+5	me	me	ADP	posp	Rel=Cont	4	case	4:case	_
+6	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 451
+# text = Ukwaw pixàn aguza waneta haw Zuze ràpuz me aʔe .
+# text_port = O gato sabe que tem ratos là (Harrison, 2000).
+# text_spa = El gato sabe que hay ratas allí.
+# text_en = The cat knows that there are rats in there.
+# V S O PP PART
+1	Ukwaw	kwaw	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	pixàn	pixàn	NOUN	n	_	1	nsubj	1:nsubj	_
+3	aguza	aguza	NOUN	n	_	4	nsubj	4:nsubj	_
+4	waneta	eta	NOUN	n	Number=Plur|Person[subj]=3|Rel=Cont	1	obj	1:obj	_
+5	haw	haw	ADV	adv	Nomzr=Circ	4	advmod	4:advmod	_
+6	Zuze	Zuze	PROPN	pn	_	7	nmod	7:nmod	_
+7	ràpuz	àpuz	NOUN	n	Rel=Cont	1	obl	1:obl	_
+8	me	me	ADP	posp	Rel=Cont	7	case	7:case	_
+9	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+10	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 452
+# text = Amo ʔar mehe pɨhaw , pixàn wetun aguza aʔe kurɨ .
+# text_port = Uma noite o gato sentiu o cheiro do rato (Harrison, 2000).
+# text_spa = Una noche, el gato sintió el olor del ratón.
+# text_en = One night the cat felt the smell of the mouse.
+# PP S V O PART
+1	Amo	amo	DET	dem	PronType=Ind	2	det	2:det	_
+2	ʔar	ʔar	NOUN	n	_	7	obl	7:obl	_
+3	mehe	mehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	pɨhaw	pɨ	NOUN	n	Nomzr=Circ	7	obl	7:obl	_
+5	,	,	PUNCT	punct	_	7	punct	7:punct	_
+6	pixàn	pixàn	NOUN	n	_	7	nsubj	7:nsubj	_
+7	wetun	etun	VERB	vi	Person[subj]=3|Rel=Corf	0	root	0:root	_
+8	aguza	aguza	NOUN	n	_	7	obj	7:obj	_
+9	aʔe	aʔe	PART	pcl	Person=3	7	discourse	7:discourse	_
+10	kurɨ	kurɨ	PART	pcl	_	7	discourse	7:discourse	_
+11	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 453
+# text = Aguza wata iko ɨwate pino rehe aʔe .
+# text_port = O rato andava lã em cima na palha (Harrison, 2000).
+# text_spa = El ratón caminaba lana en la paja.
+# text_en = The mouse walked wool on the straw.
+# S V AUX PP PART
+1	aguza	aguza	NOUN	n	_	2	nsubj	2:nsubj	_
+2	wata	ata	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	2	aux	2:aux	_
+4	ɨwate	ɨwak	ADV	adv	Emph=Yes	5	advmod	5:advmod	_
+5	pino	pino	NOUN	n	_	2	obl	2:obl	_
+6	rehe	ehe	ADP	posp	Rel=Cont	5	case	5:case	_
+7	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+8	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 454
+# text = Wàro pixàn iko ɨwɨ rehe .
+# text_port = O gato ficou esperando no chão (Harrison, 2000).
+# text_spa = El gato esperó en el suelo.
+# text_en = The cat waited on the floor.
+# V S AUX PP
+1	Wàro	àro	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	pixàn	pixàn	NOUN	n	_	1	nsubj	1:nsubj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	1:aux	_
+4	ɨwɨ	ɨwɨ	NOUN	n	_	1	obl	1:obl	_
+5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 455
+# text = Wezɨw aguza wà huake aʔi aʔe kurɨ , temiʔu ɨwɨ rehe har hekarpa aʔe kurɨ .
+# text_port = O rato desceu para perto do gato procurando comida (Harrison, 2000).
+# text_spa = El mouse se fue al gato buscando comida.
+# text_en = The mouse went down to the cat looking for food.
+# V S PP PART [ADV [O V PART]]
+1	Wezɨw	ezɨw	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	aguza	aguza	NOUN	n	_	1	nsubj	1:nsubj	_
+3	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+4	huake	uake	ADP	posp	Rel=NCont	1	obl	1:obl	_
+5	aʔi	aʔi	ADV	adv	Emph=Yes	4	advmod	4:advmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+8	,	,	PUNCT	punct	_	1	punct	1:punct	_
+9	temiʔu	ʔu	NOUN	n	Nomzr=DevPass|Rel=Abs	13	obj	13:obj	_
+10	ɨwɨ	ɨwɨ	NOUN	n	_	9	nmod	9:nmod	_
+11	rehe	ehe	ADP	posp	Rel=Cont	10	case	10:case	_
+12	har	har	ADV	adv	Nomzr=Ag	10	advmod	10:advmod	_
+13	hekarpa	ekar	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
+14	aʔe	aʔe	PART	pcl	Person=3	9	discourse	9:discourse	_
+15	kurɨ	kurɨ	PART	pcl	_	9	discourse	9:discourse	_
+16	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
+# sent_id = 456
+# text = Opor pixàn oho hehe, upɨhɨk no .
+# text_port = Epa! o gato pulou e pegou (Harrison, 2000).
+# text_spa = ¡Epa! El gato saltó y lo atrapó.
+# text_en = The cat jumped and caught it.
+# V S AUX PP - V PART 
+1	Opor	por	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	pixàn	pixàn	NOUN	n	_	1	nsubj	1:nsubj	_
+3	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+4	hehe	ehe	ADP	posp	Rel=NCont	1	obl	1:obl	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	upɨhɨk	upɨhɨk	VERB	vt	Person[subj]=3	1	parataxis	1:parataxis	_
+7	no	no	PART	pcl	_	6	discourse	6:discourse	_
+8	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
 # text_port = Onde John ouviu o grande porco?
