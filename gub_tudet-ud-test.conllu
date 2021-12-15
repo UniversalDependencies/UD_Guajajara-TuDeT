@@ -6379,6 +6379,295 @@
 7	no	no	PART	pcl	_	6	discourse	6:discourse	_
 8	.	.	PUNCT	punct	_	6	punct	6:punct	_
 
+# sent_id = 457
+# text = Uzemaraz iko hehe kurɨ , uzàn wi aguza oho izuwi no , pixàn upɨhɨk wi no .
+# text_port = Ele brincou um pouco com o rato, deixando correr e pegando de novo (Harrison, 2000).
+# text_spa = Bromeó un poco con el ratón, dejando correr y recogiéndose de nuevo.
+# text_en = He joked a little with the mouse, letting run and picking up again.
+# V AUX PP PART - V PART S AUX PP PART - S V PART
+1	Uzemaraz	zemaraz	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	1:aux	_
+3	hehe	ehe	ADP	posp	Rel=NCont	1	obl	1:obl	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	uzàn	zàn	VERB	vi	Person[subj]=3	1	parataxis	1:parataxis	_
+7	wi	wi	PART	pcl	_	6	discourse	6:discourse	_
+8	aguza	aguza	NOUN	n	_	6	nsubj	6:nsubj	_
+9	oho	ho	VERB	vi	Person[subj]=3	6	dep	6:dep	_
+10	izuwi	zuwi	ADP	posp	Rel=NCont	6	obl	6:obl	_
+11	no	no	PART	pcl	_	6	discourse	6:discourse	_
+12	,	,	PUNCT	punct	_	6	punct	6:punct	_
+13	pixàn	pixàn	NOUN	n	_	14	nsubj	14:nsubj	_
+14	upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	6	parataxis	6:parataxis	_
+15	wi	wi	PART	pcl	_	14	discourse	14:discourse	_
+16	no	no	PART	pcl	_	14	discourse	14:discourse	_
+17	.	.	PUNCT	punct	_	14	punct	14:punct	_
+
+# sent_id = 458
+# text = Uxiʔu kurɨ , nan kwehe tete uzuka .
+# text_port = Mas (de repente) mordeu de vez e logo o rato morreu (Harrison, 2000).
+# text_spa = Pero (de repente) bit una vez y pronto el ratón murió.
+# text_en = But (suddenly) bit once and soon the mouse died.
+# V PART - ADV V
+1	Uxiʔu	xiʔu	VERB	v	Person[subj]=3	0	root	0:root	_
+2	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	nan	nan	ADV	adv	Polarity=Neg	5	advmod	5:advmod	_
+5	kwehe	kwehe	ADV	adv	Tense=Past	7	advmod	7:advmod	_
+6	tete	tete	ADV	adv	Emph=Yes	5	advmod	5:advmod	_
+7	uzuka	zuka	VERB	vt	Person[subj]=3	1	parataxis	1:parataxis	_
+8	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 459
+# text = Kuzàgwer umaʔereko waiko aʔe wà .
+# text_port = As mulheres estão trabalhando (Harrison, 2000).
+# text_spa = Las mujeres están trabajando.
+# text_en = Women are working.
+# S V AUX PART
+1	Kuzàgwer	kuzà	NOUN	n	Number=Coll	2	nsubj	2:nsubj	_
+2	umaʔereko	eko	VERB	v	Nomzr=Abs|Person[subj]=3|Rel=Cont	0	root	0:root	_
+3	waiko	iko	AUX	aux	Number=Plur|Person=3	2	aux	2:aux	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	wà	wà	PART	pcl	Number=Plur|Person=3	2	discourse	2:discourse	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 460
+# text = Uʔu pixàn aguza paw rupi aʔe .
+# text_port = O gato comeu todo o rato (Harrison, 2000).
+# text_spa = El gato comió todo el ratón.
+# text_en = The cat ate all the mouse.
+# V S O PP PAST
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	pixàn	pixàn	NOUN	n	_	1	nsubj	1:nsubj	_
+3	aguza	aguza	NOUN	n	_	1	obj	1:obj	_
+4	paw	paw	PRON	pro	PronType=Tot	1	obl	1:obl	_
+5	rupi	upi	ADP	posp	Rel=Cont	4	case	4:case	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 461
+# text = Wezar iàkàgwer aʔepe .
+# text_port = Ele deixou a cabeça (Harrison, 2000).
+# text_spa = Dejó la cabeza allí.
+# text_en = He left his head there.
+# V O PP
+1	Wezar	ezar	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	iàkàgwer	àkàg	NOUN	n	Rel=NCont|Tense=Past	1	nsubj	1:nsubj	_
+3	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	1	obl	1:obl	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 463
+# text = Ikuʔegwepe ur Zuze ihɨ aʔepe , migaw iapopa .
+# text_port = Dois dias depois, a mãe de José veio para fazer mingau (Harrison, 2000).
+# text_spa = Dos días después, la madre de José vino a hacer gachas de avena.
+# text_en = Two days later, José's mother came to make porridge.
+# PP V S PP [ADV [O V]]
+1	Ikuʔegwepe	kuʔem	NOUN	n	Case=Tem|Rel=NCont|Tense=Past	2	obl	2:obl	_
+2	ur	ur	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	Zuze	Zuze	PROPN	pn	_	4	nmod	4:nmod	_
+4	ihɨ	hɨ	NOUN	n	Rel=NCont	2	nsubj	2:nsubj	_
+5	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	2	obl	2:obl	_
+6	,	,	PUNCT	punct	_	2	punct	2:punct	_
+7	migaw	migaw	NOUN	n	_	8	obj	8:obj	_
+8	iapopa	apo	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
+9	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 464
+# text = Aʔe re ur Mari .
+# text_port = Depois veio Maria (Harrison, 2000).
+# text_spa = Luego llegó María.
+# text_en = Then María came.
+# PP V S
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	re	re	ADP	posp	Rel=Cont	1	case	1:case	_
+3	ur	zur	VERB	vi	Person[subj]=3	0	root	0:root	_
+4	Mari	Mari	PROPN	pn	_	3	nsubj	3:nsubj	_
+5	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 465
+# text = Nan kwehe tete uhem Kari aʔe no .
+# text_port = Não demorou muito a chegada de Karita (Harrison, 2000).
+# text_spa = No pasó mucho tiempo antes de la llegada de Karita.
+# text_en = It was not long before Karita's arrival.
+# ADV V S PART
+1	Nan	nan	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
+2	kwehe	kwehe	ADV	adv	Tense=Past	4	advmod	4:advmod	_
+3	tete	tete	ADV	adv	Emph=Yes	2	advmod	2:advmod	_
+4	uhem	hem	VERB	vi	Person[subj]=3	0	root	0:root	_
+5	Kari	Kari	PROPN	pn	_	4	nsubj	4:nsubj	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+7	no	no	PART	pcl	_	4	discourse	4:discourse	_
+8	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 466
+# text = Kuzàgwer wetun inegwer aʔe wà , aguza àkàgwer kàxigwer hetunpa aʔe wà .
+# text_port = As mulheres sentiram o cheiro da cabeça do rato (Harrison, 2000).
+# text_spa = Las mujeres sintieron el olor de la cabeza del ratón.
+# text_en = Women felt the smell of the mouse's head.
+# S V O PART [ADV [O V PART]]
+1	Kuzàgwer	kuzà	NOUN	n	Number=Coll	2	nsubj	2:nsubj	_
+2	wetun	etun	VERB	vt	Person[subj]=3	0	root	0:root	_
+3	inegwer	nem	NOUN	n	Rel=NCont|Tense=Past	2	obj	2:obj	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	wà	wà	PART	pcl	Number=Plur|Person=3	2	discourse	2:discourse	_
+6	,	,	PUNCT	punct	_	2	punct	2:punct	_
+7	aguza	aguza	NOUN	n	_	2	nmod	2:nmod	_
+8	àkàgwer	àkàg	NOUN	n	Tense=Past	9	nmod	9:nmod	_
+9	kàxigwer	kàxig	NOUN	n	Tense=Past	10	obj	10:obj	_
+10	hetunpa	etun	VERB	vt	Rel=NCont|VerbForm=Ger	2	advcl	2:advcl	_
+11	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+12	wà	wà	PART	pcl	Number=Plur|Person=3	10	discourse	10:discourse	_
+13	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 467
+# text = Inemahɨ wanupe .
+# text_port = Foi muito forte o cheiro (Harrison, 2000).
+# text_spa = El olor era muy fuerte.
+# text_en = The smell was very strong.
+# V PP
+1	Inemahɨ	nem	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	1	obl	1:obl	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 468
+# text = Maʔe inemahɨ xe kɨn , iʔi kuzàgwer uzeupeupe wà .
+# text_port = O que é o cheiro ruim? as mulheres perguntaram umas ãs outras (Harrison, 2000).
+# text_spa = ¿Cuál es el mal olor? Las mujeres se preguntaron.
+# text_en = What is the bad smell? The women asked each other.
+# [O [S V PART]] V S I PART
+1	Maʔe	maʔe	NOUN	n	Int=Yes	2	nsubj	2:nsubj	_
+2	inemahɨ	nem	VERB	vd	Emph=Yes|Rel=NCont	6	ccomp	6:ccomp	_
+3	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+4	kɨn	kɨn	PART	pcl	_	2	discourse	2:discourse	_
+5	,	,	PUNCT	punct	_	2	punct	2:punct	_
+6	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+7	kuzàgwer	kuzà	NOUN	n	Number=Coll	6	nsubj	6:nsubj	_
+8	uzeupeupe	upe	ADP	posp	Red=Di|Reflex=Yes|Rel=Corf	6	iobj	6:iobj	_
+9	wà	wà	PART	pcl	Number=Plur|Person=3	6	discourse	6:discourse	_
+10	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 469
+# text = Ipira àkàgwer ruʔu , inemahɨ ruʔu pepe no , iʔi Zuze ihɨ amogwer wanupe
+# text_port = Talvez seja cabeça de peixe estragada, a mãe de José disse as outras (Harrison, 2000).
+# text_spa = Tal vez sea cabeza de pescado estropeada, la madre de José le dijo a las demás.
+# text_en = Maybe it's rotten fish head, José's mother told the others.
+# [O [S PART V PART PP PART]] V S I
+1	Ipira	pira	NOUN	n	Rel=NCont	2	nmod	2:nmod	_
+2	àkàgwer	àkàg	NOUN	n	Rel=Cont|Tense=Past	5	nsubj	5:nsubj	_
+3	ruʔu	ruʔu	PART	pcl	Int=Yes	2	discourse	2:discourse	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	inemahɨ	nem	VERB	vd	Emph=Yes|Rel=NCont	10	ccomp	10:ccomp	_
+6	ruʔu	ruʔu	PART	pcl	Int=Yes	5	discourse	5:discourse	_
+7	pepe	pepe	NOUN	n	Case=Loc	5	obl	5:obl	_
+8	no	no	PART	pcl	_	5	discourse	5:discourse	_
+9	,	,	PUNCT	punct	_	5	punct	5:punct	_
+10	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+11	Zuze	Zuze	PROPN	pn	_	12	nmod	12:nmod	_
+12	ihɨ	hɨ	NOUN	n	Rel=NCont	10	nsubj	10:nsubj	_
+13	amogwer	amo	NOUN	n	Number=Coll|PronType=Ind	10	iobj	10:iobj	_
+14	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	13	case	13:case	_
+
+# sent_id = 470
+# text = Wekar pira iàkàgwer kurɨ .
+# text_port = Ela procurou a cabeça do peixe (Harrison, 2000).
+# text_spa = Ella buscó la cabeza del pez.
+# text_en = She searched for the head of the fish.
+# V O PART
+1	Wekar	ekar	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	pira	pira	NOUN	n	_	3	nmod	3:nmod	_
+3	iàkàgwer	àkàg	NOUN	n	Rel=NCont|Tense=Past	1	obj	1:obj	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 471
+# text = Nuexak kwaw .
+# text_port = Mais não a encontrou (Harrison, 2000).
+# text_spa = Más no la encontró.
+# text_en = But she did not find it.
+# V ADV
+1	Nuexak	exak	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 472
+# text = Te umeʔe aguza iàkàgwer ɨwɨ rehe har rehe .
+# text_port = De repente ela viu a cabeça do rato no chão (Harrison, 2000).
+# text_spa = De repente vio la cabeza del ratón en el suelo.
+# text_en = Suddenly she saw the mouse head on the floor.
+# PART V PP
+1	Te	te	PART	pcl	_	2	discourse	2:discourse	_
+2	umeʔe	meʔe	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	aguza	aguza	NOUN	n	_	4	nmod	4:nmod	_
+4	iàkàgwer	àkàg	NOUN	n	Rel=NCont|Tense=Past	2	obl	2:obl	_
+5	ɨwɨ	ɨwɨ	NOUN	n	_	4	nmod	4:nmod	_
+6	rehe	ehe	ADP	posp	Rel=Cont	5	case	5:case	_
+7	har	har	ADV	adv	Nomzr=Ag	5	advmod	5:advmod	_
+8	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+9	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 473
+# text = Wexak kurɨ .
+# text_port = Viu então (Harrison, 2000).
+# text_spa = Entonces lo vio.
+# text_en = Then she saw it.
+# V PART
+1	Wexak	exak	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 474
+# text = Aiʔàg raʔe , aguza iàkàgwer raʔe , inemahɨmaʔe raʔe , iʔi amogwer wanupe .
+# text_port = É isso. É a cabeça de rato que está cheirando mal, ela falou às outras (Harrison, 2000).
+# text_spa = Es eso. Es la cabeza del ratón lo que está oliendo mal, ella le dijo a las demás.
+# text_en = It is that. It's the mouse head what is smelling badly, she told the others.
+# [O [S PART V PART]] V I
+1	Aiʔàg	aiʔàg	PRON	pro	PronType=Dem	8	nmod	8:nmod	_
+2	raʔe	raʔe	PART	pcl	Tense=Past	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	5	punct	5:punct	_
+4	aguza	aguza	NOUN	n	_	5	nmod	5:nmod	_
+5	iàkàgwer	àkàg	NOUN	n	Rel=NCont|Tense=Past	1	appos	1:appos	_
+6	raʔe	raʔe	PART	pcl	Tense=Past	5	discourse	5:discourse	_
+7	,	,	PUNCT	punct	_	5	punct	5:punct	_
+8	inemahɨmaʔe	nem	NOUN	n	Emph=Yes|Nomzr=Abs|Rel=NCont	11	ccomp	11:ccomp	_
+9	raʔe	raʔe	PART	pcl	Tense=Past	8	discourse	8:discourse	_
+10	,	,	PUNCT	punct	_	8	punct	8:punct	_
+11	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+12	amogwer	amo	NOUN	n	Number=Coll	11	iobj	11:iobj	_
+13	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	12	case	12:case	_
+14	.	.	PUNCT	punct	_	11	punct	11:punct	_
+
+# sent_id = 475
+# text = Upɨhɨk imuwà aʔe kurɨ , wetɨk imono kaʔape no .
+# text_port = Pegou-a e jogou no mato (Harrison, 2000).
+# text_spa = Lo recogió y lo arrojó al campo.
+# text_en = She picked it up and threw it in the bush.
+# V AUX PART - V AUX PP PART
+1	Upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	imuwà	muwà	AUX	aux	Rel=NCont	1	aux	1:aux	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	wetɨk	etɨk	VERB	vt	Person[subj]=3	1	parataxis	1:parataxis	_
+7	imono	ho	VERB	vi	Rel=NCont|Voice=Cau	6	dep	6:dep	_
+8	kaʔape	kaʔa	NOUN	n	Case=Loc	6	obl	6:obl	_
+9	no	no	PART	pcl	_	6	discourse	6:discourse	_
+10	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 476
+# text = Inemahɨ tue aguza iàkàgwer aʔe raʔe no .
+# text_port = Mas, a cabeça do rato tinha um cheiro muito forte (Harrison, 2000)!
+# text_spa = ¡Pero la cabeza del ratón tenía un olor muy fuerte!
+# text_en = But the mouse's head had a very strong smell!
+# V ADV S PART
+1	Inemahɨ	nem	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	tue	tue	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
+3	aguza	aguza	NOUN	n	_	4	nmod	4:nmod	_
+4	iàkàgwer	àkàg	NOUN	n	Rel=NCont|Tense=Past	1	nsubj	1:nsubj	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	raʔe	raʔe	PART	pcl	Tense=Past	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
 # text_port = Onde John ouviu o grande porco?
