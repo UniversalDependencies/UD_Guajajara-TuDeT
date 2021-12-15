@@ -6535,7 +6535,7 @@
 # text_spa = ¿Cuál es el mal olor? Las mujeres se preguntaron.
 # text_en = What is the bad smell? The women asked each other.
 # [O [S V PART]] V S I PART
-1	Maʔe	maʔe	NOUN	n	Int=Yes	2	nsubj	2:nsubj	_
+1	Maʔe	maʔe	PRON	pro	Int=Yes	2	nsubj	2:nsubj	_
 2	inemahɨ	nem	VERB	vd	Emph=Yes|Rel=NCont	6	ccomp	6:ccomp	_
 3	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
 4	kɨn	kɨn	PART	pcl	_	2	discourse	2:discourse	_
