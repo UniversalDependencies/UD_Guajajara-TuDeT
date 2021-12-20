@@ -289,7 +289,7 @@
 7	wà	wà	PART	pcl	Number=Plur	1	discourse	_	_
 
 # sent_id = 26
-# text = Amo tuwihaw oho maiʔu haw pe aʔe wà no
+# text = Amo tuwihaw oho maiʔuhawpe aʔe wà no
 # text_port = Outros/Alguns chefes foram à festa também (Harrison, 2013:12)
 # text_spa = Algunos jefes también fueron a la fiesta 
 # text_eng = Other bosses also went to the party 
@@ -297,14 +297,12 @@
 1	Amo	amo	DET	dem	PronType=Ind	2	det	_	_
 2	tuwihaw	uwihaw	NOUN	n	Rel=Abs	3	nsubj	_	_
 3	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
-4-5	maiʔu	_	_	_	_	_	_	_	_
+4-5	maiʔuhawpe	_	_	_	_	_	_	_	_
 4	maʔe	maʔe	NOUN	n	_	3	obl	_	_
-5	ʔu	ʔu	VERB	v	_	4	nmod	_	_
-6	haw	haw	ADV	adv	_	5	advmod	_	_
-7	pe	pe	ADP	posp	_	4	case	_	_
-8	aʔe	aʔe	DET	dem	PronType=Dem	2	discourse	_	_
-9	wà	wà	PART	pcl	Number=Plur	2	discourse	_	_
-10	no	no	PART	pcl	_	3	discourse	_	_
+5	ʔuhawpe	ʔu	NOUN	n	Case=All|Nomzr=Circ	4	nmod	_	_
+6	aʔe	aʔe	DET	dem	PronType=Dem	2	discourse	_	_
+7	wà	wà	PART	pcl	Number=Plur	2	discourse	_	_
+8	no	no	PART	pcl	_	3	discourse	_	_
 
 # sent_id = 27
 # text = Amogwer oho haikwerupi wà
