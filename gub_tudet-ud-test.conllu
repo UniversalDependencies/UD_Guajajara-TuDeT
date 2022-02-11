@@ -7233,7 +7233,7 @@
 6	,	,	PUNCT	punct	_	1	punct	1:punct	_
 7	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
 8	zekaipo	kwehe	ADV	adv	Evident=Nfh	7	advmod	7:advmod	_
-9-10	zawaruhu	_	_	_	_	_	_	_	_
+9-10	zawaruhupe	_	_	_	_	_	_	_	_
 9	zawar	zawar	NOUN	n	_	7	obl	7:obl	_
 10	uhupe	hu	NOUN	n	Case=Dat	9	nmod	9:nmod	_
 11	.	.	PUNCT	punct	_	7	punct	7:punct	_
@@ -7263,7 +7263,7 @@
 6	,	,	PUNCT	punct	_	1	punct	1:punct	_
 7	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
 8	izupe	upe	ADP	posp	Rel=NCont	7	iobj	7:iobj	_
-9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+9	.	.	PUNCT	punct	_	7	punct	7:punct	_
 
 # sent_id = 515
 # text = Oho zekaipo awara izuwi .
