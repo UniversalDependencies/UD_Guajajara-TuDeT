@@ -8133,7 +8133,6 @@
 9	oho	ho	VERB	vi	Person=3	7	dep	7:dep	_
 10	izuwi	zuwi	ADP	posp	Rel=NCont	7	obl	7:obl	_
 
-
 # sent_id = 582
 # text = Maʔe te zekwehe Fábio uʔupaw aʔei ?
 # text_port = O que eles dizem que Fábio comeu tudo?
@@ -8174,8 +8173,8 @@
 2	ihɨ	hɨ	NOUN	n	Rel=NCont	3	nsubj	3:nsubj	_
 3	oho	ho	VERB	vi	Person=3	0	root	0:root	_
 4	wanuwi	uwi	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	3	obl	3:obl	_
-6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
-7	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+5	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+6	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
 
 # sent_id = 585
 # text = Seze pako Ana iʔun
@@ -8209,11 +8208,11 @@
 # V [ADV [O V C]] PART
 1	Omono	ho	VERB	vi	Person[subj]=3|Voice=Cau	0	root	0:root	_
 2	maniʔok	maniʔok	NOUN	n	_	3	obj	3:obj	_
-3	hɨtɨkpà	ɨtɨk	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
+3	hɨtɨkpa	ɨtɨk	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
 4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
 
 # sent_id = 588
-# text = Imaʔenukwaw Joao Quesler tapiʔir hekar mehe iko kaʔape 
+# text = Imaʔenukwaw Joao Quesler tapiʔir hekar mehe iko kaʔape
 # text_port = John acha que Quesler está caçando um tapir na floresta.
 # text_spa = John piensa que Quesler está cazando un tapir en el bosque.
 # text_en = John thinks that Quesler is hunting for a tapir in the forest (Bonfim Duarte, 2018).
