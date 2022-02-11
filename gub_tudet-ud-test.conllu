@@ -6859,7 +6859,6 @@
 14	no	no	PART	pcl	_	7	discourse	7:discourse	_
 15	.	.	PUNCT	punct	_	7	punct	7:punct	_
 
-
 # sent_id = 489
 # text = Upuranu wiwi hehe kurɨ .
 # text_port = Ela preguntava insistente .
@@ -6940,6 +6939,115 @@
 7	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
 8	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	5	iobj	5:iobj	_
 9	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 494
+# text = Naʔe wixe oho ɨwɨkwar pupe aʔe wà no , upaw waneixen izuru pupe wà , upaw waʔun wà .
+# text_port = Então eles acabaram caindo dentro da sua boca! (Harrison, 2000) 
+# text_spa = ¡Así que terminaron cayendo dentro de tu boca!
+# text_en = So they ended up falling inside your mouth!
+# C V AUX PP PART - V [XC [V PP PART]] - V [XC [V PART]]
+1	Naʔe	naʔe	PART	pcl	_	2	discourse	2:discourse	_
+2	wixe	ixe	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	oho	ho	VERB	vi	Person[subj]=3	2	dep	2:dep	_
+4-5	ɨwɨkwar	_	_	_	_	_	_	_	_
+4	ɨwɨ	ɨwɨ	NOUN	n	_	3	obl	3:obl	_
+5	kwar	kwar	NOUN	n	_	5	nmod	5:nmod	_
+6	pupe	pupe	ADP	posp	Rel=Cont	4	case	4:case	_
+7	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+8	wà	wà	PART	pcl	Number=Plur|Person=3	2	discourse	2:discourse	_
+9	no	no	PART	pcl	_	2	discourse	2:discourse	_
+10	,	,	PUNCT	punct	_	2	punct	2:punct	_
+11	upaw	paw	VERB	vt	Person[subj]=3	2	parataxis	2:parataxis	_
+12	waneixen	ixe	NOUN	n	NonFoc=Yes|Number=Plur|Person[psor]=3|Poss=Yes	11	obj	11:obj	_
+13	izuru	zuru	NOUN	n	Rel=NCont	12	obl	12:obl	_
+14	pupe	pupe	ADP	posp	Rel=Cont	13	case	13:case	_
+15	wà	wà	PART	pcl	Number=Plur|Person=3	11	discourse	11:discourse	_
+16	,	,	PUNCT	punct	_	11	punct	11:punct	_
+17	upaw	paw	VERB	vi	Person[subj]=3	11	parataxis	11:parataxis	_
+18	waʔun	ʔun	NOUN	n	NonFoc=Yes|Number=Plur|Person[psor]=3|Poss=Yes	17	obj	17:obj	_
+19	wà	wà	PART	pcl	Number=Plur|Person=3	17	discourse	17:discourse	_
+20	.	.	PUNCT	punct	_	17	punct	17:punct	_
+
+# sent_id = 495
+# text = Tueharupi zekaipo uzapo nezewe miar wanupe .
+# text_port = A onça sempre fez isso com os animais (Harrison, 2000).
+# text_spa = La jaguar siempre hizo eso con los animales.
+# text_en = The jaguar always did that with the animals.
+# PP ADV V ADV PP
+1	Tueharupi	tuwe	NOUN	n	Case=Tem|Nomzr=Circ|Rel=Cont	3	obl	3:obl	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+3	uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+5	miar	miar	NOUN	n	_	3	obl	3:obl	_
+6	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	5	case	5:case	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 496
+# text = Amo ʔar rehe zekaipo omonokar wi uzeʔeg miar wanupe no .
+# text_port = Noutro dia, a onça chamou mais animais (Harrison, 2000).
+# text_spa = Otro día, la jaguar llamó más animales.
+# text_en = On another day, the jaguar called more animals.
+# PP ADV AUX ADV V PP PART 
+1	Amo	amo	DET	det	PronType=Ind	2	det	2:det	_
+2	ʔar	ʔar	NOUN	n	_	7	obl	7:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+5	omonokar	ho	V	vi	Person[subj]=3|Voice=Cau	7	dep	7:dep	_
+6	wi	wi	ADV	adv	_	5	advmod	5:advmod	_
+7	uzeʔeg	zeʔeg	VERB	v	Person[subj]=3	0	root	0:root	_
+8	miar	miar	NOUN	n	_	7	obl	7:obl	_
+9	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	8	case	8:case	_
+10	no	no	PART	pcl	_	7	discourse	7:discourse	_
+11	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 497
+# text = Oho hexakpa wà no .
+# text_port = Eles foram ver também (Harrison, 2000).
+# text_spa = Ellos fueron a ver también.
+# text_en = They also went to watch.
+# V [ADV [V PART]]
+1	Oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	hexakpa	exak	VERB	vt	Person[subj]=3|Rel=NCont|VerbForm=Ger	2	advcl	2:advcl	_
+3	wà	wà	PART	pcl	Number=Plur|Person=3	2	discourse	2:discourse	_
+4	no	no	PART	pcl	_	2	discourse	2:discourse	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 498
+# text = Peixe tɨ wà , iʔi zekaipo zawaruhu in ɨwɨkwar pupe wanupe .
+# text_port = Entrem meus amigos, disse a onça de dentro do buraco (Harrison, 2000).
+# text_spa = Entren, amigos míos, dijo el jaguar desde el interior del agujero.
+# text_en = Enter my friends, said the jaguar from inside the hole.
+# [O [V PART]] V ADV S PP I
+1	Peixe	ixe	VERB	v	Mood=Imp|Number=Plur|Person[subj]=2	5	ccomp	5:ccomp	_
+2	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7-8	zawaruhu	_	_	_	_	_	_	_	_
+7	zawar	zawar	NOUN	n	_	5	nsubj	5:nsubj	_
+8	uhu	hu	NOUN	n	_	7	nmod	7:nmod	_
+9	in	in	AUX	aux	_	5	aux	5:aux	_
+10-11	ɨwɨkwar	_	_	_	_	_	_	_	_
+10	ɨwɨ	ɨwɨ	NOUN	n	_	5	obl	5:obl	_
+11	kwar	kwar	NOUN	n	_	10	nmod	10:nmod	_
+12	pupe	pupe	ADP	posp	Rel=Cont	10	case	10:case	_
+13	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	5	iobj	5:iobj	_
+14	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 499
+# text = Wixe miar oho aʔe wà no .
+# text_port = E eles entraram (Harrison, 2000).
+# text_spa = Y entraron.
+# text_en = And they entered.
+# V S AUX PART
+1	Wixe	ixe	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	miar	miar	NOUN	n	_	1	nsubj	1:nsubj	_
+3	oho	ho	VERB	vi	Person[subj]=3	1	aux	1:aux	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
@@ -7186,4 +7294,3 @@
 4	tapiʔir	tapiʔir	NOUN	n	_	5	obj	5:obj	_
 5	haro	aro	VERB	v	Rel=NCont	2	advcl	2:advcl	_
 6	mehe	mehe	ADV	adv	_	5	mark	5:mark	_
-
