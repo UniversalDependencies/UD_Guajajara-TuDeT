@@ -8261,3 +8261,150 @@
 3	awa	awa	NOUN	n	_	4	nmod	4:nmod	_
 4	hemizuhawkwer	zuhaw	NOUN	n	Nomzr=DevPass|Rel=NCont|Tense=Past	1	obj	1:obj	_
 
+# sent_id = 592
+# text = Oho zepe tazahu izuwi .
+# text_port = O queixado tentou fugir (Harrison, 2000).
+# text_spa = El pecarí intentó escapar.
+# text_en = The peccary tried to escape.
+# V PART S PP
+1	oho	oho	PROPN	pn	_	0	root	0:root	_
+2	zepe	zepe	PART	pcl	_	1	discourse	1:discourse	_
+3-4	tazahu	_	_	_	_	_	_	_	_
+3	taz	taz	NOUN	n	_	1	nsubj	1:nsubj	_
+4	ahu	hu	NOUN	n	_	3	nmod	3:nmod	_
+5	izuwi	zuwi	ADP	posp	Rel=NCont	1	obl	1:obl	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 593
+# text = Naʔikatu pixik kwaw kwaxi ihɨpe .
+# text_port = A mãe não gosta nem (do coati) um pouco (Harrison, 2000).
+# text_spa = A la madre no le gusta el coati en absoluto.
+# text_en = The mother does not like the coati at all.
+# V ADV O PP
+1	Naʔikatu	katu	VERB	vd	Emph=Yes|Polarity=Neg	0	root	0:root	_
+2	pixik	pixik	NOUN	n	_	1	obl	1:obl	_
+3	kwaw	kwaw	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
+4	kwaxi	kwaxi	NOUN	n	_	1	obj	1:obj	_
+5	ihɨpe	hɨ	NOUN	n	Case=Dat|Rel=NCont	1	obl	1:obl	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 594
+# text = Uzàn oho izuwi .
+# text_port = (O coati) correu (Harrison, 2000)!
+# text_spa = ¡El coati corrió!
+# text_en = The coati ran!
+# V AUX PP
+1	Uzàn	zàn	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+3	izuwi	zuwi	ADP	posp	Rel=NCont	1	obl	1:obl	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 595
+# text = Hahɨ tue heha izupe .
+# text_port = Seus olhos doeram (Harrison, 2000).
+# text_spa = Sus ojos dolían.
+# text_en = Her eyes hurt.
+# V ADV S I
+4	Hahɨ	ahɨ	VERB	vd	Rel=NCont	0	root	0:root	_
+5	tue	tue	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
+6	heha	eha	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
+7	izupe	upe	ADP	posp	Rel=NCont	1	iobj	1:iobj	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 596
+# text = Umeʔeg kar putar muhàg uhɨpe nehe .
+# text_port = Compra remédio na vila para sua mãe (Harrison, 2000).
+# text_spa = Compra medicina en el pueblo para su madre.
+# text_en = He buys medicine in the village for his mother.
+# V ADV O PP PART
+1	Umeʔeg	meʔeg	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	kar	kar	ADV	adv	Voice=Cau	1	advmod	1:advmod	_
+3	putar	putar	ADV	adv	Tense=Fut	1	advmod	1:advmod	_
+4	muhàg	muhàg	NOUN	n	_	1	obj	1:obj	_
+5	uhɨpe	hɨ	NOUN	n	Case=Dat|Rel=Corf	1	obl	1:obl	_
+6	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 597
+# text = Xo aʔe zo heta , iʔi Kari upe .
+# text_port = Somente tem isto, Karita falou ao pai (Harrison, 2000).
+# text_spa = Solo hay esto, Karita le dijo a su padre.
+# text_en = There is only this, Karita told her father.
+# [O [PART S PART V]] V S PP
+1	Xo	xo	PART	pcl	_	2	discourse	2:discourse	_
+2	aʔe	aʔe	PRON	pro	PronType=Dem	4	nsubj	4:nsubj	_
+3	zo	zo	PART	pcl	_	2	discourse	2:discourse	_
+4	heta	eta	VERB	vi	Person[subj]=3	6	ccomp	6:ccomp	_
+5	,	,	PUNCT	punct	_	4	punct	4:punct	_
+6	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+7	Kari	Kari	PROPN	pn	_	6	nsubj	6:nsubj	_
+8	upe	u	NOUN	n	Case=Dat|Rel=Corf	6	obl	6:obl	_
+9	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 598
+# text = Heta teteaʔu ɨwɨxig pe rupi .
+# text_port = Tem areia branca no camino.
+# text_spa = Hay arena blanca en el camino.
+# text_en = There was white sand on the road.
+# V ADV PP
+1	Heta	Heta	VERB	vi	Rel=NCont	0	root	0:root	_
+2	teteaʔu	tete	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3-4	ɨwɨxig	_	_	_	_	_	_	_	_
+3	ɨwɨ	ɨwɨ	NOUN	n	_	1	nsubj	1:nsubj	_
+4	xig	xig	NOUN	n	Rel=Cont	3	nmod	3:nmod	_
+5	pe	pe	NOUN	n	_	1	obl	1:obl	_
+6	rupi	upi	ADP	posp	Rel=Cont	5	case	5:case	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 599
+# text = Heta xu pe iwɨr , nuexak kwaw xu .
+# text_port = Não viu o espinheiro ao lado do caminho (Harrison, 2000).
+# text_spa = No vio el espino al lado del camino.
+# text_en = He did not see the thorn beside the way.
+# V PP PP - V ADV O
+1	Heta	eta	VERB	vi	Rel=NCont	0	root	0:root	_
+2	xu	xu	NOUN	n	_	1	nsubj	1:nsubj	_
+3	pe	pe	NOUN	n	_	1	obl	1:obl	_
+4	iwɨr	wɨr	ADP	posp	Rel=NCont	3	case	3:case	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	nuexak	exak	VERB	vt	Person[subj]=3|Polarity=Neg	1	parataxis	1:parataxis	_
+7	kwaw	kwaw	ADV	adv	Polarity=Neg	6	advmod	6:advmod	_
+8	xu	xu	NOUN	n	_	6	obj	6:obj	_
+9	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 600
+# text = Weraha uxapat ʔɨpe , ihezta .
+# text_port = Levou (o sapato) ao rio para lavá-lo (Harrison, 2000).
+# text_spa = Llevó el zapato al río para lavarlo.
+# text_en = He took the shoe to the river to wash it.
+# V O PP [ADV [V]]
+1	Weraha	ha	VERB	vt	Person[subj]=3|Voice=Com	0	root	0:root	_
+2	uxapat	xapat	NOUN	n	Rel=Corf	1	nsubj	1:nsubj	_
+3	ʔɨpe	ʔɨ	NOUN	n	Case=Loc	1	obl	1:obl	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	ihezta	hez	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
+6	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 601
+# text = Naʔipuràgeteahɨ kwaw kurɨ .
+# text_port = Não era mais bonito (Harrison, 2000).
+# text_spa = Ya no era hermoso.
+# text_en = It was not beautiful anymore.
+# V ADV PART
+1	Naʔipuràgeteahɨ	puràg	VERB	vd	Emph=Yes|Polarity=Neg	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 602
+# text = Iàkàgwer zo nuʔu kwaw .
+# text_port = (Não comeu) a cabeça (Harrison, 2000).
+# text_spa = No comió su cabeza.
+# text_en = It did not eat its head.
+# O PART V ADV
+1	Iàkàgwer	àkàg	NOUN	n	Rel=NCont|Tense=Past	3	obj	3:obj	_
+2	zo	zo	PART	pcl	_	1	discourse	1:discourse	_
+3	nuʔu	ʔu	VERçB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+4	kwaw	kwaw	ADV	adv	Polarity=Neg	3	advmod	3:advmod	_
+5	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
