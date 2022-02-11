@@ -8145,7 +8145,7 @@
 4	Fábio	Fábio	PROPN	ppn	_	5	nsubj	5:nsubj	_
 5-6	uʔupaw	_	_	_	_	_	_	_	_
 5	uʔu	ʔu	VERB	vt	Person=3	0	root	0:root	_
-6	paw	paw	ADV	adv _	5	advmod	5:advmod	_
+6	paw	paw	ADV	adv	_	5	advmod	5:advmod	_
 7	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
 8	?	?	PUNCT	punct	_	5	punct	5:punct	_
 
@@ -8267,7 +8267,7 @@
 # text_spa = El pecarí intentó escapar.
 # text_en = The peccary tried to escape.
 # V PART S PP
-1	oho	oho	PROPN	pn	_	0	root	0:root	_
+1	Oho	oho	PROPN	pn	_	0	root	0:root	_
 2	zepe	zepe	PART	pcl	_	1	discourse	1:discourse	_
 3-4	tazahu	_	_	_	_	_	_	_	_
 3	taz	taz	NOUN	n	_	1	nsubj	1:nsubj	_
@@ -8305,11 +8305,11 @@
 # text_spa = Sus ojos dolían.
 # text_en = Her eyes hurt.
 # V ADV S I
-4	Hahɨ	ahɨ	VERB	vd	Rel=NCont	0	root	0:root	_
-5	tue	tue	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
-6	heha	eha	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
-7	izupe	upe	ADP	posp	Rel=NCont	1	iobj	1:iobj	_
-8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+1	Hahɨ	ahɨ	VERB	vd	Rel=NCont	0	root	0:root	_
+2	tue	tue	PART	pcl	Emph=Yes	1	discourse	1:discourse	_
+3	heha	eha	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
+4	izupe	upe	ADP	posp	Rel=NCont	1	iobj	1:iobj	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 596
 # text = Umeʔeg kar putar muhàg uhɨpe nehe .
@@ -8404,7 +8404,7 @@
 # O PART V ADV
 1	Iàkàgwer	àkàg	NOUN	n	Rel=NCont|Tense=Past	3	obj	3:obj	_
 2	zo	zo	PART	pcl	_	1	discourse	1:discourse	_
-3	nuʔu	ʔu	VERçB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+3	nuʔu	ʔu	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
 4	kwaw	kwaw	ADV	adv	Polarity=Neg	3	advmod	3:advmod	_
 5	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
