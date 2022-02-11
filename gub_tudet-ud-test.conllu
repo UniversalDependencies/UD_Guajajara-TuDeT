@@ -6859,6 +6859,88 @@
 14	no	no	PART	pcl	_	7	discourse	7:discourse	_
 15	.	.	PUNCT	punct	_	7	punct	7:punct	_
 
+
+# sent_id = 489
+# text = Upuranu wiwi hehe kurɨ .
+# text_port = Ela preguntava insistente .
+# text_spa = Ella le preguntaba con insistencia.
+# text_en = She would repeteadly ask him.
+# V PP
+1	Upuranu	upuranu	VERB	v	Person=3	0	root	0:root	_
+2	wiwi	wi	PART	pcl	Red=Mo	1	discourse	1:discourse	_
+3	hehe	ehe	ADP	posp	Rel=NCont	1	obl	1:obl	_
+4	kurɨ	kurɨ	ADV	adv	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 490
+# text = Naʔe zekaipo hexakar uhem oho aʔepe wà , ɨwɨkwar huake wà .
+# text_port = Então ela ficava incentivando os animais a se aproximarem (Harrison, 2000).
+# text_spa = Entonces seguía alentando a los animales a acercarse.
+# text_en = Then she kept encouraging animals to approach.
+# C ADV V AUX AUX PP PART
+1	Naʔe	naʔe	PART	pcl	_	3	discourse	3:discourse	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+3	hexakar	exak	VERB	vi	NonFoc=Yes|Rel=NCont|Voice=Cau	0	root	0:root	_
+4	uhem	hem	VERB	v	Person[subj]=3	3	dep	3:dep	_
+5	oho	ho	VERB	vi	Person[subj]=3	4	dep	4:dep	_
+6	aʔepe	aʔe	PRON	pro	Case=Dat|PronType=Dem	3	obl	3:obl	_
+7	wà	wà	PART	pcl	Number=Plur|Person=3	6	discourse	6:discourse	_
+8	,	,	PUNCT	punct	_	3	punct	3:punct	_
+9-10	ɨwɨkwar	_	_	_	_	_	_	_	_
+9	ɨwɨ	ɨwɨ	NOUN	n	_	3	obl	3:obl	_
+10	kwar	kwar	NOUN	n	_	9	nmod	9:nmod	_
+11	huake	uake	ADP	posp	Rel=NCont	9	case	9:case	_
+12	wà	wà	PART	pcl	Number=Plur|Person=3	9	discourse	9:discourse	_
+13	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
+# sent_id = 491
+# text = Zanekaruk tɨ , iʔi zekaipo izupe wà .
+# text_port = Boa tarde amigos, dizia ela (Harrison, 2000).
+# text_spa = Buenas tardes amigos, ella dijo.
+# text_en = Good afternoon friends, she said.
+# [O [S PART]] V ADV I PART
+1	Zanekaruk	karuk	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1|Poss=Yes	4	ccomp	4:ccomp	_
+2	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+5	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6	izupe	upe	ADP	posp	Rel=NCont	4	iobj	4:iobj	_
+7	wà	wà	PART	pcl	Number=Plur|Person=3	4	discourse	4:discourse	_
+8	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 492
+# text = Zanekaruk aipo , iʔi zekaipo zawaruhu wanupe .
+# text_port = Não sei não, respondiam eles (Harrison, 2000).
+# text_spa = No lo sé, respondían.
+# text_en = I do not know, they answered.
+# [O [S PART]] V ADV PP
+1	Zanekaruk	karuk	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1|Poss=Yes	4	ccomp	4:ccomp	_
+2	aipo	aipo	PART	pcl	_	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6-7	zawaruhu	_	_	_	_	_	_	_	_
+6	zawar	zawar	NOUN	n	_	4	obl	4:obl	_
+7	uhu	hu	NOUN	n	_	6	nmod	6:nmod	_
+8	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	6	case	6:case	_
+9	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 493
+# text = Peixe tɨ wà , iʔi muaʔu zekaipo wanupe .
+# text_port = Entrem amigos, disse a onça enganando-os (Harrison, 2000).
+# text_spa = Entra amigos, dijo la jaguar engañándolos.
+# text_en = Enter friends, said the jaguar deceiving them.
+# [O [V PART]] V ADV I
+1	Peixe	ixe	VERB	v	Mood=Imp|Number=Plur|Person=2	5	ccomp	5:ccomp	_
+2	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	muaʔu	muaʔu	ADV	adv	_	5	advmod	5:advmod	_
+7	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+8	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	5	iobj	5:iobj	_
+9	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
 # text_port = Onde John ouviu o grande porco?
