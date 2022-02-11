@@ -7049,6 +7049,162 @@
 6	no	no	PART	pcl	_	1	discourse	1:discourse	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
+# sent_id = 500
+# text = Wixe paw izurupe wà .
+# text_port = Cairam dentro de sua boca (Harrison, 2000).
+# text_spa = Cayeron en su boca.
+# text_en = They fell into his mouth.
+# V S PP PART
+1	Wixe	ixe	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	paw	paw	PRON	pro	PronType=Tot	1	nsubj	1:nsubj	_
+3	izurupe	zuru	NOUN	n	Case=Loc|Rel=NCont	1	obl	1:obl	_
+4	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 501
+# text = Te upaw waʔun .
+# text_port = Ela os comeu todos (Harrison, 2000).
+# text_spa = Ella los comió a todos.
+# text_en = She ate them all.
+# PART V O
+1	Te	te	PART	pcl	_	2	discourse	2:discourse	_
+2	upaw	paw	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	waʔun	ʔu	NOUN	n	NonFoc=Yes|Number=Plur|Rel=Corf	2	obj	2:obj	_
+4	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 502
+# text = Naʔe zekaipo omonokar uzeʔeg awarape kurɨ .
+# text_port = Então a onça chamou a raposa (Harrison, 2000).
+# text_spa = Luego la jaguar llamó al zorro.
+# text_en = Then the jaguar called the fox.
+# PART ADV AUX V PP PART
+1	Naʔe	naʔe	PART	pcl	_	4	discourse	4:discourse	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	omonokar	ho	VERB	vi	Person[subj]=3|Voice=Cau	4	dep	4:dep	_
+4	uzeʔeg	zeʔeg	VERB	v	Person[subj]=3	0	root	0:root	_
+5	awarape	awara	NOUN	n	Case=Dat	4	obl	4:obl	_
+6	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+7	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 503
+# text = Naʔe zekaipo awara oho hexakpa aʔe no .
+# text_port = Ela foi ve-la (Harrison, 2000).
+# text_spa = Ella fue a verla.
+# text_en = She went to see her.
+# PART ADV S V [ADV [V PART]]
+1	Naʔe	naʔe	PART	pcl	_	4	discourse	4:discourse	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	awara	awara	NOUN	n	_	4	nsubj	4:nsubj	_
+4	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+5	hexakpa	exak	VERB	v	Rel=NCont|VerbForm=Ger	4	advcl	4:advcl	_
+7	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+8	no	no	PART	pcl	_	5	discourse	5:discourse	_
+9	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 504
+# text = Uhem oho aʔepe aʔe no .
+# text_port = Chegou lã (Harrison, 2000).
+# text_spa = Llegó allí.
+# text_en = Arrived there.
+# V AUX PP PART
+1	Uhem	hem	VERB	v	Person[subj]=3	0	root	0:root	_
+2	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+3	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	1	obl	1:obl	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 505
+# text = Umeʔegatu zekaipo awara amogwer wapɨpor rehe .
+# text_port = Viu logo os rastros dos outros (Harrison, 2000).
+# text_spa = Pronto vio las huellas de los demás.
+# text_en = He soon saw the traces of others.
+# V ADV S PP
+1	Umeʔegatu	meʔe	VERB	vi	Emph=Yes|Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	awara	awara	NOUN	n	_	1	nsubj	1:nsubj	_
+4	amogwer	amo	PRON	pro	Number=Coll|PronType=Ind	5	nmod	5:nmod	_
+5	wapɨpor	pɨpor	NOUN	n	Number=Plur|Person[psor]=3|Rel=Cont	1	obl	1:obl	_
+6	rehe	ehe	ADP	posp	Rel=Cont	5	case	5:case	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 506
+# text = Wexak xo waneixe awer zo .
+# text_port = Viu que só entravam (Harrison, 2000).
+# text_spa = Vio que solo entraron.
+# text_en = He saw that they only entered.
+# V PART O PART 
+1	Wexak	exak	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	xo	xo	PART	pcl	_	1	discourse	1:discourse	_
+3	waneixe	eixe	NOUN	n	Number=Plur|Person[psor]=3	1	obj	1:obj	_
+4	awer	haw	ADV	adv	Nomzr=Circ|Tense=Past	3	advmod	3:advmod	_
+5	zo	zo	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 507
+# text = Nuexak kwaw wazewɨrawer .
+# text_port = Não viu que saiam (Harrison, 2000).
+# text_spa = No vio que se vayan.
+# text_en = He did not see that they leave.
+# V ADV O
+1	Nuexak	exak	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	wazewɨrawer	zewɨr	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes|Tense=Past	1	obj	1:obj	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 508
+# text = Kwa , màràzàwe tue aipo pa , iʔi zekaipo awara uzeupe .
+# text_port = O que é isto? disse a raposa a si mesma (Harrison, 2000).
+# text_spa = ¿Qué es esto? Se dijo el zorro para sí mismo.
+# text_en = What is this? Said the fox to herself.
+# [O [INTJ S PART]] V ADV S I
+1	Kwa	kwa	INTJ	intj	_	3	discourse	3:discourse	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3-4	màràzàwe	_	_	_	_	_	_	_	_
+3	màrà	màrà	PRON	pro	PronType=Int	9	ccomp	9:ccomp	_
+4	zàwe	zàwe	PRON	pro	PronType=Int	3	fixed	3:fixed	_
+5	tue	tue	PART	pcl	_	3	discourse	3:discourse	_
+6	aipo	aipo	PART	pcl	_	3	discourse	3:discourse	_
+7	pa	pa	PART	pcl	_	3	discourse	3:discourse	_
+8	,	,	PUNCT	punct	_	3	punct	3:punct	_
+9	iʔi	ʔi	VERB	v	Person[subj]=3	0	root	0:root	_
+10	zekaipo	kwehe	ADV	adv	Evident=Nfh	9	advmod	9:advmod	_
+11	awara	awara	NOUN	n	_	9	nsubj	9:nsubj	_
+12	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	9	iobj	9:iobj	_
+13	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
+# sent_id = 509
+# text = Xo waneixe awer zo heta wapɨpor .
+# text_port = Só tem rastro entrando (Harrison, 2000).
+# text_spa = Solo se ha traído entrando.
+# text_en = It only has trail entering.
+# [NMod [PART N ADV PART]] V S
+1	Xo	xo	PART	pcl	_	2	discourse	2:discourse	_
+2	waneixe	eixe	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	6	nmod	6:nmod	_
+3	awer	haw	ADV	adv	Nomzr=Circ|Tense=Past	2	advmod	2:advmod	_
+4	zo	zo	PART	pcl	_	2	discourse	2:discourse	_
+5	heta	eta	VERB	vi	Person[subj]=3	0	root	0:root	_
+6	wapɨpor	pɨpor	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes	5	nsubj	5:nsubj	_
+7	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 510
+# text = Wazewɨr awer naheta kwaw wapɨpor , iʔi zekaipo awara uzeupe .
+# text_port = Não tem rastro saindo, disse a si mesma (Harrison, 2000).
+# text_spa = No hay ningún camino saliendo, se dijo a sí misma.
+# text_en = There is no trail coming out, he told herself.
+# [O [Nmod [N ADV]] V ADV S] V ADV S I
+1	Wazewɨr	zewɨr	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes	5	nmod	5:nmod	_
+2	awer	haw	ADV	adv	Nomzr=Circ|Tense=Past	1	advmod	1:advmod	_
+3	naheta	eta	VERB	vi	Person[subj]=3|Polarity=Neg	7	ccomp	7:ccomp	_
+4	kwaw	kwaw	ADV	adv	Polarity=Neg	3	advmod	3:advmod	_
+5	wapɨpor	pɨpor	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes	3	nsubj	3:nsubj	_
+6	,	,	PUNCT	punct	_	3	punct	3:punct	_
+7	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+8	zekaipo	kwehe	ADV	adv	Evident=Nfh	7	advmod	7:advmod	_
+9	awara	awara	NOUN	n	_	7	nsubj	7:nsubj	_
+10	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	7	iobj	7:iobj	_
+11	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
 # text_port = Onde John ouviu o grande porco?
