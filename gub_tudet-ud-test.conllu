@@ -7445,7 +7445,7 @@
 4	uhu	hu	NOUN	n	_	3	nmod	3:nmod	_
 5	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	2	obl	2:obl	_
 6	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
-7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 527
 # text = Màràzàwe tue ereiko tɨ , iʔi zekaipo zawaruhu izupe .
@@ -7453,7 +7453,7 @@
 # text_spa = ¿Qué estás haciendo? Le preguntó el jaguar a uno de ellos.
 # text_en = What are you doing? The jaguar asked to one of them.
 # [O [O PART V PART]] V ADV S I
-1-2	màràzàwe	_	_	_	_	_	_	_	_
+1-2	Màràzàwe	_	_	_	_	_	_	_	_
 1	màrà	màrà	PRON	pro	PronType=Int	4	obj	4:obj	_
 2	zàwe	zàwe	PRON	pro	PronType=Int	1	fixed	1:fixed	_
 3	tue	tue	PART	pcl	_	1	discourse	1:discourse	_
@@ -7517,7 +7517,7 @@
 # [O [INTJ S V PART]] V ADV S I PP
 1	Kwa	kwa	INTJ	intj	_	4	discourse	4:discourse	_
 2	,	,	PUNCT	punct	_	1	punct	1:punct	_
-3	hekàgwer	àkàg	NOUN	n	Number=Sing|Person[psor]=1|Poss=Yes|Tense=Past	_	_	_	_
+3	hekàgwer	àkàg	NOUN	n	Number=Sing|Person[psor]=1|Poss=Yes|Tense=Past	4	nsubj	4:nsubj	_
 4	tàtàahɨ	tàtà	VERB	vd	Emph=Yes|Rel=Cont	8	ccomp	8:ccomp	_
 5	ihe	ihe	PART	pcl	Number=Sing|Person=1	4	discourse	4:discourse	_
 6	pa	pa	PART	pcl	_	4	discourse	4:discourse	_
@@ -7526,7 +7526,7 @@
 9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
 10	aʔɨ	aʔɨ	NOUN	n	_	8	nsubj	8:nsubj	_
 11	izupe	upe	ADP	posp	Rel=NCont	8	iobj	8:iobj	_
-12-13	zawaruhu	_	_	_	_	_	_	_	_
+12-13	zawaruhupe	_	_	_	_	_	_	_	_
 12	zawar	zawar	NOUN	n	_	11	appos	11:appos	_
 13	uhupe	hu	NOUN	n	Case=Dat	12	nmod	12:nmod	_
 14	.	.	PUNCT	punct	_	8	punct	8:punct	_
@@ -7537,7 +7537,7 @@
 # text_spa = (Si no me dejas), te mataré, le dijo el jaguar al perezoso.
 # text_en = (If you do not let me) I'll kill you, the jaguar told the sloth.
 # [O [C V PART]] V ADV S PP
-1	Mehe	mehe	PART	pcl	Rel=Cont	2	discourse	2:discourse	_
+1	Mehe	mehe	ADP	posp	Rel=Cont	2	obl	2:obl	_
 2	uruzuka	zuka	VERB	vt	Clusivity=Ex|Number=Plur|Person[subj]=1	5	ccomp	5:ccomp	_
 3	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
 4	,	,	PUNCT	punct	_	2	punct	2:punct	_
@@ -7592,7 +7592,7 @@
 9	ɨwɨra	ɨwɨra	NOUN	n	_	1	obl	1:obl	_
 10	rupi	upi	ADP	posp	Rel=Cont	9	case	9:case	_
 11	aʔe	aʔe	PART	pcl	Person=3	9	discourse	9:discourse	_
-12	kurɨ	kurɨ	PART	pcl	_	9	discourse	9:discourse_
+12	kurɨ	kurɨ	PART	pcl	_	9	discourse	9:discourse	_
 13	.	.	PUNCT	punct	_	9	punct	9:punct	_
 
 # sent_id = 535
@@ -7634,10 +7634,10 @@
 5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
 6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
 7	aʔɨ	aʔɨ	NOUN	n	_	5	nsubj	5:nsubj	_
-8	zawaruhupe	_	_	_	_	_	_	_	_	
+8-9	zawaruhupe	_	_	_	_	_	_	_	_
 8	zawar	zawar	NOUN	n	_	5	obl	5:obl	_
-9	uhupe uhu	NOUN	n	Case=Dat	8	nmod	8:nmod	_
-9	.	.	PUNCT	punct	_	5	punct	5:punct	_
+9	uhupe	uhu	NOUN	n	Case=Dat	8	nmod	8:nmod	_
+10	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
 # sent_id = 538
 # text = Upaw kurɨ .
