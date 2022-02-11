@@ -7908,7 +7908,7 @@
 5	kwez	kwez	ADV	adv	Tense=Past	3	advmod	3:advmod	_
 
 # sent_id = 564
-# text = Epɨhɨk netakihe aguza izukapà nehe
+# text = Epɨhɨk netakihe aguza izukapa nehe
 # text_port = Pegue sua faca para matar o rato.
 # text_spa = Consigue tu cuchillo para matar la rata.
 # text_en = Get your knife in order to kill the rat (Bonfim Duarte, 2018).
@@ -7927,10 +7927,10 @@
 # S V [O [S O V C AUX]]
 1	Purutu	Purutu	PROPN	ppn	_	2	nsubj	2:nsubj	_
 2	wexak	exak	VERB	vt	Person=3	0	root	0:root	_
-3	zawar	zawar	NOUN	n	_	7	nsubj	7:nsubj	_
-4	tapiʔir	tapiʔir	NOUN	n	_	7	obj	7:obj	_
+3	zawar	zawar	NOUN	n	_	5	nsubj	5:nsubj	_
+4	tapiʔir	tapiʔir	NOUN	n	_	5	obj	5:obj	_
 5	izuka	zuka	VERB	v	Rel=NCont|VerbForm=Ger	2	ccomp	2:ccomp	_
-6	mehe	mehe	SCONJ	sc	_	7	mark	7:mark	_
+6	mehe	mehe	SCONJ	sc	_	5	mark	5:mark	_
 7	iko	iko	AUX	aux	Aspect=Prog|Person=3	5	aux	5:aux	_
 
 # sent_id = 566
@@ -8062,7 +8062,7 @@
 3	wenu	enu	VERB	vt	Person=3	0	root	0:root	_
 4	tazahu	tazahu	NOUN	n	_	3	obj	3:obj	_
 5	raʔe	raʔe	PART	pcl	_	3	discourse	3:discourse	_
-6	?	?	PUNCT	punct	_	3	discourse	3:discourse	_
+6	?	?	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 577
 # text = Uzemumikahɨ zekaipo aʔe kuzà iko aʔe kurɨ
@@ -8073,10 +8073,10 @@
 1	Uzemumikahɨ	zemumik	VERB	vi	Emph=Yes|Person[subj]=3	0	root	0:root	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
 3	aʔe	aʔe	DET	dem	PronType=Dem	4	det	4:det	_
-4	kuzà	kuzà	NOUN	n	_	5	nsubj	5:nsubj	_
+4	kuzà	kuzà	NOUN	n	_	1	nsubj	1:nsubj	_
 5	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
-6	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
-7	kurɨ	kurɨ	PART	pcl	_	5	discourse	5:discourse	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
 
 # sent_id = 578
 # text = Uhaw zekaipo ihɨ amo maʔeputɨr oho
@@ -8130,6 +8130,6 @@
 6	Siba	Siba	PROPN	ppn	_	7	nsubj	7:nsubj	_
 7	upɨhɨkràm	pɨhɨk	VERB	v	Person=3|Tense=Fut	0	root	0:root	_
 8	kaʔi	kaʔi	NOUN	n	_	7	obj	7:obj	_
-9	oho	ho	VERB	vi	Person=3	7	dep	7:dep	
+9	oho	ho	VERB	vi	Person=3	7	dep	7:dep	_
 10	izuwi	zuwi	ADP	posp	Rel=NCont	7	obl	7:obl	_
 
