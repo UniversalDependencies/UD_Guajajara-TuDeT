@@ -8133,3 +8133,132 @@
 9	oho	ho	VERB	vi	Person=3	7	dep	7:dep	_
 10	izuwi	zuwi	ADP	posp	Rel=NCont	7	obl	7:obl	_
 
+
+# sent_id = 582
+# text = Maʔe te zekwehe Fábio uʔupaw aʔei ?
+# text_port = O que eles dizem que Fábio comeu tudo?
+# text_spa = ¿Qué es lo que dicen que Fábio comió todo?
+# text_en = What did they say that Fábio ate all of (Bonfim Duarte, 2018)?
+# O ADV S V PART
+1	Maʔe	maʔe	NOUN	n	_	5	obj	5:obj	_
+2	te	te	PART	pcl	_	1	discourse	1:discourse	_
+3	zekwehe	kwehe	ADV	adv	Evident=Fh|Tense=Past	1	advmod	1:advmod	_
+4	Fábio	Fábio	PROPN	ppn	_	5	nsubj	5:nsubj	_
+5-6	uʔupaw	_	_	_	_	_	_	_	_
+5	uʔu	ʔu	VERB	vt	Person=3	0	root	0:root	_
+6	paw	paw	ADV	adv _	5	advmod	5:advmod	_
+7	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+8	?	?	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 583
+# text = Naʔe zekaipo miar uzeʔeg izupe aʔe wà
+# text_port = (Se diz que) então eles, os animais, falaram com ele.
+# text_spa = (Se dice que) Luego, ellos, los animales, le hablaron.
+# text_en = (They said that) then they, the animals, spoke to him (Bonfim Duarte, 2018).
+# PART ADV S V I PART
+1	Naʔe	naʔe	PART	pcl	_	4	discourse	4:discourse	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	miar	miar	NOUN	n	_	4	nsubj	4:nsubj	_
+4	uzeʔeg	zeʔeg	VERB	v	Person=3	0	root	0:root	_
+5	izupe	upe	ADP	posp	Rel=NCont	4	iobj	4:iobj	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+7	wà	wà	PART	pcl	Number=Plur|Person=3	4	discourse	4:discourse	_
+
+# sent_id = 584
+# text = Taʔe ihɨ oho wanuwi aʔe kurɨ
+# text_port = Por causa disso, ela, sua mãe, foi embora deles.
+# text_spa = Debido a esto, ella, su madre, se alejó de ellos.
+# text_en = Because of this, she, their mother, went away from them (Bonfim Duarte, 2018).
+# PART S V PP PART
+1	Taʔe	taʔe	PART	pcl	_	3	discourse	3:discourse	_
+2	ihɨ	hɨ	NOUN	n	Rel=NCont	3	nsubj	3:nsubj	_
+3	oho	ho	VERB	vi	Person=3	0	root	0:root	_
+4	wanuwi	uwi	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	3	obl	3:obl	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+
+# sent_id = 585
+# text = Seze pako Ana iʔun
+# text_port = Disseram que era uma banana o que Ana comeu aqui.
+# text_spa = Dijeron que era un plátano lo que Ana comió aquí.
+# text_en = They said that it was a banana that Ana ate here (Bonfim Duarte, 2018).
+# ADV O S V
+1	Seze	seze	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+2	pako	pako	NOUN	n	_	4	obj	4:obj	_
+3	Ana	Ana	PROPN	ppn	_	4	nsubj	4:nsubj	_
+4	iʔun	ʔu	VERB	vt	NonFoc=Yes|Rel=NCont	0	root	0:root	_
+
+# sent_id = 586
+# text = Wexak awa zawar kaʔi haro mehe
+# text_port = O homem viu que o jaguar estava esperando pelo macaco.
+# text_spa = El hombre vio que el jaguar estaba esperando al mono.
+# text_en = The man saw that the jaguar was waiting for the monkey (Bonfim Duarte, 2018).
+# V S [O [S O V C]]
+1	Wexak	exak	VERB	vt	Person=3	0	root	0:root	_
+2	awa	awa	NOUN	n	_	1	nsubj	1:nsubj	_
+3	zawar	zawar	NOUN	n	_	5	nsubj	5:nsubj	_
+4	kaʔi	kaʔi	NOUN	n	_	5	obj	5:obj	_
+5	haro	aro	VERB	vt	Rel=NCont	1	ccomp	1:ccomp	_
+6	mehe	mehe	SCONJ	sc	_	5	mark	5:mark	_
+
+# sent_id = 587
+# text = Omono maniʔok hɨtɨkpa kurɨ
+# text_port = (As pessoas) colocam o manioque na água jogando-o.
+# text_spa = (La gente) puso el maniolo en el agua lanzándolo.
+# text_en = (The people) put the manioc in the water by throwing it (Bonfim Duarte, 2018).
+# V [ADV [O V C]] PART
+1	Omono	ho	VERB	vi	Person[subj]=3|Voice=Cau	0	root	0:root	_
+2	maniʔok	maniʔok	NOUN	n	_	3	obj	3:obj	_
+3	hɨtɨkpà	ɨtɨk	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 588
+# text = Imaʔenukwaw Joao Quesler tapiʔir hekar mehe iko kaʔape 
+# text_port = John acha que Quesler está caçando um tapir na floresta.
+# text_spa = John piensa que Quesler está cazando un tapir en el bosque.
+# text_en = John thinks that Quesler is hunting for a tapir in the forest (Bonfim Duarte, 2018).
+# V S [O [S O V C AUX PP]]
+1-2	Imaʔenukwaw	_	_	_	_	_	_	_	_
+1	imaʔe	maʔe	NOUN	n	Rel=NCont	2	obj	2:obj	_
+2	nukwaw	kwaw	VERB	vt	Person[subj]=3|Rel=Cont	0	root	0:root	_
+3	Joao	Joao	PROPN	ppn	_	2	nsubj	2:nsubj	_
+4	Quesler	Quesler	PROPN	ppn	_	6	nsubj	6:nsubj	_
+5	tapiʔir	tapiʔir	NOUN	n	_	6	obj	6:obj	_
+6	hekar	ekar	VERB	vt	Rel=NCont	2	ccomp	2:ccomp	_
+7	mehe	mehe	SCONJ	sc	_	6	mark	6:mark	_
+8	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	6	aux	6:aux	_
+9	kaʔape	kaʔa	NOUN	n	Case=Loc	6	obl	6:obl	_
+
+# sent_id = 589
+# text = Sergio herexak hezur mehe kwàz
+# text_port = Sergio me viu, quando acabei de chegar.
+# text_spa = Sergio me vio, cuando acababa de venir.
+# text_en = Sergio saw me, when I had just come (Bonfim Duarte, 2018).
+# S V [ADV [V C PART]]
+1	Sergio	Sergio	PROPN	ppn	_	2	nsubj	2:nsubj	_
+2	herexak	exak	VERB	vt	NonFoc=Yes|Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	0	root	0:root	_
+3	hezur	ezur	VERB	vi	Rel=NCont	2	advcl	2:advcl	_
+4	mehe	mehe	SCONJ	sc	_	3	mark	3:mark	_
+5	kwàz	kwàz	ADV	adv	Tense=Past	3	advmod	3:advmod	_
+
+# sent_id = 590
+# text = Aexak ɨwɨra izuhawpɨrer
+# text_port = Eu vi a madeira que foi picada (por o homem) .
+# text_spa = Vi la madera que estaba picada (por el hombre).
+# text_en = I saw the wood that was chopped (by the man) (Bonfim Duarte, 2018).
+# V O
+1	Aexak	exak	VERB	vt	Number=Sing|Person[subj]=1	0	root	0:root	_
+2	ɨwɨra	ɨwɨra	NOUN	n	_	3	nmod	3:nmod	_
+3	izuhawpɨrer	zuhaw	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Past	1	obj	1:obj	_
+
+# sent_id = 591
+# text = Aexak ɨwɨra awa hemizuhawkwer
+# text_port = Eu vi a madeira que foi picada pelo home.
+# text_spa = Vi la madera que fue cortada por el hombre.
+# text_en = I saw the wood that was chopped by the man (Bonfim Duarte, 2018).
+# V O
+1	Aexak	exak	VERB	vt	Number=Sing|Person[subj]=1	0	root	0:root	_
+2	ɨwɨra	ɨwɨra	NOUN	n	_	4	nmod	4:nmod	_
+3	awa	awa	NOUN	n	_	4	nmod	4:nmod	_
+4	hemizuhawkwer	zuhaw	NOUN	n	Nomzr=DevPass|Rel=NCont|Tense=Past	1	obj	1:obj	_
+
