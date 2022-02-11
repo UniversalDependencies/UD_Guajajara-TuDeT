@@ -7895,3 +7895,241 @@
 5	haro	aro	VERB	v	Rel=NCont	2	advcl	2:advcl	_
 6	mehe	mehe	ADV	adv	_	5	mark	5:mark	_
 
+# sent_id = 563
+# text = Wexak awa urezur mehe kwez
+# text_port = O homem viu que acabamos de chegar.
+# text_spa = El hombre ha visto que acabamos de venir.
+# text_en = The man has seen that we have just come (Bonfim Duarte, 2018).
+# V S [O [V C ADV]]
+1	Wexak	exak	VERB	vt	Person=3	0	root	0:root	_
+2	awa	awa	NOUN	n	_	1	nsubj	1:nsubj	_
+3	urezur	zur	VERB	v	Clusivity=Ex|Number=Plur|Person=1|Rel=Cont	1	ccomp	1:ccomp	_
+4	mehe	mehe	SCONJ	sc	_	3	mark	3:mark	_
+5	kwez	kwez	ADV	adv	Tense=Past	3	advmod	3:advmod	_
+
+# sent_id = 564
+# text = Epɨhɨk netakihe aguza izukapà nehe
+# text_port = Pegue sua faca para matar o rato.
+# text_spa = Consigue tu cuchillo para matar la rata.
+# text_en = Get your knife in order to kill the rat (Bonfim Duarte, 2018).
+# V O [ADV [O V C]] PART
+1	Epɨhɨk	pɨhɨk	VERB	vt	Mood=Imp|Person=2	0	root	0:root	_
+2	netakihe	takihe	NOUN	n	Person=2|Poss=Yes|Rel=Cont	1	obj	1:obj	_
+3	aguza	aguza	NOUN	n	_	4	obj	4:obj	_
+4	izukapa	zuka	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
+5	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+
+# sent_id = 565
+# text = Purutu wexak zawar tapiʔir izuka mehe iko
+# text_port = Purutu viu quando o jaguar estava matando o tapir.
+# text_spa = Purutu vio cuando el jaguar estaba matando al tapir.
+# text_en = Purutu saw when the jaguar was killing the tapir (Bonfim Duarte, 2018).
+# S V [O [S O V C AUX]]
+1	Purutu	Purutu	PROPN	ppn	_	2	nsubj	2:nsubj	_
+2	wexak	exak	VERB	vt	Person=3	0	root	0:root	_
+3	zawar	zawar	NOUN	n	_	7	nsubj	7:nsubj	_
+4	tapiʔir	tapiʔir	NOUN	n	_	7	obj	7:obj	_
+5	izuka	zuka	VERB	v	Rel=NCont|VerbForm=Ger	2	ccomp	2:ccomp	_
+6	mehe	mehe	SCONJ	sc	_	7	mark	7:mark	_
+7	iko	iko	AUX	aux	Aspect=Prog|Person=3	5	aux	5:aux	_
+
+# sent_id = 566
+# text = Wexak zekwehe zawaruhu tapixi memɨr aʔepe no
+# text_port = (Se diz que) o grande jaguar também viu o filho de rabbit.
+# text_spa = (Se dice que) el gran jaguar también vio al hijo del conejo allí.
+# text_en = (They say that) the big jaguar also saw the rabbit's son there (Bonfim Duarte, 2018).
+# V ADV S O PP PART
+1	Wexak	exak	VERB	vt	Person=3	0	root	0:root	_
+2	zekwehe	kwehe	ADV	adv	_	1	advmod	1:advmod	_
+3	zawaruhu	zawar	NOUN	n	_	1	nsubj	1:nsubj	_
+4	tapixi	apixi	NOUN	n	_	5	nmod	5:nmod	_
+5	memɨr	memɨr	NOUN	n	Rel=Cont	1	obj	1:obj	_
+6	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	1	obl	1:obl	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 567
+# text = Uimur zekaipo ihɨ izupe
+# text_port = (Se diz que) sua mãe aparentemente deu (isso) a ele.
+# text_spa = (Se dice que) su madre se lo dio a él.
+# text_en = (They say that) his mother apparently gave (it) to him (Bonfim Duarte, 2018).
+# V ADV S I
+1	Uimur	imur	VERB	v	Person=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	ihɨ	hɨ	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
+4	izupe	upe	ADP	posp	Rel=NCont	1	iobj	1:iobj	_
+
+# sent_id = 568
+# text = Uʔu kakwez Pedro pirakeʔe
+# text_port = Pedro comeu peixe grelhado.
+# text_spa = Pedro comió pescado a la parrilla.
+# text_en = Pedro ate grilled fish (Bonfim Duarte, 2018).
+# V ADV S O 
+1	Uʔu	ʔu	VERB	vt	Person=3	0	root	0:root	_
+2	kakwez	kakwez	PART	pcl	Evident=Fh|Tense=Past	1	advmod	1:advmod	_
+3	Pedro	Pedro	PROPN	ppn	_	1	nsubj	1:nsubj	_
+4-5	pirakeʔe	_	_	_	_	_	_	_	_
+4	pira	pira	NOUN	n	_	1	obj	1:obj	_
+5	keʔe	keʔe	NOUN	n	_	4	nmod	4:nmod	_
+
+# sent_id = 569
+# text = Aipo Zuze uʔu uha ?
+# text_port = John comeu caranguejo?
+# text_spa = ¿John comió cangrejo?
+# text_en = Did John eat crab?  (Bonfim Duarte, 2018)
+# Q S V O
+1	Aipo	aipo	PART	pcl	_	3	discourse	3:discourse	_
+2	Zuze	Zuze	PROPN	ppn	_	3	nsubj	3:nsubj	_
+3	uʔu	ʔu	VERB	vt	Person=3	0	root	0:root	_
+4	uha	uha	NOUN	n	_	3	obj	3:obj	_
+5	?	?	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 570
+# text = Heʔe , uʔu uha
+# text_port = Sim, ele comeu caranguejo.
+# text_spa = Sí, él comió cangrejo.
+# text_en = Yes, he ate crab  (Bonfim Duarte, 2018)
+# INTJ - V O
+1	Heʔe	heʔe	INTJ	intj	Polarity=Pos	0	root	0:root	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	uʔu	ʔu	VERB	vt	Person=3	1	parataxis	1:parataxis	_
+4	uha	uha	NOUN	n	_	3	obj	3:obj	_
+
+# sent_id = 571
+# text = Ipu pino rehe .
+# text_port = Dentro da palha fazia o ruído.
+# text_spa = Dentro de la paja había ruido.
+# text_en = There was a noise inside the straw.
+# V PP
+1	Ipu	pu	VERB	vd	Rel=NCont	0	root	0:root	_
+2	pino	pino	NOUN	n	_	1	obl	1:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 572
+# text = Uʔu tenetehára pira
+# text_port = O povo tenetehára comeu o peixe (específico).
+# text_spa = La gente de Tenetehára comió el pescado (uno específico).
+# text_en = The Tenetehára people ate the fish (a specific one) (Bonfim Duarte, 2018).
+# V S O
+1	Uʔu	ʔu	VERB	vt	Person=3	0	root	0:root	_
+2	tenetehára	tenetehára	NOUN	n	_	1	nsubj	1:nsubj	_
+3	pira	pira	NOUN	n	_	1	obj	1:obj	_
+
+# sent_id = 573
+# text = Uzapo uken iko .
+# text_port = Está fazendo um portão.
+# text_spa = José está haciendo una puerta.
+# text_en = José is building a gate.
+# V O AUX
+1	Uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	uken	uken	NOUN	n	_	1	obj	1:obj	_
+3	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	1:aux	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 574
+# text = Ukenuhu uzapo putar aʔe nehe .
+# text_port = Fará um portão (Harrison, 2000).
+# text_spa = José va a hacer una puerta.
+# text_en = José will build a gate.
+# O V ADV PART PART
+1-2	Ukenuhu	_	_	_	_	_	_	_	_
+1	uken	uken	NOUN	n	_	3	obj	3:obj	_
+2	uhu	uhu	NOUN	n	_	1	nmod	1:nmod	_
+3	uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	putar	putar	ADV	adv	Tense=Fut	3	advmod	3:advmod	_
+5	aʔe	aʔe	PRON	pro	Person=3	3	nsubj	3:nsubj	_
+6	nehe	nehe	PART	pcl	Tense=Fut	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 575
+# text = Amo umàno kwez
+# text_port = Alguém acaba de morrer.
+# text_spa = Alguien acaba de morir.
+# text_en = Somebody has just died (Bonfim Duarte, 2018).
+# S V ADV
+1	Amo	amo	PRON	pro	PronType=Ind	2	nsubj	2:nsubj	_
+2	umàno	màno	VERB	vi	Person=3	0	root	0:root	_
+3	kwez	kwez	ADV	adv	Tense=Past	2	advmod	2:advmod	_
+
+# sent_id = 576
+# text = Maʔepe Zuze wenu tazahu raʔe ?
+# text_port = Onde ouviu John o grande porco?
+# text_spa = ¿Dónde ha oido John al cerdo grande?
+# text_en = Where has John heard the big pig? (Bonfim Duarte, 2018)
+# PP S V O PART
+1	Maʔepe	maʔe	PRON	pro	Case=Loc|PronType=Int	3	obl	3:obl	_
+2	Zuze	Zuze	PROPN	ppn	_	3	nsubj	3:nsubj	_
+3	wenu	enu	VERB	vt	Person=3	0	root	0:root	_
+4	tazahu	tazahu	NOUN	n	_	3	obj	3:obj	_
+5	raʔe	raʔe	PART	pcl	_	3	discourse	3:discourse	_
+6	?	?	PUNCT	punct	_	3	discourse	3:discourse	_
+
+# sent_id = 577
+# text = Uzemumikahɨ zekaipo aʔe kuzà iko aʔe kurɨ
+# text_port = (Se diz que) ela, a mulher, estava-se sentindo triste.
+# text_spa = (Se dice que) ella, la mujer, se sentía triste.
+# text_en = (They said that) she, the woman, was feeling sad (Bonfim Duarte, 2018).
+# V ADV S AUX PART
+1	Uzemumikahɨ	zemumik	VERB	vi	Emph=Yes|Person[subj]=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	aʔe	aʔe	DET	dem	PronType=Dem	4	det	4:det	_
+4	kuzà	kuzà	NOUN	n	_	5	nsubj	5:nsubj	_
+5	iko	iko	AUX	aux	Aspect=Prog|Person=3	1	aux	1:aux	_
+6	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	5	discourse	5:discourse	_
+
+# sent_id = 578
+# text = Uhaw zekaipo ihɨ amo maʔeputɨr oho
+# text_port = (Se diz que) sua mãe foi pegar uma flor.
+# text_spa = (Se decía que) su madre fue a buscar una flor.
+# text_en = (They said that) his mother went to get a flower (Bonfim Duarte, 2018).
+# V ADV S O AUX
+1	Uhaw	haw	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	ihɨ	hɨ	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
+4	amo	amo	DET	det	PronType=Ind	5	det	5:det	_
+5	maʔeputɨr	maʔeputɨr	NOUN	n	_	1	obj	1:obj	_
+6	oho	ho	VERB	vi	Person=3	1	dep	1:dep	_
+
+# sent_id = 579
+# text = Wekar teko kaʔa te oho
+# text_port = As pessoas vão procurar por terras férteis.
+# text_spa = La gente va a buscar tierras fértiles.
+# text_en = The people go to look for fertile lands (Bonfim Duarte, 2018).
+# V S O AUX
+1	Wekar	ekar	VERB	vt	Person=3	0	root	0:root	_
+2	teko	teko	NOUN	n	_	1	nsubj	1:nsubj	_
+3	kaʔa	kaʔa	NOUN	n	_	1	obj	1:obj	_
+4	te	te	PART	pcl	_	3	discourse	3:discourse	_
+5	oho	ho	VERB	vi	Person=3	1	dep	1:dep	_
+
+# sent_id = 580
+# text = Maʔe te Siba upɨhɨk oho .
+# text_port = O que Siba vai pegar?
+# text_spa = ¿Qué irá Siba a atrapar?
+# text_en = What will Siba go to catch? (Bonfim Duarte, 2018)
+# O S V AUX
+1	Maʔe	maʔe	NOUN	n	_	4	obj	4:obj	_
+2	te	te	PART	pcl	_	1	discourse	1:discourse	_
+3	Siba	Siba	PROPN	ppn	_	4	nsubj	4:nsubj	_
+4	upɨhɨk	pɨhɨk	VERB	vt	Person=3	0	root	0:root	_
+5	oho	ho	VERB	vi	Person=3	4	dep	4:dep	_
+6	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 581
+# text = Aze zawar uzuka kaʔi nehe Siba upɨhɨkràm kaʔi oho izuwi
+# text_port = Se o Jaguar matar o macaco, Siba vai levar o macaco para si mesmo.
+# text_spa = Si el Jaguar mata al mono, Siba se llevará al mono para sí mismo.
+# text_en = If the jaguar kills the monkey, Siba will take the monkey for himself (Bonfim Duarte, 2018).
+# [ADV [C S V O PART]] S V O AUX PP
+1	Aze	aze	SCONJ	sc	_	3	mark	3:mark	_
+2	zawar	zawar	NOUN	n	_	3	nsubj	3:nsubj	_
+3	uzuka	zuka	VERB	vt	Person=3	7	advcl	7:advcl	_
+4	kaʔi	kaʔi	NOUN	n	_	3	obj	3:obj	_
+5	nehe	nehe	PART	pcl	Tense=Fut	3	discourse	3:discourse	_
+6	Siba	Siba	PROPN	ppn	_	7	nsubj	7:nsubj	_
+7	upɨhɨkràm	pɨhɨk	VERB	v	Person=3|Tense=Fut	0	root	0:root	_
+8	kaʔi	kaʔi	NOUN	n	_	7	obj	7:obj	_
+9	oho	ho	VERB	vi	Person=3	7	dep	7:dep	
+10	izuwi	zuwi	ADP	posp	Rel=NCont	7	obl	7:obl	_
+
