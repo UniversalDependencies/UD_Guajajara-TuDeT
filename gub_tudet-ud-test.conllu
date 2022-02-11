@@ -7336,6 +7336,319 @@
 3	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
 4	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
+# sent_id = 520
+# text = Kwa , nezewe zekaipo aʔe mehe pa .
+# text_port = Era assim mesmo (Harrison, 2000).
+# text_spa = Eso fue de todos modos.
+# text_en = That was anyway.
+# INTJ ADV ADV PP PART
+1	Kwa	kwa	INTJ	intj	_	3	discourse	3:discourse	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	nezewe	nezewe	ADV	adv	_	5	advmod	5:advmod	_
+4	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	aʔe	aʔe	PRON	pro	Person=3	0	root	0:root	_
+6	mehe	mehe	ADP	posp	Rel=Cont	5	case	5:case	_
+7	pa	pa	PART	pcl	_	5	discourse	5:discourse	_
+8	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 521
+# text = Upaw kurɨ .
+# text_port = Terminou (Harrison, 2000).
+# text_spa = Terminó.
+# text_en = It's finished.
+# V PART
+1	Upaw	paw	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 522
+# text = Amo maʔemumeʔuhaw amumeʔu tar peme ihe kurɨ , iʔi Zuze tu wanupe , wànàm wanupe .
+# text_port = Eu vou contar outra estória para vocês agora, disse o pai de Jose aos seus parentes (Harrison, 2000).
+# text_spa = Te contaré otra historia para ti ahora ", dijo el padre de José a sus familiares.
+# text_en = I'll tell you another story for you now, "Jose's father told his relatives.
+# [O [O V PP PART]] V S I - PP
+1	Amo	amo	DET	det	PronType=Ind	2	det	2:det	_
+2-3	maʔemumeʔuhaw	_	_	_	_	_	_	_	_
+2	maʔe	maʔe	NOUN	n	_	3	obj	3:obj	_
+3	mumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ	4	obj	4:obj	_
+4	amumeʔu	mumeʔu	VERB	vt	Number=Sing|Person[subj]=1	10	ccomp	10:ccomp	_
+5	tar	har	ADV	adv	Nomzr=Ag	4	advmod	4:advmod	_
+6	peme	me	ADP	posp	Number=Plur|Person[psor]=2|Rel=Cont	4	obl	4:obl	_
+7	ihe	ihe	PART	pcl	Number=Sing|Person=1	4	discourse	4:discourse	_
+8	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+9	,	,	PUNCT	punct	_	4	punct	4:punct	_
+10	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+11	Zuze	Zuze	PROPN	pn	_	12	nmod	12:nmod	_
+12	tu	u	NOUN	n	Rel=Abs	10	nsubj	10:nsubj	_
+13	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	10	iobj	10:iobj	_
+14	,	,	PUNCT	punct	_	15	punct	15:punct	_
+15	wànàm	ànàm	NOUN	n	Rel=Corf	13	appos	13:appos	_
+16	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	15	case	15:case	_
+17	.	.	PUNCT	punct	_	15	punct	15:punct	_
+
+# sent_id = 523
+# text = Uzetenog zekaipo aʔɨ waiko wà  , ɨwɨra rehe uzeupirpa wà .
+# text_port = As preguiças estavam brincando, subindo numa árvore (Harrison, 2000).
+# text_spa = Los perezosos estaban saltando, subiendo a un árbol.
+# text_en = The sloth were jumping, climbing a tree.
+# V ADV S AUX PART [ADV [PP V PART]]
+1	Uzetenog	zetenog	VERB	v	Person[subj]=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	aʔɨ	aʔɨ	NOUN	n	_	1	nsubj	1:nsubj	_
+4	waiko	iko	AUX	aux	Number=Plur|Person[subj]=3	1	aux	1:aux	_
+5	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	ɨwɨra	ɨwɨra	NOUN	n	_	9	obl	9:obl	_
+8	rehe	ehe	ADP	posp	Rel=Cont	7	case	7:case	_
+9	uzeupirpa	pir	VERB	v	Reflex=Yes|Rel=Corf|VerbForm=Ger	1	advcl	1:advcl	_
+10	wà	wà	PART	pcl	Number=Plur|Person=3	9	discourse	9:discourse	_
+11	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
+# sent_id = 524
+# text = Uʔar zekaipo ita rehe aʔe wà .
+# text_port = Caindo em cima de uma pedra (Harrison, 2000).
+# text_spa = Cayendo sobre una piedra.
+# text_en = Falling on a stone.
+# V ADV PP PART
+1	Uʔar	ʔar	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	ita	ita	NOUN	n	_	1	obl	1:obl	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 525
+# text = Upukapuka zekaipo waiko ita henawpe wà .
+# text_port = Eles riram muito ao redor da pedra (Harrison, 2000).
+# text_spa = Se rieron mucho alrededor de la piedra.
+# text_en = They laughed a lot around the stone.
+# V ADV AUX PP PART
+1	Upukapuka	puka	VERB	vi	Person[subj]=3|Red=Di	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	waiko	iko	AUX	aux	Number=Plur|Person[subj]=3	1	aux	1:aux	_
+4	ita	ita	NOUN	n	_	5	nmod	5:nmod	_
+5	henawpe	en	NOUN	n	Case=Loc|Nomzr=Circ|Rel=NCont	1	obl	1:obl	_
+6	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 526
+# text = Naʔe uhem zawaruhu aʔepe kurɨ .
+# text_port = Então chegou uma onça (Harrison, 2000).
+# text_spa = Luego llegó una jaguar.
+# text_en = Then an jaguar arrived.
+# PART V S PP PART
+1	Naʔe	naʔe	PART	pcl	_	2	discourse	2:discourse	_
+2	uhem	hem	VERB	vi	Person[subj]=3	0	root	0:root	_
+3-4	zawaruhu	_	_	_	_	_	_	_	_
+3	zawar	zawar	NOUN	n	_	2	nsubj	2:nsubj	_
+4	uhu	hu	NOUN	n	_	3	nmod	3:nmod	_
+5	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	2	obl	2:obl	_
+6	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 527
+# text = Màràzàwe tue ereiko tɨ , iʔi zekaipo zawaruhu izupe .
+# text_port = O que ê que vocês estão fazendo? perguntou a onça a um deles (Harrison, 2000).
+# text_spa = ¿Qué estás haciendo? Le preguntó el jaguar a uno de ellos.
+# text_en = What are you doing? The jaguar asked to one of them.
+# [O [O PART V PART]] V ADV S I
+1-2	màràzàwe	_	_	_	_	_	_	_	_
+1	màrà	màrà	PRON	pro	PronType=Int	4	obj	4:obj	_
+2	zàwe	zàwe	PRON	pro	PronType=Int	1	fixed	1:fixed	_
+3	tue	tue	PART	pcl	_	1	discourse	1:discourse	_
+4	ereiko	iko	VERB	vi	Number=Sing|Person[subj]=2	7	ccomp	7:ccomp	_
+5	tɨ	tɨ	PART	pcl	_	4	discourse	4:discourse	_
+6	,	,	PUNCT	punct	_	4	punct	4:punct	_
+7	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+8	zekaipo	kwehe	ADV	adv	Evident=Nfh	7	advmod	7:advmod	_
+9-10	zawaruhu	_	_	_	_	_	_	_	_
+9	zawar	zawar	NOUN	n	_	7	nsubj	7:nsubj	_
+10	uhu	hu	NOUN	n	_	9	nmod	9:nmod	_
+11	izupe	upe	ADP	posp	Rel=NCont	7	iobj	7:iobj	_
+12	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 528
+# text = Kwa , azetànoz tekoko ihe pa , iʔi zekaipo aʔɨ izupe kurɨ .
+# text_port = Estou brincando, disse a preguiça (Harrison, 2000).
+# text_spa = Estoy saltando, dijo el perezoso.
+# text_en = I'm jumping, said the sloth.
+# [O [INTJ V AUX S PART]] V ADV S PART
+1	Kwa	kwa	INTJ	intj	_	3	discourse	3:discourse	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	azetànoz	zetànoz	VERB	vi	Number=Sing|Person[subj]=1	8	ccomp	8:ccomp	_
+4	tekoko	iko	AUX	aux	Number=Sing|Person[subj]=1	3	aux	3:aux	_
+5	ihe	ihe	PRON	pro	PronType=Prs	3	nsubj	3:nsubj	_
+6	pa	pa	PART	pcl	_	3	discourse	3:discourse	_
+7	,	,	PUNCT	punct	_	3	punct	3:punct	_
+8	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
+10	aʔɨ	aʔɨ	NOUN	n	_	8	nsubj	8:nsubj	_
+11	izupe	upe	ADP	posp	Rel=NCont	8	iobj	8:iobj	_
+12	kurɨ	kurɨ	PART	pcl	_	8	discourse	8:discourse	_
+13	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 529
+# text = Kwa , ihe rihi no tɨ , iʔi zekaipo zawaruhu izupe .
+# text_port = Bem, eu quero brincar também, disse a onça (Harrison, 2000).
+# text_spa = Bueno, también quiero jugar, dijo el jaguar.
+# text_en = Well, I want to play too, said the jaguar.
+# [O [INTJ S PART]] V ADV S I
+1	Kwa	kwa	INTJ	intj	_	3	discourse	3:discourse	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	ihe	ihe	PRON	pro	PronType=Prs	8	ccomp	8:ccomp	_
+4	rihi	rihi	PART	pcl	_	3	discourse	3:discourse	_
+5	no	no	PART	pcl	_	3	discourse	3:discourse	_
+6	tɨ	tɨ	PART	pcl	_	3	discourse	3:discourse	_
+7	,	,	PUNCT	punct	_	3	punct	3:punct	_
+8	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
+10-11	zawaruhu	_	_	_	_	_	_	_	_
+10	zawar	zawar	NOUN	n	_	8	nsubj	8:nsubj	_
+11	uhu	hu	VERB	vd	_	3	nmod	3:nmod	_
+12	izupe	upe	ADP	posp	Rel=NCont	8	iobj	8:iobj	_
+13	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 530
+# text = Kwa , hekàgwer tàtàahɨ ihe pa , iʔi zekaipo aʔɨ izupe zawaruhupe .
+# text_port = Mas minha cabeça é dura, a preguiça respondeu (Harrison, 2000).
+# text_spa = Pero mi cabeza es dura, el perezoso respondió.
+# text_en = But my head is hard, the sloth replied.
+# [O [INTJ S V PART]] V ADV S I PP
+1	Kwa	kwa	INTJ	intj	_	4	discourse	4:discourse	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	hekàgwer	àkàg	NOUN	n	Number=Sing|Person[psor]=1|Poss=Yes|Tense=Past	_	_	_	_
+4	tàtàahɨ	tàtà	VERB	vd	Emph=Yes|Rel=Cont	8	ccomp	8:ccomp	_
+5	ihe	ihe	PART	pcl	Number=Sing|Person=1	4	discourse	4:discourse	_
+6	pa	pa	PART	pcl	_	4	discourse	4:discourse	_
+7	,	,	PUNCT	punct	_	4	punct	4:punct	_
+8	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
+10	aʔɨ	aʔɨ	NOUN	n	_	8	nsubj	8:nsubj	_
+11	izupe	upe	ADP	posp	Rel=NCont	8	iobj	8:iobj	_
+12-13	zawaruhu	_	_	_	_	_	_	_	_
+12	zawar	zawar	NOUN	n	_	11	appos	11:appos	_
+13	uhupe	hu	NOUN	n	Case=Dat	12	nmod	12:nmod	_
+14	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 531
+# text = Mehe uruzuka kurɨ , iʔi zekaipo zawaruhu aʔɨpe .
+# text_port = (Se nao me deixar) eu vou te matar, falou a onça a preguiça (Harrison, 2000).
+# text_spa = (Si no me dejas), te mataré, le dijo el jaguar al perezoso.
+# text_en = (If you do not let me) I'll kill you, the jaguar told the sloth.
+# [O [C V PART]] V ADV S PP
+1	Mehe	mehe	PART	pcl	Rel=Cont	2	discourse	2:discourse	_
+2	uruzuka	zuka	VERB	vt	Clusivity=Ex|Number=Plur|Person[subj]=1	5	ccomp	5:ccomp	_
+3	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
+5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7-8	zawaruhu	_	_	_	_	_	_	_	_
+7	zawar	zawar	NOUN	n	_	5	nsubj	5:nsubj	_
+8	uhu	hu	NOUN	n	_	7	nmod	7:nmod	_
+9	aʔɨpe	aʔɨ	NOUN	n	Case=Dat	5	obl	5:obl	_
+10	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 532
+# text = Ukɨze izuwi .
+# text_port = Ela ficou com medo da onça (Harrison, 2000).
+# text_spa = Ella tenía miedo de la jaguar.
+# text_en = She was afraid of the jaguar.
+# V PP
+1	Ukɨze	kɨze	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	izuwi	uwi	ADP	posp	Rel=NCont	1	obl	1:obl	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 533
+# text = Eho tɨ , iʔi zekaipo aʔɨ izupe .
+# text_port = Então vã, disse a preguiça (Harrison, 2000).
+# text_spa = Entonces vale, dijo la pereza.
+# text_en = Then ok, said laziness.
+# [O [V PART]] V ADV S I
+1	Eho	ho	VERB	vi	Mood=Imp|Number=Sing|Person[subj]=2	4	ccomp	4:ccomp	_
+2	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6	aʔɨ	aʔɨ	NOUN	n	_	4	nsubj	4:nsubj	_
+7	izupe	upe	ADP	posp	Rel=NCont	4	iobj	4:iobj	_
+8	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 534
+# text = Oho zekaipo zawaruhu aʔe kurɨ , ɨwate ɨwɨra rupi aʔe kurɨ .
+# text_port = A onça subiu alto na arvore (Harrison, 2000).
+# text_spa = El jaguar subió a la copa del árbol.
+# text_en = The jaguar rose high in the tree.
+# V ADV S PART ADV PP PART
+1	Oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3-4	zawaruhu	_	_	_	_	_	_	_	_
+3	zawar	zawar	NOUN	n	_	1	nsubj	1:nsubj	_
+4	uhu	hu	NOUN	n	_	3	nmod	3:nmod	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+7	,	,	PUNCT	punct	_	1	punct	1:punct	_
+8	ɨwate	ɨwak	ADV	adv	_	1	advmod	1:advmod	_
+9	ɨwɨra	ɨwɨra	NOUN	n	_	1	obl	1:obl	_
+10	rupi	upi	ADP	posp	Rel=Cont	9	case	9:case	_
+11	aʔe	aʔe	PART	pcl	Person=3	9	discourse	9:discourse	_
+12	kurɨ	kurɨ	PART	pcl	_	9	discourse	9:discourse_
+13	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
+# sent_id = 535
+# text = Uʔar zekaipo zawaruhu ukwawpa kurɨ .
+# text_port = Caiu lá de cima (Harrison, 2000).
+# text_spa = Cayó de arriba.
+# text_en = It fell from above.
+# V ADV S 
+1	Uʔar	ʔar	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3-4	zawaruhu	_	_	_	_	_	_	_	_
+3	zawar	zawar	NOUN	n	_	1	nsubj	1:nsubj	_
+4	uhu	hu	NOUN	n	_	3	nmod	3:nmod	_
+5	ukwawpa	kwaw	VERB	vt	Person[subj]=3|VerbForm=Ger	1	advcl	1:advcl	_
+6	kurɨ	kurɨ	PART	pcl	_	5	discourse	5:discourse	_
+7	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 536
+# text = Upuzepuze zekaipo kurɨ .
+# text_port = Se despedaçou na queda (Harrison, 2000).
+# text_spa = Él se hirió en la caída.
+# text_en = He was shattered in the fall.
+# V ADV PART
+1	Upuzepuze	puze	VERB	vi	Person[subj]=3|Red=Di	0	root	0:root	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 537
+# text = Te no tɨ , iʔi zekaipo aʔɨ zawaruhupe .
+# text_port = Eu não te disse? disse a preguiça ã onça (Harrison, 2000).
+# text_spa = ¿No te lo dije? Le dijo el perezoso al jaguar.
+# text_en = Didn't I tell you? Said the sloth to the jaguar.
+# [O [PART]] V ADV S PP
+1	Te	te	PART	pcl	_	5	ccomp	5:ccomp	_
+2	no	no	PART	pcl	_	1	discourse	1:discourse	_
+3	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
+6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7	aʔɨ	aʔɨ	NOUN	n	_	5	nsubj	5:nsubj	_
+8	zawaruhupe	_	_	_	_	_	_	_	_	
+8	zawar	zawar	NOUN	n	_	5	obl	5:obl	_
+9	uhupe uhu	NOUN	n	Case=Dat	8	nmod	8:nmod	_
+9	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 538
+# text = Upaw kurɨ .
+# text_port = Terminou agora (Harrison, 2000).
+# text_spa = Terminó ahora.
+# text_en = It ended now.
+# V PART
+1	Upaw	paw	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
 # sent_id = 539
 # text = Maʔepe Zuze wenu tazahu raʔe ?
 # text_port = Onde John ouviu o grande porco?
