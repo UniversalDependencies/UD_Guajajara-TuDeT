@@ -6951,7 +6951,7 @@
 3	oho	ho	VERB	vi	Person[subj]=3	2	dep	2:dep	_
 4-5	ɨwɨkwar	_	_	_	_	_	_	_	_
 4	ɨwɨ	ɨwɨ	NOUN	n	_	3	obl	3:obl	_
-5	kwar	kwar	NOUN	n	_	5	nmod	5:nmod	_
+5	kwar	kwar	NOUN	n	_	4	nmod	4:nmod	_
 6	pupe	pupe	ADP	posp	Rel=Cont	4	case	4:case	_
 7	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
 8	wà	wà	PART	pcl	Number=Plur|Person=3	2	discourse	2:discourse	_
@@ -6992,7 +6992,7 @@
 2	ʔar	ʔar	NOUN	n	_	7	obl	7:obl	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
 4	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
-5	omonokar	ho	V	vi	Person[subj]=3|Voice=Cau	7	dep	7:dep	_
+5	omonokar	ho	VERB	vi	Person[subj]=3|Voice=Cau	7	dep	7:dep	_
 6	wi	wi	ADV	adv	_	5	advmod	5:advmod	_
 7	uzeʔeg	zeʔeg	VERB	v	Person[subj]=3	0	root	0:root	_
 8	miar	miar	NOUN	n	_	7	obl	7:obl	_
@@ -7007,7 +7007,7 @@
 # text_en = They also went to watch.
 # V [ADV [V PART]]
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
-2	hexakpa	exak	VERB	vt	Person[subj]=3|Rel=NCont|VerbForm=Ger	2	advcl	2:advcl	_
+2	hexakpa	exak	VERB	vt	Person[subj]=3|Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
 3	wà	wà	PART	pcl	Number=Plur|Person=3	2	discourse	2:discourse	_
 4	no	no	PART	pcl	_	2	discourse	2:discourse	_
 5	.	.	PUNCT	punct	_	2	punct	2:punct	_
@@ -7033,7 +7033,7 @@
 11	kwar	kwar	NOUN	n	_	10	nmod	10:nmod	_
 12	pupe	pupe	ADP	posp	Rel=Cont	10	case	10:case	_
 13	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	5	iobj	5:iobj	_
-14	.	.	PUNCT	punct	_	1	punct	1:punct	_
+14	.	.	PUNCT	punct	_	5	punct	5:punct	_
 
 # sent_id = 499
 # text = Wixe miar oho aʔe wà no .
@@ -7043,7 +7043,7 @@
 # V S AUX PART
 1	Wixe	ixe	VERB	vi	Person[subj]=3	0	root	0:root	_
 2	miar	miar	NOUN	n	_	1	nsubj	1:nsubj	_
-3	oho	ho	VERB	vi	Person[subj]=3	1	aux	1:aux	_
+3	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
 4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
 5	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	1:discourse	_
 6	no	no	PART	pcl	_	1	discourse	1:discourse	_
@@ -7294,3 +7294,4 @@
 4	tapiʔir	tapiʔir	NOUN	n	_	5	obj	5:obj	_
 5	haro	aro	VERB	v	Rel=NCont	2	advcl	2:advcl	_
 6	mehe	mehe	ADV	adv	_	5	mark	5:mark	_
+
