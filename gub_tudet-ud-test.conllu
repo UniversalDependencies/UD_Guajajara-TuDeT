@@ -8408,3 +8408,57 @@
 4	kwaw	kwaw	ADV	adv	Polarity=Neg	3	advmod	3:advmod	_
 5	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
+# sent_id = 603
+# text = Ipira wamumeuhaw .
+# text_port = Estórias sobre Peixes . (Gomes, 1988)
+# text_spa = Historias sobre peces.
+# text_eng = Stories about fish.
+# S
+1	Ipira	pira	NOUN	n	Rel=NCont	2	nmod	2:nmod	_
+2	wamumeuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes	0	root	0:root	_
+3	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 604
+# text = Zezu imumeʔuhaw xe kurɨ .
+# text_port = Esta é uma estória sobre o peixe jeju . (Gomes, 1988)
+# text_spa = Esta es una historia sobre el pez Jeju.
+# text_eng = This is a story about the fish Jeju.
+# S PART
+1	Zezu	zezu	PROPN	ppn	_	2	nmod	2:nmod	_
+2	imumeuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	0:root	_
+3	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+4	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 605
+# text = Nezewe zezu hekohaw aʔe no .
+# text_port = É assim a vida do jeju . (Gomes, 1988)
+# text_spa = Esta es la vida de Jeju.
+# text_eng = This is the life of Jeju.
+# ADV S PART
+1	Nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+2	zezu	zezu	PROPN	ppn	_	2	nmod	2:nmod	_
+3	hekohaw	eko	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	no	no	PART	pcl	_	3	discourse	3:discourse	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 606
+# text = Upɨhɨk zanu ɨʔaromo aʔe xe , taʔei pɨtuhem ɨpe aʔe xe .
+# text_port = Ele vive dentro da água e come aranhas que caem em cima da água . (Gomes, 1988)
+# text_spa = Vive dentro del agua y come las arañas que caen sobre el agua.
+# text_eng = He lives inside the water and eats spiders which fall on the water.
+# V O PP PART - C V PP PART
+1	Upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	zanu	zanu	NOUN	n	_	1	obj	1:obj	_
+3	ɨʔaromo	ɨ	NOUN	n	Case=Loc	1	obl	1:obl	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	xe	xe	PART	pcl	_	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	taʔei	taʔe	CCONJ	cc	Case=Ref	8	mark	8:mark	_
+8	pɨtuhem	pɨtuhem	VERB	vd	Rel=Cont	1	conj	1:conj	_
+9	ɨpe	ɨ	NOUN	n	Case=Loc	8	obl	8:obl	_
+10	aʔe	aʔe	PART	pcl	Person=3	8	discourse	8:discourse	_
+11	xe	xe	PART	pcl	_	8	discourse	8:discourse	_
+12	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
