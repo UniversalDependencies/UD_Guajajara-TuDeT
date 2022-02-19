@@ -8425,7 +8425,7 @@
 # text_eng = This is a story about the fish Jeju.
 # S PART
 1	Zezu	zezu	PROPN	ppn	_	2	nmod	2:nmod	_
-2	imumeuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	0:root	_
+2	imumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	0:root	_
 3	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
 4	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
 5	.	.	PUNCT	punct	_	2	punct	2:punct	_
@@ -8437,7 +8437,7 @@
 # text_eng = This is the life of Jeju.
 # ADV S PART
 1	Nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
-2	zezu	zezu	PROPN	ppn	_	2	nmod	2:nmod	_
+2	zezu	zezu	PROPN	ppn	_	3	nmod	3:nmod	_
 3	hekohaw	eko	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	0:root	_
 4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
 5	no	no	PART	pcl	_	3	discourse	3:discourse	_
@@ -8455,7 +8455,7 @@
 4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
 5	xe	xe	PART	pcl	_	1	discourse	1:discourse	_
 6	,	,	PUNCT	punct	_	1	punct	1:punct	_
-7	taʔei	taʔe	CCONJ	cc	Case=Ref	8	mark	8:mark	_
+7	taʔei	taʔe	CCONJ	cc	_	8	mark	8:mark	_
 8	pɨtuhem	pɨtuhem	VERB	vd	Rel=Cont	1	conj	1:conj	_
 9	ɨpe	ɨ	NOUN	n	Case=Loc	8	obl	8:obl	_
 10	aʔe	aʔe	PART	pcl	Person=3	8	discourse	8:discourse	_
