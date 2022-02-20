@@ -8451,14 +8451,104 @@
 # V O PP PART - C V PP PART
 1	Upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	0:root	_
 2	zanu	zanu	NOUN	n	_	1	obj	1:obj	_
-3	ɨʔaromo	ɨ	NOUN	n	Case=Loc	1	obl	1:obl	_
+3	ɨʔaromo	ʔɨ	NOUN	n	Case=Loc	1	obl	1:obl	_
 4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
 5	xe	xe	PART	pcl	_	1	discourse	1:discourse	_
 6	,	,	PUNCT	punct	_	1	punct	1:punct	_
 7	taʔei	taʔe	CCONJ	cc	_	8	mark	8:mark	_
 8	pɨtuhem	pɨtuhem	VERB	vd	Rel=Cont	1	conj	1:conj	_
-9	ɨpe	ɨ	NOUN	n	Case=Loc	8	obl	8:obl	_
+9	ɨpe	ʔɨ	NOUN	n	Case=Loc	8	obl	8:obl	_
 10	aʔe	aʔe	PART	pcl	Person=3	8	discourse	8:discourse	_
 11	xe	xe	PART	pcl	_	8	discourse	8:discourse	_
 12	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 607
+# text = Aʔe rupi ɨrɨmeʔɨwɨr hupiʔa aʔe xe .
+# text_port = A femea bota os ovos na beira do rio . (Gomes, 1988)
+# text_spa = La hembra botas los huevos en el río.
+# text_eng = The female boots the eggs on the river.
+# PP PP S PART
+1	Aʔe	aʔe	PRON	pro	Person=3	6	obl	6:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3-5	ɨrɨmeʔɨwɨr	_	_	_	_	_	_	_	_
+3	ɨ	ʔɨ	NOUN	n	_	6	obl	6:obl	_
+4	rɨme	ʔɨ	NOUN	n	Case=Loc|Rel=Cont	3	nmod	3:nmod	_
+5	ʔɨwɨr	ʔɨ	NOUN	n	Case=Loc	4	nmod	4:nmod	_
+6-7	hupiʔa	_	_	_	_	_	_	_	_
+6	hupi	upi	ADP	posp	Rel=NCont	0	root	0:root	_
+7	ʔa	ʔa	NOUN	n	_	6	nmod	6:nmod	_
+8	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+9	xe	xe	PART	pcl	_	6	discourse	6:discourse	_
+10	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 608
+# text = Zezu aʔe no , ukwaku hupiʔa ipupe aʔe xe umuzaw hupiʔa aʔe kurɨ .
+# text_port = Ela cuida dos ovos até nascerem . (Gomes, 1988)
+# text_spa = Ella cuida los huevos hasta que nacieron.
+# text_eng = She takes care of the eggs until they were born.
+# S V O PP PART - V S PART
+1	Zezu	zezu	NOUN	n	_	5	nsubj	5:nsubj	_
+2	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+3	no	no	PART	pcl	_	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5-6	ukwaku	_	_	_	_	_	_	_	_
+5	uk	iko	AUX	aux	Aspect=Prog|Person[subj]=3	6	aux	6:aux	_
+6	waku	aku	VERB	vd	Person[subj]=3	0	root	0:root	_
+7-8	hupiʔa	_	_	_	_	_	_	_	_
+7	hupi	upi	ADP	posp	Rel=NCont	6	obj	6:obj	_
+8	ʔa	ʔa	NOUN	n	_	7	nmod	7:nmod	_
+9	ipupe	pupe	ADP	posp	Rel=NCont	6	obl	6:obl	_
+10	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+11	xe	xe	PART	pcl	_	6	discourse	6:discourse	_
+12	umuzaw	zaw	VERB	vi	Person[subj]=3|Voice=Cau	6	conj	6:conj	_
+13-14	hupiʔa	_	_	_	_	_	_	_	_
+13	hupi	upi	ADP	posp	Rel=NCont	12	nsubj	12:nsubj	_
+14	ʔa	ʔa	NOUN	n	_	13	nmod	13:nmod	_
+15	aʔe	aʔe	PART	pcl	Person=3	12	discourse	12:discourse	_
+16	kurɨ	kurɨ	PART	pcl	_	12	discourse	12:discourse	_
+17	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = 609
+# text = Nuzekaiw kwaw umemɨr wanehe wa kurɨ .
+# text_port = Mas não cuida dos filhotes . (Gomes, 1988)
+# text_spa = Pero no se ocupa de los cachorros.
+# text_eng = But it does not take care of the puppies.
+# V ADV PP PART
+1	Nuzekaiw	zekaiw	VERB	vi	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	umemɨr	memɨr	NOUN	n	Rel=Corf	1	obl	1:obl	_
+4	wanehe	ehe	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	3	case	3:case	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 610
+# text = Zezu nuiko kwaw aʔezutɨkaʔe aʔe xe .
+# text_port = O jeju não vive sozinho . (Gomes, 1988)
+# text_spa = Jeju no vive solo.
+# text_eng = Jeju does not live alone.
+# S V ADV O PART
+1	zezu	zezu	NOUN	n	_	2	nsubj	2:nsubj	_
+2	nuiko	iko	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+3	kwaw	kwaw	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
+4-5	aʔezutɨkaʔe	_	_	_	_	_	_	_	_
+4	aʔe	aʔe	PRON	pro	Person=3	2	obj	2:obj	_
+5	zutɨkaʔe	zutɨk	NOUN	n	Dimin=Yes	4	nmod	4:nmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+7	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+8	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 611
+# text = Heta tete zo waiko aʔe wa .
+# text_port = São muitos . (Gomes, 1988)
+# text_spa = Son muchos .
+# text_eng = Are many .
+# V ADV PART AUX PART
+1	Heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+2	tete	tete	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	zo	zo	PART	pcl	_	1	discourse	1:discourse	_
+4	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
