@@ -8976,7 +8976,7 @@
 1	Xe	xe	PART	pcl	_	4	discourse	4:discourse	_
 2	ipira	pira	NOUN	n	Rel=NCont	3	nmod	3:nmod	_
 3	akara	akara	NOUN	n	_	4	nmod	4:nmod	_
-4	umumeuhaw	mumeʔu	NOUN	n	Nomzr=Circ	0	root	0:root	_
+4	umumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ	0	root	0:root	_
 5	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
 6	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
@@ -9010,7 +9010,7 @@
 # PP V PP PART
 1	Pɨhaw	pɨ	NOUN	n	Nomzr=Circ	2	obl	2:obl	_
 2	uker	ker	VERB	vi	Person[subj]=3	0	root	0:root	_
-3-5	ɨrɨmeʔɨwɨr	_	_	_	_	_	_	_	_
+3-5	ɨremeʔɨwɨr	_	_	_	_	_	_	_	_
 3	ɨ	ʔɨ	NOUN	n	_	2	obl	2:obl	_
 4	reme	ʔɨ	NOUN	n	Case=Loc|Rel=Cont	3	nmod	3:nmod	_
 5	ʔɨwɨr	ʔɨ	NOUN	n	Case=Loc	4	nmod	4:nmod	_
@@ -9027,9 +9027,9 @@
 2	romo	omo	ADP	posp	Rel=Cont	1	case	1:case	_
 3	wekar	ekar	VERB	vt	Person[subj]=3	0	root	0:root	_
 4	wemiʔuram	ʔu	NOUN	n	Nomzr=DevPass|Person[psor]=3|Poss=Yes|Tense=Fut	3	obj	3:obj	_
-6	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
-7	ɨpupe	ʔɨ	NOUN	n	Case=Loc	3	obl	3:obl	_
-8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+6	ɨpupe	ʔɨ	NOUN	n	Case=Loc	3	obl	3:obl	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 642
 # text = Uzemurɨparkatu uzehezehe wa .
