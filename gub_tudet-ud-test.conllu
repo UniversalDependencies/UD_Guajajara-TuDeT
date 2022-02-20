@@ -8736,7 +8736,7 @@
 4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
 5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
 6	,	,	PUNCT	punct	_	1	punct	1:punct	_
-7	taʔe	taʔe	CCONJ	cc	Case=Ref	8	mark	8:mark	_
+7	taʔe	taʔe	CCONJ	cc	_	8	mark	8:mark	_
 8	uʔu	ʔu	VERB	vt	Person[subj]=3	1	conj	1:conj	_
 9	omogwer	mog	VERB	vi	Mood=Des|Person[subj]=3	8	conj	8:conj	_
 10	pira	pira	NOUN	n	_	9	obj	9:obj	_
@@ -8748,7 +8748,7 @@
 16	aʔe	aʔe	PRON	pro	Person=3	18	obl	18:obl	_
 17	rupi	upi	ADP	posp	Rel=Cont	16	case	16:case	_
 18	hurɨwete	urɨw	VERB	vd	Emph=Yes|Rel=NCont	9	conj	9:conj	_
-19	waiko	iko	AUX	aux	Aspe.2ct=Prog|Number=Plur|Person[subj]=3	18	aux	18:aux	_
+19	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	18	aux	18:aux	_
 20	aʔe	aʔe	PART	pcl	Person=3	18	discourse	18:discourse	_
 21	wa	wa	PART	pcl	Number=Plur	18	discourse	18:discourse	_
 22	.	.	PUNCT	punct	_	18	punct	18:punct	_
@@ -8805,7 +8805,7 @@
 # text_spa = Y están caminando comiendo.
 # text_eng = And they're walking around eating.
 # S V AUX [ADV [V]] PART
-1	Aʔeʔi	aʔe	PRON	pro	Case=Ref|Person=3	3	obl	3:obl	_
+1	Aʔeʔi	aʔe	PRON	pro	Case=Ref|Person=3	2	obl	2:obl	_
 2	ohoaʔi	ho	VERB	vi	Emph=Yes|Person[subj]=3	0	root	0:root	_
 3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	2:aux	_
 4-5	umaiʔuaʔipa	_	_	_	_	_	_	_	_
@@ -8815,4 +8815,155 @@
 7	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 8	no	no	PART	pcl	_	2	discourse	2:discourse	_
 9	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 629
+# text = Te uhuuhuaʔi aʔe wa no .
+# text_port = Até ficarem maiorzinhos (Gomes, 1988)
+# text_spa = Mucho mas grande
+# text_eng = Even bigger
+# PART V PART
+1	Te	te	PART	pcl	_	2	discourse	2:discourse	_
+2	uhuuhuaʔi	uhu	VERB	vd	Emph=Yes|Red=Di	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	no	no	PART	pcl	_	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 630
+# text = Aʔe mehe uzɨpɨrog wanam wanaʔɨr waʔuhawaʔi waiko aʔe wa kurɨ .
+# text_port = Eles procuram os filhotes dos outros peixes para comer . (Gomes, 1988)
+# text_spa = Buscan los cachorros de otros peces para comer.
+# text_eng = They look for the puppies of other fish to eat.
+# PP V S AUX PART
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	mehe	mehe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uzɨpɨrog	pɨrog	VERB	vi	Person[subj]=3|Reflex=Yes	0	root	0:root	_
+4	wanam	anam	NOUN	n	Rel=Corf	5	nmod	5:nmod	_
+5	wanaʔɨr	aʔɨr	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	6	nmod	6:nmod	_
+6	waʔuhawaʔi	ʔu	NOUN	n	Emph=Yes|Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes	3	nsubj	3:nsubj	_
+7	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	3	aux	3:aux	_
+8	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+9	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+10	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+11	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 631
+# text = Te uhuuhuaʔi waiko aʔe wa no , te uhuuhu waiko aʔe wa kurɨ .
+# text_port = Crescem mais ainda . (Gomes, 1988)
+# text_spa = Crecer aún más.
+# text_eng = Grow even more.
+# PART V AUX PART - PART V AUX PART
+1	Te	te	PART	pcl	_	2	discourse	2:discourse	_
+2	uhuuhuaʔi	uhu	VERB	vd	Emph=Yes|Red=Di	0	root	0:root	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	2:aux	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	no	no	PART	pcl	_	2	discourse	2:discourse	_
+7	,	,	PUNCT	punct	_	2	punct	2:punct	_
+8	te	te	PART	pcl	_	9	discourse	9:discourse	_
+9	uhuuhu	uhu	VERB	vd	Red=Di	2	conj	2:conj	_
+10	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	9	aux	9:aux	_
+11	aʔe	aʔe	PART	pcl	Person=3	9	discourse	9:discourse	_
+12	wa	wa	PART	pcl	Number=Plur	9	discourse	9:discourse	_
+13	kurɨ	kurɨ	PART	pcl	_	9	discourse	9:discourse	_
+14	.	.	PUNCT	punct	_	9	punct	9:punct	_
+
+# sent_id = 632
+# text = Awɨze wiko wanam iʔupa aʔe wa no .
+# text_port = Sempre comendo os outros peixes . (Gomes, 1988)
+# text_spa = Siempre comiendo otros peces.
+# text_eng = Always eating other fish.
+# ADV V [ADV [O V PART]]
+1	Awɨze	awɨze	NOUN	n	_	2	obl	2:obl	_
+2	wiko	iko	VERB	vt	Person[subj]=3	0	root	0:root	_
+3	wanam	anam	NOUN	n	Rel=Corf	4	nsubj	4:nsubj	_
+4	iʔupa	ʔu	VERB	vt	Rel=NCont|VerbForm=Ger	2	advcl	2:advcl	_
+5	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+7	no	no	PART	pcl	_	2	discourse	2:discourse	_
+8	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 633
+# text = Naheta kwaw zepe wako aʔe wa no .
+# text_port = Eles não têm roça . (Gomes, 1988)
+# text_spa = No tienen campos.
+# text_eng = They have no fields.
+# V ADV PART S PART
+1	Naheta	eta	VERB	vd	Polarity=Neg|Rel=NCont	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	zepe	zepe	PART	pcl	_	1	discourse	1:discourse	_
+4	wako	ko	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes	1	nsubj	1:nsubj	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 634
+# text = Xo wanam zote uʔu waiko aʔe wa kurɨ .
+# text_port = Só comem seus parentes . (Gomes, 1988)
+# text_spa = Solo come a tus familiares.
+# text_eng = Only eat your relatives.
+# PART O PART V AUX PART
+1	Xo	xo	PART	pcl	_	4	discourse	4:discourse	_
+2	wanam	anam	NOUN	n	Rel=Corf	4	obj	4:obj	_
+3	zote	zote	PART	pcl	_	4	discourse	4:discourse	_
+4	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	4	aux	4:aux	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+8	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+9	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 635
+# text = Awɨze rupi nezewe wanekohaw aʔe wa no tɨ wa .
+# text_port = Sempre foi deste modo a vida deles . (Gomes, 1988)
+# text_spa = Siempre había sus vidas.
+# text_eng = There was always their lives.
+# PP ADV S PART
+1	Awɨze	awɨze	NOUN	n	_	4	obl	4:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	nezewe	nezewe	ADV	adv	_	4	advmod	4:advmod	_
+4	wanekohaw	iko	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	0	root	0:root	_
+5	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+7	no	no	PART	pcl	_	4	discourse	4:discourse	_
+8	tɨ	tɨ	PART	pcl	_	4	discourse	4:discourse	_
+9	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+10	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 636
+# text = Taʔe Tupan e uzapo paw rupi nezewe aʔe xe .
+# text_port = Porque Deus os fez assim . (Gomes, 1988)
+# text_spa = Porque Dios los hizo como este.
+# text_eng = Because God did them like this.
+# C S ADV V PP ADV PART
+1	Taʔe	taʔe	CCONJ	cc	_	4	mark	4:mark	_
+2	Tupan	Tupan	PROPN	ppn	_	4	nsubj	4:nsubj	_
+3	e	e	ADV	adv	_	4	advmod	4:advmod	_
+4	uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	paw	paw	PRON	pro	PronType=Tot	4	obl	4:obl	_
+6	rupi	upi	ADP	posp	Rel=Cont	5	case	5:case	_
+7	nezewe	nezewe	ADV	adv	_	4	advmod	4:advmod	_
+8	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+9	xe	xe	PART	pcl	_	4	discourse	4:discourse	_
+10	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 637
+# text = Aʔe rupi upaw wapanare wanehe zeʔegaw kwez aʔe kurɨ no pa .
+# text_port = Aí termina a estória dos baranas . (Gomes, 1988)
+# text_spa = Allí la historia de los plátanos termina.
+# text_eng = There the history of bananas ends.
+# PP V S PART
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	upaw	paw	VERB	vi	Person[subj]=3	0	root	0:root	_
+4	wapanare	wapanare	NOUN	n	_	6	nmod	6:nmod	_
+5	wanehe	ehe	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	4	case	4:case	_
+6	zeʔegaw	zeʔeg	NOUN	n	Nomzr=Circ|Rel=Cont	3	nsubj	3:nsubj	_
+7	kwez	kwez	ADV	adv	Tense=Past	6	advmod	6:advmod	_
+8	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+9	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+10	no	no	PART	pcl	_	3	discourse	3:discourse	_
+11	pa	pa	PART	pcl	_	3	discourse	3:discourse	_
+12	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
