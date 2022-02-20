@@ -3942,31 +3942,31 @@
 # text_spa = Llegando al lugar donde el perro herido estaba acostado, que ahora se había transformado en una persona, (el anciano) le dijo a Maizu que él (el perro) estaba bien (y sentado).
 # text_en = Arriving at the place where the wounded dog was lying down, which had now been transformed into a person, he (the old man) told Maizu that he (the dog) was well (and seated).
 # V AUX PP PART - PP ADV V PART - V PP - [V ADV PART] V PP
-1	Uhem	hem	VERB	v	Person[subj]=3	0	root	0:root	_
-2	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
-3	aʔe	aʔe	DET	dem	PronType=Dem	6	det	6:det	_
-4	zawar	zawar	NOUN	n	_	5	nmod	5:nmod	_
-5	iziwàpɨrer	ziwà	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Past	6	nmod	6:nmod	_
-6	tupawpe	upaw	NOUN	n	Case=Loc|Rel=Abs	1	obl	1:obl	_
-7	wà	wà	PART	pcl	Number=Plur	1	discourse	1:discourse	_
-8	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
-9	,	,	PUNCT	punct	_	1	punct	1:punct	_
-10	teko	eko	NOUN	n	Rel=Abs	13	obl	13:obl	_
-11	romo	omo	ADP	posp	Rel=Cont	10	case	10:case	_
-12	zekaipo	kwehe	ADV	adv	Evident=Nfh	13	advmod	13:advmod	_
-13	uwuz	wuz	VERB	v	Person[subj]=3	1	conj	1:conj	_
-14	kurɨ	kurɨ	PART	pcl	_	13	discourse	13:discourse	_
-15	,	,	PUNCT	punct	_	13	punct	13:punct	_
-16	iʔi	ʔi	VERB	vt	Person[subj]=3	1	conj	1:conj	_
-17	maizupe	maizu	NOUN	n	Case=Dat	16	obl	16:obl	_
-18	,	,	PUNCT	punct	_	16	punct	16:punct	_
-19	hekatu	katu	VERB	vd	Person[psor]=1	23	ccomp	23:ccomp	_
-20	tànàʔàg	tànàʔàg	ADV	adv	_	19	advmod	19:advmod	_
-21	kurɨ	kurɨ	PART	pcl	_	19	discourse	19:discourse	_
-22	tɨ	tɨ	PART	pcl	_	19	discourse	19:discourse	_
-23	iʔi	ʔi	VERB	vt	Person[subj]=3	16	conj	16:conj	_
-24	izupe	zupe	ADP	posp	Rel=NCont	23	iobj	23:iobj	_
-25	.	.	PUNCT	punct	_	23	punct	23:punct	_
+1	Uhem	hem	VERB	v	Person[subj]=3	0	root	_	_
+2	oho	ho	VERB	vi	Person[subj]=3	1	dep	_	_
+3	aʔe	aʔe	DET	dem	PronType=Dem	6	det	_	_
+4	zawar	zawar	NOUN	n	_	5	nmod	_	_
+5	iziwàpɨrer	ziwà	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Past	6	nmod	_	_
+6	tupawpe	upaw	NOUN	n	Case=Loc|Rel=Abs	1	obl	_	_
+7	wà	wà	PART	pcl	Number=Plur	1	discourse	_	_
+8	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
+9	,	,	PUNCT	punct	_	1	punct	_	_
+10	teko	eko	NOUN	n	Rel=Abs	13	obl	_	_
+11	romo	omo	ADP	posp	Rel=Cont	10	case	_	_
+12	zekaipo	kwehe	ADV	adv	Evident=Nfh	13	advmod	_	_
+13	uwuz	wuz	VERB	v	Person[subj]=3	1	conj	_	_
+14	kurɨ	kurɨ	PART	pcl	_	13	discourse	_	_
+15	,	,	PUNCT	punct	_	13	punct	_	_
+16	iʔi	ʔi	VERB	vt	Person[subj]=3	1	conj	_	_
+17	maizupe	maizu	NOUN	n	Case=Dat	16	obl	_	_
+18	,	,	PUNCT	punct	_	16	punct	_	_
+19	hekatu	katu	VERB	vd	Person[psor]=1	23	ccomp	_	_
+20	tànàʔàg	tànàʔàg	ADV	adv	_	19	advmod	_	_
+21	kurɨ	kurɨ	PART	pcl	_	19	discourse	_	_
+22	tɨ	tɨ	PART	pcl	_	19	discourse	_	_
+23	iʔi	ʔi	VERB	vt	Person[subj]=3	16	conj	_	_
+24	izupe	zupe	ADP	posp	Rel=NCont	23	iobj	_	_
+25	.	.	PUNCT	punct	_	23	punct	_	_
 
 # sent_id = 286
 # text = Aʔe teko iziwàʔarer , iziwàziwà zekaipo wereko taw mitepe wà
@@ -8603,7 +8603,7 @@
 1	Ukwawkatu	kwaw	VERB	vt	Emph=Yes|Person[subj]=3	0	root	0:root	_
 2	umunarhaw	munar	NOUN	n	Nomzr=Circ|Rel=Corf	1	obj	1:obj	_
 3	pina	pina	NOUN	n	_	1	obl	1:obl	_
-4	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
 5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
 6	no	no	PART	pcl	_	1	discourse	1:discourse	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
