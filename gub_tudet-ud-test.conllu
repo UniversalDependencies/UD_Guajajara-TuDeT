@@ -8487,7 +8487,7 @@
 # text_spa = Ella cuida los huevos hasta que nacieron.
 # text_eng = She takes care of the eggs until they were born.
 # S V O PP PART - V S PART
-1	Zezu	zezu	NOUN	n	_	5	nsubj	5:nsubj	_
+1	Zezu	zezu	NOUN	n	_	6	nsubj	6:nsubj	_
 2	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
 3	no	no	PART	pcl	_	1	discourse	1:discourse	_
 4	,	,	PUNCT	punct	_	1	punct	1:punct	_
@@ -8528,7 +8528,7 @@
 # text_spa = Jeju no vive solo.
 # text_eng = Jeju does not live alone.
 # S V ADV O PART
-1	zezu	zezu	NOUN	n	_	2	nsubj	2:nsubj	_
+1	Zezu	zezu	NOUN	n	_	2	nsubj	2:nsubj	_
 2	nuiko	iko	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
 3	kwaw	kwaw	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
 4-5	aʔezutɨkaʔe	_	_	_	_	_	_	_	_
@@ -8551,4 +8551,86 @@
 5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
 6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 612
+# text = Uperek teteaʔu aʔe wa xe .
+# text_port = Ele sobe para pegar o anzol . (Gomes, 1988)
+# text_spa = Sube para atrapar el gancho.
+# text_eng = He climbs to catch the hook.
+# V ADV PART
+1	Uperek	perek	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	teteaʔu	tete	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	xe	xe	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 613
+# text = Oporaʔu uputaw rene aʔe xe .
+# text_port = Pula para pegar comida . (Gomes, 1988)
+# text_spa = Él salta para atrapar comida.
+# text_eng = He jumps to catch food.
+# V PP PART
+1	Oporaʔu	por	VERB	vi	Emph=Yes|Person[subj]=3	0	root	0:root	_
+2	uputaw	putaw	NOUN	n	Rel=Corf	1	obl	1:obl	_
+3	rene	re	ADP	posp	Red=Mo|Rel=Cont	2	case	2:case	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	xe	xe	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 614
+# text = Uzeukakatu zezu aʔe , pina rehe aʔe xe  .
+# text_port = O jeju pega logo o anzol . (Gomes, 1988)
+# text_spa = Jeja pronto recoge el gancho.
+# text_eng = Jeja soon picks up the hook.
+# V S PART PP PART
+1	Uzeukakatu	ka	VERB	vt	Emph=Yes|Person[subj]=3|Reflex=Yes	0	root	0:root	_
+2	zezu	zezu	NOUN	n	_	1	nsubj	1:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	pina	pina	NOUN	n	_	1	obl	1:obl	_
+6	rehe	ehe	ADP	posp	Rel=Cont	5	case	5:case	_
+7	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+8	xe	xe	PART	pcl	_	1	discourse	1:discourse	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 615
+# text = Ukwawkatu umunarhaw pina rehe aʔe no .
+# text_port = Ele sabe bem como roubá-lo . (Gomes, 1988)
+# text_spa = Él sabe cómo robarlo.
+# text_eng = He knows how to steal it.
+# V O PP PART
+1	Ukwawkatu	kwaw	VERB	vt	Emph=Yes|Person[subj]=3	0	root	0:root	_
+2	umunarhaw	munar	NOUN	n	Nomzr=Circ|Rel=Corf	1	obj	1:obj	_
+3	pina	pina	NOUN	n	_	1	obl	1:obl	_
+4	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 616
+# text = Naʔarewahɨ pina imokon aʔe no .
+# text_port = Pois o engole rapidamente . (Gomes, 1988)
+# text_spa = Porque él lo traga rápidamente.
+# text_eng = Because he swallows him quickly.
+# ADV O V PART
+1	Naʔarewahɨ	naʔarew	ADV	adv	Emph=Yes	3	advmod	3:advmod	_
+2	pina	pina	NOUN	n	_	3	obj	3:obj	_
+3	imokon	mokon	VERB	vt	NonFoc=Yes|Rel=NCont	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	no	no	PART	pcl	_	3	discourse	3:discourse	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 617
+# text = Uʔɨaɨar zezu aʔe .
+# text_port = Também gosta de pular na água . (Gomes, 1988)
+# text_spa = A él también le gusta saltar en el agua.
+# text_eng = He also likes to jump in the water.
+# V S PART
+1-2	Uʔɨaɨar	_	_	_	_	_	_	_	_
+1	uʔɨ	ʔɨ	NOUN	n	Person[subj]=3	2	obj	2:obj	_
+2	aɨar	aɨar	VERB	vt	_	0	root	0:root	_
+3	zezu	zezu	NOUN	n	_	2	nsubj	2:nsubj	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
