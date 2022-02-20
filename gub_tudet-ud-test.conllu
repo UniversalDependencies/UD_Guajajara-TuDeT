@@ -8824,10 +8824,10 @@
 # PART V PART
 1	Te	te	PART	pcl	_	2	discourse	2:discourse	_
 2	uhuuhuaʔi	uhu	VERB	vd	Emph=Yes|Red=Di	0	root	0:root	_
-4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
-5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
-6	no	no	PART	pcl	_	2	discourse	2:discourse	_
-7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+5	no	no	PART	pcl	_	2	discourse	2:discourse	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 630
 # text = Aʔe mehe uzɨpɨrog wanam wanaʔɨr waʔuhawaʔi waiko aʔe wa kurɨ .
