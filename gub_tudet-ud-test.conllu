@@ -8662,7 +8662,7 @@
 8	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 9	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
-# sent_id = 610
+# sent_id = 620
 # text = Nezewe zote wapanare aʔe wa no tɨ wa .
 # text_port = Eles são assim . (Gomes, 1988)
 # text_spa = Son así.
@@ -8678,7 +8678,7 @@
 8	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
 9	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
-# sent_id = 611
+# sent_id = 621
 # text = Ipɨtuhem zote waiko ɨpe aʔe wa no .
 # text_port = Respiram água . (Gomes, 1988)
 # text_spa = Ellos respiran agua.
@@ -8693,7 +8693,7 @@
 7	no	no	PART	pcl	_	1	discourse	1:discourse	_
 8	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
-# sent_id = 612
+# sent_id = 622
 # text = Uzan zote waiko ɨpɨw aʔe wa no .
 # text_port = Correm somente onde tem água funda . (Gomes, 1988)
 # text_spa = Solo corren donde tiene agua profunda.
@@ -8710,7 +8710,7 @@
 8	no	no	PART	pcl	_	1	discourse	1:discourse	_
 9	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
-# sent_id = 613
+# sent_id = 623
 # text = Hurɨwete zote waiko aʔe wa no .
 # text_port = Pois é onde se sentem felizes . (Gomes, 1988)
 # text_spa = Porque es donde se sienten felices.
@@ -8724,7 +8724,7 @@
 6	no	no	PART	pcl	_	1	discourse	1:discourse	_
 7	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
-# sent_id = 614
+# sent_id = 624
 # text = Hurɨwete weraʔu waiko aʔe wa , taʔe uʔu omogwer pira waiko aʔe wa xe , aʔe rupi hurɨwete waiko aʔe wa .
 # text_port = Eles se sentem assim [felices] porque lá comem outros peixinhos . (Gomes, 1988)
 # text_spa = Se sienten felices porque comen otros peces.
@@ -8753,7 +8753,7 @@
 21	wa	wa	PART	pcl	Number=Plur	18	discourse	18:discourse	_
 22	.	.	PUNCT	punct	_	18	punct	18:punct	_
 
-# sent_id = 615
+# sent_id = 625
 # text = Te zun mehe uzɨpɨrog zote upiʔahaw aʔe wa no .
 # text_port = Em junho , eles começam a botar ovos . (Gomes, 1988)
 # text_spa = En junio, comienzan a poner huevos.
@@ -8772,7 +8772,7 @@
 10	no	no	PART	pcl	_	4	discourse	4:discourse	_
 11	.	.	PUNCT	punct	_	4	punct	4:punct	_
 
-# sent_id = 616
+# sent_id = 626
 # text = Hurɨwete weraʔu waiko no .
 # text_port = Ficam mais felizes (Gomes, 1988)
 # text_spa = Son más felices
@@ -8784,7 +8784,7 @@
 4	no	no	PART	pcl	_	1	discourse	1:discourse	_
 5	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
-# sent_id = 617
+# sent_id = 627
 # text = Aʔe mehe oho wahɨ wanuwi aʔe kurɨ .
 # text_port = Então a mãe os deixa , ainda pequeninos . (Gomes, 1988)
 # text_spa = Entonces la madre los deja, todavía pequeña.
@@ -8799,7 +8799,7 @@
 7	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
-# sent_id = 618
+# sent_id = 628
 # text = Aʔeʔi ohoaʔi waiko umaiʔuaʔipa aʔe wa no .
 # text_port = E eles vão andando por aí comendo . (Gomes, 1988)
 # text_spa = Y están caminando comiendo.
