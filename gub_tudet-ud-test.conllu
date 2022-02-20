@@ -8634,3 +8634,185 @@
 4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
 5	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
+# sent_id = 618
+# text = Uker ɨwɨr aʔe xe .
+# text_port = E dormir no fundo do rio . (Gomes, 1988)
+# text_spa = Y duerme en la parte inferior del río.
+# text_eng = And sleep at the bottom of the river.
+# V PP PART
+1	Uker	ker	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	ɨwɨr	ʔɨ	NOUN	n	Case=Loc	1	obl	1:obl	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	xe	xe	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 619
+# text = Wapanare wamumeʔuhaw xe aʔe nene no tɨ wa .
+# text_port = Esta é uma estória sobre os peixes baranas . (Gomes, 1988)
+# text_spa = Esta es una historia sobre los peces baránicos.
+# text_eng = This is a story about baranic fish.
+# S PART
+1	Wapanare	wapanare	NOUN	n	_	2	nmod	2:nmod	_
+2	wamumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ	0	root	0:root	_
+3	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	nene	nene	PART	pcl	_	2	discourse	2:discourse	_
+6	no	no	PART	pcl	_	2	discourse	2:discourse	_
+7	tɨ	tɨ	PART	pcl	_	2	discourse	2:discourse	_
+8	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+9	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 610
+# text = Nezewe zote wapanare aʔe wa no tɨ wa .
+# text_port = Eles são assim . (Gomes, 1988)
+# text_spa = Son así.
+# text_eng = They are like this.
+# ADV PART S PART
+1	Nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+2	zote	zote	PART	pcl	_	3	discourse	3:discourse	_
+3	wapanare	wapanare	NOUN	n	_	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+6	no	no	PART	pcl	_	3	discourse	3:discourse	_
+7	tɨ	tɨ	PART	pcl	_	3	discourse	3:discourse	_
+8	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 611
+# text = Ipɨtuhem zote waiko ɨpe aʔe wa no .
+# text_port = Respiram água . (Gomes, 1988)
+# text_spa = Ellos respiran agua.
+# text_eng = They breathe water.
+# V PART AUX PP PART
+1	Ipɨtuhem	pɨtuhem	VERB	vd	Rel=NCont	0	root	0:root	_
+2	zote	zote	PART	pcl	_	1	discourse	1:discourse	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+4	ɨpe	ʔɨ	NOUN	n	Case=Loc	1	obl	1:obl	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 612
+# text = Uzan zote waiko ɨpɨw aʔe wa no .
+# text_port = Correm somente onde tem água funda . (Gomes, 1988)
+# text_spa = Solo corren donde tiene agua profunda.
+# text_eng = They run only where it has deep water.
+# V PART AUX PP PART
+1	Uzan	zan	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	zote	zote	PART	pcl	_	1	discourse	1:discourse	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+4-5	ɨpɨw	_	_	_	_	_	_	_	_
+4	ɨp	ʔɨ	NOUN	n	Case=Loc	1	obl	1:obl	_
+5	ɨw	ʔɨw	NOUN	n	Case=Loc	4	nmod	4:nmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+8	no	no	PART	pcl	_	1	discourse	1:discourse	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 613
+# text = Hurɨwete zote waiko aʔe wa no .
+# text_port = Pois é onde se sentem felizes . (Gomes, 1988)
+# text_spa = Porque es donde se sienten felices.
+# text_eng = For it is where they feel happy.
+# V PART AUX PART
+1	Hurɨwete	urɨw	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	zote	zote	PART	pcl	_	1	discourse	1:discourse	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 614
+# text = Hurɨwete weraʔu waiko aʔe wa , taʔe uʔu omogwer pira waiko aʔe wa xe , aʔe rupi hurɨwete waiko aʔe wa .
+# text_port = Eles se sentem assim [felices] porque lá comem outros peixinhos . (Gomes, 1988)
+# text_spa = Se sienten felices porque comen otros peces.
+# text_eng = They feel happy because they eat other fish.
+# V ADV AUX PART - C V - V O AUX PART - PP V AUX PART
+1	Hurɨwete	urɨw	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	weraʔu	wer	ADV	adv	Emph=Yes|Mood=Des	1	advmod	1:advmod	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	taʔe	taʔe	CCONJ	cc	Case=Ref	8	mark	8:mark	_
+8	uʔu	ʔu	VERB	vt	Person[subj]=3	1	conj	1:conj	_
+9	omogwer	mog	VERB	vi	Mood=Des|Person[subj]=3	8	conj	8:conj	_
+10	pira	pira	NOUN	n	_	9	obj	9:obj	_
+11	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	9	aux	9:aux	_
+12	aʔe	aʔe	PART	pcl	Person=3	9	discourse	9:discourse	_
+13	wa	wa	PART	pcl	Number=Plur	9	discourse	9:discourse	_
+14	xe	xe	PART	pcl	_	9	discourse	9:discourse	_
+15	,	,	PUNCT	punct	_	9	punct	9:punct	_
+16	aʔe	aʔe	PRON	pro	Person=3	18	obl	18:obl	_
+17	rupi	upi	ADP	posp	Rel=Cont	16	case	16:case	_
+18	hurɨwete	urɨw	VERB	vd	Emph=Yes|Rel=NCont	9	conj	9:conj	_
+19	waiko	iko	AUX	aux	Aspe.2ct=Prog|Number=Plur|Person[subj]=3	18	aux	18:aux	_
+20	aʔe	aʔe	PART	pcl	Person=3	18	discourse	18:discourse	_
+21	wa	wa	PART	pcl	Number=Plur	18	discourse	18:discourse	_
+22	.	.	PUNCT	punct	_	18	punct	18:punct	_
+
+# sent_id = 615
+# text = Te zun mehe uzɨpɨrog zote upiʔahaw aʔe wa no .
+# text_port = Em junho , eles começam a botar ovos . (Gomes, 1988)
+# text_spa = En junio, comienzan a poner huevos.
+# text_eng = In June, they begin to put eggs.
+# PP V PART S PART
+1	Te	te	PART	pcl	_	2	discourse	2:discourse	_
+2	zun	zun	NOUN	n	_	4	obl	4:obl	_
+3	mehe	mehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	uzɨpɨrog	pɨrog	VERB	vi	Person[subj]=3|Reflex=Yes	0	root	0:root	_
+5	zote	zote	PART	pcl	_	4	discourse	4:discourse	_
+6-7	upiʔahaw	_	_	_	_	_	_	_	_
+6	upi	upi	ADP	posp	Rel=Cont	4	nsubj	4:nsubj	_
+7	ʔahaw	ʔa	NOUN	n	Nomzr=Circ	6	nmod	6:nmod	_
+8	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+9	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+10	no	no	PART	pcl	_	4	discourse	4:discourse	_
+11	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 616
+# text = Hurɨwete weraʔu waiko no .
+# text_port = Ficam mais felizes (Gomes, 1988)
+# text_spa = Son más felices
+# text_eng = Are happier
+# V ADV AUX PART
+1	Hurɨwete	urɨw	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	weraʔu	wer	ADV	adv	Emph=Yes|Mood=Des	1	advmod	1:advmod	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+4	no	no	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 617
+# text = Aʔe mehe oho wahɨ wanuwi aʔe kurɨ .
+# text_port = Então a mãe os deixa , ainda pequeninos . (Gomes, 1988)
+# text_spa = Entonces la madre los deja, todavía pequeña.
+# text_eng = Then the mother leaves them, still tiny.
+# PP V S PP PART
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	mehe	mehe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+4	wahɨ	ahɨ	NOUN	n	Rel=Corf	3	nsubj	3:nsubj	_
+5	wanuwi	uwi	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	3	obl	3:obl	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 618
+# text = Aʔeʔi ohoaʔi waiko umaiʔuaʔipa aʔe wa no .
+# text_port = E eles vão andando por aí comendo . (Gomes, 1988)
+# text_spa = Y están caminando comiendo.
+# text_eng = And they're walking around eating.
+# S V AUX [ADV [V]] PART
+1	Aʔeʔi	aʔe	PRON	pro	Case=Ref|Person=3	3	obl	3:obl	_
+2	ohoaʔi	ho	VERB	vi	Emph=Yes|Person[subj]=3	0	root	0:root	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	2:aux	_
+4-5	umaiʔuaʔipa	_	_	_	_	_	_	_	_
+4	umai	maʔe	NOUN	n	Person[subj]=3	5	obj	5:obj	_
+5	ʔuaʔipa	ʔu	VERB	vt	Emph=Yes|VerbForm=Ger	2	advcl	2:advcl	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+8	no	no	PART	pcl	_	2	discourse	2:discourse	_
+9	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
