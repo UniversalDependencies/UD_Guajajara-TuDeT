@@ -9155,7 +9155,7 @@
 9	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 651
-# text = Ukwawkatu weko haw , nezewe aʔe wa .
+# text = Ukwawkatu wekohaw , nezewe aʔe wa .
 # text_port = Eles são bem adaptados ao seu ambiente . (Gomes, 1988)
 # text_spa = Están bien adaptados a su entorno.
 # text_eng = They are well adapted to their environment.
@@ -9177,7 +9177,7 @@
 1	Aze	aze	SCONJ	sc	_	2	mark	2:mark	_
 2	uzaw	zaw	VERB	vi	Person[subj]=3	7	advcl	7:advcl	_
 3	huwer	uwer	NOUN	n	Rel=NCont	2	nsubj	2:nsubj	_
-4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+4	,	,	PUNCT	punct	_	2	punct	2:punct	_
 5	awɨze	awɨze	NOUN	n	_	7	obl	7:obl	_
 6	tue	tue	ADV	adv	Emph=Yes	5	advmod	5:advmod	_
 7	heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
@@ -9206,7 +9206,7 @@
 # text_spa = No maman.
 # text_eng = They are not breastfed.
 # C V ADV PART
-1	taʔe	taʔe	CCONJ	cc	_	2	mark	2:mark	_
+1	Taʔe	taʔe	CCONJ	cc	_	2	mark	2:mark	_
 2	numukamu	kamu	VERB	vi	Person[subj]=3|Polarity=Neg|Voice=Cau	0	root	0:root	_
 3	kwaw	kwaw	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
 4	inɨ	inɨ	NOUN	n	_	2	obl	2:obl	_
@@ -9220,7 +9220,7 @@
 # text_spa = Sabes si cuidas bien.
 # text_eng = You know if you take good care.
 # S V PART
-1	aʔe	aʔe	PRON	pro	Person=3	2	nsubj	2:nsubj	_
+1	Aʔe	aʔe	PRON	pro	Person=3	2	nsubj	2:nsubj	_
 2	uzemugakwaw	mugakwaw	VERB	vi	Person[subj]=3|Reflex=Yes	0	root	0:root	_
 3	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 4	.	.	PUNCT	punct	_	2	punct	2:punct	_
@@ -9273,7 +9273,7 @@
 # text_spa = Cuando el sol está caliente, flota en el otro.
 # text_eng = When the sun is hot it float on the other.
 # PP V PP PART
-1	Aʔe	aʔe	PRON	pro	Person=3	_	obl	:obl	_
+1	Aʔe	aʔe	PRON	pro	Person=3	4	obl	4:obl	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
 3-4	uʔɨʔar	_	_	_	_	_	_	_	_
 3	uʔɨ	ʔɨ	NOUN	n	Person[subj]=3	4	obl	4:obl	_
@@ -9322,7 +9322,7 @@
 # text_spa = A él le gusta estar debajo del árbol donde tiene sombra.
 # text_eng = He likes to be under the tree where he has shadow.
 # PP PP V PART
-1	Aʔe	aʔe	PRON	pro	Person=3	_	obl	:obl	_
+1	Aʔe	aʔe	PRON	pro	Person=3	5	obl	5:obl	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
 3	maʔe	maʔe	NOUN	n	_	5	obl	5:obl	_
 4	wɨwɨpe	wɨ	ADP	posp	Case=Loc|Red=Mo	3	case	3:case	_
@@ -9340,9 +9340,9 @@
 1	ɨpe	ʔɨ	NOUN	n	Case=Loc	2	obl	2:obl	_
 2	wekar	ekar	VERB	vt	Person[subj]=3	0	root	0:root	_
 3	wemiʔuram	ʔu	NOUN	n	Nomzr=DevPass|Person[psor]=3|Poss=Yes|Tense=Fut	2	obj	2:obj	_
-5	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	2	aux	2:aux	_
-6	no	no	PART	pcl	_	2	discourse	2:discourse	_
-7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+4	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	2	aux	2:aux	_
+5	no	no	PART	pcl	_	2	discourse	2:discourse	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 664
 # text = Aʔe rupi uzapo umemɨr wanɨru aʔe no , uzaw imemɨr aʔe wa kurɨ .
@@ -9355,7 +9355,7 @@
 3	uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
 4	umemɨr	memɨr	NOUN	n	Rel=Corf	5	nmod	5:nmod	_
 5	wanɨru	ɨru	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	3	obj	3:obj	_
-6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	:discourse	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
 7	no	no	PART	pcl	_	3	discourse	3:discourse	_
 8	,	,	PUNCT	punct	_	3	punct	3:punct	_
 9	uzaw	zaw	VERB	vi	Person[subj]=3	3	conj	3:conj	_
@@ -9388,9 +9388,9 @@
 13	upi	upi	ADP	posp	Rel=Cont	15	obj	15:obj	_
 14	ʔa	ʔa	NOUN	n	Nomzr=Circ	13	nmod	13:nmod	_
 15	momor	por	VERB	vt	Voice=Cau	1	conj	1:conj	_
-14	aʔe	aʔe	PART	pcl	Person=3	15	discourse	15:discourse	_
-15	no	no	PART	pcl	_	15	discourse	15:discourse	_
-16	.	.	PUNCT	punct	_	15	punct	15:punct	_
+16	aʔe	aʔe	PART	pcl	Person=3	15	discourse	15:discourse	_
+17	no	no	PART	pcl	_	15	discourse	15:discourse	_
+18	.	.	PUNCT	punct	_	15	punct	15:punct	_
 
 # sent_id = 666
 # text = Heta teteaʔu imemɨr wa , uhaz waiko wa kurɨ .
