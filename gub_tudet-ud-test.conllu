@@ -9714,7 +9714,6 @@
 3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
 4	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 5	no	no	PART	pcl	_	2	discourse	2:discourse	_
-6	.	.	PUNCT	punct	_	2	punct	2:punct	_
 
 # sent_id = 685
 # text = Marazawen uhuuhuaʔi aʔe wa no pa , taʔe wahɨ numukamu kwaw zepe aʔe wa xe .
