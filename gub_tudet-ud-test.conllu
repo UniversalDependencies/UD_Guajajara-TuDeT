@@ -7456,13 +7456,13 @@
 1	Màràzàwe	mara	PRON	pro	Case=Equ|PronType=Int	4	obj	4:obj	_
 2	tue	tue	PART	pcl	_	1	discourse	1:discourse	_
 3	ereiko	iko	VERB	vi	Number=Sing|Person[subj]=2	7	ccomp	7:ccomp	_
-4	tɨ	tɨ	PART	pcl	_	4	discourse	4:discourse	_
-5	,	,	PUNCT	punct	_	4	punct	4:punct	_
+4	tɨ	tɨ	PART	pcl	_	3	discourse	3:discourse	_
+5	,	,	PUNCT	punct	_	3	punct	3:punct	_
 6	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	0:root	_
-7	zekaipo	kwehe	ADV	adv	Evident=Nfh	7	advmod	7:advmod	_
+7	zekaipo	kwehe	ADV	adv	Evident=Nfh	6	advmod	6:advmod	_
 8-9	zawaruhu	_	_	_	_	_	_	_	_
 8	zawar	zawar	NOUN	n	_	7	nsubj	7:nsubj	_
-9	uhu	hu	NOUN	n	_	9	nmod	9:nmod	_
+9	uhu	hu	NOUN	n	_	8	nmod	8:nmod	_
 10	izupe	upe	ADP	posp	Rel=NCont	7	iobj	7:iobj	_
 11	.	.	PUNCT	punct	_	7	punct	7:punct	_
 
@@ -9704,6 +9704,7 @@
 11	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
 # sent_id = 684
+# text = Te uhuuhuaʔi aʔe wa no
 # text_port = São muitos . (Gomes, 1988)
 # text_spa = Son muchos .
 # text_eng = Are many .
@@ -9761,7 +9762,7 @@
 14	iapon	apo	VERB	vt	NonFoc=Yes|Rel=NCont	3	conj	3:conj	_
 15	umemɨr	memɨr	NOUN	n	Rel=Corf	14	obl	14:obl	_
 16	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	15	obl	15:obl	_
-17	aʔe	aʔe	PART	pcl	Person=3	_	14	discourse	14:discourse	_
+17	aʔe	aʔe	PART	pcl	Person=3	14	discourse	14:discourse	_
 18	no	no	PART	pcl	_	14	discourse	14:discourse	_
 19	tɨ	tɨ	PART	pcl	_	14	discourse	14:discourse	_
 20	wa	wa	PART	pcl	Number=Plur	14	discourse	14:discourse	_
@@ -10579,13 +10580,13 @@
 4	março	março	NOUN	n	Foreign=Yes	2	obl	2:obl	_
 5	mehe	mehe	ADP	posp	Rel=Cont	4	case	4:case	_
 6	,	,	PUNCT	punct	_	2	punct	2:punct	_
-7	kɨrɨmata	kɨrɨmata	NOUN	n	_	9	nsubj	9:nsubj	_
+7	kɨrɨmata	kɨrɨmata	NOUN	n	_	10	nsubj	10:nsubj	_
 8-10	uzepiʔamomor	_	_	_	_	_	_	_	_
 8	uzepiʔa	upiʔa	NOUN	n	Person[subj]=3|Reflex=Yes	10	obj	10:obj	_
 9	ʔa	ʔa	NOUN	n	Rel=Cont	8	nmod	8:nmod	_
 10	momor	por	VERB	vt	Voice=Cau	2	parataxis	2:parataxis	_
-11	ɨpe	ʔɨ	NOUN	n	Case=Loc	9	obl	9:obl	_
-12	.	.	PUNCT	punct	_	9	punct	9:punct	_
+11	ɨpe	ʔɨ	NOUN	n	Case=Loc	10	obl	10:obl	_
+12	.	.	PUNCT	punct	_	10	punct	10:punct	_
 
 # sent_id = 742
 # text = Pirakuʔahaw wamumeʔuhaw ʔaw xe aʔe nehe kurɨ tɨ wa .
@@ -10648,7 +10649,7 @@
 8	no	no	PART	pcl	_	2	discourse	2:discourse	_
 9	,	,	PUNCT	punct	_	2	punct	2:punct	_
 10	ɨʔaromo	ʔɨ	NOUN	n	Case=Loc	12	obl	12:obl	_
-11-12	umaiʔuaʔipa	_	_	_	_	_	_	_	_
+11-12	umaiʔu	_	_	_	_	_	_	_	_
 11	umai	maʔe	NOUN	n	Person[subj]=3	12	obj	12:obj	_
 12	ʔu	ʔu	VERB	vt	_	2	conj	2:conj	_
 13	zote	zote	PART	pcl	_	12	discourse	12:discourse	_
@@ -10698,10 +10699,10 @@
 5	ɨ	ʔɨ	NOUN	n	_	1	obl	1:obl	_
 6	reme	ʔɨ	NOUN	n	Case=Loc|Rel=Cont	5	nmod	5:nmod	_
 7	ʔɨwɨr	ʔɨ	NOUN	n	Case=Loc	6	nmod	6:nmod	_
-7	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
-8	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
-9	no	no	PART	pcl	_	1	discourse	1:discourse	_
-10	.	.	PUNCT	punct	_	1	punct	1:punct	_
+8	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+9	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+10	no	no	PART	pcl	_	1	discourse	1:discourse	_
+11	.	.	PUNCT	punct	_	1	punct	1:punct	_
 
 # sent_id = 749
 # text = Izun mehe wanekon tuʔum uʔupa wa .
