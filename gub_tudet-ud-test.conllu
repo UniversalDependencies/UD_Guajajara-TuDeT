@@ -11134,7 +11134,7 @@
 # ADV V PP PART
 1	Nezewe	nezewe	ADV	adv	_	2	advmod	2:advmod	_
 2	uker	ker	VERB	vi	Person[subj]=3	0	root	0:root	_
-3-6	ɨremeʔɨwɨr	_	_	_	_	_	_	_	_
+3-5	ɨremeʔɨwɨr	_	_	_	_	_	_	_	_
 3	ɨ	ʔɨ	NOUN	n	_	2	obl	2:obl	_
 4	reme	ʔɨ	NOUN	n	Case=Loc|Rel=Cont	3	nmod	3:nmod	_
 5	ʔɨwɨr	ʔɨ	NOUN	n	Case=Loc	4	nmod	4:nmod	_
@@ -11155,7 +11155,7 @@
 4-5	ɨwɨxig	_	_	_	_	_	_	_	_
 4	ɨwɨ	ɨwɨ	NOUN	n	_	3	obl	3:obl	_
 5	xig	xig	NOUN	n	Rel=Cont	4	nmod	4:nmod	_
-6	apɨter	apɨter	ADP	posp	Case=Tra|Rel=Cont	4	case	4:case	_
+6	apɨteromo	apɨter	ADP	posp	Case=Tra|Rel=Cont	4	case	4:case	_
 7	no	no	PART	pcl	_	3	discourse	3:discourse	_
 8	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
@@ -11676,7 +11676,7 @@
 # text_eng = After three days, he leaves again.
 # [ADV [PP V C]] V [ADV [V]] PART
 1	Te	te	ADP	posp	Foreign=Yes	3	case	3:case	_
-2	naʔiruz	ru	NUM	num	Polarity=Neg|Rel=NCont	3	num	3:num	_
+2	naʔiruz	ru	NUM	num	Polarity=Neg|Rel=NCont	3	nummod	3:nummod	_
 3	ʔar	ʔar	NOUN	n	_	4	obl	4:obl	_
 4	imumaw	paw	VERB	vt	Person[subj]=3|Voice=Cau	6	advcl	6:advcl	_
 5	mehe	mehe	SCONJ	sc	_	4	mark	4:mark	_
@@ -11874,7 +11874,7 @@
 5	ɨ	ʔɨ	NOUN	n	Rel=Cont	8	nsubj	8:nsubj	_
 6	pa	paw	NOUN	n	_	5	nmod	5:nmod	_
 7	ran	ran	NOUN	n	_	6	nmod	6:nmod	_
-8	muitehaw	muite	NOUN	n	Nomzr=Circ|Rel=Cont	0	advcl	0:advcl	_
+8	muitehaw	muite	NOUN	n	Nomzr=Circ|Rel=Cont	22	advcl	22:advcl	_
 9	aʔe	aʔe	PRON	pro	PronType=Dem	8	obl	8:obl	_
 10	wi	wi	ADP	posp	Rel=Cont	9	case	9:case	_
 11	aʔe	aʔe	PART	pcl	Person=3	8	discourse	8:discourse	_
@@ -12405,7 +12405,7 @@
 7	,	,	PUNCT	punct	_	2	punct	2:punct	_
 8	taʔe	taʔe	CCONJ	cc	_	10	mark	10:mark	_
 9	ihɨ	hɨ	NOUN	n	Rel=NCont	10	nsubj	10:nsubj	_
-10	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+10	oho	ho	VERB	vi	Person[subj]=3	2	conj	2:conj	_
 11	wanuwi	uwi	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	10	obl	10:obl	_
 12	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
 13	kurɨ	kurɨ	PART	pcl	_	10	discourse	10:discourse	_
@@ -12575,7 +12575,7 @@
 3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
 4	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 5	,	,	PUNCT	punct	_	2	punct	2:punct	_
-6	taʔe	taʔe	CCONJ	cc	_	9	mark	9:mark	_
+6	taʔe	taʔe	CCONJ	cc	_	10	mark	10:mark	_
 7-8	tatainɨ	_	_	_	_	_	_	_	_
 7	tata	ata	NOUN	n	Rel=Abs	10	obl	10:obl	_
 8	inɨ	einɨ	NOUN	n	Rel=Cont	7	nmod	7:nmod	_
@@ -12612,7 +12612,7 @@
 11	wa	wa	PART	pcl	Number=Plur	8	discourse	8:discourse	_
 12	no	no	PART	pcl	_	8	discourse	8:discourse	_
 13	xe	xe	PART	pcl	_	8	discourse	8:discourse	_
-14	,	,	PUNCT	punct	_	8	punct	8:punct	_
+14	,	,	PUNCT	punct	_	16	punct	16:punct	_
 15	wamiri	wamiri	NOUN	n	_	16	nmod	16:nmod	_
 16	wekohawpe	iko	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Corf	9	appos	9:appos	_
 17	aʔe	aʔe	PART	pcl	Person=3	16	discourse	16:discourse	_
@@ -12807,7 +12807,7 @@
 6	nezewe	nezewe	ADV	adv	_	5	advmod	5:advmod	_
 7	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	5	obl	5:obl	_
 8	no	no	PART	pcl	_	5	discourse	5:discourse	_
-9	,	,	PUNCT	punct	_	5	punct	5:punct	_
+9	,	,	PUNCT	punct	_	11	punct	11:punct	_
 10	wamiri	wamiri	NOUN	n	_	7	appos	7:appos	_
 11	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	10	obl	10:obl	_
 12	no	no	PART	pcl	_	10	discourse	10:discourse	_
@@ -13150,7 +13150,7 @@
 4	pɨpe	pɨ	NOUN	n	Case=Loc|Rel=Cont	2	obl	2:obl	_
 5	zane	zane	PART	pcl	Clusivity=In|Number=Plur|Person=1	2	discourse	2:discourse	_
 6	,	,	PUNCT	punct	_	2	punct	2:punct	_
-7	zanezuka	uka	VERB	vi	Clusivity=In|Number=Plur|Person[obj]=1	0	root	0:root	_
+7	zanezuka	uka	VERB	vi	Clusivity=In|Number=Plur|Person[psor]=1|Poss=Yes	0	root	0:root	_
 8	tue	tue	ADV	adv	Emph=Yes	7	advmod	7:advmod	_
 9	ɨ	ʔɨ	NOUN	n	_	7	nsubj	7:nsubj	_
 10	aʔe	aʔe	PART	pcl	Person=3	7	discourse	7:discourse	_
@@ -13189,13 +13189,13 @@
 10	.	.	PUNCT	punct	_	6	punct	6:punct	_
 
 # sent_id = 902
-# text = Taʔe ɨpe har aʔe wa xe .
+# text = Taʔe ɨpehar aʔe wa xe .
 # text_port = Porque são criaturas da água . (Gomes, 1988)
 # text_spa = Porque son criaturas de agua.
 # text_eng = Because they are water creatures.
 # C V PART
 1	Taʔe	taʔe	CCONJ	cc	_	2	mark	2:mark	_
-2	ɨpehar	ʔɨ	NOUN	n	Case=Loc	0	root	0:root	_
+2	ɨpehar	ʔɨ	NOUN	n	Case=Loc|Nomzr=Ag	0	root	0:root	_
 3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
 4	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
 5	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
