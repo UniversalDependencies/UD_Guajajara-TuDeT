@@ -11095,3 +11095,2267 @@
 8	nekutukawer	kutuk	NOUN	n	Nomzr=Circ|Number=Sing|Person[psor]=2|Tense=Past	6	nsubj	6:nsubj	_
 9	.	.	PUNCT	punct	_	6	punct	6:punct	_
 
+# sent_id = 775
+# text = Aʔe rupi ipira zawewɨr nezewe aʔe kurɨ .
+# text_port = È assim com o peixe arraia . (Gomes, 1988)
+# text_spa = Así es los peces pesqueros.
+# text_eng = And so with the fishing fish.
+# PP S V ADV PART
+1	Aʔe	aʔe	PRON	pro	Person=3	4	obl	4:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	ipira	pira	NOUN	n	Rel=NCont	4	nsubj	4:nsubj	_
+4	zawewɨr	zawewɨr	NOUN	n	_	0	root	0:root	_
+5	nezewe	nezewe	ADV	adv	_	4	advmod	4:advmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+8	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 776
+# text = Aʔe rupi uzuhez katu ɨwɨxig aʔe no .
+# text_port = Ele qosta de comer areia . (Gomes, 1988)
+# text_spa = A él le gusta comer arena.
+# text_eng = He likes to eat sand.
+# PP V O PART
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uzuhezkatu	ʔu	VERB	vt	Emph=Yes|Mood=Des|Person[subj]=3	0	root	0:root	_
+4-5	ɨwɨxig	_	_	_	_	_	_	_	_
+4	ɨwɨ	ɨwɨ	NOUN	n	_	3	obj	3:obj	_
+5	xig	xig	NOUN	n	Rel=Cont	4	nmod	4:nmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	no	no	PART	pcl	_	3	discourse	3:discourse	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 777
+# text = Nezewe uker ɨremeʔɨwɨr aʔe wa no .
+# text_port = [Ele] dorm[e] na beira da água . (Gomes, 1988)
+# text_spa = [Él] duerme en el borde del agua.
+# text_eng = [He] sleeps on the water's edge.
+# ADV V PP PART
+1	Nezewe	nezewe	ADV	adv	_	2	advmod	2:advmod	_
+2	uker	ker	VERB	vi	Person[subj]=3	0	root	0:root	_
+3-6	ɨremeʔɨwɨr	_	_	_	_	_	_	_	_
+3	ɨ	ʔɨ	NOUN	n	_	2	obl	2:obl	_
+4	reme	ʔɨ	NOUN	n	Case=Loc|Rel=Cont	3	nmod	3:nmod	_
+5	ʔɨwɨr	ʔɨ	NOUN	n	Case=Loc	5	nmod	4:nmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+8	no	no	PART	pcl	_	2	discourse	2:discourse	_
+9	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 778
+# text = Aʔe rupi oho ɨwɨxig apɨter romo no .
+# text_port = [Ele gosta de] entrar debaixo dela [areia] . (Gomes, 1988)
+# text_spa = [Le gusta] entrar bajo la [arena].
+# text_eng = [He likes] to enter under the [sand].
+# PP V PP PART
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+4-5	ɨwɨxig	_	_	_	_	_	_	_	_
+4	ɨwɨ	ɨwɨ	NOUN	n	_	3	obl	3:obl	_
+5	xig	xig	NOUN	n	Rel=Cont	4	nmod	4:nmod	_
+6	apɨter	apɨter	ADP	posp	Rel=Cont	4	case	4:case	_
+7	romo	omo	ADP	posp	Rel=Cont	6	case	6:case	_
+8	no	no	PART	pcl	_	3	discourse	3:discourse	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 779
+# text = Upurukutuk aʔe wa no , heta huazaxipurukutukaw aʔe no .
+# text_port = Ele tem um rabo que esporeia . (Gomes, 1988)
+# text_spa = Él tiene una cola que pica.
+# text_eng = He has a tail that spides.
+# V PART - V S PART
+1	Upurukutuk	kutuk	VERB	vi	Detrans=Ind|Person[subj]=3	0	root	0:root	_
+2	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+3	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+4	no	no	PART	pcl	_	1	discourse	1:discourse	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	heta	eta	VERB	vd	Rel=NCont	1	conj	1:conj	_
+7-9	huazaxipurukutukaw	_	_	_	_	_	_
+7	huaz	uwaz	NOUN	n	Rel=NCont	6	nsubj	6:nsubj	_
+8	axi	axi	NOUN	n	Rel=Cont	7	nmod	7:nmod	_
+9	purukutukaw	kutuk	NOUN	n	Detrans=Ind|Nomzr=Circ	8	nmod	8:nmod	_
+10	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+11	no	no	PART	pcl	_	6	discourse	6:discourse	_
+12	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 780
+# text = ɨpe hekon aʔe no .
+# text_port = Vive na água . (Gomes, 1988)
+# text_spa = Vive en el agua.
+# text_eng = It lives in the water.
+# PP V PART
+1	ɨpe	ʔɨ	NOUN	n	Case=Loc	2	obl	2:obl	_
+2	hekon	iko	VERB	vi	NonFoc=Yes|Rel=NCont	0	root	0:root	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	no	no	PART	pcl	_	2	discourse	2:discourse	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 781
+# text = Aʔe rupi nuzuka kwaw ɨ aʔe no .
+# text_port = Mas não morre dentro dela . (Gomes, 1988)
+# text_spa = Pero no mueres en su interior.
+# text_eng = But it does not die inside it.
+# PP V ADV PP PART
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	nuzuka	uka	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+4	kwaw	kwaw	ADV	adv	Polarity=Neg	3	advmod	3:advmod	_
+5	ɨ	ʔɨ	NOUN	n	_	3	obl	3:obl	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	no	no	PART	pcl	_	3	discourse	3:discourse	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 782
+# text = Heta ɨ ihemaw ikuwɨr aʔe no .
+# text_port = Ele tem um lugar por onde a água entra . (Gomes, 1988)
+# text_spa = Tiene un lugar donde entra el agua.
+# text_eng = It has a place where water comes in.
+# V S
+1	Heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+2	ɨ	ʔɨ	NOUN	n	_	3	nmod	3:nmod	_
+3	ihemaw	hem	NOUN	n	Nomzr=Circ|Rel=NCont	4	nmod	4:nmod	_
+4	ikuwɨr	kuwɨr	NOUN	n	Rel=NCont	1	nsubj	1:nsubj	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 783
+# text = Nuzuka kwaw ɨ .
+# text_port = Porém a água não o mata . (Gomes, 1988)
+# text_spa = Pero el agua no lo mata.
+# text_eng = But the water does not kill him.
+# V ADV PP
+1	Nuzuka	uka	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	ɨ	ʔɨ	NOUN	n	_	1	obl	1:obl	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 784
+# text = Aʔe rupi ipɨtuhem ɨpe no .
+# text_port = Pois ele a respira . (Gomes, 1988)
+# text_spa = Porque él respira.
+# text_eng = For he breathes.
+# PP V PP PART
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	ipɨtuhem	pɨtuhem	VERB	vd	Rel=NCont	0	root	0:root	_
+4	ɨpe	ʔɨ	NOUN	n	Case=Loc	3	obl	3:obl	_
+5	no	no	PART	pcl	_	3	discourse	3:discourse	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 785
+# text = Nezewe paw rupi ipira ɨpehar aʔe wa no .
+# text_port = Os peixes são todinhos assim . (Gomes, 1988)
+# text_spa = Todos los peces son así.
+# text_eng = The fish are all like that.
+# ADV PP S PP PART
+1	Nezewe	nezewe	ADV	adv	_	4	advmod	4:advmod	_
+2	paw	paw	PRON	pro	PronType=Tot	4	obl	4:obl	_
+3	rupi	upi	ADP	posp	Rel=Cont	2	case	2:case	_
+4	ipira	pira	NOUN	n	Rel=NCont	0	root	0:root	_
+5	ɨpehar	ʔɨ	NOUN	n	Case=Loc|Nomzr=Ag	4	obl	4:obl	_
+7	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+8	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+9	no	no	PART	pcl	_	4	discourse	4:discourse	_
+10	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 786
+# text = Aʔe rupi umaiʔukatu tueharupi wa no .
+# text_port = Comem bem sempre . (Gomes, 1988)
+# text_spa = Siempre comen bien.
+# text_eng = They always eat well.
+# PP V PP PART
+1	Aʔe	aʔe	PRON	pro	Person=3	4	obl	4:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3-4	umaiʔukatu	_	_	_	_	_	_	_	_
+3	umai	maʔe	NOUN	n	Person[subj]=3	4	obj	4:obj	_
+4	ʔukatu	ʔu	VERB	vt	Emph=Yes	0	root	0:root	_
+5-6	tueharupi	_	_	_	_	_	_	_	_
+5	tueha	tue	NOUN	n	Nomzr=Ag	4	obl	4:obl	_
+6	rupi	upi	ADP	posp	Rel=Cont	5	case	5:case	_
+7	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+8	no	no	PART	pcl	_	4	discourse	4:discourse	_
+9	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 787
+# text = Heta teteaʔu maʔe wanemiʔu wanupe no xe .
+# text_port = Tem muita comida para eles . (Gomes, 1988)
+# text_spa = Hay mucha comida para ellos.
+# text_eng = There's a lot of food for them.
+# V ADV S PP PART
+1	Heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+2	teteaʔu	tete	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	maʔe	maʔe	NOUN	n	_	4	nmod	4:nmod	_
+4	wanemiʔu	ʔu	NOUN	n	Nomzr=DevPass|Number=Plur|Person[psor]=3|Poss=Yes	1	nsubj	1:nsubj	_
+5	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	1	obl	1:obl	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	xe	xe	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 788
+# text = ɨ rupi uʔar maʔe kurer wanupe , tahɨw paw rupi wa no .
+# text_port = Quando uma árvore cai na água , ele aproveita os bichos que caem dela . (Gomes, 1988)
+# text_spa = Cuando un árbol cae en el agua, se aprovecha de los animales que caen de ella.
+# text_eng = When a tree falls into the water, it takes advantage of the animals that fall from it.
+# PP V S PP PART
+1	ɨ	ʔɨ	NOUN	n	_	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uʔar	ʔar	VERB	vi	Person[subj]=3	0	root	0:root	_
+4	maʔe	maʔe	NOUN	n	_	5	nmod	5:nmod	_
+5	kurer	kurer	NOUN	n	Rel=Cont	3	nsubj	3:nsubj	_
+6	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	3	obl	3:obl	_
+7	,	,	PUNCT	punct	_	6	punct	6:punct	_
+8	tahɨw	tahɨw	NOUN	n	_	9	nmod	9:nmod	_
+9	paw	paw	PRON	pro	PronType=Tot	6	appos	6:appos	_
+10	rupi	upi	ADP	posp	Rel=Cont	9	case	9:case	_
+11	wa	wa	PART	pcl	Number=Plur	6	discourse	6:discourse	_
+12	no	no	PART	pcl	_	6	discourse	6:discourse	_
+13	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 789
+# text = Maʔe uʔar ɨ rupi wanupe no .
+# text_port = Alguma coisa cai na água para ele . (Gomes, 1988)
+# text_spa = Algo cae en el agua para él.
+# text_eng = Something falls into the water for him.
+# S V PP PP PART
+1	Maʔe	maʔe	NOUN	n	_	2	nsubj	2:nsubj	_
+2	uʔar	ʔar	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	ɨ	ʔɨ	NOUN	n	_	2	obl	2:obl	_
+4	rupi	upi	ADP	posp	Rel=Cont	3	case	3:case	_
+5	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	2	obl	2:obl	_
+6	no	no	PART	pcl	_	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 790
+# text = Maʔemumeʔuhaw xe nehe kurɨ tɨ wa .
+# text_port = Aqui tem uma estória . (Gomes, 1988)
+# text_spa = Aquí hay una historia.
+# text_eng = Here is a story.
+# V PART
+1-2	Maʔemumeʔuhaw	_	_	_	_	_	_	_	_
+1	Maʔe	maʔe	NOUN	n	_	2	nmod	2:nmod	_
+2	mumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ	0	root	0:root	_
+2	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+3	nehe	nehe	PART	pcl	_	2	discourse	2:discourse	_
+4	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
+5	tɨ	tɨ	PART	pcl	_	2	discourse	2:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 791
+# text = Ikatu mukaz pira iʔu mehe .
+# text_port = O cascudo é bom para comer . (Gomes, 1988)
+# text_spa = El cascudo es bueno para comer.
+# text_eng = The cascudo is good to eat.
+# V S [ADV [V C]]
+1	Ikatu	katu	VERB	vd	Rel=NCont	0	root	0:root	_
+2	mukaz	mukaz	NOUN	n	_	1	nsubj	1:nsubj	_
+3	pira	pira	NOUN	n	_	2	flat	2:flat	_
+4	iʔu	ʔu	VERB	vt	Rel=NCont	1	advcl	1:advl	_
+5	mehe	mehe	SCONJ	sc	_	4	mark	4:mark	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 792
+# text = Uʔu mukaz pira tuzuk .
+# text_port = Ele gosta de comer lama e aranhas . (Gomes, 1988)
+# text_spa = Le gusta comer barro y arañas.
+# text_eng = He likes to eat mud and spiders.
+# V S O
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	mukaz	mukaz	NOUN	n	_	1	nsubj	1:nsubj	_
+3	pira	pira	NOUN	n	_	2	flat	2:flat	_
+4	tuzuk	tuzuk	NOUN	n	_	1	obj	1:obj	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 793
+# text = Zanu uzuhezkatu aʔe ; uzuhezkatu awa .
+# text_port = O homem gosta de comer o cascudo . (Gomes, 1988)
+# text_spa = AL cascudo le gusta comer arañas, al hombre le gusta comer cascudo.
+# text_eng = The cascudo likes to eat spiders, the man likes to eat the cascudo.
+# O V PART - V S
+1	Zanu	zanu	NOUN	n	_	1	obj	1:obj	_
+2	uzuhezkatu	ʔu	VERB	vt	Emph=Yes|Mood=Des|Person[subj]=3	0	root	0:root	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	;	;	PUNCT	punct	_	2	punct	2:punct	_
+5	uzuhezkatu	ʔu	VERB	vt	Emph=Yes|Mood=Des|Person[subj]=3	2	conj	2:conj	_
+6	awa	awa	NOUN	n	_	5	nsubj	5:nsubj	_
+7	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 794
+# text = Ipekwer heta iʔakaʔi ikupe ixi .
+# text_port = Na escama , na parte da costa , ele tem um chifre . (Gomes, 1988)
+# text_spa = En la escala, en la costa, tiene un cuerno.
+# text_eng = In the scale, on the coast, he has a horn.
+# PP V S
+1	Ipekwer	pe	NOUN	n	Rel=NCont|Tense=Past	2	obl	2:obl	_
+2	heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+3	iʔakaʔi	ʔak	NOUN	n	Dimin=Yes|Rel=NCont	4	nmod	4:nmod	_
+4	ikupe	kupe	NOUN	n	Rel=NCont	5	nmod	5:nmod	_
+5	ixi	xi	NOUN	n	Rel=NCont	2	nsubj	2:nsubj	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 795
+# text = Mukaz pira pixikaʔimaʔe , tamata ai  .
+# text_port = Elè é um peixe pequeno como o cascudo taaatâ . (Gomes, 1988)
+# text_spa = Elè es un pez pequeño como el cascudo taaatâ.
+# text_eng = Elè is a small fish like the cascudo taaatâ.
+# S V PP
+1	mukaz	mukaz	NOUN	n	_	3	nsubj	3:nsubj	_
+2	pira	pira	NOUN	n	_	1	flat	1:flat	_
+3	pixikaʔimaʔe	pixik	NOUN	n	Dimin=Yes|Nomzr=Abs	0	root	0:root	_
+4	,	,	PUNCT	punct	_	3	punct	3:punct	_
+5	tamata	tamata	NOUN	n	_	3	obl	3:obl	_
+6	ai	ai	ADP	posp	_	5	case	5:case	_
+7	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 796
+# text = Heta teteaʔu zutɨw pe .
+# text_port = Tem muitos no rio Zutíua . (Gomes, 1988)
+# text_spa = Hay muchos en el río Zutíua.
+# text_eng = There are many on the Zutíua River.
+# V ADV PP
+1	Heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+2	teteaʔu	tete	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	zutɨwpe	zutɨw	NOUN	n	Case=Loc	1	obl	1:obl	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 797
+# text = Uzemonoʔog wa no .
+# text_port = Eles andam unidos . (Gomes, 1988)
+# text_spa = Ellos caminan unidos.
+# text_eng = They walk united.
+# V PART
+1	Uzemonoʔog	noʔog	VERB	vi	Reflex=Yes|Person[subj]=3|Voice=Cau	0	root	0:root	_
+2	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+3	no	no	PART	pcl	_	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 798
+# text = Pina nuʔu kwaw aʔe .
+# text_port = Eles não pegam o anzol . (Gomes, 1988)
+# text_spa = No atrapan el gancho.
+# text_eng = They do not eat the hook.
+# O V ADV PART
+1	Pina	pina	NOUN	n	_	2	obj	2:obj	_
+2	nuʔu	ʔu	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+3	kwaw	kwaw	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 799
+# text = Xo xiapɨz mehe zo , upɨhɨk teko awa xe , ɨrɨpem pupe  .
+# text_port = Só quando esgotamos o riacho pegamos com uma grande cesta larga e redonda . (Gomes, 1988)
+# text_spa = Solo cuando agotamos el arroyo, tomamos con una canasta grande y redonda.
+# text_eng = Only when we deplete the stream we took with a large wide and round basket.
+# [ADV [PART V C PART] V S PART PP
+1	Xo	xo	PART	pcl	_	2	discourse	2:discourse	_
+2	xiapɨz	apɨz	VERB	vt	Clusivity=In|Number=Plur|Person[subj]=1	6	advcl	6:advcl	_
+3	mehe	mehe	SCONJ	sc	_	2	mark	2:mark	_
+4	zo	zo	PART	pcl	_	2	discourse	2:discourse	_
+5	,	,	PUNCT	punct	_	2	punct	2:punct	_
+6	upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	0:root	_
+7	teko	eko	NOUN	n	Rel=Abs	8	nmod	8:nmod	_
+8	awa	awa	NOUN	n	_	6	nsubj	6:nsubj	_
+9	xe	xe	PART	pcl	_	6	discourse	6:discourse	_
+10	,	,	PUNCT	punct	_	6	punct	6:punct	_
+11	ɨrɨpem	ɨrɨpem	NOUN	n	_	6	obl	6:obl	_
+12	pupe	pupe	ADP	posp	Rel=Cont	11	case	11:case	_
+13	.	.	PUNCT	punct	_	11	punct	11:punct	_
+
+# sent_id = 800
+# text = Upurukutuk haxi rehe , hahɨ teteaʔu purukutukawer aʔe xe .
+# text_port = Se ele esporeia a gente , dói muito . (Gomes, 1988)
+# text_spa = Si nos pica, me duele mucho.
+# text_eng = If it stings, it hurts a lot.
+# V PP - V ADV S PART
+1	Upurukutuk	kutuk	VERB	vi	Detrans=Ind|Person[subj]=3	0	root	0:root	_
+2	haxi	axi	NOUN	n	Rel=NCont	1	obl	1:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	,	,	PUNCT	punct	_	1	punct	1:punct	_
+5	hahɨ	ahɨ	VERB	vd	Rel=NCont	1	conj	1:conj	_
+6	teteaʔu	tete	ADV	adv	Emph=Yes	5	advmod	5:advmod	_
+7	purukutukawer	kutuk	NOUN	n	Detrans=Ind|Nomzr=Circ|Tense=Past	5	nsubj	5:nsubj	_
+9	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+10	xe	xe	PART	pcl	_	5	discourse	5:discourse	_
+11	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 801
+# text = Uzepiʔamomor ɨremeʔɨwɨr aʔe xe .
+# text_port = Eles botam ovos na beira da água . (Gomes, 1988)
+# text_spa = Pusieron huevos en el borde del agua.
+# text_eng = They put eggs on the water's edge.
+# V PP PART
+1-3	Uzepiʔamomor	_	_	_	_	_	_	_	_
+1	uzepi	upi	NOUN	n	Person[subj]=3|Reflex=Yes	3	obj	3:obj	_
+2	ʔa	ʔa	NOUN	n	Rel=Cont	º	nmod	1:nmod	_
+3	momor	por	VERB	vt	Voice=Cau	0	root	0:root	_
+4-6	ɨremeʔɨwɨr	_	_	_	_	_	_	_	_
+4	ɨ	ʔɨ	NOUN	n	_	3	obl	3:obl	_
+5	reme	ʔɨ	NOUN	n	Case=Loc|Rel=Cont	4	nmod	4:nmod	_
+6	ʔɨwɨr	ʔɨ	NOUN	n	Case=Loc	5	nmod	5:nmod	_
+7	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+8	xe	xe	PART	pcl	_	3	discourse	3:discourse	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 802
+# text = Xe muhu imumeʔuhaw aʔe .
+# text_port = Esta é a estória do muçum . (Gomes, 1988)
+# text_spa = Esta es la historia del Mussum.
+# text_eng = This is the story of the mussum.
+# PART S V PART
+1	Xe	xe	PART	pcl	_	3	discourse	3:discourse	_
+2	muhu	muhu	NOUN	n	_	3	nsubj	3:nsubj	_
+3	imumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 803
+# text = Nezewe muhu hekohaw aʔe wa no .
+# text_port = Assim é a vida dele . (Gomes, 1988)
+# text_spa = Esta es su vida.
+# text_eng = This is his life.
+# ADV S V PART
+1	Nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+2	muhu	muhu	NOUN	n	_	3	nsubj	3:nsubj	_
+3	hekohaw	eko	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+6	no	no	PART	pcl	_	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 804
+# text = Ukwawkatu wekohaw aʔe no .
+# text_port = Ele sabe bem de sua vida . (Gomes, 1988)
+# text_spa = Él sabe bien de su vida.
+# text_eng = He knows well of his life.
+# V S PART
+1	Ukwawkatu	kwaw	VERB	vt	Emph=Yes|Person[subj]=3	0	root	0:root	_
+3	wekohaw	iko	NOUN	n	Nomzr=Circ|Rel=Corf	1	nsubj	1:nsubj	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 805
+# text = ɨwɨ apɨteromo hekohaw aʔe .
+# text_port = Sua casa é embaixo da terra . (Gomes, 1988)
+# text_spa = Su casa está bajo la tierra.
+# text_eng = Its house is under the earth.
+# PP V PART
+1	ɨwɨ	ɨwɨ	NOUN	n	_	3	obl	3:obl	_
+2	apɨteromo	apɨter	ADP	posp	Case=Tra|Rel=Cont	1	case	1:case	_
+3	hekohaw	eko	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 806
+# text = Oho ɨpawpe wa no .
+# text_port = Ele vai para o lago . (Gomes, 1988)
+# text_spa = Él va al lago.
+# text_eng = He goes to the lake.
+# V PP PART
+1	Oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+2-3	ɨpawpe	_	_	_	_	_	_	_	_
+2	ɨ	ʔɨ	NOUN	n	_	3	nmod	3:nmod	_
+3	pawpe	paw	PRON	pro	Case=Loc|PronType=Tot	1	obl	1:obl	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 807
+# text = Aze tɨpaw , ɨpaw izuwi wixe oho ɨwɨ apɨteromo kurɨ .
+# text_port = Se a água secar , ele entra embaixo da terra . (Gomes, 1988)
+# text_spa = Si el agua se seca, entra por debajo de la tierra.
+# text_eng = If the water dries, it enters under the ground.
+# [ADV [C V]] S PP V AUX PP
+1	Aze	aze	SCONJ	sc	_	3	mark	3:mark	_
+2-3	tɨpaw	_	_	_	_	_	_	_	_
+2	tɨ	ʔɨ	NOUN	n	Rel=Abs	3	obj	3:obj	_
+3	paw	paw	VERB	vt	_	8	advcl	8:advcl	_
+4	,	,	PUNCT	punct	_	3	punct	3:punct	_
+5-6	ɨpaw	_	_	_	_	_	_	_	_
+5	ɨ	ʔɨ	NOUN	n	_	6	nmod	6:nmod	_
+6	paw	paw	PRON	PronType=Tot	8	obl	8:obl	_
+7	izuwi	uwi	ADP	posp	Rel=NCont	8	obl	8:obl	_
+8	wixe	ixe	VERB	vi	Person[subj]=3	0	root	0:root	_
+9	oho	ho	VERB	vi	Person[subj]=3	8	dep	8:dep	_
+10	ɨwɨ	ɨwɨ	NOUN	n	_	8	obl	8:obl	_
+11	apɨteromo	apɨter	ADP	posp	Case=Tra|Rel=Cont	10	case	10:case	_
+12	kurɨ	kurɨ	PART	pcl	_	8	discourse	8:discourse	_
+13	.	.	PUNCT	punct	_	8	punct	8:punct	_
+
+# sent_id = 808
+# text = ɨwɨ zo uʔu aʔe .
+# text_port = Ele só come terra . (Gomes, 1988)
+# text_spa = Él solo come tierra.
+# text_eng = He just eats earth.
+# O PART V PART
+1	ɨwɨ	ɨwɨ	NOUN	n	_	3	obj	3:obj	_
+2	zo	zo	PART	pcl	_	1	discourse	1:discourse	_
+3	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 809
+# text = Ipɨtuhem ɨwɨ apɨteromo wa no .
+# text_port = suspira terra , também . (Gomes, 1988)
+# text_spa =  También respira bajo tierra.
+# text_eng = It breathes under the ground as well.
+# V PP PART
+1	Ipɨtuhem	pɨtuhem	VERB	vd	Rel=NCont	0	root	0:root	_
+2	ɨwɨ	ɨwɨ	NOUN	n	_	1	obl	1:obl	_
+3	apɨteromo	apɨter	ADP	posp	Case=Tra|Rel=Cont	2	case	2:case	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 810
+# text = Ukwar rupi uker aʔe ma .
+# text_port = Dorme num buraco . (Gomes, 1988)
+# text_spa = Duerme en un agujero.
+# text_eng = It sleeps in a hole.
+# PP V PART
+1	Ukwar	kwar	NOUN	n	Rel=Corf	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uker	ker	VERB	vi	Person[subj]=3	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	ma	ma	PART	pcl	_	3	discourse	3:discourse	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 811
+# text = Aze imaʔuhez uhem ikatupe aʔe no , umaiʔukatu aʔe wa no .
+# text_port = Se tiver fome , ele sai para comer . (Gomes, 1988)
+# text_spa = Si tienes hambre, sale a comer.
+# text_eng = If you are hungry, it goes out to eat.
+# [ADV [C O V AUX PP PART]] V PART
+1	Aze	aze	SCONJ	sc	_	_	mark	:mark	_
+2-3	imaʔuhez	_	_	_	_	_	_	_	_
+2	ima	maʔe	NOUN	n	Rel=NCont	3	obj	3:obj	_
+3	ʔuhez	ʔu	VERB	vt	Mood=Des	10	advcl	10:advcl	_
+4	uhem	hem	VERB	vi	Person[subj]=3	3	dep	3:dep	_
+5	ikatupe	katu	NOUN	n	Case=Dat|Rel=NCont	3	obl	3:obl	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	no	no	PART	pcl	_	3	discourse	3:discourse	_
+8	,	,	PUNCT	punct	_	3	punct	3:punct	_
+9-10	umaiʔukatu	_	_	_	_	_	_	_	_
+9	umai	maʔe	NOUN	n	Person[subj]=3	10	obj	10:obj	_
+10	ʔukatu	ʔu	VERB	vt	Emph=Yes	0	root	0:root	_
+11	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+12	wa	wa	PART	pcl	Number=Plur	10	discourse	10:discourse	_
+13	no	no	PART	pcl	_	10	discourse	10:discourse	_
+14	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 812
+# text = Uzewɨr wi zote ukwar rupi aʔe no , te naʔiruz ʔar umumaw ukwar rupi aʔe no .
+# text_port = Volta de novo para o seu buraco , passa até três dias . (Gomes, 1988)
+# text_spa = Vuelve de nuevo a su agujero, pasa hasta tres días.
+# text_eng = It returns again to its hole, where it spends up to three days.
+# V PART PP PART - PP V PP PART 
+1	Uzewɨr	zewɨr	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	wi	wi	PART	pcl	_	1	discourse	1:discourse	_
+3	zote	zote	PART	pcl	_	1	discourse	1:discourse	_
+4	ukwar	kwar	NOUN	n	Rel=Corf	1	obl	1:obl	_
+5	rupi	upi	ADP	posp	Rel=Cont	4	case	4:case	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	,	,	PUNCT	punct	_	1	punct	1:punct	_
+9	te	te	PART	pcl	_	11	discourse	11:discourse	_
+10	naʔiruz	ru	NUM	num	Polarity=Neg|Rel=NCont	11	num	11:num	_
+11	ʔar	ʔar	NOUN	n	_	12	obl	12:obl	_
+12	umumaw	paw	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+13	ukwar	kwar	NOUN	n	Rel=Corf	12	obl	12:obl	_
+14	rupi	upi	ADP	posp	Rel=Cont	13	case	13:case	_
+15	aʔe	aʔe	PART	pcl	Person=3	12	discourse	12:discourse	_
+16	no	no	PART	pcl	_	12	discourse	12:discourse	_
+17	.	.	PUNCT	punct	_	12	punct	12:punct	_
+
+# sent_id = 813
+# text = Te naʔiruz ʔar imumaw mehe uhem ukwawpa aʔe kurɨ .
+# text_port = Depois de três dias , ele sai novamente . (Gomes, 1988)
+# text_spa = Después de tres días, se va de nuevo.
+# text_eng = After three days, he leaves again.
+# [ADV [PP V C]] V [ADV [V]] PART
+1	te	te	PART	pcl	_	3	discourse	3:discourse	_
+2	naʔiruz	ru	NUM	num	Polarity=Neg|Rel=NCont	3	num	3:num	_
+3	ʔar	ʔar	NOUN	n	_	4	obl	4:obl	_
+4	imumaw	paw	VERB	vt	Person[subj]=3|Voice=Cau	6	advcl	6:advcl	_
+5	mehe	mehe	SCONJ	sc	_	4	mark	4:mark	_
+6	uhem	hem	VERB	vi	Person[subj]=3	0	root	0:root	_
+7	ukwawpa	kwaw	VERB	vt	Person[subj]=3|VerbForm=Ger	6	advcl	6:advcl	_
+8	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+9	kurɨ	kurɨ	PART	pcl	_	6	discourse	6:discourse	_
+10	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 814
+# text = Wiko ikatupe aʔe no , te uzɨpɨrog upiʔahaw izupe .
+# text_port = Fica fora até o tempo de botar ovos . (Gomes, 1988)
+# text_spa = Sale hasta el momento de poner los huevos.
+# text_eng = It gets out until the time of putting eggs.
+# V PP PART [ADV [C V S PP]]
+1	Wiko	iko	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	ikatupe	katu	NOUN	n	Case=Dat|Rel=NCont	1	obl	1:obl	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	no	no	PART	pcl	_	1	discourse	1:discourse	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	te	te	SCONJ	sc	Foreign=Yes	7	mark	7:mark	_
+7	uzɨpɨrog	pɨrog	VERB	vi	Person[subj]=3|Reflex=Yes	1	advcl	1:advcl	_
+8-9	upiʔahaw	_	_	_	_	_	_	_	_
+8	upi	upi	ADP	posp	Rel=Cont	7	nsubj	7:nsubj	_
+9	ʔahaw	ʔa	NOUN	n	Nomzr=Circ	8	nmod	8:nmod	_
+10	izupe	upe	ADP	posp	Rel=NCont	7	obl	7:obl	_
+11	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 815
+# text = Aʔe mehe zote hupiʔa kurɨ .
+# text_port = Naquele tempo a fêmea bota ovos . (Gomes, 1988)
+# text_spa = En ese momento la hembra pone huevos.
+# text_eng = At that time the female puts eggs.
+# PP PART V PART
+1	Aʔe	aʔe	PRON	pro	Person=3	4	obl	4:obl	_
+2	mehe	mehe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	zote	zote	PART	pcl	_	1	discourse	1:discourse	_
+4-5	hupiʔa	_	_	_	_	_	_	_	_
+4	hupi	upi	ADP	posp	Rel=NCont	0	root	0:root	_
+5	ʔa	ʔa	NOUN	n	_	4	nmod	4:nmod	_
+6	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+7	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 816
+# text = Tamata wamumeʔuhaw xe aʔe wa nehe no tɨ wa .
+# text_port = A estória dos cascudos . (Gomes, 1988)
+# text_spa = La historia de los cascudos.
+# text_eng = The story of the cascudos.
+# S V PART
+1	Tamata	tamata	NOUN	n	_	2	nsubj	2:nsubj	_
+2	wamumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes	0	root	0:root	_
+3	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	nehe	nehe	PART	pcl	_	2	discourse	2:discourse	_
+7	no	no	PART	pcl	_	2	discourse	2:discourse	_
+8	tɨ	tɨ	PART	pcl	_	2	discourse	2:discourse	_
+9	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+10	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 817
+# text = Nezewe tamata wanekon aʔe wa no .
+# text_port = Os cascudos são assim . (Gomes, 1988)
+# text_spa = Las cascudos son así.
+# text_eng = Cascudos are like this.
+# ADV S V PART
+1	Nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+2	tamata	tamata	NOUN	n	_	3	nsubj	3:nsubj	_
+3	wanekon	iko	VERB	vi	NonFoc=Yes|Number=Plur|Person[subj]=3|Rel=Cont	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+6	no	no	PART	pcl	_	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 818
+# text = Ipɨtehem zote waiko ɨpe aʔe wa no .
+# text_port = Eles respiram só água . (Gomes, 1988)
+# text_spa = Ellos respiran solo agua.
+# text_eng = They breathe only water.
+# V PART AUX PP PART
+1	Ipɨtehem	pɨtehem	VERB	vi	Rel=NCont	0	root	0:root	_
+2	zote	zote	PART	pcl	_	1	discourse	1:discourse	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+4	ɨpe	ʔɨ	NOUN	n	Case=Loc	1	obl	1:obl	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 819
+# text = Uʔu zote tuʔum waiko aʔepe wa no , te wiko ɨwɨra po wakazape aʔe wa kurɨ .
+# text_port = Comem lama , e moram lá dentro da raiz da árvore . (Gomes, 1988)
+# text_spa = Comen barro, y viven allí dentro de la raíz del árbol.
+# text_eng = They eat mud, and live there inside the root of the tree.
+# V PART O AUX PP PART [ADV [C V PP PART]]
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	zote	zote	PART	pcl	_	1	discourse	1:discourse	_
+3	tuʔum	tuʔum	NOUN	n	_	1	obj	1:obj	_
+4	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+5	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	1	obl	1:obl	_
+6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	,	,	PUNCT	punct	_	1	punct	1:punct	_
+9	te	te	SCONJ	sc	Foreign=Yes	10	mark	10:mark	_
+10	wiko	iko	VERB	vt	Person[subj]=3	1	advcl	1:advcl	_
+11	ɨwɨra	ɨwɨra	NOUN	n	_	12	nmod	12:nmod	_
+12	po	apo	NOUN	n	Rel=Cont	13	nmod	13:nmod	_
+13	wakazape	akaza	NOUN	n	Case=Loc|Number=Plur|Person[psor]=3|Poss=Yes	10	obl	10:obl	_
+14	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+15	wa	wa	PART	pcl	Number=Plur	10	discourse	10:discourse	_
+16	kurɨ	kurɨ	PART	pcl	_	10	discourse	10:discourse	_
+17	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 820
+# text = Tuʔum uʔu waiko aʔepe wa no .
+# text_port = De onde comem a lama . (Gomes, 1988)
+# text_spa = De donde comen el barro.
+# text_eng = From where they eat the mud.
+# O V AUX PP PART
+1	Tuʔum	tuʔum	NOUN	n	_	2	obj	2:obj	_
+2	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	2:aux	_
+4	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	2	obl	2:obl	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	no	no	PART	pcl	_	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 821
+# text = ɨwɨra po kazape aʔe no , te izun mehe uzɨpɨrog upiʔahaw aʔe wa kurɨ .
+# text_port = Eles ficam bem dentro da raiz da árvore até botarem os ovos . (Gomes, 1988)
+# text_spa = Se quedan bien dentro de la raíz del árbol hasta que ponen los huevos.
+# text_eng = They stay deep inside the root of the tree until they put the eggs.
+# P PART [ADV [C PP V S PART]]
+1	ɨwɨra	ɨwɨra	NOUN	n	_	2	nmod	2:nmod	_
+2	po	apo	NOUN	n	Rel=Cont	3	nmod	3:nmod	_
+3	kazape	akaza	NOUN	n	Case=Loc|Rel=Cont	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	no	no	PART	pcl	_	3	discourse	3:discourse	_
+6	,	,	PUNCT	punct	_	3	punct	3:punct	_
+7	te	te	SCONJ	sc	Foreign=Yes	10	mark	10:mark	_
+8	izun	zun	NOUN	n	Rel=NCont	10	obl	10:obl	_
+9	mehe	mehe	ADP	posp	Rel=Cont	8	case	8:case	_
+10	uzɨpɨrog	pɨrog	VERB	vi	Person[subj]=3|Reflex=Yes	3	advcl	3:advcl	_
+11-12	upiʔahaw	_	_	_	_	_	_	_	_
+11	upi	upi	ADP	posp	Rel=Cont	10	nsubj	2:nsubj	_
+12	ʔahaw	ʔa	NOUN	n	Nomzr=Circ	11	nmod	11:nmod	_
+13	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+14	wa	wa	PART	pcl	Number=Plur	10	discourse	10:discourse	_
+15	kurɨ	kurɨ	PART	pcl	_	10	discourse	10:discourse	_
+16	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 822
+# text = Aze ɨparan tɨpaw , maʔe pupe wanekon aʔe wa no , aʔe mehe uhem oho izuwi aʔe wa kurɨ .
+# text_port = Se o lago secar , eles saem de lá . (Gomes, 1988)
+# text_spa = Si el lago se seca, se van de allí.
+# text_eng = If the lake dry, they leave.
+# [ADV [C S V]] PP V PART - PP V AUX PP PART
+1	Aze	aze	SCONJ	sc	_	4	mark	4:mark	_
+2-4	ɨparan	_	_	_	_	_	_	_	_
+2	ɨ	ʔɨ	NOUN	n	Rel=Abs	4	obj	4:obj	_
+3	pa	paw	NOUN	n	_	2	nmod	2:nmod	_
+4	ran	ran	NOUN	n	_	3	nmod	3:nmod	_
+5-6	tɨpaw	_	_	_	_	_	_	_	_
+5	tɨ	ʔɨ	NOUN	n	Rel=Abs	6	obj	6:obj	_
+6	paw	paw	VERB	vt	_	10	advcl	10:advcl	_
+7	,	,	PUNCT	punct	_	6	punct	6:punct	_
+8	maʔe	maʔe	NOUN	n	_	10	obl	10:obl	_
+9	pupe	pupe	ADP	posp	Rel=Cont	8	case	8:case	_
+10	wanekon	iko	VERB	vi	NonFoc=Yes|Number=Plur|Person[subj]=3|Rel=Cont	0	root	0:root	_
+11	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+12	wa	wa	PART	pcl	Number=Plur	10	discourse	10:discourse	_
+13	no	no	PART	pcl	_	10	discourse	10:discourse	_
+14	,	,	PUNCT	punct	_	10	punct	10:punct	_
+15	aʔe	aʔe	PRON	pro	Person=3	17	obl	17:obl	_
+16	mehe	mehe	ADP	posp	Rel=Cont	15	case	15:case	_
+17	uhem	hem	VERB	vi	Person[subj]=3	10	conj	10:conj	_
+18	oho	ho	VERB	vi	Person[subj]=3	17	dep	17:dep	_
+19	izuwi	uwi	ADP	posp	Rel=NCont	17	obl	17:obl	_
+20	aʔe	aʔe	PART	pcl	Person=3	17	discourse	17:discourse	_
+21	wa	wa	PART	pcl	Number=Plur	17	discourse	17:discourse	_
+22	kurɨ	kurɨ	PART	pcl	_	17	discourse	17:discourse	_
+23	.	.	PUNCT	punct	_	17	punct	17:punct	_
+
+# sent_id = 823
+# text = Aze pitei kirom omo ɨparan muitehaw aʔe wi aʔe kurɨ , u mokoz kirom muitehaw , aʔe mehe tamata oho ikatupe uhempa aʔe wa kurɨ .
+# text_port = Se tiver outro lago um kilometro distante de lá , ou até dois kilometros , eles vão até lá se arrastando . (Gomes, 1988)
+# text_spa = Si hay otro lago, a un kilómetro de allí, o incluso dos kilómetros, van allí arrastrandose.
+# text_eng = If there is another lake a kilometer from there, or even two kilometers, they go there dragging.
+# [ADV [C PP S V PP PART - C PP V]] PP S V PP [ADV [V]] PART
+1	Aze	aze	SCONJ	sc	_	_	mark	:mark	_
+2	pitei	pitai	NUM	num	_	3	num	3:num	_
+3	kirom	kirom	NOUN	n	Foreign=Yes	8	obl	8:obl	_
+4	omo	amo	DET	dem	PronType=Ind	5	det	5:det	_
+5-7	ɨparan	_	_	_	_	_	_	_	_
+5	ɨ	ʔɨ	NOUN	n	Rel=Cont	8	nsubj	8:nsubj	_
+6	pa	paw	NOUN	n	_	5	nmod	5:nmod	_
+7	ran	ran	NOUN	n	_	6	nmod	6:nmod	_
+8	muitehaw	muite	NOUN	n	Nomzr=Circ|Rel=Cont	0	advcl	0:advcl	_
+9	aʔe	aʔe	PRON	pro	PronType=Dem	8	obl	8:obl	_
+10	wi	wi	ADP	posp	Rel=Cont	9	case	9:case	_
+11	aʔe	aʔe	PART	pcl	Person=3	8	discourse	8:discourse	_
+12	kurɨ	kurɨ	PART	pcl	_	8	discourse	8:discourse	_
+13	,	,	PUNCT	punct	_	8	punct	8:punct	_
+14	u	u	CCONJ	cc	Foreign=Yes	17	mark	17:mark	_
+15	mokoz	mokoz	NUM	num	_	16	num	16:num	_
+16	kirom	kirom	NOUN	n	Foreign=Yes	17	obl	17:obl	_
+17	muitehaw	muite	NOUN	n	Nomzr=Circ|Rel=Cont	8	conj	8:conj	_
+18	,	,	PUNCT	punct	_	17	punct	17:punct	_
+19	aʔe	aʔe	PRON	pro	Person=3	22	obl	22:obl	_
+20	mehe	mehe	ADP	posp	Rel=Cont	19	case	19:case	_
+21	tamata	tamata	NOUN	n	_	22	nsubj	22:nsubj	_
+22	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+23	ikatupe	katu	NOUN	n	Case=Dat|Rel=NCont	22	obl	22:obl	_
+24	uhempa	hem	VERB	vi	Person[subj]=3|VerbForm=Ger	22	advcl	22:advcl	_
+25	aʔe	aʔe	PART	pcl	Person=3	22	discourse	22:discourse	_
+26	wa	wa	PART	pcl	Number=Plur	22	discourse	22:discourse	_
+27	kurɨ	kurɨ	PART	pcl	_	22	discourse	22:discourse	_
+28	.	.	PUNCT	punct	_	22	punct	22:punct	_
+
+# sent_id = 824
+# text = Wata oho waiko ɨ retanawʔɨm me wa kurɨ .
+# text_port = Vão andando por onde não tem água . (Gomes, 1988)
+# text_spa = Caminan donde no hay agua.
+# text_eng = They walk around where there is no water.
+# V AUX AUX PP PART
+1	Wata	ata	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	2:aux	_
+4	ɨ	ʔɨ	NOUN	n	_	5	nmod	5:nmod	_
+5	retanawʔɨm	eta	NOUN	n	Case=Abe|Nomzr=Circ|Rel=Cont	1	obl	1:obl	_
+6	me	me	ADP	posp	Rel=Cont	5	case	5:case	_
+7	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+8	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 825
+# text = Te uhem oho ɨpe wa no .
+# text_port = Até chegarem a água . (Gomes, 1988)
+# text_spa = Hasta que lleguen al agua.
+# text_eng = Until they reach the water.
+# C V AUX PP PART
+1	Te	te	SCONJ	sc	Foreign=Yes	2	mark	2:mark	_
+2	uhem	hem	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	oho	ho	VERB	vi	Person[subj]=3	2	dep	2:dep	_
+4	ɨpe	ʔɨ	NOUN	n	Case=Loc	2	obl	2:obl	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	no	no	PART	pcl	_	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 826
+# text = Aʔepe waneko mehe ukɨr aman wa wanupe aʔe kurɨ .
+# text_port = Quando estão naquele lago vem a chuva . (Gomes, 1988)
+# text_spa = Cuando están en ese lago viene la lluvia.
+# text_eng = When they are in that lake, it comes the rain.
+# [ADV [PP V C]] V S PART PP PART
+1	Aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	2	obl	2:obl	_
+2	waneko	iko	VERB	vi	Number=Plur|Person[subj]=3|Rel=Cont	0	root	0:root	_
+3	mehe	mehe	SCONJ	sc	_	2	mark	2:mark	_
+4	ukɨr	kɨr	VERB	vi	Person[subj]=3	0	root	0:root	_
+5	aman	aman	NOUN	n	_	4	nsubj	4:nsubj	_
+6	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+7	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	4	obl	1:obl	_
+8	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+9	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+10	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 827
+# text = Omomor upiʔa waiko aʔepe wa kurɨ .
+# text_port = Lá eles botam os ovos . (Gomes, 1988)
+# text_spa = Allí ponen los huevos.
+# text_eng = There they put the eggs.
+# V S AUX PP PART
+1	Omomor	por	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+2-3	upiʔa	_	_	_	_	_	_	_	_
+2	upi	upi	ADP	posp	Rel=NCont	1	obj	1:obj	_
+3	ʔa	ʔa	NOUN	n	_	2	nmod	2:nmod	_
+4	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+5	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	1	obl	1:obl	_
+6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 828
+# text = Kaʔa ruwapepe omomog kaʔa rehe aʔe no .
+# text_port = [Os] prega[m] nas folhas . (Gomes, 1988)
+# text_spa = Los pone en las hojas.
+# text_eng = It lays them on the leaves.
+# PP V PP PART
+1	Kaʔa	kaʔa	NOUN	n	_	2	nmod	2:nmod	_
+2	ruwape	uwa	NOUN	n	Case=Loc|Rel=Cont	3	obl	3:obl	_
+3	omomog	mog	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+4	kaʔa	kaʔa	NOUN	n	_	3	obl	3:obl	_
+5	rehe	ehe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	no	no	PART	pcl	_	3	discourse	3:discourse	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 829
+# text = Te tɨzuz hupiʔa upa aʔe kurɨ .
+# text_port = Quando tem ovos , tem também espuma . (Gomes, 1988)
+# text_spa = Cuando tiene huevos, también tiene espuma.
+# text_eng = When it has eggs, it also has foam.
+# S V AUX PART
+1	Te	te	PART	pcl	_	2	discourse	2:discourse	_
+2	tɨzuz	tɨzuz	NOUN	n	_	3	nsubj	3:nsubj	_
+3-4	hupiʔa	_	_	_	_	_	_	_	_
+3	hupi	upi	ADP	posp	Rel=NCont	0	root	0:root	_
+4	ʔa	ʔa	NOUN	n	_	3	nmod	3:nmod	_
+5	upa	pa	AUX	aux	Person[subj]=3	3	aux	3:aux	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 830
+# text = Ukwaku zote upiʔa aʔe no , te uzawaʔi aʔe wa kurɨ .
+# text_port = O cascudo fica cuidando dos ovos até nascerem , então a mãe os abandona . (Gomes, 1988)
+# text_spa = El cascudo se queda cuidando los huevos hasta que nacen, entonces la madre los abandona.
+# text_eng = The cascudo stays taking care of the eggs until they are born, then the mother abandons them.
+# V PART S PART [ADV [C V PART]]
+1-2	Ukwaku	_	_	_	_	_	_	_	_
+1	uk	iko	AUX	aux	Aspect=Prog|Person[subj]=3	2	aux	2:aux	_
+2	waku	aku	VERB	vd	Person[subj]=3	0	root	0:root	_
+3	zote	zote	PART	pcl	_	2	discourse	2:discourse	_
+4-5	upiʔa	_	_	_	_	_	_	_	_
+4	upi	upi	ADP	posp	_	2	nsubj	2:nsubj	_
+5	ʔa	ʔa	NOUN	n	_	4	nmod	4:nmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+7	no	no	PART	pcl	_	2	discourse	2:discourse	_
+8	,	,	PUNCT	punct	_	2	punct	2:punct	_
+9	te	te	SCONJ	sc	Foreign=Yes	10	mark	10:mark	_
+10	uzawaʔi	zaw	VERB	vi	Emph=Yes|Person[subj]=3	2	advcl	2:advcl	_
+11	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+12	wa	wa	PART	pcl	Number=Plur	10	discourse	10:discourse	_
+13	kurɨ	kurɨ	PART	pcl	_	10	discourse	10:discourse	_
+14	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 831
+# text = Aʔe rupi wahɨ numukamu kwaw aʔe wa no .
+# text_port = Ela não dá o peito . (Gomes, 1988)
+# text_spa = Ella no le da su pecho.
+# text_eng = She does not give her chest.
+# PP S V ADV PART
+1	Aʔe	aʔe	PRON	pro	Person=3	4	obl	4:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	wahɨ	ahɨ	NOUN	n	Rel=Corf	4	nsubj	4:nsubj	_
+4	numukamu	kamu	VERB	vi	Person[subj]=3|Polarity=Neg|Voice=Cau	0	root	0:root	_
+5	kwaw	kwaw	ADV	adv	Polarity=Neg	4	advmod	4:advmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+8	no	no	PART	pcl	_	4	discourse	4:discourse	_
+9	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 832
+# text = Uzemugakwawaʔi waiko aʔe wa no , ni wanu nuzuka kwaw miar wanupe aʔe no , ni ko nuzapo kwaw wanupe aʔe no .
+# text_port = Nem o pai mata caça ou faz roça para eles . (Gomes, 1988)
+# text_spa = Ellos se cuidan a si mismos, el padre no caza ni labra el campo para ellos.
+# text_eng = They take care of themselves, the father neither hunts nor cultivates the field for them.
+# V AUX PART - C S V ADV PP PART - C O V ADV PP PART
+1	Uzemugakwawaʔi	mugakwaw	VERB	vt	Emph=Yes|Person[subj]=3|Reflex=Yes	0	root	0:root	_
+2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	ni	ni	CONJ	cc	Foreign=Yes	9	mark	9:mark	_
+8	wanu	u	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	9	nsubj	9:nsubj	_
+9	nuzuka	uka	VERB	vt	Person[subj]=3|Polarity=Neg	1	conj	1:conj	_
+10	kwaw	kwaw	ADV	adv	Polarity=Neg	9	advmod	9:advmod	_
+11	miar	miar	NOUN	n	_	9	obj	9:obj	_
+12	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	9	obl	9:obl	_
+13	aʔe	aʔe	PART	pcl	Person=3	9	discourse	9:discourse	_
+14	no	no	PART	pcl	_	9	discourse	9:discourse	_
+15	,	,	PUNCT	punct	_	9	punct	9:punct	_
+16	ni	ni	CONJ	cc	Foreign=Yes	18	mark	18:mark	_
+17	ko	ko	NOUN	n	_	18	obj	18:obj	_
+18	nuzapo	apo	VERB	vt	Person[subj]|Polarity=Neg	9	conj	9:conj	_
+19	kwaw	kwaw	ADV	adv	Polarity=Neg	18	advmod	18:advmod	_
+20	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	18	obl	18:obl	_
+21	aʔe	aʔe	PART	pcl	Person=3	18	discourse	18:discourse	_
+22	no	no	PART	pcl	_	18	discourse	18:discourse	_
+23	.	.	PUNCT	punct	_	18	punct	18:punct	_
+
+# sent_id = 833
+# text = Aʔe ukwaw wemiʔuaʔi oho waiko aʔe wa no .
+# text_port = Só ele sabe a comida deles . (Gomes, 1988)
+# text_spa = Solo él conoce su comida.
+# text_eng = Only he knows their food.
+# S V O AUX AUX PART
+1	Aʔe	aʔe	PRON	pro	PronType=Dem	2	nsubj	2:nsubj	_
+2	ukwaw	kwaw	VERB	vt	Person[subj]=3	0	root	0:root	_
+3	wemiʔuaʔi	ʔu	NOUN	n	Emph=Yes|Nomzr=DevPass|Person[psor]=3|Poss=Yes	2	obj	2:obj	_
+4	oho	ho	VERB	vi	Person[subj]=3	2	dep	2:dep	_
+5	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	4	aux	4:aux	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+8	no	no	PART	pcl	_	2	discourse	2:discourse	_
+9	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 834
+# text = Te uhuuhuaʔi waiko aʔe wa kurɨ .
+# text_port = Eles fica[m] maiorzinhos um pouco . (Gomes, 1988)
+# text_spa = Se quedan [m] un poco más.
+# text_eng = They stay [m] a little longer.
+# PART V AUX PART
+1	Te	te	PART	pcl	_	2	discourse	2:discourse	_
+2	uhuuhuaʔi	uhu	VERB	vd	Emph=Yes|Red=Di	0	root	0:root	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	2:aux	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 835
+# text = Mon uzapokar ipira wanupe nezewe aʔe no tɨ wa .
+# text_port = Quem fez os peixes ? (Gomes, 1988)
+# text_spa = ¿Quién hizo el pez?
+# text_eng = Who made the fish?
+# S V ADV PP ADV PART
+1	Mon	mon	PRON	pro	PronType=Int	2	nsubj	2:nsubj	_
+2	uzapokar	apo	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+3	ipira	pira	NOUN	n	Rel=NCont	2	obl	2:obl	_
+4	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	3	case	3:case	_
+5	nezewe	nezewe	ADV	adv	_	2	advmod	2:advmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+7	no	no	PART	pcl	_	2	discourse	2:discourse	_
+8	tɨ	tɨ	PART	pcl	_	2	discourse	2:discourse	_
+9	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+10	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 836
+# text = Kwa , Tupan aʔe , uzapo paw rupi katete agwer maʔe zanewe aʔe no tɨ wa .
+# text_port = Deus fez , ele fez todas as coisas . (Gomes, 1988)
+# text_spa = Dios hizo, él hizo todas las cosas.
+# text_eng = God did, he did everythings.
+# INTJ S PART V PP ADV 
+1	Kwa	kwa	INTJ	intj	_	6	discourse	6:discourse	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	Tupan	Tupan	PROPN	ppn	_	6	nsubj	6:nsubj	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	,	,	PUNCT	punct	_	3	punct	3:punct	_
+6	uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
+7	paw	paw	PRON	pro	PronType=Tot	6	obl	6:obl	_
+8	rupi	upi	ADP	posp	Rel=Cont	7	case	7:case	_
+9	katete	katu	ADV	adv	Emph=Yes	7	advmod	7:advmod	_
+10	agwer	agwer	DET	dem	PronType=Dem	11	det	11:det	_
+11	maʔe	maʔe	NOUN	n	_	6	obj	6:obj	_
+12	zanewe	pe	ADP	posp	Case=Dat|Clusivity=In|Number=Plur|Person[psor]=1|Poss=Yes	6	obl	6:obl	_
+13	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+14	no	no	PART	pcl	_	6	discourse	6:discourse	_
+15	tɨ	tɨ	PART	pcl	_	6	discourse	6:discourse	_
+16	wa	wa	PART	pcl	Number=Plur	6	discourse	6:discourse	_
+17	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 837
+# text = Ukwawkar zote teko hekohaw purupe aʔe no .
+# text_port = Ele nos ensina a viver . (Gomes, 1988)
+# text_spa = Él nos enseña a vivir.
+# text_eng = He teaches us to live.
+# V PART S O PP PART
+1	Ukwawkar	kwaw	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+3	zote	zote	PART	pcl	_	1	discourse	1:discourse	_
+4	teko	eko	NOUN	n	Rel=Abs	1	nsubj	1:nsubj	_
+5	hekohaw	eko	NOUN	n	Nomzr=Circ|Rel=NCont	1	obj	1:obj	_
+6	purupe	puru	NOUN	n	Case=Dat	1	obl	1:obl	_
+7	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+8	no	no	PART	pcl	_	1	discourse	1:discourse	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 838
+# text = Ukwawkar zote maʔemaʔe kwaw par ʔɨm wanupe aʔe no .
+# text_port = Ele ensina as pessoas que não sabem de nada . (Gomes, 1988)
+# text_spa = Enseña a las personas que no saben nada.
+# text_eng = He teaches people who do not know anything.
+# V PART O PP PART
+1	Ukwawkar	kwaw	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+2	zote	zote	PART	pcl	_	1	discourse	1:discourse	_
+3	maʔemaʔe	maʔe	NOUN	n	Red=Di	4	nmod	4:nmod	_
+4	kwawparʔɨm	kwaw	NOUN	n	Case=Abe|Nomzr=Circ|Polarity=Neg|Rel=Cont	1	obj	1:obj	_
+5	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	1	obl	1:obl	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 839
+# text = O azeharomoete ahɨ Tupan ukwawkar maʔe ipira wanupe zanewi aʔe no tɨ wa .
+# text_port = Ele ensina os peixes a viverem . (Gomes, 1988)
+# text_spa = Él enseña a los peces a vivir.
+# text_eng = He teaches the fish to live.
+# INTJ PP S V O PP PP PART
+1	O	o	INTJ	intj	_	5	discourse	5:discourse	_
+2	azeharomoete	aze	NOUN	n	Case=Tra|Emph=Yes|Nomzr=Ag	5	obl	5:obl	_
+3	ahɨ	ahɨ	ADV	adv	Emph=Yes	2	advmod	2:advmod	_
+4	Tupan	Tupan	PROPN	ppn	_	5	nsubj	5:nsubj	_
+5	ukwawkar	kwaw	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+6	maʔe	maʔe	NOUN	n	_	5	obj	5:obj	_
+7	ipira	pira	NOUN	n	Rel=NCont	5	obl	5:obl	_
+8	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	7	case	7:case	_
+9	zanewi	wi	ADP	posp	Clusivity=In|Number=Plur|Person[psor]=1|Poss=Yes	5	obl	5:obl	_
+10	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+11	no	no	PART	pcl	_	5	discourse	5:discourse	_
+12	tɨ	tɨ	PART	pcl	_	5	discourse	5:discourse	_
+13	wa	wa	PART	pcl	Number=Plur	5	discourse	5:discourse	_
+14	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 840
+# text = Upaw tamata rehe zeʔegaw kwez aʔe kurɨ tɨ wa .
+# text_port = Terminou a estória do cascudo . (Gomes, 1988)
+# text_spa = La historia del cascudo ha terminado.
+# text_eng = The story of the cascudo has ended.
+# V S PART
+1	Upaw	paw	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	tamata	tamata	NOUN	n	_	4	nmod	4:nmod	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	zeʔegaw	zeʔeg	NOUN	n	Nomzr=Circ|Rel=Cont	1	nsubj	1:nsubj	_
+5	kwez	kwez	ADV	adv	Tense=Past	4	advmod	4:advmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+8	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+9	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+10	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 841
+# text = Wamiri imumeʔuhaw ʔaw xe aʔe nehe kurɨ tɨ wa .
+# text_port = Aqui está uma estória sobre os peixes sardinhas . (Gomes, 1988)
+# text_spa = Aquí hay una historia sobre el pescado sardino.
+# text_eng = Here is a story about sardine fish.
+# V S PART
+1	Wamiri	wamiri	NOUN	n	_	2	nmod	2:nmod	_
+2	imumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	0:root	_
+3	ʔaw	ʔaw	PRON	pro	PronType=Dem	2	nsubj	2:nsubj	_
+4	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+5	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+6	nehe	nehe	PART	pcl	_	2	discourse	2:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
+8	tɨ	tɨ	PART	pcl	_	2	discourse	2:discourse	_
+9	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+10	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 842
+# text = Kwarahɨ mehe zo heta wa .
+# text_port = Só tem sardinhas no verão . (Gomes, 1988)
+# text_spa = Solo hay sardinas en el verano.
+# text_eng = There are only sardines in the summer.
+# PP PART V PART
+1	Kwarahɨ	kwarahɨ	NOUN	n	_	4	obl	4:obl	_
+2	mehe	mehe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	zo	zo	PART	pcl	_	1	discourse	1:discourse	_
+4	heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+5	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+6	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 843
+# text = Naheta kwaw wamemɨr aʔe wa rihi , taʔe aman nukɨr kwaw aʔe rihi xe .
+# text_port = Não tem filhotes no inverno porque ainda não choveu . (Gomes, 1988)
+# text_spa = No tienen crías en invierno porque aún no ha llovido.
+# text_eng = They do not reproduce in winter because it has not rained yet.
+# V ADV S PART - C S V ADV PART
+1	Naheta	eta	VERB	vd	Polarity=Neg|Rel=NCont	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	wamemɨr	memɨr	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes	1	nsubj	1:nsubj	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	rihi	rihi	PART	pcl	_	1	discourse	1:discourse	_
+7	,	,	PUNCT	punct	_	1	punct	1:punct	_
+8	taʔe	taʔe	CCONJ	cc	_	10	mark	10:mark	_
+9	aman	aman	NOUN	n	_	10	nsubj	10:nsubj	_
+10	nukɨr	kɨr	NOUN	n	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+11	kwaw	kwaw	ADV	adv	Polarity=Neg	10	advmod	10:advmod	_
+12	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+13	rihi	rihi	PART	pcl	_	10	discourse	10:discourse	_
+14	xe	xe	PART	pcl	_	10	discourse	10:discourse	_
+15	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 844
+# text = Aze aman ukɨr nehe , aʔe ʔar mehe zote heta putar wamemɨr aʔe wa nehe kurɨ .
+# text_port = Se chover , naquele dia vai haver filhote . (Gomes, 1988)
+# text_spa = Si llueve, ese día habrá crías.
+# text_eng = If it rains, that day they will reproduce.
+# [ADV [C S V PART]] PP PART V ADV S PART
+1	Aze	aze	SCONJ	sc	_	3	mark	3:mark	_
+2	aman	aman	NOUN	n	_	3	nsubj	3:nsubj	_
+3	ukɨr	kɨr	VERB	vi	Person[subj]=3	0	root	0:root	_
+4	nehe	nehe	PART	pcl	_	3	discourse	3:discourse	_
+5	,	,	PUNCT	punct	_	3	punct	3:punct	_
+6	aʔe	aʔe	DET	dem	PronType=Dem	7	dem	7:dem	_
+7	ʔar	ʔar	NOUN	n	_	10	obl	10:obl	_
+8	mehe	mehe	ADP	posp	Rel=Cont	7	case	7:case	_
+9	zote	zote	PART	pcl	_	7	discourse	7:discourse	_
+10	heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+11	putar	putar	ADV	adv	Tense=Fut	10	advmod	10:advmod	_
+12	wamemɨr	memɨr	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes	10	nsubj	10:nsubj	_
+13	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+14	wa	wa	PART	pcl	Number=Plur	10	discourse	10:discourse	_
+15	nehe	nehe	PART	pcl	_	10	discourse	10:discourse	_
+16	kurɨ	kurɨ	PART	pcl	_	10	discourse	10:discourse	_
+17	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 845
+# text = Taʔe izun mehe uzepɨrog upiʔahaw aʔe wa xe .
+# text_port = Porque em junho elas começam a botar ovos . (Gomes, 1988)
+# text_spa = Porque en junio comienzan a poner huevos.
+# text_eng = Because in June they begin to put eggs.
+# C PP V S PART
+1	Taʔe	taʔe	CCONJ	cc	_	4	mark	4:mark	_
+2	izun	zun	NOUN	n	Rel=NCont	4	obl	4:obl	_
+3	mehe	mehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	uzepɨrog	pɨrog	VERB	vi	Person[subj]=3|Reflex=Yes	0	root	0:root	_
+5-6	upiʔahaw	_	_	_	_	_	_	_	_
+5	upi	upi	ADP	posp	Rel=Cont	4	nsubj	4:nsubj	_
+6	ʔahaw	ʔa	NOUN	n	Nomzr=Circ	5	nmod	5:nmod	_
+7	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+8	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+9	xe	xe	PART	pcl	_	4	discourse	4:discourse	_
+10	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 846
+# text = Te outu mehe nehe , uzepɨrog upiʔa imomorhaw aʔe wa ; te nuwem mehe omomor upiʔa wa rihi , nezem mehe upaw upiʔa imomor aʔe wa kurɨ .
+# text_port = Continuam botando até outubro e novembro . (Gomes, 1988)
+# text_spa = Continúan puestos en octubre y noviembre.
+# text_eng = They continue to put into October and November.
+# PART PP PART V S PART - PP V 
+1	Te	te	PART	pcl	_	2	discourse	2:discourse	_
+2	outu	outu	NOUN	n	_	6	obl	6:obl	_
+3	mehe	mehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	nehe	nehe	PART	pcl	_	2	discourse	2:discourse	_
+5	,	,	PUNCT	punct	_	2	punct	2:punct	_
+6	uzepɨrog	pɨrog	VERB	vi	Person[subj]=3|Reflex=Yes	0	root	0:root	_
+7-8	upiʔa	_	_	_	_	_	_	_	_
+7	upi	upi	ADP	posp	Rel=Cont	9	nmod	9:nmod	_
+8	ʔa	ʔa	NOUN	n	_	7	nmod	7:nmod	_
+9	imomorhaw	por	NOUN	n	Nomzr=Circ|Rel=NCont|Voice=Cau	6	nsubj	6:nsubj	_
+10	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+11	wa	wa	PART	pcl	Number=Plur	6	discourse	6:discourse	_
+12	;	;	PUNCT	punct	_	6	punct	6:punct	_
+13	te	te	PART	pcl	_	14	discourse	14:discourse	_
+14	nuwem	nuwem	NOUN	n	_	16	obl	16:obl	_
+15	mehe	mehe	ADP	posp	Rel=Cont	14	case	14:case	_
+16	omomor	por	VERB	vt	Person[subj]=3|Voice=Cau	6	conj	6:conj	_
+17-18	upiʔa	_	_	_	_	_	_	_	_
+17	upi	upi	ADP	posp	Rel=Cont	16	obj	16:obj	_
+18	ʔa	ʔa	NOUN	n	_	17	nmod	17:nmod	_
+19	wa	wa	PART	pcl	Number=Plur	16	discourse	16:discourse	_
+20	rihi	rihi	PART	pcl	_	16	discourse	16:discourse	_
+21	,	,	PUNCT	punct	_	16	punct	16:punct	_
+22	nezem	nezem	NOUN	n	_	24	obl	24:obl	_
+23	mehe	mehe	ADP	posp	Rel=Cont	22	case	22:case	_
+24	upaw	paw	VERB	vi	Person[subj]=3	16	conj	16:conj	_
+25-26	upiʔa	_	_	_	_	_	_	_	_
+25	upi	upi	ADP	posp	Rel=Cont	27	obj	27:obj	_
+26	ʔa	ʔa	NOUN	n	_	25	nmod	25:nmod	_
+27	imomor	por	VERB	vt	Rel=NCont	24	csubj	24:csubj	_
+28	aʔe	aʔe	PART	pcl	Person=3	24	discourse	24:discourse	_
+29	wa	wa	PART	pcl	Number=Plur	24	discourse	24:discourse	_
+30	kurɨ	kurɨ	PART	pcl	_	24	discourse	24:discourse	_
+31	.	.	PUNCT	punct	_	24	punct	24:punct	_
+
+# sent_id = 847
+# text = Aʔe ʔar rehe uzaw aʔe wa kurɨ .
+# text_port = Nascem naqueles dias . (Gomes, 1988)
+# text_spa = Nacen en esos días.
+# text_eng = They are born in those days.
+# PP V PART
+1	Aʔe	aʔe	DET	dem	PronType=Dem	2	dem	2:dem	_
+2	ʔar	ʔar	NOUN	n	_	4	obl	4:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	uzaw	zaw	VERB	vi	Person[subj]=3	0	root	0:root	_
+5	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+8	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 848
+# text = Ukwawkatu wekohaw aʔe wa no .
+# text_port = Sabem bem viver . (Gomes, 1988)
+# text_spa = Sabes cómo vivir.
+# text_eng = You know how to live.
+# V O PART
+1	Ukwawkatu	kwaw	VERB	vt	Emph=Yes|Person[subj]=3	0	root	0:root	_
+2	wekohaw	iko	NOUN	n	Nomzr=Circ|Rel=Corf	1	obj	1:obj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 849
+# text = Awɨze tue umaiʔu waiko wa no .
+# text_port = Pois estão sempre comendo . (Gomes, 1988)
+# text_spa = Porque siempre están comiendo.
+# text_eng = Because they are always eating.
+# PP V AUX PART
+1	Awɨze	awɨze	NOUN	n	_	4	obl	4:obl	_
+2	tue	tue	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3-4	umaiʔu	_	_	_	_	_	_	_	_
+3	umai	maʔe	NOUN	n	Person[subj]=3	4	obj	4:obj	_
+4	ʔu	ʔu	VERB	vt	_	0	root	0:root	_
+5	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	4	aux	4:aux	_
+6	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+7	no	no	PART	pcl	_	4	discourse	4:discourse	_
+8	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 850
+# text = Ihɨ nuzekaiw kwaw wanehe aʔe .
+# text_port = A mãe não cuida delas . (Gomes, 1988)
+# text_spa = La madre no cuida.
+# text_eng = The mother does not take care of them.
+# S V ADV PP PART
+1	Ihɨ	hɨ	NOUN	n	Rel=NCont	2	nsubj	2:nsubj	_
+2	nuzekaiw	zekaiw	VERB	vi	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+3	kwaw	kwaw	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
+4	wanehe	ehe	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	2	case	2:case	_
+5	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 851
+# text = Aʔeae uzemugakwawaʔi waiko aʔe wa no , taʔe ihɨ oho wanuwi aʔe kurɨ xe , aʔeae wiko aʔe wa no .
+# text_port = Elas se criam sozinhas , porque a mãe vai embora , deixando-as . (Gomes, 1988)
+# text_spa = Se crean, porque la madre se va, dejándolos.
+# text_eng = They create themselves, because the mother goes away, leaving them.
+# S V AUX PART - C S V PP PART - S V PART
+1	Aʔeae	aʔe	PRON	pro	Emph=Yes|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
+2	uzemugakwawaʔi	mugakwaw	VERB	vi	Emph=Yes|Person[subj]=3|Reflex=Yes	0	root	0:root	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	2:aux	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	no	no	PART	pcl	_	2	discourse	2:discourse	_
+7	,	,	PUNCT	punct	_	2	punct	2:punct	_
+8	taʔe	taʔe	CCONJ	cc	_	10	mark	10:mark	_
+9	ihɨ	hɨ	NOUN	n	Rel=NCont	10	nsubj	10:nsubj	_
+10	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+11	wanuwi	uwi	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	10	obl	10:obl	_
+12	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+13	kurɨ	kurɨ	PART	pcl	_	10	discourse	10:discourse	_
+14	xe	xe	PART	pcl	_	10	discourse	10:discourse	_
+15	,	,	PUNCT	punct	_	10	punct	10:punct	_
+16	aʔeae	PRON	pro	Emph=Yes|Person=3|PronType=Prs	17	nsubj	17:nsubj	_
+17	wiko	iko	VERB	vt	Person[subj]=3	10	parataxis	10:parataxis	_
+18	aʔe	aʔe	PART	pcl	Person=3	17	discourse	17:discourse	_
+19	wa	wa	PART	pcl	Number=Plur	17	discourse	17:discourse	_
+20	no	no	PART	pcl	_	17	discourse	17:discourse	_
+21	.	.	PUNCT	punct	_	17	punct	17:punct	_
+
+# sent_id = 852
+# text = Tueharupi wamiri uʔu maʔe kurer aʔe wa no , ɨʔaromo wa no .
+# text_port = Elas correm para comer coisas e as pegam para si , coisas que caem na água . (Gomes, 1988)
+# text_spa = Corren para comer cosas y las atrapan por sí mismos, cosas que caen en el agua.
+# text_eng = They run to eat things and catch them for themselves, things that fall into the water.
+# PP S V O PART PP PART
+1	Tueharupi	tue	NOUN	n	Case=Tem|Nomzr=Ag	3	obl	3:obl	_
+2	wamiri	wamiri	NOUN	n	_	3	nsubj	3:nsubj	_
+3	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	maʔe	maʔe	NOUN	n	_	5	nmod	5:nmod	_
+5	kurer	kurer	NOUN	n	Rel=Cont	3	obj	3:obj	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+8	no	no	PART	pcl	_	3	discourse	3:discourse	_
+9	,	,	PUNCT	punct	_	3	punct	3:punct	_
+10	ɨʔaromo	ɨ	NOUN	n	Case=Loc	3	obl	3:obl	_
+11	wa	wa	PART	pcl	Number=Plur	10	discourse	10:discourse	_
+12	no	no	PART	pcl	_	10	discourse	10:discourse	_
+13	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 853
+# text = Uzan waiko maʔe iʔupa wa .
+# text_port = Elas correm para comer coisas . (Gomes, 1988)
+# text_spa = Corren para comer cosas.
+# text_eng = They run to eat things.
+# V AUX [ADV [O V PART]]
+1	Uzan	zan	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+3	maʔe	maʔe	NOUN	n	_	4	obj	4:obj	_
+4	iʔupa	ʔu	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
+5	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 854
+# text = Nezewe wamiri wanekohaw aʔe wa no .
+# text_port = Ficam bem vivas na água . (Gomes, 1988)
+# text_spa = Se ven bien en el agua.
+# text_eng = They look good in the water.
+# ADV S V PART
+1	Nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+2	wamiri	wamiri	NOUN	n	_	3	nsubj	3:nsubj	_
+3	wanekohaw	iko	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+6	no	no	PART	pcl	_	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 855
+# text = Upɨhɨk maʔe uzeupe wa ɨʔaromo wanekon wa , maʔe kurer iʔupa wa .
+# text_port = Pegam para si coisas que caem na água . (Gomes, 1988)
+# text_spa = Toman cosas que caen en el agua.
+# text_eng = They take things that fall into the water.
+# V O PP PART - PP V PART [ADV [O V PART]]
+1	Upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	maʔe	maʔe	NOUN	n	_	1	obj	1:obj	_
+3	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	1	obl	1:obl	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	ɨʔaromo	ɨ	NOUN	n	Case=Loc	6	obl	6:obl	_
+6	wanekon	iko	VERB	vi	NonFoc=Yes|Number=Plur|Person[subj]=3|Rel=Cont	1	parataxis	1:parataxis	_
+7	wa	wa	PART	pcl	Number=Plur	6	discourse	6:discourse	_
+8	,	,	PUNCT	punct	_	6	punct	6:punct	_
+9	maʔe	maʔe	NOUN	n	_	10	obj	10:obj	_
+10	kurer	kurer	NOUN	n	Rel=Cont	11	obj	11:obj	_
+11	iʔupa	ʔu	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	1:advcl	_
+12	wa	wa	PART	pcl	Number=Plur	11	discourse	11:discourse	_
+13	.	.	PUNCT	punct	_	11	punct	11:punct	_
+
+# sent_id = 856
+# text = Uzan waiko wa umeʔe ɨpe wa .
+# text_port = Vivem correndo e ficam bem vivas na água . (Gomes, 1988)
+# text_spa = Viven corriendo y viven bien en el agua.
+# text_eng = They live running and live good in the water.
+# V AUX PART V PP PART
+1	Uzan	zan	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+3	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+4	umeʔe	meʔe	VERB	vi	Person[subj]=3	1	parataxis	1:parataxis	_
+5	ɨpe	ʔɨ	NOUN	n	Case=Loc	4	obl	4:obl	_
+6	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 857
+# text = Ipɨtuhem ɨ pupe wa no .
+# text_port = Respiram [na água] . (Gomes, 1988)
+# text_spa = Ellos respiran [en el agua].
+# text_eng = They breathe [in the water].
+# V PP PART
+1	Ipɨtuhem	pɨtuhem	VERB	vd	Rel=NCont	0	root	0:root	_
+2	ɨ	ʔɨ	NOUN	n	_	1	obl	1:obl	_
+3	pupe	pupe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 858
+# text = Hurɨwete waiko wa no .
+# text_port = Vivem alegres . (Gomes, 1988)
+# text_spa = Viven alegre.
+# text_eng = They live cheerful.
+# V AUX PART
+1	Hurɨwete	urɨw	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+3	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+4	no	no	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 859
+# text = Uzemonoʔog waiko wa tueharupi wa no .
+# text_port = Reúnem-se todos os dias . (Gomes, 1988)
+# text_spa = Se reúnen todos los días.
+# text_eng = They meet every day.
+# V AUX PART PP PART
+1	Uzemonoʔog	noʔog	VERB	vi	Reflex=Yes|Person[subj]=3|Voice=Cau	0	root	0:root	_
+2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+3	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+4	tueharupi	tue	NOUN	n	Case=Tem|Nomzr=Ag	1	obl	1:obl	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 860
+# text = Wata waiko pɨhaw wa no .
+# text_port = Andam ã noite . (Gomes, 1988)
+# text_spa = Ellos caminan por la noche.
+# text_eng = They walk at night.
+# V AUX PP PART
+1	Wata	ata	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+3	pɨhaw	pɨ	NOUN	n	Nomzr=Circ	1	obl	1:obl	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 861
+# text = Ipɨtunahɨpe wanekon watapa wa .
+# text_port = Quando está bem escuro . (Gomes, 1988)
+# text_spa = Cuando está muy oscuro.
+# text_eng = When it's very dark.
+# PP V [ADV [V PART]]
+1	Ipɨtunahɨpe	pɨtun	NOUN	n	Case=Loc|Emph=Yes|Rel=NCont	2	obl	2:obl	_
+2	wanekon	iko	VERB	vi	NonFoc=Yes|Number=Plur|Person[subj]=3|Rel=Cont	0	root	0:root	_
+3	watapa	ata	VERB	vi	Person[subj]=3|VerbForm=Ger	2	advcl	2:advcl	_
+4	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 862
+# text = Hehapɨhagatu aʔe wa , taʔe tatainɨ romo wanekon aʔe wa xe , aʔe rupi wata pɨtunahɨpe wa .
+# text_port = Elas enxergam muito bem e por isso andam no escuro . (Gomes, 1988)
+# text_spa = Ven muy bien y por eso caminan en la oscuridad.
+# text_eng = They see very well and so they walk in the dark.
+# S V PART - C PP V PART - PP V PP PART
+1-2	Hehapɨhagatu	_	_	_	_	_	_	_	_
+1	heha	eha	NOUN	n	Rel=NCont	2	nsubj	2:nsubj
+2	pɨhagatu	apɨha	VERB	vd	Emph=Yes|Rel=Cont	0	root	0:root	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+5	,	,	PUNCT	punct	_	2	punct	2:punct	_
+6	taʔe	taʔe	CCONJ	cc	_	9	mark	9:mark	_
+7-8	tatainɨ	_	_	_	_	_	_	_	_
+7	tata	ata	NOUN	n	Rel=Abs	10	obl	10:obl	_
+8	inɨ	einɨ	NOUN	n	Rel=Cont	7	nmod	7:nmod
+9	romo	omo	ADP	posp	Rel=Cont	7	case	7:case	_
+10	wanekon	iko	VERB	vi	NonFoc=Yes|Number=Plur|Person[subj]=3|Rel=Cont	1	conj	1:conj	_
+11	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+12	wa	wa	PART	pcl	Number=Plur	10	discourse	10:discourse	_
+13	xe	xe	PART	pcl	_	10	discourse	10:discourse	_
+14	,	,	PUNCT	punct	_	10	punct	10:punct	_
+15	aʔe	aʔe	PRON	pro	Person=3	17	obl	17:obl	_
+16	rupi	upi	ADP	posp	Rel=Cont	15	case	15:case	_
+17	wata	ata	VERB	vi	Person[subj]=3	10	parataxis	10:parataxis	_
+18	pɨtunahɨpe	pɨtun	NOUN	n	Case=Loc|Emph=Yes	17	obl	17:obl	_
+19	wa	wa	PART	pcl	Number=Plur	17	discourse	17:discourse	_
+20	.	.	PUNCT	punct	_	17	punct	17:punct	_
+
+# sent_id = 863
+# text = Hehapɨhagatu waiko pɨtunahɨpe wa , taʔe uhɨapekatu wekohawpe aʔe wa no xe , wamiri wekohawpe aʔe wa no xe .
+# text_port = Elas brilham no lugar onde estão . (Gomes, 1988)
+# text_spa = Ellos brillan en donde están.
+# text_eng = They shine in where they are.
+# S V AUX PP PART - C V PP PART
+1-2	Hehapɨhagatu	_	_	_	_	_	_	_	_
+1	heha	eha	NOUN	n	Rel=NCont	2	nsubj	2:nsubj
+2	pɨhagatu	apɨha	VERB	vd	Emph=Yes|Rel=Cont	0	root	0:root	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	2:aux	_
+4	pɨtunahɨpe	pɨtun	NOUN	n	Case=Loc|Emph=Yes	2	obl	2:obl	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	,	,	PUNCT	punct	_	2	punct	2:punct	_
+7	taʔe	taʔe	CCONJ	cc	_	8	mark	8:mark	_
+8	uhɨapekatu	hɨape	VERB	vi	Emph=Yes|Person[subj]=Yes	2	conj	2:conj	_
+9	wekohawpe	iko	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Corf	8	obj	8:obj	_
+10	aʔe	aʔe	PART	pcl	Person=3	8	discourse	8:discourse	_
+11	wa	wa	PART	pcl	Number=Plur	8	discourse	8:discourse	_
+12	no	no	PART	pcl	_	8	discourse	8:discourse	_
+13	xe	xe	PART	pcl	_	8	discourse	8:discourse	_
+14	,	,	PUNCT	punct	_	8	punct	8:punct	_
+15	wamiri	wamiri	NOUN	n	_	16	nmod	16:nmod	_
+16	wekohawpe	iko	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Corf	9	appos	9:appos	_
+17	aʔe	aʔe	PART	pcl	Person=3	16	discourse	16:discourse	_
+18	wa	wa	PART	pcl	Number=Plur	16	discourse	16:discourse	_
+19	no	no	PART	pcl	_	16	discourse	16:discourse	_
+20	xe	xe	PART	pcl	_	16	discourse	16:discourse	_
+21	.	.	PUNCT	punct	_	16	punct	16:punct	_
+
+# sent_id = 864
+# text = Ikatuahɨ wanekohaw aʔe wa no , taʔe nuʔu kwaw tuzukaʔi aʔe wa xe; nuʔu kwaw wamiri aʔe wa .
+# text_port = A vida delas é muito boa porque elas não comem lama . (Gomes, 1988)
+# text_spa = La vida de ellas es muy buena porque no comen barro.
+# text_eng = Their life is very good because they do not eat mud.
+# V S PART - C V ADV 
+1	Ikatuahɨ	katu	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	wanekohaw	iko	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	1	nsubj	1:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	,	,	PUNCT	punct	_	1	punct	1:punct	_
+7	taʔe	taʔe	CCONJ	cc	_	8	mark	8:mark	_
+8	nuʔu	ʔu	VERB	vt	Person[subj]=3|Polarity=Neg	1	conj	1:conj	_
+9	kwaw	kwaw	ADV	adv	Polarity=Neg	8	advmod	8:advmod	_
+10	tuzukaʔi	tuzuk	NOUN	n	Emph=Yes	8	obj	8:obj	_
+11	aʔe	aʔe	PART	pcl	Person=3	8	discourse	8:discourse	_
+12	wa	wa	PART	pcl	Number=Plur	8	discourse	8:discourse	_
+13	xe	xe	PART	pcl	_	8	discourse	8:discourse	_
+14	;	;	PUNCT	punct	_	8	punct	8:punct	_
+15	nuʔu	ʔu	VERB	vt	Person[subj]=3|Polarity=Neg	8	conj	8:conj	_
+16	kwaw	kwaw	ADV	adv	Polarity=Neg	15	advmod	15:advmod	_
+17	wamiri	wamiri	NOUN	n	_	15	nsubj	15:nsubj	_
+18	aʔe	aʔe	PART	pcl	Person=3	15	discourse	15:discourse	_
+19	wa	wa	PART	pcl	Number=Plur	15	discourse	15:discourse	_
+20	.	.	PUNCT	punct	_	15	punct	15:punct	_
+
+# sent_id = 865
+# text = Kupiʔi zo uʔu aʔe wa no .
+# text_port = Só comem cupim  (Gomes, 1988)
+# text_spa = Solo comer término
+# text_eng = Just eat term
+# O PART V PART
+1	Kupiʔi	kupiʔi	NOUN	n	_	3	obj	3:obj	_
+2	zo	zo	PART	pcl	_	1	discourse	1:discourse	_
+3	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+6	no	no	PART	pcl	_	3	discourse	3:discourse	_
+7	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 866
+# text = Uʔu zanuʔi wa no .
+# text_port = [Só comem] aranhas . (Gomes, 1988)
+# text_spa = [Solo come] arañas.
+# text_eng = [Just eat] spiders.
+# V O PART
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	zanuʔi	zanu	NOUN	n	Emph=Yes	1	obj	1:obj	_
+3	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+4	no	no	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 867
+# text = Wamiri nezewe aʔe wa .
+# text_port = E assim que são as sardinhas . (Gomes, 1988)
+# text_spa = Y así son las sardinas.
+# text_eng = And so they are the sardines.
+# V ADV PART
+1	Wamiri	wamiri	NOUN	n	_	0	root	0:root	_
+2	nezewe	nezewe	ADV	adv	_	1	advmod	1:advmod	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 868
+# text = Nuxiʔu kwaw wanam aʔe wa .
+# text_port = Elas não comem os outros peixes . (Gomes, 1988)
+# text_spa = No comen los otros peces.
+# text_eng = They do not eat the other fish.
+# V ADV O PART
+1	Nuxiʔu	xiʔu	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	wanam	anam	NOUN	n	Rel=Corf	1	obj	1:obj	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 869
+# text = Nezewe wamiri wanekon aʔe wa .
+# text_port = E assim que são as sardinhas . (Gomes, 1988)
+# text_spa = Y así son las sardinas.
+# text_eng = And so they are the sardines.
+# ADV S V PART
+1	Nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+2	wamiri	wamiri	NOUN	n	_	3	nsubj	3:nsubj	_
+3	wanekon	iko	VERB	vi	NonFoc=Yes|Number=Plur|Person[subj]=3|Rel=Cont	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 870
+# text = Heta paw rupi temiʔu wanupe aʔe wa no .
+# text_port = Tem todo tipo de comida para elas . (Gomes, 1988)
+# text_spa = Tiene todo tipo de comida para ellos.
+# text_eng = It has all kinds of food for them.
+# V PP S PP PART
+1	Heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+2	paw	paw	PRON	pro	PronType=Tot	1	obl	1:obl	_
+3	rupi	upi	ADP	posp	Rel=Cont	2	case	2:case	_
+4	temiʔu	ʔu	NOUN	n	Nomzr=DevPass|Rel=Abs	1	nsubj	1:nsubj	_
+5	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	1	obl	1:obl	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+8	no	no	PART	pcl	_	1	discourse	1:discourse	_
+9	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 871
+# text = Marazawe tue ukwaw uzeʔeg ɨpe aʔe wa no ?
+# text_port = Como é que elas sabem falar na água ?  (Gomes, 1988)
+# text_spa = ¿Cómo saben hablar en el agua?
+# text_eng = How do they know how to talk about water?
+# PP ADV V O PART
+1	Marazawe	maran	PRON	pro	Case=Equ|PronType=Int	3	obl	3:obl	_
+2	tue	tue	ADV	adv	Emph=Yes	3	advmod	3:advmod	_
+3	ukwaw	kwaw	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	uzeʔeg	zeʔeg	VERB	vi	Person[subj]=3	3	xcomp	3:xcomp	_
+5	ɨpe	ʔɨ	NOUN	n	Case=Loc	4	obl	4:obl	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+8	no	no	PART	pcl	_	4	discourse	4:discourse	_
+9	?	?	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 872
+# text = Herua , taʔe Zaneru umupɨtuhemkar nezewe aʔe wa xe .
+# text_port = É porque Deus as fez respirar assim . (Gomes, 1988)
+# text_spa = Es porque Dios les hizo respirar así.
+# text_eng = It's because God made them breathe like that.
+# PART C S V ADV PART
+1	Herua	heruwa	PART	pcl	_	5	discourse	5:discourse	_
+2	,	,	PUNCT	punct	_	1	punct	1:punct	_
+3	taʔe	taʔe	CCONJ	cc	_	5	mark	5:mark	_
+4	Zaneru	u	NOUN	n	Clusivity=In|Number=Plur|Person[subj]=1|Rel=Cont	5	nsubj	5:nsubj	_
+5	umupɨtuhemkar	pɨtuhem	VERB	vi	Person[subj]=3|Voice=Cau	0	root	0:root	_
+6	nezewe	nezewe	ADV	adv	_	5	advmod	5:advmod	_
+7	aʔe	aʔe	PART	pcl	Person=3	5	discourse	5:discourse	_
+8	wa	wa	PART	pcl	Number=Plur	5	discourse	5:discourse	_
+9	xe	xe	PART	pcl	_	5	discourse	5:discourse	_
+10	.	.	PUNCT	punct	_	5	punct	5:punct	_
+
+# sent_id = 873
+# text = Taʔe Zaneru uzapo paw rupi maʔe iko aʔe xe .
+# text_port = Deus faz todas as coisas . (Gomes, 1988)
+# text_spa = Dios hace todas las cosas.
+# text_eng = God does all things.
+# C S V PP O AUX PART
+1	Taʔe	taʔe	CCONJ	cc	_	3	mark	3:mark	_
+2	Zaneru	u	NOUN	n	Clusivity=In|Number=Plur|Person[subj]=1|Rel=Cont	3	nsubj	3:nsubj	_
+3	uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	paw	paw	PRON	pro	PronType=Tot	3	obl	3:obl	_
+5	rupi	upi	ADP	posp	Rel=Cont	4	case	4:case	_
+6	maʔe	maʔe	NOUN	n	_	3	obj	3:obj	_
+7	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	3	aux	3:aux	_
+8	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+9	xe	xe	PART	pcl	_	3	discourse	3:discourse	_
+10	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 874
+# text = Aʔe rupi uzapo nezewe ɨpehar wanupe no .
+# text_port = Por isso fez assim para os que vivem na água . (Gomes, 1988)
+# text_spa = Así lo hizo por los que viven en el agua.
+# text_eng = So he did so for those who live in the water.
+# PP V ADV PP PART
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+5	ɨpehar	ʔɨ	NOUN	n	Case=Loc|Nomzr=Ag	3	obl	3:obl	_
+6	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	5	obl	5:obl	_
+7	no	no	PART	pcl	_	3	discourse	3:discourse	_
+8	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 875
+# text = Zaneru ɨwatehar aʔe , uzapo nezewe wanupe no , wamiri wanupe no .
+# text_port = Nosso Pai no Céu fez assim para as sardinhas . (Gomes, 1988)
+# text_spa = Nuestro padre en el cielo lo hizo por las sardinas.
+# text_eng = Our father in heaven did so for the sardines.
+# S PART V ADV PP PART 
+1	Zaneru	u	NOUN	n	Clusivity=In|Number=Plur|Person[subj]=1|Rel=Cont	5	nsubj	5:nsubj	_
+2	ɨwatehar	ɨwak	NOUN	n	Emph=Yes|Nomzr=Ag	1	nmod	1:nmod	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	,	,	PUNCT	punct	_	1	punct	1:punct	_
+6	uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
+7	nezewe	nezewe	ADV	adv	_	6	advmod	6:advmod	_
+8	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	6	obl	6:obl	_
+9	no	no	PART	pcl	_	6	discourse	6:discourse	_
+10	,	,	PUNCT	punct	_	6	punct	6:punct	_
+11	wamiri	wamiri	NOUN	n	_	8	appos	8:appos	_
+12	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	11	obl	11:obl	_
+13	no	no	PART	pcl	_	11	discourse	11:discourse	_
+14	.	.	PUNCT	punct	_	11	punct	11:punct	_
+
+# sent_id = 876
+# text = Aʔe rupi heta teteaʔu wamiri aʔe wa no .
+# text_port = Por isso tem muitas sardinhas . (Gomes, 1988)
+# text_spa = Así que hay muchas sardinas.
+# text_eng = So there are many sardines.
+# PP S ADV S PART
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+4	teteaʔu	tete	ADV	adv	Emph=Yes	3	advmod	3:advmod	_
+5	wamiri	wamiri	NOUN	n	_	3	nsubj	3:nsubj	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+8	no	no	PART	pcl	_	3	discourse	3:discourse	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 877
+# text = Aʔe rupi uzapo tenetehar zekeʔa aʔe wa kurɨ .
+# text_port = Os índios guajajáras fazem uma gaiola com boca . (Gomes, 1988)
+# text_spa = Los indios guajajáras hacen una jaula con una entrada.
+# text_eng = The guajajáras make a cage with an entrance.
+# PP V S O PART
+1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	3:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	tenetehar	tenetehar	NOUN	n	_	3	nsubj	3:nsubj	_
+5	zekeʔa	zekeʔa	NOUN	n	_	3	obj	3:obj	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+8	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 878
+# text = Wamiri wixe zekeʔa pupe wa .
+# text_port = Na [gaiola com boca] as sardinhas entram . (Gomes, 1988)
+# text_spa = En la jaula las sardinas entran.
+# text_eng = In the cage the sardines enter.
+# S V PP PART
+1	Wamiri	wamiri	NOUN	n	_	2	nsubj	2:nsubj	_
+2	wixe	ixe	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	zekeʔa	zekeʔa	NOUN	n	_	2	obl	2:obl	_
+4	pupe	pupe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 879
+# text = Omogwer nuixe kwaw zekeʔa pupe wa .
+# text_port = Algumas não entram . (Gomes, 1988)
+# text_spa = Algunos no entran.
+# text_eng = Some do not enter.
+# S V ADV PP PART
+1	Omogwer	amo	PRON	pro	Number=Coll|PronType=Ind	2	nsubj	2:nsubj	_
+2	nuixe	ixe	VERB	vi	Person[subj]=3|Polarity=Neg	0	root	0:root	_
+3	kwaw	kwaw	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
+4	zekeʔa	zekeʔa	NOUN	n	_	2	obl	2:obl	_
+5	pupe	pupe	ADP	posp	Rel=Cont	4	case	4:case	_
+6	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 880
+# text = Wamiri ukɨzekatu izuwi wa .
+# text_port = [As sardinhas] têm medo . (Gomes, 1988)
+# text_spa = [Sardinas] tienen miedo.
+# text_eng = [Sardines] are afraid.
+# S V PP PART
+1	Wamiri	wamiri	NOUN	n	_	2	nsubj	2:nsubj	_
+2	ukɨzekatu	kɨze	VERB	vi	Emph=Yes|Person[subj]=3	0	root	0:root	_
+4	izuwi	uwi	ADP	posp	Rel=NCont	2	obl	2:obl	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 881
+# text = Omogwer wixe uzeʔazna wa , zekeʔa pupe wa .
+# text_port = Outras vão entrando . (Gomes, 1988)
+# text_spa = Otros están entrando.
+# text_eng = Others are coming in.
+# S V [ADV [V]] PART PP PART
+1	Omogwer	amo	PRON	pro	Number=Coll|PronType=Ind	2	nsubj	2:nsubj	_
+2	wixe	ixe	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	uzeʔazna	ʔaz	VERB	vd	Reflex=Yes|Rel=Corf|VerbForm=Ger	2	advcl	2:advcl	_
+4	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+5	,	,	PUNCT	punct	_	2	punct	2:punct	_
+6	zekeʔa	zekeʔa	NOUN	n	_	2	obl	2:obl	_
+7	pupe	pupe	ADP	posp	Rel=Cont	6	case	6:case	_
+8	wa	wa	PART	pcl	Number=Plur	6	discourse	6:discourse	_
+9	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 882
+# text = Tenetehar umuhemkar omogwer wamiri imuzeʔazna .
+# text_port = Porém os índios mandam algumas saírem . (Gomes, 1988)
+# text_spa = Pero los indios sueltan a algunas.
+# text_eng = But the Indians let some free.
+# S V [ADV [S V]]
+1	Tenetehar	tenetehar	NOUN	n	_	2	nsubj	2:nsubj	_
+2	umuhemkar	hem	VERB	vi	Person[subj]=3|Voice=Cau	0	root	0:root	_
+3	omogwer	amo	DET	dem	Number=Coll|PronType=Ind	4	dem	4:dem	_
+4	wamiri	wamiri	NOUN	n	_	5	obj	5:obj	_
+5	imuzeʔazna	ʔaz	VERB	vt	Reflex=Yes|Rel=Corf|VerbForm=Ger|Voice=Cau	2	advcl	2:advcl	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 883
+# text = Nezewe mehe nupaw pixik kwaw aʔe wa nehe , iʔi zekaipo uzeupe aʔe no .
+# text_port = Assim elas nunca vão acabar . (Gomes, 1988)
+# text_spa = Así que nunca terminarán.
+# text_eng = So they will never end.
+# [O [ADV V ADV ADV PART]] V ADV PP PART
+1	Nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+2	mehe	mehe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	nupaw	paw	VERB	vi	Person[subj]=3|Polarity=Neg	10	ccomp	10:ccomp	_
+4	pixik	pixik	ADV	adv	_	3	advmod	3:advmod	_
+5	kwaw	kwaw	ADV	adv	Polarity=Neg	3	advmod	3:advmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+8	nehe	nehe	PART	pcl	_	3	discourse	3:discourse	_
+9	,	,	PUNCT	punct	_	3	punct	3:punct	_
+10	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+11	zekaipo	kwehe	ADV	adv	Evident=Nfh	10	advmod	10:advmod	_
+12	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	10	obl	10:obl	_
+13	aʔe	aʔe	PART	pcl	Person=3	10	discourse	10:discourse	_
+14	no	no	PART	pcl	_	10	discourse	10:discourse	_
+15	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 884
+# text = Weraha omogwer zo izuwi wa .
+# text_port = Levam só algumas . (Gomes, 1988)
+# text_spa = Solo toman algunos.
+# text_eng = They only take some.
+# V O PART PP PART
+1	Weraha	ho	VERB	vt	Person[subj]=3|Voice=Com	0	root	0:root	_
+2	omogwer	amo	PRON	pro	Number=Coll|PronType=Ind	1	obj	1:obj	_
+3	zo	zo	PART	pcl	_	2	discourse	2:discourse	_
+4	izuwi	uwi	ADP	posp	Rel=NCont	1	obl	1:obl	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 885
+# text = Tenetehar uzuka wamiri iko aʔe , zekeʔa pupe aʔe .
+# text_port = Os índios matam as sardinhas dentro da gaiola . (Gomes, 1988)
+# text_spa = Los indios matan a las sardinas dentro de la jaula.
+# text_eng = The Indians kill the sardines inside the cage.
+# S V O AUX PART PP PART
+1	Tenetehar	tenetehar	NOUN	n	_	2	nsubj	2:nsubj	_
+2	uzuka	uka	VERB	vt	Person[subj]=3	0	root	0:root	_
+3	wamiri	wamiri	NOUN	n	_	2	obj	2:obj	_
+4	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	2	aux	2:aux	_
+5	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+6	,	,	PUNCT	punct	_	2	punct	2:punct	_
+7	zekeʔa	zekeʔa	NOUN	n	_	2	obl	2:obl	_
+8	pupe	pupe	ADP	posp	Rel=Cont	7	case	7:case	_
+9	aʔe	aʔe	PART	pcl	Person=3	7	discourse	7:discourse	_
+10	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 886
+# text = Omonoʔog imono kok pupe .
+# text_port = Eles as juntam dentro de um cesto . (Gomes, 1988)
+# text_spa = Ellos las unen dentro de una canasta.
+# text_eng = They put them together inside a basket.
+# V AUX PP
+1	Omonoʔog	noʔog	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+2	imono	ho	VERB	vi	Rel=NCont|Voice=Cau	1	aux	1:aux	_
+3	kok	kok	NOUN	n	_	1	obl	1:obl	_
+4	pupe	pupe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 887
+# text = Weraha wapuz me .
+# text_port = Levam para casa . (Gomes, 1988)
+# text_spa = Los llevan a casa.
+# text_eng = They take them home.
+# V PP
+1	Weraha	ho	VERB	vt	Person[subj]=3|Voice=Com	0	root	0:root	_
+2	wapuz	apuz	NOUN	n	Rel=Corf	1	obl	1:obl	_
+3	me	me	ADP	posp	Rel=Cont	2	case	2:case	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 888
+# text = Omono zapepo pupe aʔe kurɨ .
+# text_port = Pòe numa panela . (Gomes, 1988)
+# text_spa = Los pone en una sartén.
+# text_eng = They put them in a pan.
+# V PP PART
+1	Omono	ho	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+2	zapepo	zapepo	NOUN	n	_	1	obl	1:obl	_
+3	pupe	pupe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 889
+# text = Uʔu aʔe wa kurɨ .
+# text_port = Depois comem . (Gomes, 1988)
+# text_spa = Luego comen.
+# text_eng = Then they eat.
+# V PART
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+3	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 890
+# text = Nezewe wamiri aʔe wa , uzemonoʔog waiko wa .
+# text_port = Assim as sardinhas se juntam . (Gomes, 1988)
+# text_spa = Así que las sardinas se unen.
+# text_eng = So the sardines are together.
+# ADV S PART V AUX PART
+1	Nezewe	nezewe	ADV	adv	_	6	advmod	6:advmod	_
+2	wamiri	wamiri	NOUN	n	_	6	nsubj	6:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+5	,	,	PUNCT	punct	_	2	punct	2:punct	_
+6	uzemonoʔog	noʔog	VERB	vi	Reflex=Yes|Person[subj]=3|Voice=Cau	0	root	0:root	_
+7	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	6	aux	6:aux	_
+8	wa	wa	PART	pcl	Number=Plur	6	discourse	6:discourse	_
+9	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 891
+# text = Wamiri hurɨwete waiko wa .
+# text_port = Elas são alegres . (Gomes, 1988)
+# text_spa = Son alegres.
+# text_eng = They are cheerful.
+# S V AUX PART
+1	Wamiri	wamiri	NOUN	n	_	2	nsubj	2:nsubj	_
+2	hurɨwete	urɨw	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	2:aux	_
+4	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+5	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 892
+# text = Ikatuahɨ taʔe numaʔereko kwaw aʔe wa xe .
+# text_port = E[las são] bom porque não trabalham . (Gomes, 1988)
+# text_spa = Ellas están bien porque no trabajan.
+# text_eng = They are good because they do not work.
+# V - C V ADV PART
+1	Ikatuahɨ	katu	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	taʔe	taʔe	CCONJ	cc	_	4	mark	4:mark	_
+3-4	numaʔereko	_	_	_	_	_	_	_	_
+3	numaʔe	maʔe	NOUN	n	Person[subj]=3|Polarity=Neg	4	obj	4:obj	_
+4	reko	iko	VERB	vt	Rel=Cont	1	conj	1:conj	_
+5	kwaw	kwaw	ADV	adv	Polarity=Neg	4	advmod	4:advmod	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+8	xe	xe	PART	pcl	_	4	discourse	4:discourse	_
+9	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 893
+# text = Ukwawkatu wikohawaʔi aʔe wa no .
+# text_port = Elas sabem bem viver . (Gomes, 1988)
+# text_spa = Ellos saben cómo vivir.
+# text_eng = They know how to live.
+# V O PART
+1	Ukwawkatu	kwaw	VERB	vt	Emph=Yes|Person[subj]=3	0	root	0:root	_
+2	wikohawaʔi	iko	NOUN	n	Dimin=Yes|Nomzr=Circ|Rel=Corf	1	obj	1:obj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 894
+# text = Nezewe wamiri wanekohaw aʔe wa no tɨ wa .
+# text_port = Vivem na água . (Gomes, 1988)
+# text_spa = Viven en el agua.
+# text_eng = They live in the water.
+# ADV S V PART
+1	Nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+2	wamiri	wamiri	NOUN	n	_	3	nsubj	3:nsubj	_
+3	wanekohaw	iko	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+6	no	no	PART	pcl	_	3	discourse	3:discourse	_
+7	tɨ	tɨ	PART	pcl	_	3	discourse	3:discourse	_
+8	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+9	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 895
+# text = Wiko ɨ pupe wa .
+# text_port = São na água (Gomes, 1988)
+# text_spa = Están en el agua
+# text_eng = Are in the water
+# V PP PART
+1	Wiko	iko	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	ɨ	ʔɨ	NOUN	n	_	1	obl	1:obl	_
+3	pupe	pupe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 896
+# text = Ipɨtuhem waiko ɨ pupe wa no .
+# text_port = Respiram dentro dela [água] . (Gomes, 1988)
+# text_spa = Ellos respiraron dentro de él [agua].
+# text_eng = They breathed inside it [water].
+# V AUX PP PART
+1	Ipɨtuhem	pɨtuhem	VERB	vd	Rel=NCont	0	root	0:root	_
+2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+3	ɨ	ʔɨ	NOUN	n	_	1	obl	1:obl	_
+4	pupe	pupe	ADP	posp	Rel=Cont	3	case	3:case	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+7	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 897
+# text = Nazaiko kwaw wazawe zane .
+# text_port = Nós não somos como elas . (Gomes, 1988)
+# text_spa = No somos como ellos.
+# text_eng = We are not like them.
+# V ADV PP PART
+1	Nazaiko	iko	VERB	vt	Clusivity=In|Number=Plur|Person[subj]=1|Polarity=Neg	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	wazawe	zawe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes	1	obl	1:obl	_
+4	zane	zane	PART	pcl	Clusivity=In|Number=Plur|Person=1	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 898
+# text = Nazanepɨtuhem kwaw ɨ pɨpe zane .
+# text_port = Pois não respiramos dentro da água . (Gomes, 1988)
+# text_spa = Porque no respiramos dentro del agua.
+# text_eng = For we do not breathe inside the water.
+# V ADV PP PART
+1	Nazanepɨtuhem	pɨtuhem	VERB	vi	Clusivity=In|Number=Plur|Person[subj]=1|Polarity=Neg	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	ɨ	ʔɨ	NOUN	n	_	4	nmod	4:nmod	_
+4	pɨpe	pɨ	NOUN	n	Case=Loc|Rel=Cont	1	obl	1:obl	_
+5	zane	zane	PART	pcl	Clusivity=In|Number=Plur|Person=1	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 899
+# text = Aze zanepɨtuhem ɨ pɨpe zane , zanezuka tue ɨ aʔe .
+# text_port = Se nós tentássemos respirar dentro da água , a água nos mataria . (Gomes, 1988)
+# text_spa = Si intentamos respirar dentro del agua, el agua nos mataría.
+# text_eng = If we tried to breathe inside the water, the water would kill us.
+# [ADV [C V PP PART]] V ADV S PART
+1	Aze	aze	SCONJ	sc	_	2	mark	2:mark	_
+2	zanepɨtuhem	pɨtuhem	VERB	vi	Clusivity=In|Number=Plur|Person[subj]=1	7	advcl	7:advcl	_
+3	ɨ	ʔɨ	NOUN	n	_	4	nmod	4:nmod	_
+4	pɨpe	pɨ	NOUN	n	Case=Loc|Rel=Cont	2	obl	2:obl	_
+5	zane	zane	PART	pcl	Clusivity=In|Number=Plur|Person=1	2	discourse	2:discourse	_
+6	,	,	PUNCT	punct	_	2	punct	2:punct	_
+7	zanezuka	uka	VERB	vi	Clusivity=In|Number=Plur|Person[subj]=1	0	root	0:root	_
+8	tue	tue	ADV	adv	Emph=Yes	7	advmod	7:advmod	_
+9	ɨ	ʔɨ	NOUN	n	_	7	nsubj	7:nsubj	_
+10	aʔe	aʔe	PART	pcl	Person=3	7	discourse	7:discourse	_
+11	.	.	PUNCT	punct	_	7	punct	7:punct	_
+
+# sent_id = 900
+# text = Nahuhag kwawkatupe wikopa aʔe wa no .
+# text_port = Elas não são muito fortes . (Gomes, 1988)
+# text_spa = No son muy fuertes.
+# text_eng = They are not very strong.
+# V ADV PP [ADV [V]] PART
+1	Nahuhag	uhag	VERB	vd	Polarity=Neg|Rel=Neg	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	katupe	katu	NOUN	n	Case=Dat	1	obl	1:obl	_
+4	wikopa	iko	VERB	vt	Rel=Corf|VerbForm=Ger	1	advcl	1:advcl	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+7	no	no	PART	pcl	_	1	discourse	1:discourse	_
+8	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 901
+# text = Nahuhag kwawkatupe wa taʔe wexak ɨ wa xe .
+# text_port = Elas não são muito fortes quando estão fora da água . (Gomes, 1988)
+# text_spa = No son muy fuertes cuando están fuera del agua.
+# text_eng = They are not very strong when they are out of the water.
+# V ADV PP PART - C V PP PART
+1	Nahuhag	uhag	VERB	vd	Polarity=Neg|Rel=Neg	0	root	0:root	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	katupe	katu	NOUN	n	Case=Dat	1	obl	1:obl	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	taʔe	taʔe	CCONJ	cc	_	6	mark	6:mark	_
+6	wexak	exak	VERB	vi	Person[subj]=3	1	conj	1:conj	_
+7	ɨ	ʔɨ	NOUN	n	_	6	obl	6:obl	_
+8	wa	wa	PART	pcl	Number=Plur	6	discourse	6:discourse	_
+9	xe	xe	PART	pcl	_	6	discourse	6:discourse	_
+10	.	.	PUNCT	punct	_	6	punct	6:punct	_
+
+# sent_id = 902
+# text = Taʔe ɨpe har aʔe wa xe .
+# text_port = Porque são criaturas da água . (Gomes, 1988)
+# text_spa = Porque son criaturas de agua.
+# text_eng = Because they are water creatures.
+# C V PART
+1	taʔe	taʔe	CCONJ	cc	_	2	mark	2:mark	_
+2	ɨpehar	ʔɨ	NOUN	n	Case=Loc	0	root	0:root	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 903
+# text = Heta teteaʔu aʔe wa .
+# text_port = São muitas . (Gomes, 1988)
+# text_spa = Son muchas .
+# text_eng = They are many.
+# V ADV PART
+1	Heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+2	teteaʔu	tete	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 904
+# text = Tueharupi uperek ɨʔaromo wa no .
+# text_port = Todo dia sobem para comer na superfície da água . (Gomes, 1988)
+# text_spa = Todos los días se levantan para comer en la superficie del agua.
+# text_eng = Every day they rise to eat on the surface of the water.
+# PP V PP PART
+1	Tueharupi	tue	NOUN	n	Case=Tem|Nomzr=Circ	2	obl	2:obl	_
+2	uperek	perek	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	ɨʔaromo	ɨ	NOUN	n	Case=Loc	2	obl	2:obl	_
+4	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+5	no	no	PART	pcl	_	2	discourse	2:discourse	_
+6	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 905
+# text = Uʔu maʔe waiko ɨʔaromo wa .
+# text_port = Elas comem coisas que estão em cima da água . (Gomes, 1988)
+# text_spa = Comen cosas que están en el agua.
+# text_eng = They eat things that are on the water.
+# V O AUX PP PART
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	maʔe	maʔe	NOUN	n	_	1	obj	1:obj	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+4	ɨʔaromo	ɨ	NOUN	n	Case=Loc	1	obl	1:obl	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 906
+# text = Hurɨwete waiko ɨ perek wa .
+# text_port = Estão alegres comendo . (Gomes, 1988)
+# text_spa = Son felices comiendo.
+# text_eng = They are happy eating.
+# V AUX PP PART
+1	Hurɨwete	urɨw	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+3	ɨ	ʔɨ	NOUN	n	_	4	nmod	4:nmod	_
+4	perek	perek	NOUN	n	Rel=Cont	1	obl	1:obl	_
+5	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 907
+# text = Maʔe kurer uʔu waiko wa .
+# text_port = Comem restos . (Gomes, 1988)
+# text_spa = Comer restos.
+# text_eng = Eat remains.
+# O V AUX PART
+1	Maʔe	maʔe	NOUN	n	_	2	nmod	2:nmod	_
+2	kurer	kurer	NOUN	n	Rel=Cont	3	obj	3:obj	_
+3	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+4	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	3	aux	3:aux	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+6	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
+# sent_id = 908
+# text = Uzan wamiri aʔe wa kurɨ .
+# text_port = As sardinhas correm . (Gomes, 1988)
+# text_spa = Las sardinas corren.
+# text_eng = Sardines run.
+# V S PART
+1	Uzan	zan	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	wamiri	wamiri	NOUN	n	_	1	nsubj	1:nsubj	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+6	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 909
+# text = Taʔe upaw maʔe kureraʔi aʔe wa kurɨ xe , ikatuahɨ wanupe .
+# text_port = Porque todos os restinhos são bons para elas . (Gomes, 1988)
+# text_spa = Porque todos los restos son buenos para ellos.
+# text_eng = Because all the rest are good for them.
+# C V S PART - V PP
+1	Taʔe	taʔe	CCONJ	cc	_	2	mark	2:mark	_
+2	upaw	paw	VERB	vi	Person[subj]=3	10	conj	10:conj	_
+3	maʔe	maʔe	NOUN	n	_	4	obj	4:obj	_
+4	kureraʔi	kurer	NOUN	n	Dimin=Yes|Rel=Cont	2	nsubj	2:nsubj	_
+5	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+6	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+7	kurɨ	kurɨ	PART	pcl	_	2	discourse	2:discourse	_
+8	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+9	,	,	PUNCT	punct	_	2	punct	2:punct	_
+10	ikatuahɨ	katu	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+11	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	10	obl	10:obl	_
+12	.	.	PUNCT	punct	_	10	punct	10:punct	_
+
+# sent_id = 910
+# text = Hurɨwete waiko wa .
+# text_port = São alegres . (Gomes, 1988)
+# text_spa = Son alegres.
+# text_eng = They are cheerful.
+# V AUX PART
+1	Hurɨwete	urɨw	VERB	vd	Emph=Yes|Rel=NCont	0	root	0:root	_
+2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	1:aux	_
+3	wa	wa	PART	pcl	Number=Plur	1	discourse	1:discourse	_
+4	.	.	PUNCT	punct	_	1	punct	1:punct	_
+
+# sent_id = 911
+# text = Tueharupi uʔu aʔi zanu wa no .
+# text_port = Sempre comem aranhas . (Gomes, 1988)
+# text_spa = Siempre come arañas.
+# text_eng = Always eat spiders.
+# PP V ADV PART
+1	Tueharupi	tue	NOUN	n	Case=Tem|Nomzr=Circ	2	obl	2:obl	_
+2	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+3	aʔi	aʔi	ADV	adv	Dimin=Yes	2	advmod	2:advmod	_
+4	zanu	zanu	NOUN	n	_	2	obj	2:obj	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	2:discourse	_
+6	no	no	PART	pcl	_	2	discourse	2:discourse	_
+7	.	.	PUNCT	punct	_	2	punct	2:punct	_
+
+# sent_id = 912
+# text = Aʔe rupi wamiri uker ɨremeɨwɨr wa no .
+# text_port = Dormem na beira da água . (Gomes, 1988)
+# text_spa = Dormir en el borde del agua.
+# text_eng = Sleep on the water's edge.
+# PP S V PP PART
+1	Aʔe	aʔe	PRON	pro	Person=3	4	obl	4:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	wamiri	wamiri	NOUN	n	_	4	nsubj	4:nsubj	_
+4	uker	ker	VERB	vi	Person[subj]=3	0	root	0:root	_
+5-7	ɨremeɨwɨr	_	_	_	_	_	_	_	_
+5	ɨ	ʔɨ	NOUN	n	_	4	obl	4:obl	_
+6	reme	ʔɨ	NOUN	n	Case=Loc|Rel=Cont	5	nmod	5:nmod	_
+7	ʔɨwɨr	ʔɨ	NOUN	n	Case=Loc	6	nmod	6:nmod	_
+8	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+9	no	no	PART	pcl	_	4	discourse	4:discourse	_
+10	.	.	PUNCT	punct	_	4	punct	4:punct	_
+
+# sent_id = 913
+# text = Nezewe wamiri uker ɨ remeʔɨwɨraʔi aʔe wa kurɨ .
+# text_port = Dormem na beira da água  (Gomes, 1988).
+# text_spa = Dormir en el borde del agua.
+# text_eng = Sleep on the water's edge.
+# ADV S V PP PART
+1	Nezewe	nezewe	ADV	adv	_	3	advmod	3:advmod	_
+2	wamiri	wamiri	NOUN	n	_	3	nsubj	3:nsubj	_
+3	uker	ker	VERB	vi	Person[subj]=3	0	root	0:root	_
+4-6	ɨremeɨwɨraʔi	_	_	_	_	_	_	_	_
+4	ɨ	ʔɨ	NOUN	n	_	3	obl	3:obl	_
+5	reme	ʔɨ	NOUN	n	Case=Loc|Rel=Cont	4	nmod	4:nmod	_
+6	ʔɨwɨraʔi	ʔɨ	NOUN	n	Case=Loc|Dimin=Yes	5	nmod	5:nmod	_
+7	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+8	wa	wa	PART	pcl	Number=Plur	3	discourse	3:discourse	_
+9	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+10	.	.	PUNCT	punct	_	3	punct	3:punct	_
+
