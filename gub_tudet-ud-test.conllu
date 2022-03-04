@@ -12807,7 +12807,7 @@
 6	nezewe	nezewe	ADV	adv	_	5	advmod	5:advmod	_
 7	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	5	obl	5:obl	_
 8	no	no	PART	pcl	_	5	discourse	5:discourse	_
-9	,	,	PUNCT	punct	_	11	punct	11:punct	_
+9	,	,	PUNCT	punct	_	10	punct	10:punct	_
 10	wamiri	wamiri	NOUN	n	_	7	appos	7:appos	_
 11	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	10	obl	10:obl	_
 12	no	no	PART	pcl	_	10	discourse	10:discourse	_
