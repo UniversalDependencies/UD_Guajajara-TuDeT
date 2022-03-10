@@ -13358,3 +13358,802 @@
 9	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
 10	.	.	PUNCT	punct	_	3	punct	3:punct	_
 
+# sent_id = 914
+# text = Zuʔui oho mɨnɨkawpe
+# text_port = O sapo vai para a festa (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = La rana va a la fiesta
+# text_eng = The frog goes to the party
+# S V PP
+1	Zuʔui	zuʔui	NOUN	n	_	2	nsubj	2:nsubj	_
+2	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+3	mɨnɨkawpe	mɨnɨk	NOUN	n	Case=Loc|Nomzr=Circ	2	obl	2:obl	_
+
+# sent_id = 915
+# text = Omo ʔar rehe zekwehe heta mɨnɨkaw miar uwewemaʔe wanupe ɨwate
+# text_port = Certa vez, havia uma dança para animais que voam, no céu (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Una vez hubo un baile para animales volando en el cielo
+# text_eng = Once there was a dance for animals flying in the sky
+# PP ADV V PP PP
+1	Omo	amo	DET	dem	PronType=Ind	2	det	2:det	_
+2	ʔar	ʔar	NOUN	n	_	5	obl	5:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+5	heta	eta	VERB	vd	Rel=NCont	0	root	0:root	_
+6	mɨnɨkaw	mɨnɨk	NOUN	n	Nomzr=Circ	2	nsubj	2:nsubj	_
+7	miar	miar	NOUN	n	_	8	nmod	8:nmod	_
+8	uwewemaʔe	wewe	NOUN	n	Nomzr=Abs|Rel=Corf	5	obl	5:obl	_
+9	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	8	case	8:case	_
+10	ɨwate	ɨwak	NOUN	n	Emph=Yes	5	obl	5:obl	_
+
+# sent_id = 916
+# text = Omo ʔar rehe zekwehe apitaw oho zuʔi hapuz me kurɨ
+# text_port = Certa vez, o urubu foi à casa do sapo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Una vez, el buitre fue a la casa de la rana
+# text_eng = Once, the vulture went to the frog's house
+# PP ADV S V PP PART
+1	Omo	amo	DET	dem	PronType=Ind	2	det	2:det	_
+2	ʔar	ʔar	NOUN	n	_	5	obl	5:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+5	apitaw	apitaw	NOUN	n	_	6	nsubj	6:nsubj	_
+6	oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+7	zuʔi	zuʔi	NOUN	n	_	8	nmod	8:nmod	_
+8	hapuz	apuz	NOUN	n	Rel=NCont	6	obl	6:obl	_
+9	me	me	ADP	posp	Rel=Cont	8	case	8:case	_
+10	kurɨ	kurɨ	PART	pcl	_	6	discourse	6:discourse	_
+
+# sent_id = 917
+# text = Naʔe zekwehe uhem zekwehe oho hapuz me
+# text_port = O urubu chegou à casa dele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = El buitre llegó a su casa
+# text_eng = The vulture arrived at his house
+# C ADV V ADV AUX PP
+1	Naʔe	naʔe	CCONJ	cc	_	3	mark	3:mark	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+3	uhem	hem	VERB	vi	Person[subj]=3	0	root	0:root	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+5	oho	ho	VERB	vi	Person[subj]=3	3	dep	3:dep	_
+6	hapuz	apuz	NOUN	n	Rel=NCont	3	obl	3:obl	_
+7	me	me	ADP	posp	Rel=Cont	6	case	6:case	_
+
+# sent_id = 918
+# text = Zanekuʔem hemurɨpar iʔi zekwehe izupe
+# text_port = "Bom dia meu amigo!" Disse o urubu para ele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¡Buen día mi amigo!" Le dijo el buitre
+# text_eng = "Good morning my friend!" Said the vulture to him
+# [O [V VOC]] V ADV PP
+1	Zanekuʔem	kuʔem	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1|Poss=Yes	3	ccomp	3:ccomp	_
+2	hemurɨpar	urɨw	NOUN	n	Nomzr=Circ|Number=Sing|Person[psor]=1|Poss=Yes|Voice=Cau	1	vocative	1:vocative	_
+3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	izupe	upe	ADP	posp	Rel=NCont	3	iobj	3:iobj	_
+
+# sent_id = 919
+# text = Zanekuʔem aipo pa iʔi zekwehe zuʔi izupe aʔe no
+# text_port = "Bom dia!" Disse o sapo para ele também (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¡Buen día!" Le dijo la rana también
+# text_eng = "Good Morning!" Said the frog to him too
+# [O [V PART]] V ADV S PP PART
+1	Zanekuʔem	kuʔem	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1|Poss=Yes	4	ccomp	4:ccomp	_
+2	aipo	aipo	ADV	adv	_	1	advmod	1:advmod	_
+3	pa	pa	PART	pcl	_	1	discourse	1:discourse	_
+4	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+5	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6	zuʔi	zuʔi	NOUN	n	_	4	nsubj	4:nsubj	_
+7	izupe	upe	ADP	posp	Rel=NCont	4	iobj	4:iobj	_
+8	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+9	no	no	PART	pcl	_	4	discourse	4:discourse	_
+
+# sent_id = 920
+# text = Zaixe tɨ iʔi zekwehe izupe
+# text_port = "Entremos amigo" O sapo disse para ele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Entramos a un amigo" La rana le dijo
+# text_eng = "We enter a friend" The frog told him
+# [O [V PART]] V ADV PP
+1	Zaixe	ixe	VERB	vi	Clusivity=In|Number=Plur|Person[subj]=1	3	ccomp	3:ccomp	_
+2	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	izupe	upe	ADP	posp	Rel=NCont	3	iobj	3:iobj	_
+
+# sent_id = 921
+# text = Eapɨk tɨ iʔi zekwehe izupe no
+# text_port = "Sente amigo!" O sapo disse para ele novamente (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¡Siéntese, amigo!" La rana le dijo de nuevo
+# text_eng = "Sit down, friend!" The frog told him again
+# [O [V PART]] V ADV PP PART
+1	Eapɨk	apɨk	VERB	v	Mood=Imp|Number=Sing|Person[subj]=2	3	ccomp	3:ccomp	_
+2	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	izupe	upe	ADP	posp	Rel=NCont	3	iobj	3:iobj	_
+6	no	no	PART	pcl	_	3	discourse	3:discourse	_
+
+# sent_id = 922
+# text = Naʔe zekwehe apitaw wapɨkini kurɨ
+# text_port = O urubu se assentou (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = El buitre se sentó
+# text_eng = The vulture sat down
+# C ADV S V PART
+1	Naʔe	naʔe	CCONJ	cc	_	4	mark	4:mark	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	apitaw	apitaw	NOUN	n	_	4	nsubj	4:nsubj	_
+4-5	wapɨkini	_	_	_	_	_	_	_	_
+4	wapɨk	apɨk	VERB	vi	Person[subj]=3	0	root	0:root	_
+5	ini	in	AUX	aux	Person[subj]=3	4	aux	4:aux	_
+6	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+
+# sent_id = 923
+# text = Naʔe zekwehe iʔi zuʔipe kurɨ
+# text_port = Então, o urubu disse para o sapo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Entonces el buitre le dijo a la rana
+# text_eng = Then the vulture told the frog
+# C ADV V PP PART
+1	Naʔe	naʔe	CCONJ	cc	_	3	mark	3:mark	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+4	zuʔipe	zuʔi	NOUN	n	Case=Dat	3	obl	3:obl	_
+5	kurɨ	kurɨ	PART	pcl	_	6	discourse	6:discourse	_
+
+# sent_id = 924
+# text = Hemurɨpar nerehokwaw mɨnɨkawpe tɨ iʔi zekwehe izupe
+# text_port = "Meu amigo, você não vai para a festa?" O urubu disse para ele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Mi amigo, ¿no vas a la fiesta?", le dijo el buitre
+# text_eng = "My friend, do not you go to the party?", the vulture told him
+# [O [VOC V PP PART]] V ADV PP
+1	Hemurɨpar	urɨw	NOUN	n	Nomzr=Circ|Number=Sing|Person[psor]=1|Poss=Yes|Voice=Cau	2	vocative	2:vocative	_
+2	nerehokwaw	ho	VERB	vi	Number=Sing|Person[subj]=2|Polarity=Neg	5	ccomp	5:ccomp	_
+3	mɨnɨkawpe	mɨnɨk	NOUN	n	Case=Loc|Nomzr=Circ	2	obl	2:obl	_
+4	tɨ	tɨ	PART	pcl	_	2	discourse	2:discourse	_
+5	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+6	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7	izupe	upe	ADP	posp	Rel=NCont	5	iobj	5:iobj	_
+
+# sent_id = 925
+# text = Nan kwaw pa iʔi zekwehe zuʔi izupe aʔe no
+# text_port = "Não vou não" O sapo disse para ele novamente (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "No lo haré" La rana le dijo de nuevo
+# text_eng = "I will not not" The frog told him again
+# [O [INTJ ADV PART]] V ADV S I PART
+1	Nan	nan	INTJ	intj	Polarity=Neg	4	ccomp	4:ccomp	_
+2	kwaw	kwaw	ADV	adv	Polarity=Neg	1	advmod	1:advmod	_
+3	pa	pa	PART	pcl	_	1	discourse	1:discourse	_
+4	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+5	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6	zuʔi	zuʔi	NOUN	n	_	4	nsubj	4:nsubj	_
+7	izupe	upe	ADP	posp	Rel=NCont	4	iobj	4:iobj	_
+8	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+9	no	no	PART	pcl	_	4	discourse	4:discourse	_
+
+# sent_id = 926
+# text = Taʔe nawewekwaw zote ihe xe
+# text_port = Porque eu não voo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Porque no vuelo
+# text_eng = Because I do not fly
+# C V PART S PART
+1	Taʔe	taʔe	CCONJ	cc	_	2	mark	2:mark	_
+2	nawewekwaw	wewe	VERB	vi	Number=Sing|Person[subj]=1|Polarity=Neg	0	root	0:root	_
+3	zote	zote	PART	pcl	_	2	discourse	2:discourse	_
+4	ihe	ihe	PRON	pro	Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+5	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+
+# sent_id = 927
+# text = Azeharomoete pa iʔi zekwehe apitaw izupe
+# text_port = "É verdade!" O urubu disse para ele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¡Es verdad!" le dijo el buitre
+# text_eng = "It is true!" The vulture told him
+# [O [N PART]] V ADV S PP
+1	Azeharomoete	aze	NOUN	n	Case=Tra|Emph=Yes|Nomzr=Ag	3	ccomp	3:ccomp	_
+2	pa	pa	PART	pcl	_	1	discourse	1:discourse	_
+3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	apitaw	apitaw	NOUN	n	_	3	nsubj	3:nsubj	_
+6	izupe	upe	ADP	posp	Rel=NCont	3	iobj	3:iobj	_
+
+# sent_id = 928
+# text = Kwa ahaputar ihe pa iʔi zekwehe apitaw zuʔipe
+# text_port = "Está bem, eu vou" O urubu disse para o sapo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Está bien, me voy" le dijo el buitre a la rana
+# text_eng = "Okay, I'm going" the vulture told the frog
+# [O [INTJ V S PART]] V ADV S PP
+1	Kwa	kwa	INTJ	intj	_	2	discourse	2:discourse	_
+2	ahaputar	ho	VERB	vi	Number=Sing|Person[subj]=1|Tense=Fut	5	ccomp	5:ccomp	_
+3	ihe	ihe	PRON	pro	Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	_
+4	pa	pa	PART	pcl	_	2	discourse	2:discourse	_
+5	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+6	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7	apitaw	apitaw	NOUN	n	_	5	nsubj	5:nsubj	_
+8	zuʔipe	zuʔi	NOUN	n	Case=Dat	5	obl	5:obl	_
+
+# sent_id = 929
+# text = Ereiʔi zekwehe zuʔi izupe aʔe no
+# text_port = "Vá!" O sapo disse para ele novamente (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¡Ir!" La rana le dijo de nuevo
+# text_eng = "Go!" The frog told him again
+# V ADV S I PART PART
+1	Ereiʔi	ʔi	VERB	vt	Number=Sing|Person[subj]=2	0	root	0:root	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	zuʔi	zuʔi	NOUN	n	_	1	nsubj	1:nsubj	_
+4	izupe	upe	ADP	posp	Rel=NCont	1	iobj	1:iobj	_
+5	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+6	no	no	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 930
+# text = Pɨhawe nehe azurputar ko rupi iʔi zekwehe izupe
+# text_port = "Amanhã, voltarei por aqui" O urubu disse para ele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Mañana, volveré aquí" le dijo el buitre
+# text_eng = "Tomorrow, I'll be back here" the vulture told him
+# [O [PP PART V PP]] V ADV I
+1	Pɨhawe	pɨ	NOUN	n	Nomzr=Circ	3	obl	3:obl	_
+2	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	1:discourse	_
+3	azurputar	zur	VERB	vi	Number=Sing|Person[subj]=1|Tense=Fut	6	ccomp	6:ccomp	_
+4	ko	ko	NOUN	n	_	3	obl	3:obl	_
+5	rupi	upi	ADP	posp	Rel=Cont	4	case	4:case	_
+6	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+7	zekwehe	kwehe	ADV	adv	Evident=Nfh	6	advmod	6:advmod	_
+8	izupe	upe	ADP	posp	Rel=NCont	6	iobj	6:iobj	_
+
+# sent_id = 931
+# text = Pɨhaweteahɨ zekwehe kurɨ
+# text_port = Era cedo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Era temprano
+# text_eng = It was early
+# V ADV PART
+1	Pɨhaweteahɨ	pɨ	NOUN	n	Emph=Yes|Nomzr=Circ	0	root	0:root	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 932
+# text = Oho zekwehe aʔe we kurɨ
+# text_port = O urubu passou por lá (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = El buitre pasó allí
+# text_eng = The vulture passed there
+# V ADV PART
+1	Oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	aʔe	aʔe	PART	pcl	Person=3	1	discourse	1:discourse	_
+4	we	we	PART	pcl	_	1	discourse	1:discourse	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 933
+# text = Uhem zekwehe oho zuʔipe no
+# text_port = O urubu chegou até o sapo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = El buitre llegó a la rana
+# text_eng = The vulture reached the frog
+# V ADV AUX PP PART
+1	Uhem	hem	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+4	zuʔipe	zuʔi	NOUN	n	Case=Dat	1	obl	1:obl	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 934
+# text = Zanekuʔem tɨ iʔi zekwehe zuʔi izupe aʔe no
+# text_port = "Bom dia amigo" O sapo disse para ele novamente (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Buenos días, amigo" La rana le dijo de nuevo
+# text_eng = "Good morning mate" The frog told him again
+# [O [V PART]] V ADV S PP PART
+1	Zanekuʔem	kuʔem	NOUN	n	Clusivity=In|Number=Plur|Person[psor]=1|Poss=Yes	3	ccomp	3:ccomp	_
+2	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	zuʔi	zuʔi	NOUN	n	_	3	nsubj	3:nsubj	_
+6	izupe	upe	ADP	posp	Rel=NCont	3	iobj	3:iobj	_
+7	aʔe	aʔe	PART	pcl	Person=3	3	discourse	3:discourse	_
+8	no	no	PART	pcl	_	3	discourse	3:discourse	_
+
+# sent_id = 935
+# text = Zaixe tɨ iʔi zekwehe zuʔi izupe
+# text_port = "Entremos amigo" Disse o sapo para ele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Entramos a un amigo" Le dijo la rana para él
+# text_eng = "We enter a friend" Said the frog for him
+# [O [V PART]] V ADV S I
+1	Zaixe	ixe	VERB	vi	Clusivity=In|Number=Plur|Person[subj]=1	3	ccomp	3:ccomp	_
+2	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	zuʔi	zuʔi	NOUN	n	_	3	nsubj	3:nsubj	_
+6	izupe	upe	ADP	posp	Rel=NCont	3	iobj	3:iobj	_
+
+# sent_id = 936
+# text = Naʔe zekwehe apitaw wixe oho kurɨ
+# text_port = Então o urubu entrou (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Entonces el buitre entró
+# text_eng = Then the vulture entered
+# C ADV S V AUX PART
+1	Naʔe	naʔe	CCONJ	cc	_	4	mark	4:mark	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	apitaw	apitaw	NOUN	n	_	4	nsubj	4:nsubj	_
+4	wixe	ixe	VERB	vi	Person[subj]=3	0	root	0:root	_
+5	oho	ho	VERB	vi	Person[subj]=3	4	dep	4:dep	_
+6	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+
+# sent_id = 937
+# text = Eapɨk rihi tɨ iʔi zekwehe zuʔi izupe
+# text_port = "Sente-se primeiro amigo" Disse o sapo para ele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Siéntese primero amigo" Le dijo la rana
+# text_eng = "Sit first friend" Said the frog to him
+# [O [V PART]] V ADV S I
+1	Eapɨk	apɨk	VERB	v	Mood=Imp|Number=Sing|Person[subj]=2	4	ccomp	4:ccomp	_
+2	rihi	rihi	PART	pcl	_	1	discourse	1:discourse	_
+3	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+4	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+5	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6	zuʔi	zuʔi	NOUN	n	_	4	nsubj	4:nsubj	_
+7	izupe	upe	ADP	posp	Rel=NCont	4	iobj	4:iobj	_
+
+# sent_id = 938
+# text = Wapɨk zekwehe apitaw
+# text_port = O urubu sentou (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = El buitre se sentó
+# text_eng = The Urubu sat down
+# V ADV S
+1	Wapɨk	_	_	_	_	_	_	_	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+3	apitaw	apitaw	NOUN	n	_	6	nsubj	6:nsubj	_
+
+# sent_id = 939
+# text = Emuapɨk newioraw tɨ
+# text_port = Coloque seu violão no chão (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Pon tu guitarra en el suelo
+# text_eng = Put your guitar on the floor
+# V O PART
+1	Emuapɨk	apɨk	VERB	vt	Number=Sing|Person[subj]=2|Voice=Cau	0	root	0:root	_
+2	newioraw	wioraw	NOUN	n	Foreign=Yes|Number=Sing|Person[psor]=2|Poss=Yes|Rel=Cont	1	obj	1:obj	_
+3	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 940
+# text = Taʔe xiu ʔɨpihun rihi xe iʔi zekwehe zuʔi izupe
+# text_port = "Bebamos café primeiro aqui" Disse o sapo para ele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Damos el café primero aquí" Le dijo la rana.
+# text_eng = "We drank coffee first here" Said the frog to him
+# [O [C V O PART]] V ADV S I
+1	Taʔe	taʔe	CCONJ	cc	_	2	mark	2:mark	_
+2	xiu	ʔu	VERB	vt	Clusivity=In|Number=Plur|Person[subj]=1	7	ccomp	7:ccomp	_
+3-4	ʔɨpihun	_	_	_	_	_	_	_	_
+3	ʔɨ	ʔɨ	NOUN	n	_	2	obl	2:obl	_
+4	pihun	pi	NOUN	n	Rel=Cont	3	nmod	3:nmod	_
+5	rihi	rihi	PART	pcl	_	2	discourse	2:discourse	_
+6	xe	xe	PART	pcl	_	2	discourse	2:discourse	_
+7	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+8	zekwehe	kwehe	ADV	adv	Evident=Nfh	7	advmod	7:advmod	_
+9	zuʔi	zuʔi	NOUN	n	_	7	nsubj	7:nsubj	_
+10	izupe	upe	ADP	posp	Rel=NCont	7	iobj	7:iobj	_
+
+# sent_id = 941
+# text = Naʔe zekwehe zuʔi uzeʔeg wemirikope kurɨ
+# text_port = O sapo falou para sua própria esposa então (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = La rana habló a su propia esposa entonces
+# text_eng = The frog spoke to his own wife then
+# C ADV S V PP PART
+1	Naʔe	naʔe	CCONJ	cc	_	4	mark	4:mark	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	zuʔi	zuʔi	NOUN	n	_	4	nsubj	4:nsubj	_
+4	uzeʔeg	zeʔeg	VERB	vi	Person[subj]=3	0	root	0:root	_
+5	wemirikope	iko	NOUN	n	Case=Dat|Nomzr=DevPass|Rel=Corf	4	obl	4:obl	_
+6	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+
+# sent_id = 942
+# text = Ezapo ʔɨpihun hemurɨparpe
+# text_port = Faça café para meu amigo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Haz café para mi amigo
+# text_eng = Make coffee for my friend
+# V O PP
+1	Ezapo	apo	VERB	vt	Mood=Imp|Number=Sing|Person[subj]=2	0	root	0:root	_
+2-3	ʔɨpihun	_	_	_	_	_	_	_	_
+2	ʔɨ	ʔɨ	NOUN	n	_	1	obl	1:obl	_
+3	pihun	pi	NOUN	n	Rel=Cont	2	nmod	2:nmod	_
+4	hemurɨparpe	urɨw	NOUN	n	Case=Dat|Nomzr=Circ|Number=Sing|Person[psor]=1|Poss=Yes|Voice=Cau	1	obl	1:obl	_
+
+# sent_id = 943
+# text = Naʔe zekwehe hemiriko uzapo paw ʔɨpihun kurɨ
+# text_port = Minha esposa fez todo o café então (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Mi esposa hizo todo el café entonces
+# text_eng = My wife made all the coffee then
+# C ADV S V O PART
+1	Naʔe	naʔe	CCONJ	cc	_	4	mark	4:mark	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	hemiriko	iko	NOUN	n	Nomzr=DevPass|Rel=NCont	4	obj	4:obj	_
+4	uzapo	apo	VERB	vt	Person[subj]=3	0	root	0:root	_
+5	paw	paw	DET	dem	PronType=Tot	6	det	6:det	_
+6-7	ʔɨpihun	_	_	_	_	_	_	_	_
+6	ʔɨ	ʔɨ	NOUN	n	_	4	obl	4:obl	_
+7	pihun	pi	NOUN	n	Rel=Cont	6	nmod	6:nmod	_
+8	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+
+# sent_id = 944
+# text = Aiko kurɨ ma iʔi zekwehe umenpe kurɨ
+# text_port = "Eu estou então" Disse o sapo para sua própria esposa (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Yo ya estoy" Le dijo la esposa a su marido
+# text_eng = "I'm done" His wife said to the frog.
+# [O [V PART]] V ADV PP PART
+1	Aiko	iko	VERB	vi	Number=Sing|Person[subj]=1	4	ccomp	4:ccomp	_
+2	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+3	ma	ma	PART	pcl	_	1	discourse	1:discourse	_
+4	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+5	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6	umenpe	men	NOUN	n	Case=Dat|Rel=Corf	4	obl	4:obl	_
+7	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+
+# sent_id = 945
+# text = Eʔu eho tɨ iʔi zekwehe zuʔi apitawpe kurɨ
+# text_port = "Beba amigo" Ele disse o sapo para o urubu (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Beba, amigo" Le dijo la rana al buitre
+# text_eng = "Drink, my friend" The frog said to the vulture
+# [O [V AUX PART]] V ADV S PP PART
+1	Eʔu	ʔu	VERB	vt	Mood=Imp|Number=Sing|Person[subj]=2	4	ccomp	4:ccomp	_
+2	eho	ho	VERB	vi	Mood=Imp|Number=Sing|Person[subj]=2	1	dep	1:dep	_
+3	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+4	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+5	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6	zuʔi	zuʔi	NOUN	n	_	4	nsubj	4:nsubj	_
+7	apitawpe	apitaw	NOUN	n	Case=Dat	4	obl	4:obl	_
+8	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+
+# sent_id = 946
+# text = Uʔu apitaw ʔɨpihun oho kurɨ
+# text_port = O uruhu bebeu o café (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = El buitre bebió el café
+# text_eng = The vulture drank the coffee
+# V S O AUX PART
+1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	apitaw	apitaw	NOUN	n	_	1	nsubj	1:nsubj	_
+3-4	ʔɨpihun	_	_	_	_	_	_	_	_
+3	ʔɨ	ʔɨ	NOUN	n	_	1	obl	1:obl	_
+4	pihun	pi	NOUN	n	Rel=Cont	3	nmod	3:nmod	_
+5	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+6	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 947
+# text = Nezewe mehe we zekwehe zuʔi wixe oho apitaw wioraw pupe kurɨ
+# text_port = Enquanto isso, o sapo entrou dentro do violão dele (do urubu) (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Mientras tanto, la rana entró en su guitarra (de Urubu)
+# text_eng = Meanwhile, the frog entered into his guitar (from Urubu)
+# PP PART ADV S V AUX PP PART
+1	Nezewe	nezewe	ADV	adv	_	6	obl	6:obl	_
+2	mehe	mehe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	we	we	PART	pcl	_	6	discourse	6:discourse	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	6	advmod	6:advmod	_
+5	zuʔi	zuʔi	NOUN	n	_	6	nsubj	6:nsubj	_
+6	wixe	ixe	VERB	vi	Person[subj]=3	0	root	0:root	_
+7	oho	ho	VERB	vi	Person[subj]=3	6	dep	6:dep	_
+8	apitaw	apitaw	NOUN	n	_	9	nmod	9:nmod	_
+9	wioraw	wioraw	NOUN	n	Foreign=Yes|Rel=Cont	6	obl	6:obl	_
+10	pupe	pupe	ADP	posp	Rel=Cont	9	case	9:case	_
+11	kurɨ	kurɨ	PART	pcl	_	6	discourse	6:discourse	_
+
+# sent_id = 948
+# text = Naʔe zekwehe iʔi kurɨ
+# text_port = O urubu disse (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Le dijo el buitre
+# text_eng = The vulture said
+# C ADV V PART
+1	Naʔe	naʔe	CCONJ	cc	_	3	mark	3:mark	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+4	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
+
+# sent_id = 949
+# text = Ahaputar aipo ihe pa
+# text_port = Eu já vou (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Ya me voy
+# text_eng = I'm leaving
+# V ADV S PART
+1	Ahaputar	ho	VERB	vi	Number=Sing|Person[subj]=1|Tense=Fut	0	root	0:root	_
+2	aipo	aipo	ADV	adv	_	1	advmod	1:advmod	_
+3	ihe	ihe	PRON	pro	Person=1|PronType=Prs	1	nsubj	1:nsubj	_
+4	pa	pa	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 950
+# text = Upɨhɨk zekwehe uwioraw kurɨ
+# text_port = (O urubu) pegou o violão dele (mesmo) (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = El buitre recogió su guitarra 
+# text_eng = The vulture picked up his guitar
+# V ADV O PART
+1	Upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	uwioraw	wioraw	NOUN	n	Foreign=Yes|Rel=Corf	1	obj	1:obj	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 951
+# text = Uwewe zekwehe ɨwate kurɨ
+# text_port = (O urubu) voou para o céu (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = El buitre voló al cielo
+# text_eng = The vulture flew to heaven
+# V ADV PP PART
+1	Uwewe	wewe	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	ɨwate	ɨwak	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 952
+# text = Ipuhuzkatu tue hewioraw aipo no pa iʔi zekwehe uzeupe
+# text_port = "Meu violão está tão pesado!" Disse para si mesmo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¡Mi guitarra es tan pesada!" Se dijo a sí mismo
+# text_eng = "My guitar is so heavy!" He said to himself
+# [O [V PART S ADV PART]] V ADV I
+1	Ipuhuzkatu	puhuz	VERB	vd	Emph=Yes|Rel=NCont	7	ccomp	7:ccomp	_
+2	tue	tue	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	hewioraw	wioraw	NOUN	n	Foreign=Yes|Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	1	nsubj	1:nsubj	_
+4	aipo	aipo	ADV	adv	_	1	advmod	1:advmod	_
+5	no	no	PART	pcl	_	1	discourse	1:discourse	_
+6	pa	pa	PART	pcl	_	1	discourse	1:discourse	_
+7	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+8	zekwehe	kwehe	ADV	adv	Evident=Nfh	7	advmod	7:advmod	_
+9	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	7	iobj	7:iobj	_
+
+# sent_id = 953
+# text = Uhem zekwehe oho mɨnɨkawpe kurɨ
+# text_port = Chegou na festa então (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Llegó a la fiesta entonces
+# text_eng = He arrived at the party then
+# V ADV AUX PP PART
+1	Uhem	hem	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	oho	ho	VERB	vi	Person[subj]=3	1	dep	1:dep	_
+4	mɨnɨkawpe	mɨnɨk	NOUN	n	Case=Loc|Nomzr=Circ	1	obl	1:obl	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 954
+# text = Naʔe zekwehe uwioraw umuapɨk heraha no
+# text_port = Ele colocou seu violão (no chão) (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Puso su guitarra (en el suelo)
+# text_eng = He put his guitar (on the floor)
+# C ADV O V AUX PART
+1	Naʔe	naʔe	CCONJ	cc	_	4	mark	4:mark	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	uwioraw	wioraw	NOUN	n	Foreign=Yes|Rel=Corf	4	obj	4:obj	_
+4	umuapɨk	apɨk	VERB	vt	Person[subj]=3|Voice=Cau	0	root	0:root	_
+5	heraha	ho	VERB	vi	Rel=NCont|Voice=Com	4	dep	4:dep	_
+6	no	no	PART	pcl	_	4	discourse	4:discourse	_
+
+# sent_id = 955
+# text = Oho zekwehe mɨnikawpe izuwi
+# text_port = Foi para a festa (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Fue para la fiesta
+# text_eng = He went to the party
+# V ADV PP PP
+1	Oho	ho	VERB	vi	Person[subj]=3	0	root	0:root	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	mɨnikawpe	mɨnɨk	NOUN	n	Case=Loc|Nomzr=Circ	1	obl	1:obl	_
+4	izuwi	uwi	ADP	posp	Rel=NCont	1	obl	1:obl	_
+
+# sent_id = 956
+# text = Nan kwehe tete zekwehe zuʔi uhem oho mɨnikawpe aʔe no
+# text_port = Em breve, o sapo chegou à festa (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Pronto, la rana llegó a la fiesta
+# text_eng = Soon, the frog arrived at the party
+# ADV S V AUX PP PART
+1	Nan	nan	ADV	adv	Polarity=Neg	2	advmod	2:advmod	_
+2	kwehe	kwehe	ADV	adv	Tense=Past	6	advmod	6:advmod	_
+3	tete	tete	ADV	adv	Emph=Yes	2	advmod	2:advmod	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	6	advmod	6:advmod	_
+5	zuʔi	zuʔi	NOUN	n	_	6	nsubj	6:nsubj	_
+6	uhem	hem	VERB	vi	Person[subj]=3	0	root	0:root	_
+7	oho	ho	VERB	vi	Person[subj]=3	6	dep	6:dep	_
+8	mɨnikawpe	mɨnɨk	NOUN	n	Case=Loc|Nomzr=Circ	6	obl	6:obl	_
+9	aʔe	aʔe	PART	pcl	Person=3	6	discourse	6:discourse	_
+10	no	no	PART	pcl	_	6	discourse	6:discourse	_
+
+# sent_id = 957
+# text = Aipo tue erezur ne raʔe no tɨ iʔi zekwehe apitaw zuʔipe kurɨ
+# text_port = "Você veio também amigo?" Disse o urubu para o sapo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¿Vienes tú también amigo?" le dijo el buitre a la rana
+# text_eng = "Did you come too friend?" Said the vulture to the frog
+# [O [ADV V S PART]] V ADV S PP PART
+1	Aipo	aipo	ADV	adv	Int=Yes	3	advmod	3:advmod	_
+2	tue	tue	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+3	erezur	zur	VERB	vi	Number=Sing|Person[subj]=2	8	ccomp	8:ccomp	_
+4	ne	ne	PRON	pro	Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	_
+5	raʔe	raʔe	PART	pcl	_	3	discourse	3:discourse	_
+6	no	no	PART	pcl	_	3	discourse	3:discourse	_
+7	tɨ	tɨ	PART	pcl	_	3	discourse	3:discourse	_
+8	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+9	zekwehe	kwehe	ADV	adv	Evident=Nfh	9	advmod	9:advmod	_
+10	apitaw	apitaw	NOUN	n	_	9	nsubj	9:nsubj	_
+11	zuʔipe	zuʔi	NOUN	n	Case=Dat	9	obl	9:obl	_
+12	kurɨ	kurɨ	PART	pcl	_	9	discourse	9:discourse	_
+
+# sent_id = 958
+# text = Heʔe pa azur roko ihe no pa iʔi zekwehe izupe
+# text_port = "Sim, eu vim também" (O sapo) disse para ele (o urubu) (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Sí, yo también vine" (La rana) le dijo (el buitre)
+# text_eng = "Yes, I came too" (The frog) told him (the vulture)
+# [O [INTJ PART V PART S PART]] V ADV I
+1	Heʔe	heʔe	INTJ	intj	Polarity=Pos	3	discourse	3:discourse	_
+2	pa	pa	PART	pcl	_	1	discourse	1:discourse	_
+3	azur	zur	VERB	vi	Number=Sing|Person[subj]=1	8	ccomp	8:ccomp	_
+4	roko	roko	PART	pcl	Tense=Past	3	discourse	3:discourse	_
+5	ihe	ihe	PRON	pro	Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
+6	no	no	PART	pcl	_	3	discourse	3:discourse	_
+7	pa	pa	PART	pcl	_	3	discourse	3:discourse	_
+8	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+9	zekwehe	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
+10	izupe	upe	ADP	posp	Rel=NCont	8	iobj	8:iobj	_
+
+# sent_id = 959
+# text = Marazawe erezur raʔe tɨ iʔi zekwehe izupe
+# text_port = "Como você veio amigo?" Disse (o uruhu) para ele (o sapo) (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¿Cómo vendiste amigo?" Le dijo el buitre a la rana
+# text_eng = "How did you come friend?" The vulture told the frog
+# [O [PP V PART]] V ADV PP
+1	Marazawe	mara	PRON	pro	Case=Equ|PronType=Int	2	obl	2:obl	_
+2	erezur	zur	VERB	vi	Number=Sing|Person[subj]=2	5	ccomp	5:ccomp	_
+3	raʔe	PART	pcl	_	2	discourse	2:discourse	_
+4	tɨ	tɨ	PART	pcl	_	2	discourse	2:discourse	_
+5	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+6	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7	izupe	upe	ADP	posp	Rel=NCont	5	iobj	5:iobj	_
+
+# sent_id = 960
+# text = Nahetakwaw nepepo no iʔi zekwehe apitaw zuʔipe kurɨ
+# text_port = "Você não tem asas" O urubu disse para o sapo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "No tienes alas" le dijo el buitre a la rana
+# text_eng = "You do not have wings" the vulture told the frog
+# [O [V S PART]] V ADV S PP PART
+1	Nahetakwaw	eta	VERB	vd	Polarity=Neg|Rel=NCont	4	ccomp	4:ccomp	_
+2	nepepo	pepo	NOUN	n	Number=Sing|Person[psor]=2|Poss=Yes	1	nsubj	1:nsubj	_
+3	no	no	PART	pcl	_	1	discourse	1:discourse	_
+4	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+5	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6	apitaw	apitaw	NOUN	n	_	4	nsubj	4:nsubj	_
+7	zuʔipe	zuʔi	NOUN	n	Case=Dat	4	obl	4:obl	_
+8	kurɨ	kurɨ	PART	pcl	_	4	discourse	4:discourse	_
+
+# sent_id = 961
+# text = Marazawe azur iʔi zekwehe izupe
+# text_port = "Como vim?" Disse (o sapo) para ele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¿Cómo vinvo?" Él dijo (la rana) para él
+# text_eng = "How did I come?" He said (the frog) to him
+# [O [PP V]] V ADV I
+1	Marazawe	mara	PRON	pro	Case=Equ|PronType=Int	2	obl	2:obl	_
+2	azur	zur	VERB	vi	Number=Sing|Person[subj]=1	8	ccomp	8:ccomp	_
+3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
+5	izupe	upe	ADP	posp	Rel=NCont	3	iobj	3:iobj	_
+
+# sent_id = 962
+# text = Newioraw pupe rakwez azur ihe tɨ iʔi zekwehe zuʔi apitawpe
+# text_port = "Eu vim dentro de seu violão!" Disse o sapo para o urubu (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¡Vine dentro de tu guitarra!" Le dijo la rana por el buitre
+# text_eng = "I came inside your guitar!" Said the frog for the vulture
+# [O [PP ADV V S PART]] V ADV S PP
+1	Newioraw	wioraw	NOUN	n	Foreign=Yes|Number=Sing|Person[psor]=2|Poss=Yes|Rel=Cont	4	obl	4:obl	_
+2	pupe	pupe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	rakwez	rakwez	ADV	adv	Tense=Past	4	advmod	4:advmod	_
+4	azur	zur	VERB	vi	Number=Sing|Person[subj]=1	7	ccomp	7:ccomp	_
+5	ihe	ihe	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
+6	tɨ	tɨ	PART	pcl	_	4	discourse	4:discourse	_
+7	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+8	zekwehe	kwehe	ADV	adv	Evident=Nfh	7	advmod	7:advmod	_
+9	zuʔi	zuʔi	NOUN	n	_	7	nsubj	7:nsubj	_
+10	apitawpe	apitaw	NOUN	n	Case=Dat	7	obl	7:obl	_
+
+# sent_id = 963
+# text = Kwa eremekuzarputar ne rerurawer ihewe tɨ iʔi zekwehe apitaw zuʔipe
+# text_port = "Ah, você pagará por eu trazer você conmigo!" O urubu disse para o sapo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¡Oh, pagarás por venirte conmigo!" le dijo el buitre a la rana
+# text_eng = "Oh, you'll pay for coming with me!" the vulture told the frog
+# [O [INTJ V S O PP PART]] V ADV S PP
+1	Kwa	kwa	INTJ	intj	_	2	discourse	2:discourse	_
+2	eremekuzarputar	mekuzar	VERB	vt	Number=Sing|Person[subj]=2|Tense=Fut	7	ccomp	7:ccomp	_
+3	ne	ne	PRON	pro	Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	_
+4	rerurawer	zur	NOUN	n	Nomzr=Circ|Rel=Cont|Tense=Past|Voice=Com	2	obj	2:obj	_
+5	ihewe	ihe	ADP	posp	Number=Sing|Person[psor]=1|Rel=Cont	4	obl	4:obl	_
+6	tɨ	tɨ	PART	pcl	_	2	discourse	2:discourse	_
+7	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+8	zekwehe	kwehe	ADV	adv	Evident=Nfh	7	advmod	7:advmod	_
+9	apitaw	apitaw	NOUN	n	_	7	nsubj	7:nsubj	_
+10	zuʔipe	zuʔi	NOUN	n	Case=Dat	7	obl	7:obl	_
+
+# sent_id = 964
+# text = Amekuzar iʔi zekwehe zuʔi izupe aʔe no
+# text_port = "Eu pago" Disse o sapo para ele (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Yo pago" Le dijo la rana para él
+# text_eng = "I pay" Said the frog for him
+# [O [V]] V ADV S I PART
+1	Amekuzar	mekuzar	VERB	vt	Number=Sing|Person[subj]=1	2	ccomp	2:ccomp	_
+2	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+3	zekwehe	kwehe	ADV	adv	Evident=Nfh	2	advmod	2:advmod	_
+4	zuʔi	zuʔi	NOUN	n	_	2	nsubj	2:nsubj	_
+5	izupe	upe	ADP	posp	Rel=NCont	2	iobj	2:iobj	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	2:discourse	_
+7	no	no	PART	pcl	_	2	discourse	2:discourse	_
+
+# sent_id = 965
+# text = Uruitɨkputar nemono ɨwɨpe kurɨ
+# text_port = Eu vou te jogar na terra (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Te lanzaré a la tierra
+# text_eng = I'll throw you on earth
+# V AUX PP PART
+1	Uruitɨkputar	eitɨk	VERB	vt	Number=Sing|Person[subj]=12|Tense=Fut	0	root	0:root	_
+2	nemono	ho	VERB	vi	Number=Sing|Person[psor]=2|Poss=Yes	1	dep	1:dep	_
+3	ɨwɨpe	ɨwɨ	NOUN	n	Case=Loc	1	obl	1:obl	_
+4	kurɨ	kurɨ	PART	pcl	_	1	discourse	1:discourse	_
+
+# sent_id = 966
+# text = Ita rehe ʔɨpe iʔi zekwehe apitaw zuʔipe
+# text_port = "Será nas pedras ou na água?" Disse o urubu para o sapo (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "¿Estará en las piedras o en el agua?" le dijo el buitre a la rana
+# text_eng = "Will it be on the stones or in the water?" Said the vulture to the frog
+# [O [PP PP]] V ADV S PP
+1	Ita	ita	NOUN	n	_	4	ccomp	4:ccomp	_
+2	rehe	ehe	ADP	posp	Rel=Cont	1	case	1:case	_
+3	ʔɨpe	ʔɨ	NOUN	n	Case=Loc	1	parataxis	1:parataxis	_
+4	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+5	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+6	apitaw	apitaw	NOUN	n	_	4	nsubj	4:nsubj	_
+7	zuʔipe	zuʔi	NOUN	n	Case=Dat	4	obl	4:obl	_
+
+# sent_id = 967
+# text = Hereitɨk ita rehe tɨ iʔi zekwehe zuʔi apitawpe
+# text_port = "Jogue-me na pedra, amigo" Disse o sapo para o urubu (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Tirame en la piedra, mi amigo" Le dijo la rana al buitre
+# text_eng = "Throw me on the stone, my friend" Said the frog to the vulture
+# [O [V PP PART]] V ADV S PP
+1	Hereitɨk	eitɨk	VERB	vt	Number=Sing|Person[subj]=12	5	ccomp	5:ccomp	_
+2	ita	ita	NOUN	n	_	1	obl	1:obl	_
+3	rehe	ehe	ADP	posp	Rel=Cont	2	case	2:case	_
+4	tɨ	tɨ	PART	pcl	_	1	discourse	1:discourse	_
+5	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+6	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+7	zuʔi	zuʔi	NOUN	n	_	5	nsubj	5:nsubj	_
+8	apitawpe	apitaw	NOUN	n	Case=Dat	5	obl	5:obl	_
+
+# sent_id = 968
+# text = Naʔe zekwehe ʔɨpe zote witɨk
+# text_port = Então ele (o urubu) jogou (o sapo) na água (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Luego, él la tiró en el agua
+# text_eng = Then he threw it in the water
+# C ADV PP PART V
+1	Naʔe	naʔe	CCONJ	cc	_	5	mark	5:mark	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
+3	ʔɨpe	ʔɨ	NOUN	n	Case=Loc	5	obl	5:obl	_
+4	zote	zote	PART	pcl	_	5	discourse	5:discourse	_
+5	witɨk	eitɨk	VERB	vt	Person[subj]=3	0	root	0:root	_
+
+# sent_id = 969
+# text = Naʔe zekwehe zuʔi iʔi
+# text_port = Então o sapo disse (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Entonces dijo la rana
+# text_eng = Then the frog said
+# C ADV S V
+1	Naʔe	naʔe	CCONJ	cc	_	4	mark	4:mark	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	4	advmod	4:advmod	_
+3	zuʔi	zuʔi	NOUN	n	_	4	nsubj	4:nsubj	_
+4	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+
+# sent_id = 970
+# text = Aʔe rupi tue aputar pa iʔi zekwehe izupe
+# text_port = "Eu queria isso mesmo" Disse o sapo para ele (o urubu) (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = "Esto quería yo" Le dijo la rana
+# text_eng = "I wanted this" Said the frog for him (the vulture)
+# [O [PP ADV V PART]] V ADV I
+1	Aʔe	aʔe	PRON	pro	PronType=Dem	4	obl	4:obl	_
+2	rupi	upi	ADP	posp	Rel=Cont	1	case	1:case	_
+3	tue	tue	ADV	adv	Emph=Yes	1	advmod	1:advmod	_
+4	aputar	putar	VERB	vt	Number=Sing|Person[subj]=1	6	ccomp	6:ccomp	_
+5	pa	pa	PART	pcl	_	4	discourse	4:discourse	_
+6	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
+7	zekwehe	kwehe	ADV	adv	Evident=Nfh	6	advmod	6:advmod	_
+8	izupe	upe	ADP	posp	Rel=NCont	6	iobj	6:iobj	_
+
+# sent_id = 971
+# text = Nezewe zekwehe zuʔi apitaw rehe aʔe wa upaw apitaw imuneʔuhaw kwez kurɨ
+# text_port = Terminou a estória do urubu (Campos Castro and Gervason Defilippo, 2021)
+# text_spa = Terminó la historia del buitre
+# text_eng = The story of the vulture ended
+# ADV ADV S PP PART V S PART
+1	Nezewe	nezewe	ADV	adv	_	8	advmod	8:advmod	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
+3	zuʔi	zuʔi	NOUN	n	_	8	obl	8:obl	_
+4	apitaw	apitaw	NOUN	n	_	4	conj	4:conj	_
+5	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
+7	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
+8	upaw	paw	VERB	vi	Person[subj]=3	0	root	0:root	_
+9	apitaw	apitaw	NOUN	n	_	10	nmod	10:nmod	_
+10	imuneʔuhaw	muneʔu	NOUN	n	Nomzr=Circ|Rel=NCont	8	nsubj	8:nsubj	_
+11	kwez	kwez	ADV	adv	Tense=Past	10	advmod	10:advmod	_
+12	kurɨ	kurɨ	PART	pcl	_	8	discourse	8:discourse	_
+
