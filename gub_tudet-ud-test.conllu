@@ -13493,7 +13493,7 @@
 2	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
 3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
 4	zuʔipe	zuʔi	NOUN	n	Case=Dat	3	obl	3:obl	_
-5	kurɨ	kurɨ	PART	pcl	_	6	discourse	6:discourse	_
+5	kurɨ	kurɨ	PART	pcl	_	3	discourse	3:discourse	_
 
 # sent_id = 924
 # text = Hemurɨpar nerehokwaw mɨnɨkawpe tɨ iʔi zekwehe izupe
@@ -13688,9 +13688,9 @@
 # text_spa = El buitre se sentó
 # text_eng = The Urubu sat down
 # V ADV S
-1	Wapɨk	_	_	_	_	_	_	_	_
-2	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
-3	apitaw	apitaw	NOUN	n	_	6	nsubj	6:nsubj	_
+1	Wapɨk	apɨk	VERB	vt	Person[subj]=3	0	root	0:root	_
+2	zekwehe	kwehe	ADV	adv	Evident=Nfh	1	advmod	1:advmod	_
+3	apitaw	apitaw	NOUN	n	_	1	nsubj	1:nsubj	_
 
 # sent_id = 939
 # text = Emuapɨk newioraw tɨ
@@ -13949,10 +13949,10 @@
 6	no	no	PART	pcl	_	3	discourse	3:discourse	_
 7	tɨ	tɨ	PART	pcl	_	3	discourse	3:discourse	_
 8	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
-9	zekwehe	kwehe	ADV	adv	Evident=Nfh	9	advmod	9:advmod	_
-10	apitaw	apitaw	NOUN	n	_	9	nsubj	9:nsubj	_
-11	zuʔipe	zuʔi	NOUN	n	Case=Dat	9	obl	9:obl	_
-12	kurɨ	kurɨ	PART	pcl	_	9	discourse	9:discourse	_
+9	zekwehe	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
+10	apitaw	apitaw	NOUN	n	_	8	nsubj	8:nsubj	_
+11	zuʔipe	zuʔi	NOUN	n	Case=Dat	8	obl	8:obl	_
+12	kurɨ	kurɨ	PART	pcl	_	8	discourse	8:discourse	_
 
 # sent_id = 958
 # text = Heʔe pa azur roko ihe no pa iʔi zekwehe izupe
@@ -13979,7 +13979,7 @@
 # [O [PP V PART]] V ADV PP
 1	Marazawe	mara	PRON	pro	Case=Equ|PronType=Int	2	obl	2:obl	_
 2	erezur	zur	VERB	vi	Number=Sing|Person[subj]=2	5	ccomp	5:ccomp	_
-3	raʔe	PART	pcl	_	2	discourse	2:discourse	_
+3	raʔe	raʔe	PART	pcl	_	2	discourse	2:discourse	_
 4	tɨ	tɨ	PART	pcl	_	2	discourse	2:discourse	_
 5	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
 6	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	5:advmod	_
@@ -14007,7 +14007,7 @@
 # text_eng = "How did I come?" He said (the frog) to him
 # [O [PP V]] V ADV I
 1	Marazawe	mara	PRON	pro	Case=Equ|PronType=Int	2	obl	2:obl	_
-2	azur	zur	VERB	vi	Number=Sing|Person[subj]=1	8	ccomp	8:ccomp	_
+2	azur	zur	VERB	vi	Number=Sing|Person[subj]=1	3	ccomp	3:ccomp	_
 3	iʔi	ʔi	VERB	vt	Rel=NCont	0	root	0:root	_
 4	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	3:advmod	_
 5	izupe	upe	ADP	posp	Rel=NCont	3	iobj	3:iobj	_
@@ -14147,7 +14147,7 @@
 1	Nezewe	nezewe	ADV	adv	_	8	advmod	8:advmod	_
 2	zekwehe	kwehe	ADV	adv	Evident=Nfh	8	advmod	8:advmod	_
 3	zuʔi	zuʔi	NOUN	n	_	8	obl	8:obl	_
-4	apitaw	apitaw	NOUN	n	_	4	conj	4:conj	_
+4	apitaw	apitaw	NOUN	n	_	3	conj	3:conj	_
 5	rehe	ehe	ADP	posp	Rel=Cont	3	case	3:case	_
 6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	4:discourse	_
 7	wa	wa	PART	pcl	Number=Plur	4	discourse	4:discourse	_
