@@ -14157,3 +14157,508 @@
 11	kwez	kwez	ADV	adv	Tense=Past	10	advmod	_	_
 12	kurɨ	kurɨ	PART	pcl	_	8	discourse	_	_
 
+# sent_id = 972
+# text = ɨwɨzaʔu imumeʔuhaw xe aʔe nehe kurɨ .
+# text_port = A História do bacurau do Povo Guajajára . (Harrison et al., 1988)
+# text_spa = La historia del bacurau de la gente de Guajajára.
+# text_eng = The story of the bacurau of the Guajajára people.
+# S V PART
+1	ɨwɨzaʔu	ɨwɨzaʔu	NOUN	n	_	2	nsubj	_	_
+2	imumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	_	_
+3	xe	xe	PART	pcl	_	2	discourse	_	_
+4	aʔe	aʔe	PART	pcl	Person=3	2	discourse	_	_
+5	nehe	nehe	PART	pcl	_	2	discourse	_	_
+6	kurɨ	kurɨ	PART	pcl	_	2	discourse	_	_
+7	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 973
+# text = Nezewe zekaipo ɨwɨzaʔu imumeʔuhaw aʔe no .
+# text_port = A história do bacurau começa assim. (Harrison et al., 1988)
+# text_spa = La historia de bacurau comienza así.
+# text_eng = The story of bacurau begins so.
+# ADV ADV S V PART
+1	Nezewe	nezewe	ADV	adv	_	4	advmod	_	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	_	_
+3	ɨwɨzaʔu	ɨwɨzaʔu	NOUN	n	_	4	nsubj	_	_
+4	imumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	_	_
+5	aʔe	aʔe	PART	pcl	Person=3	4	discourse	_	_
+6	no	no	PART	pcl	_	4	discourse	_	_
+7	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 975
+# text = Naʔe zekwehe omo kuza aʔe kurɨ , oho zekaipo iko kope wa , umemɨr rehe wa , te uhem zekaipo oho kokaiwerpe wa .
+# text_port = Certa vez , uma mulher foi para a roça com seu filho . (Harrison et al., 1988)
+# text_spa = Una vez que una mujer fue a la granja con su hijo.
+# text_eng = Once a woman went to the farm with her son.
+# ADV S PART V ADV AUX PP PART PP PART [ADV [C V ADV AUX PP PART]]
+1	Naʔe	naʔe	PART	pcl	_	4	discourse	_	_
+2	zekwehe	kwehe	ADV	adv	_	4	advmod	_	_
+3	omo	amo	DET	dem	PronType=Ind	4	det	_	_
+4	kuza	kuza	NOUN	n	_	8	nsubj	_	_
+5	aʔe	aʔe	PART	pcl	Person=3	4	discourse	_	_
+6	kurɨ	kurɨ	PART	pcl	_	4	discourse	_	_
+7	,	,	PUNCT	punct	_	4	punct	_	_
+8	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
+9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	_	_
+10	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	8	aux	_	_
+11	kope	ko	NOUN	n	Case=All	8	obl	_	_
+12	wa	wa	PART	pcl	Number=Plur	8	discourse	_	_
+13	,	,	PUNCT	punct	_	8	punct	_	_
+14	umemɨr	memɨr	NOUN	n	Rel=Corf	8	obl	_	_
+15	rehe	ehe	ADP	posp	Rel=Cont	14	case	_	_
+16	wa	wa	PART	pcl	Number=Plur	14	discourse	_	_
+17	,	,	PUNCT	punct	_	14	punct	_	_
+18	te	te	SCONJ	sc	Foreign=ɨes	19	mark	_	_
+19	uhem	hem	VERB	v	Person[subj]=3	8	advcl	_	_
+20	zekaipo	kwehe	ADV	adv	Evident=Nfh	19	advmod	_	_
+21	oho	ho	VERB	vi	Person[subj]=3	19	dep	_	_
+22-23	kokaiwerpe	_	_	_	_	_	_	_	_
+22	ko	ko	NOUN	n	_	19	obl	_	_
+23	kaiwerpe	kaz	NOUN	n	Case=Loc|Tense=Past	22	nmod	_	_
+24	wa	wa	PART	pcl	Number=Plur	19	discourse	_	_
+25	.	.	PUNCT	punct	_	19	punct	_	_
+
+# sent_id = 976
+# text = Naʔe imemɨr zekaipo uzeʔeg izupe aʔe kurɨ ,
+# text_port = Quando chegaram a sua roça , o filho disse a mãe : (Harrison et al., 1988)
+# text_spa = Cuando llegaron a su campo, el hijo dijo a la madre:
+# text_eng = When they reached their field, the Son said the mother:
+# ADV S ADV V PP PART
+1	Naʔe	naʔe	PART	pcl	_	4	discourse	_	_
+2	imemɨr	memɨr	NOUN	n	Rel=NCont	4	nsubj	_	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	_	_
+4	uzeʔeg	zeʔeg	VERB	vi	Person[subj]=3	0	root	_	_
+5	izupe	upe	ADP	posp	Rel=NCont	4	iobj	_	_
+6	aʔe	aʔe	PART	pcl	Person=3	4	discourse	_	_
+7	kurɨ	kurɨ	PART	pcl	_	4	discourse	_	_
+8	,	,	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 977
+# text = — Mamaz , ahaputar kwez ko iwɨr rihi pa , iʔi zekaipo uhɨpe aʔe .
+# text_port = — Mamãe , eu vou lá na beira da roça . (Harrison et al., 1988)
+# text_spa = "Mamá, voy allí en el borde del campo.
+# text_eng = "Mom, I'm going there on the edge of the countryside.
+# [OBJ [VOC - V ADV PP PART]] V ADV PP PART
+1	—	—	PUNCT	punct	_	2	punct	_	_
+2	Mamaz	mamaz	NOUN	n	Foreign=Yes	4	vocative	_	_
+3	,	,	PUNCT	punct	_	2	punct	_	_
+4	ahaputar	ha	VERB	vi	Number=Sing|Person[subj]=1|Tense=Fut	11	ccomp	_	_
+5	kwez	kwez	ADV	adv	Tense=Past	4	advmod	_	_
+6	ko	ko	NOUN	n	_	4	obl	_	_
+7	iwɨr	wɨr	ADP	posp	Rel=NCont	6	case	_	_
+8	rihi	rihi	PART	pcl	_	4	discourse	_	_
+9	pa	pa	PART	pcl	_	4	discourse	_	_
+10	,	,	PUNCT	punct	_	4	punct	_	_
+11	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	_	_
+12	zekaipo	kwehe	ADV	adv	Evident=Nfh	11	advmod	_	_
+13	uhɨpe	hɨ	NOUN	n	Case=Dat|Rel=Corf	11	obl	_	_
+14	aʔe	aʔe	PART	pcl	Person=3	11	discourse	_	_
+15	.	.	PUNCT	punct	_	11	punct	_	_
+
+# sent_id = 978
+# text = Ihɨ zekwehe iʔi izupe aʔe no , — Exakatu eho nepɨragawam me nehe ʔɨ , iʔi zekaipo ihɨ izupe aʔe .
+# text_port = — Repare bem aonde você vai , a mãe respondeu . (Harrison et al., 1988)
+# text_spa = "Aviso a donde vas, la madre respondió.
+# text_eng = "Notice to where you go, the mother replied.
+# S ADV V I PART - [OBJ [V AUX PP PART]] V ADV S I PART
+1	Ihɨ	hɨ	NOUN	n	Rel=NCont	3	nsubj	_	_
+2	zekwehe	kwehe	ADV	adv	_	3	advmod	_	_
+3	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	_	_
+4	izupe	upe	ADP	posp	Rel=NCont	3	iobj	_	_
+5	aʔe	aʔe	PART	pcl	Person=3	3	discourse	_	_
+6	no	no	PART	pcl	_	3	discourse	_	_
+7	,	,	PUNCT	punct	_	3	punct	_	_
+8	—	—	PUNCT	punct	_	9	punct	_	_
+9	Exakatu	exak	VERB	vt	Emph=Yes|Mood=Imp|Number=Sing|Person[subj]=2	17	ccomp	17:ccomp	_
+10	eho	ho	VERB	vi	Mood=Imp|Number=Sing|Person[subj]=2	9	aux	_	_
+11	nepɨragawam	pɨrag	NOUN	n	Nomzr=Circ|Number=Sing|Person[psor]=2|Tense=Fut	9	obl	_	_
+13	me	me	ADP	posp	Rel=Cont	11	case	_	_
+14	nehe	nehe	PART	pcl	_	9	discourse	_	_
+15	ʔɨ	ʔɨ	PART	pcl	_	9	discourse	_	_
+16	,	,	PUNCT	punct	_	9	punct	_	_
+17	iʔi	ʔi	VERB	vt	Person[subj]=3	3	parataxis	_	_
+18	zekaipo	kwehe	ADV	adv	Evident=Nfh	18	advmod	_	_
+19	ihɨ	hɨ	NOUN	n	Rel=NCont	18	nsubj	_	_
+20	izupe	upe	ADP	posp	Rel=NCont	18	iobj	_	_
+21	aʔe	aʔe	PART	pcl	Person=3	18	discourse	_	_
+22	.	.	PUNCT	punct	_	18	punct	_	_
+
+# sent_id = 979
+# text = — Taʔe wɨramiri azukaputar aha kwez rupi rihi xe , iʔi zekaipo kwarer uhɨpe , te oho zekaipo aʔe kwarer .
+# text_port = — Eu vou caçar passarinhos , falou o menino . E saiu (Harrison et al., 1988)
+# text_spa = "Voy a cazar pájaros, dijo el niño. Y se fue .
+# text_eng = "I'll hunt birds, the boy said. And he left .
+# [OBJ [C O V AUX PP PART]] V ADV S PP - C V ADV PART S
+1	—	—	PUNCT	punct	_	1	punct	_	_
+2	Taʔe	taʔe	CCONJ	cc	_	4	mark	_	_
+3	wɨramiri	wɨramiri	NOUN	n	_	4	obj	_	_
+4	azukaputar	uka	VERB	vt	Number=Sing|Person[subj]=1|Tense=Fut	11	ccomp	_	_
+5	aho	ho	VERB	vi	Number=Sing|Person[subj]=1	4	aux	_	_
+6	kwez	akwez	PRON	pro	PronType=Dem	4	obl	_	_
+7	rupi	upi	ADP	posp	Rel=Cont	6	case	_	_
+8	rihi	rihi	PART	pcl	_	4	discourse	_	_
+9	xe	xe	PART	pcl	_	4	discourse	_	_
+10	,	,	PUNCT	punct	_	4	punct	_	_
+11	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	_	_
+12	zekaipo	kwehe	ADV	adv	Evident=Nfh	11	advmod	_	_
+13	kwarer	kwarer	NOUN	n	_	11	nsubj	_	_
+14	uhɨpe	hɨ	NOUN	n	Case=Dat|Rel=Corf	11	obl	_	_
+15	,	,	PUNCT	punct	_	11	punct	_	_
+16	te	te	SCONJ	sc	Foreign=ɨes	17	mark	_	_
+17	oho	ho	VERB	vi	Person[subj]=3	11	advcl	_	_
+18	zekaipo	kwehe	ADV	adv	Evident=Nfh	17	advmod	_	_
+19	aʔe	aʔe	PART	pcl	Person=3	17	discourse	_	_
+20	kwarer	kwarer	NOUN	n	_	17	nsubj	_	_
+21	.	.	PUNCT	punct	_	17	punct	_	_
+
+# sent_id = 980
+# text = Uhem zekaipo oho ɨwɨzaʔupe zote aʔe kurɨ .
+# text_port = Ele andou até que encontrou um bacurau. (Harrison et al., 1988)
+# text_spa = Caminó hasta que encontró un bacurau.
+# text_eng = He walked until he found a bacurau.
+# V ADV AUX PP PART
+1	Uhem	hem	VERB	v	Person[subj]=3	0	root	_	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
+3	oho	ho	VERB	vi	Person[subj]=3	1	aux	_	_
+4	ɨwɨzaʔupe	ɨwɨzaʔu	NOUN	n	Case=Loc	1	obl	_	_
+5	zote	zote	PART	pcl	_	1	discourse	_	_
+6	aʔe	aʔe	PART	pcl	Person=3	1	discourse	_	_
+7	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
+8	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 981
+# text = Uwewe zekaipo ɨwɨzaʔu izuwi kurɨ .
+# text_port = Mas o bacurau fugiu . (Harrison et al., 1988)
+# text_spa = Pero bacurau se escapó.
+# text_eng = But bacurau ran away.
+# V ADV S PP PART
+1	Uwewe	wewe	VERB	vi	Person[subj]=3	0	root	_	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
+3	ɨwɨzaʔu	ɨwɨzaʔu	NOUN	n	_	1	nsubj	_	_
+4	izuwi	uwi	ADP	posp	Rel=NCont	1	obl	_	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
+6	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 982
+# text = — Azuka e tomo kwez ɨwɨzaʔu wa xe , iʔi zekaipo uzeupe aʔe kwarer aʔe kurɨ .
+# text_port = — Eu vou matar aquele bacurau , disse o menino , e foi atrás dele . (Harrison et al., 1988)
+# text_spa = "Voy a matar a ese bacurau", dijo el niño, y fue tras él.
+# text_eng = "I'm going to kill that bacurau," said the boy, and went after him.
+# [OBJ [V PART O PART]] V ADV PP S PART
+1	—	—	PUNCT	punct	_	2	punct	_	_
+2	Azuka	uka	VERB	vt	Number=Sing|Person[subj]=1	10	ccomp	_	_
+3	e	e	PART	pcl	_	2	discourse	_	_
+4	tomo	amo	PRON	pro	PronType=Dem|Rel=Abs	6	det	_	_
+5	kwez	kwez	ADV	adv	Tense=Past	4	advmod	_	_
+6	ɨwɨzaʔu	ɨwɨzaʔu	NOUN	n	_	2	obj	_	_
+7	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
+8	xe	xe	PART	pcl	_	2	discourse	_	_
+9	,	,	PUNCT	punct	_	2	punct	_	_
+10	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	_	_
+11	zekaipo	kwehe	ADV	adv	Evident=Nfh	10	advmod	_	_
+12	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	10	iobj	_	_
+13	aʔe	aʔe	DET	dem	PronType=Dem	14	det	_	_
+14	kwarer	kwarer	NOUN	n	_	10	nsubj	_	_
+15	aʔe	aʔe	PART	pcl	Person=3	10	discourse	_	_
+16	kurɨ	kurɨ	PART	pcl	_	10	discourse	_	_
+17	.	.	PUNCT	punct	_	10	punct	_	_
+
+# sent_id = 983
+# text = Uzawɨzawɨ zekaipo heraha hereko kurɨ . Te oho zekaipo iko haikwez romo aʔe kurɨ .
+# text_port = Ficou tentando flechar o pássaro, mas errava sempre . (Harrison et al., 1988)
+# text_spa = Estaba tratando de disparar al pájaro, pero siempre fallaba
+# text_eng = He was trying to hit the bird, but it failed.
+# V ADV AUX AUX PART - PART V ADV AUX PP PART
+1	Uzawɨzawɨ	zawɨ	VERB	vt	Person[subj]=3	0	root	_	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
+3	heraha	ho	NOUN	n	Rel=NCont|Voice=Com	1	aux	_	_
+4	hereko	eko	AUX	aux	Rel=NCont|Voice=Com	1	aux	_	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
+6	.	.	PUNCT	punct	_	1	punct	_	_
+7	Te	te	PART	pcl	Foreign=Yes	8	discourse	_	_
+8	oho	ho	VERB	vi	Person[subj]=3	1	parataxis	_	_
+9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	_	_
+10	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	8	aux	_	_
+11	haikwez	aikwez	PRON	pro	PronType=Dem|Rel=NCont	8	obl	_	_
+12	romo	romo	ADP	posp	Rel=Cont	11	case	_	_
+13	aʔe	aʔe	PART	pcl	Person=3	8	discourse	_	_
+14	kurɨ	kurɨ	PART	pcl	_	8	discourse	_	_
+15	.	.	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = 985
+# text = Te oho zekaipo ɨwɨzaʔu izuwi aʔe kurɨ .
+# text_port = O bacurau foi embora de vez . (Harrison et al., 1988)
+# text_spa = El bacurau se fue de allí.
+# text_eng = El bacurau went away.
+# PART V ADV S PP PART
+1	Te	te	PART	pcl	Foreign=Yes	2	discourse	_	_
+2	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	2	advmod	_	_
+4	ɨwɨzaʔu	ɨwɨzaʔu	NOUN	n	_	2	nsubj	_	_
+5	izuwi	uwi	ADP	posp	Rel=NCont	2	obl	_	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	_	_
+7	kurɨ	kurɨ	PART	pcl	_	2	discourse	_	_
+8	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 986
+# text = Umeʔe zekaipo waikwerupi kurɨ .
+# text_port = O menino olhou para trás por onde tinha passado , e disse : (Harrison et al., 1988)
+# text_spa = El niño miró hacia atrás donde había pasado, y dijo:
+# text_eng = The boy looked back where he had passed, and said:
+# V ADV PP PART
+1	Umeʔe	meʔe	VERB	vi	Person[subj]=3	0	root	_	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
+3-4	waikwerupi	_	_	_	_	_	_	_	_
+3	waikwer	aikwer	NOUN	n	Rel=Corf	1	obl	_	_
+4	upi	upi	NOUN	n	Rel=Cont	3	case	_	_
+5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
+6	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 987
+# text = — Maʔenpete tuen azur aipo pa , iʔi zekaipo kwarer uzeupe aʔe kurɨ .
+# text_port = — Onde estou agora? (Harrison et al., 1988)
+# text_spa = "¿Dónde estoy ahora?"
+# text_eng = "Where am I now?"
+# [OBJ [PP PART V ADV PART]] V ADV S PP PART
+1	—	—	PUNCT	punct	_	4	punct	_	_
+2	Maʔenpete	maʔe	PRON	pro	Case=Loc|Int=Yes|PronType=Int	4	obl	_	_
+3	tuen	tue	PART	pcl	Emph=Yes	2	discourse	_	_
+4	azur	zur	VERB	vi	Number=Sing|Person[subj]=1	8	ccomp	_	_
+5	aipo	aipo	ADV	adv	_	4	advmod	_	_
+6	pa	pa	PART	pcl	_	4	discourse	_	_
+7	,	,	PUNCT	punct	_	4	punct	_	_
+8	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	_	_
+9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	_	_
+10	kwarer	kwarer	NOUN	n	_	8	nsubj	_	_
+11	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	8	iobj	_	_
+12	aʔe	aʔe	PART	pcl	Person=3	8	discourse	_	_
+13	kurɨ	kurɨ	PART	pcl	_	8	discourse	_	_
+14	.	.	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = 988
+# text = Taʔe zekaipo ɨrɨhu ɨwɨzaʔu uzapo oho haikwerupi raʔe .
+# text_port = O bacurau tinha feito um lago grande . (Harrison et al., 1988)
+# text_spa = El bacurau había hecho un gran lago.
+# text_eng = The bacurau had made a big lake.
+# C ADV O V AUX PP PART
+1	Taʔe	taʔe	CCONJ	cc	_	6	mark	_	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	6	advmod	_	_
+3-4	ɨrɨhu	_	_	_	_	_	_	_	_
+3	ɨrɨ	ɨrɨk	NOUN	n	_	6	obj	_	_
+4	hu	hu	NOUN	n	Rel=Cont	3	nmod	_	_
+5	ɨwɨzaʔu	ɨwɨzaʔu	NOUN	n	_	6	nsubj	_	_
+6	uzapo	apo	VERB	vt	Person[subj]=3	0	root	_	_
+7	oho	ho	VERB	vi	Person[subj]=3	6	aux	_	_
+8-9	haikwerupi	_	_	_	_	_	_	_	_
+8	haikwer	aikwer	NOUN	n	Rel=Corf	6	obl	_	_
+9	upi	upi	NOUN	n	Rel=Cont	8	case	_	_
+10	raʔe	raʔe	PART	pcl	Tense=Past	6	discourse	_	_
+11	.	.	PUNCT	punct	_	6	punct	_	_
+
+# sent_id = 989
+# text = Xe aʔe zo zekaipo umeʔe aʔe kwarer waikwerupi , wexak zekaipo ɨrɨhu waikwerupi aʔe kurɨ .
+# text_port = Quando o menino quis voltar , não podia . Só havia água por onde ele tinha passado . (Harrison et al., 1988)
+# text_spa = Cuando el niño quería volver, no pudo. Solo había agua donde había pasado.
+# text_eng = When the boy wanted to go back, he could not. There was only water where he had passed.
+# PART ADV V S PP - V ADV O PP PART
+1	Xe	xe	PART	pcl	_	5	discourse	_	_
+2	aʔe	aʔe	PART	pcl	Person=3	5	discourse	_	_
+3	zo	zo	PART	pcl	_	5	discourse	_	_
+4	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	_	_
+5	umeʔe	meʔe	VERB	vi	Person[subj]=3	0	root	_	_
+6	aʔe	aʔe	PART	pcl	Person=3	5	discourse	_	_
+7	kwarer	kwarer	NOUN	n	_	5	nsubj	_	_
+8-9	waikwerupi	_	_	_	_	_	_	_	_
+8	waikwer	aikwer	NOUN	n	Rel=Corf	5	obl	_	_
+9	upi	upi	NOUN	n	Rel=Cont	8	case	_	_
+10	,	,	PUNCT	punct	_	5	punct	_	_
+11	wexak	exak	VERB	vt	Person[subj]=3	5	conj	_	_
+12	zekaipo	kwehe	ADV	adv	Evident=Nfh	11	advmod	_	_
+13-14	ɨrɨhu	_	_	_	_	_	_	_	_
+13	ɨrɨ	ɨrɨk	NOUN	n	_	11	obj	_	_
+14	hu	hu	NOUN	n	Rel=Cont	13	nmod	_	_
+15-16	waikwerupi	_	_	_	_	_	_	_	_
+15	waikwer	aikwer	NOUN	n	Rel=Corf	11	obl	_	_
+16	upi	upi	NOUN	n	Rel=Cont	15	case	_	_
+17	aʔe	aʔe	PART	pcl	Person=3	11	discourse	_	_
+18	kurɨ	kurɨ	PART	pcl	_	11	discourse	_	_
+19	.	.	PUNCT	punct	_	11	punct	_	_
+
+# sent_id = 990
+# text = — Marazawen ahaputar aipo nehe kurɨ pa , iʔi zekaipo kwarer uzeupe aʔe kurɨ .
+# text_port = — O que é que eu vou fazer? ele perguntou . (Harrison et al., 1988)
+# text_spa = - ¿Qué debo hacer? se preguntó .
+# text_eng = - What do I do? he asked himself.
+# [OBJ [PP V ADV PART]] V ADV S I PART
+1	—	—	PUNCT	punct	_	3	punct	_	_
+2	Marazawen	mara	PRON	pro	Case=Equ|PronType=Int	3	obl	_	_
+3	ahaputar	ho	VERB	vi	Number=Sing|Person[subj]=1|Tense=Fut	9	ccomp	_	_
+4	aipo	aipo	ADV	adv	_	3	advmod	_	_
+5	nehe	nehe	PART	pcl	_	3	discourse	_	_
+6	kurɨ	kurɨ	PART	pcl	_	3	discourse	_	_
+7	pa	pa	PART	pcl	_	3	discourse	_	_
+8	,	,	PUNCT	punct	_	3	punct	_	_
+9	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	_	_
+10	zekaipo	kwehe	ADV	adv	Evident=Nfh	9	advmod	_	_
+11	kwarer	kwarer	NOUN	n	_	9	obj	_	_
+12	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	9	iobj	_	_
+13	aʔe	aʔe	PART	pcl	Person=3	9	discourse	_	_
+14	kurɨ	kurɨ	PART	pcl	_	9	discourse	_	_
+15	.	.	PUNCT	punct	_	9	punct	_	_
+
+# sent_id = 991
+# text = Aʔe mehe zekaipo uhapukaz zekaipo uhɨpe .
+# text_port = E começou a gritar pela mãe . (Harrison et al., 1988)
+# text_spa = Y comenzó a gritar a su madre.
+# text_eng = And he began to scream for his mother.
+# PP ADV V ADV PP
+1	Aʔe	aʔe	PRON	pro	Person=3	4	obl	_	_
+2	mehe	mehe	ADP	posp	Rel=Cont	1	case	_	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	_	_
+4	uhapukaz	hapukaz	VERB	vi	Person[subj]=3	0	root	_	_
+5	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	_	_
+6	uhɨpe	hɨ	NOUN	n	Case=Dat|Rel=Corf	4	obl	_	_
+7	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 992
+# text = Uhapukaz wi zekaipo uhɨpe no .
+# text_port = Gritou pela mãe . (Harrison et al., 1988)
+# text_spa = Gritó a su madre.
+# text_eng = And he screamed for his mother.
+# V PART ADV PP PART
+1	Uhapukaz	hapukaz	VERB	vi	Person[subj]=3	0	root	_	_
+2	wi	wi	PART	pcl	_	1	discourse	_	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
+4	uhɨpe	hɨ	NOUN	n	Case=Dat|Rel=Corf	1	obl	_	_
+5	no	no	PART	pcl	_	1	discourse	_	_
+6	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 993
+# text = Te nuhapukazkwaw zekaipo ihɨ izupe aʔe kurɨ .
+# text_port = Mas logo desistiu de gritar . (Harrison et al., 1988)
+# text_spa = Pero pronto se dio por vencido gritando.
+# text_eng = But soon he gave up shouting.
+# PART V ADV PP PART
+1	Te	te	PART	pcl	Foreign=Yes	2	discourse	_	_
+2	nuhapukazkwaw	hapukaz	VERB	vi	Person[subj]=3	0	root	_	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	2	advmod	_	_
+4	ihɨ	hɨ	NOUN	n	Rel=NCont	2	obl	_	_
+5	izupe	upe	ADP	posp	Rel=NCont	4	case	_	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	_	_
+7	kurɨ	kurɨ	PART	pcl	_	2	discourse	_	_
+8	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 994
+# text = Taʔe zekaipo muite ihon uhɨ wi raʔe xe .
+# text_port = Porque sabia que estava longe da mãe . (Harrison et al., 1988)
+# text_spa = Porque sabía que estaba alejado de su madre.
+# text_eng = Because he knew he was away from his mother.
+# C ADV PP V S PART
+1	Taʔe	taʔe	CCONJ	cc	_	4	mark	_	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	_	_
+3	muite	muite	NOUN	n	Foreign=Yes	4	obl	_	_
+4	ihon	ho	VERB	vi	NonFoc=Yes|Rel=NCont	0	root	_	_
+5	uhɨ	hɨ	NOUN	n	Rel=Corf	4	obl	_	_
+6	wi	wi	PART	pcl	_	4	discourse	_	_
+7	raʔe	raʔe	PART	pcl	Tense=Past	4	discourse	_	_
+8	xe	xe	PART	pcl	_	4	discourse	_	_
+9	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 995
+# text = Aʔe mehe zekaipo uzaiʔo kwarer ʔam aʔepe aʔe kurɨ .
+# text_port = Então , ele ficou lá chorando . (Harrison et al., 1988)
+# text_spa = Así que se quedó allí llorando.
+# text_eng = So he stood there crying.
+# PP ADV V S AUX PP PART
+1	Aʔe	aʔe	PRON	pro	Person=3	4	obl	_	_
+2	mehe	mehe	ADP	posp	Rel=Cont	1	case	_	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	_	_
+4	uzaiʔo	zaiʔo	VERB	vi	Person[subj]=3	0	root	_	_
+5	kwarer	kwarer	NOUN	n	_	4	nsubj	_	_
+6	ʔam	ʔam	AUX	aux	Person[subj]=3	4	aux	4:aux	_
+7	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	4	obl	_	_
+8	aʔe	aʔe	PART	pcl	Person=3	4	discourse	_	_
+9	kurɨ	kurɨ	PART	pcl	_	4	discourse	_	_
+10	.	.	PUNCT	punct	_	4	punct	_	_
+
+# sent_id = 996
+# text = Taʔe zekaipo uhapukaz wi zekaipo uhɨpe no xe .
+# text_port = Gritou de novo para a mãe . (Harrison et al., 1988)
+# text_spa = Gritó de nuevo a su madre.
+# text_eng = He shouted again at his mother.
+# C ADV V PART ADV PP PART
+1	Taʔe	taʔe	CCONJ	cc	_	3	mark	_	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	_	_
+3	uhapukaz	hapukaz	VERB	vi	Person[subj]=3	0	root	_	_
+4	wi	wi	PART	pcl	_	3	discourse	_	_
+5	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	_	_
+6	uhɨpe	hɨ	NOUN	n	Case=Dat|Rel=Corf	3	obl	_	_
+7	no	no	PART	pcl	_	3	discourse	_	_
+8	xe	xe	PART	pcl	_	3	discourse	_	_
+9	.	.	PUNCT	punct	_	3	punct	_	_
+
+# sent_id = 997
+# text = Nuhapukaz kwaw zote zekaipo ihɨ izupe no .
+# text_port = Mas ela não respondeu . (Harrison et al., 1988)
+# text_spa = Pero ella no respondió.
+# text_eng = But she did not answer.
+# V PART ADV I PART
+1	Nuhapukazkwaw	hapukaz	VERB	vi	Person[subj]=3	0	root	_	_
+2	zote	zote	PART	pcl	_	1	discourse	_	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	1	advmod	_	_
+4	ihɨ	hɨ	NOUN	n	Rel=NCont	1	nsubj	_	_
+5	izupe	upe	ADP	posp	Rel=NCont	1	iobj	_	_
+6	no	no	PART	pcl	_	1	discourse	_	_
+7	.	.	PUNCT	punct	_	1	punct	_	_
+
+# sent_id = 998
+# text = Te uzaiʔo wi zote zekaipo aʔe no .
+# text_port = Continuou gritando . (Harrison et al., 1988)
+# text_spa = Siguió gritando.
+# text_eng = He kept screaming.
+# PART V PART ADV PART
+1	Te	te	PART	pcl	Foreign=Yes	2	discourse	_	_
+2	uzaiʔo	zaiʔo	VERB	vi	Person[subj]=3	0	root	_	_
+3	wi	wi	PART	pcl	_	2	discourse	_	_
+4	zote	zote	PART	pcl	_	2	discourse	_	_
+5	zekaipo	kwehe	ADV	adv	Evident=Nfh	2	advmod	_	_
+6	aʔe	aʔe	PART	pcl	Person=3	2	discourse	_	_
+7	no	no	PART	pcl	_	2	discourse	_	_
+8	.	.	PUNCT	punct	_	2	punct	_	_
+
+# sent_id = 999
+# text = — Muite tue azur aipo pa , iʔi zekaipo kwarer uzeupe aʔe kurɨ .
+# text_port = — Parece que eu vim muito longe , o menino disse para si mesmo . (Harrison et al., 1988)
+# text_spa = "Parece que vení muy lejos, el chico se dijo a sí mismo.
+# text_eng = "Looks like I came very far, the boy said to himself.
+# [OBJ [PP PART V ADV PART]] V ADV S I PART
+1	—	—	PUNCT	punct	_	4	punct	_	_
+2	Muite	muite	NOUN	n	Foreign=Yes	4	obl	_	_
+3	tue	tue	PART	pcl	Emph=Yes	2	discourse	_	_
+4	azur	zur	VERB	vi	Number=Sing|Person[subj]=1	8	ccomp	_	_
+5	aipo	aipo	ADV	adv	_	4	advmod	_	_
+6	pa	pa	PART	pcl	_	4	discourse	_	_
+7	,	,	PUNCT	punct	_	4	punct	_	_
+8	iʔi	ʔi	VERB	vt	Person[subj]=3	0	root	_	_
+9	zekaipo	kwehe	ADV	adv	Evident=Nfh	8	advmod	_	_
+10	kwarer	kwarer	NOUN	n	_	8	nsubj	_	_
+11	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	8	iobj	_	_
+12	aʔe	aʔe	PART	pcl	Person=3	8	discourse	_	_
+13	kurɨ	kurɨ	PART	pcl	_	8	discourse	_	_
+14	.	.	PUNCT	punct	_	8	punct	_	_
+
+# sent_id = 1000
+# text = Te weʔe zekaipo miar aʔepe hexakpa wa .
+# text_port = Os animais escutaram e foram até lá ver . (Harrison et al., 1988)
+# text_spa = Los animales escucharon y fueron allí para ver.
+# text_eng = The animals listened and went there to see.
+# PART V ADV S [ADV [PP V PART]]
+1	Te	te	PART	pcl	Foreign=Yes	2	discourse	_	_
+2	weʔe	eʔe	VERB	vi	Person[subj]=3	0	root	_	_
+3	zekaipo	kwehe	ADV	adv	Evident=Nfh	2	advmod	_	_
+4	miar	miar	NOUN	n	_	2	obj	_	_
+5	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	6	obl	_	_
+6	hexakpa	exak	VERB	vt	Rel=NCont|VerbForm=Ger	2	advcl	_	_
+7	wa	wa	PART	pcl	Number=Plur	6	discourse	_	_
+8	.	.	PUNCT	punct	_	2	punct	_	_
+
