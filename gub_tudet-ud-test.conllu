@@ -82,7 +82,7 @@
 # text_spa = Ella ensartó el hilo de pelo a través del ojo de la aguja .
 # text_eng = She inserted a thread of hair through the eye of the needle 
 # V ADV O PP
-1	Umuixe	ixe	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
+1	Umuixekar	ixe	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
 2	inemuʔi	inemu	NOUN	n	Dimin=Yes	1	obj	_	_
 3-4	aguzapɨgwar	_	_	_	_	_	_	_	_
 3	aguz	aguz	NOUN	n	_	1	obl	_	_
@@ -205,7 +205,7 @@
 2	maʔe	maʔe	NOUN	n	_	4	nmod	_	_
 3	ʔɨw	ʔɨw	NOUN	n	_	2	compound	_	_
 4	iʔa	ʔa	NOUN	n	Rel=NCont	0	root	_	_
-5-6 ʔarkatu	_	_	_	_	_	_	_	_
+5-6	ʔarkatu	_	_	_	_	_	_	_	_
 5	ʔar	ʔar	NOUN	n	_	4	obl	_	_
 6	katu	katu	NOUN	n	Rel=Cont	5	nmod	_	_
 7	mehe	mehe	ADP	posp	_	5	case	_	_
@@ -277,7 +277,7 @@
 # S V O 
 1	Amirikur	amirikur	NOUN	n	_	2	obl:subj	_	_
 2	umumaw	maw	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
-3-4	maʔeʔa	_	_	_	_	_	_	_	_
+3-4	maʔeʔakwer	_	_	_	_	_	_	_	_
 3	maʔe	maʔe	NOUN	n	_	2	obl:subj	_	_
 4	ʔakwer	ʔa	NOUN	n	Tense=Past	3	nmod	_	_
 5	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	2	obl:subj	_	_
@@ -436,15 +436,14 @@
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 38
-# text = Oʔok kara teteaʔu .
+# text = Oʔok karateteaʔu .
 # text_port = Ela arrancou muito cará (Sociedade Internacional de Lingüística, 1973:77)
 # text_spa = Ella arrancó mucho ñame 
 # text_eng = She pulled a lot of yam 
 # V O
 1	Oʔok	ʔok	VERB	vt	Person[subj]=3	0	root	_	_
-2	kara	kara	NOUN	n	_	1	obj	_	_
-3	teteaʔu	tete	ADV	adv	Emph=Yes	2	advmod	_	_
-4	.	.	PUNCT	punct	_	1	punct	_	_
+2	karateteaʔu	kara	NOUN	n	Emph=Yes	1	obj	_	_
+3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 39
 # text = Hete katu kara Zuze ihɨpe .
@@ -453,7 +452,7 @@
 # text_eng = Jose's mother finds yam delicious 
 # V ADV S PP
 1	Hete	ete	NOUN	n	Rel=NCont	0	root	_	_
-2	katu	katu	NOUN	n	Rel=Cont	1	advmod	_	_
+2	katu	katu	NOUN	n	Rel=Cont	1	obl	_	_
 3	kara	kara	NOUN	n	_	1	obl:subj	_	_
 4	Zuze	Zuze	PROPN	pn	_	5	nmod	_	_
 5	ihɨpe	hɨ	NOUN	n	Case=Dat|Rel=NCont	1	obl	_	_
@@ -479,7 +478,7 @@
 # text_spa = El ñame también está delicioso según José 
 # text_eng = Jose also thinks that the yam is tasty 
 # P S PP
-1-2 Hetekatu	_	_	_	_	_	_	_	_
+1-2	Hetekatu	_	_	_	_	_	_	_	_
 1	Hete	ete	NOUN	n	Rel=NCont	0	root	_	_
 2	katu	katu	NOUN	n	Rel=Cont	1	nmod	_	_
 3	kara	kara	NOUN	n	_	1	nmod	_	_
@@ -669,13 +668,14 @@
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 57
-# text = Hete katu ipiraʔi arapapape .
+# text = Hetekatu ipiraʔi arapapape .
 # text_port = O arapapá gosta o peixinhos (Sociedade Internacional de Lingüística, 1973:77).
 # text_spa = Los pececillos están deliciosos según la arapapá 
 # text_eng = The boat-billed heron likes small fishes 
-# V ADV S PP
+# P S PP
+1-2	Hetekatu	_	_	_	_	_	_	_	_
 1	Hete	ete	NOUN	n	Rel=NCont	0	root	_	_
-2	katu	katu	NOUN	n	Rel=Cont	1	advmod	_	_
+2	katu	katu	NOUN	n	Rel=Cont	1	nmod	_	_
 3	ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=Abs	1	obl:subj	_	_
 4	arapapape	arapapa	NOUN	n	Case=Dat	1	obl	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
@@ -693,7 +693,7 @@
 5	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 59
-# text = Heta teteaʔu ipiraʔi ɨrɨhupe no .
+# text = Hetateteaʔu ipiraʔi ɨrɨhupe no .
 # text_port = Tem muito peixinho na lagoa também (Sociedade Internacional de Lingüística, 1973:77).
 # text_spa = También hay muchos pececillos en el lago 
 # text_eng = There are many small fishes also in the lake 
@@ -773,7 +773,7 @@
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 65
-# text = Ipuku aʔu ipɨ no .
+# text = Ipukuaʔu ipɨ no .
 # text_port = 0 pé dela é grande (Sociedade Internacional de Lingüística, 1973:77).
 # text_spa = Su pie es grande 
 # text_eng = Its foot is big .
@@ -1015,10 +1015,10 @@
 1-2	Umaʔereko	_	_	_	_	_	_	_	_
 1	Umaʔe	maʔe	NOUN	n	Person[subj]=3	2	obj	_	_
 2	reko	iko	VERB	vt	Voice=Com	0	root	_	_
-3	Mari	Mari	PROPN	pn	_	1	obl:subj	_	_
-4	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	_	_
-5	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	1	obl:subj	_	_
-6	.	.	PUNCT	punct	_	1	punct	_	_
+3	Mari	Mari	PROPN	pn	_	2	obl:subj	_	_
+4	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	2	aux	_	_
+5	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	2	obl:subj	_	_
+6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 83
 # text = Tueharupi uputuka umaʔe iko aʔe .
@@ -1069,11 +1069,11 @@
 1-3	Umaʔerekokatu	_	_	_	_	_	_	_	_
 1	Umaʔe	maʔe	NOUN	n	Person[subj]=3	2	obj	_	_
 2	reko	iko	VERB	vt	Voice=Com	0	root	_	_
-3	katu	katu	ADV	adv	Emph=yes	2	advmod	_	_
-4	Mari	Mari	PROPN	pn	_	4	nmod	_	_
-5	imemɨr	memɨr	NOUN	n	Rel=NCont	1	obl:subj	_	_
-6	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	4	obl:subj	_	_
-7	.	.	PUNCT	punct	_	1	punct	_	_
+3	katu	katu	NOUN	n	Emph=Yes	2	obl	_	_
+4	Mari	Mari	PROPN	pn	_	5	nmod	_	_
+5	imemɨr	memɨr	NOUN	n	Rel=NCont	2	obl:subj	_	_
+6	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	2	obl:subj	_	_
+7	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 87
 # text = Ohoputar uhɨ rupi umaʔe iputukapa kurɨ .
@@ -2162,7 +2162,7 @@
 # text_spa = Era cara, le dice José a su mujer.
 # text_eng = It was expensive, José tells his wife.
 # [O [P]] V S PP
-1-2 Hekuzarkatu	_	_	_	_	_	_	_	_
+1-2	Hekuzarkatu	_	_	_	_	_	_	_	_
 1	Hekuzar	ekuzar	NOUN	n	Rel=NCont	5	ccomp	_	_
 2	katu	katu	NOUN	n	Rel=Cont	1	nmod	_	_
 3	zapepo	zapepo	NOUN	n	_	1	nmod	_	_
@@ -2539,7 +2539,7 @@
 # text_spa = Tenía mucha hambre.
 # text_eng = The hawk was very hungry.
 # P
-1-3 Imaʔuhezkatu	_	_	_	_	_	_	_	_
+1-3	Imaʔuhezkatu	_	_	_	_	_	_	_	_
 1	Ima	maʔe	NOUN	n	Rel=NCont	2	nmod	_	_
 2	ʔuhez	ʔu	NOUN	n	Mood=Des|Rel=Cont	0	root	_	_
 3	katu	katu	NOUN	n	Rel=Cont	2	nmod	_	_
@@ -2716,15 +2716,15 @@
 # text_en = One day, the younger brother went for a walk to the house of the older brother.
 # PP V S PP
 1	Amo	amo	DET	dem	PronType=Ind	2	det	_	_
-2	ʔar	ʔar	NOUN	n	_	5	obl	_	_
+2	ʔar	ʔar	NOUN	n	_	8	obl	_	_
 3	mehe	mehe	ADP	posp	_	2	case	_	_
 4	katu	katu	ADV	adv	Emph=Yes	2	advmod	_	_
 5	izekɨtɨʔar	zekɨtɨʔar	NOUN	n	Rel=NCont	8	obl:subj	_	_
 6	zekaipo	kwehe	ADV	adv	_	5	advmod	_	_
 7	tɨwɨr	ɨwɨr	NOUN	n	Rel=Abs	5	nmod	_	_
 8	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
-9	hapuznawpe	apuz	NOUN	n	Case=Loc|Nomzr=Circ|Rel=NCont	5	obl	_	_
-10	.	.	PUNCT	punct	_	5	punct	_	_
+9	hapuznawpe	apuz	NOUN	n	Case=Loc|Nomzr=Circ|Rel=NCont	8	obl	_	_
+10	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 213
 # text = Wexak zekaipo wɨkɨʔɨr imaʔe zapoapopɨrer teteaʔu aʔepe .
@@ -2765,7 +2765,7 @@
 # text_spa = En la mía (trampa) no hay muchos pájaros, le dijo.
 # text_en = In mine (trap) there are not many birds, he said.
 # [O [P PP PART]] V I
-1-2	Nahetakatukwaw
+1-2	Nahetakatukwaw	_	_	_	_	_	_	_	_
 1	Naheta	eta	NOUN	n	Polarity=Neg|Rel=NCont	7	ccomp	_	_
 2	katukwaw	katu	NOUN	n	Polarity=Neg|Rel=NCont	1	nmod	_	_
 3	wiràmiri	wirà	NOUN	n	Dimin=Yes	1	nmod	_	_
@@ -3605,7 +3605,7 @@
 7	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	6	aux	_	_
 8	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	6	obl	_	_
 9	wanuwi	uwi	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	6	obl	_	_
-10	.	.	PUNCT	punct	_	4	punct	_	_
+10	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 265
 # text = Aʔepe uiko mehe uwexak pawkatu aʔe zemaraʔitaw iko aʔepe .
@@ -3835,7 +3835,7 @@
 # text_spa = La luna ilumina bien la selva para él.
 # text_eng = The moon lights the jungle well for him.
 # O V S PP I
-1-2 Uhɨapekatu	_	_	_	_	_	_	_	_
+1-2	Uhɨapekatu	_	_	_	_	_	_	_	_
 1	Uhɨape	hɨape	VERB	vi	Person[subj]=3	0	root	_	_
 2	katu	katu	ADV	adv	Emph=Yes	1	advmod	_	_
 3	zahɨ	zahɨ	NOUN	n	_	1	obl:subj	_	_
@@ -4114,7 +4114,7 @@
 6	ko	ko	DET	dem	PronType=Dem	7	det	_	_
 7	zanerekohawpe	eko	NOUN	n	Case=Loc|Clusivity=In|Nomzr=Circ|Number=Plur|Person[psor]=1|Rel=Cont	5	obl	_	_
 8	,	,	PUNCT	punct	_	5	punct	_	_
-9-11	parupi	_	_	_	_	_	_	_	_
+9-11	parupikatu	_	_	_	_	_	_	_	_
 9	pa	paw	PRON	pro	PronType=Tot	13	obl	_	_
 10	rupi	upi	ADP	posp	Rel=Cont	9	case	_	_
 11	katu	katu	NOUN	n	Rel=Cont	9	nmod	_	_
@@ -4123,7 +4123,7 @@
 14	;	;	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 295
-# text = Wɨraʔohaw , kokumu wakwaztaw , wàhuhaw , kwàtàzgwerai wawɨraʔohaw , upuwipuwirkwer wazimuàir haw , paze maʔe wazeʔagaw paw haw , zegaraiwpaw
+# text = Wɨraʔohaw , kokumu wakwaztaw , wàhuhaw , kwàtàzgwerai wawɨraʔohaw , upuwipuwirkwer wazimuàir haw , paze maʔe wazeʔagawpaw haw , zegaraiwpaw
 # text_port = A Festa da menina-moça, a festa dos rapazes, a festa da colheita, a festa das criancinhas, a festa dos separados (divorciados), a festa dos pajés e as orações Tenetehára (Campos Castro 2020).
 # text_spa = La fiesta de las jóvenes, la fiesta de los niños, el partido de la cosecha, la fiesta de los niños, la fiesta de los separados (divorciados), la fiesta de los pajés y las oraciones Tenetehára.
 # text_en = The young girl's festivities, the boys' festivities, the harvest festivity, the festivity of the children, the festivity of the separated ones (divorced), the festivity of the pajés and the Tenetehára prayers.
@@ -4144,17 +4144,17 @@
 12	,	,	PUNCT	punct	_	10	punct	_	_
 13	upuwipuwirkwer	puwir	NOUN	n	Red=Di|Rel=Corf|Tense=Past	14	nmod	_	_
 14	wazimuàirhaw	zimuàir	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes	2	list	_	_
-15	haw	haw	ADV	adv		14	advmod	_	_
-16	,	,	PUNCT	punct	_	14	punct	_	_
-17	paze	paze	NOUN	n	_	19	nmod	_	_
-18	maʔe	maʔe	ADV	adv	_	19	nmod	_	_
-19	wazeʔagaw	zeʔaga	NOUN	n	Nomzr=Circ|Number=Plur	2	list	_	_
-20	paw	paw	DET	dem	PronType=Tot	19	det	_	_
-21	haw	haw	ADV	adv	Nomzr=Circ	19	advmod	_	_
-22	,	,	PUNCT	punct	_	19	punct	_	_
-23-24	zegaraiwpaw	_	_	_	_	_	_	_	_
-23	zegar	zegar	NOUN	n	_	2	list	_	_
-24	aiwpaw	aiw	NOUN	n	Nomzr=Circ	23	nmod	_	_
+15	,	,	PUNCT	punct	_	14	punct	_	_
+16	paze	paze	NOUN	n	_	18	nmod	_	_
+17	maʔe	maʔe	ADV	adv	_	18	nmod	_	_
+18-19	wazeʔagawpaw	_	_	_	_	_	_	_	_
+18	wazeʔagaw	zeʔaga	NOUN	n	Nomzr=Circ|Number=Plur	2	list	_	_
+19	paw	paw	PRON	pro	PronType=Tot	18	nmod	_	_
+20	haw	haw	ADV	adv	Nomzr=Circ	18	advmod	_	_
+21	,	,	PUNCT	punct	_	18	punct	_	_
+22-23	zegaraiwpaw	_	_	_	_	_	_	_	_
+22	zegar	zegar	NOUN	n	_	2	list	_	_
+23	aiwpaw	aiw	NOUN	n	Nomzr=Circ	22	nmod	_	_
 
 # sent_id = 296
 # text = Hàiràgaw rehe hàgʔpɨ zekaipo uzemuʔe , akwezpe .
@@ -4586,8 +4586,8 @@
 3	Zuze	Zuze	PROPN	pn	_	4	nmod	_	_
 4	kopehar	ko	NOUN	n	Case=Loc|Nomzr=Ag|Rel=Cont	1	obl	_	_
 5	rehe	ehe	ADP	posp	Rel=Cont	4	case	_	_
-7	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	1	discourse	_	_
-8	.	.	PUNCT	punct	_	1	punct	_	_
+6	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	1	discourse	_	_
+7	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 327
 # text = Uzemumikahɨ tue zumen aʔe .
@@ -4933,12 +4933,12 @@
 5	oʔok	ʔok	VERB	vt	Person[subj]=3	0	root	_	_
 6	kara	kara	NOUN	n	_	5	obj	_	_
 7	oho	ho	AUX	aux	Person[subj]=3	5	aux	_	_
-8	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	7	aux	_	_
+8	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	5	aux	_	_
 9	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	5	obl:subj	_	_
 10	,	,	PUNCT	punct	_	5	punct	_	_
 11	uzurupopok	zurupopok	VERB	vi	_	5	parataxis	_	_
 12	oho	ho	AUX	aux	Person[subj]=3	11	aux	_	_
-13	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	12	aux	_	_
+13	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	11	aux	_	_
 14	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 355
@@ -5329,7 +5329,7 @@
 # text_spa = Él persigue a los pollos.
 # text_en = He runs after the chickens.
 # V ADV O
-1	Umuzàn	zàn	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
+1	Umuzànkar	zàn	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
 2	zapukaz	zapukaz	NOUN	n	_	1	obj	_	_
 3	wà	wà	PART	pcl	Number=Plur|Person=3	1	discourse	_	_
 4	.	.	PUNCT	punct	_	1	punct	_	_
@@ -5356,7 +5356,7 @@
 3	mehe	mehe	ADP	posp	Rel=Cont	2	case	_	_
 4	,	,	PUNCT	punct	_	2	punct	_	_
 5	imunar	munar	NOUN	n	Rel=NCont	0	root	_	_
-6	ipira	pira	NOUN	n	Rel=NCont	6	nmod	_	_
+6	ipira	pira	NOUN	n	Rel=NCont	5	nmod	_	_
 7	imihirpɨràm	mihir	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Fut	5	obl	_	_
 8	rehe	ehe	ADP	posp	Rel=Cont	7	case	_	_
 9	.	.	PUNCT	punct	_	5	punct	_	_
@@ -6838,15 +6838,15 @@
 # text_en = Then she kept encouraging animals to approach.
 # C ADV V AUX AUX PP PART
 1	Naʔe	naʔe	CCONJ	cc	_	4	cc	_	_
-2	zekaipo	kwehe	ADV	adv	Evident=Nfh	3	advmod	_	_
+2	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	_	_
 3	hexakar	exak	NOUN	n	NonFoc=Yes|Rel=NCont|Voice=Cau	4	obl:subj	_	_
 4	uhem	hem	VERB	vi	Person[subj]=3	0	root	_	_
 5	oho	ho	AUX	aux	Person[subj]=3	4	aux	_	_
-6	aʔepe	aʔe	PRON	pro	Case=Dat|PronType=Dem	3	obl	_	_
+6	aʔepe	aʔe	PRON	pro	Case=Dat|PronType=Dem	4	obl	_	_
 7	wà	wà	PART	pcl	Number=Plur|Person=3	6	discourse	_	_
-8	,	,	PUNCT	punct	_	3	punct	_	_
+8	,	,	PUNCT	punct	_	4	punct	_	_
 9-10	ɨwɨkwar	_	_	_	_	_	_	_	_
-9	ɨwɨ	ɨwɨ	NOUN	n	_	3	obl	_	_
+9	ɨwɨ	ɨwɨ	NOUN	n	_	4	obl	_	_
 10	kwar	kwar	NOUN	n	_	9	nmod	_	_
 11	huake	uake	ADP	posp	Rel=NCont	9	case	_	_
 12	wà	wà	PART	pcl	Number=Plur|Person=3	9	discourse	_	_
@@ -6910,7 +6910,7 @@
 2	wixe	ixe	VERB	vi	Person[subj]=3	0	root	_	_
 3	oho	ho	AUX	aux	Person[subj]=3	2	aux	_	_
 4-5	ɨwɨkwar	_	_	_	_	_	_	_	_
-4	ɨwɨ	ɨwɨ	NOUN	n	_	3	obl	_	_
+4	ɨwɨ	ɨwɨ	NOUN	n	_	2	obl	_	_
 5	kwar	kwar	NOUN	n	_	4	nmod	_	_
 6	pupe	pupe	ADP	posp	Rel=Cont	4	case	_	_
 7	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	2	discourse	_	_
@@ -6951,9 +6951,9 @@
 1	Amo	amo	DET	det	PronType=Ind	2	det	_	_
 2	ʔar	ʔar	NOUN	n	_	7	obl	_	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	_	_
-4	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	_	_
+4	zekaipo	kwehe	ADV	adv	Evident=Nfh	2	advmod	_	_
 5	omonokar	ho	AUX	aux	Person[subj]=3|Voice=Cau	7	aux	_	_
-6	wi	wi	ADV	adv	_	5	advmod	_	_
+6	wi	wi	ADV	adv	_	7	advmod	_	_
 7	uzeʔeg	zeʔeg	VERB	vi	Person[subj]=3	0	root	_	_
 8	miar	miar	NOUN	n	_	7	obl	_	_
 9	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	8	case	_	_
@@ -7150,9 +7150,9 @@
 # text_spa = No hay ningún camino saliendo, se dijo a sí misma.
 # text_en = There is no trail coming out, he told herself.
 # [O [P] V ADV S I
-1	Wazewɨrawer	zewɨr	NOUN	n	Number=Plur|Nomzr=Circ|Person[psor]=3|Poss=Yes|Tense=Past	3	nmod	_	_
+1	Wazewɨrawer	zewɨr	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes|Tense=Past	3	nmod	_	_
 2	nahetakwaw	eta	NOUN	n	Polarity=Neg|Rel=NCont	5	ccomp	_	_
-3	wapɨpor	pɨpor	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes	3	nmod	_	_
+3	wapɨpor	pɨpor	NOUN	n	Number=Plur|Person[psor]=3|Poss=Yes	2	nmod	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	_
 5	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
 6	zekaipo	kwehe	ADV	adv	Evident=Nfh	5	advmod	_	_
@@ -7178,11 +7178,11 @@
 # text_port = Eu não vou entrar ai, não, disse ela ã onça (Harrison, 2000).
 # text_spa = No iré allí, no, ella le dijo a la jaguar.
 # text_en = I will not go in there, no, she said to the jaguar.
-# [O [V OBL AUX PART]] V ADV PP
+# [O [V OBL AUX S]] V ADV PP
 1	Naixe	ixe	VERB	vi	Number=Sing|Person[subj]=1|Polarity=Neg	6	ccomp	_	_
 2	pixikwaw	pixik	NOUN	n	Polarity=Neg	1	obl	_	_
-3	aha	ha	AUX	aux	Number=Sing|Person[subj]=1	1	aux	_	_
-4	ihe	ihe	PART	pcl	Number=Sing|Person=1|PronType=Prs	1	obl:subj	_	_
+3	aha	ho	AUX	aux	Number=Sing|Person[subj]=1	1	aux	_	_
+4	ihe	ihe	PRON	pro	Number=Sing|Person=1|PronType=Prs	1	obl:subj	_	_
 5	,	,	PUNCT	punct	_	1	punct	_	_
 6	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
 7	zekaipo	kwehe	ADV	adv	Evident=Nfh	6	advmod	_	_
@@ -7211,7 +7211,7 @@
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	ahaputar	ha	VERB	vi	Number=Sing|Person[subj]=1|Tense=Fut	6	ccomp	_	_
 4	ihe	ihe	PART	pcl	Number=Sing|Person=1	3	discourse	_	_
-5	,	,	PUNCT	punct	_	1	punct	_	_
+5	,	,	PUNCT	punct	_	3	punct	_	_
 6	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
 7	izupe	upe	ADP	posp	Rel=NCont	6	iobj	_	_
 8	.	.	PUNCT	punct	_	6	punct	_	_
@@ -7331,10 +7331,10 @@
 10	Zuze	Zuze	PROPN	pn	_	11	nmod	_	_
 11	tu	u	NOUN	n	Rel=Abs	9	nmod	_	_
 12	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	9	iobj	_	_
-13	,	,	PUNCT	punct	_	15	punct	_	_
+13	,	,	PUNCT	punct	_	14	punct	_	_
 14	wànàm	ànàm	NOUN	n	Rel=Corf	12	appos	_	_
 15	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Rel=Cont	14	case	_	_
-16	.	.	PUNCT	punct	_	15	punct	_	_
+16	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 523
 # text = Uzetenog zekaipo aʔɨ waiko wà  , ɨwɨra rehe uzeupirpa wà .
@@ -7394,7 +7394,7 @@
 3	zawar	zawar	NOUN	n	_	2	obl:subj	_	_
 4	uhu	hu	NOUN	n	_	3	nmod	_	_
 5	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	2	obl	_	_
-6	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
+6	kurɨ	kurɨ	PART	pcl	_	2	discourse	_	_
 7	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 527
@@ -8226,8 +8226,9 @@
 # V ADV PP
 1	Naʔikatu	katu	NOUN	n	Polarity=Neg	0	root	_	_
 2	pixikwaw	pixik	NOUN	n	Polarity=Neg	1	obl	_	_
-3	ihɨpe	hɨ	NOUN	n	Case=Dat|Rel=NCont	1	obl	_	_
-4	.	.	PUNCT	punct	_	1	punct	_	_
+3	kwaxi	kwaxi	NOUN	n	_	1	nmod	_	_
+4	ihɨpe	hɨ	NOUN	n	Case=Dat|Rel=NCont	1	obl	_	_
+5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 594
 # text = Uzàn oho izuwi .
@@ -8295,7 +8296,7 @@
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 599
-# text = Heta xu pe iwɨr , nuexakkwaw xu .
+# text = Heta xu pe iwɨr , nuexakwaw xu .
 # text_port = Não viu o espinheiro ao lado do caminho (Harrison, 2000).
 # text_spa = No vio el espino al lado del camino.
 # text_en = He did not see the thorn beside the way.
@@ -8481,8 +8482,8 @@
 2	zo	zo	PART	pcl	_	1	discourse	_	_
 3	waiko	iko	VERB	vi	Aspect=Prog|Number=Plur|Person[subj]=3	0	root	_	_
 4	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	3	obl:subj	_	_
-5	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
-6	.	.	PUNCT	punct	_	1	punct	_	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	_	_
+6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 612
 # text = Uperek teteaʔu aʔe wa xe .
@@ -8704,15 +8705,15 @@
 11	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 626
-# text = Hurɨwete weraʔu waiko no .
+# text = Hurɨweteweraʔu waiko no .
 # text_port = Ficam mais felizes (Gomes, 1988)
 # text_spa = Son más felices
 # text_eng = Are happier
 # P V PART
 1	Hurɨweteweraʔu	urɨw	NOUN	n	Emph=Yes|Mood=Des|Rel=NCont	2	obl:subj	_	_
 2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	0	root	_	_
-3	no	no	PART	pcl	_	1	discourse	_	_
-4	.	.	PUNCT	punct	_	1	punct	_	_
+3	no	no	PART	pcl	_	2	discourse	_	_
+4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 627
 # text = Aʔe mehe oho wahɨ wanuwi aʔe kurɨ .
@@ -8783,20 +8784,20 @@
 # text_spa = Crecer aún más.
 # text_eng = Grow even more.
 # PART P AUX PART - PART P AUX PART
-1	Te	te	PART	pcl	_	2	discourse	_	_
+1	Te	te	PART	pcl	_	3	discourse	_	_
 2	uhuuhuaʔi	hu	NOUN	n	Emph=Yes|Red=Di	3	obl:subj	_	_
 3	waiko	iko	VERB	vi	Aspect=Prog|Number=Plur|Person[subj]=3	0	root	_	_
-4	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	2	discourse	_	_
-5	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
-6	no	no	PART	pcl	_	2	discourse	_	_
-7	,	,	PUNCT	punct	_	2	punct	_	_
-8	te	te	PART	pcl	_	9	discourse	_	_
+4	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	3	discourse	_	_
+5	wa	wa	PART	pcl	Number=Plur	3	discourse	_	_
+6	no	no	PART	pcl	_	3	discourse	_	_
+7	,	,	PUNCT	punct	_	3	punct	_	_
+8	te	te	PART	pcl	_	10	discourse	_	_
 9	uhuuhu	hu	NOUN	n	Red=Di	10	obl:subj	_	_
 10	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	3	conj	_	_
-11	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	9	discourse	_	_
-12	wa	wa	PART	pcl	Number=Plur	9	discourse	_	_
-13	kurɨ	kurɨ	PART	pcl	_	9	discourse	_	_
-14	.	.	PUNCT	punct	_	9	punct	_	_
+11	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	10	discourse	_	_
+12	wa	wa	PART	pcl	Number=Plur	10	discourse	_	_
+13	kurɨ	kurɨ	PART	pcl	_	10	discourse	_	_
+14	.	.	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 632
 # text = Awɨze wiko wanam iʔupa aʔe wa no .
@@ -9097,7 +9098,7 @@
 7	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 652
-# text = Aze uzaw huwer , awɨze tue heta teteaʔu imemɨmemɨr aʔe wa .
+# text = Aze uzaw huwer , awɨze tue hetateteaʔu imemɨmemɨr aʔe wa .
 # text_port = Quanto ãs folhas , a fêmea põe seus ovos nelas , e logo nascem muitos filhos . (Gomes, 1988)
 # text_spa = En cuanto a las hojas, la hembra pone sus huevos en ellos, y pronto nacen muchos niños.
 # text_eng = As for leaves, the female puts her eggs in them, and soon many children are born.
@@ -9347,7 +9348,7 @@
 4	maʔe	maʔe	NOUN	n	_	3	obj	_	_
 5	uhɨ	hɨ	NOUN	n	Rel=Corf	3	obl	_	_
 6	rupi	upi	ADP	posp	Rel=Cont	5	case	_	_
-7	katete	katu	NOUN	n	Rel=Cont	5	advmod	_	_
+7	katete	katu	ADV	adv	Emph=Yes	5	advmod	_	_
 8	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	3	discourse	_	_
 9	wa	wa	PART	pcl	Number=Plur	3	discourse	_	_
 10	kurɨ	kurɨ	PART	pcl	_	3	discourse	_	_
@@ -9360,7 +9361,7 @@
 # text_eng = Because they do not walk away from her, neither of her teachings.
 # C V ADV PP PART
 1	Taʔe	taʔe	CCONJ	cc	_	2	cc	_	_
-2	noho	ho	VERB	vi	Person[subj]=3|Polarity=Neg	0	root	_	_
+2	nohokwaw	ho	VERB	vi	Person[subj]=3|Polarity=Neg	0	root	_	_
 3	mume	mume	PART	pcl	_	2	discourse	_	_
 4	uhɨ	hɨ	NOUN	n	Rel=Corf	2	obl	_	_
 5	wi	wi	ADP	posp	Rel=Cont	4	case	_	_
@@ -9671,7 +9672,7 @@
 # text_eng = It does not even clean for them as does the hen for its chicks.
 # PART V PART S I PART - PP S V PP PART
 1	Ni	ni	PART	pcl	Foreign=Yes	2	discourse	_	_
-2-3	nutɨpeipeir	_	_	_	_	_	_	_	_
+2-3	nutɨpeipeirkwaw	_	_	_	_	_	_	_	_
 2	nutɨ	tɨ	NOUN	n	Person[subj]=3|Polarity=Neg	3	obl	_	_
 3	peipeirkwaw	peir	VERB	vt	Polarity=Neg|Red=Mo	0	root	_	_
 4	zepe	zepe	PART	pcl	_	3	discourse	_	_
@@ -10014,7 +10015,7 @@
 # text_spa = Vive dentro del agua,
 # text_eng = Lives within the water,
 # PP P PART
-1-2 Ɨpupe	_	_	_	_	_	_	_	_
+1-2	Ɨpupe	_	_	_	_	_	_	_	_
 1	Ɨ	ʔɨ	NOUN	n	_	3	obl	_	_
 2	pupe	pupe	ADP	posp	Rel=Cont	1	case	_	_
 3	wanekon	iko	NOUN	n	NonFoc=Yes|Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	0	root	_	_
@@ -10326,7 +10327,7 @@
 # text_eng = The curimatá is a big fish.
 # S V O
 1	Kɨrɨmata	kɨrɨmata	NOUN	n	_	2	nmod	_	_
-2-3	uhukatu
+2-3	uhukatu	_	_	_	_	_	_	_	_
 2	uhu	hu	NOUN	n	Rel=Cont	0	root	_	_
 3	katumaʔe	katu	NOUN	n	Nomzr=Abs|Rel=Cont	2	nmod	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
@@ -10753,7 +10754,7 @@
 1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_	_
 2	tuʔum	tuʔum	NOUN	n	_	1	obj	_	_
 3	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
-4	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	3	aux	_	_
+4	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	_	_
 5	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	1	discourse	_	_
 6	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 7	no	no	PART	pcl	_	1	discourse	_	_
@@ -10801,14 +10802,14 @@
 5	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 6	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 7	,	,	PUNCT	punct	_	1	punct	_	_
-8	taʔe	taʔe	CCONJ	cc	_	9	cc	_	_
+8	taʔe	taʔe	CCONJ	cc	_	10	cc	_	_
 9	hurɨkatu	urɨw	NOUN	n	Emph=Yes|Rel=NCont	10	obl:subj	_	_
 10	waiko	iko	VERB	vi	Aspect=Prog|Number=Plur|Person[subj]=3	1	conj	_	_
-11	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	9	discourse	_	_
-12	wa	wa	PART	pcl	Number=Plur	9	discourse	_	_
-13	kurɨ	kurɨ	PART	pcl	_	9	discourse	_	_
-14	xe	xe	PART	pcl	_	9	discourse	_	_
-15	.	.	PUNCT	punct	_	9	punct	_	_
+11	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	10	obl:subj	_	_
+12	wa	wa	PART	pcl	Number=Plur	10	discourse	_	_
+13	kurɨ	kurɨ	PART	pcl	_	10	discourse	_	_
+14	xe	xe	PART	pcl	_	10	discourse	_	_
+15	.	.	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 761
 # text = Aʔe rupi aman ikɨr ipɨ mehe wanurɨnurɨkatuhaw aʔe wa no tɨ wa .
@@ -10909,7 +10910,7 @@
 5	romo	omo	ADP	posp	Rel=Cont	4	case	_	_
 6	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	1	discourse	_	_
 7	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
-8	xe	xe	PART	pcl	_	3	discourse	_	_
+8	xe	xe	PART	pcl	_	1	discourse	_	_
 9	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 768
@@ -11026,7 +11027,7 @@
 # PP V O PART
 1	Aʔe	aʔe	PRON	pro	Person=3	3	obl	_	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
-3-4 uzuhezkatu	_	_	_	_	_	_	_	_
+3-4	uzuhezkatu	_	_	_	_	_	_	_	_
 3	uzuhez	ʔu	VERB	vt	Mood=Des|Person[subj]=3	0	root	_	_
 4	uzuhezkatu	ʔu	NOUN	n	Emph=Yes	3	obl	_	_
 5-6	ɨwɨxig	_	_	_	_	_	_	_	_
@@ -11282,12 +11283,12 @@
 # text_eng = The cascudo likes to eat spiders, the man likes to eat the cascudo.
 # O V PART - V S
 1	Zanu	zanu	NOUN	n	_	2	obj	_	_
-2-3 uzuhezkatu	_	_	_	_	_	_	_	_
+2-3	uzuhezkatu	_	_	_	_	_	_	_	_
 2	uzuhez	ʔu	VERB	vt	Mood=Des|Person[subj]=3	0	root	_	_
 3	katu	katu	NOUN	n	Emph=Yes	2	obl	_	_
 4	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	2	obl:subj	_	_
 5	;	;	PUNCT	punct	_	2	punct	_	_
-6-7 uzuhezkatu	_	_	_	_	_	_	_	_
+6-7	uzuhezkatu	_	_	_	_	_	_	_	_
 6	uzuhez	ʔu	VERB	vt	Mood=Des|Person[subj]=3	2	conj	_	_
 7	katu	katu	NOUN	n	Emph=Yes	6	obl	_	_
 8	awa	awa	NOUN	n	_	5	obl:subj	_	_
@@ -11321,7 +11322,7 @@
 7	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 796
-# text = Heta teteaʔu zutɨwpe .
+# text = Hetateteaʔu zutɨwpe .
 # text_port = Tem muitos no rio Zutíua . (Gomes, 1988)
 # text_spa = Hay muchos en el río Zutíua.
 # text_eng = There are many on the Zutíua River.
@@ -11373,7 +11374,7 @@
 13	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 800
-# text = Upurukutuk haxi rehe , hahɨ teteaʔu purukutukawer aʔe xe .
+# text = Upurukutuk haxi rehe , hahɨteteaʔu purukutukawer aʔe xe .
 # text_port = Se ele esporeia a gente , dói muito . (Gomes, 1988)
 # text_spa = Si nos pica, me duele mucho.
 # text_eng = If it stings, it hurts a lot.
@@ -11763,7 +11764,7 @@
 14	,	,	PUNCT	punct	_	10	punct	_	_
 15	aʔe	aʔe	PRON	pro	Person=3	17	obl	_	_
 16	mehe	mehe	ADP	posp	Rel=Cont	15	case	_	_
-17	uhem	hem	VERB	vi	Person[subj]=3	10	conj	_	_
+17	uhem	hem	VERB	vi	Person[subj]=3	0	root	_	_
 18	oho	ho	AUX	aux	Person[subj]=3	17	aux	_	_
 19	izuwi	uwi	ADP	posp	Rel=NCont	17	obl	_	_
 20	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	17	discourse	_	_
@@ -11815,7 +11816,7 @@
 # V AUX AUX PP PART
 1	Wata	ata	VERB	vi	Person[subj]=3	0	root	_	_
 2	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
-3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	_	_
+3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	_	_
 4	ɨ	ʔɨ	NOUN	n	_	5	nmod	_	_
 5	retanawʔɨm	eta	NOUN	n	Case=Abe|Nomzr=Circ|Rel=Cont	1	obl	_	_
 6	me	me	ADP	posp	Rel=Cont	5	case	_	_
@@ -11977,7 +11978,7 @@
 2	ukwaw	kwaw	VERB	vt	Person[subj]=3	0	root	_	_
 3	wemiʔuaʔi	ʔu	NOUN	n	Emph=Yes|Nomzr=DevPass|Person[psor]=3|Poss=Yes	2	obj	_	_
 4	oho	ho	AUX	aux	Person[subj]=3	2	aux	_	_
-5	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	4	aux	_	_
+5	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	_	_
 6	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	2	discourse	_	_
 7	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
 8	no	no	PART	pcl	_	2	discourse	_	_
@@ -12259,7 +12260,7 @@
 # V O PART
 1-2	Ukwawkatu	_	_	_	_	_	_	_	_
 1	Ukwaw	kwaw	VERB	vt	Person[subj]=3	0	root	_	_
-2	katu	katu	NOUN	n	Emph=Yes	0	obl	_	_
+2	katu	katu	NOUN	n	Emph=Yes	1	obl	_	_
 3	wekohaw	iko	NOUN	n	Nomzr=Circ|Rel=Corf	1	obj	_	_
 4	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	1	obl:subj	_	_
 5	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
@@ -12424,9 +12425,9 @@
 # V AUX PART
 1	Hurɨwete	urɨw	NOUN	n	Emph=Yes|Rel=NCont	2	obl:subj	_	_
 2	waiko	iko	VERB	vi	Aspect=Prog|Number=Plur|Person[subj]=3	0	root	_	_
-3	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
-4	no	no	PART	pcl	_	1	discourse	_	_
-5	.	.	PUNCT	punct	_	1	punct	_	_
+3	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
+4	no	no	PART	pcl	_	2	discourse	_	_
+5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 859
 # text = Uzemonoʔog waiko wa tueharupi wa no .
@@ -12480,22 +12481,22 @@
 4	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	2	discourse	_	_
 5	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
 6	,	,	PUNCT	punct	_	2	punct	_	_
-7	taʔe	taʔe	CCONJ	cc	_	10	cc	_	_
+7	taʔe	taʔe	CCONJ	cc	_	11	cc	_	_
 8-9	tatainɨ	_	_	_	_	_	_	_	_
-8	tata	ata	NOUN	n	Rel=Abs	10	obl	_	_
-9	inɨ	einɨ	NOUN	n	Rel=Cont	7	nmod	_	_
-10	romo	omo	ADP	posp	Rel=Cont	7	case	_	_
-11	wanekon	iko	NOUN	n	NonFoc=Yes|Number=Plur|Person[subj]=3|Rel=Cont	1	conj	_	_
-12	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	10	discourse	_	_
-13	wa	wa	PART	pcl	Number=Plur	10	discourse	_	_
-14	xe	xe	PART	pcl	_	10	discourse	_	_
-15	,	,	PUNCT	punct	_	10	punct	_	_
-16	aʔe	aʔe	PRON	pro	Person=3	17	obl	_	_
-17	rupi	upi	ADP	posp	Rel=Cont	15	case	_	_
-18	wata	ata	VERB	vi	Person[subj]=3	10	parataxis	_	_
-19	pɨtunahɨpe	pɨtun	NOUN	n	Case=Loc|Emph=Yes	17	obl	_	_
-20	wa	wa	PART	pcl	Number=Plur	17	discourse	_	_
-21	.	.	PUNCT	punct	_	17	punct	_	_
+8	tata	ata	NOUN	n	Rel=Abs	11	obl	_	_
+9	inɨ	einɨ	NOUN	n	Rel=Cont	8	nmod	_	_
+10	romo	omo	ADP	posp	Rel=Cont	8	case	_	_
+11	wanekon	iko	NOUN	n	NonFoc=Yes|Number=Plur|Person[subj]=3|Rel=Cont	2	conj	_	_
+12	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	11	discourse	_	_
+13	wa	wa	PART	pcl	Number=Plur	11	discourse	_	_
+14	xe	xe	PART	pcl	_	11	discourse	_	_
+15	,	,	PUNCT	punct	_	11	punct	_	_
+16	aʔe	aʔe	PRON	pro	Person=3	18	obl	_	_
+17	rupi	upi	ADP	posp	Rel=Cont	16	case	_	_
+18	wata	ata	VERB	vi	Person[subj]=3	11	parataxis	_	_
+19	pɨtunahɨpe	pɨtun	NOUN	n	Case=Loc|Emph=Yes	18	obl	_	_
+20	wa	wa	PART	pcl	Number=Plur	18	discourse	_	_
+21	.	.	PUNCT	punct	_	18	punct	_	_
 
 # sent_id = 863
 # text = Hehapɨhagatu waiko pɨtunahɨpe wa , taʔe uhɨapekatu wekohawpe aʔe wa no xe , wamiri wekohawpe aʔe wa no xe .
@@ -12508,12 +12509,12 @@
 2	pɨha	apɨha	NOUN	n	Rel=Cont	3	obl:subj	_	_
 3	gatu	katu	NOUN	n	Rel=Cont	2	nmod	_	_
 4	waiko	iko	VERB	vi	Aspect=Prog|Number=Plur|Person[subj]=3	0	root	_	_
-5	pɨtunahɨpe	pɨtun	NOUN	n	Case=Loc|Emph=Yes	2	obl	_	_
-6	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
-7	,	,	PUNCT	punct	_	2	punct	_	_
+5	pɨtunahɨpe	pɨtun	NOUN	n	Case=Loc|Emph=Yes	4	obl	_	_
+6	wa	wa	PART	pcl	Number=Plur	4	discourse	_	_
+7	,	,	PUNCT	punct	_	4	punct	_	_
 8	taʔe	taʔe	CCONJ	cc	_	9	cc	_	_
 9-10	uhɨapekatu	_	_	_	_	_	_	_	_
-9	uhɨape	hɨape	VERB	vi	Person[subj]=3	2	conj	_	_
+9	uhɨape	hɨape	VERB	vi	Person[subj]=3	4	conj	_	_
 10	katu	katu	NOUN	n	Emph=Yes	9	obl	_	_
 11	wekohawpe	iko	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Corf	9	obl	_	_
 12	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	9	obl:subj	_	_
@@ -12549,7 +12550,7 @@
 12	xe	xe	PART	pcl	_	8	discourse	_	_
 13	;	;	PUNCT	punct	_	8	punct	_	_
 14	nuʔukwaw	ʔu	VERB	vt	Person[subj]=3|Polarity=Neg	8	conj	_	_
-15	wamiri	wamiri	NOUN	n	_	4	obl:subj	_	_
+15	wamiri	wamiri	NOUN	n	_	14	obl:subj	_	_
 16	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	14	discourse	_	_
 17	wa	wa	PART	pcl	Number=Plur	14	discourse	_	_
 18	.	.	PUNCT	punct	_	14	punct	_	_
@@ -13008,11 +13009,11 @@
 # P V PP PART
 1	Ipɨtuhem	pɨtuhem	NOUN	n	Rel=NCont	2	obl:subj	_	_
 2	waiko	iko	VERB	vi	Aspect=Prog|Number=Plur|Person[subj]=3	0	root	_	_
-3	ɨ	ʔɨ	NOUN	n	_	1	obl	_	_
+3	ɨ	ʔɨ	NOUN	n	_	2	obl	_	_
 4	pupe	pupe	ADP	posp	Rel=Cont	3	case	_	_
-5	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
-6	no	no	PART	pcl	_	1	discourse	_	_
-7	.	.	PUNCT	punct	_	1	punct	_	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
+6	no	no	PART	pcl	_	2	discourse	_	_
+7	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 897
 # text = Nazaikokwaw wazawe zane .
@@ -13099,7 +13100,7 @@
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 903
-# text = Heta teteaʔu aʔe wa .
+# text = Hetateteaʔu aʔe wa .
 # text_port = São muitas . (Gomes, 1988)
 # text_spa = Son muchas .
 # text_eng = They are many.
@@ -13144,9 +13145,9 @@
 1	Hurɨwete	urɨw	NOUN	n	Emph=Yes|Rel=NCont	2	obl:subj	_	_
 2	waiko	iko	VERB	vi	Aspect=Prog|Number=Plur|Person[subj]=3	0	root	_	_
 3	ɨ	ʔɨ	NOUN	n	_	4	nmod	_	_
-4	perek	perek	NOUN	n	Rel=Cont	1	obl	_	_
-5	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
-6	.	.	PUNCT	punct	_	1	punct	_	_
+4	perek	perek	NOUN	n	Rel=Cont	2	obl	_	_
+5	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
+6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 907
 # text = Maʔe kurer uʔu waiko wa .
@@ -13205,7 +13206,7 @@
 4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 911
-# text = Tueharupi uʔu aʔi zanu wa no .
+# text = Tueharupi uʔuaʔi zanu wa no .
 # text_port = Sempre comem aranhas . (Gomes, 1988)
 # text_spa = Siempre come arañas.
 # text_eng = Always eat spiders.
@@ -13306,7 +13307,7 @@
 1	Naʔe	naʔe	CCONJ	cc	_	3	cc	_	_
 2	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	_	_
 3	uhem	hem	VERB	vi	Person[subj]=3	0	root	_	_
-4	zekwehe	kwehe	ADV	adv	Evident=Nfh	5	advmod	_	_
+4	zekwehe	kwehe	ADV	adv	Evident=Nfh	3	advmod	_	_
 5	oho	ho	AUX	aux	Person[subj]=3	3	aux	_	_
 6	hapuz	apuz	NOUN	n	Rel=NCont	3	obl	_	_
 7	me	me	ADP	posp	Rel=Cont	6	case	_	_
@@ -13767,7 +13768,7 @@
 # text_eng = "My guitar is so heavy!" He said to himself
 # [O [V PART S ADV PART]] V ADV I
 1-2	Ipuhuzkatu	_	_	_	_	_	_	_	_
-1	Ipuhuz	puhuz	NOUN	n	Rel=NCont	7	ccomp	_	_
+1	Ipuhuz	puhuz	NOUN	n	Rel=NCont	8	ccomp	_	_
 2	katu	katu	NOUN	n	Rel=Cont	1	nmod	_	_
 3	tue	tue	ADV	adv	Emph=Yes	1	advmod	_	_
 4	hewioraw	wioraw	NOUN	n	Foreign=Yes|Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	1	nmod	_	_
@@ -13775,8 +13776,8 @@
 6	no	no	PART	pcl	_	1	discourse	_	_
 7	pa	pa	PART	pcl	_	1	discourse	_	_
 8	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
-9	zekwehe	kwehe	ADV	adv	Evident=Nfh	7	advmod	_	_
-10	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	7	iobj	_	_
+9	zekwehe	kwehe	ADV	adv	Evident=Nfh	8	advmod	_	_
+10	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	8	iobj	_	_
 
 # sent_id = 953
 # text = Uhem zekwehe oho mɨnɨkawpe kurɨ
@@ -14103,7 +14104,7 @@
 15	rehe	ehe	ADP	posp	Rel=Cont	14	case	_	_
 16	wa	wa	PART	pcl	Number=Plur	14	discourse	_	_
 17	,	,	PUNCT	punct	_	14	punct	_	_
-18	te	te	SCONJ	sc	Foreign=ɨes	19	mark	_	_
+18	te	te	SCONJ	sc	Foreign=Yes	19	mark	_	_
 19	uhem	hem	VERB	vi	Person[subj]=3	8	advcl	_	_
 20	zekaipo	kwehe	ADV	adv	Evident=Nfh	19	advmod	_	_
 21	oho	ho	AUX	aux	Person[subj]=3	19	aux	_	_
@@ -14164,19 +14165,19 @@
 6	no	no	PART	pcl	_	3	discourse	_	_
 7	,	,	PUNCT	punct	_	3	punct	_	_
 8	—	—	PUNCT	punct	_	9	punct	_	_
-9	Exakatu	exak	VERB	vt	Emph=Yes|Mood=Imp|Number=Sing|Person[subj]=2	17	ccomp	17:ccomp	_
+9	Exakatu	exak	VERB	vt	Emph=Yes|Mood=Imp|Number=Sing|Person[subj]=2	16	ccomp	17:ccomp	_
 10	eho	ho	VERB	vi	Mood=Imp|Number=Sing|Person[subj]=2	9	aux	_	_
 11	nepɨragawam	pɨrag	NOUN	n	Nomzr=Circ|Number=Sing|Person[psor]=2|Tense=Fut	9	obl	_	_
-13	me	me	ADP	posp	Rel=Cont	11	case	_	_
-14	nehe	nehe	PART	pcl	_	9	discourse	_	_
-15	ʔɨ	ʔɨ	PART	pcl	_	9	discourse	_	_
-16	,	,	PUNCT	punct	_	9	punct	_	_
-17	iʔi	ʔi	NOUN	n	Rel=NCont	3	parataxis	_	_
-18	zekaipo	kwehe	ADV	adv	Evident=Nfh	18	advmod	_	_
-19	ihɨ	hɨ	NOUN	n	Rel=NCont	18	nmod	_	_
-20	izupe	upe	ADP	posp	Rel=NCont	18	iobj	_	_
-21	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	18	discourse	_	_
-22	.	.	PUNCT	punct	_	18	punct	_	_
+12	me	me	ADP	posp	Rel=Cont	11	case	_	_
+13	nehe	nehe	PART	pcl	_	9	discourse	_	_
+14	ʔɨ	ʔɨ	PART	pcl	_	9	discourse	_	_
+15	,	,	PUNCT	punct	_	9	punct	_	_
+16	iʔi	ʔi	NOUN	n	Rel=NCont	3	parataxis	_	_
+17	zekaipo	kwehe	ADV	adv	Evident=Nfh	16	advmod	_	_
+18	ihɨ	hɨ	NOUN	n	Rel=NCont	16	nmod	_	_
+19	izupe	upe	ADP	posp	Rel=NCont	16	iobj	_	_
+20	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	16	discourse	_	_
+21	.	.	PUNCT	punct	_	16	punct	_	_
 
 # sent_id = 979
 # text = — Taʔe wɨramiri azukaputar aha kwez rupi rihi xe , iʔi zekaipo kwarer uhɨpe , te oho zekaipo aʔe kwarer .
@@ -14184,11 +14185,11 @@
 # text_spa = "Voy a cazar pájaros, dijo el niño. Y se fue .
 # text_eng = "I'll hunt birds, the boy said. And he left .
 # [OBJ [C O V AUX PP PART]] V ADV S PP - C V ADV PART S
-1	—	—	PUNCT	punct	_	1	punct	_	_
+1	—	—	PUNCT	punct	_	4	punct	_	_
 2	Taʔe	taʔe	CCONJ	cc	_	4	cc	_	_
 3	wɨramiri	wɨramiri	NOUN	n	_	4	obj	_	_
 4	azukaputar	uka	VERB	vt	Number=Sing|Person[subj]=1|Tense=Fut	11	ccomp	_	_
-5	aho	ho	VERB	vi	Number=Sing|Person[subj]=1	4	aux	_	_
+5	aha	ho	VERB	vi	Number=Sing|Person[subj]=1	4	aux	_	_
 6	kwez	akwez	PRON	pro	PronType=Dem	4	obl	_	_
 7	rupi	upi	ADP	posp	Rel=Cont	6	case	_	_
 8	rihi	rihi	PART	pcl	_	4	discourse	_	_
@@ -14199,7 +14200,7 @@
 13	kwarer	kwarer	NOUN	n	_	11	nmod	_	_
 14	uhɨpe	hɨ	NOUN	n	Case=Dat|Rel=Corf	11	obl	_	_
 15	,	,	PUNCT	punct	_	11	punct	_	_
-16	te	te	SCONJ	sc	Foreign=ɨes	17	mark	_	_
+16	te	te	SCONJ	sc	Foreign=Yes	17	mark	_	_
 17	oho	ho	VERB	vi	Person[subj]=3	11	advcl	_	_
 18	zekaipo	kwehe	ADV	adv	Evident=Nfh	17	advmod	_	_
 19	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	17	discourse	_	_
@@ -14243,19 +14244,20 @@
 1	—	—	PUNCT	punct	_	2	punct	_	_
 2	Azuka	uka	VERB	vt	Number=Sing|Person[subj]=1	9	ccomp	_	_
 3	e	e	PART	pcl	_	2	discourse	_	_
-4	tomokwez	amo	PRON	pro	PronType=Dem|Rel=Abs|Tense=Past	6	det	_	_
-5	ɨwɨzaʔu	ɨwɨzaʔu	NOUN	n	_	2	obj	_	_
-6	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
-7	xe	xe	PART	pcl	_	2	discourse	_	_
-8	,	,	PUNCT	punct	_	2	punct	_	_
-9	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
-10	zekaipo	kwehe	ADV	adv	Evident=Nfh	9	advmod	_	_
-11	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	9	iobj	_	_
-12	aʔe	aʔe	DET	dem	PronType=Dem	13	det	_	_
-13	kwarer	kwarer	NOUN	n	_	9	obl:subj	_	_
-14	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	9	discourse	_	_
-15	kurɨ	kurɨ	PART	pcl	_	9	discourse	_	_
-16	.	.	PUNCT	punct	_	9	punct	_	_
+4	tomo	tomo	PART	pcl	_	2	discourse	_	_
+5	kwez	akwez	DET	dem	PronType=Dem	6	det	_	_
+6	ɨwɨzaʔu	ɨwɨzaʔu	NOUN	n	_	2	obj	_	_
+7	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
+8	xe	xe	PART	pcl	_	2	discourse	_	_
+9	,	,	PUNCT	punct	_	2	punct	_	_
+10	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
+11	zekaipo	kwehe	ADV	adv	Evident=Nfh	10	advmod	_	_
+12	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	10	iobj	_	_
+13	aʔe	aʔe	DET	dem	PronType=Dem	14	det	_	_
+14	kwarer	kwarer	NOUN	n	_	10	obl:subj	_	_
+15	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	10	discourse	_	_
+16	kurɨ	kurɨ	PART	pcl	_	10	discourse	_	_
+17	.	.	PUNCT	punct	_	10	punct	_	_
 
 # sent_id = 983
 # text = Uzawɨzawɨ zekaipo heraha hereko kurɨ . Te oho zekaipo iko haikwez romo aʔe kurɨ .
@@ -14342,7 +14344,7 @@
 4	hu	hu	NOUN	n	Rel=Cont	3	nmod	_	_
 5	ɨwɨzaʔu	ɨwɨzaʔu	NOUN	n	_	6	obl:subj	_	_
 6	uzapo	apo	VERB	vt	Person[subj]=3	0	root	_	_
-7	oho	ho	VERB	vi	Person[subj]=3	6	aux	_	_
+7	oho	ho	AUX	aux	Person[subj]=3	6	aux	_	_
 8-9	haikwerupi	_	_	_	_	_	_	_	_
 8	haikwer	aikwer	NOUN	n	Rel=Corf	6	obl	_	_
 9	upi	upi	NOUN	n	Rel=Cont	8	case	_	_
@@ -14469,7 +14471,7 @@
 3	zekaipo	kwehe	ADV	adv	Evident=Nfh	4	advmod	_	_
 4	uzaiʔo	zaiʔo	VERB	vi	Person[subj]=3	0	root	_	_
 5	kwarer	kwarer	NOUN	n	_	4	obl:subj	_	_
-6	ʔam	ʔam	AUX	aux	Person[subj]=3	4	aux	4:aux	_
+6	ʔam	ʔam	AUX	aux	Person[subj]=3	4	aux	_	_
 7	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	4	obl	_	_
 8	aʔe	aʔe	PRON	pro	Person=3|PronType=Dem	4	discourse	_	_
 9	kurɨ	kurɨ	PART	pcl	_	4	discourse	_	_
