@@ -17,19 +17,25 @@ It is part of [TuLaR](https://tular.clld.org), Tupían Language Resources.  The 
  
 ## Text sources
 
-* Harrison, Carl H. (1986). "Verb Prominence, Verb Initialness, Ergativity and Typological Disharmony in Guajajara". In: 
+* Harrison, Carl H. (1986). "Verb Prominence, Verb Initialness, Ergativity and Typological Disharmony in Guajajara". In: Derbyshire, Desmond C. et al. Handbook of Amazonian Languages. Mouton de Gruyer. Vol 1, pp. 407-439.
 
-* Gomes G., Vicente (1988). Ipira wamumeʼu haw. SIL
+* Gomes G., Vicente (1988). Ipira wamumeʼu haw. SIL.
  
-* Harrison, Carl H.; Harrison, Carole W.; Boot, Joseph; Boot, Lillian (1988). Ywyzaʼu Imumeʼu Haw Xe Aʼe Nehe Kury. SIL
+* Harrison, Carl H.; Harrison, Carole W.; Boot, Joseph; Boot, Lillian (1988). Ywyzaʼu Imumeʼu Haw Xe Aʼe Nehe Kury. SIL.
  
-* Harrison, Carole W. (2000). Zazemuꞌe Zeꞌegete Rehe 2, [Cartilha Guajajára [2]]. 2ª Edição revisada. SIL
+* Harrison, Carole W. (2000). Zazemuꞌe Zeꞌegete Rehe 2, [Cartilha Guajajára [2]]. 2ª Edição revisada. SIL.
  
-* Harrison, Carole W. (2000). Zazemuꞌe Zeꞌegete Rehe 3, [Cartilha Guajajára [3]]. 2ª Edição revisada. SIL
+* Harrison, Carole W. (2000). Zazemuꞌe Zeꞌegete Rehe 3, [Cartilha Guajajára [3]]. 2ª Edição revisada. SIL.
+ 
+* Wycliffe Bible Translators (2007). Tupàn Ze'eg – A Bíblia Sagrada na língua guajajara (tenetehara) do Brasil.
  
 * Harrison, Carl H. and Harrison, Carole W. (2013). Dicionário Guajajara-Português. SIL.
+ 
+* Bonfim Duarte, Fábio (2018). "Clausal Recursion, Predicate-Raising, and Head-Finality in Tenetehára". In: Amaral, Luiz et al. Recursion along Domains. Pp. 143-165. 
 
-* Campos Castro, R. and Carvalho Guajajara, P. (2020). Izipi mehe: cibercaminhos linguísticos e literários para a preservação da cultura Tenetehára. Revista Brasileira de Linguística Antropológica, 12(1).
+* Campos Castro, Ricardo and Carvalho Guajajara, Pedro (2020). Izipi mehe: cibercaminhos linguísticos e literários para a preservação da cultura Tenetehára. Revista Brasileira de Linguística Antropológica, 12(1).
+ 
+* Campos Castro, Ricardo and Fagundes Camargos, Quesler (2021). The syntactic status of noun incorporation in the Tenetehára language (Tupí-Guaraní family). Revista Brasileira de Linguística Antropológica, 13, pp. 299-325. DOI: 10.26512/rbla.v13i01.38034
 
 
 # Acknowledgments
