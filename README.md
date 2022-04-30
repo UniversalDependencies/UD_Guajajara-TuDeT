@@ -1,34 +1,44 @@
-![TuLeD](not-to-release/mapNimu2.png)
+
 
 # Summary
 
 <p>
 
-UD_Guajajara-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/guaj1255">Guajajara</a>. The project is a work in progress and the treebank is being updated on a regular basis.
+UD_Guajajara-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/guaj1255">Guajajara</a>. Sentences stem from multiple sources describing various aspects of the languages, texts supplied by <a href="https://www.sil.org/">SIL</a>, sentences in the dictionary by Harrison and Harrison 2013 and from Harrison 1986, and from the New Testament translation by Wycliffe Bible Translators 2007. Sentence annotation and documentation by Lorena Martín Rodríguez and Fabrício Ferraz Gerardi.
 
 
 
 # Introduction
 
 UD_Guajajara-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/guaj1255">Guajajara</a>.
-It is part of [TuLaR](https://tular.clld.org), Tupían Language Resources, which contains other languages -- see [TuDeT](https://tular.clld.org/contributions/tudet). The sentences are being annotated by Lorena Martín Rodríguez and Fabrício Ferraz Gerardi.
+It is part of [TuLaR](https://tular.clld.org), Tupían Language Resources.  The project is work in progress and the treebank is being updated on a regular basis. Sentence annotation and documentation by Lorena Martín Rodríguez and Fabrício Ferraz Gerardi.
 
+
+ 
 ## Text sources
 
-Harison, Carl Dicionário and Harrison, Carole (2013). *Dicionário Guajajara-Português* . SIL, 2013.
+* Harrison, Carl H. (1986). "Verb Prominence, Verb Initialness, Ergativity and Typological Disharmony in Guajajara". In: 
 
-Campos Castro, R., & Carvalho Guajajara, P. (2020). Izipi mehe: cibercaminhos linguísticos e literários para a preservação da cultura Tenetehára. Revista Brasileira de Linguística Antropológica, 12(1).
+* Gomes G., Vicente (1988). Ipira wamumeʼu haw. SIL
+ 
+* Harrison, Carl H.; Harrison, Carole W.; Boot, Joseph; Boot, Lillian (1988). Ywyzaʼu Imumeʼu Haw Xe Aʼe Nehe Kury. SIL
+ 
+* Harrison, Carole W. (2000). Zazemuꞌe Zeꞌegete Rehe 2, [Cartilha Guajajára [2]]. 2ª Edição revisada. SIL
+ 
+* Harrison, Carole W. (2000). Zazemuꞌe Zeꞌegete Rehe 3, [Cartilha Guajajára [3]]. 2ª Edição revisada. SIL
+ 
+* Harrison, Carl H. and Harrison, Carole W. (2013). Dicionário Guajajara-Português. SIL.
+
+* Campos Castro, R. and Carvalho Guajajara, P. (2020). Izipi mehe: cibercaminhos linguísticos e literários para a preservação da cultura Tenetehára. Revista Brasileira de Linguística Antropológica, 12(1).
 
 
 # Acknowledgments
 
-The development of the treebank is supported by the by European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (Grant agreement No. [834050](https://uni-tuebingen.de/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/seminar-fuer-sprachwissenschaft/arbeitsbereiche/allg-sprachwissenschaft/projekte/crosslingference/)).
+The development of this treebank is supported by the by European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (Grant agreement No. [834050](https://uni-tuebingen.de/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/seminar-fuer-sprachwissenschaft/arbeitsbereiche/allg-sprachwissenschaft/projekte/crosslingference/)).
 
 ## References
 
-* Harison, Carl and Harrison, Carole (2013). Dicionário Guajajara-Português. SIL, 2013.
-* Campos Castro, R., & Carvalho Guajajara, P. (2020). Izipi mehe: cibercaminhos linguísticos e literários para a preservação da cultura Tenetehára. Revista Brasileira de Linguística Antropológica, 12(1).
-
+ 
 
 # Changelog
 
@@ -47,7 +57,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Martín-Rodríguez, Lorena; Gerardi, Fabrício Ferraz; Aragon, Carolina
+Contributors: Martín Rodríguez, Lorena; Gerardi, Fabrício Ferraz
 Contributing: elsewhere
 Contact: fabricio.gerardi@uni-tuebingen.de
 ===============================================================================
