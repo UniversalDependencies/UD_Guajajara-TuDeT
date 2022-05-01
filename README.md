@@ -2,11 +2,7 @@
 
 # Summary
 
-<p>
-
 UD_Guajajara-TuDeT is a collection of annotated sentences in <a href="https://glottolog.org/resource/languoid/id/guaj1255">Guajajara</a>. Sentences stem from multiple sources describing various aspects of the languages, texts supplied by <a href="https://www.sil.org/">SIL</a>, sentences in the dictionary by Harrison and Harrison 2013 and from Harrison 1986, and from the New Testament translation by Wycliffe Bible Translators 2007. Sentence annotation and documentation by Lorena Martín Rodríguez and Fabrício Ferraz Gerardi.
-
-
 
 # Introduction
 
