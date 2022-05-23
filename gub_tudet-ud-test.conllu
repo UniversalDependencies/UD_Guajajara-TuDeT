@@ -746,7 +746,7 @@
 1	Ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=Abs	2	obl:subj	_	_
 2	ikatu	katu	NOUN	n	Rel=NCont	0	root	_	_
 3	arakurpe	arakur	NOUN	n	Case=Dat	2	obl	_	_
-4	iʔu	uʔu	NOUN	n	Person[subj]=3	2	obl	_	_
+4	iʔu	ʔu	NOUN	n	Rel=NCont	2	obl	_	_
 5	mehe	mehe	ADP	posp	Rel=Cont	4	case	_	_
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -2555,7 +2555,7 @@
 # V S PP
 1	Wiko	iko	VERB	vi	Person[subj]=3	0	root	_	_
 2	Mari	Mari	PROPN	pn	_	1	obl:subj	_	_
-3	wapuz	wapuz	NOUN	n	Rel=Corf	1	obl	_	_
+3	wapuz	apuz	NOUN	n	Rel=Corf	1	obl	_	_
 4	me	me	ADP	posp	Rel=Cont	3	case	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -2580,7 +2580,7 @@
 2	Zuze	Zuze	PROPN	pn	_	1	obl:subj	_	_
 3	umukaw	mukaw	NOUN	n	Rel=Corf	1	obj	_	_
 4	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
-5	wapuz	wapuz	NOUN	n	_	1	obl	_	_
+5	wapuz	apuz	NOUN	n	Rel=Corf	1	obl	_	_
 6	me	me	ADP	posp	Rel=Cont	5	case	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -3412,7 +3412,7 @@
 3	riʔi	riʔi	PART	pcl	_	1	discourse	_	_
 4	tɨ	tɨ	PART	pcl	Speech=MM	1	discourse	_	_
 5	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
-6	izeupe	upe	NOUN	n	Reflex=Yes|Rel=NCont	5	iobj	_	_
+6	izeupe	upe	ADP	posp	Reflex=Yes|Rel=NCont	5	iobj	_	_
 7	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 254
@@ -3703,7 +3703,7 @@
 3	mainumɨ	mainumɨ	NOUN	n	_	4	obl:subj	_	_
 4	uzeapo	apo	VERB	vt	Person[subj]=3|Reflex=Yes	0	root	_	_
 5	tentehar	tentehar	NOUN	n	_	4	obl	_	_
-6	rumu	umu	NOUN	n	Rel=Cont	5	case	_	_
+6	rumu	umu	ADP	posp	Rel=Cont	5	case	_	_
 7	izupe	zupe	ADP	posp	Rel=NCont	4	obl	_	_
 8	kurɨ	kurɨ	PART	pcl	_	4	discourse	_	_
 9	,	,	PUNCT	punct	_	4	punct	_	_
@@ -3938,7 +3938,7 @@
 3	aʔe	aʔe	DET	dem	PronType=Dem	6	det	_	_
 4	zawar	zawar	NOUN	n	_	5	nmod	_	_
 5	iziwapɨrer	ziwa	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Past	6	nmod	_	_
-6	tupawpe	upaw	NOUN	n	Case=Loc|Rel=Abs	1	obl	_	_
+6	tupawpe	tupaw	NOUN	n	Case=Loc	1	obl	_	_
 7	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 8	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 9	,	,	PUNCT	punct	_	1	punct	_	_
@@ -6004,7 +6004,7 @@
 # [O [V S O]] V I
 1	Omowok	wok	VERB	vt	Person[subj]=3|Voice=Cau	5	ccomp	_	_
 2	xu	xu	NOUN	n	_	1	obl:subj	_	_
-3	heremɨhar	eremɨhar	NOUN	n	Rel=NCont	1	obj	_	_
+3	heremɨhar	emɨhar	NOUN	n	Rel=NCont	1	obj	_	_
 4	,	,	PUNCT	punct	_	1	punct	_	_
 5	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
 6	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	5	iobj	_	_
@@ -6910,7 +6910,7 @@
 15	wa	wa	PART	pcl	Number=Plur|Person=3	11	discourse	_	_
 16	,	,	PUNCT	punct	_	11	punct	_	_
 17	upaw	paw	VERB	vi	Person[subj]=3	11	parataxis	_	_
-18	waʔun	ʔun	NOUN	n	NonFoc=Yes|Number=Plur|Person[psor]=3|Poss=Yes	17	obj	_	_
+18	waʔun	ʔu	NOUN	n	NonFoc=Yes|Number=Plur|Person[psor]=3|Poss=Yes	17	obj	_	_
 19	wa	wa	PART	pcl	Number=Plur|Person=3	17	discourse	_	_
 20	.	.	PUNCT	punct	_	17	punct	_	_
 
