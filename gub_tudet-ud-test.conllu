@@ -2685,8 +2685,8 @@
 # text_spa = Todos los días, mató a muchos pájaros allí.
 # text_en = Every day, he killed many birds there.
 # PP V O PP
-1-2	Tueharupi	_	_	_	_	_	_	_	_
-1	Tueha	tue	NOUN	n	Nomzr=Ag	3	obl	_	_
+1-2	Tuweharupi	_	_	_	_	_	_	_	_
+1	Tuweha	tue	NOUN	n	Nomzr=Ag	3	obl	_	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
 3-4	uzukakateteaʔu	_	_	_	_	_	_	_	_
 3	uzuka	zuka	VERB	vt	Person[subj]=3	0	root	_	_
@@ -4122,7 +4122,7 @@
 14	;	;	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 295
-# text = Wɨraʔohaw , kokumu wakwaztaw , wahuhaw , kwatazgwerai wawɨraʔohaw , upuwipuwirkwer wazimuairhaw , paze maʔe wazeʔagaw pawhaw , zegaraiwpaw
+# text = Wɨraʔohaw , kokumu wakwaztaw , wahuhaw , kwatazgwerai wawɨraʔohaw , upuwipuwirkwer wazimuairhaw , paze maʔe wazeʔagawpawhaw , zegaraiwpaw
 # text_port = A Festa da menina-moça, a festa dos rapazes, a festa da colheita, a festa das criancinhas, a festa dos separados (divorciados), a festa dos pajés e as orações Tenetehára (Campos Castro 2020).
 # text_spa = La fiesta de las jóvenes, la fiesta de los niños, el partido de la cosecha, la fiesta de los niños, la fiesta de los separados (divorciados), la fiesta de los pajés y las oraciones Tenetehára.
 # text_en = The young girl's festivities, the boys' festivities, the harvest festivity, the festivity of the children, the festivity of the separated ones (divorced), the festivity of the pajés and the Tenetehára prayers.
@@ -6242,7 +6242,7 @@
 2	pixan	pixan	NOUN	n	_	1	obl:subj	_	_
 3	aguza	aguza	NOUN	n	_	4	nmod	_	_
 4	wanetahaw	eta	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Rel=Cont	1	obj	_	_
-5	Zuze	Zuze	PROPN	pn	_	7	nmod	_	_
+5	Zuze	Zuze	PROPN	pn	_	6	nmod	_	_
 6	rapuz	apuz	NOUN	n	Rel=Cont	1	obl	_	_
 7	me	me	ADP	posp	Rel=Cont	6	case	_	_
 8	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
@@ -6309,12 +6309,11 @@
 7	,	,	PUNCT	punct	_	1	punct	_	_
 8	temiʔu	ʔu	NOUN	n	Nomzr=DevPass|Rel=Abs	12	obj	_	_
 9	ɨwɨ	ɨwɨ	NOUN	n	_	8	nmod	_	_
-10	rehe	ehe	ADP	posp	Rel=Cont	9	case	_	_
-11	har	har	ADV	adv	Nomzr=Ag	9	advmod	_	_
-12	hekarpa	ekar	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
-13	aʔe	aʔe	PRON	pro	PronType=Dem	8	discourse	_	_
-14	kurɨ	kurɨ	PART	pcl	_	12	discourse	_	_
-15	.	.	PUNCT	punct	_	12	punct	_	_
+10	rehehar	ehe	NOUN	n	Nomzr=Ag|Rel=Cont	9	nmod	_	_
+11	hekarpa	ekar	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
+12	aʔe	aʔe	PRON	pro	PronType=Dem	8	discourse	_	_
+13	kurɨ	kurɨ	PART	pcl	_	12	discourse	_	_
+14	.	.	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 456
 # text = Opor pixan oho hehe , upɨhɨk no .
@@ -6663,7 +6662,7 @@
 6	zawar	zawar	NOUN	n	_	10	obl	_	_
 7	uhu	hu	NOUN	n	_	6	nmod	_	_
 8	rehe	ehe	ADP	posp	Rel=Cont	6	case	_	_
-9-10	maʔemumeʔu	_	_	_	_	_	_	_	_
+9-10	maʔemumeʔuhaw	_	_	_	_	_	_	_	_
 9	maʔe	maʔe	NOUN	n	Rel=Cont	10	obj	_	_
 10	mumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ	5	obj	_	_
 11	ihe	ihe	PRON	pro	Person=1|PronType=Prs	5	discourse	_	_
@@ -9036,7 +9035,7 @@
 # text_spa = No sienten hambrientos.
 # text_eng = They do not feel hungry.
 # P PART
-1-2	Naʔimaʔuhez	_	_	_	_	_	_	_	_
+1-2	Naʔimaʔuhezpixikwaw	_	_	_	_	_	_	_	_
 1	naʔima	maʔe	NOUN	n	Person[subj]=3|Polarity=Neg|Rel=NCont	2	obj	_	_
 2	ʔuhezpixikwaw	ʔu	NOUN	n	Emph=Yes|Mood=Des|Polarity=Neg|Rel=Cont	0	root	_	_
 3	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
@@ -9215,7 +9214,7 @@
 8	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 661
-# text = Umaiʔu kwarahɨ tete mehe aʔe kurɨ .
+# text = Umaiʔu kwarahɨtete mehe aʔe kurɨ .
 # text_port = Come quando o sol está quente . (Gomes, 1988)
 # text_spa = Ven cuando el sol está caliente.
 # text_eng = Eat when the sun is hot.
@@ -14247,7 +14246,7 @@
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 982
-# text = — Azuka e tomo kwez ɨwɨzaʔu wa xe , iʔi zekaipo uzeupe aʔe kwarer aʔe kurɨ .
+# text = — Azukae tomo kwez ɨwɨzaʔu wa xe , iʔi zekaipo uzeupe aʔe kwarer aʔe kurɨ .
 # text_port = — Eu vou matar aquele bacurau , disse o menino , e foi atrás dele . (Harrison et al., 1988)
 # text_spa = "Voy a matar a ese bacurau", dijo el niño, y fue tras él.
 # text_eng = "I'm going to kill that bacurau," said the boy, and went after him.
@@ -14778,7 +14777,7 @@
 15	.	.	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 1011
-# text = Aze mo tenetehar romo aipo ipeku hekon no pa , hereraha e tomo kwez ɨwaz xe , aʔe e kwez tɨ , iʔi zekaipo kwarer ipekupe .
+# text = Aze mo tenetehar romo aipo ipeku hekon no pa , hererahae tomo kwez ɨwaz xe , aʔe e kwez tɨ , iʔi zekaipo kwarer ipekupe .
 # text_port = Se o pica-pau fosse gente , ele me levaria para o outro lado desta água , respondeu ele para o pica-pau . (Harrison et al., 1988)
 # text_spa = Si el pájaro carpintero fuera la gente, me llevaría al otro lado de esta agua, respondió al pájaro carpintero.
 # text_eng = If the woodpecker were people, he would take me to the other side of this water, he replied to the woodpecker.
@@ -15991,7 +15990,7 @@
 5	ko	ko	NOUN	n	_	2	obl	_	_
 6	rupi	upi	ADP	posp	Rel=Cont	4	case	_	_
 7	ikwaw	kwaw	NOUN	n	Rel=NCont	2	obl	_	_
-8	mehe	mehe	ADP	posp	Rel=Cont	6	case	_	_
+8	mehe	mehe	ADP	posp	Rel=Cont	7	case	_	_
 9	aipo	aipo	PART	pcl	Int=Yes	2	advmod	_	_
 10	tɨ	tɨ	PART	pcl	Speech=MM	2	discourse	_	_
 11	,	,	PUNCT	punct	_	2	punct	_	_
