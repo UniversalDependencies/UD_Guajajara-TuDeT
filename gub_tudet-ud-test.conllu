@@ -4146,7 +4146,7 @@
 15	,	,	PUNCT	punct	_	14	punct	_	_
 16	paze	paze	NOUN	n	_	18	nmod	_	_
 17	maʔe	maʔe	NOUN	n	_	18	nmod	_	_
-18-19	wazeʔagawpaw	_	_	_	_	_	_	_	_
+18-19	wazeʔagawpawhaw	_	_	_	_	_	_	_	_
 18	wazeʔagaw	zeʔaga	NOUN	n	Nomzr=Circ|Number=Plur	2	list	_	_
 19	pawhaw	paw	NOUN	n	Nomzr=Circ|PronType=Tot	18	nmod	_	_
 20	,	,	PUNCT	punct	_	18	punct	_	_
@@ -6307,13 +6307,13 @@
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 6	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 7	,	,	PUNCT	punct	_	1	punct	_	_
-8	temiʔu	ʔu	NOUN	n	Nomzr=DevPass|Rel=Abs	12	obj	_	_
+8	temiʔu	ʔu	NOUN	n	Nomzr=DevPass|Rel=Abs	11	obj	_	_
 9	ɨwɨ	ɨwɨ	NOUN	n	_	8	nmod	_	_
 10	rehehar	ehe	NOUN	n	Nomzr=Ag|Rel=Cont	9	nmod	_	_
 11	hekarpa	ekar	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
-12	aʔe	aʔe	PRON	pro	PronType=Dem	8	discourse	_	_
-13	kurɨ	kurɨ	PART	pcl	_	12	discourse	_	_
-14	.	.	PUNCT	punct	_	12	punct	_	_
+12	aʔe	aʔe	PRON	pro	PronType=Dem	11	discourse	_	_
+13	kurɨ	kurɨ	PART	pcl	_	11	discourse	_	_
+14	.	.	PUNCT	punct	_	11	punct	_	_
 
 # sent_id = 456
 # text = Opor pixan oho hehe , upɨhɨk no .
