@@ -26,7 +26,7 @@
 # text_eng = He never did this kind of things to any other man 
 # V PP ADV O PP
 1	Nuzapopixikwaw	apo	VERB	vt	Emph=Yes|Person[subj]=3|Polarity=Neg	0	root	_	_
-2	agwer	agwer	DET	det	PronType=Dem	2	det	_	_
+2	agwer	agwer	DET	det	PronType=Dem	3	det	_	_
 3	maʔe	maʔe	NOUN	n	_	1	obj	_	_
 4	amoae	amo	DET	det	Emph=Yes|PronType=Ind	5	det	_	_
 5	awape	awa	NOUN	n	Case=Dat	1	obl	_	_
@@ -2287,7 +2287,7 @@
 1	Waro	aro	VERB	vt	Person[subj]=3	0	root	_	_
 2	kɨhaw	kɨhaw	NOUN	n	_	4	nmod	_	_
 3	pupe	pupe	ADP	posp	Rel=Cont	2	case	_	_
-4	ɨwate	ɨwak	NOUN	n	Emph=Yes	1	advmod	_	_
+4	ɨwate	ɨwak	NOUN	n	Emph=Yes	1	obl	_	_
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -2686,7 +2686,7 @@
 # text_en = Every day, he killed many birds there.
 # PP V O PP
 1-2	Tueharupi	_	_	_	_	_	_	_	_
-1	Tuweha	tue	NOUN	n	Nomzr=Ag	3	obl	_	_
+1	Tueha	tue	NOUN	n	Nomzr=Ag	3	obl	_	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
 3-4	uzukakateteaʔu	_	_	_	_	_	_	_	_
 3	uzuka	zuka	VERB	vt	Person[subj]=3	0	root	_	_
@@ -2873,7 +2873,7 @@
 # P PP
 1	Amo	amo	DET	dem	PronType=Ind	2	det	_	_
 2	mahaw	mahaw	NOUN	n	_	3	nmod	_	_
-3	ipuruʔuwer	ʔu	NOUN	n	Voice=Antip|Mood=Des|Rel=NCont	0	root	_	_
+3	ipuruʔuwer	ʔu	NOUN	n	Mood=Des|Rel=NCont|Voice=Antip	0	root	_	_
 4	amo	amo	DET	dem	PronType=Ind	5	det	_	_
 5	maʔe	maʔe	NOUN	n	_	3	obl	_	_
 6	rehe	ehe	ADP	posp	Rel=Cont	5	case	_	_
@@ -2913,7 +2913,7 @@
 # text_spa = Quería comer algo.
 # text_eng = It wanted to eat something.
 # P PP
-1	Ipuruʔuwer	ʔu	NOUN	n	Voice=Antip|Mood=Des|Rel=NCont	0	root	_	_
+1	Ipuruʔuwer	ʔu	NOUN	n	Mood=Des|Rel=NCont|Voice=Antip	0	root	_	_
 2	amo	amo	DET	dem	PronType=Ind	3	det	_	_
 3	maʔe	maʔe	NOUN	n	_	1	obl	_	_
 4	rehe	ehe	ADP	posp	Rel=Cont	3	case	_	_
@@ -3421,7 +3421,7 @@
 # text_spa = Quiero comer carne de venado, le dice Karita a su padre.
 # text_eng = I want to eat venison, Karita tells her father.
 # [O [V PP]] P PP
-1	Hepuruʔuwer	ʔu	NOUN	n	Voice=Antip|Mood=Des|Number=Sing|Person[psor]=1|Poss=Yes	6	ccomp	_	_
+1	Hepuruʔuwer	ʔu	NOUN	n	Mood=Des|Number=Sing|Person[psor]=1|Poss=Yes|Voice=Antip	6	ccomp	_	_
 2	arapuha	arapuha	NOUN	n	_	3	nmod	_	_
 3	roʔokwer	oʔo	NOUN	n	Rel=Cont|Tense=Past	1	obl	_	_
 4	rehe	ehe	ADP	posp	Rel=Cont	3	case	_	_
@@ -3720,7 +3720,7 @@
 # text_spa = Karita quería comer carne de venado.
 # text_eng = Karita wanted to eat venison.
 # O V S PP
-1	Ipuruʔuwer	ʔu	NOUN	n	Voice=Antip|Mood=Des|Rel=NCont	0	root	_	_
+1	Ipuruʔuwer	ʔu	NOUN	n	Mood=Des|Rel=NCont|Voice=Antip	0	root	_	_
 2	Kari	Kari	PROPN	pn	_	1	obl:subj	_	_
 3	arapuha	arapuha	NOUN	n	_	4	nmod	_	_
 4	roʔokwer	oʔo	NOUN	n	Rel=Cont|Tense=Past	1	obl	_	_
@@ -3754,7 +3754,7 @@
 7	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 274
-# text = Werur zapepo ipɨahumaʔe tawwi .
+# text = Werur zapepo ipɨahumaʔe tawi .
 # text_port = Ele trouxe uma panela nova de lã (Sociedade Internacional de Lingüística, 1973:79).
 # text_spa = Trajo una cacerola nueva de allí.
 # text_eng = He brought a new saucepan from there.
@@ -4028,7 +4028,7 @@
 4	:	:	PUNCT	punct	_	2	punct	_	_
 5	Heta	eta	NOUN	n	Rel=NCont	10	ccomp	_	_
 6	hepuneraw	epuner	NOUN	n	Nomzr=Circ|Rel=NCont	7	nmod	_	_
-7	purumukatuhaw	katu	NOUN	n	Voice=Antip|Nomzr=Circ|Rel=Cont|Voice=Cau	5	nmod	_	_
+7	purumukatuhaw	katu	NOUN	n	Nomzr=Circ|Rel=Cont|Voice=Cau	5	nmod	_	_
 8	ihe	ihe	PRON	pro	Person=1|PronType=Prs	5	discourse	_	_
 9	tɨ	tɨ	PART	pcl	Speech=MM	5	discourse	_	_
 10	iʔiʔ	ʔi	NOUN	n	Rel=NCont	2	parataxis	_	_
@@ -4122,7 +4122,7 @@
 14	;	;	PUNCT	punct	_	13	punct	_	_
 
 # sent_id = 295
-# text = Wɨraʔohaw , kokumu wakwaztaw , wahuhaw , kwatazgwerai wawɨraʔohaw , upuwipuwirkwer wazimuairhaw , paze maʔe wazeʔagawpaw haw , zegaraiwpaw
+# text = Wɨraʔohaw , kokumu wakwaztaw , wahuhaw , kwatazgwerai wawɨraʔohaw , upuwipuwirkwer wazimuairhaw , paze maʔe wazeʔagaw pawhaw , zegaraiwpaw
 # text_port = A Festa da menina-moça, a festa dos rapazes, a festa da colheita, a festa das criancinhas, a festa dos separados (divorciados), a festa dos pajés e as orações Tenetehára (Campos Castro 2020).
 # text_spa = La fiesta de las jóvenes, la fiesta de los niños, el partido de la cosecha, la fiesta de los niños, la fiesta de los separados (divorciados), la fiesta de los pajés y las oraciones Tenetehára.
 # text_en = The young girl's festivities, the boys' festivities, the harvest festivity, the festivity of the children, the festivity of the separated ones (divorced), the festivity of the pajés and the Tenetehára prayers.
@@ -4148,7 +4148,7 @@
 17	maʔe	maʔe	NOUN	n	_	18	nmod	_	_
 18-19	wazeʔagawpaw	_	_	_	_	_	_	_	_
 18	wazeʔagaw	zeʔaga	NOUN	n	Nomzr=Circ|Number=Plur	2	list	_	_
-19	pawhaw	paw	PRON	pro	Nomzr=Circ|PronType=Tot	18	nmod	_	_
+19	pawhaw	paw	NOUN	n	Nomzr=Circ|PronType=Tot	18	nmod	_	_
 20	,	,	PUNCT	punct	_	18	punct	_	_
 21-22	zegaraiwpaw	_	_	_	_	_	_	_	_
 21	zegar	zegar	NOUN	n	_	2	list	_	_
@@ -4172,7 +4172,7 @@
 9	.	.	PUNCT	punct	_	8	punct	_	_
 
 # sent_id = 297
-# text = Maʔe imumeʔu haw izepɨmehe akwez zawar wazewenugar wa , hair maʔeputɨr rehe arer zekaipo umuiʔe waiko wa , aʔe hairagaw param aʔe .
+# text = Maʔe imumeʔuhaw izepɨmehe akwez zawar wazewenugar wa , hair maʔeputɨr rehe arer zekaipo umuiʔe waiko wa , aʔe hairagaw param aʔe .
 # text_port = No início da história (contação da coisa), os seres que pareciam com cachorros estavam espremendo o néctar das flores para a festa do mel (Campos Castro 2020).
 # text_spa = Al comienzo de la historia (de lo narrado), los seres que parecían que los perros estaban exprimiendo el néctar de las flores para la fiesta de miel.
 # text_en = At the beginning of the story (of what has been narrated), the beings who looked like dogs were squeezing the nectar of flowers for the honey feast.
@@ -4580,7 +4580,7 @@
 # text_spa = Quiere comer el maíz del campo de José.
 # text_en = He wants to eat the corn from José's field.
 # P PP
-1	Ipuruʔuwer	ʔu	NOUN	n	Voice=Antip|Mood=Des|Rel=NCont	0	root	_	_
+1	Ipuruʔuwer	ʔu	NOUN	n	Mood=Des|Rel=NCont|Voice=Antip	0	root	_	_
 2	awaxi	awaxi	NOUN	n	_	1	nmod	_	_
 3	Zuze	Zuze	PROPN	pn	_	4	nmod	_	_
 4	kopehar	ko	NOUN	n	Case=Loc|Nomzr=Ag|Rel=Cont	1	obl	_	_
@@ -6233,7 +6233,7 @@
 7	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 451
-# text = Ukwaw pixan aguza waneta haw Zuze rapuz me aʔe .
+# text = Ukwaw pixan aguza wanetahaw Zuze rapuz me aʔe .
 # text_port = O gato sabe que tem ratos la (Harrison, 2000).
 # text_spa = El gato sabe que hay ratas allí.
 # text_en = The cat knows that there are rats in there.
@@ -6244,7 +6244,7 @@
 4	wanetahaw	eta	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Rel=Cont	1	obj	_	_
 5	Zuze	Zuze	PROPN	pn	_	7	nmod	_	_
 6	rapuz	apuz	NOUN	n	Rel=Cont	1	obl	_	_
-7	me	me	ADP	posp	Rel=Cont	7	case	_	_
+7	me	me	ADP	posp	Rel=Cont	6	case	_	_
 8	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 9	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -6295,7 +6295,7 @@
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 455
-# text = Wezɨw aguza wa huake aʔi aʔe kurɨ , temiʔu ɨwɨ rehehar hekarpa aʔe kurɨ .
+# text = Wezɨw aguza wa huakeaʔi aʔe kurɨ , temiʔu ɨwɨ rehehar hekarpa aʔe kurɨ .
 # text_port = O rato desceu para perto do gato procurando comida (Harrison, 2000).
 # text_spa = El mouse se fue al gato buscando comida.
 # text_en = The mouse went down to the cat looking for food.
@@ -6356,7 +6356,7 @@
 17	.	.	PUNCT	punct	_	14	punct	_	_
 
 # sent_id = 458
-# text = Uxiʔu kurɨ , nan kwehe tete uzuka .
+# text = Uxiʔu kurɨ , nan kwehetete uzuka .
 # text_port = Mas (de repente) mordeu de vez e logo o rato morreu (Harrison, 2000).
 # text_spa = Pero (de repente) bit una vez y pronto el ratón murió.
 # text_en = But (suddenly) bit once and soon the mouse died.
@@ -6367,7 +6367,7 @@
 4	nan	nan	PART	pcl	Polarity=Neg	5	discourse	_	_
 5	kwehetete	kwehe	ADV	adv	Emph=Yes|Tense=Past	6	advmod	_	_
 6	uzuka	zuka	VERB	vt	Person[subj]=3	1	parataxis	_	_
-7	.	.	PUNCT	punct	_	7	punct	_	_
+7	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 459
 # text = Kuzagwer umaʔereko waiko aʔe wa .
@@ -6438,7 +6438,7 @@
 5	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 465
-# text = Nan kwehe tete uhem Kari aʔe no .
+# text = Nan kwehetete uhem Kari aʔe no .
 # text_port = Não demorou muito a chegada de Karita (Harrison, 2000).
 # text_spa = No pasó mucho tiempo antes de la llegada de Karita.
 # text_en = It was not long before Karita's arrival.
@@ -6649,7 +6649,7 @@
 7	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 480
-# text = Uzeʔeg Zuze wanupe , amumeʔuputar zawaruhu rehe maʔemumeʔu haw ihe kurɨ , iʔi Zuze wanam wanupe .
+# text = Uzeʔeg Zuze wanupe , amumeʔuputar zawaruhu rehe maʔemumeʔuhaw ihe kurɨ , iʔi Zuze wanam wanupe .
 # text_port = José disse a eles, —Eu vou contar agora uma estória sobre uma onça (Harrison, 2000).
 # text_spa = José les dijo: "Voy a contar ahora una historia sobre un jaguar.
 # text_en = José told them, "I'll tell you a story about a jaguar now.
@@ -7268,7 +7268,7 @@
 # text_spa = La historia terminó.
 # text_en = The story ended.
 # PART V PART
-1	xe	xe	PART	pcl	Speech=MM	2	discourse	_	_
+1	Xe	xe	PART	pcl	Speech=MM	2	discourse	_	_
 2	upaw	paw	VERB	vi	Person[subj]=3	0	root	_	_
 3	kurɨ	kurɨ	PART	pcl	_	2	discourse	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
@@ -8888,7 +8888,7 @@
 # text_spa = Aquí hay una historia sobre el pescado acará.
 # text_eng = Here's a story about the fish acará.
 # PART S PART
-1	xe	xe	PART	pcl	Speech=MM	4	discourse	_	_
+1	Xe	xe	PART	pcl	Speech=MM	4	discourse	_	_
 2	ipira	pira	NOUN	n	Rel=NCont	3	nmod	_	_
 3	akara	akara	NOUN	n	_	4	nmod	_	_
 4	umumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ	0	root	_	_
@@ -9031,7 +9031,7 @@
 12	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 648
-# text = Naʔimaʔuhez pixikwaw wa .
+# text = Naʔimaʔuhezpixikwaw wa .
 # text_port = Eles não sentem fome . (Gomes, 1988)
 # text_spa = No sienten hambrientos.
 # text_eng = They do not feel hungry.
@@ -9182,7 +9182,7 @@
 7	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 659
-# text = Aʔe rupi uʔɨʔar kwarahɨ tete mehe aʔe kurɨ .
+# text = Aʔe rupi uʔɨʔar kwarahɨtete mehe aʔe kurɨ .
 # text_port = Quando o sol está quente ele bóia em cima da áqua . (Gomes, 1988)
 # text_spa = Cuando el sol está caliente, flota en el otro.
 # text_eng = When the sun is hot it float on the other.
@@ -9192,7 +9192,7 @@
 3-4	uʔɨʔar	_	_	_	_	_	_	_	_
 3	uʔɨ	ʔɨ	NOUN	n	Person[subj]=3	4	obl	_	_
 4	ʔar	ʔar	VERB	vi	_	0	root	_	_
-5	kwarahɨtete	kwarahɨ	NOUN	n	EMph=Yes	4	obl	_	_
+5	kwarahɨtete	kwarahɨ	NOUN	n	Emph=Yes	4	obl	_	_
 6	mehe	mehe	ADP	posp	Rel=Cont	5	case	_	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	4	discourse	_	_
 8	kurɨ	kurɨ	PART	pcl	_	4	discourse	_	_
@@ -9351,7 +9351,7 @@
 4	uhɨwi	hɨ	NOUN	n	Case=Abl|Rel=Corf	2	obl	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
 6	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
-7	xe	xe	PART	pcl	Speech=MM	1	dep	_	_
+7	xe	xe	PART	pcl	Speech=MM	2	discourse	_	_
 8	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 669
@@ -9654,7 +9654,7 @@
 # text_spa = Ni siquiera limpia para ellos como hace la gallina para tus polluelos.
 # text_eng = It does not even clean for them as does the hen for its chicks.
 # PART V PART S I PART - PP S V PP PART
-1	Ni	ni	CC	cc	Foreign=Yes	3	cc	_	_
+1	Ni	ni	CCONJ	cc	Foreign=Yes	3	cc	_	_
 2-3	nutɨpeipeirkwaw	_	_	_	_	_	_	_	_
 2	nutɨ	tɨ	NOUN	n	Person[subj]=3|Polarity=Neg	3	obl	_	_
 3	peipeirkwaw	peir	VERB	vt	Polarity=Neg|Red=Mo	0	root	_	_
@@ -9861,7 +9861,7 @@
 # text_eng = It hurts a lot on the spot.
 # P PART
 1	Hahɨteteaʔu	ahɨ	NOUN	n	Emph=Yes|Rel=NCont	0	root	_	_
-2	puruxiʔuhaw	xiʔu	NOUN	n	Voice=Antip|Nomzr=Circ	1	nmod	_	_
+2	puruxiʔuhaw	xiʔu	NOUN	n	Nomzr=Circ|Voice=Antip	1	nmod	_	_
 3	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 4	no	no	PART	pcl	_	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
@@ -11070,7 +11070,7 @@
 # text_spa = Él tiene una cola que pica.
 # text_eng = He has a tail that spides.
 # V PART - V S PART
-1	Upurukutuk	kutuk	VERB	vi	Voice=Antip|Person[subj]=3	0	root	_	_
+1	Upurukutuk	kutuk	VERB	vi	Person[subj]=3|Voice=Antip	0	root	_	_
 2	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 3	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 4	no	no	PART	pcl	_	1	discourse	_	_
@@ -11079,7 +11079,7 @@
 7-9	huazaxipurukutukaw	_	_	_	_	_	_	_	_
 7	huaz	uwaz	NOUN	n	Rel=NCont	6	nmod	_	_
 8	axi	axi	NOUN	n	Rel=Cont	7	nmod	_	_
-9	purukutukaw	kutuk	NOUN	n	Voice=Antip|Nomzr=Circ	8	nmod	_	_
+9	purukutukaw	kutuk	NOUN	n	Nomzr=Circ|Voice=Antip	8	nmod	_	_
 10	aʔe	aʔe	PRON	pro	PronType=Dem	6	discourse	_	_
 11	no	no	PART	pcl	_	6	discourse	_	_
 12	.	.	PUNCT	punct	_	6	punct	_	_
@@ -11373,12 +11373,12 @@
 # text_spa = Si nos pica, me duele mucho.
 # text_eng = If it stings, it hurts a lot.
 # V PP - V S PART
-1	Upurukutuk	kutuk	VERB	vi	Voice=Antip|Person[subj]=3	0	root	_	_
+1	Upurukutuk	kutuk	VERB	vi	Person[subj]=3|Voice=Antip	0	root	_	_
 2	haxi	axi	NOUN	n	Rel=NCont	1	obl	_	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	_	_
 4	,	,	PUNCT	punct	_	1	punct	_	_
 5	hahɨteteaʔu	ahɨ	NOUN	n	Emph=Yes|Rel=NCont	1	conj	_	_
-6	purukutukawer	kutuk	NOUN	n	Voice=Antip|Nomzr=Circ|Tense=Past	5	nmod	_	_
+6	purukutukawer	kutuk	NOUN	n	Nomzr=Circ|Tense=Past|Voice=Antip	5	nmod	_	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	5	discourse	_	_
 8	xe	xe	PART	pcl	Speech=MM	5	discourse	_	_
 9	.	.	PUNCT	punct	_	5	punct	_	_
@@ -11412,7 +11412,7 @@
 3	imumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Rel=NCont	0	root	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
 5	.	.	PUNCT	punct	_	3	punct	_	_
-----------------------------------------
+
 # sent_id = 803
 # text = Nezewe muhu hekohaw aʔe wa no .
 # text_port = Assim é a vida dele . (Gomes, 1988)
@@ -12077,12 +12077,12 @@
 6	maʔe	maʔe	NOUN	n	_	5	obj	_	_
 7	ipira	pira	NOUN	n	Rel=NCont	5	obl	_	_
 8	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	7	case	_	_
-9	zanewi	zane	PRON	pro	Case=Abl|Clusivity=In|Number=Plur|Person=1|PronType=Prs	4	obl	_	_
-10	aʔe	aʔe	PRON	pro	PronType=Dem	4	discourse	_	_
-11	no	no	PART	pcl	_	4	discourse	_	_
-12	tɨ	tɨ	PART	pcl	Speech=MM	4	discourse	_	_
-13	wa	wa	PART	pcl	Number=Plur	4	discourse	_	_
-14	.	.	PUNCT	punct	_	4	punct	_	_
+9	zanewi	zane	PRON	pro	Case=Abl|Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+10	aʔe	aʔe	PRON	pro	PronType=Dem	5	discourse	_	_
+11	no	no	PART	pcl	_	5	discourse	_	_
+12	tɨ	tɨ	PART	pcl	Speech=MM	5	discourse	_	_
+13	wa	wa	PART	pcl	Number=Plur	5	discourse	_	_
+14	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 840
 # text = Upaw tamata rehe zeʔegaw kwez aʔe kurɨ tɨ wa .
@@ -12822,7 +12822,7 @@
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 883
-# text = Nezewe mehe nupaw pixikwaw aʔe wa nehe , iʔi zekaipo uzeupe aʔe no .
+# text = Nezewe mehe nupawpixikwaw aʔe wa nehe , iʔi zekaipo uzeupe aʔe no .
 # text_port = Assim elas nunca vão acabar . (Gomes, 1988)
 # text_spa = Así que nunca terminarán.
 # text_eng = So they will never end.
@@ -13140,7 +13140,7 @@
 2	maʔe	maʔe	NOUN	n	_	1	obj	_	_
 3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	_	_
 4-5	ɨʔaromo	_	_	_	_	_	_	_	_
-4	ɨ	ɨ	NOUN	n	_	3	obl	_	_
+4	ɨ	ɨ	NOUN	n	_	1	obl	_	_
 5	ʔaromo	ʔaromo	ADP	posp	Rel=Cont	4	case	_	_
 6	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
@@ -13827,7 +13827,7 @@
 4	izuwi	uwi	ADP	posp	Rel=NCont	1	obl	_	_
 
 # sent_id = 956
-# text = Nan kwehe tete zekwehe zuʔi uhem oho mɨnikawpe aʔe no
+# text = Nan kwehetete zekwehe zuʔi uhem oho mɨnikawpe aʔe no
 # text_port = Em breve, o sapo chegou a festa (Campos Castro and Gervason Defilippo, 2021)
 # text_spa = Pronto, la rana llegó a la fiesta
 # text_eng = Soon, the frog arrived at the party
@@ -14367,8 +14367,8 @@
 # text_spa = Cuando el niño quería volver, no pudo. Solo había agua donde había pasado.
 # text_eng = When the boy wanted to go back, he could not. There was only water where he had passed.
 # PART ADV V S PP - V ADV O PP PART
-1	xe	xe	PART	pcl	Speech=MM	2	discourse	_	_
-2	aʔe	aʔe	PRON	pro	PronType=Dem	5	obl:nsubj	_	_
+1	Xe	xe	PART	pcl	Speech=MM	2	discourse	_	_
+2	aʔe	aʔe	PRON	pro	PronType=Dem	5	obl:subj	_	_
 3	zo	zo	PART	pcl	_	1	dep	_	_
 4	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	2	advmod	_	_
 5	umeʔe	meʔe	VERB	vi	Person[subj]=3	0	root	_	_
@@ -14466,7 +14466,7 @@
 4	ihon	ho	NOUN	n	NonFoc=Yes|Rel=NCont	0	root	_	_
 5	uhɨwi	hɨ	NOUN	n	Case=Abl|Rel=Corf	4	obl	_	_
 6	raʔe	raʔe	PART	pcl	Tense=Past	4	discourse	_	_
-7	xe	xe	PART	pcl	Speech=MM	1	dep	_	_
+7	xe	xe	PART	pcl	Speech=MM	4	dep	_	_
 8	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 995
@@ -14631,7 +14631,7 @@
 19	.	.	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 1004
-# text = — Azem tenetehar romo peiko hereraha e tomo kwez ɨwaz rihi xe , iʔi zekaipo ʔam miar wanupe .
+# text = — Azem tenetehar romo peiko hererahae tomo kwez ɨwaz rihi xe , iʔi zekaipo ʔam miar wanupe .
 # text_port = — Se vocês fossem gente , poderiam me levar pára o outro lado desta água . (Harrison et al., 1988)
 # text_spa = "Si fuerais personas, podríais llevarme el otro lado de esta agua".
 # text_eng = "If you were people, they could take me the other side of this water."
@@ -14948,7 +14948,7 @@
 8	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 1020
-# text = — Kwa , aze mo tenetehar romo aipo zakare hekon no pa , hereraha e tomo kwez ɨwaz xe , iʔi zekaipo kwarer uzeupe .
+# text = — Kwa , aze mo tenetehar romo aipo zakare hekon no pa , hererahae tomo kwez ɨwaz xe , iʔi zekaipo kwarer uzeupe .
 # text_port = — Se o jacaré fosse gente , ele poderia me levar para o outro lado desta água , o menino disse . (Harrison et al., 1988)
 # text_spa = "Si el cocodrilo fuera la gente, él podría llevarme al otro lado de esta agua, dijo el niño.
 # text_eng = "If the alligator were people, he could take me to the other side of this water, the boy said.
@@ -15044,7 +15044,7 @@
 9	.	.	PUNCT	punct	_	6	punct	_	_
 
 # sent_id = 1025
-# text = Aze mo tenetehar romo aipo zakare hekon no pa , nereraha e tomo kwez ɨwaz rehe rihi xe , aʔe kwez newe tɨ .
+# text = Aze mo tenetehar romo aipo zakare hekon no pa , nererahae tomo kwez ɨwaz rehe rihi xe , aʔe kwez newe tɨ .
 # text_port = Se você fosse gente , me levaria ao outro lado desta água . (Harrison et al., 1988)
 # text_spa = Si fueras gente, me llevaría al otro lado de esta agua.
 # text_eng = If you were people, I would take me to the other side of this water.
@@ -15296,7 +15296,7 @@
 4	kwarer	kwarer	NOUN	n	_	3	obl:subj	_	_
 5	oho	ho	AUX	aux	Person[subj]=3	3	aux	_	_
 6	ikupewi	kupe	NOUN	n	Case=Abl|Rel=NCont	3	obl	_	_
-7	xe	xe	PART	pcl	Speech=MM	1	dep	_	_
+7	xe	xe	PART	pcl	Speech=MM	3	discourse	_	_
 
 # sent_id = 1041
 # text = Aʔe mehe zekaipo uzapɨpɨkahɨ zekaipo imono ɨ pupe .
@@ -15584,7 +15584,7 @@
 5	zo	zo	PART	pcl	_	4	discourse	_	_
 6	tur	ur	VERB	vi	Mood=Prp|Person[subj]=3|Tense=Past	10	ccomp	_	_
 7	kwez	kwez	PART	pcl	Tense=Past	3	discourse	_	_
-8	xe	xe	PART	pcl	Speech=MM	2	dep	_	_
+8	xe	xe	PART	pcl	Speech=MM	6	discourse	_	_
 9	,	,	PUNCT	punct	_	6	punct	_	_
 10	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
 11	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	10	advmod	_	_
@@ -15628,7 +15628,7 @@
 5	ipɨpor	pɨpor	NOUN	n	Rel=NCont	6	obl:subj	_	_
 6	tur	ur	VERB	vi	Mood=Prp|Person[subj]=3|Tense=Past	10	ccomp	_	_
 7	kwez	kwez	PART	pcl	Tense=Past	6	discourse	_	_
-8	xe	xe	PART	pcl	Speech=MM	2	dep	_	_
+8	xe	xe	PART	pcl	Speech=MM	6	discourse	_	_
 9	,	,	PUNCT	punct	_	6	punct	_	_
 10	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
 11	wi	wi	PART	pcl	_	10	discourse	_	_
@@ -15746,9 +15746,9 @@
 3	zo	zo	PART	pcl	_	2	discourse	_	_
 4	aʔu	ʔu	VERB	vt	Number=Sing|Person[subj]=1|Tense=Past	0	root	_	_
 5	kwez	kwez	PART	pcl	Tense=Past	4	discourse	_	_
-5	ihe	ihe	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	discourse	_	_
-6	tɨ	tɨ	PART	pcl	Speech=MM	4	discourse	_	_
-7	.	.	PUNCT	punct	_	4	punct	_	_
+6	ihe	ihe	PRON	pro	Number=Sing|Person=1|PronType=Prs	4	discourse	_	_
+7	tɨ	tɨ	PART	pcl	Speech=MM	4	discourse	_	_
+8	.	.	PUNCT	punct	_	4	punct	_	_
 
 # sent_id = 1065
 # text = Aze nepuruexakwer aipo heremiʔukwer rehe , aexakarputar newe , iʔi zekaipo hoko zakarepe aʔe no  .
@@ -15757,7 +15757,7 @@
 # text_eng = If you want to see my food, I'll show you, and put it out.
 # [O [[ADV [C V ADV PP]] V PP]] V ADV PP PART
 1	Aze	aze	SCONJ	sc	_	2	mark	_	_
-2	nepuruexakwer	exak	NOUN	n	Voice=Antip|Mood=Des|Number=Sing|Person[psor]=2	7	advcl	_	_
+2	nepuruexakwer	exak	NOUN	n	Mood=Des|Number=Sing|Person[psor]=2|Voice=Antip	7	advcl	_	_
 3	aipo	aipo	PART	pcl	Int=Yes	2	advmod	_	_
 4	heremiʔukwer	ʔu	NOUN	n	Nomzr=DevPass|Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont|Tense=Past	2	obl	_	_
 5	rehe	ehe	ADP	posp	Rel=Cont	4	case	_	_
@@ -15985,7 +15985,7 @@
 # text_eng = "Did not you see a boy going through here?"
 # [O [V S PP ADV PART]] P ADV [ADV [PP V]]
 1	—	—	PUNCT	punct	_	2	punct	_	_
-2	Nerexakwaw	exak	VERB	vt	Number=Sing|Person[subj]=2|Polarity=Neg	11	ccomp	_	_
+2	Nerexakwaw	exak	VERB	vt	Number=Sing|Person[subj]=2|Polarity=Neg	12	ccomp	_	_
 3	kwez	kwez	PART	pcl	Tense=Past	2	discourse	_	_
 4	kwarer	kwarer	NOUN	n	_	2	obl:subj	_	_
 5	ko	ko	NOUN	n	_	2	obl	_	_
@@ -15996,12 +15996,12 @@
 10	tɨ	tɨ	PART	pcl	Speech=MM	2	discourse	_	_
 11	,	,	PUNCT	punct	_	2	punct	_	_
 12	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
-13	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	11	advmod	_	_
-14	zakare	zakare	NOUN	n	_	11	nmod	_	_
-15	kururu	kururu	NOUN	n	_	16	obl	_	_
-16	rehe	ehe	ADP	posp	Rel=Cont	14	case	_	_
-17	upuranupa	puranu	VERB	vi	Rel=Corf|VerbForm=Ger	11	advcl	_	_
-18	.	.	PUNCT	punct	_	11	punct	_	_
+13	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	12	advmod	_	_
+14	zakare	zakare	NOUN	n	_	12	nmod	_	_
+15	kururu	kururu	NOUN	n	_	17	obl	_	_
+16	rehe	ehe	ADP	posp	Rel=Cont	15	case	_	_
+17	upuranupa	puranu	VERB	vi	Rel=Corf|VerbForm=Ger	12	advcl	_	_
+18	.	.	PUNCT	punct	_	12	punct	_	_
 
 # sent_id = 1079
 # text = — Nazekaiwkwaw aipo kwarer rehe ihe tɨ , iʔi zote zekaipo kururuhu zakarepe aʔe no .
@@ -16684,7 +16684,7 @@
 8	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 1124
-# text = Te oho zekaipo kwarer iko aʔe wi aʔe kurɨ .
+# text = Te oho zekaipo kwarer iko aʔewi aʔe kurɨ .
 # text_port = [O menino] saiu de lá . (Harrison et al., 1988)
 # text_spa = [El niño] se fue allí.
 # text_eng = [The boy] left there.
