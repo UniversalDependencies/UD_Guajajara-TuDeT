@@ -70,7 +70,7 @@
 # S V O
 1	Agwer	agwer	DET	dem	PronType=Dem	2	det	_	_
 2-3	maʔeaʔɨr	_	_	_	_	_	_	_	_
-2	maʔe	maʔe	PRON	pro		_	4	obl:subj	_	_
+2	maʔe	maʔe	PRON	pro	_	4	obl:subj	_	_
 3	aʔɨr	aʔɨr	NOUN	n	_	2	compound	_	_
 4	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_	_
 5	kaʔapiʔi	kaʔapiʔi	NOUN	n	_	4	obj	_	_
@@ -134,7 +134,7 @@
 # V O S
 1	Aputar	putar	VERB	vt	Person[subj]=1	0	root	_	_
 2	aipo	aipo	DET	dem	PronType=Dem	3	det	_	_
-3	maʔe	maʔe	PRON	pro		_	1	obj	_	_
+3	maʔe	maʔe	PRON	pro	_	1	obj	_	_
 4	ihe	ihe	PRON	pro	PronType=Prs	1	obl:subj	_	_
 
 # sent_id = 14
@@ -201,7 +201,7 @@
 # P PP
 1	Aʔe	aʔe	DET	dem	PronType=Dem	2	det	_	_
 2-3	maʔeʔɨw	_	_	_	_	_	_	_	_
-2	maʔe	maʔe	PRON	pro		_	4	nmod	_	_
+2	maʔe	maʔe	PRON	pro	_	4	nmod	_	_
 3	ʔɨw	ʔɨw	NOUN	n	_	2	compound	_	_
 4	iʔa	ʔa	NOUN	n	Rel=NCont	0	root	_	_
 5-6	ʔarkatu	_	_	_	_	_	_	_	_
@@ -277,7 +277,7 @@
 1	Amirikur	amirikur	NOUN	n	_	2	obl:subj	_	_
 2	umumaw	maw	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
 3-4	maʔeʔakwer	_	_	_	_	_	_	_	_
-3	maʔe	maʔe	PRON	pro		_	2	obl:subj	_	_
+3	maʔe	maʔe	PRON	pro	_	2	obl:subj	_	_
 4	ʔakwer	ʔa	NOUN	n	Tense=Past	3	nmod	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 6	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
@@ -291,7 +291,7 @@
 1	Amo	amo	DET	dem	PronType=Ind	2	det	_	_
 2	tuwihaw	uwihaw	NOUN	n	Rel=Abs	3	obl:subj	_	_
 3	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
-4	maiʔuhawpe	ʔu	NOUN	n	Case=All|Detrans=Yes|Nomzr=Circ	3	obl	_	_
+4	maiʔuhawpe	ʔu	NOUN	n	Case=All|Detrans=Ind|Nomzr=Circ	3	obl	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
 6	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
 7	no	no	PART	pcl	_	3	discourse	_	_
@@ -827,7 +827,7 @@
 # V S PP
 1	Heta	eta	NOUN	n	Rel=NCont	0	root	_	_
 2-3	maʔeputɨr	_	_	_	_	_	_	_	_
-2	maʔe	maʔe	PRON	pro		_	1	obl:subj	_	_
+2	maʔe	maʔe	PRON	pro	_	1	obl:subj	_	_
 3	putɨr	putɨr	NOUN	n	_	2	nmod	_	_
 4	ʔɨ	ʔɨ	NOUN	n	_	1	obl	_	_
 5	ʔaromo	ʔaromo	ADP	posp	Rel=Cont	4	case	_	_
@@ -842,7 +842,7 @@
 1	Ɨrɨhupe	ɨrɨk	NOUN	n	Case=Loc|Nomzr=DevPass	3	obl	_	_
 2	heta	eta	NOUN	n	Rel=NCont	0	root	_	_
 3-4	maʔeputɨrteteaʔu	_	_	_	_	_	_	_	_
-3	maʔe	maʔe	PRON	pro		_	2	nmod	_	_
+3	maʔe	maʔe	PRON	pro	_	2	nmod	_	_
 4	putɨrteteaʔu	putɨr	NOUN	n	Emph=Yes|Rel=Cont	3	nmod	_	_
 5	iʔaromo	ʔaromo	ADP	posp	Rel=NCont	2	obl	_	_
 6	.	.	PUNCT	punct	_	2	punct	_	_
@@ -855,7 +855,7 @@
 # S O PP
 1	Amo	amo	DET	dem	PronType=Ind	2	det	_	_
 2-3	maʔeputɨr	_	_	_	_	_	_	_	_
-2	maʔe	maʔe	PRON	pro		_	4	nmod	_	_
+2	maʔe	maʔe	PRON	pro	_	4	nmod	_	_
 3	putɨr	putɨr	NOUN	n	_	2	nmod	_	_
 4	ʔɨpehar	ʔɨ	NOUN	n	Case=Loc|Nomzr=Ag	7	obl:subj	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
@@ -899,7 +899,7 @@
 # V PP PP
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2-3	maʔeputɨr	_	_	_	_	_	_	_	_
-2	maʔe	maʔe	PRON	pro		_	1	obl	_	_
+2	maʔe	maʔe	PRON	pro	_	1	obl	_	_
 3	putɨr	putɨr	NOUN	n	_	2	nmod	_	_
 4	rehe	ehe	ADP	posp	Rel=Cont	2	case	_	_
 5	,	,	PUNCT	punct	_	6	punct	_	_
@@ -1001,7 +1001,7 @@
 4	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 6	,	,	PUNCT	punct	_	1	punct	_	_
-7	umaʔe	maʔe	PRON	pro		Rel=Corf	8	obj	_	_
+7	umaʔe	maʔe	PRON	pro	Rel=Corf	8	obj	_	_
 8	iputukapa	putuka	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
 9	kurɨ	kurɨ	PART	pcl	_	8	discourse	_	_
 10	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1012,7 +1012,7 @@
 # text_spa = Ella está trabajando 
 # text_eng = She is working .
 # V S AUX
-1	Umaʔereko	iko	VERB	vt	Detrans=Yes|Person[subj]=3|Voice=Com	0	root	_	_
+1	Umaʔereko	iko	VERB	vt	Detrans=Ind|Person[subj]=3|Voice=Com	0	root	_	_
 2	Mari	Mari	PROPN	pn	_	1	obl:subj	_	_
 3	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
@@ -1028,7 +1028,7 @@
 1	Tueha	tue	NOUN	n	Nomzr=Ag	3	obl	_	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
 3	uputuka	putuka	VERB	v	Person[subj]=3	0	root	_	_
-4	umaʔe	maʔe	PRON	pro		Rel=Corf	3	obj	_	_
+4	umaʔe	maʔe	PRON	pro	Rel=Corf	3	obj	_	_
 5	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	3	aux	_	_
 6	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
 7	.	.	PUNCT	punct	_	3	punct	_	_
@@ -1067,7 +1067,7 @@
 # text_eng = Mariʔs daughter works a lot .
 # V ADV S
 1-2	Umaʔerekokatu	_	_	_	_	_	_	_	_
-1	Umaʔereko	iko	VERB	vt	Detrans=Yes|Person[subj]=3|Voice=Com	0	root	_	_
+1	Umaʔereko	iko	VERB	vt	Detrans=Ind|Person[subj]=3|Voice=Com	0	root	_	_
 2	katu	katu	NOUN	n	_	1	obl	_	_
 3	Mari	Mari	PROPN	pn	_	4	nmod	_	_
 4	imemɨr	memɨr	NOUN	n	Rel=NCont	1	obl:subj	_	_
@@ -1083,7 +1083,7 @@
 1	Ohoputar	ho	VERB	vi	Person[subj]=3|Tense=Fut	0	root	_	_
 2	uhɨ	hɨ	NOUN	n	Rel=Corf	1	obl	_	_
 3	rupi	upi	ADP	posp	Rel=Cont	2	case	_	_
-4	umaʔe	maʔe	PRON	pro		Rel=Corf	5	obj	_	_
+4	umaʔe	maʔe	PRON	pro	Rel=Corf	5	obj	_	_
 5	iputukapa	putuka	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
 6	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1460,7 +1460,7 @@
 # text_eng = She went to wash clothes.
 # V PP
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
-2	umaʔe	maʔe	PRON	pro		Rel=Corf	3	obj	_	_
+2	umaʔe	maʔe	PRON	pro	Rel=Corf	3	obj	_	_
 3	iputukapa	putuka	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1614,7 +1614,7 @@
 9	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 10	kope	ko	NOUN	n	Case=All	9	obl	_	_
 11	amo	amo	DET	dem	PronType=Ind	12	det	_	_
-12	maʔe	maʔe	PRON	pro		_	9	obl	_	_
+12	maʔe	maʔe	PRON	pro	_	9	obl	_	_
 13	ipiaromo	piar	ADP	posp	Case=Tra|Rel=NCont	12	nmod	_	_
 14	.	.	PUNCT	punct	_	9	punct	_	_
 
@@ -2497,7 +2497,7 @@
 # text_spa = El gavilán tiene hambre.
 # text_eng = The hawk is hungry.
 # P
-1	Imaʔuhez	ʔu	NOUN	n	Detrans=Yes|Mood=Des|Rel=NCont	0	root	_	_
+1	Imaʔuhez	ʔu	NOUN	n	Detrans=Ind|Mood=Des|Rel=NCont	0	root	_	_
 2-3	wirahu	_	_	_	_	_	_	_	_
 2	wira	wira	NOUN	n	_	2	nmod	_	_
 3	hu	uhu	NOUN	n	_	3	nmod	_	_
@@ -2532,7 +2532,7 @@
 # text_eng = The hawk was very hungry.
 # P
 1-2	Imaʔuhezkatu	_	_	_	_	_	_	_	_
-1	Imaʔuhez	ʔu	NOUN	n	Detrans=Yes|Mood=Des|Rel=NCont	0	root	_	_
+1	Imaʔuhez	ʔu	NOUN	n	Detrans=Ind|Mood=Des|Rel=NCont	0	root	_	_
 2	katu	katu	NOUN	n	Rel=Cont	1	nmod	_	_
 3-4	wirahu	_	_	_	_	_	_	_	_
 3	wira	wira	NOUN	n	_	1	nmod	_	_
@@ -2638,7 +2638,7 @@
 1	Uzapoapo	apo	VERB	vt	Person[subj]=3|Red=Di	0	root	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	1	advmod	_	_
 3	tukaz	ukaz	NOUN	n	Rel=Abs	1	obj	_	_
-4	maʔe	maʔe	PRON	pro		_	5	nmod	_	_
+4	maʔe	maʔe	PRON	pro	_	5	nmod	_	_
 5	ʔɨwaʔɨw	ʔɨwa	NOUN	n	Red=Mo	1	obl	_	_
 6	rehe	ehe	ADP	posp	Rel=Cont	5	case	_	_
 7	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
@@ -2728,7 +2728,7 @@
 1	Wexak	exak	VERB	vt	Person[subj]=3	0	root	_	_
 2	zekaipo	kwehe	ADV	adv	_	1	advmod	_	_
 3	wɨkɨʔɨr	ɨkɨʔºɨr	NOUN	n	Rel=Corf	5	nmod	_	_
-4	imaʔe	maʔe	PRON	pro		Rel=NCont	5	nmod	_	_
+4	imaʔe	maʔe	PRON	pro	Rel=NCont	5	nmod	_	_
 5	zapoapopɨrerteteaʔu	zapo	NOUN	n	Emph=Yes|Nomzr=Pas|Red=Di|Tense=Past	1	obj	_	_
 6	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	1	obl	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
@@ -2816,7 +2816,7 @@
 5	tɨ	tɨ	PART	pcl	Speech=MM	3	discourse	_	_
 6	tazukakutu	zuka	VERB	vt	Deo=Yes|Mood=Prp|Person[subj]=1	3	conj	_	_
 7	wiramiri	wira	NOUN	n	Dimin=Yes	6	obj	_	_
-8	hemaʔe	maʔe	PRON	pro		Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	9	nmod	_	_
+8	hemaʔe	maʔe	PRON	pro	Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	9	nmod	_	_
 9	izapopɨram	zapo	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Fut	6	obl	_	_
 10	rehe	ehe	ADP	posp	Rel=Cont	9	case	_	_
 11	ihe	ihe	PRON	pro	PronType=Prs	6	obl:subj	_	_
@@ -2827,7 +2827,7 @@
 16-17	izapopawete	_	_	_	_	_	_	_	_
 16	izapo	zapo	NOUN	n	Aspect=Perf|Emph=Yes|Rel=NCont	6	conj	_	_
 17	pawete	paw	PRON	pro	Emph=Yes|Rel=Cont	16	nmod	_	_
-18	nemaʔe	maʔe	PRON	pro		Number=Sing|Person[psor]=2|Poss=Yes	16	nmod	_	_
+18	nemaʔe	maʔe	PRON	pro	Number=Sing|Person[psor]=2|Poss=Yes	16	nmod	_	_
 19	ne	ne	PRON	pro	Person=2|PronType=Prs	16	nmod	_	_
 20	wa	wa	PART	pcl	Number=Plur	16	discourse	_	_
 21	riʔi	riʔi	PART	pcl	_	16	discourse	_	_
@@ -2851,7 +2851,7 @@
 9	taʔe	taʔe	CCONJ	cc	_	10	cc	_	_
 10	reta	eta	NOUN	n	Rel=Cont	2	conj	_	_
 11	amo	amo	DET	dem	PronType=Ind	12	det	_	_
-12	maʔe	maʔe	PRON	pro		_	10	nmod	_	_
+12	maʔe	maʔe	PRON	pro	_	10	nmod	_	_
 13	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	10	obl	_	_
 14	wa	wa	PART	pcl	Number=Plur	10	discourse	_	_
 15	xe	xe	PART	pcl	Number=Plur	10	discourse	_	_
@@ -2867,7 +2867,7 @@
 2	mahaw	mahaw	NOUN	n	_	3	nmod	_	_
 3	ipuruʔuwer	ʔu	NOUN	n	Mood=Des|Rel=NCont|Voice=Antip	0	root	_	_
 4	amo	amo	DET	dem	PronType=Ind	5	det	_	_
-5	maʔe	maʔe	PRON	pro		_	3	obl	_	_
+5	maʔe	maʔe	PRON	pro	_	3	obl	_	_
 6	rehe	ehe	ADP	posp	Rel=Cont	5	case	_	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
 8	.	.	PUNCT	punct	_	3	punct	_	_
@@ -2907,7 +2907,7 @@
 # P PP
 1	Ipuruʔuwer	ʔu	NOUN	n	Mood=Des|Rel=NCont|Voice=Antip	0	root	_	_
 2	amo	amo	DET	dem	PronType=Ind	3	det	_	_
-3	maʔe	maʔe	PRON	pro		_	1	obl	_	_
+3	maʔe	maʔe	PRON	pro	_	1	obl	_	_
 4	rehe	ehe	ADP	posp	Rel=Cont	3	case	_	_
 5	aʔe	aʔe	PART	pcl	_	1	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
@@ -2923,7 +2923,7 @@
 3	xe	xe	PART	pcl	Speech=MM	2	discourse	_	_
 4	,	,	PUNCT	punct	_	2	punct	_	_
 5	aʔe	aʔe	DET	det	PronType=Dem	6	det	_	_
-6	maʔe	maʔe	PRON	pro		_	13	obl:subj	_	_
+6	maʔe	maʔe	PRON	pro	_	13	obl:subj	_	_
 7	wa	wa	PART	pcl	Number=Plur	6	discourse	_	_
 8	,	,	PUNCT	punct	_	6	punct	_	_
 9	aze	aze	SCONJ	sc	_	10	mark	_	_
@@ -3129,7 +3129,7 @@
 # [O [S ADV V PART]] V [ADV [V]]
 1	Agwer	agwer	PRON	pro	PronType=Dem	4	obl:subj	_	_
 2	aipo	aipo	PART	pcl	Int=Yes	4	advmod	_	_
-3	maʔe	maʔe	PRON	pro		_	4	nmod	_	_
+3	maʔe	maʔe	PRON	pro	_	4	nmod	_	_
 4	hexakpɨr	exak	NOUN	n	Nomzr=Pas|Rel=NCont	8	ccomp	_	_
 5	wa	wa	PART	pcl	Number=Plur	4	discourse	_	_
 6	pa	pa	PART	pcl	Speech=Masc	4	discourse	_	_
@@ -3320,7 +3320,7 @@
 2	ipɨʔa	pɨʔa	NOUN	n	Rel=NCont	3	obl:subj	_	_
 3	ukwaw	kwaw	VERB	vt	Person[subj]=3	0	root	_	_
 4	tuwe	tuwe	PART	part	Emph=Yes	3	discourse	_	_
-5	maʔe	maʔe	PRON	pro		_	6	nmod	_	_
+5	maʔe	maʔe	PRON	pro	_	6	nmod	_	_
 6	uzeapomaʔekwer	apo	NOUN	n	Nomzr=Abs|Reflex=Yes|Rel=Corf|Tense=Past	3	obj	_	_
 7	izupe	zupe	ADP	posp	Rel=NCont	6	iobj	_	_
 8	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
@@ -3467,7 +3467,7 @@
 1	Aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	6	obl	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	1	advmod	_	_
 3	aʔe	aʔe	DET	dem	PronType=Dem	4	det	_	_
-4	maʔe	maʔe	PRON	pro		_	6	obl:subj	_	_
+4	maʔe	maʔe	PRON	pro	_	6	obl:subj	_	_
 5	wanekohaw	eko	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Rel=Cont	6	nmod	_	_
 6	ipiʔara	piʔara	NOUN	n	Rel=NCont	0	root	_	_
 7	.	.	PUNCT	punct	_	6	punct	_	_
@@ -3588,7 +3588,7 @@
 # text_spa = Él (el hermano mayor) se convirtió en varios insectos y animales para esconderse de ellos (de los perros del cielo).
 # text_en = He (the older brother) turned into several insects and animals to hide from them (from the dogs from heaven).
 # PP ADV V AUX PP PP
-1	Maʔemaʔe	maʔe	PRON	pro		Red=Di	2	nmod	_	_
+1	Maʔemaʔe	maʔe	PRON	pro	Red=Di	2	nmod	_	_
 2-4	xixigaturumu	_	_	_	_	_	_	_	_
 2	xixi	xiro	NOUN	n	Red=Mo|Rel=Cont	6	obl	_	_
 3	gatu	katu	NOUN	n	Rel=Cont	2	nmod	_	_
@@ -3655,7 +3655,7 @@
 # text_spa = ¿Qué haces aquí?
 # text_en = What are you doing here?
 # [O [O ADV V AUX PART]] V I
-1	Maʔe	maʔe	PRON	pro		_	3	obj	_	_
+1	Maʔe	maʔe	PRON	pro	_	3	obj	_	_
 2	tuwe	tuwe	PART	pcl	Emph=Yes	1	advmod	_	_
 3	erezapo	zapo	VERB	vt	Number=Sing|Person[subj]=2	8	ccomp	_	_
 4-5	ikoxe	_	_	_	_	_	_	_	_
@@ -3679,7 +3679,7 @@
 4	maizu	maizu	NOUN	n	_	3	flat	_	_
 5	umumeʔu	mumeʔu	VERB	vt	Person[subj]=3	0	root	_	_
 6	parupi	paw	PRON	pro	Case=Loc|PronType=Tot|Rel=Cont	8	obl	_	_
-7	maʔe	maʔe	PRON	pro		_	8	nmod	_	_
+7	maʔe	maʔe	PRON	pro	_	8	nmod	_	_
 8	uzeapomaʔe	apo	NOUN	n	Nomzr=Abs|Reflex=Yes|Rel=Corf	5	obj	_	_
 9	izupe	zupe	ADP	posp	Rel=NCont	8	iobj	_	_
 10	.	.	PUNCT	punct	_	5	punct	_	_
@@ -4079,7 +4079,7 @@
 2	Mairaʔi	Mair	PROPN	pn	Dimin=Yes	1	flat	_	_
 3	,	,	PUNCT	punct	_	1	punct	_	_
 4	nukwawkwaw	kwaw	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	_	_
-5	maʔe	maʔe	PRON	pro		_	6	nmod	_	_
+5	maʔe	maʔe	PRON	pro	_	6	nmod	_	_
 6	izapomaʔe	zapo	NOUN	n	Nomzr=Abs|Rel=NCont	4	obj	_	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	4	discourse	_	_
 8	,	,	PUNCT	punct	_	4	punct	_	_
@@ -4109,7 +4109,7 @@
 9	pa	paw	PRON	pro	PronType=Tot	13	obl	_	_
 10	rupi	upi	ADP	posp	Rel=Cont	9	case	_	_
 11	katu	katu	NOUN	n	Rel=Cont	9	nmod	_	_
-12	maʔe	maʔe	PRON	pro		_	13	nmod	_	_
+12	maʔe	maʔe	PRON	pro	_	13	nmod	_	_
 13	wemixakwer	exak	NOUN	n	Nomzr=DevPass|Rel=Corf|Tense=Past	5	obl	_	_
 14	;	;	PUNCT	punct	_	13	punct	_	_
 
@@ -4137,7 +4137,7 @@
 14	wazimuairhaw	zimuair	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes	2	list	_	_
 15	,	,	PUNCT	punct	_	14	punct	_	_
 16	paze	paze	NOUN	n	_	18	nmod	_	_
-17	maʔe	maʔe	PRON	pro		_	18	nmod	_	_
+17	maʔe	maʔe	PRON	pro	_	18	nmod	_	_
 18-19	wazeʔagawpawhaw	_	_	_	_	_	_	_	_
 18	wazeʔagaw	zeʔaga	NOUN	n	Nomzr=Circ|Number=Plur	2	list	_	_
 19	pawhaw	paw	NOUN	n	Nomzr=Circ|PronType=Tot	18	nmod	_	_
@@ -4169,7 +4169,7 @@
 # text_spa = Al comienzo de la historia (de lo narrado), los seres que parecían que los perros estaban exprimiendo el néctar de las flores para la fiesta de miel.
 # text_en = At the beginning of the story (of what has been narrated), the beings who looked like dogs were squeezing the nectar of flowers for the honey feast.
 # PP S O ADV V AUX C
-1	Maʔe	maʔe	PRON	pro		_	2	nmod	_	_
+1	Maʔe	maʔe	PRON	pro	_	2	nmod	_	_
 2	imumeʔuhaw	mumeʔu	NOUN	n	Nomzr=Circ|Rel=NCont	3	nmod	_	_
 3	izepɨmehe	zepɨ	NOUN	n	Rel=NCont	14	obl	_	_
 4	akwez	akwez	DET	dem	PronType=Dem	5	det	_	_
@@ -4488,7 +4488,7 @@
 # text_en = She heard a noise in the straw.
 # V PP PP
 1	Wenu	enu	VERB	vt	Person[subj]=3	0	root	_	_
-2	maʔe	maʔe	PRON	pro		_	3	nmod	_	_
+2	maʔe	maʔe	PRON	pro	_	3	nmod	_	_
 3	ipuipu	pu	NOUN	n	Red=Di|Rel=NCont	1	obl	_	_
 4	mehe	mehe	ADP	posp	_	3	case	_	_
 5	pino	pino	NOUN	n	_	1	obl	_	_
@@ -4527,7 +4527,7 @@
 # V PART O 
 1	Wenu	enu	VERB	vt	Person[subj]=3	0	root	_	_
 2	wiwi	wi	PART	pcl	Red=Mo	1	discourse	_	_
-3	maʔe	maʔe	PRON	pro		_	4	nmod	_	_
+3	maʔe	maʔe	PRON	pro	_	4	nmod	_	_
 4	ipuipuhaw	pu	NOUN	n	Nomzr=Circ|Red=Mo|Rel=NCont	1	obj	_	_
 5	pino	pino	NOUN	n	_	4	nmod	_	_
 6	rehe	ehe	ADP	posp	Rel=Cont	5	case	_	_
@@ -4598,7 +4598,7 @@
 # text_spa = José está trabajando.
 # text_en = José is working.
 # V S AUX PART ADV
-1	Umaʔereko	iko	VERB	vt	Detrans=Yes|Person[subj]=3|Voice=Com	0	root	_	_
+1	Umaʔereko	iko	VERB	vt	Detrans=Ind|Person[subj]=3|Voice=Com	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	2	obl:subj	_	_
 3	iko	iko	AUX	aux	Aspect=Prog|Person=3	2	aux	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
@@ -4691,7 +4691,7 @@
 # [O [S V O]] V I
 1	Zumen	zumen	NOUN	n	_	2	obl:subj	_	_
 2	uʔu	ʔu	VERB	vt	Person[subj]=3	5	ccomp	_	_
-3	hemaʔe	maʔe	PRON	pro		Number=Sing|Person=1|Poss=Yes|Rel=Cont	2	obj	_	_
+3	hemaʔe	maʔe	PRON	pro	Number=Sing|Person=1|Poss=Yes|Rel=Cont	2	obj	_	_
 4	,	,	PUNCT	punct	_	2	punct	_	_
 5	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
 6	izupe	upe	ADP	posp	Rel=NCont	5	iobj	_	_
@@ -4991,7 +4991,7 @@
 # text_spa = ¿Qué comió el pecarí en el campo?
 # text_en = What did the peccary eat at all at the countryside?
 # O S V PP PART
-1	Maʔe	maʔe	PRON	pro		PronType=Int	4	obj	_	_
+1	Maʔe	maʔe	PRON	pro	PronType=Int	4	obj	_	_
 2-3	tazahu	_	_	_	_	_	_	_	_
 2	taz	taz	NOUN	n	_	4	obl:subj	_	_
 3	ahu	uhu	NOUN	n	_	2	nmod	_	_
@@ -5091,7 +5091,7 @@
 # text_spa = ¿Qué trajo Mary en la canasta?
 # text_en = What did Mary brought in the basket?
 # O S V PP PART
-1	Maʔe	maʔe	PRON	pro		PronType=Int	3	obj	_	_
+1	Maʔe	maʔe	PRON	pro	PronType=Int	3	obj	_	_
 2	Mari	Mari	PROPN	pn	_	3	obl:subj	_	_
 3	werur	zur	VERB	vt	Person[subj]=3|Voice=Com	0	root	_	_
 4	kok	kok	NOUN	n	_	3	obl	_	_
@@ -5691,7 +5691,7 @@
 1	Hetateteaʔu	eta	NOUN	n	Emph=Yes|Rel=NCont	0	root	_	_
 2	muhag	hag	NOUN	n	Voice=Cau	1	nmod	_	_
 3	tawpe	taw	NOUN	n	Case=Loc	1	obl	_	_
-4	maʔe	maʔe	PRON	pro		_	5	nmod	_	_
+4	maʔe	maʔe	PRON	pro	_	5	nmod	_	_
 5	meʔegawpe	meʔeg	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Cont	1	obl	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -5730,7 +5730,7 @@
 # text_en = Three basket for corn, he told her.
 # [O [V O PP PP PART]] V S PP
 1	Erur	zur	VERB	vt	Mood=Imp|Number=Sing|Person[subj]=2|Voice=Com	9	ccomp	_	_
-2	maʔe	maʔe	PRON	pro		_	1	obj	_	_
+2	maʔe	maʔe	PRON	pro	_	1	obj	_	_
 3	ihewe	we	ADP	posp	Number=Sing|Person[psor]=1|Poss=Yes	1	obl	_	_
 4	awaxi	awaxi	NOUN	n	_	5	nmod	_	_
 5	hɨruram	ɨru	NOUN	n	Rel=NCont|Tense=Fut	1	obl	_	_
@@ -5858,7 +5858,7 @@
 # text_en = He saw many things to buy.
 # V O
 1	Wexak	exak	VERB	vt	Person[subj]=3	0	root	_	_
-2	maʔeteteaʔu	maʔe	PRON	pro		Emph=Yes	3	nmod	_	_
+2	maʔeteteaʔu	maʔe	PRON	pro	Emph=Yes	3	nmod	_	_
 3	imeʔegkarpɨram	meʔeg	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Fut|Voice=Cau	1	obl	_	_
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -5895,7 +5895,7 @@
 # PART O PART V ADV PP
 1	Xo	xo	PART	pcl	_	3	discourse	_	_
 2	aʔe	aʔe	DET	dem	PronType=Dem	3	det	_	_
-3	maʔe	maʔe	PRON	pro		_	5	obj	_	_
+3	maʔe	maʔe	PRON	pro	_	5	obj	_	_
 4	zo	zo	PART	pcl	_	1	dep	_	_
 5	umeʔegkar	meʔeg	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
 6	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	5	iobj	_	_
@@ -6365,7 +6365,7 @@
 # text_en = Women are working.
 # S V AUX PART
 1	Kuzagwer	kuza	NOUN	n	Number=Coll	3	obl:subj	_	_
-2	umaʔereko	iko	VERB	vt	Detrans=Yes|Person[subj]=3|Voice=Com	0	root	_	_
+2	umaʔereko	iko	VERB	vt	Detrans=Ind|Person[subj]=3|Voice=Com	0	root	_	_
 3	waiko	iko	AUX	aux	Number=Plur|Person=3	3	aux	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 5	wa	wa	PART	pcl	Number=Plur|Person=3	1	discourse	_	_
@@ -6613,7 +6613,7 @@
 # text_en = They finished eating.
 # V S PART
 1	Upaw	paw	VERB	vi	Person[subj]=3	0	root	_	_
-2	wamaiʔuhaw	ʔu	NOUN	n	Detrans=Yes|Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes	1	obl:nsubj	_	_
+2	wamaiʔuhaw	ʔu	NOUN	n	Detrans=Ind|Nomzr=Circ|Number=Plur|Person[psor]=3|Poss=Yes	1	obl:nsubj	_	_
 3	wa	wa	PART	pcl	Number=Plur|Person=3	1	discourse	_	_
 4	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
@@ -6624,7 +6624,7 @@
 # text_spa = Comenzaron a decirnos.
 # text_en = They started telling each other.
 # V AUX PP PART
-1	Umaʔemumeʔu	mumeʔu	VERB	v	Detrans=Yes|Person[subj]=3	0	root	_	_
+1	Umaʔemumeʔu	mumeʔu	VERB	v	Detrans=Ind|Person[subj]=3	0	root	_	_
 2	waiko	iko	AUX	aux	Number=Plur|Person[subj]=3	1	aux	_	_
 3	uzeupeupe	upe	ADP	posp	Red=Di|Reflex=Yes|Rel=Corf	1	obl	_	_
 4	wa	wa	PART	pcl	Number=Plur|Person=3	1	discourse	_	_
@@ -6646,7 +6646,7 @@
 6	zawar	zawar	NOUN	n	_	9	obl	_	_
 7	uhu	uhu	NOUN	n	_	6	nmod	_	_
 8	rehe	ehe	ADP	posp	Rel=Cont	6	case	_	_
-9	maʔemumeʔuhaw	mumeʔu	NOUN	n	Detrans=Yes|Nomzr=Circ|Rel=Cont	5	obj	_	_
+9	maʔemumeʔuhaw	mumeʔu	NOUN	n	Detrans=Ind|Nomzr=Circ|Rel=Cont	5	obj	_	_
 10	ihe	ihe	PRON	pro	Person=1|PronType=Prs	5	discourse	_	_
 11	kurɨ	kurɨ	PART	pcl	_	5	discourse	_	_
 12	,	,	PUNCT	punct	_	5	punct	_	_
@@ -7286,7 +7286,7 @@
 # text_en = I'll tell you another story for you now, "Jose's father told his relatives.
 # [O [O V PP PART]] V S I - PP
 1	Amo	amo	DET	det	PronType=Ind	2	det	_	_
-2	maʔemumeʔuhaw	mumeʔu	NOUN	n	Detrans=Yes|Nomzr=Circ|Rel=Cont	3	nmod	_	_
+2	maʔemumeʔuhaw	mumeʔu	NOUN	n	Detrans=Ind|Nomzr=Circ|Rel=Cont	3	nmod	_	_
 3	amumeʔutar	mumeʔu	NOUN	n	Nomzr=Ag|Number=Sing|Person[subj]=1	8	ccomp	_	_
 4	peme	me	ADP	posp	Number=Plur|Person[psor]=2|Rel=Cont	3	obl	_	_
 5	ihe	ihe	PART	pcl	Number=Sing|Person=1	3	obl:subj	_	_
@@ -7608,7 +7608,7 @@
 # S V O PP
 1	Hehɨ	hɨ	NOUN	n	Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	2	obl:subj	_	_
 2	umur	ur	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
-3	maʔe	maʔe	PRON	pro		_	4	nmod	_	_
+3	maʔe	maʔe	PRON	pro	_	4	nmod	_	_
 4	roʔokwer	oʔo	NOUN	n	Rel=Cont|Tense=Past	2	obj	_	_
 5	hawe	he	PRON	pro	Case=Dat|Person[psor]=1|PronType=Prs	2	obl	_	_
 6	.	.	PUNCT	punct	_	2	punct	_	_
@@ -7722,7 +7722,7 @@
 # text_spa = ¿Qué mató el hombre en el bosque?
 # text_en = What did the man kill in the forest? (Bonfim Duarte, 2018)
 # O S V PP
-1	Maʔe	maʔe	PRON	pro		_	4	obj	_	_
+1	Maʔe	maʔe	PRON	pro	_	4	obj	_	_
 2	te	te	PART	pcl	Int=Yes	1	discourse	_	_
 3	awa	awa	NOUN	n	_	4	obl:subj	_	_
 4	uzuka	zuka	VERB	vt	Person[subj]=3	0	root	_	_
@@ -7735,7 +7735,7 @@
 # text_spa = ¿Cuándo regresaron?
 # text_en = When did they return? (Bonfim Duarte, 2018)
 # ADV V PART
-1	Maʔe	maʔe	PRON	pro		_	4	obl	_	_
+1	Maʔe	maʔe	PRON	pro	_	4	obl	_	_
 2	mehe	mehe	ADP	posp	_	1	case	_	_
 3	te	te	PART	pcl	_	1	discourse	_	_
 4	uzɨwɨr	zɨwɨr	VERB	v	Person[subj]=3	0	root	_	_
@@ -8016,7 +8016,7 @@
 # text_spa = ¿Qué irá Siba a atrapar?
 # text_en = What will Siba go to catch? (Bonfim Duarte, 2018)
 # O S V AUX
-1	Maʔe	maʔe	PRON	pro		_	4	obj	_	_
+1	Maʔe	maʔe	PRON	pro	_	4	obj	_	_
 2	te	te	PART	pcl	_	1	discourse	_	_
 3	Siba	Siba	PROPN	pn	_	4	obl:subj	_	_
 4	upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	_	_
@@ -8046,7 +8046,7 @@
 # text_spa = ¿Qué es lo que dicen que Fábio comió todo?
 # text_en = What did they say that Fábio ate all of (Bonfim Duarte, 2018)?
 # O ADV S V PART
-1	Maʔe	maʔe	PRON	pro		_	5	obj	_	_
+1	Maʔe	maʔe	PRON	pro	_	5	obj	_	_
 2	te	te	PART	pcl	_	1	discourse	_	_
 3	zekwehe	kwehe	ADV	adv	Evident=Fh|Tense=Past	1	advmod	_	_
 4	Fábio	Fábio	PROPN	pn	_	5	obl:subj	_	_
@@ -8124,7 +8124,7 @@
 # text_spa = John piensa que Quesler está cazando un tapir en el bosque.
 # text_en = John thinks that Quesler is hunting for a tapir in the forest (Bonfim Duarte, 2018).
 # V S [O [S O V C AUX PP]]
-1	Imaʔenukwaw	kwaw	NOUN	n	Detrans=Yes|Rel=NCont	7	obl:subj	_	_
+1	Imaʔenukwaw	kwaw	NOUN	n	Detrans=Ind|Rel=NCont	7	obl:subj	_	_
 2	Joao	Joao	PROPN	pn	_	1	nmod	_	_
 3	Quesler	Quesler	PROPN	pn	_	5	nmod	_	_
 4	tapiʔir	tapiʔir	NOUN	n	_	5	nmod	_	_
@@ -8701,7 +8701,7 @@
 1	Aʔeʔi	aʔe	PRON	pro	Case=Ref|PronType=Dem	2	obl:subj	_	_
 2	ohoaʔi	ho	VERB	vi	Dimin=Yes|Person[subj]=3	0	root	_	_
 3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	_	_
-4	umaiʔuaʔipa	ʔu	VERB	vt	Detrans=Yes|Emph=Yes|Person[subj]=3|VerbForm=Ger	2	advcl	_	_
+4	umaiʔuaʔipa	ʔu	VERB	vt	Detrans=Ind|Emph=Yes|Person[subj]=3|VerbForm=Ger	2	advcl	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 6	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 7	no	no	PART	pcl	_	2	discourse	_	_
@@ -9011,7 +9011,7 @@
 # text_spa = No se sienten hambrientos.
 # text_eng = They do not feel hungry.
 # P PART
-1	Naʔimaʔuhezpixikwaw	ʔu	NOUN	n	Detrans=Yes|Emph=Yes|Mood=Des|Person[subj]=3|Polarity=Neg|Rel=NCont	0	root	_	_
+1	Naʔimaʔuhezpixikwaw	ʔu	NOUN	n	Detrans=Ind|Emph=Yes|Mood=Des|Person[subj]=3|Polarity=Neg|Rel=NCont	0	root	_	_
 2	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -9022,7 +9022,7 @@
 # text_eng = They know very well how to take care.
 # V O PP PART
 1	Ukwawkatu	kwaw	VERB	vt	Emph=Yes|Person[subj]=3	0	root	_	_
-2	maʔe	maʔe	PRON	pro		_	1	obj	_	_
+2	maʔe	maʔe	PRON	pro	_	1	obj	_	_
 3	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	1	obl	_	_
 4	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
@@ -9193,7 +9193,7 @@
 # text_spa = Ven cuando el sol está caliente.
 # text_eng = Eat when the sun is hot.
 # V PP PART
-1	Umaiʔu	ʔu	VERB	vt	Detrans=Yes|Person[subj]=3	0	root	_	_
+1	Umaiʔu	ʔu	VERB	vt	Detrans=Ind|Person[subj]=3	0	root	_	_
 2	kwarahɨtete	kwarahɨ	NOUN	n	Emph=Yes	1	obl	_	_
 3	mehe	mehe	ADP	posp	Rel=Cont	2	case	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
@@ -9208,7 +9208,7 @@
 # PP PP V PART
 1	Aʔe	aʔe	PRON	pro	PronType=Dem	5	obl	_	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
-3	maʔe	maʔe	PRON	pro		_	4	nmod	_	_
+3	maʔe	maʔe	PRON	pro	_	4	nmod	_	_
 4	wɨwɨpe	wɨ	NOUN	n	Case=Loc|Red=Mo|Rel=Cont	5	obl	_	_
 5	nekon	iko	NOUN	n	NonFoc=Yes|Rel=Cont	0	root	_	_
 6	aʔe	aʔe	PRON	pro	PronType=Dem	5	discourse	_	_
@@ -9301,7 +9301,7 @@
 1	Awɨze	awɨze	ADV	adv	_	3	advmod	_	_
 2	tue	tue	PART	pcl	Emph=Yes	1	advmod	_	_
 3	ukwaw	kwaw	VERB	vt	Person[subj]=3	0	root	_	_
-4	maʔe	maʔe	PRON	pro		_	3	obj	_	_
+4	maʔe	maʔe	PRON	pro	_	3	obj	_	_
 5	uhɨ	hɨ	NOUN	n	Rel=Corf	3	obl	_	_
 6	rupi	upi	ADP	posp	Rel=Cont	5	case	_	_
 7	katete	katu	NOUN	n	_	5	obl	_	_
@@ -9377,7 +9377,7 @@
 # text_spa = Y comer en el borde del agua.
 # text_eng = And eat on the water's edge.
 # V AUX PP PART
-1	Umaiʔu	ʔu	VERB	vt	Detrans=Yes|Person[subj]=3	0	root	_	_
+1	Umaiʔu	ʔu	VERB	vt	Detrans=Ind|Person[subj]=3	0	root	_	_
 2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	_	_
 3-5	ɨremeʔɨwɨr	_	_	_	_	_	_	_	_
 3	ɨ	ʔɨ	NOUN	n	_	1	obl	_	_
@@ -9461,7 +9461,7 @@
 # text_spa = Y ellos también comen allí.
 # text_eng = And they eat there too.
 # V PART AUX PART
-1	Umaiʔu	ʔu	VERB	vt	Detrans=Yes|Person[subj]=3	0	root	_	_
+1	Umaiʔu	ʔu	VERB	vt	Detrans=Ind|Person[subj]=3	0	root	_	_
 2	zote	zote	PART	pcl	_	1	discourse	_	_
 3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	_	_
 4	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
@@ -10504,7 +10504,7 @@
 # text_spa = Sólo comen en el fondo del agua.
 # text_eng = They just eat on the bottom of the water.
 # O V PART AUX PP PART [ADV [PP O V PART AUX PART]]
-1	Umaiʔu	ʔu	VERB	vt	Detrans=Yes|Person[subj]=3	0	root	_	_
+1	Umaiʔu	ʔu	VERB	vt	Detrans=Ind|Person[subj]=3	0	root	_	_
 2	zote	zote	PART	pcl	_	1	discourse	_	_
 3	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	_	_
 4-5	ɨpɨwpe	_	_	_	_	_	_	_	_
@@ -10516,7 +10516,7 @@
 9-10	ɨʔaromo	_	_	_	_	_	_	_	_
 9	ɨ	ɨ	NOUN	n	_	11	obl	_	_
 10	ʔaromo	ʔaromo	ADP	posp	Rel=Cont	9	case	_	_
-11	umaiʔu	ʔu	VERB	vt	Detrans=Yes|Person[subj]=3	1	conj	_	_
+11	umaiʔu	ʔu	VERB	vt	Detrans=Ind|Person[subj]=3	1	conj	_	_
 12	zote	zote	PART	pcl	_	11	discourse	_	_
 13	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	11	aux	_	_
 14	aʔe	aʔe	PRON	pro	PronType=Dem	11	discourse	_	_
@@ -10544,7 +10544,7 @@
 # V PART O ADV PP PART
 1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_	_
 2	zote	zote	PART	pcl	_	1	discourse	_	_
-3	maʔe	maʔe	PRON	pro		_	4	nmod	_	_
+3	maʔe	maʔe	PRON	pro	_	4	nmod	_	_
 4	putɨr	putɨr	NOUN	n	Rel=Cont	5	nmod	_	_
 5	kuzwer	kuz	NOUN	n	Tense=Past	1	obj	_	_
 6-7	ɨʔaromo	_	_	_	_	_	_	_	_
@@ -10889,7 +10889,7 @@
 # text_spa = No trabaja .
 # text_eng = Does not work .
 # V PART
-1	Numaʔerekokwaw	iko	VERB	vt	Detrans=Yes|Person[subj]=3|Polarity=Neg|Voice=Com	0	root	_	_
+1	Numaʔerekokwaw	iko	VERB	vt	Detrans=Ind|Person[subj]=3|Polarity=Neg|Voice=Com	0	root	_	_
 2	zepe	zepe	PART	pcl	_	1	discourse	_	_
 3	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 4	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
@@ -10901,7 +10901,7 @@
 # text_spa = Pero no tiene hambre.
 # text_eng = But it's not hungry.
 # V PART
-1	Naʔimaʔuhezkwaw	ʔu	VERB	vt	Detrans=Yes|Mood=Des|Person[subj]=3|Polarity=Neg|Rel=NCont	0	root	_	_
+1	Naʔimaʔuhezkwaw	ʔu	VERB	vt	Detrans=Ind|Mood=Des|Person[subj]=3|Polarity=Neg|Rel=NCont	0	root	_	_
 2	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
 3	.	.	PUNCT	punct	_	2	punct	_	_
 
@@ -11130,7 +11130,7 @@
 # PP V PP PART
 1	Aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	_	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
-3	umaiʔukatu	ʔu	VERB	vt	Detrans=Yes|Emph=Yes|Person[subj]=3	0	root	_	_
+3	umaiʔukatu	ʔu	VERB	vt	Detrans=Ind|Emph=Yes|Person[subj]=3	0	root	_	_
 4-5	tueharupi	_	_	_	_	_	_	_	_
 4	tueha	tue	NOUN	n	Nomzr=Ag	3	obl	_	_
 5	rupi	upi	ADP	posp	Rel=Cont	4	case	_	_
@@ -11145,7 +11145,7 @@
 # text_eng = There's a lot of food for them.
 # V S I PART
 1	Hetateteaʔu	eta	NOUN	n	Emph=Yes|Rel=NCont	0	root	_	_
-2	maʔe	maʔe	PRON	pro		_	3	nmod	_	_
+2	maʔe	maʔe	PRON	pro	_	3	nmod	_	_
 3	wanemiʔu	ʔu	NOUN	n	Nomzr=DevPass|Number=Plur|Person[psor]=3|Poss=Yes	1	nmod	_	_
 4	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	1	iobj	_	_
 5	no	no	PART	pcl	_	1	discourse	_	_
@@ -11161,7 +11161,7 @@
 1	Ɨ	ʔɨ	NOUN	n	_	3	obl	_	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
 3	uʔar	ʔar	VERB	vi	Person[subj]=3	0	root	_	_
-4	maʔe	maʔe	PRON	pro		_	5	nmod	_	_
+4	maʔe	maʔe	PRON	pro	_	5	nmod	_	_
 5	kurer	kurer	NOUN	n	Rel=Cont	3	obl:subj	_	_
 6	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	3	obl	_	_
 7	,	,	PUNCT	punct	_	6	punct	_	_
@@ -11178,7 +11178,7 @@
 # text_spa = Algo cae en el agua para él.
 # text_eng = Something falls into the water for him.
 # S V PP PP PART
-1	Maʔe	maʔe	PRON	pro		_	2	obl:subj	_	_
+1	Maʔe	maʔe	PRON	pro	_	2	obl:subj	_	_
 2	uʔar	ʔar	VERB	vi	Person[subj]=3	0	root	_	_
 3	ɨ	ʔɨ	NOUN	n	_	2	obl	_	_
 4	rupi	upi	ADP	posp	Rel=Cont	3	case	_	_
@@ -11192,7 +11192,7 @@
 # text_spa = Aquí hay una historia.
 # text_eng = Here is a story.
 # V PART
-1	Maʔemumeʔuhaw	mumeʔu	NOUN	n	Detrans=Yes|Nomzr=Circ	0	root	_	_
+1	Maʔemumeʔuhaw	mumeʔu	NOUN	n	Detrans=Ind|Nomzr=Circ	0	root	_	_
 2	xe	xe	PART	pcl	Speech=MM	1	discourse	_	_
 3	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	_	_
 4	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
@@ -11489,14 +11489,14 @@
 # text_eng = If you are hungry, it goes out to eat.
 # [ADV [C O V AUX PP PART]] V PART
 1	Aze	aze	SCONJ	sc	_	4	mark	_	_
-2	imaʔuhez	ʔu	NOUN	n	Detrans=Yes|Mood=Des|Rel=NCont	4	obl:subj	_	_
+2	imaʔuhez	ʔu	NOUN	n	Detrans=Ind|Mood=Des|Rel=NCont	4	obl:subj	_	_
 3	uhem	hem	VERB	vi	Person[subj]=3	10	advcl	_	_
 4	ikatupe	katu	NOUN	n	Case=Dat|Rel=NCont	4	obl	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	4	discourse	_	_
 6	no	no	PART	pcl	_	4	discourse	_	_
 7	,	,	PUNCT	punct	_	4	punct	_	_
 8-9	umaiʔukatu	_	_	_	_	_	_	_	_
-8	umaiʔu	ʔu	VERB	vt	Detrans=Yes|Person[subj]=3	0	root	_	_
+8	umaiʔu	ʔu	VERB	vt	Detrans=Ind|Person[subj]=3	0	root	_	_
 9	katu	katu	NOUN	n	_	10	obl	_	_
 10	aʔe	aʔe	PRON	pro	PronType=Dem	10	obl:subj	_	_
 11	wa	wa	PART	pcl	Number=Plur	10	discourse	_	_
@@ -11701,7 +11701,7 @@
 5	tɨ	ʔɨ	NOUN	n	Rel=Abs	6	obj	_	_
 6	paw	paw	VERB	vt	_	10	advcl	_	_
 7	,	,	PUNCT	punct	_	6	punct	_	_
-8	maʔe	maʔe	PRON	pro		_	10	obl	_	_
+8	maʔe	maʔe	PRON	pro	_	10	obl	_	_
 9	pupe	pupe	ADP	posp	Rel=Cont	8	case	_	_
 10	wanekon	iko	NOUN	n	NonFoc=Yes|Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	17	obl:subj	_	_
 11	aʔe	aʔe	PRON	pro	PronType=Dem	10	discourse	_	_
@@ -11976,7 +11976,7 @@
 8	rupi	upi	ADP	posp	Rel=Cont	7	case	_	_
 9	katete	katu	NOUN	n	Rel=Cont	7	nmod	_	_
 10	agwer	agwer	DET	dem	PronType=Dem	11	det	_	_
-11	maʔe	maʔe	PRON	pro		_	6	obj	_	_
+11	maʔe	maʔe	PRON	pro	_	6	obj	_	_
 12	zanewe	zane	PRON	pro	Case=Dat|Clusivity=In|Number=Plur|Person=1	6	obl	_	_
 13	aʔe	aʔe	PRON	pro	PronType=Dem	6	discourse	_	_
 14	no	no	PART	pcl	_	6	discourse	_	_
@@ -12007,7 +12007,7 @@
 # V PART O PP PART
 1	Ukwawkar	kwaw	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
 2	zote	zote	PART	pcl	_	1	discourse	_	_
-3	maʔemaʔe	maʔe	PRON	pro		Red=Di	4	nmod	_	_
+3	maʔemaʔe	maʔe	PRON	pro	Red=Di	4	nmod	_	_
 4	kwawparʔɨm	kwaw	NOUN	n	Case=Abe|Nomzr=Circ|Rel=Cont	1	obj	_	_
 5	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	1	obl	_	_
 6	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
@@ -12026,7 +12026,7 @@
 3	omoeteahɨ	omo	ADP	posp	Emph=Yes|Rel=Cont	2	case	_	_
 4	Tupan	Tupan	PROPN	pn	_	5	obl:subj	_	_
 5	ukwawkar	kwaw	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
-6	maʔe	maʔe	PRON	pro		_	5	obj	_	_
+6	maʔe	maʔe	PRON	pro	_	5	obj	_	_
 7	ipira	pira	NOUN	n	Rel=NCont	5	obl	_	_
 8	wanupe	upe	ADP	posp	Number=Plur|Person[psor]=3|Poss=Yes|Rel=Cont	7	case	_	_
 9	zanewi	zane	PRON	pro	Case=Abl|Clusivity=In|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
@@ -12223,7 +12223,7 @@
 # PP V AUX PART
 1	Awɨze	awɨze	NOUN	n	_	3	obl	_	_
 2	tue	tue	PART	pcl	Emph=Yes	1	discourse	_	_
-3	umaiʔu	ʔu	VERB	vt	Detrans=Yes|Person[subj]=3	0	root	_	_
+3	umaiʔu	ʔu	VERB	vt	Detrans=Ind|Person[subj]=3	0	root	_	_
 4	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	3	aux	_	_
 5	wa	wa	PART	pcl	Number=Plur	3	discourse	_	_
 6	no	no	PART	pcl	_	3	discourse	_	_
@@ -12280,7 +12280,7 @@
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
 3	wamiri	wamiri	NOUN	n	_	4	obl:subj	_	_
 4	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_	_
-5	maʔe	maʔe	PRON	pro		_	6	nmod	_	_
+5	maʔe	maʔe	PRON	pro	_	6	nmod	_	_
 6	kurer	kurer	NOUN	n	Rel=Cont	4	obj	_	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
 8	wa	wa	PART	pcl	Number=Plur	3	discourse	_	_
@@ -12301,7 +12301,7 @@
 # V AUX [ADV [O V PART]]
 1	Uzan	zan	VERB	vi	Person[subj]=3	0	root	_	_
 2	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	_	_
-3	maʔe	maʔe	PRON	pro		_	4	obj	_	_
+3	maʔe	maʔe	PRON	pro	_	4	obj	_	_
 4	iʔupa	ʔu	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
 5	wa	wa	PART	pcl	Number=Plur	4	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
@@ -12327,7 +12327,7 @@
 # text_eng = They take things that fall into the water.
 # V O PP PART - PP V PART [ADV [O V PART]]
 1	Upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	_	_
-2	maʔe	maʔe	PRON	pro		_	1	obj	_	_
+2	maʔe	maʔe	PRON	pro	_	1	obj	_	_
 3	uzeupe	upe	ADP	posp	Reflex=Yes|Rel=Corf	1	obl	_	_
 4	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 5-6	ɨʔaromo	_	_	_	_	_	_	_	_
@@ -12336,7 +12336,7 @@
 7	wanekon	iko	NOUN	n	NonFoc=Yes|Number=Plur|Person[subj]=3|Rel=Cont	1	parataxis	_	_
 8	wa	wa	PART	pcl	Number=Plur	7	discourse	_	_
 9	,	,	PUNCT	punct	_	7	punct	_	_
-10	maʔe	maʔe	PRON	pro		_	11	nmod	_	_
+10	maʔe	maʔe	PRON	pro	_	11	nmod	_	_
 11	kurer	kurer	NOUN	n	Rel=Cont	12	obj	_	_
 12	iʔupa	ʔu	VERB	vt	Rel=NCont|VerbForm=Ger	1	advcl	_	_
 13	wa	wa	PART	pcl	Number=Plur	12	discourse	_	_
@@ -12632,7 +12632,7 @@
 3	uzapo	apo	VERB	vt	Person[subj]=3	0	root	_	_
 4	paw	paw	PRON	pro	PronType=Tot	3	obl	_	_
 5	rupi	upi	ADP	posp	Rel=Cont	4	case	_	_
-6	maʔe	maʔe	PRON	pro		_	3	obj	_	_
+6	maʔe	maʔe	PRON	pro	_	3	obj	_	_
 7	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	3	aux	_	_
 8	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
 9	xe	xe	PART	pcl	Speech=MM	3	discourse	_	_
@@ -12905,7 +12905,7 @@
 # P - C V PART
 1	Ikatuahɨ	katu	NOUN	n	Emph=Yes|Rel=NCont	0	root	_	_
 2	taʔe	taʔe	CCONJ	cc	_	3	cc	_	_
-3	numaʔerekokwaw	iko	VERB	vt	Detrans=Yes|Person[subj]=3|Polarity=Neg|Voice=Com	1	conj	_	_
+3	numaʔerekokwaw	iko	VERB	vt	Detrans=Ind|Person[subj]=3|Polarity=Neg|Voice=Com	1	conj	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
 5	wa	wa	PART	pcl	Number=Plur	3	discourse	_	_
 6	xe	xe	PART	pcl	Speech=MM	3	discourse	_	_
@@ -13085,7 +13085,7 @@
 # text_eng = They eat things that are on the water.
 # V O AUX PP PART
 1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_	_
-2	maʔe	maʔe	PRON	pro		_	1	obj	_	_
+2	maʔe	maʔe	PRON	pro	_	1	obj	_	_
 3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	1	aux	_	_
 4-5	ɨʔaromo	_	_	_	_	_	_	_	_
 4	ɨ	ɨ	NOUN	n	_	1	obl	_	_
@@ -13112,7 +13112,7 @@
 # text_spa = Comer restos.
 # text_eng = Eat remains.
 # O V AUX PART
-1	Maʔe	maʔe	PRON	pro		_	2	nmod	_	_
+1	Maʔe	maʔe	PRON	pro	_	2	nmod	_	_
 2	kurer	kurer	NOUN	n	Rel=Cont	3	obj	_	_
 3	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_	_
 4	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	3	aux	_	_
@@ -13140,7 +13140,7 @@
 # C V S PART - V PP
 1	Taʔe	taʔe	CCONJ	cc	_	2	cc	_	_
 2	upaw	paw	VERB	vi	Person[subj]=3	0	root	_	_
-3	maʔe	maʔe	PRON	pro		_	4	nmod	_	_
+3	maʔe	maʔe	PRON	pro	_	4	nmod	_	_
 4	kureraʔi	kurer	NOUN	n	Dimin=Yes|Rel=Cont	2	obl:subj	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
 6	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
@@ -14691,7 +14691,7 @@
 # text_eng = "What are you saying?"
 # [O [S V PART] P ADV [ADV [PP V]]
 1	—	—	PUNCT	punct	_	3	punct	_	_
-2	Maʔe	maʔe	PRON	pro		PronType=Int	3	obl:subj	_	_
+2	Maʔe	maʔe	PRON	pro	PronType=Int	3	obl:subj	_	_
 3	ereiko	iko	VERB	vi	Number=Sing|Person[subj]=2	6	ccomp	_	_
 4	tɨ	tɨ	PART	pcl	Speech=MM	3	discourse	_	_
 5	,	,	PUNCT	punct	_	3	punct	_	_
@@ -17027,7 +17027,7 @@
 # text_eng = The story of the nightjar ends.
 # V S PART
 1	Upaw	paw	VERB	vi	Person[subj]=3	0	root	_	_
-2	maʔemumeʔuhawkwez	NOUN	n	Detrans=Yes|Nomzr=Circ|Rel=Cont|Tense=Past	1	obl:subj	_	_
+2	maʔemumeʔuhawkwez	NOUN	n	Detrans=Ind|Nomzr=Circ|Rel=Cont|Tense=Past	1	obl:subj	_	_
 3	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 4	pa	pa	PART	pcl	Speech=Masc	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
