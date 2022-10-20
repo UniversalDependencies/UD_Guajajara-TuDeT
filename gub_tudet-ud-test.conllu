@@ -17032,3 +17032,669 @@
 4	pa	pa	PART	pcl	Speech=Masc	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
+# sent_id = 1150
+# text = upɨhɨk awa pira aʔe
+# text_eng = The man caught the fish (Campos & Quesler, 2021)
+# text_port = O homem pegou o peixe
+# text_spa = El hombre atrapó el pez
+# V S O P
+1	upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	pira	pira	NOUN	n	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1151
+# text = upirapɨhɨk awa aʔe
+# text_eng = The man fished (Campos & Quesler, 2021)
+# text_port = O homem pescou
+# text_spa = El hombre pescó
+# V S P
+1-2	upirapɨhɨk	_	_	_	_	_	_	_	_
+1	upira	pira	NOUN	n	Person[subj]=3	2	obj	_	_
+2	pɨhɨk	pɨhɨk	VERB	vt	_	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1152
+# text = uʔuteteaʔu awa maʔe aʔe
+# text_eng = The man ate many things (Campos & Quesler, 2021)
+# text_port = O homem comeu muitas coisas
+# text_spa = El hombre se comió muchas cosas
+# V S O P
+1	uʔuteteaʔu	ʔu	VERB	vt	Emph=Yes|Person[subj]=3	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	maʔe	maʔe	PRON	pro	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1153
+# text = umaiʔuteteaʔu awa aʔe
+# text_eng = The man ate a lot (Campos & Quesler, 2021)
+# text_port = O homem comeu muito
+# text_spa = El hombre se comió mucho
+# V S P
+1-2	umaiʔuteteaʔu	_	_	_	_	_	_	_	_
+1	umai	maʔe	PRON	pro	Person[subj]=3	2	obj	_	_
+2	ʔuteteaʔu	ʔu	VERB	vt	Emph=Yes	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1154
+# text = opoz awa pira aʔe
+# text_eng = The man fed the fish (Campos & Quesler, 2021)
+# text_port = O homem alimentou o peixe
+# text_spa = El hombre alimentó al pez
+# V S O P
+1	opoz	poz	VERB	vt	Person[subj]=3	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	pira	pira	NOUN	n	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1155
+# text = upirapoz awa aʔe
+# text_eng = The man fished (Campos & Quesler, 2021)
+# text_port = O homem pescou
+# text_spa = El hombre pescó
+# V S P
+1-2	upirapoz	_	_	_	_	_	_	_	_
+1	upira	pira	NOUN	n	Person[subj]=3	2	obj	_	_
+2	poz	poz	VERB	vt	_	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1156
+# text = weitɨk awa pina aʔe
+# text_eng = The man threw the hook (Campos & Quesler, 2021)
+# text_port = O homem jogou o gancho
+# text_spa = El hombre arrojó el gancho
+# V S O P
+1	weitɨk	eitɨk	VERB	vt	Person[subj]=3	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	pina	pina	NOUN	n	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1157
+# text = upinaeitɨk awa aʔe
+# text_eng = The man fished (Campos & Quesler, 2021)
+# text_port = O homem pescou
+# text_spa = El hombre pescó
+# 
+1-2	upinaeitɨk	_	_	_	_	_	_	_	_
+1	upina	pina	NOUN	n	Person[subj]=3	2	obj	_	_
+2	eitɨk	eitɨk	VERB	vt	_	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1158
+# text = oʔok awa pina aʔe
+# text_eng = The man pulled the hook (Campos & Quesler, 2021)
+# text_port = O homem puxou o gancho
+# text_spa = El hombre tiró del gancho
+# V S O P
+1	oʔok	ʔok	VERB	vt	Person[subj]=3	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	pina	pina	NOUN	n	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1159
+# text = upinaʔok awa aʔe
+# text_eng = The man pulled the hook (with no fish) (Campos & Quesler, 2021)
+# text_port = O homem puxou o gancho (sem peixe)
+# text_spa = El hombre tiró del gancho (sin peces)
+# V S P
+1-2	upinaʔok	_	_	_	_	_	_	_	_
+1	upina	pina	NOUN	n	Person[subj]=3	2	obj	_	_
+2	ʔok	ʔok	VERB	vt	_	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1160
+# text = owan kuza pira aʔe
+# text_eng = The woman wrapped the fish (Campos & Quesler, 2021)
+# text_port = A mulher envolveu o peixe
+# text_spa = La mujer envolvió el pez
+# V S O P
+1	owan	wan	VERB	vt	Person[subj]=3	0	root	_	_
+2	kuza	kuza	NOUN	n	_	1	obl:subj	_	_
+3	pira	pira	NOUN	n	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1161
+# text = upirawan kuza aʔe
+# text_eng = The woman baked-fish (wrapped in banana tree leaves on the fire) (Campos & Quesler, 2021)
+# text_port = A mulher assada (embrulhada em folhas de banana no fogo)
+# text_spa = La mujer horneada (envuelta en hojas de árbol de plátano en el fuego)
+# V S P
+1-2	upirawan	_	_	_	_	_	_	_	_
+1	upirawan	pira	NOUN	n	Person[subj]=3	2	obj	_	_
+2	upirawan	wan	VERB	vt	_	0	root	_	_
+2	kuza	kuza	NOUN	n	_	2	obl:subj	_	_
+3	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1162
+# text = uʔɨʔuteteaʔu awa aʔe
+# text_eng = The man drank-water (Campos & Quesler, 2021)
+# text_port = O homem bebeu água
+# text_spa = El hombre bebió agua
+# V S P
+1-2	uʔɨʔuteteaʔu	_	_	_	_	_	_	_	_
+1	uʔɨ	ʔɨ	NOUN	n	Person[subj]=3	2	obj	_	_
+2	ʔuteteaʔu	ʔu	VERB	vt	Emph=Yes	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1163
+# text = ukawiʔuteteaʔu awa aʔe
+# text_eng = The man drank-cauim (a type of distilled liquor made from yuca) (Campos & Quesler, 2021)
+# text_port = O homem bebeu-cauim (um tipo de licor destilado feito de Yuca)
+# text_spa = El hombre bebió-cauim (un tipo de licor destilado hecho de yuca)
+# V S P
+1-2	ukawiʔuteteaʔu	_	_	_	_	_	_	_	_
+1	ukawi	kawi	NOUN	n	Person[subj]=3	2	obj	_	_
+2	ʔuteteaʔu	ʔu	VERB	vt	Emph=Yes	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1164
+# text = opoeʔeg kuza opo pupe aʔe
+# text_eng = The woman waved (signal-hand) with her hand (Campos & Quesler, 2021)
+# text_port = A mulher acenou (manutenção do sinal) com a mão
+# text_spa = La mujer onduló (con la mano) con la mano
+# V S PP P
+1-2	opoeʔeg	_	_	_	_	_	_	_	_
+1	opo	po	NOUN	n	Person[subj]=3	2	obj	_	_
+2	eʔeg	eʔeg	VERB	vi	_	0	root	_	_
+3	kuza	kuza	NOUN	n	_	2	obl:subj	_	_
+4	opo	po	NOUN	n	Rel=Corf	2	obl	_	_
+5	pupe	pupe	ADP	posp	Rel=Cont	4	case	_	_
+6	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1165
+# text = utɨapɨw awa ɨrɨkawi aʔe
+# text_eng = The man took water from the river (a traditional fishing technique) (Campos & Quesler, 2021)
+# text_port = O homem pegou água do rio (uma técnica de pesca tradicional)
+# text_spa = El hombre tomó agua del río (una técnica de pesca tradicional)
+# V S OBL P
+1-2	utɨapɨw	_	_	_	_	_	_	_	_
+1	utɨ	ʔɨ	NOUN	n	Person[subj]=3	2	obj	_	_
+2	apɨw	apɨw	VERB	vi	_	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	ɨrɨkawi	ɨrɨk	NOUN	n	Case=Abl|Nomzr=Circ	2	obl	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1166
+# text = uzurupeka kuza aʔe
+# text_eng = The woman yawned (Campos & Quesler, 2021)
+# text_port = A mulher bocejou
+# text_spa = La mujer bostezó
+# V S P
+1-2	uzurupeka	_	_	_	_	_	_	_	_
+1	uzuru	zuru	NOUN	n	Person[subj]=3	2	obj	_	_
+2	peka	peka	VERB	vi	_	0	root	_	_
+3	kuza	kuza	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1167
+# text = uʔɨahaw awa aʔe
+# text_eng = The man crossed-river (Campos & Quesler, 2021)
+# text_port = O homem cruzou-se
+# text_spa = El hombre cruzado río
+# V S P
+1-2	uʔɨahaw	_	_	_	_	_	_	_	_
+1	uʔɨ	ʔɨ	NOUN	n	Person[subj]=3	2	obj	_	_
+2	ahaw	ahaw	VERB	vi	_	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1168
+# text = uʔɨpɨkuz awa aʔe
+# text_eng = The man rowed (Campos & Quesler, 2021)
+# text_port = O homem remou
+# text_spa = El hombre remaba
+# V S P
+1-2	uʔɨpɨkuz	_	_	_	_	_	_	_	_
+1	uʔɨ	ʔɨ	NOUN	n	Person[subj]=3	2	obj	_	_
+2	pɨkuz	pɨkuz	VERB	vi	_	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1169
+# text = uazgɨrɨw awa aʔe
+# text_eng = The man gritted-teeth (Campos & Quesler, 2021)
+# text_port = O homem cercado por dentes
+# text_spa = El hombre apretado
+# V S P
+1-2	uazgɨrɨwgɨrɨw	_	_	_	_	_	_	_	_
+1	uaz	az	NOUN	n	Person[subj]=3	2	obj	_	_
+2	uazgɨrɨwgɨrɨw	gɨrɨw	VERB	vi	Person[subj]=3|Red=Di	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1170
+# text = uenɨʔiɨrɨk awa aʔe
+# text_eng = The man drooled (Campos & Quesler, 2021)
+# text_port = O homem babou
+# text_spa = El hombre babeó
+# V S P
+1-2	uenɨʔiɨrɨk	_	_	_	_	_	_	_	_
+1	uenɨʔi	enɨʔi	NOUN	n	Person[subj]=3	2	obj	_	_
+2	ɨrɨk	ɨrɨk	VERB	vi	_	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1171
+# text = wexak awa kuza aʔe
+# text_eng = The man saw the woman (Campos & Quesler, 2021)
+# text_port = O homem viu a mulher
+# text_spa = El hombre vio a la mujer
+# V S O P
+1	wexak	exak	VERB	v	Person[subj]=3	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	kuza	kuza	NOUN	n	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1172
+# text = upɨhɨk awa maraka aʔe
+# text_eng = The man caught the maracá (Campos & Quesler, 2021)
+# text_port = O homem pegou o maracá
+# text_spa = El hombre atrapó al maracá
+# V S O P
+1	upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	maraka	maraka	NOUN	n	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1173
+# text = oʔok awa miar iakag aʔe
+# text_eng = The man took off the animal’s head (Campos & Quesler, 2021)
+# text_port = O homem tirou a cabeça do animal
+# text_spa = El hombre quitó la cabeza del animal
+# V S O P
+1	oʔok	ʔok	VERB	vt	Person[subj]=3	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	miar	miar	NOUN	n	_	4	nmod	_	_
+4	iakag	akag	NOUN	n	Rel=NCont	1	obj	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1174
+# text = uzakagok awa miar aʔe
+# text_eng = The man decapitated the animal (Campos & Quesler, 2021)
+# text_port = O homem decapitou o animal
+# text_spa = El hombre decapitó al animal
+# V S O P
+1-2	uzakagok	_	_	_	_	_	_	_	_
+1	uzakag	akag	NOUN	n	Person[subj]=3	2	obj	_	_
+2	ok	ʔok	VERB	vt	_	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	miar	miar	NOUN	n	_	2	obj	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1175
+# text = uhez kuza kwaharer huwa aʔe
+# text_eng = The woman washed the boy’s face (Campos & Quesler, 2021)
+# text_port = A mulher lavou o rosto do menino
+# text_spa = La mujer lavó la cara del niño
+# V S O P
+1	uhez	hez	VERB	vt	Person[subj]=3	0	root	_	_
+2	kuza	kuza	NOUN	n	_	1	obl:subj	_	_
+3	kwaharer	kwaharer	NOUN	n	_	4	nmod	_	_
+4	huwa	uwa	NOUN	n	_	1	obj	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1176
+# text = uwahez kuza kwaharer aʔe
+# text_eng = The woman face-washed the boy (Campos & Quesler, 2021)
+# text_port = A mulher lavou o menino
+# text_spa = La mujer lavó la cara al niño
+# V S O P
+1-2	uwahez	_	_	_	_	_	_	_	_
+1	uwa	uwa	NOUN	n	Person[subj]=3	2	obj	_	_
+2	hez	hez	VERB	vt	_	0	root	_	_
+3	kuza	kuza	NOUN	n	_	2	obl:subj	_	_
+4	kwaharer	kwaharer	NOUN	n	_	2	obj	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1177
+# text = ukutuk awa waʔɨr heme aʔe
+# text_eng = The man pierced his (own) son’s lip (to insert a lip plate) (Campos & Quesler, 2021)
+# text_port = O homem perfurou o lábio do filho (para inserir uma placa labial)
+# text_spa = El hombre perforó el labio de su (propio) hijo (para insertar una placa de labios)
+# V S O P
+1	ukutuk	kutuk	VERB	vt	Person[subj]=3	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	4	nmod	_	_
+4	heme	eme	NOUN	n	Rel=NCont	1	obj	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1178
+# text = wemekutuk awa waʔɨr aʔe
+# text_eng = The man pierced-lip his (own) son (to insert a lip plate) (Campos & Quesler, 2021)
+# text_port = O homem perfurou seu filho (para inserir uma placa labial)
+# text_spa = El hombre perforó a su (propio) hijo (para insertar una placa de labios)
+# V S O P
+1-2	wemekutuk	_	_	_	_	_	_	_	_
+1	weme	eme	NOUN	n	Person[subj]=3	2	obj	_	_
+2	kutuk	kutuk	VERB	vt	_	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	waʔɨr	aʔɨr	NOUN	n	Rel=Corf	2	obj	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1179
+# text = ukwaw heru Zahɨ imem aʔe
+# text_eng = My father knows Zahy’s husband (Campos & Quesler, 2021)
+# text_port = Meu pai conhece o marido de Zahy
+# text_spa = Mi padre conoce al marido de Zahy
+# V S O P
+1	ukwaw	kwaw	VERB	vt	Person[subj]=3	0	root	_	_
+2	heru	u	NOUN	n	Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	1	obl:subj	_	_
+3	Zahɨ	Zahɨ	PROPN	ppn	_	4	nmod	_	_
+4	imem	mem	NOUN	n	Rel=NCont	1	obj	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1180
+# text = wexak Zahɨ heru itaiho aʔe
+# text_eng = Zahy saw my father’s mother-in-law (Campos & Quesler, 2021)
+# text_port = Zahy viu a sogra de meu pai
+# text_spa = Zahy vio la suegra de mi padre
+# V S O P
+1	wexak	exak	VERB	v	Person[subj]=3	0	root	_	_
+2	Zahɨ	Zahɨ	PROPN	ppn	_	1	obl:subj	_	_
+3	heru	u	NOUN	n	Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	4	nmod	_	_
+4	itaiho	taiho	NOUN	n	Rel=NCont	1	obj	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1181
+# text = ipari kwaharer heha aʔe
+# text_eng = The boy’s eye is deformed (Campos & Quesler, 2021)
+# text_port = O olho do menino está deformado
+# text_spa = El ojo del niño está deformado
+# S P
+1	ipari	pari	NOUN	n	Rel=NCont	0	root	_	_
+2	kwaharer	kwaharer	NOUN	n	_	3	nmod	_	_
+3	heha	eha	NOUN	n	Rel=NCont	1	nmod	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1182
+# text = hehapari kwaharer aʔe
+# text_eng = The boy is cross-eyed (Campos & Quesler, 2021)
+# text_port = O menino está com os olhos cruzados
+# text_spa = El chico tiene los ojos cruzados
+# S P
+1-2	hehapari	_	_	_	_	_	_	_	_
+1	heha	eha	NOUN	n	Rel=NCont	2	nmod	_	_
+2	pari	pari	NOUN	n	Rel=Cont	0	root	_	_
+3	kwaharer	kwaharer	NOUN	n	_	2	nmod	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1183
+# text = hahɨ kwaharer hɨe aʔe
+# text_eng = The boy’s stomach hurts (Campos & Quesler, 2021)
+# text_port = O estômago do menino dói
+# text_spa = El estómago del niño duele
+# S P
+1	hahɨ	ahɨ	NOUN	n	Rel=NCont	0	root	_	_
+2	kwaharer	kwaharer	NOUN	n	_	3	nmod	_	_
+3	hɨe	ɨe	NOUN	n	Rel=NCont	1	nmod	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1184
+# text = hɨeahɨ kwaharer aʔe
+# text_eng = The boy has a stomachache (Campos & Quesler, 2021)
+# text_port = O menino tem dor de estômago
+# text_spa = El niño tiene dolor de estómago
+# S P
+1-2	hɨeahɨ	ʔɨ	NOUN	n	_	1	obl	_	_
+1	hɨe	ɨe	NOUN	n	Rel=NCont	2	nmod	_	_
+2	ahɨ	ahɨ	NOUN	n	Rel=Cont	0	root	_	_
+3	kwaharer	kwaharer	NOUN	n	_	2	nmod	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1185
+# text = uhem kwaharer huwi aʔe
+# text_eng = The boy’s blood came out (Campos & Quesler, 2021)
+# text_port = O sangue do menino saiu
+# text_spa = Salió la sangre del niño
+# V S P
+1	uhem	hem	VERB	vt	Person[subj]=3	0	root	_	_
+2	kwaharer	kwaharer	NOUN	n	_	3	nmod	_	_
+3	huwi	uwi	NOUN	n	Rel=NCont	1	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1186
+# text = ihuwihem kwaharer aʔe
+# text_eng = The boy bled (Campos & Quesler, 2021)
+# text_port = O menino sangrou
+# text_spa = El chico sangraba
+# S
+1-2	ihuwihem	_	_	_	_	_	_	_	_
+1	ihuwi	uwi	NOUN	n	Rel=NCont	2	nmod	_	_
+2	hem	hem	NOUN	n	Rel=Cont	0	root	_	_
+3	kwaharer	kwaharer	NOUN	n	_	1	nmod	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1187
+# text = ukaz kwaharer ipo aʔe
+# text_eng = The boy’s hand burned (Campos & Quesler, 2021)
+# text_port = A mão do menino queimou
+# text_spa = La mano del niño quemada
+# V S P
+1	ukaz	kaz	VERB	vt	Person[subj]=3	0	root	_	_
+2	kwaharer	kwaharer	NOUN	n	_	3	nmod	_	_
+3	ipo	po	NOUN	n	Rel=NCont	1	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1188
+# text = ipokaz kwaharer aʔe
+# text_eng = The boy burned-hand (Campos & Quesler, 2021)
+# text_port = O garoto queimado
+# text_spa = El chico ardido-mano
+# V S P
+1-2	ipokaz	_	_	_	_	_	_	_	_
+1	ipo	po	NOUN	n	Rel=NCont	2	nmod	_	_
+2	kaz	kaz	NOUN	n	Rel=Cont	0	root	_	_
+3	kwaharer	kwaharer	NOUN	n	_	1	nmod	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1189
+# text = uhapukaz kuzatai aʔe
+# text_eng = The girl screams (Campos & Quesler, 2021)
+# text_port = A garota grita
+# text_spa = La niña grita
+# V S P
+1	uhapukaz	hapukaz	VERB	vt	Person[subj]=3	0	root	_	_
+2	kuzatai	kuzatai	NOUN	n	_	1	obl:subj	_	_
+3	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1190
+# text = weruhapukaz kuzatai zawar aʔe
+# text_eng = The girl screams with the dog (on her lap) (Campos & Quesler, 2021)
+# text_port = A garota grita com o cachorro (no colo)
+# text_spa = La niña grita con el perro (en su regazo)
+# V S O P
+1	weruhapukaz	hapukaz	VERB	vt	Person[subj]=3|Voice=Com	0	root	_	_
+2	kuzatai	kuzatai	NOUN	n	_	1	obl:subj	_	_
+3	zawar	zawar	NOUN	n	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1191
+# text = upuze awa ɨwɨ rehe aʔe
+# text_eng = The man dragged himself on the ground (Campos & Quesler, 2021)
+# text_port = O homem se arrastou no chão
+# text_spa = El hombre se arrastró en el suelo
+# V S PP P
+1	upuze	puze	VERB	vt	Person[subj]=3	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	ɨwɨ	ɨwɨ	NOUN	n	_	1	obl	_	_
+4	rehe	ehe	ADP	posp	Rel=Cont	3	case	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1192
+# text = werupuze awa tapiʔir iakag ɨwɨ rehe aʔe
+# text_eng = The man dragged himself on the ground with the tapir’s head (Campos & Quesler, 2021)
+# text_port = O homem se arrastou no chão com a cabeça da tapir
+# text_spa = El hombre se arrastró en el suelo con la cabeza del tapir
+# V S O PP P
+1	werupuze	puze	VERB	vt	Person[subj]=3|Voice=Com	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	tapiʔir	tapiʔir	NOUN	n	_	3	nmod	_	_
+4	iakag	akag	NOUN	n	Rel=NCont	1	obj	_	_
+5	ɨwɨ	ɨwɨ	NOUN	n	_	1	obl	_	_
+6	rehe	ehe	ADP	posp	Rel=Cont	5	case	_	_
+7	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1193
+# text = uzakagerupuze awa tapiʔir ɨwɨ rehe aʔe
+# text_eng = The man dragged himself on the ground with the tapir’s head (Campos & Quesler, 2021)
+# text_port = O homem se arrastou no chão com a cabeça da tapir
+# text_spa = El hombre se arrastró en el suelo con la cabeza del tapir
+# V S O PP P
+1-2	uzakagerupuze	_	_	_	_	_	_	_	_
+1	uzakag	akag	NOUN	n	Person[subj]=3	2	obj	_	_
+2	erupuze	puze	VERB	vt	Voice=Com	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	tapiʔir	tapiʔir	NOUN	n	_	2	obj	_	_
+5	ɨwɨ	ɨwɨ	NOUN	n	_	2	obl	_	_
+6	rehe	ehe	ADP	posp	Rel=Cont	5	case	_	_
+7	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1194
+# text = upirik ʔɨ aʔe
+# text_eng = The water dripped (Campos & Quesler, 2021)
+# text_port = A água pingou
+# text_spa = El agua goteó
+# V S P
+1	upirik	pirik	VERB	vt	Person[subj]=3	0	root	_	_
+2	ʔɨ	ʔɨ	NOUN	n	_	1	obl:subj	_	_
+3	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1195
+# text = umupirik kuzatai ʔɨ aʔe
+# text_eng = The girl dripped the water (Campos & Quesler, 2021)
+# text_port = A garota pingou a água
+# text_spa = La niña goteó el agua
+# V S O P
+1	umupirik	pirik	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
+2	kuzatai	kuzatai	NOUN	n	_	1	obl:subj	_	_
+3	ʔɨ	ʔɨ	NOUN	n	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1196
+# text = wawak tapixi kɨhaw pupe aʔe
+# text_eng = The rabbit turned in the hammock (Campos & Quesler, 2021)
+# text_port = O coelho girou na rede
+# text_spa = El conejo entregó la hamaca
+# V S PP P
+1	wawak	awak	VERB	vt	Person[subj]=3	0	root	_	_
+2	tapixi	tapixi	NOUN	n	_	1	obl:subj	_	_
+3	kɨhaw	kɨhaw	NOUN	n	_	1	obl	_	_
+4	pupe	pupe	ADP	posp	Rel=Cont	3	case	_	_
+5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1197
+# text = umuawak awa tapixi kɨhaw pupe aʔe
+# text_eng = The man turned the rabbit in the hammock (Campos & Quesler, 2021)
+# text_port = O homem virou o coelho na rede
+# text_spa = El hombre giró al conejo en la hamaca
+# V S O PP P
+1	umuawak	awak	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	tapixi	tapixi	NOUN	n	_	1	obj	_	_
+4	kɨhaw	kɨhaw	NOUN	n	_	1	obl	_	_
+5	pupe	pupe	ADP	posp	Rel=Cont	4	case	_	_
+6	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1198
+# text = umuawak awa tapixi iakag kɨhaw pupe aʔe
+# text_eng = The man turned the rabbit’s head in the hammock (Campos & Quesler, 2021)
+# text_port = O homem virou a cabeça do coelho na rede
+# text_spa = El hombre giró la cabeza del conejo en la hamaca
+# V S O PP P
+1	umuawak	awak	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	tapixi	tapixi	NOUN	n	_	4	nmod	_	_
+4	iakag	akag	NOUN	n	Rel=NCont	1	obj	_	_
+5	kɨhaw	kɨhaw	NOUN	n	_	1	obl	_	_
+6	pupe	pupe	ADP	posp	Rel=Cont	5	case	_	_
+7	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1199
+# text = wakagmuawak awa tapixi kɨhaw pupe aʔe
+# text_eng = The man turned-head the rabbit in the hammock (Campos & Quesler, 2021)
+# text_port = O homem virou a cabeça do coelho na rede
+# text_spa = El hombre giró al conejo en la hamaca
+# V S O PP P
+1-2	wakagmuawak	_	_	_	_	_	_	_	_
+1	wakag	akag	NOUN	n	Person[subj]=3	2	obj	_	_
+2	muawak	awak	VERB	vt	Voice=Cau	0	root	_	_
+3	awa	awa	NOUN	n	_	2	obl:subj	_	_
+4	tapixi	tapixi	NOUN	n	_	2	obj	_	_
+5	kɨhaw	kɨhaw	NOUN	n	_	2	obl	_	_
+6	pupe	pupe	ADP	posp	Rel=Cont	5	case	_	_
+7	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1200
+# text = uhɨw kuza kwaharer aʔe
+# text_eng = The woman cleaned the boy (Campos & Quesler, 2021)
+# text_port = A mulher limpou o menino
+# text_spa = La mujer limpió al chico
+# V S O P
+1	uhɨw	hɨw	VERB	vt	Person[subj]=3	0	root	_	_
+2	kuza	kuza	NOUN	n	_	1	obl:subj	_	_
+3	kwaharer	kwaharer	NOUN	n	_	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1201
+# text = uzehɨw kuza aʔe
+# text_eng = The woman cleaned herself (Campos & Quesler, 2021)
+# text_port = A mulher se limpou
+# text_spa = La mujer se limpió
+# V S P
+1	uzehɨw	hɨw	VERB	vi	Person[subj]=3|Reflex=Yes	0	root	_	_
+2	kuza	kuza	NOUN	n	_	1	obl:subj	_	_
+3	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1202
+# text = uhɨw kuza upɨʔa aʔe
+# text_eng = The woman cleaned her own belly (Campos & Quesler, 2021)
+# text_port = A mulher limpou sua própria barriga
+# text_spa = La mujer limpió su propio vientre
+# V S O P
+1	uhɨw	hɨw	VERB	vt	Person[subj]=3	0	root	_	_
+2	kuza	kuza	NOUN	n	_	1	obl:subj	_	_
+3	upɨʔa	pɨʔa	NOUN	n	Rel=Corf	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1203
+# text = uzepɨʔahɨw kuza aʔe
+# text_eng = The woman her own cleaned-belly (Campos & Quesler, 2021)
+# text_port = A mulher é sua própria barata limpa
+# text_spa = La mujer su propia vientre limpia
+# V S P
+1-2	uzepɨʔahɨw	_	_	_	_	_	_	_	_
+1	uzepɨʔa	pɨʔa	NOUN	n	Person[subj]=3|Reflex=Yes	2	obj	_	_
+2	hɨw	hɨw	VERB	vt	_	0	root	_	_
+3	kuza	kuza	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
+# sent_id = 1204
+# text = umuguz kwaharer wakag aʔe
+# text_eng = The boy combed his own head (Campos & Quesler, 2021)
+# text_port = O garoto penteou sua própria cabeça
+# text_spa = El niño peinó su propia cabeza
+# V S O P
+1	umuguz	muguz	VERB	vt	Person[subj]=3	0	root	_	_
+2	kwaharer	kwaharer	NOUN	n	_	1	obl:subj	_	_
+3	wakag	akag	NOUN	n	Rel=Corf	1	obj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
+
+# sent_id = 1205
+# text = uzeakamuguz kwaharer aʔe
+# text_eng = The boy his own combed-hea (Campos & Quesler, 2021)
+# text_port = O menino sua própria cabeça penteada
+# text_spa = El chico su propia cabeza peina
+# V S P
+1-2	uzeakamuguz	_	_	_	_	_	_	_	_
+1	uzeaka	akag	NOUN	n	Person[subj]=3|Reflex=Yes	2	obj	_	_
+2	muguz	muguz	VERB	vt	_	0	root	_	_
+3	kwaharer	kwaharer	NOUN	n	_	2	obl:subj	_	_
+4	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+
