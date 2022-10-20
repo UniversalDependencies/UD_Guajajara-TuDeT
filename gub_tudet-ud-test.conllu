@@ -17073,8 +17073,8 @@
 # text_spa = El hombre se comió mucho
 # V S P
 1	umaiʔuteteaʔu	ʔu	VERB	vt	Emph=Yes|Person[subj]=3|Voice=Antip	0	root	_	_
-2	awa	awa	NOUN	n	_	2	obl:subj	_	_
-3	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
+2	awa	awa	NOUN	n	_	1	obl:subj	_	_
+3	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
 
 # sent_id = 1154
 # text = opoz awa pira aʔe
