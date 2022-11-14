@@ -29,7 +29,7 @@ It is part of [TuLaR](https://tular.clld.org), Tupían Language Resources. Sente
 
 * Campos Castro, Ricardo and Carvalho Guajajara, Pedro (2020). Izipi mehe: cibercaminhos linguísticos e literários para a preservação da cultura Tenetehára. Revista Brasileira de Linguística Antropológica, 12(1).
  
-* Campos Castro, Ricardo and Fagundes Camargos, Quesler (2021). The syntactic status of noun incorporation in the Tenetehára language (Tupí-Guaraní family). Revista Brasileira de Linguística Antropológica, 13, pp. 299-325. DOI: 10.26512/rbla.v13i01.38034
+* Castro, R. C. de, & Camargos, Q. F. (2021). The syntactic status of noun incorporation in the Tenetehára language (Tupí-Guaraní family). Revista Brasileira De Linguística Antropológica, 13(01), 299–325. https://doi.org/10.26512/rbla.v13i01.38034
 
 
 # Acknowledgments
