@@ -82,7 +82,7 @@
 # text_eng = She inserted a thread of hair through the eye of the needle 
 # V ADV O PP
 1	Umuixekar	ixe	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
-2	inemuʔi	inemu	NOUN	n	Dimin=Yes	1	obj	_	_
+2	inemuʔi	inemu	NOUN	n	Degree=Dim	1	obj	_	_
 3-4	aguzapɨgwar	_	_	_	_	_	_	_	_
 3	aguz	aguz	NOUN	n	_	1	obl	_	_
 4	apɨgwar	apɨha	NOUN	n	Nomzr=Circ	3	nmod	_	_
@@ -215,7 +215,7 @@
 # text_spa = Es muy pequeño 
 # text_eng = It's very small 
 # P
-1	Pixikaʔi	pixik	NOUN	n	Dimin=Yes|Rel=Cont	0	root	_	_
+1	Pixikaʔi	pixik	NOUN	n	Degree=Dim|Rel=Cont	0	root	_	_
 2	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 
 # sent_id = 21
@@ -341,7 +341,7 @@
 # V S O AUX 
 1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_	_
 2	arapapa	arapapa	NOUN	n	_	1	obl:subj	_	_
-3	ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	1	obj	_	_
+3	ipiraʔi	pira	NOUN	n	Degree=Dim|Rel=NCont	1	obj	_	_
 4	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 
@@ -353,7 +353,7 @@
 # V O PP
 1	Ezapo	apo	VERB	vt	Mood=Imp|Number=Sing|Person[subj]=2	0	root	_	_
 2	arapuk	arapuk	NOUN	n	_	1	obj	_	_
-3	wiramiripe	wira	NOUN	n	Case=Dat|Dimin=Yes	1	obl	_	_
+3	wiramiripe	wira	NOUN	n	Case=Dat|Degree=Dim	1	obl	_	_
 4	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	_	_
 
 # sent_id = 32
@@ -610,7 +610,7 @@
 # V S O AUX
 1	Uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_	_
 2	arapapa	arapapa	NOUN	n	_	1	obl:subj	_	_
-3	ipiraʔi	ipira	NOUN	n	Dimin=Yes	1	obj	_	_
+3	ipiraʔi	ipira	NOUN	n	Degree=Dim	1	obj	_	_
 4	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
@@ -624,7 +624,7 @@
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	ʔɨ	ʔɨ	NOUN	n	_	1	obl	_	_
 3	pupe	pupe	ADP	posp	Rel=Cont	2	case	_	_
-4	ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	5	obl	_	_
+4	ipiraʔi	pira	NOUN	n	Degree=Dim|Rel=NCont	5	obl	_	_
 5	pɨhɨkpa	pɨhɨk	VERB	vt	VerbForm=Ger	1	advcl	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -652,7 +652,7 @@
 # V S O
 1	Upɨhɨk	pɨhɨk	VERB	vt	Person[subj]=3	0	root	_	_
 2	arapapa	arapapa	NOUN	n	_	1	obl:subj	_	_
-3	ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	1	obj	_	_
+3	ipiraʔi	pira	NOUN	n	Degree=Dim|Rel=NCont	1	obj	_	_
 4	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -675,7 +675,7 @@
 1-2	Hetekatu	_	_	_	_	_	_	_	_
 1	Hete	ete	NOUN	n	Rel=NCont	0	root	_	_
 2	katu	katu	NOUN	n	Rel=Cont	1	nmod	_	_
-3	ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	1	obl:subj	_	_
+3	ipiraʔi	pira	NOUN	n	Degree=Dim|Rel=NCont	1	obl:subj	_	_
 4	arapapape	arapapa	NOUN	n	Case=Dat	1	obl	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -698,7 +698,7 @@
 # text_eng = There are many small fishes also in the lake 
 # P S PP
 1	Hetateteaʔu	eta	NOUN	n	Emph=Yes|Rel=NCont	0	root	_	_
-2	ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	1	nmod	_	_
+2	ipiraʔi	pira	NOUN	n	Degree=Dim|Rel=NCont	1	nmod	_	_
 3-4	ɨrɨhupe	_	_	_	_	_	_	_	_
 3	ɨrɨ	ɨrɨk	NOUN	n	_	1	obl	_	_
 4	hupe	uhu	NOUN	n	Case=Loc|Rel=Cont	3	nmod	_	_
@@ -741,7 +741,7 @@
 # text_spa = A la saracura le gusta comer peces 
 # text_eng = The slaty-breasted wood rail likes eating little fishes .
 # S V PP O
-1	Ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	2	obl:subj	_	_
+1	Ipiraʔi	pira	NOUN	n	Degree=Dim|Rel=NCont	2	obl:subj	_	_
 2	ikatu	katu	NOUN	n	Rel=NCont	0	root	_	_
 3	arakurpe	arakur	NOUN	n	Case=Dat	2	obl	_	_
 4	iʔu	ʔu	NOUN	n	Rel=NCont	2	obl	_	_
@@ -1106,7 +1106,7 @@
 # text_spa = Es un bebé 
 # text_eng = It is a baby 
 # O S
-1	Imemɨraʔi	memɨr	NOUN	n	Dimin=Yes|Rel=NCont	0	root	_	_
+1	Imemɨraʔi	memɨr	NOUN	n	Degree=Dim|Rel=NCont	0	root	_	_
 2	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -1287,7 +1287,7 @@
 4	no	no	PART	pcl	_	1	discourse	_	_
 5	,	,	PUNCT	punct	_	7	punct	_	_
 6	Mari	Mari	PROPN	pn	_	7	nmod	_	_
-7	memɨraʔi	memɨr	NOUN	n	Dimin=Yes|Rel=Cont	2	appos	_	_
+7	memɨraʔi	memɨr	NOUN	n	Degree=Dim|Rel=Cont	2	appos	_	_
 8	aʔe	aʔe	PRON	pro	PronType=Dem	7	discourse	_	_
 9	no	no	PART	pcl	_	7	discourse	_	_
 10	,	,	PUNCT	punct	_	7	punct	_	_
@@ -1404,7 +1404,7 @@
 # V S
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	Mari	Mari	PROPN	pn	_	3	nmod	_	_
-3	memɨraʔi	memɨr	NOUN	n	Dimin=Yes|Rel=Cont	1	obl:subj	_	_
+3	memɨraʔi	memɨr	NOUN	n	Degree=Dim|Rel=Cont	1	obl:subj	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 5	no	no	PART	pcl	_	1	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1761,7 +1761,7 @@
 # text_spa = De repente unos guacamayos volaron sobre los dos hombres.
 # text_eng = Suddenly some macaws flew over the two men.
 # ADV V S PP
-1	Taritɨkaʔi	taritɨk	ADV	adv	Dimin=Yes	2	advmod	_	_
+1	Taritɨkaʔi	taritɨk	ADV	adv	Degree=Dim	2	advmod	_	_
 2	uwewe	wewe	VERB	v	Person[subj]=3	0	root	_	_
 3	arar	arar	NOUN	n	_	2	obl:subj	_	_
 4	awa	awa	NOUN	n	_	2	obl	_	_
@@ -1857,7 +1857,7 @@
 # text_spa = Era casi de noche.
 # text_eng = It was almost night.
 # S
-1	Karuketeaʔi	karuk	NOUN	n	Dimin=Yes	0	root	_	_
+1	Karuketeaʔi	karuk	NOUN	n	Degree=Dim	0	root	_	_
 2	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -2018,7 +2018,7 @@
 # text_spa = De repente el guazuncho se marchó.
 # text_eng = Suddenly the brocket deer left.
 # ADV V S PP
-1	Taritɨkaʔi	taritɨk	ADV	adv	Dimin=Yes	2	advmod	_	_
+1	Taritɨkaʔi	taritɨk	ADV	adv	Degree=Dim	2	advmod	_	_
 2	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 3	mahaw	mahaw	NOUN	n	_	2	obl:subj	_	_
 4	aʔewi	aʔe	PRON	pro	Case=Abl|PronType=Dem	2	obl	_	_
@@ -2623,7 +2623,7 @@
 # text_spa = Fueron a matar pájaros.
 # text_en = They went to kill birds.
 # S V AUX
-1	Wiramiri	wira	NOUN	n	Dimin=Yes	2	obl:subj	_	_
+1	Wiramiri	wira	NOUN	n	Degree=Dim	2	obl:subj	_	_
 2	uzuka	zuka	VERB	vt	Person[subj]=3	0	root	_	_
 3	oho	ho	AUX	aux	Person[subj]=3	2	aux	_	_
 4	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
@@ -2651,7 +2651,7 @@
 # text_en = Were a little far from each other.
 # S PP
 1	Muite	muite	NOUN	n	Foreign=Yes	0	root	_	_
-2	werotaʔi	werot	NOUN	n	Dimin=Yes	1	nmod	_	_
+2	werotaʔi	werot	NOUN	n	Degree=Dim	1	nmod	_	_
 3	izuwi	zuwi	ADP	posp	Case=Loc|Rel=NCont	1	obl	_	_
 4	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
@@ -2665,8 +2665,8 @@
 1	Amo	amo	DET	dem	PronType=Ind	2	det	_	_
 2	itukaz	tukaz	NOUN	n	Rel=NCont	4	obl	_	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	_	_
-4	napɨtaʔikwaw	pɨta	NUM	num	Dimin=Yes|Polarity=Neg	0	root	_	_
-5	wiramiri	wira	NOUN	n	Dimin=Yes	4	obl:subj	_	_
+4	napɨtaʔikwaw	pɨta	NUM	num	Degree=Dim|Polarity=Neg	0	root	_	_
+5	wiramiri	wira	NOUN	n	Degree=Dim	4	obl:subj	_	_
 6	aʔe	aʔe	PRON	pro	PronType=Dem	4	discourse	_	_
 7	wa	wa	PART	pcl	Number=Plur	4	discourse	_	_
 8	.	.	PUNCT	punct	_	4	punct	_	_
@@ -2683,7 +2683,7 @@
 3-4	uzukakateteaʔu	_	_	_	_	_	_	_	_
 3	uzuka	zuka	VERB	vt	Person[subj]=3	0	root	_	_
 4	kateteaʔu	katu	NOUN	n	Emph=Yes	3	obl	_	_
-5	wiramiri	wira	NOUN	n	Dimin=Yes	3	obj	_	_
+5	wiramiri	wira	NOUN	n	Degree=Dim	3	obj	_	_
 6	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	3	obl	_	_
 7	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -2697,7 +2697,7 @@
 2	tukaz	ukaz	NOUN	n	Rel=Abs	4	obl	_	_
 3	rehe	ehe	ADP	posp	Rel=Cont	2	case	_	_
 4	nahetatetekwaw	eta	NOUN	n	Emph=Yes|Polarity=Neg|Rel=NCont	0	root	_	_
-5	wiramiri	wira	NOUN	n	Dimin=Yes	4	nmod	_	_
+5	wiramiri	wira	NOUN	n	Degree=Dim	4	nmod	_	_
 6	izupe	zupe	ADP	posp	Case=Dat|Rel=NCont	4	iobj	_	_
 7	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	4	obl	_	_
 8	.	.	PUNCT	punct	_	4	punct	_	_
@@ -2760,7 +2760,7 @@
 1-2	Nahetakatukwaw	_	_	_	_	_	_	_	_
 1	Naheta	eta	NOUN	n	Polarity=Neg|Rel=NCont	7	ccomp	_	_
 2	katukwaw	katu	NOUN	n	Polarity=Neg|Rel=NCont	1	nmod	_	_
-3	wiramiri	wira	NOUN	n	Dimin=Yes	1	nmod	_	_
+3	wiramiri	wira	NOUN	n	Degree=Dim	1	nmod	_	_
 4	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	1	obl	_	_
 5	ihe	ihe	PRON	pro	Person=1|PronType=Prs	1	discourse	_	_
 6	tɨ	tɨ	PART	pcl	Speech=MM	1	discourse	_	_
@@ -2815,7 +2815,7 @@
 4	ihewe	we	ADP	posp	Rel=Cont	3	obl	_	_
 5	tɨ	tɨ	PART	pcl	Speech=MM	3	discourse	_	_
 6	tazukakutu	zuka	VERB	vt	Deo=Yes|Mood=Prp|Person[subj]=1	3	conj	_	_
-7	wiramiri	wira	NOUN	n	Dimin=Yes	6	obj	_	_
+7	wiramiri	wira	NOUN	n	Degree=Dim	6	obj	_	_
 8	hemaʔe	maʔe	PRON	pro	Number=Sing|Person[psor]=1|Poss=Yes|Rel=Cont	9	nmod	_	_
 9	izapopɨram	zapo	NOUN	n	Nomzr=Pas|Rel=NCont|Tense=Fut	6	obl	_	_
 10	rehe	ehe	ADP	posp	Rel=Cont	9	case	_	_
@@ -3000,7 +3000,7 @@
 # text_en = So, he (the younger brother) began to kill the birds.
 # V PP
 1	Uzepɨrog	pɨrog	VERB	v	Person[subj]=3|Reflex=Yes	0	root	_	_
-2	wiramiri	wira	NOUN	n	Dimin=Yes	3	nmod	_	_
+2	wiramiri	wira	NOUN	n	Degree=Dim	3	nmod	_	_
 3	wazukahaw	zuka	NOUN	n	Nomzr=Circ|Number=Plur|Person[psor]=3	1	obl	_	_
 4	rehe	ehe	ADP	posp	Rel=Cont	3	case	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
@@ -3153,7 +3153,7 @@
 7	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	8	advmod	_	_
 8	umukuhem	kuhem	VERB	v	Person[subj]=3|Voice=Cau	1	advcl	_	_
 9	paw	paw	DET	det	PronType=Tot	10	det	_	_
-10	wiramiri	wira	NOUN	n	Dimin=Yes	8	obl	_	_
+10	wiramiri	wira	NOUN	n	Degree=Dim	8	obl	_	_
 11	uzuwi	zuwi	ADP	posp	Rel=Corf	10	case	_	_
 12	xe	xe	PART	pcl	Speech=MM	8	discourse	_	_
 13	.	.	PUNCT	punct	_	8	punct	_	_
@@ -3304,7 +3304,7 @@
 # text_en = Did Maira arrive? He (the older brother) asked his sister-in-law
 # [O [V S PART]] V PP
 1	Uhem	hem	VERB	vi	Person[subj]=3	5	ccomp	_	_
-2	Mairaʔi	Mair	PROPN	pn	Dimin=Yes	1	obl:subj	_	_
+2	Mairaʔi	Mair	PROPN	pn	Degree=Dim	1	obl:subj	_	_
 3	uzuraʔa	zuraʔa	PART	pcl	Rel=Corf	1	discourse	_	_
 4	?	?	PUNCT	punct	_	1	punct	_	_
 5	iʔi	ʔi	NOUN	n	Rel=NCont	0	root	_	_
@@ -3535,7 +3535,7 @@
 1	Aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	_	_
 2	re	re	ADP	posp	Rel=Cont	1	case	_	_
 3	uzeapo	apo	VERB	vt	Person[subj]=3|Reflex=Yes	0	root	_	_
-4	tahɨwai	ahɨw	NOUN	n	Dimin=Yes|Rel=Abs	3	obj	_	_
+4	tahɨwai	ahɨw	NOUN	n	Degree=Dim|Rel=Abs	3	obj	_	_
 5-7	xixirogaturumu	_	_	_	_	_	_	_	_
 5	xixiro	xiro	NOUN	n	Red=Mo	3	obl	_	_
 6	gatu	katu	NOUN	n	Rel=Cont	5	nmod	_	_
@@ -3546,7 +3546,7 @@
 11	uixe	ixe	VERB	v	Person[subj]=3	3	conj	_	_
 12	oho	ho	AUX	aux	Person[subj]=3	11	aux	_	_
 13	aʔe	aʔe	DET	dem	PronType=Dem	15	det	_	_
-14	tahɨwai	ahɨw	NOUN	n	Dimin=Yes|Rel=Abs	15	nmod	_	_
+14	tahɨwai	ahɨw	NOUN	n	Degree=Dim|Rel=Abs	15	nmod	_	_
 15	ikwaw	kwaw	NOUN	n	Rel=NCont	11	obl	_	_
 16	rupi	upi	ADP	posp	Rel=Cont	15	case	_	_
 17	kurɨ	kurɨ	PART	pcl	_	11	discourse	_	_
@@ -3614,7 +3614,7 @@
 5	paw	paw	PRON	pro	PronType=Tot	8	nmod	_	_
 6	katu	katu	NOUN	n	Rel=Cont	5	nmod	_	_
 7	aʔe	aʔe	DET	dem	PronType=Dem	8	det	_	_
-8	zemaraʔitaw	zemaraz	NOUN	n	Dimin=Yes|Nomzr=Circ	4	obj	_	_
+8	zemaraʔitaw	zemaraz	NOUN	n	Degree=Dim|Nomzr=Circ	4	obj	_	_
 9	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	4	aux	_	_
 10	aʔepe	aʔe	PRON	pro	Case=Loc|PronType=Dem	4	obl	_	_
 11	.	.	PUNCT	punct	_	4	punct	_	_
@@ -4076,7 +4076,7 @@
 # text_en = The younger brother, Maira, not knowing anything about what had happened, returned to his (own) village.
 # S V ADV O - V AUX PP
 1	Tɨwɨr	ɨwɨr	NOUN	n	Rel=Abs	4	obl:subj	_	_
-2	Mairaʔi	Mair	PROPN	pn	Dimin=Yes	1	flat	_	_
+2	Mairaʔi	Mair	PROPN	pn	Degree=Dim	1	flat	_	_
 3	,	,	PUNCT	punct	_	1	punct	_	_
 4	nukwawkwaw	kwaw	VERB	vt	Person[subj]=3|Polarity=Neg	0	root	_	_
 5	maʔe	maʔe	PRON	pro	_	6	nmod	_	_
@@ -4128,7 +4128,7 @@
 6	,	,	PUNCT	punct	_	4	punct	_	_
 7	wahuhaw	uhu	NOUN	n	Nomzr=Circ|Number=Plur	2	list	_	_
 8	,	,	PUNCT	punct	_	7	punct	_	_
-9	kwatazgwerai	kwataz	NOUN	n	Dimin=Yes|Number=Coll	10	nmod	_	_
+9	kwatazgwerai	kwataz	NOUN	n	Degree=Dim|Number=Coll	10	nmod	_	_
 10-11	wawɨraʔohaw	_	_	_	_	_	_	_	_
 10	wawɨra	ɨra	NOUN	n	Number=Plur	2	list	_	_
 11	ʔohaw	oʔo	NOUN	n	Nomzr=Circ	10	nmod	_	_
@@ -4936,7 +4936,7 @@
 # V S PP PART - V
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	1	obl:subj	_	_
-3	huakeaʔi	uwake	ADP	posp	Dimin=Yes|Rel=NCont	1	obl	_	_
+3	huakeaʔi	uwake	ADP	posp	Degree=Dim|Rel=NCont	1	obl	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 5	uzapi	api	VERB	vi	Person[subj]=3	1	conj	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
@@ -5261,7 +5261,7 @@
 # text_en = Karita knows a little how to take care of the coati.
 # S V ADV O PART
 1	Kari	Kari	PROPN	pn	_	2	obl:subj	_	_
-2	ukwawewer	kwaw	VERB	vt	Dimin=Yes|Person[subj]=3	0	root	_	_
+2	ukwawewer	kwaw	VERB	vt	Degree=Dim|Person[subj]=3	0	root	_	_
 3	kwaxi	kwaxi	NOUN	n	_	5	obl	_	_
 4	rehe	ehe	ADP	posp	Rel=Cont	3	case	_	_
 5	uzekaiw	zekaiw	NOUN	n	Rel=Corf	2	obj	_	_
@@ -5278,7 +5278,7 @@
 1	Nukwawkatukwaw	kwaw	VERB	vt	Emph=Yes|Person[subj]=3|Polarity=Neg	0	root	_	_
 2	ipoztaw	poz	NOUN	n	Nomzr=Circ|Rel=NCont	1	obj	_	_
 3	,	,	PUNCT	punct	_	1	punct	_	_
-4	ukwawewer	ukwaw	VERB	vt	Dimin=Yes|Person[subj]=3	1	parataxis	_	_
+4	ukwawewer	ukwaw	VERB	vt	Degree=Dim|Person[subj]=3	1	parataxis	_	_
 5	hemiʔu	ʔu	NOUN	n	Nomzr=DevPass|Rel=NCont	4	obj	_	_
 6	.	.	PUNCT	punct	_	4	punct	_	_
 
@@ -6293,7 +6293,7 @@
 1	Wezɨw	ezɨw	VERB	vi	Person[subj]=3	0	root	_	_
 2	aguza	aguza	NOUN	n	_	1	obl:subj	_	_
 3	wa	wa	PART	pcl	Number=Plur|Person=3	1	discourse	_	_
-4	huakeaʔi	uake	ADP	posp	Dimin=Yes|Rel=NCont	1	obl	_	_
+4	huakeaʔi	uake	ADP	posp	Degree=Dim|Rel=NCont	1	obl	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 6	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 7	,	,	PUNCT	punct	_	1	punct	_	_
@@ -8430,7 +8430,7 @@
 2	nuikokwaw	iko	VERB	vi	Person[subj]=3|Polarity=Neg	0	root	_	_
 3-4	aʔezutɨkaʔe	_	_	_	_	_	_	_	_
 3	aʔe	aʔe	PRON	pro	PronType=Dem	2	obl	_	_
-4	zutɨkaʔe	zutɨk	NOUN	n	Dimin=Yes	3	nmod	_	_
+4	zutɨkaʔe	zutɨk	NOUN	n	Degree=Dim	3	nmod	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 6	xe	xe	PART	pcl	Speech=MM	2	discourse	_	_
 7	.	.	PUNCT	punct	_	2	punct	_	_
@@ -8699,7 +8699,7 @@
 # text_eng = And they're walking around eating.
 # S V AUX [ADV [V]] PART
 1	Aʔeʔi	aʔe	PRON	pro	Case=Ref|PronType=Dem	2	obl:subj	_	_
-2	ohoaʔi	ho	VERB	vi	Dimin=Yes|Person[subj]=3	0	root	_	_
+2	ohoaʔi	ho	VERB	vi	Degree=Dim|Person[subj]=3	0	root	_	_
 3	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	2	aux	_	_
 4	umaiʔuaʔipa	ʔu	VERB	vt	Detrans=Ind|Emph=Yes|Person[subj]=3|VerbForm=Ger	2	advcl	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
@@ -9150,7 +9150,7 @@
 3	wata	ata	VERB	vi	Person[subj]=3	0	root	_	_
 4-5	aʔezutɨkaʔi	_	_	_	_	_	_	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	3	obl	_	_
-5	zutɨkaʔi	zutɨk	NOUN	n	Dimin=Yes	4	nmod	_	_
+5	zutɨkaʔi	zutɨk	NOUN	n	Degree=Dim	4	nmod	_	_
 6	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
 7	.	.	PUNCT	punct	_	3	punct	_	_
 
@@ -9575,7 +9575,7 @@
 3	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 4	waiko	iko	AUX	aux	Aspect=Prog|Number=Plur|Person[subj]=3	3	aux	_	_
 5	uhɨ	hɨ	NOUN	n	Rel=Corf	3	obl	_	_
-6	rupiaʔi	upi	ADP	posp	Dimin=Yes|Rel=Cont	5	case	_	_
+6	rupiaʔi	upi	ADP	posp	Degree=Dim|Rel=Cont	5	case	_	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
 8	wa	wa	PART	pcl	Number=Plur	3	discourse	_	_
 9	kurɨ	kurɨ	PART	pcl	_	3	discourse	_	_
@@ -11251,7 +11251,7 @@
 # PP V S
 1	Ipekwer	pe	NOUN	n	Rel=NCont|Tense=Past	2	obl	_	_
 2	heta	eta	NOUN	n	Rel=NCont	0	root	_	_
-3	iʔakaʔi	ʔak	NOUN	n	Dimin=Yes|Rel=NCont	4	nmod	_	_
+3	iʔakaʔi	ʔak	NOUN	n	Degree=Dim|Rel=NCont	4	nmod	_	_
 4	ikupe	kupe	NOUN	n	Rel=NCont	5	nmod	_	_
 5	ixi	xi	NOUN	n	Rel=NCont	2	nmod	_	_
 6	.	.	PUNCT	punct	_	2	punct	_	_
@@ -11264,7 +11264,7 @@
 # S V PP
 1	Mukaz	mukaz	NOUN	n	_	3	obl:subj	_	_
 2	pira	pira	NOUN	n	_	1	flat	_	_
-3	pixikaʔimaʔe	pixik	NOUN	n	Dimin=Yes|Nomzr=Abs	0	root	_	_
+3	pixikaʔimaʔe	pixik	NOUN	n	Degree=Dim|Nomzr=Abs	0	root	_	_
 4	,	,	PUNCT	punct	_	3	punct	_	_
 5	tamata	tamata	NOUN	n	_	3	obl	_	_
 6	ai	ai	ADP	posp	_	5	case	_	_
@@ -12918,7 +12918,7 @@
 # text_eng = They know how to live.
 # V O PART
 1	Ukwawkatu	kwaw	VERB	vt	Emph=Yes|Person[subj]=3	0	root	_	_
-2	wikohawaʔi	iko	NOUN	n	Dimin=Yes|Nomzr=Circ|Rel=Corf	1	obj	_	_
+2	wikohawaʔi	iko	NOUN	n	Degree=Dim|Nomzr=Circ|Rel=Corf	1	obj	_	_
 3	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 4	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 5	no	no	PART	pcl	_	1	discourse	_	_
@@ -13141,7 +13141,7 @@
 1	Taʔe	taʔe	CCONJ	cc	_	2	cc	_	_
 2	upaw	paw	VERB	vi	Person[subj]=3	0	root	_	_
 3	maʔe	maʔe	PRON	pro	_	4	nmod	_	_
-4	kureraʔi	kurer	NOUN	n	Dimin=Yes|Rel=Cont	2	obl:subj	_	_
+4	kureraʔi	kurer	NOUN	n	Degree=Dim|Rel=Cont	2	obl:subj	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
 6	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
 7	kurɨ	kurɨ	PART	pcl	_	2	discourse	_	_
@@ -13171,7 +13171,7 @@
 1-2	Tueharupi	_	_	_	_	_	_	_	_
 1	Tueha	tue	NOUN	n	Nomzr=Ag	3	obl	_	_
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
-3	uʔuaʔi	ʔu	VERB	vt	Dimin=Yes|Person[subj]=3	0	root	_	_
+3	uʔuaʔi	ʔu	VERB	vt	Degree=Dim|Person[subj]=3	0	root	_	_
 4	zanu	zanu	NOUN	n	_	3	obj	_	_
 5	wa	wa	PART	pcl	Number=Plur	3	discourse	_	_
 6	no	no	PART	pcl	_	3	discourse	_	_
@@ -13207,7 +13207,7 @@
 4-6	ɨremeɨwɨraʔi	_	_	_	_	_	_	_	_
 4	ɨ	ʔɨ	NOUN	n	_	3	obl	_	_
 5	reme	ʔɨ	NOUN	n	Case=Loc|Rel=Cont	4	nmod	_	_
-6	ɨwɨraʔi	ʔɨ	NOUN	n	Case=Loc|Dimin=Yes	5	nmod	_	_
+6	ɨwɨraʔi	ʔɨ	NOUN	n	Case=Loc|Degree=Dim	5	nmod	_	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
 8	wa	wa	PART	pcl	Number=Plur	3	discourse	_	_
 9	kurɨ	kurɨ	PART	pcl	_	3	discourse	_	_
@@ -15690,7 +15690,7 @@
 # text_eng = "No, I only eat fish".
 # O PART V ADV S PART
 1	—	—	PUNCT	punct	_	2	punct	_	_
-2	Ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	4	obj	_	_
+2	Ipiraʔi	pira	NOUN	n	Degree=Dim|Rel=NCont	4	obj	_	_
 3	zo	zo	PART	pcl	_	2	discourse	_	_
 4	aʔu	ʔu	VERB	vt	Number=Sing|Person[subj]=1|Tense=Past	0	root	_	_
 5	kwez	kwez	PART	pcl	Tense=Past	4	discourse	_	_
@@ -15731,7 +15731,7 @@
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	4	advmod	_	_
 3	hoko	hoko	NOUN	n	_	4	obl:subj	_	_
 4	omomor	por	VERB	vt	Person[subj]=3|Voice=Cau	0	root	_	_
-5	ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	4	obj	_	_
+5	ipiraʔi	pira	NOUN	n	Degree=Dim|Rel=NCont	4	obj	_	_
 6	imugwawpa	kwaw	VERB	vt	Rel=NCont|VerbForm=Ger|Voice=Cau	4	advcl	_	_
 7	zakarepe	zakare	NOUN	n	Case=Dat	4	obl	_	_
 8	kurɨ	kurɨ	PART	pcl	_	4	discourse	_	_
@@ -15747,7 +15747,7 @@
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	1	advmod	_	_
 3	wexakar	exak	VERB	vt	Person[subj]=3	0	root	_	_
 4	mokoz	mokoz	NUM	num	_	5	nummod	_	_
-5	ipiraʔi	pira	NOUN	n	Dimin=Yes|Rel=NCont	6	nmod	_	_
+5	ipiraʔi	pira	NOUN	n	Degree=Dim|Rel=NCont	6	nmod	_	_
 6	wemimokoner	mokon	NOUN	n	Nomzr=DevPass|Rel=Corf|Tense=Past	3	obj	_	_
 7	zakarepe	zakare	NOUN	n	Case=Dat	3	obl	_	_
 8	aʔe	aʔe	PRON	pro	PronType=Dem	3	discourse	_	_
@@ -16577,7 +16577,7 @@
 1	Taʔe	taʔe	CCONJ	cc	_	4	cc	_	_
 2	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	3	advmod	_	_
 3	wɨramiri	wɨramiri	NOUN	n	_	4	obl:subj	_	_
-4	makarapɨaʔiae	makarapɨ	NOUN	n	Dimin=Yes|Emph=Yes	0	root	_	_
+4	makarapɨaʔiae	makarapɨ	NOUN	n	Degree=Dim|Emph=Yes	0	root	_	_
 5	raʔe	raʔe	PART	pcl	Tense=Past	4	discourse	_	_
 6	xe	xe	PART	pcl	Speech=MM	4	discourse	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_

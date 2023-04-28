@@ -47,9 +47,9 @@
     <feat name="Case" value="Tra" upos="ADP,NOUN">18</feat><!-- ipiaromo, apɨteromo, iruramo, Azeharomoete -->
     <feat name="Clusivity" value="Ex" upos="VERB">2</feat><!-- urezur, uruzuka -->
     <feat name="Clusivity" value="In" upos="AUX,NOUN,PRON,VERB">38</feat><!-- zane, zaha, Zanekuʔem, Zaneru, Zaixe, Zanekaruk, xiapɨz, zanekɨhaw, Nazaikokwaw, Nazanepɨtuhemkwaw -->
+    <feat name="Degree" value="Dim" upos="ADP,ADV,NOUN,NUM,PROPN,VERB">50</feat><!-- ipiraʔi, wiramiri, Mairaʔi, Taritɨkaʔi, huakeaʔi, memɨraʔi, tahɨwai, ukwawewer, Imemɨraʔi, Karuketeaʔi -->
     <feat name="Deo" value="Yes" upos="VERB">2</feat><!-- Eixekutu, tazukakutu -->
     <feat name="Detrans" value="Ind" upos="NOUN,VERB">28</feat><!-- umaiʔu, umaʔereko, imaʔuhez, maʔemumeʔuhaw, numaʔerekokwaw, Imaʔenukwaw, Naʔimaʔuhezkwaw, Naʔimaʔuhezpixikwaw, Umaʔemumeʔu, maiʔuhawpe -->
-    <feat name="Dimin" value="Yes" upos="ADP,ADV,NOUN,NUM,PROPN,VERB">50</feat><!-- ipiraʔi, wiramiri, Mairaʔi, Taritɨkaʔi, huakeaʔi, memɨraʔi, tahɨwai, ukwawewer, Imemɨraʔi, Karuketeaʔi -->
     <feat name="Emph" value="Yes" upos="ADP,ADV,DET,NOUN,PART,PRON,PROPN,VERB">222</feat><!-- tue, ikatuahɨ, hetateteaʔu, ɨwate, hurɨwete, uhuuhuaʔi, amoae, aʔeae, tuwe, Ukwawkatu -->
     <feat name="Evident" value="Fh" upos="ADV,PART">3</feat><!-- kakwez, zekwehe -->
     <feat name="Evident" value="Nfh" upos="ADV">298</feat><!-- zekaipo, zekwehe, Seze, zeiakpo, zeikaipo -->
