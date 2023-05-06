@@ -38,7 +38,7 @@
 # text_eng = I  will go to the field 
 # V PP
 1	Ahaputar	ha	VERB	vi	Person[subj]=1|Tense=Fut	0	root	_	_
-2	kope	ko	NOUN	n	Case=All	1	obl	_	_
+2	kope	ko	NOUN	n	Case=Loc	1	obl	_	_
 
 # sent_id = 5
 # text = Wiko amoae maʔe romo aʔe
@@ -190,7 +190,7 @@
 # S V PP
 1	Awakwer	awa	NOUN	n	Number=Coll	2	obl:subj	_	_
 2	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
-3	kope	ko	NOUN	n	Case=All	2	obl	_	_
+3	kope	ko	NOUN	n	Case=Loc	2	obl	_	_
 4	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 
 # sent_id = 19
@@ -291,7 +291,7 @@
 1	Amo	amo	DET	dem	PronType=Ind	2	det	_	_
 2	tuwihaw	uwihaw	NOUN	n	Rel=Abs	3	obl:subj	_	_
 3	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
-4	maiʔuhawpe	ʔu	NOUN	n	Case=All|Detrans=Ind|Nomzr=Circ	3	obl	_	_
+4	maiʔuhawpe	ʔu	NOUN	n	Case=Loc|Detrans=Ind|Nomzr=Circ	3	obl	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
 6	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
 7	no	no	PART	pcl	_	3	discourse	_	_
@@ -365,7 +365,7 @@
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	_	_
 3	ihɨ	hɨ	NOUN	n	Rel=NCont	1	obl:subj	_	_
-4	kope	ko	NOUN	n	Case=All	1	obl	_	_
+4	kope	ko	NOUN	n	Case=Loc	1	obl	_	_
 5	kara	kara	NOUN	n	_	1	obl	_	_
 6	ipiaromo	piar	ADP	posp	Case=Tra|Rel=NCont	1	case	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
@@ -379,7 +379,7 @@
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	_	_
 3	ihɨ	hɨ	NOUN	n	Rel=NCont	1	obl:subj	_	_
-4	kope	ko	NOUN	n	Case=All	1	obl	_	_
+4	kope	ko	NOUN	n	Case=Loc	1	obl	_	_
 5	kaʔa	kaʔa	NOUN	n	_	1	obl	_	_
 6	rupi	upi	ADP	posp	Rel=Cont	5	case	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
@@ -566,7 +566,7 @@
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
 3	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 4	arapapa	arapapa	NOUN	n	_	3	obl:subj	_	_
-5	ʔɨpe	ʔɨ	NOUN	n	Case=All	3	obl	_	_
+5	ʔɨpe	ʔɨ	NOUN	n	Case=Loc	3	obl	_	_
 6	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id = 49
@@ -639,9 +639,9 @@
 2	rupi	upi	ADP	posp	Rel=Cont	1	case	_	_
 3	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 4	arapapa	arapapa	NOUN	n	_	3	obl:subj	_	_
-5	ʔɨpe	ʔɨ	NOUN	n	Case=All	3	obl	_	_
+5	ʔɨpe	ʔɨ	NOUN	n	Case=Loc	3	obl	_	_
 6	,	,	PUNCT	punct	_	7	punct	_	_
-7	ɨrɨhupe	ɨrɨk	NOUN	n	Case=All|Nomzr=DevPass	5	appos	_	_
+7	ɨrɨhupe	ɨrɨk	NOUN	n	Case=Loc|Nomzr=DevPass	5	appos	_	_
 8	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id = 55
@@ -875,7 +875,7 @@
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	hoko	hoko	NOUN	n	_	1	obl:subj	_	_
 3	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	1	aux	_	_
-4	ɨrɨhupe	ɨrɨk	NOUN	n	Case=All|Nomzr=DevPass	1	obl	_	_
+4	ɨrɨhupe	ɨrɨk	NOUN	n	Case=Loc|Nomzr=DevPass	1	obl	_	_
 5	ipira	pira	NOUN	n	Rel=NCont	6	obj	_	_
 6	pɨhɨkpa	pɨhɨk	VERB	vt	VerbForm=Ger	1	advcl	_	_
 7	.	.	PUNCT	punct	_	1	punct	_	_
@@ -997,7 +997,7 @@
 # V ADV S PP PP
 1	Ohoputar	ho	VERB	vi	Person[subj]=3|Tense=Fut	0	root	_	_
 2	Mari	Mari	PROPN	pn	_	1	obl:subj	_	_
-3	ʔɨpe	ʔɨ	NOUN	n	Case=All	1	obl	_	_
+3	ʔɨpe	ʔɨ	NOUN	n	Case=Loc	1	obl	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 6	,	,	PUNCT	punct	_	1	punct	_	_
@@ -1256,7 +1256,7 @@
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	_	_
 3	hemireko	iko	NOUN	n	Nomzr=DevPass|Rel=NCont	1	obl:subj	_	_
 4	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
-5	ʔɨpe	ʔɨ	NOUN	n	Case=All	1	obl	_	_
+5	ʔɨpe	ʔɨ	NOUN	n	Case=Loc	1	obl	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 102
@@ -1305,7 +1305,7 @@
 # V S PP
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	hoko	hoko	NOUN	n	_	1	obl:subj	_	_
-3	kaʔape	kaʔa	NOUN	n	Case=All	1	obl	_	_
+3	kaʔape	kaʔa	NOUN	n	Case=Loc	1	obl	_	_
 4	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -1318,7 +1318,7 @@
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	akara	akara	NOUN	n	_	1	obl	_	_
 3	amo	amo	DET	dem	PronType=Ind	4	det	_	_
-4	ʔɨpe	ʔɨ	NOUN	n	Case=All	1	obl	_	_
+4	ʔɨpe	ʔɨ	NOUN	n	Case=Loc	1	obl	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 107
@@ -1366,7 +1366,7 @@
 # S V PP
 1	Mo	mo	PRON	pro	PronType=Int	2	obl:subj	_	_
 2	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
-3	ɨrɨhupe	ɨrɨk	NOUN	n	Case=All|Nomzr=DevPass	2	obl	_	_
+3	ɨrɨhupe	ɨrɨk	NOUN	n	Case=Loc|Nomzr=DevPass	2	obl	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id = 111
@@ -1378,7 +1378,7 @@
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	3	nmod	_	_
 3	hemireko	eko	NOUN	n	Rel=NCont	1	obl:subj	_	_
-4	ɨrɨhupe	ɨrɨk	NOUN	n	Case=All|Nomzr=DevPass	1	obl	_	_
+4	ɨrɨhupe	ɨrɨk	NOUN	n	Case=Loc|Nomzr=DevPass	1	obl	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 112
@@ -1415,7 +1415,7 @@
 # text_spa = ¿A dónde ha ido el avetorillo?
 # text_eng = Where did the little bittern go?
 # PP V S
-1	Maʔepe	maʔe	PRON	pro	Case=All|PronType=Int	2	obl	_	_
+1	Maʔepe	maʔe	PRON	pro	Case=Loc|PronType=Int	2	obl	_	_
 2	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 3	hoko	hoko	NOUN	n	_	2	obl:subj	_	_
 4	.	.	PUNCT	punct	_	2	punct	_	_
@@ -1428,7 +1428,7 @@
 # V S PP
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	hoko	hoko	NOUN	n	_	1	obl:subj	_	_
-3	kaʔape	kaʔa	NOUN	n	Case=All	1	obl	_	_
+3	kaʔape	kaʔa	NOUN	n	Case=Loc	1	obl	_	_
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 116
@@ -1437,7 +1437,7 @@
 # text_spa = ¿A dónde ha ido la esposa de José?
 # text_eng = Where did Jose's wife go?
 # PP V S
-1	Maʔepe	maʔe	PRON	pro	Case=All|PronType=Int	2	obl	_	_
+1	Maʔepe	maʔe	PRON	pro	Case=Loc|PronType=Int	2	obl	_	_
 2	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 3	Zuze	Zuze	PROPN	pn	_	4	nmod	_	_
 4	hemireko	eko	NOUN	n	Rel=NCont	2	obl:subj	_	_
@@ -1450,7 +1450,7 @@
 # text_eng = She went to the lake.
 # V PP
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
-2	ɨrɨhupe	ɨrɨk	NOUN	n	Case=All|Nomzr=DevPass	1	obl	_	_
+2	ɨrɨhupe	ɨrɨk	NOUN	n	Case=Loc|Nomzr=DevPass	1	obl	_	_
 3	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 118
@@ -1594,7 +1594,7 @@
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	awa	awa	NOUN	n	_	1	obl:subj	_	_
 3	Zuze	Zuze	PROPN	pn	_	4	nmod	_	_
-4	kope	ko	NOUN	n	Case=All|Rel=NCont	1	obl	_	_
+4	kope	ko	NOUN	n	Case=Loc|Rel=NCont	1	obl	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id = 130
@@ -1612,7 +1612,7 @@
 7	aʔe	aʔe	PRON	pro	PronType=Dem	6	discourse	_	_
 8	,	,	PUNCT	punct	_	6	punct	_	_
 9	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
-10	kope	ko	NOUN	n	Case=All	9	obl	_	_
+10	kope	ko	NOUN	n	Case=Loc	9	obl	_	_
 11	amo	amo	DET	dem	PronType=Ind	12	det	_	_
 12	maʔe	maʔe	PRON	pro	_	9	obl	_	_
 13	ipiaromo	piar	ADP	posp	Case=Tra|Rel=NCont	12	nmod	_	_
@@ -1739,7 +1739,7 @@
 1	Uhem	hem	VERB	vi	Person[subj]=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	1	obl:subj	_	_
 3	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
-4	kope	ko	NOUN	n	Case=All	1	obl	_	_
+4	kope	ko	NOUN	n	Case=Loc	1	obl	_	_
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -1778,7 +1778,7 @@
 # V PP
 1	Uwewe	wewe	VERB	v	Person[subj]=3	0	root	_	_
 2	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
-3	kaʔape	kaʔa	NOUN	n	Case=All	1	obl	_	_
+3	kaʔape	kaʔa	NOUN	n	Case=Loc	1	obl	_	_
 4	wa	wa	PART	pcl	Number=Plur	1	discourse	_	_
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 6	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1869,7 +1869,7 @@
 # V S PP
 1	Ur	zur	VERB	vi	Person[subj]=3	0	root	_	_
 2	mahaw	mahaw	NOUN	n	_	1	obl:subj	_	_
-3	kope	ko	NOUN	n	Case=All	1	obl	_	_
+3	kope	ko	NOUN	n	Case=Loc	1	obl	_	_
 4	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 5	.	.	PUNCT	punct	_	1	punct	_	_
 
@@ -1884,7 +1884,7 @@
 3	,	,	PUNCT	punct	_	1	punct	_	_
 4	ur	zur	VERB	vi	Person[subj]=3	0	root	_	_
 5	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	4	aux	_	_
-6	kope	ko	NOUN	n	Case=All	4	obl	_	_
+6	kope	ko	NOUN	n	Case=Loc	4	obl	_	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	4	discourse	_	_
 8	kurɨ	kurɨ	PART	pcl	_	4	discourse	_	_
 9	.	.	PUNCT	punct	_	4	punct	_	_
@@ -2083,7 +2083,7 @@
 # V S PP
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	1	obl:subj	_	_
-3	tawpe	taw	NOUN	n	Case=All	1	obl	_	_
+3	tawpe	taw	NOUN	n	Case=Loc	1	obl	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 5	kurɨ	kurɨ	PART	pcl	_	1	discourse	_	_
 6	,	,	PUNCT	punct	_	1	punct	_	_
@@ -2116,7 +2116,7 @@
 4	,	,	PUNCT	punct	_	2	punct	_	_
 5	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 6	Zuze	Zuze	PROPN	pn	_	5	obl:subj	_	_
-7	tawpe	taw	NOUN	n	Case=All	5	obl	_	_
+7	tawpe	taw	NOUN	n	Case=Loc	5	obl	_	_
 8	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id = 168
@@ -2455,7 +2455,7 @@
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 6	,	,	PUNCT	punct	_	1	punct	_	_
 7	Zuze	Zuze	PROPN	pn	_	9	nmod	_	_
-8	rekohawpe	eko	NOUN	n	Case=All|Nomzr=Circ|Rel=Cont	1	obl	_	_
+8	rekohawpe	eko	NOUN	n	Case=Loc|Nomzr=Circ|Rel=Cont	1	obl	_	_
 9	aʔe	aʔe	PRON	pro	PronType=Dem	8	discourse	_	_
 10	.	.	PUNCT	punct	_	8	punct	_	_
 
@@ -4775,7 +4775,7 @@
 # V AUX PP PART - V PART
 1	Oʔok	ʔok	VERB	vt	Person[subj]=3	0	root	_	_
 2	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
-3	kope	ko	NOUN	n	Case=All	1	obl	_	_
+3	kope	ko	NOUN	n	Case=Loc	1	obl	_	_
 4	izuwi	zuwi	ADP	posp	Rel=NCont	1	obl	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 6	,	,	PUNCT	punct	_	1	punct	_	_
@@ -4791,7 +4791,7 @@
 # text_en = Let's go fetching yam, José told Maria.
 # [O [V PP]] V S PP
 1	Zaha	ho	VERB	vi	Clusivity=In|Number=Plur|Person[subj]=1	6	ccomp	_	_
-2	kope	ko	NOUN	n	Case=All	1	obl	_	_
+2	kope	ko	NOUN	n	Case=Loc	1	obl	_	_
 3	kara	kara	NOUN	n	_	1	obl	_	_
 4	ipiaromo	piar	ADP	posp	Case=Tra|Rel=NCont	3	case	_	_
 5	,	,	PUNCT	punct	_	1	punct	_	_
@@ -4867,7 +4867,7 @@
 # V S PP PART
 1	Oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 2	Zuze	Zuze	PROPN	pn	_	1	obl:subj	_	_
-3	kope	ko	NOUN	n	Case=All	1	obl	_	_
+3	kope	ko	NOUN	n	Case=Loc	1	obl	_	_
 4	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 5	wa	wa	PART	pcl	Number=Plur|Person=3	1	discourse	_	_
 6	no	no	PART	pcl	_	1	discourse	_	_
@@ -4996,7 +4996,7 @@
 2	taz	taz	NOUN	n	_	4	obl:subj	_	_
 3	ahu	uhu	NOUN	n	_	2	nmod	_	_
 4	uʔu	ʔu	VERB	vt	Person[subj]=3	0	root	_	_
-5	kope	ko	NOUN	n	Case=All	4	obl	_	_
+5	kope	ko	NOUN	n	Case=Loc	4	obl	_	_
 6	raʔe	raʔe	PART	pcl	Tense=Past	4	discourse	_	_
 7	.	.	PUNCT	punct	_	4	punct	_	_
 
@@ -5645,7 +5645,7 @@
 5	kurɨ	kurɨ	PART	pcl	_	2	discourse	_	_
 6	,	,	PUNCT	punct	_	2	punct	_	_
 7	ohoputar	ho	VERB	vi	Person[subj]=3|Tense=Fut	0	root	_	_
-8	tawpe	taw	NOUN	n	Case=All	7	obl	_	_
+8	tawpe	taw	NOUN	n	Case=Loc	7	obl	_	_
 9	muhag	hag	NOUN	n	Voice=Cau	7	obl	_	_
 10	ipiaromo	piar	ADP	posp	Case=Tra|Rel=NCont	9	case	_	_
 11	aʔe	aʔe	PRON	pro	PronType=Dem	7	discourse	_	_
@@ -5678,7 +5678,7 @@
 2	Zuze	Zuze	PROPN	pn	_	1	obl:subj	_	_
 3	muhag	hag	NOUN	n	Voice=Cau	1	obj	_	_
 4	oho	ho	AUX	aux	Person[subj]=3	1	aux	_	_
-5	tawpe	taw	NOUN	n	Case=All	1	obl	_	_
+5	tawpe	taw	NOUN	n	Case=Loc	1	obl	_	_
 6	aʔe	aʔe	PRON	pro	PronType=Dem	1	discourse	_	_
 7	nehe	nehe	PART	pcl	Tense=Fut	1	discourse	_	_
 
@@ -5752,7 +5752,7 @@
 2	ameʔegputar	meʔeg	VERB	vt	Number=Sing|Person[subj]=1|Tense=Fut	0	root	_	_
 3	awaxi	awaxi	NOUN	n	_	4	nmod	_	_
 4	heraha	ha	NOUN	n	Rel=NCont|Voice=Com	2	obj	_	_
-5	tawpe	taw	NOUN	n	Case=All	4	obl	_	_
+5	tawpe	taw	NOUN	n	Case=Loc	4	obl	_	_
 6	har	har	ADV	adv	Nomzr=Ag	4	advmod	_	_
 7	wanupe	upe	ADP	posp	Number=Plur|Person=3|Rel=Cont	2	obl	_	_
 8	nehe	nehe	PART	pcl	Tense=Fut	2	discourse	_	_
@@ -5825,7 +5825,7 @@
 1	Naʔe	naʔe	CCONJ	cc	_	3	cc	_	_
 2	Zuze	Zuze	PROPN	pn	_	3	obl:subj	_	_
 3	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
-4	tawpe	taw	NOUN	n	Case=All	3	obl	_	_
+4	tawpe	taw	NOUN	n	Case=Loc	3	obl	_	_
 5	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
 6	kurɨ	kurɨ	PART	pcl	_	3	discourse	_	_
 7	.	.	PUNCT	punct	_	3	punct	_	_
@@ -7681,7 +7681,7 @@
 # S V ADV O
 1	Aʔea	aʔe	PRON	pro	Case=Ref|Person=3|PronType=Dem	2	obl:subj	_	_
 2	uʔarkwez	ʔar	VERB	vt	Person[subj]=3|Tense=Past	0	root	_	_
-3	tuzukpe	tuzuk	NOUN	n	Case=All	2	obl	_	_
+3	tuzukpe	tuzuk	NOUN	n	Case=Loc	2	obl	_	_
 
 # sent_id = 550
 # text = Aʔea uurkwez hehɨ iruramo
@@ -14056,7 +14056,7 @@
 8	oho	ho	VERB	vi	Person[subj]=3	0	root	_	_
 9	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	8	advmod	_	_
 10	iko	iko	AUX	aux	Aspect=Prog|Person[subj]=3	8	aux	_	_
-11	kope	ko	NOUN	n	Case=All	8	obl	_	_
+11	kope	ko	NOUN	n	Case=Loc	8	obl	_	_
 12	wa	wa	PART	pcl	Number=Plur	8	discourse	_	_
 13	,	,	PUNCT	punct	_	8	punct	_	_
 14	umemɨr	memɨr	NOUN	n	Rel=Corf	8	obl	_	_
@@ -15284,7 +15284,7 @@
 # text_eng = "Where are you going?" Asked the socó.
 # [O [PP ADV V PART]] P ADV PP PART
 1	—	—	PUNCT	punct	_	4	punct	_	_
-2	Maʔepe	maʔe	PRON	pro	Case=All|PronType=Int	4	obl	_	_
+2	Maʔepe	maʔe	PRON	pro	Case=Loc|PronType=Int	4	obl	_	_
 3	ten	te	PART	pcl	_	2	discourse	_	_
 4	erehoputar	ho	VERB	vi	Number=Sing|Person[subj]=2|Tense=Fut	7	ccomp	_	_
 5	tɨ	tɨ	PART	pcl	Speech=MM	4	discourse	_	_
@@ -16760,7 +16760,7 @@
 9	,	,	PUNCT	punct	_	4	punct	_	_
 10	oho	ho	VERB	vi	Person[subj]=3	4	parataxis	_	_
 11	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	10	advmod	_	_
-12	kope	ko	NOUN	n	Case=All	10	obl	_	_
+12	kope	ko	NOUN	n	Case=Loc	10	obl	_	_
 13	aʔe	aʔe	PRON	pro	PronType=Dem	10	obl:subj	_	_
 14	wa	wa	PART	pcl	Number=Plur	10	discourse	_	_
 15	no	no	PART	pcl	_	10	discourse	_	_
@@ -16801,7 +16801,7 @@
 2	uhem	hem	VERB	vi	Person[subj]=3	0	root	_	_
 3	zekaipo	kwehe	ADV	adv	Evident=Nfh|Int=Yes	2	advmod	_	_
 4	oho	ho	AUX	aux	Person[subj]=3	2	aux	_	_
-5	kope	ko	NOUN	n	Case=All	2	obl	_	_
+5	kope	ko	NOUN	n	Case=Loc	2	obl	_	_
 6	aʔe	aʔe	PRON	pro	PronType=Dem	2	discourse	_	_
 7	wa	wa	PART	pcl	Number=Plur	2	discourse	_	_
 8	kurɨ	kurɨ	PART	pcl	_	2	discourse	_	_
@@ -16846,7 +16846,7 @@
 3	ihɨ	hɨ	NOUN	n	Rel=NCont	4	obl:subj	_	_
 4	uhem	hem	VERB	vi	Person[subj]=3	0	root	_	_
 5	oho	ho	AUX	aux	Person[subj]=3	4	aux	_	_
-6	kope	ko	NOUN	n	Case=All	4	obl	_	_
+6	kope	ko	NOUN	n	Case=Loc	4	obl	_	_
 7	aʔe	aʔe	PRON	pro	PronType=Dem	4	discourse	_	_
 8	no	no	PART	pcl	_	4	discourse	_	_
 9	.	.	PUNCT	punct	_	4	punct	_	_
