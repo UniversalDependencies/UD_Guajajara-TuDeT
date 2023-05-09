@@ -42,6 +42,8 @@ The development of this treebank is supported by the by European Research Counci
 
 # Changelog
 
+* 2023-05-15 v2.12
+  * Dimin=Yes changed to Degree=Dim, which is the UD-wide way of annotating diminutives.
 * 2021-05-15 v2.8
   * Initial release in Universal Dependencies.
 
