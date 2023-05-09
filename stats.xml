@@ -32,16 +32,15 @@
     <tag name="X">1</tag><!-- kuraw -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="73">
+  <feats unique="72">
     <feat name="Aspect" value="Perf" upos="NOUN">1</feat><!-- izapo -->
     <feat name="Aspect" value="Prog" upos="AUX,VERB">100</feat><!-- waiko, iko, Wikuwe, uk, iteko, ukw -->
     <feat name="Aspect" value="Prosp" upos="VERB">2</feat><!-- Amonopiʔez, uzɨwɨtutetetarɨ -->
     <feat name="Case" value="Abe" upos="NOUN">2</feat><!-- kwawparʔɨm, retanawʔɨm -->
     <feat name="Case" value="Abl" upos="NOUN,PRON">26</feat><!-- aʔewi, kaʔawi, ikupewi, tawi, uhɨwi, zumenwi, Awi, Maʔewi, okowi, pinowi -->
-    <feat name="Case" value="All" upos="NOUN,PRON">42</feat><!-- kope, tawpe, ɨrɨhupe, ʔɨpe, Maʔepe, kaʔape, maiʔuhawpe, rekohawpe, tuzukpe -->
     <feat name="Case" value="Dat" upos="ADP,NOUN,PRON,PROPN">135</feat><!-- kwarerpe, uhɨpe, zuʔipe, Maripe, Karipe, hokope, umenpe, upe, wemirekope, zakarepe -->
     <feat name="Case" value="Equ" upos="PRON">8</feat><!-- Marazawe, Marazawen -->
-    <feat name="Case" value="Loc" upos="ADP,NOUN,PRON">197</feat><!-- aʔepe, ɨpe, kaʔape, reme, ʔɨwɨr, kope, wekohawpe, tawpe, ʔɨpe, Maʔepe -->
+    <feat name="Case" value="Loc" upos="ADP,NOUN,PRON">239</feat><!-- aʔepe, kope, ɨpe, kaʔape, tawpe, ʔɨpe, reme, ɨrɨhupe, ʔɨwɨr, Maʔepe -->
     <feat name="Case" value="Ref" upos="CCONJ,PRON">4</feat><!-- Aʔea, Aʔeʔi, taʔei -->
     <feat name="Case" value="Tem" upos="NOUN,PRON">2</feat><!-- Ikuʔegwepe, aʔere -->
     <feat name="Case" value="Tra" upos="ADP,NOUN">18</feat><!-- ipiaromo, apɨteromo, iruramo, Azeharomoete -->
