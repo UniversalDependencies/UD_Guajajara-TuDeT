@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Guajajara-TuDeT:
-commit 644a02fab3a52bb7aec86295ad0a2b9ce4240749
+commit e634f6049a83f330e115e7b2241b06c036c3650f
+Merge: b57b22e 8b53aa8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 15:36:16 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'gub_tudet'
+Language code (from CoNLL-U file name) = 'gub'
+Found the following data files: gub_tudet-ud-test.conllu
 Size: counted 9160 of 9160 words (nodes).
 Size: min(0, log((N/1000)**2)) = 4.42969235737208.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,24 +23,38 @@ Features: 5496 out of 9160 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL       1081
-Udapi: found 1081 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 9160 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang gub --max-err=10 UD_Guajajara-TuDeT/gub_tudet-ud-test.conllu
-[Line 7091 Sent 508 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'mara zawe' does not have the 'ExtPos' feature
-Warnings: 1
-*** PASSED ***
-Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.32063182455595) = 0.0822132883476795
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.605405405405405) = 0.0465696465696466
-(TOTAL score=0.318295252664938) * (availability=1) * (validity=1) = 0.318295252664938
-STARS = 1.5
-UD_Guajajara-TuDeT	0.318295252664938	1.5
+[Line 30 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 51 Sent 5]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 73 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 137 Sent 13]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 204 Sent 19]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 280 Sent 25]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 759 Sent 63]: [L3 Warning obl-should-be-nmod] The parent (node [1] 'Arakur') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 830 Sent 69]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 842 Sent 70]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'maʔe') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 845 Sent 70]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 11702 Sent 822]: [L3 Syntax too-many-objects] Multiple direct objects [2, 5] ('ɨ', 'tɨ') under the predicate 'paw'.
+[Line 16172 Sent 1091]: [L3 Syntax too-many-objects] Multiple direct objects [3, 4] ('kwarer', 'mozuhu') under the predicate 'Wenuneʔoneʔo'.
+[Line 17324 Sent 1174]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('uzakag', 'miar') under the predicate 'ok'.
+[Line 17349 Sent 1176]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('uwa', 'kwaharer') under the predicate 'hez'.
+[Line 17374 Sent 1178]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('weme', 'waʔɨr') under the predicate 'kutuk'.
+[Line 17550 Sent 1193]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('uzakag', 'tapiʔir') under the predicate 'erupuze'.
+[Line 17625 Sent 1199]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('wakag', 'tapixi') under the predicate 'muawak'.
+Syntax errors: 7
+Warnings: 113
+*** FAILED *** with 7 errors
+Exit code: 1
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.32063182455595) = 0.118752527613315
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.705882352941177) = 0.0784313725490196
+(weight=0.111111111111111) * (score{udeprels}=0.605405405405405) = 0.0672672672672673
+(TOTAL score=0.455315364960466) * (availability=1) * (validity=0.01) = 0.00455315364960466
+STARS = 0
+UD_Guajajara-TuDeT	0.00455315364960466	0
