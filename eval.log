@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Guajajara-TuDeT:
-commit e634f6049a83f330e115e7b2241b06c036c3650f
-Merge: b57b22e 8b53aa8
+commit 101865737fedbff71997ef3771736baba98f8235
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:38:44 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'gub_tudet'
 Language code (from CoNLL-U file name) = 'gub'
@@ -25,27 +25,32 @@ Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang gub --max-err=10 UD_Guajajara-TuDeT/gub_tudet-ud-test.conllu
-[Line 30 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 51 Sent 5]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 73 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 137 Sent 13]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 204 Sent 19]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 280 Sent 25]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 759 Sent 63]: [L3 Warning obl-should-be-nmod] The parent (node [1] 'Arakur') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 830 Sent 69]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 842 Sent 70]: [L3 Warning obl-should-be-nmod] The parent (node [3] 'maʔe') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 845 Sent 70]: [L3 Warning pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 11702 Sent 822]: [L3 Syntax too-many-objects] Multiple direct objects [2, 5] ('ɨ', 'tɨ') under the predicate 'paw'.
-[Line 16172 Sent 1091]: [L3 Syntax too-many-objects] Multiple direct objects [3, 4] ('kwarer', 'mozuhu') under the predicate 'Wenuneʔoneʔo'.
-[Line 17324 Sent 1174]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('uzakag', 'miar') under the predicate 'ok'.
-[Line 17349 Sent 1176]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('uwa', 'kwaharer') under the predicate 'hez'.
-[Line 17374 Sent 1178]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('weme', 'waʔɨr') under the predicate 'kutuk'.
-[Line 17550 Sent 1193]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('uzakag', 'tapiʔir') under the predicate 'erupuze'.
-[Line 17625 Sent 1199]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('wakag', 'tapixi') under the predicate 'muawak'.
-Syntax errors: 7
-Warnings: 113
-*** FAILED *** with 7 errors
+[Line 30 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 51 Sent 5]: [L3 WARNING pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 73 Sent 7]: [L3 WARNING pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 137 Sent 13]: [L3 WARNING pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 204 Sent 19]: [L3 WARNING pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 280 Sent 25]: [L3 WARNING pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 759 Sent 63]: [L3 SYNTAX obl-should-be-nmod] The parent (node [1] 'Arakur') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 830 Sent 69]: [L3 WARNING pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 842 Sent 70]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'maʔe') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 845 Sent 70]: [L3 WARNING pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 858 Sent 71]: [L3 WARNING pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 902 Sent 74]: [L3 WARNING pron-det-without-prontype] The word 'maʔe' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 2714 Sent 212]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'ʔar') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3150 Sent 237]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'uzeputupɨkhaw') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3504 Sent 259]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'ar') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3681 Sent 269]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'uzeapomaʔe') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3818 Sent 278]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'heraha') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3962 Sent 286]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'iziwaziwa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3968 Sent 286]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'iziwaziwa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4102 Sent 294]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'hemixakwer') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 7091 Sent 508]: [L3 WARNING fixed-without-extpos] Fixed expression 'mara zawe' does not have the 'ExtPos' feature
+Warnings: 81
+SYNTAX errors: 39
+*** FAILED *** with 39 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
